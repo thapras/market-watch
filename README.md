@@ -2,6 +2,8 @@
 
 A personal global-markets monitor: is money supply growing, what does it cost, where is it sitting, where is it starting to move, what could move it next, and how smart money is positioned against the crowd. One static page, six questions in reading order, a twelve-month conditions ranking, a ten-week event calendar with a reviewed weekly brief, and a build plan at the bottom of the page.
 
+Live page: **https://thapras.github.io/market-watch/** from the repo **https://github.com/thapras/market-watch**, rebuilt by the nightly Action at 05:30 Bangkok.
+
 ## How it runs
 
 - `index.html` is the whole page. It reads `data/latest.json` and fills every bound element (the regime strip, the liquidity and rates tiles, the market tables, the price side of the ranking). Anything the file does not cover keeps its placeholder and is tagged **sample**; a reading older than its refresh interval is greyed and dated.
