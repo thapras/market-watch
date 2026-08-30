@@ -209,3 +209,40 @@ class Positioning(unittest.TestCase):
         self.assertEqual(vc["word"], "high")
         pr = pos.pension_rebalance(daily([100.0 + i for i in range(80)], "2026-07-01"), daily([100.0] * 80, "2026-07-01"), "2026-08-28")
         self.assertIn("sell equities", pr["word"])
+
+class RatesCharts(unittest.TestCase):
+    """v4.1: the curve and the fed funds path blocks behind the two charts of section 2."""
+
+    def test_ff_strip_symbols(self):
+        from fetch.fetch import ff_strip
+        strip_ = ff_strip(dt.date(2026, 8, 30))
+        self.assertEqual(len(strip_), 12)
+        self.assertEqual(strip_[0], ("2026-09", "ZQU26.CBT"))
+        self.assertEqual(strip_[-1], ("2027-08", "ZQQ27.CBT"))
+        self.assertEqual(ff_strip(dt.date(2026, 12, 3))[0], ("2027-01", "ZQF27.CBT"))
+
+    def test_curve_block(self):
+        from fetch import render
+        D = {}
+        for i, (lab, k) in enumerate(render.CURVE_TENORS):
+            D[k] = daily([3.0 + 0.1 * i + (0.002 * j) for j in range(300)], "2025-06-02")
+        blk = render.curve_block(D)
+        self.assertEqual(blk["tenors"], [lab for lab, _ in render.CURVE_TENORS])
+        self.assertEqual(len(blk["now"]), 7)
+        self.assertTrue(all(a is not None for a in blk["m1"]))
+        self.assertLess(blk["m1"][0], blk["now"][0])
+        self.assertIsNone(render.curve_block({"dgs2": D["dgs2"], "dgs10": D["dgs10"]}))
+
+    def test_path_block(self):
+        from fetch import render
+        strip_ = [{"ym": "2026-%02d" % m, "sym": "x", "close": 100 - (3.7 - 0.05 * m), "date": "2026-08-28"} for m in range(9, 13)]
+        strip_ += [{"ym": "2027-%02d" % m, "sym": "x", "close": 100 - (3.1 - 0.05 * m), "date": "2026-08-28"} for m in range(1, 9)]
+        D = {"ff_strip": strip_, "effr": [("2026-08-27", 3.63)], "fomc_cal": [{"start": "2026-09-15", "end": "2026-09-16", "scheduled": True}]}
+        blk = render.path_block(D)
+        self.assertEqual(blk["n"], 12)
+        self.assertEqual(blk["points"][0]["label"], "Sep 2026")
+        self.assertTrue(blk["points"][0]["fomc"])
+        self.assertFalse(blk["points"][1]["fomc"])
+        self.assertAlmostEqual(blk["points"][0]["rate"], 3.25, places=2)
+        self.assertEqual(blk["effr"], 3.63)
+        self.assertIsNone(render.path_block({"ff_strip": strip_[:3]}))

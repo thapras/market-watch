@@ -278,7 +278,7 @@ table.tbl{width:100%;border-collapse:collapse;font-size:12.5px}
 .card.tight .tbl td{padding:6px 6px}
 .card.tight .tbl th{padding:6px 6px}
 .card.tight .tbl .name{white-space:normal}
-.card.tight .tbl td.txt{min-width:150px}
+.card.tight .tbl td.txt{min-width:120px}
 
 /* ---------- calendar ---------- */
 .cal td.ev{min-width:230px}
@@ -309,6 +309,8 @@ table.tbl{width:100%;border-collapse:collapse;font-size:12.5px}
 .tilegroup{grid-column:span 12}
 .tilegroup>.label{display:block;margin-bottom:8px}
 .two{display:grid;grid-template-columns:1fr 1fr;gap:18px 24px}
+.two>div{min-width:0}
+.clock{max-width:100%}
 .clock{width:100%;height:auto;display:block}
 .clock .q{fill:var(--accent);opacity:.05}
 .clock .q.warm{fill:var(--serious);opacity:.07}
@@ -409,12 +411,155 @@ footer.end{padding:28px 0 48px;border-top:1px solid var(--hair);font-size:12px;c
 .strip .k .d.up{color:var(--up)}.strip .k .d.down{color:var(--down)}
 .rank .tag.live{color:var(--ink-2)}
 
+/* ---------- v4.1: the visual pass ---------- */
+[hidden]{display:none!important}
+/* tables: names and reads wrap, long text in a numeric column wraps, a fade marks a table with more to the right */
+.tbl td.name{white-space:normal;min-width:96px}
+.tbl td.txt{min-width:150px}
+.s5 .tbl td.txt,.s6 .tbl td.txt{min-width:120px}
+.tbl td.n.long{white-space:normal;max-width:200px}
+.scrollwrap{position:relative}
+.scrollwrap::after{content:"";position:absolute;top:0;right:0;bottom:0;width:36px;background:linear-gradient(90deg,transparent,var(--surface));pointer-events:none;opacity:0;transition:opacity .15s}
+.scrollwrap.over::after{opacity:1}
+.scrollwrap .hint{position:absolute;right:6px;top:5px;font-size:9.5px;color:var(--muted);letter-spacing:.06em;text-transform:uppercase;pointer-events:none;display:none;background:var(--surface);padding:0 3px}
+.scrollwrap.over .hint{display:block}
+/* inline encodings: z on a plus or minus 3 axis (beyond 2 shaded), percentile with the 20 and 80 extremes shaded, breadth bar with the 35 and 60 marks */
+.enc{display:inline-block;width:56px;height:10px;vertical-align:-1px;margin-right:6px;overflow:visible}
+.enc .tr{stroke:var(--hair-2);stroke-width:1}
+.enc .bd{fill:var(--warn);opacity:.22}
+.enc .bar{fill:var(--s1);opacity:.55}
+.enc .tk{stroke:var(--ink-2);stroke-width:1}
+.enc .dt{fill:var(--s1);stroke:var(--surface);stroke-width:1.5}
+.enc .dt.x{fill:var(--serious)}
+.tbl td.sample .enc,.tbl td.old .enc,.tbl td.stale .enc{opacity:.45}
+/* the four tables that carry reads become cards on a phone */
+@media (max-width:640px){
+  table.cards-sm,table.cards-sm tbody{display:block}
+  table.cards-sm thead{display:none}
+  table.cards-sm tr{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:4px 10px;padding:8px 0;border-bottom:1px solid var(--hair)}
+  table.cards-sm tr:last-child{border-bottom:0}
+  table.cards-sm td{display:block;border:0;padding:0;min-width:0;max-width:none}
+  table.cards-sm td:not(.n){grid-column:1/-1;white-space:normal}
+  table.cards-sm td.name{font-size:13.5px;padding-top:2px}
+  table.cards-sm td.n{text-align:left;white-space:normal}
+  table.cards-sm td[data-label]::before{content:attr(data-label);display:block;font-size:9.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-family:var(--font-ui);font-weight:600}
+  table.cards-sm td.name[data-label]::before{display:none}
+  table.cards-sm tbody tr:hover td{background:transparent}
+}
+/* the ranking as a map: conditions across, price up */
+.rank-map{display:grid;grid-template-columns:minmax(0,1.15fr) 1fr;gap:10px 32px;padding:4px 16px 14px;align-items:start}
+.rmap{width:100%;height:auto;display:block}
+.rmap .zone{fill:var(--accent);opacity:.05}
+.rmap .zone.al-up{opacity:.12}
+.rmap .zone.al-down{fill:var(--down);opacity:.10}
+.rmap .zone.div{fill:var(--warn);opacity:.14}
+.rmap .zone.mid{fill:var(--hair);opacity:.55}
+.rmap .ax{stroke:var(--hair-2);stroke-width:1}
+.rmap .bd{stroke:var(--hair-2);stroke-width:1;stroke-dasharray:3 3}
+.rmap .zl{font-family:var(--font-ui);font-size:10px;letter-spacing:.08em;text-transform:uppercase;fill:var(--muted);font-weight:600}
+.rmap .tick,.rmap .al{font-family:var(--font-num);font-size:10px;fill:var(--muted)}
+.rmap .pt{stroke:var(--surface);stroke-width:2}
+.rmap .pt.up{fill:var(--up)}.rmap .pt.down{fill:var(--down)}.rmap .pt.ahead{fill:var(--accent)}.rmap .pt.div{fill:var(--warn)}.rmap .pt.neu{fill:var(--muted)}
+.rmap .pl{font-family:var(--font-ui);font-size:11px;fill:var(--ink);font-weight:600;paint-order:stroke;stroke:var(--surface);stroke-width:3px;stroke-linejoin:round}
+.rmap .ld{stroke:var(--hair-2);stroke-width:1}
+.rmap .wk{stroke:var(--ink-2);stroke-width:1.2;opacity:.55}
+.rmap .wp{fill:var(--ink-2);opacity:.45}
+.rank-map .exp{font-size:12px;color:var(--ink-2);line-height:1.5}
+.rank-map .exp b{color:var(--ink)}
+.rank-map .exp ul{margin:8px 0 0;padding:0;list-style:none;display:grid;gap:3px}
+.rank-map .exp li i{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:6px;vertical-align:-1px;background:var(--muted)}
+.rank-map .exp li i.up{background:var(--up)}.rank-map .exp li i.down{background:var(--down)}.rank-map .exp li i.ahead{background:var(--accent)}.rank-map .exp li i.div{background:var(--warn)}
+.rank-map.sample{display:none}
+@media (max-width:900px){.rank-map{grid-template-columns:1fr}}
+@media (max-width:640px){.rank-map .mapwrap{overflow-x:auto;-webkit-overflow-scrolling:touch}.rmap{min-width:540px}}
+/* composite trails: twelve months behind each dot */
+.dot-row.val,.dot-axis.val{grid-template-columns:150px 1fr 44px 120px}
+.ctrail{width:120px;height:26px;display:block;overflow:visible}
+.ctrail .z{stroke:var(--hair-2);stroke-width:1;stroke-dasharray:2 3}
+.ctrail .gd{stroke:var(--hair);stroke-width:1}
+.ctrail .ln{fill:none;stroke:var(--s1);stroke-width:1.5;stroke-linejoin:round}
+.ctrail .ed{fill:var(--s1);stroke:var(--surface);stroke-width:1.5}
+.dot-axis.val .tl{text-align:right}
+@media (max-width:640px){.dot-row.val,.dot-axis.val{grid-template-columns:1fr 44px 100px}.dot-row.val>span:first-child{grid-column:1/-1}.dot-axis.val>span:first-child{display:none}}
+/* the week strip above the calendar: one column per day, the session's options-implied move as a bar */
+.cs-title{display:flex;flex-wrap:wrap;gap:4px 14px;align-items:baseline;margin-bottom:8px;font-size:12px;color:var(--ink-2);line-height:1.45}
+.cs-title b{font-size:13.5px;color:var(--ink);font-weight:600}
+.calstrip{display:grid;grid-template-columns:repeat(7,minmax(96px,1fr));gap:6px;margin:0 0 16px}
+.cs-day{border:1px solid var(--hair);border-radius:2px;padding:8px 8px 6px;background:var(--surface);display:flex;flex-direction:column;gap:6px;min-width:0}
+.cs-day.today{border-color:var(--accent)}
+.cs-day.closed{background:repeating-linear-gradient(135deg,var(--surface),var(--surface) 6px,var(--surface-2) 6px,var(--surface-2) 7px)}
+.cs-head{font-size:11.5px;color:var(--ink-2)}.cs-head b{color:var(--ink);font-weight:600;margin-right:4px}
+.cs-chart{position:relative;height:64px;border-bottom:1px solid var(--hair-2)}
+.cs-chart .base{position:absolute;left:0;right:0;border-top:1px dashed var(--hair-2)}
+.cs-chart .bl{position:absolute;right:0;font-size:9.5px;line-height:1;color:var(--muted);font-family:var(--font-num);white-space:nowrap}
+.cs-chart .bar{position:absolute;left:0;width:30px;bottom:0;background:var(--s1);opacity:.55;border-radius:2px 2px 0 0}
+.cs-chart .bar.t1{background:var(--accent);opacity:1}
+.cs-chart .v{position:absolute;left:36px;font-family:var(--font-num);font-size:11px;color:var(--ink-2);white-space:nowrap;line-height:1}
+.cs-chart .v.t1{color:var(--accent-text);font-weight:600}
+.cs-chart .none{position:absolute;left:0;bottom:4px;font-size:10px;color:var(--muted)}
+.cs-ev{list-style:none;margin:0;padding:0;font-size:11px;color:var(--ink-2);display:grid;gap:3px}
+.cs-ev li{display:grid;grid-template-columns:36px 1fr;gap:5px;line-height:1.3}
+.cs-ev li .t{font-family:var(--font-num);color:var(--muted);font-size:10.5px;padding-top:1px}
+.cs-ev li.t1{color:var(--ink);font-weight:600}
+.cs-ev li.t1 .t{color:var(--accent-text)}
+.cs-ev li.cl{grid-template-columns:1fr;color:var(--muted)}
+@media (max-width:760px){.calstrip{grid-template-columns:repeat(4,minmax(0,1fr))!important}}
+@media (max-width:640px){.calstrip{grid-template-columns:repeat(2,minmax(0,1fr))!important}}
+/* event study: implied against history */
+.istudy{display:flex;align-items:center;gap:8px;white-space:nowrap}
+.istudy svg{width:120px;height:14px;overflow:visible;flex:none}
+.istudy .med{fill:var(--s1);opacity:.75}
+.istudy .p90{fill:var(--s1);opacity:.22}
+.istudy .im{stroke:var(--serious);stroke-width:2}
+.istudy .ax{stroke:var(--hair-2);stroke-width:1}
+.study-legend{display:flex;flex-wrap:wrap;gap:14px;font-size:11px;color:var(--muted);margin-top:8px}
+.study-legend i{display:inline-block;width:14px;height:8px;vertical-align:-1px;margin-right:5px;background:var(--s1);opacity:.75}
+.study-legend i.p90{opacity:.22}
+.study-legend i.im{width:2px;height:12px;background:var(--serious);opacity:1;vertical-align:-3px}
+/* alert feed: state changes first, watch cards collapsed */
+.alerts{align-items:start}
+.alerts .grp{grid-column:1/-1;font-size:10.5px;letter-spacing:.07em;text-transform:uppercase;color:var(--muted);font-weight:600;margin-top:2px}
+details.alert{padding:0}
+details.alert>summary{list-style:none;cursor:pointer;padding:10px 14px;display:flex;flex-direction:column;gap:6px}
+details.alert>summary::-webkit-details-marker{display:none}
+details.alert>summary .hint{font-size:10px;color:var(--accent-text);letter-spacing:.06em;text-transform:uppercase}
+details.alert[open]>summary .hint{display:none}
+details.alert>.body{padding:0 14px 12px;display:flex;flex-direction:column;gap:8px}
+.alert.quiet h4{color:var(--ink-2)}
+.rrg .ld{stroke:var(--hair-2);stroke-width:1}
+/* draft reads look like drafts */
+.read.draft{border-style:dashed;background:transparent;color:var(--ink-2)}
+.read.draft .label{color:var(--muted)}
+/* section 2 charts: the curve and the futures path */
+.tile.chart{grid-column:span 2}
+.tile.chart svg.ch{width:100%;height:150px;display:block;margin-top:6px;overflow:visible}
+.tile.chart .ln{fill:none;stroke-width:2;stroke-linejoin:round;stroke-linecap:round}
+.tile.chart .ln.now{stroke:var(--s1)}
+.tile.chart .ln.m1{stroke:var(--ink-2);stroke-width:1.5;stroke-dasharray:4 3}
+.tile.chart .ln.y1{stroke:var(--muted);stroke-width:1.5;stroke-dasharray:1.5 3}
+.tile.chart .gd{stroke:var(--hair);stroke-width:1}
+.tile.chart .ax{stroke:var(--hair-2);stroke-width:1}
+.tile.chart .tk{font-family:var(--font-num);font-size:10px;fill:var(--muted)}
+.tile.chart .lb{font-family:var(--font-num);font-size:10.5px;fill:var(--ink);font-weight:600;paint-order:stroke;stroke:var(--surface);stroke-width:3px}
+.tile.chart .ref{stroke:var(--serious);stroke-width:1;stroke-dasharray:3 3}
+.tile.chart .rl{font-family:var(--font-num);font-size:10px;fill:var(--serious-text)}
+.tile.chart .mp{fill:var(--s1);stroke:var(--surface);stroke-width:1.5}
+.tile.chart .mp.f{fill:var(--surface);stroke:var(--accent);stroke-width:2}
+.tile.chart .legend{margin-top:6px;font-size:11px;gap:10px}
+.tile.chart .legend i{border-radius:0;height:2px;width:14px;vertical-align:3px}
+.tile.chart .legend i.m1{background:var(--ink-2);opacity:1}
+.tile.chart .legend i.y1{background:var(--muted)}
+.tile.chart .legend i.ref{background:var(--serious)}
+.tile.chart .legend i.f{width:9px;height:9px;border-radius:50%;background:var(--surface);box-shadow:0 0 0 2px var(--accent) inset;vertical-align:-1px}
+.tile.chart .empty{font-size:11.5px;color:var(--muted);padding:44px 0;text-align:center}
+.tile.chart.sample svg.ch{display:none}
+.tile.chart.live .empty{display:none}
 </style>
 </head>
 <body>
 <header class="topbar">
   <div class="wrap">
-    <div class="brand"><h1>Market Watch</h1><span class="v">v4, 30 Aug 2026</span><span class="stamp" id="stamp">data file not loaded yet</span></div>
+    <div class="brand"><h1>Market Watch</h1><span class="v">v4.1, 30 Aug 2026</span><span class="stamp" id="stamp">data file not loaded yet</span></div>
     <nav class="sections" aria-label="Sections">
       <a href="#regime">Regime</a>
       <a href="#liquidity">1 Liquidity</a>
@@ -493,12 +638,12 @@ footer.end{padding:28px 0 48px;border-top:1px solid var(--hair);font-size:12px;c
   </div>
   <div class="composites">
     <div>
-      <div class="dot-axis val"><span></span><div><span>-2</span><span>0</span><span>+2</span></div><span></span></div>
+      <div class="dot-axis val"><span></span><div><span>-2</span><span>0</span><span>+2</span></div><span></span><span class="tl" id="ctrail-head">12 months</span></div>
       <div class="dots" style="margin-top:4px">
-        <div class="dot-row val" data-comp="liq"><span>Liquidity impulse</span><div class="track"><b style="left:72.5%" title="+0.9"></b></div><span class="v">+0.9</span></div>
-        <div class="dot-row val" data-comp="growth"><span>Growth momentum</span><div class="track"><b style="left:60%" title="+0.4"></b></div><span class="v">+0.4</span></div>
-        <div class="dot-row val" data-comp="infl"><span>Inflation momentum</span><div class="track"><b style="left:35%" title="-0.6"></b></div><span class="v">-0.6</span></div>
-        <div class="dot-row val" data-comp="risk"><span>Risk appetite</span><div class="track"><b style="left:70%" title="+0.8"></b></div><span class="v">+0.8</span></div>
+        <div class="dot-row val" data-comp="liq"><span>Liquidity impulse</span><div class="track"><b style="left:72.5%" title="+0.9"></b></div><span class="v">+0.9</span><svg class="ctrail" aria-hidden="true"></svg></div>
+        <div class="dot-row val" data-comp="growth"><span>Growth momentum</span><div class="track"><b style="left:60%" title="+0.4"></b></div><span class="v">+0.4</span><svg class="ctrail" aria-hidden="true"></svg></div>
+        <div class="dot-row val" data-comp="infl"><span>Inflation momentum</span><div class="track"><b style="left:35%" title="-0.6"></b></div><span class="v">-0.6</span><svg class="ctrail" aria-hidden="true"></svg></div>
+        <div class="dot-row val" data-comp="risk"><span>Risk appetite</span><div class="track"><b style="left:70%" title="+0.8"></b></div><span class="v">+0.8</span><svg class="ctrail" aria-hidden="true"></svg></div>
       </div>
     </div>
     <div class="exp" id="regime-exp"><b>Four composites drive the regime line.</b> Each is an equal-weighted average of three-year z-scores of the inputs with a free feed. Liquidity impulse: change in Big-3 M2 YoY, 13-week net liquidity, Big-3 central bank assets YoY (the China credit impulse has no feed). Growth momentum: claims (inverted), the CFNAI three-month average, payrolls three-month average (ISM new orders, Korea exports and the surprise index have no free feed). Inflation momentum: core CPI 3-month annualized change, 5y5y, oil (prices paid has no feed). Risk appetite: VIX and HY spread (inverted), copper to gold, high beta to low vol, SPY to TLT, EM FX. Growth and inflation momentum place the cycle on the Investment Clock in section 4.</div>
@@ -509,7 +654,11 @@ footer.end{padding:28px 0 48px;border-top:1px solid var(--hair);font-size:12px;c
         <h3>Where conditions favor growth, next 12 months</h3>
         <p>Two scores per market, conditions and price. <b>Conditions</b> averages the seven pillars this page already measures (liquidity, cost of money, cycle, valuation, flows, positioning, seasonality) onto a -2 to +2 scale: the twelve-month case. <b>Price</b> averages five trend rules computed from the market's own closes: whether the tape confirms it. Conditions lead and price confirms; when both agree the hit rate is highest but the trade is also more crowded, so positioning still sets the size. Timing comes from the alert feed in section 4, sizing from the divergence table in section 6. Not a forecast.</p>
       </div>
-      <div class="read"><span class="label">Sample read</span><b>Aligned up:</b> gold miners, emerging markets, US small caps, banks, gold, REITs, Japan, silver and Europe; silver and gold are extended and the most crowded, so they carry the smallest size. <b>Conditions ahead of price:</b> copper and Thailand, the early ones, worth a watch alert rather than a position. <b>Price ahead of conditions:</b> US large caps, high yield and semiconductors, the fragile group, where the tape is doing the work that conditions are not. <b>Divergence:</b> bitcoin, where liquidity says up and price says down. Nothing is aligned down; cash is read on conditions alone.</div>
+      <div class="read draft" id="rank-read"><span class="label">Sample read, not from data</span><b>Aligned up:</b> gold miners, emerging markets, US small caps, banks, gold, REITs, Japan, silver and Europe; silver and gold are extended and the most crowded, so they carry the smallest size. <b>Conditions ahead of price:</b> copper and Thailand, the early ones, worth a watch alert rather than a position. <b>Price ahead of conditions:</b> US large caps, high yield and semiconductors, the fragile group, where the tape is doing the work that conditions are not. <b>Divergence:</b> bitcoin, where liquidity says up and price says down. Nothing is aligned down; cash is read on conditions alone.</div>
+    </div>
+    <div class="rank-map" id="rank-map">
+      <div class="mapwrap"><svg class="rmap" id="rmap" viewBox="0 0 640 400" role="img" aria-label="Ranking map: conditions score across, price score up, one point per market."></svg></div>
+      <div class="exp"><b>How to read the map.</b> Each market sits at its conditions score (across) and its price score (up). Both beyond 0.5 in the same direction is <b>Aligned</b>; one beyond the band with the other inside it is <b>Conditions ahead</b> or <b>Price ahead</b>, named for the leading score; opposite signs is <b>Divergence</b>; both inside the band is Neutral. A short tail is the move since last week. Cash has no price score and is not plotted.<ul id="rank-map-list"></ul></div>
     </div>
     <div class="legend"><span><span class="pil" style="vertical-align:middle"><i class="p">L</i></span> positive</span><span><span class="pil" style="vertical-align:middle"><i>C</i></span> neutral</span><span><span class="pil" style="vertical-align:middle"><i class="m">V</i></span> negative</span><span><b>Conditions:</b> L liquidity, C cost of money, Y cycle, V valuation, F flows, P positioning, S seasonal</span><span><b>Price:</b> T 200-day trend, M 12-1 momentum, X 50/200 state, H 52-week high, B breadth</span></div>
     <div class="scroll">
@@ -549,7 +698,7 @@ footer.end{padding:28px 0 48px;border-top:1px solid var(--hair);font-size:12px;c
       <h2 id="liq-h">Is money growing?</h2>
       <p class="why">Money supply is the tide. When global M2 rises, asset prices tend to follow with a lag of roughly ten to twelve weeks; when central banks and the Treasury drain, the tide goes out of the riskiest assets first. This section answers one thing: is the tide coming in or going out, and how fast.</p>
     </div>
-    <div class="read"><span class="label">Current read (sample)</span>Global M2 has risen for five straight months and US M2 turned positive in real terms in June. Fed net liquidity is flat: the balance sheet stopped shrinking, but the Treasury is rebuilding its cash account, which absorbs about the same amount. Net: <b>expanding, slowly</b>. The ten to twelve week lead says risk assets stay supported into October.</div>
+    <div class="read draft"><span class="label">Sample read, not from data</span>Global M2 has risen for five straight months and US M2 turned positive in real terms in June. Fed net liquidity is flat: the balance sheet stopped shrinking, but the Treasury is rebuilding its cash account, which absorbs about the same amount. Net: <b>expanding, slowly</b>. The ten to twelve week lead says risk assets stay supported into October.</div>
   </div>
 
   <div class="grid">
@@ -616,11 +765,13 @@ footer.end{padding:28px 0 48px;border-top:1px solid var(--hair);font-size:12px;c
       <h2 id="rates-h">What does money cost?</h2>
       <p class="why">Rates decide which assets the new money can afford to own. Real yields price gold, the curve prices banks and small caps, credit spreads tell you whether anyone is scared yet. One row of numbers, read as a set.</p>
     </div>
-    <div class="read"><span class="label">Current read (sample)</span>The curve is steepening because the front end prices cuts while the long end worries about Treasury supply. Credit spreads are tight, so the market sees no stress. That is the thing to watch: spreads move last and fast. Real yields drifting lower is the single best tailwind for gold and the miners.</div>
+    <div class="read draft"><span class="label">Sample read, not from data</span>The curve is steepening because the front end prices cuts while the long end worries about Treasury supply. Credit spreads are tight, so the market sees no stress. That is the thing to watch: spreads move last and fast. Real yields drifting lower is the single best tailwind for gold and the miners.</div>
   </div>
 
   <div class="grid">
     <div class="tilegroup"><span class="label">Policy and curve</span><div class="tiles">
+      <div class="tile chart sample" data-chart="curve"><span class="label">Treasury curve: now, a month ago, a year ago</span><svg class="ch" viewBox="0 0 320 150" role="img" aria-label="Treasury yield curve, now against a month ago and a year ago"></svg><div class="empty">No curve data yet: the chart fills when the data file carries the seven tenors.</div><div class="legend"><span><i></i>Now</span><span><i class="m1"></i>1 month ago</span><span><i class="y1"></i>1 year ago</span></div><div class="note">Front end down faster than the long end (a bull steepener) is the setup for banks and small caps; a long end that will not fall is the supply story</div><span class="src">sample</span></div>
+      <div class="tile chart sample" data-chart="path"><span class="label">Fed funds path priced by futures, next 12 months</span><div class="delta" id="path-delta"></div><svg class="ch" viewBox="0 0 320 150" role="img" aria-label="Fed funds path implied by futures, by month"></svg><div class="empty">No futures strip yet: the chart fills when the data file carries the twelve contracts.</div><div class="legend"><span><i></i>Implied rate by month</span><span><i class="f"></i>FOMC meeting month</span><span><i class="ref"></i>Effective rate now</span></div><div class="note">The path matters more than the next meeting: a flat line is a hold, steps down are cuts, and the gap to the effective rate is what the front end has already paid for</div><span class="src">sample</span></div>
       <div class="tile" data-tile="rt.ffu"><span class="label">Fed funds (upper)</span><span class="src">sample</span><div class="val">4.00%</div><div class="delta">■&nbsp;hold <span class="vs">Sep cut priced 78%</span></div><svg class="spark" data-values="4.75,4.75,4.50,4.50,4.50,4.25,4.25,4.25,4.25,4.00,4.00,4.00" data-unit="%" role="img" aria-label="Fed funds upper bound, last 12 months, 4.75% to 4.00%"></svg></div>
       <div class="tile" data-tile="rt.cuts"><span class="label">Cuts priced, 12m</span><span class="src">sample</span><div class="val">3 <small>(75 bp)</small></div><div class="delta up">▲&nbsp;+1&nbsp;cut <span class="vs">vs 1 month ago</span></div><svg class="spark" data-values="1.0,1.2,1.5,1.4,1.8,2.0,1.9,2.2,2.4,2.6,2.8,3.0" data-unit="" role="img" aria-label="Rate cuts priced over the next 12 months, last 12 weeks, 1 to 3"></svg><div class="note">From fed funds futures; the path matters more than the next meeting</div></div>
       <div class="tile" data-tile="rt.dgs2"><span class="label">US 2Y</span><span class="src">sample</span><div class="val">3.55%</div><div class="delta down">▼&nbsp;-12&nbsp;bp <span class="vs">1 month</span></div><svg class="spark" data-values="4.10,4.05,3.98,3.95,3.90,3.85,3.80,3.78,3.72,3.67,3.60,3.55" data-unit="%" role="img" aria-label="US 2-year yield, last 12 months, 4.10% to 3.55%"></svg></div>
@@ -712,7 +863,7 @@ footer.end{padding:28px 0 48px;border-top:1px solid var(--hair);font-size:12px;c
       <h2 id="mk-h">Where is the money sitting?</h2>
       <p class="why">First by asset class (cash, bonds, equities, gold, commodities, crypto), then inside equities by index, sector and theme. Fund flows say where money went last month; relative strength says whether it is still going there; breadth says how many stocks are carrying it.</p>
     </div>
-    <div class="read"><span class="label">Current read (sample)</span>Cash is starting to leave the sidelines: three weekly money-market outflows in a row, the first run this year. It is going to US equities and bonds, and a steady trickle to gold. Inside equities the leadership has shifted from semiconductors to financials, industrials and the metals: broader, less exciting, healthier. Two cautions from the ratios: discretionary is lagging staples and bitcoin is lagging gold, both of which usually lead risk lower.</div>
+    <div class="read draft"><span class="label">Sample read, not from data</span>Cash is starting to leave the sidelines: three weekly money-market outflows in a row, the first run this year. It is going to US equities and bonds, and a steady trickle to gold. Inside equities the leadership has shifted from semiconductors to financials, industrials and the metals: broader, less exciting, healthier. Two cautions from the ratios: discretionary is lagging staples and bitcoin is lagging gold, both of which usually lead risk lower.</div>
   </div>
 
   <div class="grid">
@@ -720,7 +871,7 @@ footer.end{padding:28px 0 48px;border-top:1px solid var(--hair);font-size:12px;c
       <h3>Cross-asset scorecard</h3>
       <p class="sub">The desk's first page. Scan the z-score column: a one-month move beyond ±2 is stretched and usually pauses; the one-year percentile says whether you are buying a high; realized vol sizes the position. Everything else on the page is detail behind these rows.</p>
       <div class="scroll">
-        <table class="tbl">
+        <table class="tbl cards-sm">
           <thead><tr><th>Asset</th><th class="n">Level</th><th class="n">1W</th><th class="n">1M</th><th class="n">3M</th><th class="n">12M</th><th class="n">1M z (3y)</th><th class="n">3M vol</th><th class="n">1Y pct</th><th>Trend 50d / 200d</th></tr></thead>
           <tbody>
             <tr data-row="sc.spx"><td class="name">S&amp;P 500</td><td data-cell="sc.spx.level" class="n">6,480</td><td data-cell="sc.spx.1w" class="n pos">+0.6%</td><td data-cell="sc.spx.1m" class="n pos">+1.4%</td><td data-cell="sc.spx.3m" class="n pos">+6.2%</td><td data-cell="sc.spx.12m" class="n pos">+14.8%</td><td data-cell="sc.spx.z" class="n">+0.5</td><td data-cell="sc.spx.vol" class="n">11%</td><td data-cell="sc.spx.pct" class="n">96</td><td data-cell="sc.spx.trend">above / above</td></tr>
@@ -1303,6 +1454,8 @@ footer.end{padding:28px 0 48px;border-top:1px solid var(--hair);font-size:12px;c
 
   <div class="grid">
     <div class="s12 card">
+      <div class="cs-title" id="cs-title" hidden></div>
+      <div class="calstrip" id="cal-strip" hidden></div>
       <div class="tabs" id="cal-tabs"><span class="on" data-range="week">This week</span><span data-range="two_weeks">Next two weeks</span><span data-range="two_months">Next two months</span><span class="toggle off" id="cal-toggle" role="switch" aria-checked="false" tabindex="0">Tier 1 only <i></i></span></div>
       <div class="scroll">
         <table class="tbl cal">
@@ -1348,7 +1501,7 @@ footer.end{padding:28px 0 48px;border-top:1px solid var(--hair);font-size:12px;c
       <p class="sub">Close-to-close moves on the release session since 2011, unconditional on the surprise: the median absolute move, the worst tenth, the share of up sessions, then the five-session move. The last column is the options-implied move for the next release's session, from the SPX chain: the bar for calling a reaction big. Splitting by sign of surprise starts once the consensus log holds 24 releases.</p>
       <div class="scroll">
         <table class="tbl study">
-          <thead><tr><th>Release</th><th class="n">n</th><th class="n">S&amp;P 500, median</th><th class="n">worst tenth</th><th class="n">up</th><th class="n">10Y, median</th><th class="n">Dollar, median</th><th class="n">Gold, median</th><th class="n">S&amp;P 500, five sessions</th><th>Next release, options-implied</th></tr></thead>
+          <thead><tr><th>Release</th><th class="n">n</th><th class="n">S&amp;P 500, median</th><th class="n">worst tenth</th><th class="n">up</th><th class="n">10Y, median</th><th class="n">Dollar, median</th><th class="n">Gold, median</th><th class="n">S&amp;P 500, five sessions</th><th>Next release: options-implied against history</th></tr></thead>
           <tbody id="study-body">
             <tr><td class="name">Nonfarm payrolls</td><td class="n sample">180</td><td class="n sample">0.6%</td><td class="n sample">1.7%</td><td class="n sample">56%</td><td class="n sample">5 bp</td><td class="n sample">0.3%</td><td class="n sample">0.7%</td><td class="n sample">1.3%</td><td class="txt sample">4 Sep: ±0.8%</td></tr>
             <tr><td class="name">US CPI</td><td class="n sample">180</td><td class="n sample">0.5%</td><td class="n sample">1.6%</td><td class="n sample">55%</td><td class="n sample">4 bp</td><td class="n sample">0.3%</td><td class="n sample">0.6%</td><td class="n sample">1.1%</td><td class="txt sample">11 Sep: ±0.9%</td></tr>
@@ -1356,6 +1509,7 @@ footer.end{padding:28px 0 48px;border-top:1px solid var(--hair);font-size:12px;c
           </tbody>
         </table>
       </div>
+      <div class="study-legend" id="study-legend" hidden><span><i></i>Median move on the release session</span><span><i class="p90"></i>Worst tenth</span><span><i class="im"></i>Options-implied for the next release</span></div>
       <div class="foot" id="study-foot"><b>Sample figures</b> until the data file loads. Release dates come from the BLS archives and the Fed's historical pages; the moves from the same daily closes the rest of the page uses.</div>
     </div>
 
@@ -1398,7 +1552,7 @@ footer.end{padding:28px 0 48px;border-top:1px solid var(--hair);font-size:12px;c
       <h3>Smart money</h3>
       <p class="sub">Percentile is the current reading against the last three years. High means positioned long (for hedgers the sign is inverted so that long reads high).</p>
       <div class="scroll">
-        <table class="tbl">
+        <table class="tbl cards-sm">
           <thead><tr><th>Indicator</th><th class="n">Now</th><th class="n">3y pct</th><th>Read</th></tr></thead>
           <tbody>
             <tr data-row="pos.sm_gold"><td class="name">Hedgers, gold futures</td><td data-cell="pos.sm_gold.now" class="n">-210k</td><td data-cell="pos.sm_gold.pct" class="n">12</td><td class="txt">Heavily short. Normal in a bull phase, stretched.</td></tr>
@@ -1428,7 +1582,7 @@ footer.end{padding:28px 0 48px;border-top:1px solid var(--hair);font-size:12px;c
       <h3>The crowd</h3>
       <p class="sub">High percentile means the crowd is bullish or extended. Extremes are contrarian; the middle is noise.</p>
       <div class="scroll">
-        <table class="tbl">
+        <table class="tbl cards-sm">
           <thead><tr><th>Indicator</th><th class="n">Now</th><th class="n">3y pct</th><th>Read</th></tr></thead>
           <tbody>
             <tr data-row="pos.cr_aaii"><td class="name">AAII bulls minus bears</td><td data-cell="pos.cr_aaii.now" class="n">+18</td><td data-cell="pos.cr_aaii.pct" class="n">75</td><td class="txt">Optimistic; above +30 is euphoric.</td></tr>
@@ -1457,7 +1611,7 @@ footer.end{padding:28px 0 48px;border-top:1px solid var(--hair);font-size:12px;c
       <h3>Divergence by market</h3>
       <p class="sub">Score is smart money minus crowd, each an average of z-scores. Above +1.5 is a contrarian bullish alert (the crowd is fearful, smart money is buying); below -1.5 is contrarian bearish. Between them there is no edge: follow the trend and the rotation alerts.</p>
       <div class="scroll">
-        <table class="tbl">
+        <table class="tbl cards-sm">
           <thead><tr><th>Market</th><th>Smart money</th><th>The crowd</th><th class="n">Score</th><th>Read</th><th>What happened at this level before</th></tr></thead>
           <tbody>
             <tr data-row="div.spx"><td class="name">S&amp;P 500</td><td data-cell="div.spx.sm" class="txt">Neutral hedgers, fund cash low</td><td data-cell="div.spx.cr" class="txt">Optimistic: survey pct 75, margin debt pct 95</td><td data-cell="div.spx.score" class="n neg">-1.2</td><td data-cell="div.spx.read" class="txt">Crowd ahead of smart money; not extreme.</td><td data-cell="div.spx.before" class="txt">Next 8 weeks median +0.4%, positive 55% of the time: below average, not a sell.</td></tr>
@@ -1635,7 +1789,7 @@ footer.end{padding:28px 0 48px;border-top:1px solid var(--hair);font-size:12px;c
 </section>
 
 <footer class="end">
-  <div>Market Watch, v4 (30 Aug 2026). Live readings carry a source tag; grey figures are placeholders. Nothing on this page is advice. Structure: six questions in reading order, one build plan. v0.2 added the professional layer: z-scores and percentiles, reserves and issuance, term premium and financial conditions, cycle position, systematic flows, event-study discipline. v0.3 added the twelve-month conditions ranking. v0.4 redrew the charts: marks above grid lines, sparklines at true scale with a range grid and zero line, axis ticks and trail markers on the rotation map and the clock. v0.5 added the price-confirmation score and the read column to the ranking. v0.6 added the What changed strip, per-section unread counts and the data stamp, and let tile labels wrap. v1 connected the feeds: a nightly script pulls FRED, Yahoo Finance and the ECB data portal, computes the transforms and writes data/latest.json; the page fills the strip, the tiles, the market tables and the price side of the ranking from it. v2 added the regime composites, the rotation detector with its three-close state rule and the change log; v3 the positioning and sentiment section from the CFTC and the free sentiment feeds; v4 the keyless event calendar with event studies, options-implied moves, the surprise log and the Sunday brief.</div>
+  <div>Market Watch, v4.1 (30 Aug 2026). Live readings carry a source tag; grey figures are placeholders. Nothing on this page is advice. Structure: six questions in reading order, one build plan. v0.2 added the professional layer: z-scores and percentiles, reserves and issuance, term premium and financial conditions, cycle position, systematic flows, event-study discipline. v0.3 added the twelve-month conditions ranking. v0.4 redrew the charts: marks above grid lines, sparklines at true scale with a range grid and zero line, axis ticks and trail markers on the rotation map and the clock. v0.5 added the price-confirmation score and the read column to the ranking. v0.6 added the What changed strip, per-section unread counts and the data stamp, and let tile labels wrap. v1 connected the feeds: a nightly script pulls FRED, Yahoo Finance and the ECB data portal, computes the transforms and writes data/latest.json; the page fills the strip, the tiles, the market tables and the price side of the ranking from it. v2 added the regime composites, the rotation detector with its three-close state rule and the change log; v3 the positioning and sentiment section from the CFTC and the free sentiment feeds; v4 the keyless event calendar with event studies, options-implied moves, the surprise log and the Sunday brief.</div>
 </footer>
 
 </main>
@@ -1949,10 +2103,229 @@ footer.end{padding:28px 0 48px;border-top:1px solid var(--hair);font-size:12px;c
       h3.appendChild(s);
     });
     fillV2(data.v2 || {});
+    visuals(data);
     if (stamp) stamp.textContent = 'data as of ' + data.asOfLabel;
     if (count) count.textContent = live + ' live readings, ' + (total - live) + ' placeholders' + (data.counts && data.counts.stale ? ', ' + data.counts.stale + ' stale' : '') + (old ? ', ' + old + ' not refreshed by their source (greyed, dated)' : '') + '.';
   }
   function el(tag, cls, text){ var e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
+  /* ---------- v4.1: the visual pass (inline encodings, the ranking map, composite trails, the week strip, the section 2 charts) ---------- */
+  var NS = 'http://www.w3.org/2000/svg';
+  function svgEl(n, a){ var e = document.createElementNS(NS, n); for (var k in a) e.setAttribute(k, a[k]); return e; }
+  function num(t){ var m = String(t == null ? '' : t).replace(/,/g, '').match(/-?\d+(\.\d+)?/); return m ? parseFloat(m[0]) : NaN; }
+  function sgn1(v){ return (v > 0 ? '+' : '') + v.toFixed(1); }
+  function fmtPct(v){ return (Math.round(v * 100) / 100) + '%'; }
+  var SHORT = {'Emerging markets ex China': 'EM ex China', 'Banks and financials': 'Banks', 'Semiconductors and mega-cap tech': 'Semis and mega-cap tech', 'Copper and industrial metals': 'Copper', 'Silver and silver miners': 'Silver', 'US large caps (S&P 500)': 'S&P 500', 'US 10-year Treasuries': 'US 10Y', 'US high yield credit': 'US high yield', 'Real estate (REITs)': 'REITs', 'Thailand (SET)': 'Thailand', 'Japan equities': 'Japan', 'Europe equities': 'Europe', 'Cash (T-bills)': 'Cash'};
+  /* inline encodings on the columns the page tells the reader to scan: z on a plus or minus 3 axis, percentiles with the 20 and 80 extremes, breadth against the 35 and 60 thrust marks */
+  function encode(td, kind){
+    if (td.querySelector('svg.enc')) return;
+    var t = td.textContent.trim(); if (!t || /[a-z]{3,}/i.test(t)) return;
+    var v = num(t); if (isNaN(v)) return;
+    var W = 56, s = svgEl('svg', {class: 'enc', viewBox: '0 0 56 10', 'aria-hidden': 'true'});
+    var x = function(u, lo, hi){ return Math.max(1, Math.min(W - 1, (u - lo) / (hi - lo) * W)); };
+    var note;
+    if (kind === 'z') {
+      s.appendChild(svgEl('rect', {class: 'bd', x: 0, y: 2, width: x(-2, -3, 3), height: 6})); s.appendChild(svgEl('rect', {class: 'bd', x: x(2, -3, 3), y: 2, width: W - x(2, -3, 3), height: 6}));
+      s.appendChild(svgEl('line', {class: 'tr', x1: 0, y1: 5, x2: W, y2: 5})); s.appendChild(svgEl('line', {class: 'tk', x1: W / 2, y1: 1, x2: W / 2, y2: 9}));
+      s.appendChild(svgEl('circle', {class: 'dt' + (Math.abs(v) >= 2 ? ' x' : ''), cx: x(v, -3, 3), cy: 5, r: 3.2}));
+      note = 'One-month move of ' + sgn1(v) + ' standard deviations against three years; beyond 2 (shaded) is stretched';
+    } else if (kind === 'pct') {
+      s.appendChild(svgEl('rect', {class: 'bd', x: 0, y: 2, width: x(20, 0, 100), height: 6})); s.appendChild(svgEl('rect', {class: 'bd', x: x(80, 0, 100), y: 2, width: W - x(80, 0, 100), height: 6}));
+      s.appendChild(svgEl('line', {class: 'tr', x1: 0, y1: 5, x2: W, y2: 5}));
+      s.appendChild(svgEl('circle', {class: 'dt' + (v <= 20 || v >= 80 ? ' x' : ''), cx: x(v, 0, 100), cy: 5, r: 3.2}));
+      note = 'Percentile ' + Math.round(v) + ' of 100; under 20 or over 80 (shaded) is an extreme';
+    } else {
+      s.appendChild(svgEl('line', {class: 'tr', x1: 0, y1: 5, x2: W, y2: 5})); s.appendChild(svgEl('rect', {class: 'bar', x: 0, y: 2, width: x(v, 0, 100), height: 6}));
+      [35, 60].forEach(function(mk){ s.appendChild(svgEl('line', {class: 'tk', x1: x(mk, 0, 100), y1: 0, x2: x(mk, 0, 100), y2: 10})); });
+      note = Math.round(v) + '% of members above their 50-day; the marks are the thrust rule, under 35% to over 60%';
+    }
+    td.title = (td.title ? td.title + '. ' : '') + note;
+    td.insertBefore(s, td.firstChild);
+  }
+  function encodeCells(){
+    document.querySelectorAll('[data-cell]').forEach(function(td){
+      var k = td.getAttribute('data-cell');
+      if (/^sc\.[^.]+\.z$/.test(k)) encode(td, 'z');
+      else if (/^(sc|pos)\.[^.]+\.pct$/.test(k)) encode(td, 'pct');
+      else if (/^(sec|th)\.[^.]+\.breadth$/.test(k)) encode(td, 'breadth');
+    });
+  }
+  /* the four tables that carry reads become cards on a phone: each cell learns its column name */
+  function mobileLabels(){
+    document.querySelectorAll('table.cards-sm').forEach(function(tbl){
+      var heads = Array.prototype.map.call(tbl.querySelectorAll('thead th'), function(th){ return th.textContent.trim(); });
+      tbl.querySelectorAll('tbody tr').forEach(function(tr){ Array.prototype.forEach.call(tr.children, function(td, i){ if (heads[i]) td.setAttribute('data-label', heads[i]); }); });
+    });
+  }
+  /* a table wider than its card fades at the right edge and says so; long text in a numeric column wraps instead of forcing the width */
+  function overflowFades(){
+    document.querySelectorAll('.tbl td.n').forEach(function(td){ if (td.textContent.trim().length > 14) td.classList.add('long'); });
+    var upds = [];
+    document.querySelectorAll('.scroll').forEach(function(sc){
+      if (sc.parentNode.classList.contains('scrollwrap')) return;
+      var w = document.createElement('div'); w.className = 'scrollwrap'; sc.parentNode.insertBefore(w, sc); w.appendChild(sc);
+      var h = document.createElement('span'); h.className = 'hint'; h.textContent = 'scroll for more'; w.appendChild(h);
+      var upd = function(){ w.classList.toggle('over', sc.scrollWidth - sc.clientWidth - sc.scrollLeft > 4); };
+      sc.addEventListener('scroll', upd); upds.push(upd); upd();
+    });
+    var all = function(){ upds.forEach(function(f){ f(); }); };
+    window.addEventListener('resize', all);
+    if (document.fonts && document.fonts.ready) document.fonts.ready.then(all);
+  }
+  /* the ranking as a map: conditions across, price up, the read zones shaded, a rule-based read replaces the sample paragraph */
+  function rankMap(rank){
+    var host = document.getElementById('rank-map'), svg = document.getElementById('rmap'), list = document.getElementById('rank-map-list'), readBox = document.getElementById('rank-read');
+    if (!host || !svg) return;
+    var pts = [], cash = null;
+    document.querySelectorAll('tr[data-rank]').forEach(function(tr){
+      var r = rank[tr.getAttribute('data-rank')]; if (!r || r.cond == null) return;
+      var nm = tr.querySelector('td.name').textContent.trim(), p = {name: SHORT[nm] || nm, cond: r.cond, price: r.price, read: r.read || '', cw: r.cond_wow, pw: r.price_wow, tags: r.tags || ''};
+      if (r.price == null) { cash = p; return; }
+      pts.push(p);
+    });
+    if (!pts.length) { host.classList.add('sample'); return; }
+    host.classList.remove('sample');
+    var cls = function(read){ return /aligned up/i.test(read) ? 'up' : /aligned down/i.test(read) ? 'down' : /ahead/i.test(read) ? 'ahead' : /divergence/i.test(read) ? 'div' : 'neu'; };
+    var X0 = 56, X1 = 616, Y0 = 16, Y1 = 352, L = 2.2;
+    var px = function(v){ return X0 + (Math.max(-L, Math.min(L, v)) + L) / (2 * L) * (X1 - X0); }, py = function(v){ return Y1 - (Math.max(-L, Math.min(L, v)) + L) / (2 * L) * (Y1 - Y0); };
+    while (svg.firstChild) svg.removeChild(svg.firstChild);
+    var zone = function(c, xa, xb, ya, yb){ svg.appendChild(svgEl('rect', {class: 'zone ' + c, x: Math.min(px(xa), px(xb)), y: Math.min(py(ya), py(yb)), width: Math.abs(px(xb) - px(xa)), height: Math.abs(py(yb) - py(ya))})); };
+    zone('al-up', 0.5, L, 0.5, L); zone('al-down', -L, -0.5, -L, -0.5); zone('div', -L, -0.5, 0.5, L); zone('div', 0.5, L, -L, -0.5);
+    zone('', 0.5, L, -0.5, 0.5); zone('', -L, -0.5, -0.5, 0.5); zone('', -0.5, 0.5, 0.5, L); zone('', -0.5, 0.5, -L, -0.5); zone('mid', -0.5, 0.5, -0.5, 0.5);
+    svg.appendChild(svgEl('line', {class: 'ax', x1: px(0), y1: Y0, x2: px(0), y2: Y1})); svg.appendChild(svgEl('line', {class: 'ax', x1: X0, y1: py(0), x2: X1, y2: py(0)}));
+    [-0.5, 0.5].forEach(function(v){ svg.appendChild(svgEl('line', {class: 'bd', x1: px(v), y1: Y0, x2: px(v), y2: Y1})); svg.appendChild(svgEl('line', {class: 'bd', x1: X0, y1: py(v), x2: X1, y2: py(v)})); });
+    var txt = function(c, x, y, t, a){ var e = svgEl('text', {class: c, x: x, y: y}); if (a) e.setAttribute('text-anchor', a); e.textContent = t; svg.appendChild(e); return e; };
+    [-2, -1, 0, 1, 2].forEach(function(v){ txt('tick', px(v), Y1 + 14, (v > 0 ? '+' : '') + v, 'middle'); txt('tick', X0 - 8, py(v) + 3, (v > 0 ? '+' : '') + v, 'end'); });
+    txt('al', (X0 + X1) / 2, Y1 + 32, 'Conditions score, the twelve-month case (-2 to +2)', 'middle');
+    txt('al', 14, (Y0 + Y1) / 2, 'Price score, the trend rules (-2 to +2)', 'middle').setAttribute('transform', 'rotate(-90 14 ' + ((Y0 + Y1) / 2) + ')');
+    txt('zl', X1 - 8, Y0 + 14, 'Aligned up', 'end'); txt('zl', X0 + 8, Y1 - 8, 'Aligned down'); txt('zl', X0 + 8, Y0 + 14, 'Divergence'); txt('zl', X1 - 8, Y1 - 8, 'Divergence', 'end');
+    txt('zl', X1 - 8, py(0) - 6, 'Conditions ahead', 'end'); txt('zl', X0 + 8, py(0) - 6, 'Conditions ahead'); txt('zl', px(0), Y0 + 14, 'Price ahead', 'middle'); txt('zl', px(0), Y1 - 8, 'Price ahead', 'middle');
+    /* points sharing a spot fan out to the right so each stays visible */
+    var placedPts = [];
+    pts.sort(function(a, b){ return a.cond - b.cond || a.price - b.price; });
+    pts.forEach(function(p){
+      p.x = px(p.cond); p.y = py(p.price);
+      var guard = 0; while (placedPts.some(function(q){ return Math.abs(q.x - p.x) < 8 && Math.abs(q.y - p.y) < 8; }) && guard++ < 12) p.x += 9;
+      placedPts.push(p);
+    });
+    var placed = [];
+    pts.slice().sort(function(a, b){ return a.y - b.y; }).forEach(function(p){
+      var g = svgEl('g', {}), t = svgEl('title', {}); t.textContent = p.name + ': conditions ' + sgn1(p.cond) + ', price ' + sgn1(p.price) + ', ' + p.read + (p.tags ? ' (' + p.tags + ')' : ''); g.appendChild(t);
+      if (p.cw != null && p.pw != null && (p.cw || p.pw)) { var ox = px(p.cond - p.cw), oy = py(p.price - p.pw); g.appendChild(svgEl('line', {class: 'wk', x1: ox, y1: oy, x2: p.x, y2: p.y})); g.appendChild(svgEl('circle', {class: 'wp', cx: ox, cy: oy, r: 2.5})); }
+      g.appendChild(svgEl('circle', {class: 'pt ' + cls(p.read), cx: p.x, cy: p.y, r: 5.5}));
+      var w = p.name.length * 6.4, cands = [{x: p.x + 9, y: p.y + 4, a: 'start'}, {x: p.x - 9, y: p.y + 4, a: 'end'}, {x: p.x, y: p.y - 10, a: 'middle'}, {x: p.x, y: p.y + 17, a: 'middle'}];
+      var bx = function(c){ var x1 = c.a === 'start' ? c.x : c.a === 'end' ? c.x - w : c.x - w / 2; return {x1: x1, x2: x1 + w, y1: c.y - 10, y2: c.y + 2}; };
+      var hits = function(b){ return b.x1 < X0 + 2 || b.x2 > X1 - 2 || b.y1 < Y0 || placed.some(function(q){ return b.x1 < q.x2 && b.x2 > q.x1 && b.y1 < q.y2 && b.y2 > q.y1; }) || pts.some(function(q){ return q !== p && b.x1 < q.x + 7 && b.x2 > q.x - 7 && b.y1 < q.y + 7 && b.y2 > q.y - 7; }); };
+      var pick = null; for (var i = 0; i < cands.length && !pick; i++) if (!hits(bx(cands[i]))) pick = cands[i];
+      if (!pick) { pick = cands[0]; var gd = 0; while (hits(bx(pick)) && gd++ < 20) pick.y += 12; }
+      placed.push(bx(pick));
+      if (Math.abs(pick.y - (p.y + 4)) > 14) g.insertBefore(svgEl('line', {class: 'ld', x1: p.x, y1: p.y, x2: pick.a === 'middle' ? pick.x : pick.x - (pick.a === 'start' ? 2 : -2), y2: pick.y - 4}), g.firstChild);
+      var tl = svgEl('text', {class: 'pl', x: pick.x, y: pick.y, 'text-anchor': pick.a}); tl.textContent = p.name; g.appendChild(tl);
+      svg.appendChild(g);
+    });
+    var groups = [['Aligned up', 'up', /aligned up/i], ['Price ahead of conditions', 'ahead', /price ahead/i], ['Conditions ahead of price', 'ahead', /conditions ahead/i], ['Divergence', 'div', /divergence/i], ['Aligned down', 'down', /aligned down/i], ['Neutral', 'neu', /neutral/i]];
+    var byCond = pts.slice().sort(function(a, b){ return b.cond - a.cond; }), parts = [];
+    if (list) list.innerHTML = '';
+    groups.forEach(function(gp){
+      var names = byCond.filter(function(p){ return gp[2].test(p.read); }).map(function(p){ return p.name; });
+      if (!names.length) return;
+      if (list) { var li = el('li'); li.appendChild(el('i', gp[1])); li.appendChild(el('b', null, gp[0] + ' (' + names.length + '): ')); li.appendChild(document.createTextNode(names.join(', '))); list.appendChild(li); }
+      parts.push('<b>' + gp[0] + ':</b> ' + names.join(', ') + '.');
+    });
+    if (cash) parts.push('<b>Cash</b> is read on conditions alone (' + sgn1(cash.cond) + ').');
+    if (readBox) { readBox.classList.remove('draft'); readBox.innerHTML = '<span class="label">Read (rule-based, live)</span>' + parts.join(' '); }
+    svg.setAttribute('aria-label', 'Ranking map, conditions across and price up. ' + parts.join(' ').replace(/<[^>]+>/g, ''));
+  }
+  /* twelve months behind each composite dot */
+  function compTrails(R){
+    document.querySelectorAll('[data-comp]').forEach(function(row){
+      var cmp = R && R.composites && R.composites[row.getAttribute('data-comp')], svg = row.querySelector('svg.ctrail'); if (!svg) return;
+      if (!cmp || !cmp.trail || cmp.trail.length < 2) { svg.style.display = 'none'; return; }
+      var v = cmp.trail, n = v.length, W = 120, H = 26; while (svg.firstChild) svg.removeChild(svg.firstChild); svg.setAttribute('viewBox', '0 0 120 26');
+      var x = function(i){ return 3 + i * (W - 6) / (n - 1); }, y = function(u){ return H / 2 - Math.max(-2, Math.min(2, u)) / 2 * (H / 2 - 3); };
+      svg.appendChild(svgEl('line', {class: 'z', x1: 0, y1: H / 2, x2: W, y2: H / 2}));
+      svg.appendChild(svgEl('polyline', {class: 'ln', points: v.map(function(u, i){ return x(i).toFixed(1) + ',' + y(u).toFixed(1); }).join(' ')}));
+      svg.appendChild(svgEl('circle', {class: 'ed', cx: x(n - 1), cy: y(v[n - 1]), r: 2.8}));
+      var t = svgEl('title', {}); t.textContent = 'Month ends from ' + (cmp.trail_from || '') + ', then now: ' + v.map(sgn1).join(', '); svg.appendChild(t); svg.style.display = '';
+    });
+    var head = document.getElementById('ctrail-head');
+    if (head && R && R.composites) { var any = Object.keys(R.composites).map(function(k){ return R.composites[k]; }).filter(function(c){ return c && c.trail_from; })[0]; if (any) head.textContent = 'from ' + any.trail_from; }
+  }
+  /* the week strip: one column per day, the session's options-implied move as a bar against a normal session */
+  function calStrip(CAL){
+    var host = document.getElementById('cal-strip'), title = document.getElementById('cs-title'); if (!host || !CAL || !CAL.rows) return;
+    var rows = CAL.rows.filter(function(r){ return r.range === 'week'; }); if (!rows.length) return;
+    var dates = []; rows.forEach(function(r){ if (dates.indexOf(r.date) < 0) dates.push(r.date); }); dates.sort(); if (dates.length > 8) dates = dates.slice(0, 8);
+    var base = num(CAL.implied && CAL.implied.base); if (isNaN(base)) base = 0;
+    var mx = Math.max(base, 0.1); rows.forEach(function(r){ if (r.implied) mx = Math.max(mx, r.implied); }); mx *= 1.3;
+    var Hc = 64, hpx = function(v){ return Math.round(v / mx * (Hc - 2)); };
+    host.innerHTML = ''; host.style.gridTemplateColumns = 'repeat(' + dates.length + ',minmax(96px,1fr))';
+    dates.forEach(function(d, di){
+      var day = rows.filter(function(r){ return r.date === d; }), imp = 0, t1 = false;
+      day.forEach(function(r){ if (r.implied && r.implied > imp) imp = r.implied; if (r.tier === 1) t1 = true; });
+      var closed = day.filter(function(r){ return r.dim; }), usClosed = closed.some(function(r){ return /^US|New York|NYSE|Wall Street/i.test(r.name); });
+      var col = el('div', 'cs-day' + (d === CAL.today ? ' today' : '') + (usClosed ? ' closed' : ''));
+      var parts = (day[0].day || '').split(' '), hd = el('div', 'cs-head'); hd.appendChild(el('b', null, parts[0] || '')); hd.appendChild(document.createTextNode(parts.slice(1).join(' '))); col.appendChild(hd);
+      var chart = el('div', 'cs-chart');
+      if (base) { var bl = el('i', 'base'); bl.style.bottom = hpx(base) + 'px'; chart.appendChild(bl); if (di === 0) { var lab = el('span', 'bl', 'normal ±' + base.toFixed(1) + '%'); lab.style.bottom = (hpx(base) + 3) + 'px'; chart.appendChild(lab); } }
+      if (imp) { var bar = el('b', 'bar' + (t1 ? ' t1' : '')); bar.style.height = hpx(imp) + 'px'; bar.title = 'Options price a ' + imp.toFixed(1) + '% S&P move for this session'; chart.appendChild(bar); var vv = el('span', 'v' + (t1 ? ' t1' : ''), '±' + imp.toFixed(1) + '%'); vv.style.bottom = Math.max(0, hpx(imp) - 5) + 'px'; chart.appendChild(vv); }
+      else chart.appendChild(el('span', 'none', usClosed ? 'US closed' : 'no session priced'));
+      col.appendChild(chart);
+      var ul = el('ul', 'cs-ev');
+      day.forEach(function(r){
+        var li = el('li', r.dim ? 'cl' : (r.tier === 1 ? 't1' : ''));
+        if (!r.dim) li.appendChild(el('span', 't', (r.time || '').split(' / ')[0] || ''));
+        li.appendChild(el('span', null, r.name)); if (r.touches) li.title = r.touches; ul.appendChild(li);
+      });
+      col.appendChild(ul); host.appendChild(col);
+    });
+    var n1 = rows.filter(function(r){ return r.tier === 1; }).length;
+    if (title) { title.innerHTML = '<b>Sessions this week</b><span>The bar is the S&amp;P move options price for that session (chain as of ' + (CAL.implied && CAL.implied.asof ? CAL.implied.asof : 'n/a') + '), the dashed line a normal session; tier-1 events in bold, times in Eastern. ' + n1 + ' tier-1 event' + (n1 === 1 ? '' : 's') + ' this week.</span>'; title.hidden = false; }
+    host.hidden = false;
+  }
+  /* section 2: the Treasury curve (now, a month ago, a year ago) and the fed funds path from the futures strip */
+  function ratesCharts(RT){
+    var ct = document.querySelector('[data-chart="curve"]'), pt = document.querySelector('[data-chart="path"]');
+    var live = function(tile, src){ tile.classList.remove('sample'); tile.classList.add('live'); var s = tile.querySelector('.src'); if (s) { s.textContent = src; s.className = 'src live'; } };
+    var txt = function(svg, c, x, y, t, a){ var e = svgEl('text', {class: c, x: x, y: y}); if (a) e.setAttribute('text-anchor', a); e.textContent = t; svg.appendChild(e); return e; };
+    var nice = function(lo, hi){ var span = hi - lo, step = span > 3 ? 1 : span > 1.5 ? 0.5 : 0.25, out = [], v = Math.ceil(lo / step) * step; for (; v <= hi + 1e-9; v += step) out.push(+v.toFixed(2)); return out; };
+    if (ct && RT && RT.curve) {
+      var C = RT.curve, svg = ct.querySelector('svg.ch'); while (svg.firstChild) svg.removeChild(svg.firstChild);
+      var X0 = 36, X1 = 292, Y0 = 10, Y1 = 124, n = C.tenors.length, all = [].concat(C.now, C.m1, C.y1).filter(function(v){ return v != null; });
+      var lo = Math.min.apply(null, all) - 0.15, hi = Math.max.apply(null, all) + 0.15;
+      var x = function(i){ return X0 + i * (X1 - X0) / (n - 1); }, y = function(v){ return Y1 - (v - lo) / (hi - lo) * (Y1 - Y0); };
+      nice(lo, hi).forEach(function(v){ svg.appendChild(svgEl('line', {class: 'gd', x1: X0, y1: y(v), x2: X1, y2: y(v)})); txt(svg, 'tk', X0 - 5, y(v) + 3, fmtPct(v), 'end'); });
+      svg.appendChild(svgEl('line', {class: 'ax', x1: X0, y1: Y1, x2: X1, y2: Y1}));
+      C.tenors.forEach(function(t, i){ txt(svg, 'tk', x(i), Y1 + 12, t, 'middle'); });
+      [['y1', C.y1], ['m1', C.m1], ['now', C.now]].forEach(function(pr){ var pl = []; pr[1].forEach(function(v, i){ if (v != null) pl.push(x(i).toFixed(1) + ',' + y(v).toFixed(1)); }); if (pl.length > 1) svg.appendChild(svgEl('polyline', {class: 'ln ' + pr[0], points: pl.join(' ')})); });
+      var last = C.now[n - 1]; if (last != null) txt(svg, 'lb', X1 + 4, y(last) + 3, last.toFixed(2) + '%');
+      svg.setAttribute('aria-label', 'Treasury curve as of ' + C.date + ': ' + C.tenors.map(function(t, i){ return t + ' ' + C.now[i] + '%'; }).join(', ') + '. A month ago (' + C.m1_date + ') and a year ago (' + C.y1_date + ') are the dashed lines.');
+      var lg = ct.querySelector('.legend'); if (lg) lg.innerHTML = '<span><i></i>Now, ' + C.date + '</span><span><i class="m1"></i>' + C.m1_date + '</span><span><i class="y1"></i>' + C.y1_date + '</span>';
+      live(ct, 'FRED, ' + C.date);
+    }
+    if (pt && RT && RT.path && RT.path.points && RT.path.points.length > 1) {
+      var P = RT.path, sv = pt.querySelector('svg.ch'); while (sv.firstChild) sv.removeChild(sv.firstChild);
+      var Xa = 36, Xb = 292, Ya = 10, Yb = 116, m = P.points.length, vals = P.points.map(function(p){ return p.rate; }); if (P.effr != null) vals.push(P.effr);
+      var lo2 = Math.min.apply(null, vals) - 0.12, hi2 = Math.max.apply(null, vals) + 0.12;
+      var xp = function(i){ return Xa + (i + 0.5) * (Xb - Xa) / m; }, yp = function(v){ return Yb - (v - lo2) / (hi2 - lo2) * (Yb - Ya); };
+      nice(lo2, hi2).forEach(function(v){ sv.appendChild(svgEl('line', {class: 'gd', x1: Xa, y1: yp(v), x2: Xb, y2: yp(v)})); txt(sv, 'tk', Xa - 5, yp(v) + 3, fmtPct(v), 'end'); });
+      sv.appendChild(svgEl('line', {class: 'ax', x1: Xa, y1: Yb, x2: Xb, y2: Yb}));
+      P.points.forEach(function(p, i){ txt(sv, 'tk', xp(i), Yb + 12, p.label.slice(0, 3), 'middle'); if (i === 0 || p.label.slice(0, 3) === 'Jan') txt(sv, 'tk', xp(i), Yb + 23, p.label.slice(4), 'middle'); });
+      if (P.effr != null) { sv.appendChild(svgEl('line', {class: 'ref', x1: Xa, y1: yp(P.effr), x2: Xb, y2: yp(P.effr)})); txt(sv, 'rl', Xb, yp(P.effr) - 4, 'effective ' + P.effr.toFixed(2) + '%', 'end'); }
+      var d = ''; P.points.forEach(function(p, i){ var xl = Xa + i * (Xb - Xa) / m, xr = Xa + (i + 1) * (Xb - Xa) / m, yy = yp(p.rate); d += (i ? ' L' + xl.toFixed(1) + ',' + yy.toFixed(1) : 'M' + xl.toFixed(1) + ',' + yy.toFixed(1)) + ' L' + xr.toFixed(1) + ',' + yy.toFixed(1); });
+      sv.appendChild(svgEl('path', {class: 'ln now', d: d}));
+      P.points.forEach(function(p, i){ var c = svgEl('circle', {class: 'mp' + (p.fomc ? ' f' : ''), cx: xp(i), cy: yp(p.rate), r: p.fomc ? 4 : 2.5}), t = svgEl('title', {}); t.textContent = p.label + ': ' + p.rate.toFixed(2) + '%' + (p.fomc ? ', FOMC meeting' : ''); c.appendChild(t); sv.appendChild(c); });
+      var lastP = P.points[m - 1]; txt(sv, 'lb', Xb + 4, yp(lastP.rate) + 3, lastP.rate.toFixed(2) + '%');
+      var dlt = document.getElementById('path-delta');
+      if (dlt && P.steps != null) { var k = Math.abs(P.steps); dlt.className = 'delta'; dlt.innerHTML = (P.steps > 0.05 ? '▼' : P.steps < -0.05 ? '▲' : '■') + '&nbsp;' + k.toFixed(1) + '&nbsp;' + (P.steps >= 0 ? 'cuts' : 'hikes') + ' <span class="vs">priced by ' + lastP.label + ', against the effective rate</span>'; }
+      sv.setAttribute('aria-label', 'Fed funds path from futures as of ' + P.date + ': ' + P.points.map(function(p){ return p.label + ' ' + p.rate.toFixed(2) + '%'; }).join(', ') + '.');
+      live(pt, 'Yahoo ZQ futures, ' + P.date);
+    }
+  }
+  function visuals(data){
+    var v2 = data.v2 || {};
+    encodeCells(); mobileLabels(); overflowFades();
+    rankMap(data.rank || {}); compTrails(v2.regime); calStrip(v2.calendar); ratesCharts(v2.rates);
+  }
   function fillV2(v){
     var R = v.regime, T = v.rotation;
     if (R) {
@@ -1982,12 +2355,20 @@ footer.end{padding:28px 0 48px;border-top:1px solid var(--hair);font-size:12px;c
       if (box && T.cards) {
         box.innerHTML = '';
         if (!T.cards.length) box.appendChild(el('div', 'empty', 'No theme is in an alert state today.'));
-        T.cards.forEach(function(cd){
-          var a = el('div', 'alert'), top = el('div', 'top'), h4 = el('h4', null, cd.name + ' '); h4.appendChild(el('span', null, cd.tk)); top.appendChild(h4);
-          var chipWrap = document.createElement('span'); chipWrap.innerHTML = cd.chip; top.appendChild(chipWrap.firstChild); a.appendChild(top);
-          var sc = el('div', 'score'); var meter = el('span', 'meter' + (cd.fade ? ' fade' : '')); for (var i = 0; i < 5; i++) meter.appendChild(el('i', i < cd.count ? 'on' : '')); sc.appendChild(meter); sc.appendChild(document.createTextNode(cd.count + ' of 5' + (cd.since ? ', since ' + cd.since : ''))); a.appendChild(sc);
-          var ul = document.createElement('ul'); cd.lines.forEach(function(ln){ var li = document.createElement('li'); li.appendChild(el('b', ln.cls, ln.mark)); li.appendChild(el('span', null, ln.text)); ul.appendChild(li); }); a.appendChild(ul);
-          a.appendChild(el('p', 'so', cd.so)); a.appendChild(el('span', 'meta', cd.meta)); box.appendChild(a);
+        /* v4.1: state changes first, then the watch and exit cards collapsed to their header (open one for its conditions) */
+        var ORDER = {confirmed: 0, developing: 1, early: 2, fading: 3, watch: 4, watch_exit: 5}, lastGrp = null;
+        T.cards.slice().sort(function(a, b){ return (ORDER[a.state] == null ? 9 : ORDER[a.state]) - (ORDER[b.state] == null ? 9 : ORDER[b.state]); }).forEach(function(cd){
+          var quiet = cd.state === 'watch' || cd.state === 'watch_exit';
+          var grp = quiet ? 'Watch and exits: one signal or none, collapsed' : 'State changes: two signals or more';
+          if (grp !== lastGrp) { box.appendChild(el('div', 'grp', grp)); lastGrp = grp; }
+          var a = document.createElement(quiet ? 'details' : 'div'); a.className = 'alert' + (quiet ? ' quiet' : '');
+          var head = quiet ? document.createElement('summary') : a, body = quiet ? el('div', 'body') : a;
+          var top = el('div', 'top'), h4 = el('h4', null, cd.name + ' '); h4.appendChild(el('span', null, cd.tk)); top.appendChild(h4);
+          var chipWrap = document.createElement('span'); chipWrap.innerHTML = cd.chip; top.appendChild(chipWrap.firstChild); head.appendChild(top);
+          var sc = el('div', 'score'); var meter = el('span', 'meter' + (cd.fade ? ' fade' : '')); for (var i = 0; i < 5; i++) meter.appendChild(el('i', i < cd.count ? 'on' : '')); sc.appendChild(meter); sc.appendChild(document.createTextNode(cd.count + ' of 5' + (cd.since ? ', since ' + cd.since : ''))); head.appendChild(sc);
+          if (quiet) { head.appendChild(el('span', 'hint', 'Conditions and backtest')); a.appendChild(head); a.appendChild(body); }
+          var ul = document.createElement('ul'); cd.lines.forEach(function(ln){ var li = document.createElement('li'); li.appendChild(el('b', ln.cls, ln.mark)); li.appendChild(el('span', null, ln.text)); ul.appendChild(li); }); body.appendChild(ul);
+          body.appendChild(el('p', 'so', cd.so)); body.appendChild(el('span', 'meta', cd.meta)); box.appendChild(a);
         });
       }
       if (T.map && T.map.length) {
@@ -2004,7 +2385,7 @@ footer.end{padding:28px 0 48px;border-top:1px solid var(--hair);font-size:12px;c
           var ax = rrg.querySelector('text.al[y="402"]'); if (ax) ax.textContent = 'Relative strength vs S&P 500 (100 = par; ' + (100 - R) + ' left, ' + (100 + R) + ' right)';
           var ay = rrg.querySelector('text.al[x="14"]'); if (ay) ay.textContent = 'Momentum of relative strength (' + (100 - M) + ' to ' + (100 + M) + ')';
         }
-        var placed = [];
+        var placed = [], allPts = T.map.map(function(q){ return {key: q.key, x: sx(q.rs), y: sy(q.mom)}; });
         T.map.slice().sort(function(a, b){ return sy(a.mom) - sy(b.mom); }).forEach(function(m){
           var g = document.querySelector('g[data-map="' + m.key + '"]'); if (!g) return;
           var xy = [sx(m.rs), sy(m.mom)], tail = m.tail.map(function(p){ return [sx(p[0]), sy(p[1])]; });
@@ -2016,12 +2397,17 @@ footer.end{padding:28px 0 48px;border-top:1px solid var(--hair);font-size:12px;c
           if (pt) { pt.setAttribute('cx', xy[0].toFixed(1)); pt.setAttribute('cy', xy[1].toFixed(1)); pt.setAttribute('class', 'pt' + (m.hot ? ' hot' : '')); }
           var tx = g.querySelector('text.pl');
           if (tx) {
-            var right = xy[0] > 540, lx = right ? xy[0] - 8 : xy[0] + 8, ly = xy[1] + 4, w = tx.textContent.length * 6.5, guard = 0;
-            /* nudge a label down while it overlaps one already placed nearby (labels are placed top to bottom) */
-            var clash = function(){ return placed.some(function(p){ return Math.abs(p.y - ly) < 12 && (right ? lx - w : lx) < p.x2 && (right ? lx : lx + w) > p.x1; }); };
-            while (clash() && guard++ < 20) ly += 12;
-            placed.push({x1: right ? lx - w : lx, x2: right ? lx : lx + w, y: ly});
-            tx.setAttribute('x', lx.toFixed(1)); tx.setAttribute('y', ly.toFixed(1)); if (right) tx.setAttribute('text-anchor', 'end'); else tx.removeAttribute('text-anchor');
+            /* v4.1: try right, left, above, below; a label may not cover another label or another point; nudge down as the last resort, with a leader line */
+            var w = tx.textContent.length * 6.4, cands = [{x: xy[0] + 8, y: xy[1] + 4, a: 'start'}, {x: xy[0] - 8, y: xy[1] + 4, a: 'end'}, {x: xy[0], y: xy[1] - 9, a: 'middle'}, {x: xy[0], y: xy[1] + 16, a: 'middle'}];
+            var bx = function(cd){ var x1 = cd.a === 'start' ? cd.x : cd.a === 'end' ? cd.x - w : cd.x - w / 2; return {x1: x1, x2: x1 + w, y1: cd.y - 10, y2: cd.y + 2}; };
+            var hits = function(b){ return b.x1 < 62 || b.x2 > 618 || b.y1 < 20 || placed.some(function(p){ return b.x1 < p.x2 && b.x2 > p.x1 && b.y1 < p.y2 && b.y2 > p.y1; }) || allPts.some(function(p){ return p.key !== m.key && b.x1 < p.x + 6 && b.x2 > p.x - 6 && b.y1 < p.y + 6 && b.y2 > p.y - 6; }); };
+            var pick = null;
+            for (var ci = 0; ci < cands.length && !pick; ci++) if (!hits(bx(cands[ci]))) pick = cands[ci];
+            if (!pick) { pick = cands[0]; var guard = 0; while (hits(bx(pick)) && guard++ < 20) pick.y += 12; }
+            placed.push(bx(pick));
+            tx.setAttribute('x', pick.x.toFixed(1)); tx.setAttribute('y', pick.y.toFixed(1)); tx.setAttribute('text-anchor', pick.a);
+            var oldLd = g.querySelector('line.ld'); if (oldLd) oldLd.remove();
+            if (Math.abs(pick.y - (xy[1] + 4)) > 14) g.insertBefore(svgEl('line', {class: 'ld', x1: xy[0].toFixed(1), y1: xy[1].toFixed(1), x2: (pick.a === 'middle' ? pick.x : pick.x - (pick.a === 'start' ? 2 : -2)).toFixed(1), y2: (pick.y - 4).toFixed(1)}), g.firstChild);
           }
         });
         var mapSub = rrg && rrg.parentNode.querySelector('p.sub'); if (mapSub) mapSub.textContent = 'Each theme is placed by its relative strength against the S&P 500 (right is stronger) and the momentum of that strength (up is accelerating). Themes rotate clockwise through the quadrants over time; the short tail shows the last three weeks. Ringed points have an active alert. Axes scale to the data, so the numbers on them change.';
@@ -2096,9 +2482,22 @@ footer.end{padding:28px 0 48px;border-top:1px solid var(--hair);font-size:12px;c
           tr.appendChild(el('td', 'name', st.name));
           var n = el('td', 'n live', String(st.n)); n.title = 'Releases since ' + st.from; tr.appendChild(n);
           [g('spx', 'med'), g('spx', 'p90'), g('spx', 'up'), g('dgs10', 'med'), g('dxy', 'med'), g('gold', 'med'), g('spx', 'med5')].forEach(function(x){ tr.appendChild(el('td', 'n live', x)); });
-          tr.appendChild(el('td', 'txt live', st.next ? st.next.date + ': ' + st.next.implied : ''));
+          /* v4.1: implied against history as one bar: the median, the worst tenth, the options-implied marker */
+          var ti = el('td', 'txt live'), med = num(g('spx', 'med')), p90 = num(g('spx', 'p90')), im = st.next ? num(st.next.implied) : NaN;
+          if (!isNaN(med) && !isNaN(p90)) {
+            var wrap = el('div', 'istudy'), mxs = Math.max(p90, isNaN(im) ? 0 : im) * 1.15 || 1, Xs = function(v){ return (v / mxs * 120).toFixed(1); };
+            var sg = svgEl('svg', {viewBox: '0 0 120 14', 'aria-hidden': 'true'});
+            sg.appendChild(svgEl('rect', {class: 'p90', x: 0, y: 3, width: Xs(p90), height: 8})); sg.appendChild(svgEl('rect', {class: 'med', x: 0, y: 3, width: Xs(med), height: 8}));
+            sg.appendChild(svgEl('line', {class: 'ax', x1: 0, y1: 11.5, x2: 120, y2: 11.5}));
+            if (!isNaN(im)) sg.appendChild(svgEl('line', {class: 'im', x1: Xs(im), y1: 0, x2: Xs(im), y2: 14}));
+            wrap.appendChild(sg); wrap.appendChild(el('span', null, st.next ? st.next.date + ': ' + st.next.implied : 'no chain'));
+            wrap.title = 'Median ' + g('spx', 'med') + ', worst tenth ' + g('spx', 'p90') + (st.next ? '; options price ' + st.next.implied + ' for ' + st.next.date : '');
+            ti.appendChild(wrap);
+          } else ti.textContent = st.next ? st.next.date + ': ' + st.next.implied : '';
+          tr.appendChild(ti);
           sbody.appendChild(tr);
         });
+        var slg = document.getElementById('study-legend'); if (slg) slg.hidden = false;
         var sfoot = document.getElementById('study-foot');
         if (sfoot) sfoot.innerHTML = '<b>Live.</b> Release dates from the BLS archives and the Fed\'s meeting pages; moves from the daily closes the rest of the page uses (the 10Y in basis points of yield). The median absolute move on the release session, the 90th percentile of it, and the share of sessions that closed up. Implied moves come from the SPX chain\'s at-the-money volatility per daily expiry: the variance between two consecutive expiries is one session\'s.';
       }
@@ -2127,6 +2526,8 @@ footer.end{padding:28px 0 48px;border-top:1px solid var(--hair);font-size:12px;c
     document.querySelectorAll('[data-tile], [data-strip], [data-cell]').forEach(markSample);
     document.querySelectorAll('tr[data-rank]').forEach(function(tr){ [2, 3, 4, 5, 6, 7].forEach(function(i){ if (tr.children[i]) tr.children[i].classList.add('sample'); }); });
     document.querySelectorAll('.card h3').forEach(function(h3){ if (h3.parentNode.querySelector('[data-cell]')) { var s = document.createElement('span'); s.className = 'src'; s.textContent = 'sample'; h3.appendChild(s); } });
+    encodeCells(); mobileLabels(); overflowFades();
+    var rm = document.getElementById('rank-map'); if (rm) rm.classList.add('sample');
     if (stamp) stamp.textContent = 'no data file loaded';
     if (count) count.textContent = msg;
   }

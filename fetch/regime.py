@@ -231,7 +231,7 @@ def compute(D):
         series = composite_series(ins)
         d, v = latest(series)
         comps[key] = {"value": round(v, 2) if v is not None else None, "date": d, "n_inputs": len(ins),
-                      "trail": [(dd, round(vv, 2)) for dd, vv in month_end_points(series, 7)]}
+                      "trail": [(dd, round(vv, 2)) for dd, vv in month_end_points(series, 13)]}
     g, i = comps["growth"]["value"], comps["infl"]["value"]
     q = quadrant(g, i) if g is not None and i is not None else (None, None)
     flags = {

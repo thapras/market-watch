@@ -33,6 +33,8 @@ FRED = {
     "bankcredit": "TOTBKCR", "reserves": "WRESBAL", "sofr": "SOFR", "iorb": "IORB",
     "ffu": "DFEDTARU", "effr": "EFFR", "gdp": "GDP",
     "dgs2": "DGS2", "dgs10": "DGS10", "dgs3mo": "DGS3MO", "t10y2y": "T10Y2Y", "t10y3m": "T10Y3M",
+    # v4.1: the rest of the curve for the yield-curve chart (1 month, 1, 5 and 30 years)
+    "dgs1mo": "DGS1MO", "dgs1": "DGS1", "dgs5": "DGS5", "dgs30": "DGS30",
     "dfii10": "DFII10", "t10yie": "T10YIE", "t5yifr": "T5YIFR", "tp10": "THREEFYTP10",
     "hy": "BAMLH0A0HYM2", "ig": "BAMLC0A0CM", "ccc": "BAMLH0A3HYC", "nfci": "NFCI",
     "mtg": "MORTGAGE30US", "broadusd": "DTWEXBGS", "sahm": "SAHMREALTIME", "claims4": "IC4WSA",

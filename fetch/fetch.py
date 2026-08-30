@@ -28,6 +28,17 @@ def ff_contract(today):
     return "ZQ%s%02d.CBT" % (FED_FUNDS_MONTH_CODES[m - 1], y % 100)
 
 
+def ff_strip(today, months=12):
+    """Fed funds futures for the next `months` months, Yahoo symbols: [(year-month, symbol)]."""
+    out, y, m = [], today.year, today.month
+    for _ in range(months):
+        m += 1
+        if m > 12:
+            m, y = 1, y + 1
+        out.append(("%d-%02d" % (y, m), "ZQ%s%02d.CBT" % (FED_FUNDS_MONTH_CODES[m - 1], y % 100)))
+    return out
+
+
 def nap(seconds):
     """Be polite to the feeds, but not to the dev cache."""
     if not sources.LAST_FROM_CACHE:
@@ -59,6 +70,18 @@ def fetch_all(log):
         D["ff12_sym"] = sym
     except Exception as e:          # noqa: BLE001
         errors.append("Yahoo %s (fed funds 12m): %s" % (sym, e))
+    # v4.1: the whole strip, one contract per month, for the fed funds path chart (last close only)
+    strip_, misses = [], []
+    for ym, s in ff_strip(dt.datetime.now(BKK).date()):
+        try:
+            q = sources.yahoo(s, "6mo")["close"]
+            strip_.append({"ym": ym, "sym": s, "close": q[-1][1], "date": q[-1][0]})
+        except Exception as e:      # noqa: BLE001
+            misses.append("%s: %s" % (s, str(e).split(":")[-1].strip()))
+        nap(0.2)
+    D["ff_strip"] = strip_
+    if misses:
+        errors.append("Yahoo fed funds strip: %d of 12 contracts missing (%s)" % (len(misses), "; ".join(misses)))
     others = []
     others += [(k, "BIS %s" % a, lambda a=a: sources.bis_policy(a)) for k, a in BIS.items()]
     others += [(k, "EIA %s" % sid, lambda sid=sid: sources.eia_weekly(sid)) for k, sid in EIA_WEEKLY.items()]

@@ -476,6 +476,67 @@ def rates(D, o):
                              c.sample_points(s, 12, "month"), "%", "FRED MORTGAGE30US", dl(s[-1][0], "w")))
     o.guard("rt.mtg", mtg)
 
+    # v4.1: the two charts of section 2, the curve and the futures path
+    def curve_v2():
+        blk = curve_block(D)
+        if blk:
+            o.v2.setdefault("rates", {})["curve"] = blk
+    o.guard("rates.curve", curve_v2)
+
+    def path_v2():
+        blk = path_block(D)
+        if blk:
+            o.v2.setdefault("rates", {})["path"] = blk
+    o.guard("rates.path", path_v2)
+
+
+CURVE_TENORS = [("1m", "dgs1mo"), ("3m", "dgs3mo"), ("1y", "dgs1"), ("2y", "dgs2"), ("5y", "dgs5"), ("10y", "dgs10"), ("30y", "dgs30")]
+
+
+def curve_block(D):
+    """The Treasury curve now, a month ago and a year ago on the tenors with a free series; None below four tenors."""
+    have = [(lab, k) for lab, k in CURVE_TENORS if D.get(k)]
+    if len(have) < 4:
+        return None
+    end = max(D[k][-1][0] for _, k in have)
+    d_end = dt.date.fromisoformat(end)
+    m1, y1 = (d_end - dt.timedelta(days=30)).isoformat(), (d_end - dt.timedelta(days=365)).isoformat()
+    tenors, now, a, b = [], [], [], []
+    for lab, k in have:
+        s = D[k]
+        cur, p1, p2 = c.at_or_before(s, end), c.at_or_before(s, m1), c.at_or_before(s, y1)
+        if not cur:
+            continue
+        tenors.append(lab)
+        now.append(round(cur[1], 2))
+        a.append(round(p1[1], 2) if p1 else None)
+        b.append(round(p2[1], 2) if p2 else None)
+    if len(tenors) < 4:
+        return None
+    ids = ", ".join(FRED_ID.get(k, k) for _, k in have)
+    return {"tenors": tenors, "now": now, "m1": a, "y1": b, "date": dl(end), "m1_date": dl(m1), "y1_date": "%s %s" % (dl(y1), y1[:4]),
+            "src": "FRED " + ids, "dl": dl(end), "iso": end}
+
+
+def path_block(D):
+    """Fed funds path from the futures strip: one implied rate per month, FOMC months marked, the effective rate as the anchor."""
+    strip_ = sorted(D.get("ff_strip") or [], key=lambda r: r["ym"])
+    if len(strip_) < 6:
+        return None
+    effr = S(D, "effr")[-1] if D.get("effr") else None
+    meetings = set(m["end"][:7] for m in (D.get("fomc_cal") or []) if m.get("scheduled", True))
+    pts = [{"ym": r["ym"], "label": "%s %s" % (MONTHS[int(r["ym"][5:7]) - 1], r["ym"][:4]), "rate": round(100.0 - r["close"], 2), "fomc": r["ym"] in meetings}
+           for r in strip_]
+    last = max(r["date"] for r in strip_)
+    out = {"points": pts, "date": dl(last), "iso": last, "src": "Yahoo ZQ fed funds futures" + (", FRED EFFR" if effr else ""), "n": len(pts)}
+    if effr:
+        out["effr"], out["effr_date"] = round(effr[1], 2), dl(effr[0])
+        out["steps"] = round((effr[1] - pts[-1]["rate"]) / 0.25, 1)      # positive = cuts priced by the last month
+    return out
+
+
+FRED_ID = {"dgs1mo": "DGS1MO", "dgs3mo": "DGS3MO", "dgs1": "DGS1", "dgs2": "DGS2", "dgs5": "DGS5", "dgs10": "DGS10", "dgs30": "DGS30"}
+
 
 # ---------------------------------------------------------------- strip items from prices
 def strip_prices(D, o):
@@ -1133,6 +1194,14 @@ def render_v2(V, o, now):
         v = comps[k]["value"]
         comp_out[k] = None if v is None else {"v": v, "t": f_signed(v, 1), "left": round(max(0, min(100, (v + 2) / 4 * 100)), 1),
                                               "title": "%d inputs, three-year z-scores, as of %s" % (comps[k]["n_inputs"], dl(comps[k]["date"]))}
+        if comp_out[k]:
+            # v4.1: the twelve-month trail behind the dot (month ends, the live value replaces the current month)
+            tr = [x for x in comps[k]["trail"] if x[1] is not None]
+            if tr and comps[k]["date"] and tr[-1][0][:7] >= comps[k]["date"][:7]:
+                tr = tr[:-1]
+            tr = tr[-12:]
+            comp_out[k]["trail"] = [x[1] for x in tr] + [v]
+            comp_out[k]["trail_from"] = "%s %s" % (MONTHS[int(tr[0][0][5:7]) - 1], tr[0][0][:4]) if tr else ""
     trail = []
     gt = dict((d[:7], v) for d, v in comps["growth"]["trail"])
     it = dict((d[:7], v) for d, v in comps["infl"]["trail"])
