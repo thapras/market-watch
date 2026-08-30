@@ -1,0 +1,8762 @@
+{
+ "asOf": "2026-08-30T22:01+07:00",
+ "asOfLabel": "30 Aug 2026, 22:01 BKK",
+ "cells": {
+  "cb.boe.last": {
+   "s": 0,
+   "t": "Cut 25 bp, Dec 2025"
+  },
+  "cb.boe.rate": {
+   "s": 0,
+   "t": "3.75"
+  },
+  "cb.boe.stance": {
+   "h": "<span class=\"chip up\"><span class=\"g\">▼</span>Easing</span>",
+   "s": 0,
+   "t": "Easing"
+  },
+  "cb.boj.last": {
+   "s": 0,
+   "t": "Hike 25 bp, Jun 2026"
+  },
+  "cb.boj.rate": {
+   "s": 0,
+   "t": "1.00"
+  },
+  "cb.boj.stance": {
+   "h": "<span class=\"chip warn\"><span class=\"g\">▲</span>Tightening</span>",
+   "s": 0,
+   "t": "Tightening"
+  },
+  "cb.bot.last": {
+   "s": 0,
+   "t": "Cut 25 bp, Feb 2026"
+  },
+  "cb.bot.rate": {
+   "s": 0,
+   "t": "1.00"
+  },
+  "cb.bot.stance": {
+   "h": "<span class=\"chip up\"><span class=\"g\">▼</span>Easing</span>",
+   "s": 0,
+   "t": "Easing"
+  },
+  "cb.ecb.last": {
+   "s": 0,
+   "t": "Hike 25 bp, Jun 2026"
+  },
+  "cb.ecb.rate": {
+   "s": 0,
+   "t": "2.25"
+  },
+  "cb.ecb.stance": {
+   "h": "<span class=\"chip warn\"><span class=\"g\">▲</span>Tightening</span>",
+   "s": 0,
+   "t": "Tightening"
+  },
+  "cb.fed.last": {
+   "s": 0,
+   "t": "Cut 25 bp, Dec 2025"
+  },
+  "cb.fed.rate": {
+   "s": 0,
+   "t": "3.50 to 3.75"
+  },
+  "cb.fed.stance": {
+   "h": "<span class=\"chip up\"><span class=\"g\">▼</span>Easing</span>",
+   "s": 0,
+   "t": "Easing"
+  },
+  "cb.pboc.last": {
+   "s": 0,
+   "t": "Cut 10 bp, May 2025"
+  },
+  "cb.pboc.rate": {
+   "s": 0,
+   "t": "3.00"
+  },
+  "cb.pboc.stance": {
+   "h": "<span class=\"chip\"><span class=\"g\">■</span>On hold</span>",
+   "s": 0,
+   "t": "On hold"
+  },
+  "ce.blackout.next": {
+   "s": 0,
+   "t": "5 to 17 Sep"
+  },
+  "ce.buyback.next": {
+   "s": 0,
+   "t": "14 Sep to 28 Oct"
+  },
+  "ce.cycle.next": {
+   "s": 0,
+   "t": "Q4 2026 onward"
+  },
+  "ce.opex.next": {
+   "s": 0,
+   "t": "14 to 18 Sep (quad witching)"
+  },
+  "ce.qend.next": {
+   "s": 0,
+   "t": "24 to 30 Sep"
+  },
+  "ce.tax.next": {
+   "s": 0,
+   "t": "15 Sep"
+  },
+  "ce.tom.next": {
+   "s": 0,
+   "t": "31 Aug to 3 Sep"
+  },
+  "cta.copper.flip": {
+   "s": 0,
+   "t": "5.54 (-16.7%)"
+  },
+  "cta.copper.signal": {
+   "h": "<span class=\"chip up\"><span class=\"g\">▲</span>Long</span>",
+   "s": 0,
+   "t": "Long"
+  },
+  "cta.copper.since": {
+   "s": 0,
+   "t": "26 Jun"
+  },
+  "cta.dxy.flip": {
+   "s": 0,
+   "t": "100 (+0.8%)"
+  },
+  "cta.dxy.signal": {
+   "h": "<span class=\"chip serious\"><span class=\"g\">▼</span>Short</span>",
+   "s": 0,
+   "t": "Short"
+  },
+  "cta.dxy.since": {
+   "s": 0,
+   "t": "19 Aug"
+  },
+  "cta.gold.flip": {
+   "s": 0,
+   "t": "4,112 (-9.2%)"
+  },
+  "cta.gold.signal": {
+   "h": "<span class=\"chip up\"><span class=\"g\">▲</span>Long</span>",
+   "s": 0,
+   "t": "Long"
+  },
+  "cta.gold.since": {
+   "s": 0,
+   "t": "17 Aug"
+  },
+  "cta.ndx.flip": {
+   "s": 0,
+   "t": "25,060 (-15.5%)"
+  },
+  "cta.ndx.signal": {
+   "h": "<span class=\"chip up\"><span class=\"g\">▲</span>Long</span>",
+   "s": 0,
+   "t": "Long"
+  },
+  "cta.ndx.since": {
+   "s": 0,
+   "t": "10 Apr"
+  },
+  "cta.spx.flip": {
+   "s": 0,
+   "t": "6,729 (-13.0%)"
+  },
+  "cta.spx.signal": {
+   "h": "<span class=\"chip up\"><span class=\"g\">▲</span>Long</span>",
+   "s": 0,
+   "t": "Long"
+  },
+  "cta.spx.since": {
+   "s": 0,
+   "t": "10 Apr"
+  },
+  "cta.ust10.flip": {
+   "s": 0,
+   "t": "4.34% yield"
+  },
+  "cta.ust10.signal": {
+   "h": "<span class=\"chip serious\"><span class=\"g\">▼</span>Short</span>",
+   "s": 0,
+   "t": "Short"
+  },
+  "cta.ust10.since": {
+   "s": 0,
+   "t": "11 Mar"
+  },
+  "cta.wti.flip": {
+   "s": 0,
+   "t": "85 (+1.5%)"
+  },
+  "cta.wti.signal": {
+   "h": "<span class=\"chip serious\"><span class=\"g\">▼</span>Short</span>",
+   "s": 0,
+   "t": "Short"
+  },
+  "cta.wti.since": {
+   "s": 0,
+   "t": "14 Aug"
+  },
+  "div.btc.before": {
+   "s": 0,
+   "t": "1 crossing below -1.5 in three years: next 8 weeks median -12.3%, positive 0% of the time."
+  },
+  "div.btc.cr": {
+   "s": 0,
+   "t": "Leveraged funds net -8k, pct 85; crypto fear and greed 69, pct 78"
+  },
+  "div.btc.read": {
+   "s": 0,
+   "t": "Alert. Both sides stretched, smart money leaving first."
+  },
+  "div.btc.score": {
+   "s": -1,
+   "t": "-2.6"
+  },
+  "div.btc.sm": {
+   "s": 0,
+   "t": "Asset managers net +3k, pct 7"
+  },
+  "div.copper.before": {
+   "s": 0,
+   "t": "7 crossings below -1.5 in three years: next 8 weeks median -0.7%, positive 43% of the time."
+  },
+  "div.copper.cr": {
+   "s": 0,
+   "t": "Speculators net +85k, pct 100"
+  },
+  "div.copper.read": {
+   "s": 0,
+   "t": "Alert. Both sides stretched, smart money leaving first."
+  },
+  "div.copper.score": {
+   "s": -1,
+   "t": "-3.7"
+  },
+  "div.copper.sm": {
+   "s": 0,
+   "t": "Hedgers net -95k, pct 0"
+  },
+  "div.crude.before": {
+   "s": 0,
+   "t": "7 crossings above +1.5 in three years: next 8 weeks median -2.8%, positive 14% of the time."
+  },
+  "div.crude.cr": {
+   "s": 0,
+   "t": "Speculators net +123k, pct 23"
+  },
+  "div.crude.read": {
+   "s": 0,
+   "t": "Mildly positive; no edge yet."
+  },
+  "div.crude.score": {
+   "s": 1,
+   "t": "+0.6"
+  },
+  "div.crude.sm": {
+   "s": 0,
+   "t": "Producers net -156k, pct 76; four-week short change z -0.3"
+  },
+  "div.dxy.before": {
+   "s": 0,
+   "t": "6 crossings below -1.5 in three years: next 8 weeks median -3.3%, positive 17% of the time."
+  },
+  "div.dxy.cr": {
+   "s": 0,
+   "t": "Speculators net +19k, pct 90"
+  },
+  "div.dxy.read": {
+   "s": 0,
+   "t": "Alert. Both sides stretched, smart money leaving first."
+  },
+  "div.dxy.score": {
+   "s": -1,
+   "t": "-2.9"
+  },
+  "div.dxy.sm": {
+   "s": 0,
+   "t": "Hedgers net -20k, pct 8"
+  },
+  "div.gold.before": {
+   "s": 0,
+   "t": "10 crossings below -1.5 in three years: next 8 weeks median +7.9%, positive 100% of the time."
+  },
+  "div.gold.cr": {
+   "s": 0,
+   "t": "Speculators net +243k, pct 73"
+  },
+  "div.gold.read": {
+   "s": 0,
+   "t": "Crowd ahead of smart money; not extreme yet."
+  },
+  "div.gold.score": {
+   "s": -1,
+   "t": "-2.1"
+  },
+  "div.gold.sm": {
+   "s": 0,
+   "t": "Producers net -280k, pct 22; four-week short change z -1.4"
+  },
+  "div.semis.before": {
+   "s": 0,
+   "t": "Inside the band; nothing to compare."
+  },
+  "div.semis.cr": {
+   "s": 0,
+   "t": "Leveraged funds net -44k, pct 38; AAII spread -12 (logging, 1 week)"
+  },
+  "div.semis.read": {
+   "s": 0,
+   "t": "No edge."
+  },
+  "div.semis.score": {
+   "s": 1,
+   "t": "+0.3"
+  },
+  "div.semis.sm": {
+   "s": 0,
+   "t": "Nasdaq 100 futures as the proxy; Asset managers net +74k, pct 48; DIX pct 42"
+  },
+  "div.silver.before": {
+   "s": 0,
+   "t": "Inside the band; nothing to compare."
+  },
+  "div.silver.cr": {
+   "s": 0,
+   "t": "Speculators net +25k, pct 28"
+  },
+  "div.silver.read": {
+   "s": 0,
+   "t": "No edge."
+  },
+  "div.silver.score": {
+   "s": 1,
+   "t": "+0.2"
+  },
+  "div.silver.sm": {
+   "s": 0,
+   "t": "Producers net -45k, pct 68; four-week short change z -0.8"
+  },
+  "div.spx.before": {
+   "s": 0,
+   "t": "2 crossings below -1.5 in three years: next 8 weeks median +7.9%, positive 100% of the time."
+  },
+  "div.spx.cr": {
+   "s": 0,
+   "t": "Leveraged funds net -329k, pct 55; margin debt z +1.2; AAII spread -12 (logging, 1 week)"
+  },
+  "div.spx.read": {
+   "s": 0,
+   "t": "Crowd leaning long; no edge yet."
+  },
+  "div.spx.score": {
+   "s": -1,
+   "t": "-0.6"
+  },
+  "div.spx.sm": {
+   "s": 0,
+   "t": "Asset managers net +955k, pct 66; DIX pct 42"
+  },
+  "div.ust10.before": {
+   "s": 0,
+   "t": "6 crossings above +1.5 in three years: next 8 weeks median +0.2%, positive 50% of the time."
+  },
+  "div.ust10.cr": {
+   "s": 0,
+   "t": "Leveraged funds net -2134k, pct 21"
+  },
+  "div.ust10.read": {
+   "s": 0,
+   "t": "Alert. Smart money buying what the crowd dumped."
+  },
+  "div.ust10.score": {
+   "s": 1,
+   "t": "+2.8"
+  },
+  "div.ust10.sm": {
+   "s": 0,
+   "t": "Asset managers net +2592k, pct 99"
+  },
+  "en.brent.1m": {
+   "s": -1,
+   "t": "-1.0%"
+  },
+  "en.brent.1w": {
+   "s": -1,
+   "t": "-6.7%"
+  },
+  "en.brent.level": {
+   "s": 0,
+   "t": "88.10"
+  },
+  "en.brent.vs200": {
+   "s": 1,
+   "t": "+6%"
+  },
+  "en.brent.ytd": {
+   "s": 1,
+   "t": "+44.8%"
+  },
+  "en.crack.1m": {
+   "s": -1,
+   "t": "-5.82"
+  },
+  "en.crack.1w": {
+   "s": -1,
+   "t": "-8.12"
+  },
+  "en.crack.level": {
+   "s": 0,
+   "t": "61.49"
+  },
+  "en.natgas.1m": {
+   "s": 1,
+   "t": "+4.7%"
+  },
+  "en.natgas.1w": {
+   "s": 1,
+   "t": "+4.1%"
+  },
+  "en.natgas.level": {
+   "s": 0,
+   "t": "2.89"
+  },
+  "en.natgas.vs200": {
+   "s": -1,
+   "t": "-14%"
+  },
+  "en.natgas.ytd": {
+   "s": -1,
+   "t": "-21.6%"
+  },
+  "en.rigs.1m": {
+   "s": 1,
+   "t": "+17"
+  },
+  "en.rigs.1w": {
+   "s": 0,
+   "t": ""
+  },
+  "en.rigs.level": {
+   "s": 0,
+   "t": "434"
+  },
+  "en.rigs.vs200": {
+   "s": 0,
+   "t": ""
+  },
+  "en.rigs.ytd": {
+   "s": 1,
+   "t": "+23"
+  },
+  "en.spr.1m": {
+   "s": -1,
+   "t": "-17.9 mb"
+  },
+  "en.spr.1w": {
+   "s": -1,
+   "t": "-3.7 mb"
+  },
+  "en.spr.level": {
+   "s": 0,
+   "t": "289.7 mb"
+  },
+  "en.spr.vs200": {
+   "s": -1,
+   "t": "-24%"
+  },
+  "en.spr.ytd": {
+   "s": -1,
+   "t": "-123.5 mb"
+  },
+  "en.stocks.1m": {
+   "s": 1,
+   "t": "+24.4 mb"
+  },
+  "en.stocks.1w": {
+   "s": 1,
+   "t": "+0.1 mb"
+  },
+  "en.stocks.level": {
+   "s": 0,
+   "t": "428.9 mb"
+  },
+  "en.stocks.vs200": {
+   "s": -1,
+   "t": "-1%"
+  },
+  "en.stocks.ytd": {
+   "s": 1,
+   "t": "+6.0 mb"
+  },
+  "en.wti.1m": {
+   "s": -1,
+   "t": "-0.2%"
+  },
+  "en.wti.1w": {
+   "s": -1,
+   "t": "-4.2%"
+  },
+  "en.wti.level": {
+   "s": 0,
+   "t": "83.40"
+  },
+  "en.wti.vs200": {
+   "s": 1,
+   "t": "+7%"
+  },
+  "en.wti.ytd": {
+   "s": 1,
+   "t": "+45.2%"
+  },
+  "fac.beta_lowvol.1m": {
+   "s": 1,
+   "t": "+14.4%"
+  },
+  "fac.beta_lowvol.3m": {
+   "s": -1,
+   "t": "-2.3%"
+  },
+  "fac.beta_lowvol.rs": {
+   "s": 1,
+   "t": "▲ crossed 24 Aug"
+  },
+  "fac.cyc_def.1m": {
+   "s": 1,
+   "t": "+3.7%"
+  },
+  "fac.cyc_def.3m": {
+   "s": -1,
+   "t": "-0.4%"
+  },
+  "fac.cyc_def.rs": {
+   "s": 1,
+   "t": "▲ crossed 25 Aug"
+  },
+  "fac.eq_cap.1m": {
+   "s": -1,
+   "t": "-2.9%"
+  },
+  "fac.eq_cap.3m": {
+   "s": 1,
+   "t": "+4.2%"
+  },
+  "fac.eq_cap.rs": {
+   "s": 1,
+   "t": "▲ rising"
+  },
+  "fac.mom_mkt.1m": {
+   "s": 1,
+   "t": "+1.7%"
+  },
+  "fac.mom_mkt.3m": {
+   "s": -1,
+   "t": "-5.5%"
+  },
+  "fac.mom_mkt.rs": {
+   "s": -1,
+   "t": "▼ falling"
+  },
+  "fac.qual_mkt.1m": {
+   "s": -1,
+   "t": "-1.6%"
+  },
+  "fac.qual_mkt.3m": {
+   "s": 1,
+   "t": "+1.7%"
+  },
+  "fac.qual_mkt.rs": {
+   "s": -1,
+   "t": "▼ lost 26 Aug"
+  },
+  "fac.small_large.1m": {
+   "s": -1,
+   "t": "-1.7%"
+  },
+  "fac.small_large.3m": {
+   "s": 1,
+   "t": "+0.4%"
+  },
+  "fac.small_large.rs": {
+   "s": -1,
+   "t": "▼ lost 30 Jul"
+  },
+  "fac.value_growth.1m": {
+   "s": -1,
+   "t": "-5.0%"
+  },
+  "fac.value_growth.3m": {
+   "s": 1,
+   "t": "+11.3%"
+  },
+  "fac.value_growth.rs": {
+   "s": 1,
+   "t": "▲ rising"
+  },
+  "flow.mmf.total": {
+   "s": 0,
+   "t": "$7.93T"
+  },
+  "flow.mmf.v": {
+   "s": 1,
+   "t": "+6.1",
+   "v": 6.11
+  },
+  "flow2.gamma.read": {
+   "s": 0,
+   "t": "Gamma exposure $4.5B, 3-year percentile 37: dealers sell rallies and buy dips, which dampens moves."
+  },
+  "flow2.gamma.state": {
+   "s": 0,
+   "t": "long"
+  },
+  "flow2.pension.read": {
+   "s": 0,
+   "t": "Quarter to date stocks +3.4%, bonds -2.4%: a gap of 5.8 points for pensions to rebalance into quarter end."
+  },
+  "flow2.pension.state": {
+   "s": 0,
+   "t": "sell equities, modest"
+  },
+  "flow2.rp.read": {
+   "s": 0,
+   "t": "Stocks above their 100-day, bonds below theirs, correlation +0.31: cutting leverage."
+  },
+  "flow2.rp.state": {
+   "s": 0,
+   "t": "reducing"
+  },
+  "flow2.volctl.read": {
+   "s": 0,
+   "t": "Realized vol 11% against a 12% target: allocation 100% of the cap. A vol spike cuts it mechanically."
+  },
+  "flow2.volctl.state": {
+   "s": 0,
+   "t": "high"
+  },
+  "fx.broad.1m": {
+   "s": -1,
+   "t": "-2.4%"
+  },
+  "fx.broad.3m": {
+   "s": -1,
+   "t": "-1.1%"
+  },
+  "fx.broad.level": {
+   "s": 0,
+   "t": "118.1"
+  },
+  "fx.broad.trend": {
+   "s": -1,
+   "t": "▼ falling"
+  },
+  "fx.cew.1m": {
+   "s": 1,
+   "t": "+2.0%"
+  },
+  "fx.cew.3m": {
+   "s": 1,
+   "t": "+2.7%"
+  },
+  "fx.cew.level": {
+   "s": 0,
+   "t": "20.0"
+  },
+  "fx.cew.trend": {
+   "s": 1,
+   "t": "▲ rising"
+  },
+  "fx.dxy.1m": {
+   "s": -1,
+   "t": "-1.6%"
+  },
+  "fx.dxy.3m": {
+   "s": 1,
+   "t": "+0.1%"
+  },
+  "fx.dxy.level": {
+   "s": 0,
+   "t": "99.2"
+  },
+  "fx.dxy.trend": {
+   "s": -1,
+   "t": "▼ falling"
+  },
+  "fx.eurusd.1m": {
+   "s": 1,
+   "t": "+1.0%"
+  },
+  "fx.eurusd.3m": {
+   "s": -1,
+   "t": "-0.4%"
+  },
+  "fx.eurusd.level": {
+   "s": 0,
+   "t": "1.159"
+  },
+  "fx.eurusd.trend": {
+   "s": 1,
+   "t": "▲ rising"
+  },
+  "fx.usdcny.1m": {
+   "s": -1,
+   "t": "-0.5%"
+  },
+  "fx.usdcny.3m": {
+   "s": -1,
+   "t": "-0.6%"
+  },
+  "fx.usdcny.level": {
+   "s": 0,
+   "t": "6.72"
+  },
+  "fx.usdcny.trend": {
+   "s": -1,
+   "t": "▼ falling"
+  },
+  "fx.usdjpy.1m": {
+   "s": -1,
+   "t": "-2.0%"
+  },
+  "fx.usdjpy.3m": {
+   "s": 1,
+   "t": "+0.3%"
+  },
+  "fx.usdjpy.level": {
+   "s": 0,
+   "t": "160.0"
+  },
+  "fx.usdjpy.trend": {
+   "s": -1,
+   "t": "▼ falling"
+  },
+  "fx.usdthb.1m": {
+   "s": -1,
+   "t": "-1.0%"
+  },
+  "fx.usdthb.3m": {
+   "s": 1,
+   "t": "+1.8%"
+  },
+  "fx.usdthb.level": {
+   "s": 0,
+   "t": "33.13"
+  },
+  "fx.usdthb.trend": {
+   "s": 0,
+   "t": "■ flat"
+  },
+  "gp.cfnai.now": {
+   "s": -1,
+   "t": "-0.04"
+  },
+  "gp.cfnai.prior": {
+   "s": 1,
+   "t": "+0.01"
+  },
+  "gp.claims.now": {
+   "s": 0,
+   "t": "206k"
+  },
+  "gp.claims.prior": {
+   "s": 0,
+   "t": "204k"
+  },
+  "gp.cpinow.now": {
+   "s": 1,
+   "t": "Aug +0.20%"
+  },
+  "gp.cpinow.prior": {
+   "s": 0,
+   "t": "Jul +0.22%"
+  },
+  "gp.gdpnow.now": {
+   "s": 1,
+   "t": "Q3 +4.6%"
+  },
+  "gp.gdpnow.prior": {
+   "s": 0,
+   "t": "Q2 +1.5%"
+  },
+  "gp.payrolls.now": {
+   "s": 1,
+   "t": "+20k"
+  },
+  "gp.payrolls.prior": {
+   "s": 1,
+   "t": "+77k"
+  },
+  "gp.sahm.now": {
+   "s": 0,
+   "t": "-0.03"
+  },
+  "gp.sahm.prior": {
+   "s": 0,
+   "t": "0.07"
+  },
+  "gp.surprise.now": {
+   "s": 0,
+   "t": "logging: 0 of 6 resolved"
+  },
+  "gp.surprise.prior": {
+   "s": 0,
+   "t": "logging since 30 Aug"
+  },
+  "gy.de.10y": {
+   "s": 0,
+   "t": "2.97%"
+  },
+  "gy.de.1m": {
+   "s": -1,
+   "t": "-8 bp"
+  },
+  "gy.de.real": {
+   "s": 0,
+   "t": "0.78%"
+  },
+  "gy.de.spread": {
+   "s": -1,
+   "t": "-147 bp"
+  },
+  "gy.jp.10y": {
+   "s": 0,
+   "t": "2.67%"
+  },
+  "gy.jp.1m": {
+   "s": 1,
+   "t": "+2 bp"
+  },
+  "gy.jp.real": {
+   "s": 0,
+   "t": "3.17%"
+  },
+  "gy.jp.spread": {
+   "s": -1,
+   "t": "-177 bp"
+  },
+  "gy.uk.10y": {
+   "s": 0,
+   "t": "4.80%"
+  },
+  "gy.uk.1m": {
+   "s": -1,
+   "t": "-15 bp"
+  },
+  "gy.uk.real": {
+   "s": 0,
+   "t": "1.40%"
+  },
+  "gy.uk.spread": {
+   "s": 1,
+   "t": "+36 bp"
+  },
+  "gy.us.10y": {
+   "s": 0,
+   "t": "4.67%"
+  },
+  "gy.us.1m": {
+   "s": 0,
+   "t": "0 bp"
+  },
+  "gy.us.real": {
+   "s": 0,
+   "t": "2.34%"
+  },
+  "idx.csi300.1m": {
+   "s": -1,
+   "t": "-8.2%"
+  },
+  "idx.csi300.1w": {
+   "s": -1,
+   "t": "-5.3%"
+  },
+  "idx.csi300.3m": {
+   "s": -1,
+   "t": "-3.3%"
+  },
+  "idx.csi300.level": {
+   "s": 0,
+   "t": "4,529"
+  },
+  "idx.csi300.vs200": {
+   "s": -1,
+   "t": "-4%"
+  },
+  "idx.csi300.ytd": {
+   "s": -1,
+   "t": "-2.2%"
+  },
+  "idx.eem.1m": {
+   "s": 1,
+   "t": "+10.7%"
+  },
+  "idx.eem.1w": {
+   "s": 1,
+   "t": "+1.5%"
+  },
+  "idx.eem.3m": {
+   "s": -1,
+   "t": "-0.9%"
+  },
+  "idx.eem.level": {
+   "s": 0,
+   "t": "67.6"
+  },
+  "idx.eem.vs200": {
+   "s": 1,
+   "t": "+10%"
+  },
+  "idx.eem.ytd": {
+   "s": 1,
+   "t": "+24.2%"
+  },
+  "idx.hsi.1m": {
+   "s": -1,
+   "t": "-0.9%"
+  },
+  "idx.hsi.1w": {
+   "s": -1,
+   "t": "-0.5%"
+  },
+  "idx.hsi.3m": {
+   "s": 1,
+   "t": "+2.2%"
+  },
+  "idx.hsi.level": {
+   "s": 0,
+   "t": "25,566"
+  },
+  "idx.hsi.vs200": {
+   "s": 0,
+   "t": "0%"
+  },
+  "idx.hsi.ytd": {
+   "s": -1,
+   "t": "-0.3%"
+  },
+  "idx.n225.1m": {
+   "s": 1,
+   "t": "+6.0%"
+  },
+  "idx.n225.1w": {
+   "s": -1,
+   "t": "-0.1%"
+  },
+  "idx.n225.3m": {
+   "s": 1,
+   "t": "+2.2%"
+  },
+  "idx.n225.level": {
+   "s": 0,
+   "t": "66,132"
+  },
+  "idx.n225.vs200": {
+   "s": 1,
+   "t": "+13%"
+  },
+  "idx.n225.ytd": {
+   "s": 1,
+   "t": "+31.4%"
+  },
+  "idx.ndx.1m": {
+   "s": 1,
+   "t": "+9.0%"
+  },
+  "idx.ndx.1w": {
+   "s": 1,
+   "t": "+1.5%"
+  },
+  "idx.ndx.3m": {
+   "s": -1,
+   "t": "-1.9%"
+  },
+  "idx.ndx.level": {
+   "s": 0,
+   "t": "29,642"
+  },
+  "idx.ndx.vs200": {
+   "s": 1,
+   "t": "+10%"
+  },
+  "idx.ndx.ytd": {
+   "s": 1,
+   "t": "+17.4%"
+  },
+  "idx.rut.1m": {
+   "s": 1,
+   "t": "+3.7%"
+  },
+  "idx.rut.1w": {
+   "s": 1,
+   "t": "+0.7%"
+  },
+  "idx.rut.3m": {
+   "s": 1,
+   "t": "+2.6%"
+  },
+  "idx.rut.level": {
+   "s": 0,
+   "t": "3,014"
+  },
+  "idx.rut.vs200": {
+   "s": 1,
+   "t": "+10%"
+  },
+  "idx.rut.ytd": {
+   "s": 1,
+   "t": "+21.5%"
+  },
+  "idx.set.1m": {
+   "s": 1,
+   "t": "+3.4%"
+  },
+  "idx.set.1w": {
+   "s": 1,
+   "t": "+1.1%"
+  },
+  "idx.set.3m": {
+   "s": 1,
+   "t": "+8.8%"
+  },
+  "idx.set.level": {
+   "s": 0,
+   "t": "1,639"
+  },
+  "idx.set.vs200": {
+   "s": 1,
+   "t": "+17%"
+  },
+  "idx.set.ytd": {
+   "s": 1,
+   "t": "+30.1%"
+  },
+  "idx.spx.1m": {
+   "s": 1,
+   "t": "+5.7%"
+  },
+  "idx.spx.1w": {
+   "s": 1,
+   "t": "+1.2%"
+  },
+  "idx.spx.3m": {
+   "s": 1,
+   "t": "+2.2%"
+  },
+  "idx.spx.level": {
+   "s": 0,
+   "t": "7,731"
+  },
+  "idx.spx.vs200": {
+   "s": 1,
+   "t": "+9%"
+  },
+  "idx.spx.ytd": {
+   "s": 1,
+   "t": "+12.9%"
+  },
+  "idx.spxew.1m": {
+   "s": 1,
+   "t": "+2.5%"
+  },
+  "idx.spxew.1w": {
+   "s": 1,
+   "t": "+0.6%"
+  },
+  "idx.spxew.3m": {
+   "s": 1,
+   "t": "+6.4%"
+  },
+  "idx.spxew.level": {
+   "s": 0,
+   "t": "8,961"
+  },
+  "idx.spxew.vs200": {
+   "s": 1,
+   "t": "+9%"
+  },
+  "idx.spxew.ytd": {
+   "s": 1,
+   "t": "+15.4%"
+  },
+  "idx.stoxx.1m": {
+   "s": 1,
+   "t": "+1.1%"
+  },
+  "idx.stoxx.1w": {
+   "s": 1,
+   "t": "+0.2%"
+  },
+  "idx.stoxx.3m": {
+   "s": 1,
+   "t": "+4.9%"
+  },
+  "idx.stoxx.level": {
+   "s": 0,
+   "t": "652"
+  },
+  "idx.stoxx.vs200": {
+   "s": 1,
+   "t": "+6%"
+  },
+  "idx.stoxx.ytd": {
+   "s": 1,
+   "t": "+10.0%"
+  },
+  "im.copper.1m": {
+   "s": 1,
+   "t": "+3.3%"
+  },
+  "im.copper.1w": {
+   "s": 1,
+   "t": "+1.2%"
+  },
+  "im.copper.level": {
+   "s": 0,
+   "t": "6.66"
+  },
+  "im.copper.vs200": {
+   "s": 1,
+   "t": "+12%"
+  },
+  "im.copper.ytd": {
+   "s": 1,
+   "t": "+18.3%"
+  },
+  "im.corn.1m": {
+   "s": 1,
+   "t": "+20.4%"
+  },
+  "im.corn.1w": {
+   "s": 1,
+   "t": "+10.9%"
+  },
+  "im.corn.level": {
+   "s": 0,
+   "t": "5.37"
+  },
+  "im.corn.vs200": {
+   "s": 1,
+   "t": "+21%"
+  },
+  "im.corn.ytd": {
+   "s": 1,
+   "t": "+21.9%"
+  },
+  "im.cu_au.1m": {
+   "s": -1,
+   "t": "-6.5%"
+  },
+  "im.cu_au.1w": {
+   "s": 1,
+   "t": "+3.3%"
+  },
+  "im.cu_au.level": {
+   "s": 0,
+   "t": "1.47"
+  },
+  "im.cu_au.ytd": {
+   "s": 1,
+   "t": "+12.9%"
+  },
+  "im.ironore.1m": {
+   "s": -1,
+   "t": "-2.5%"
+  },
+  "im.ironore.1w": {
+   "s": 1,
+   "t": "+0.7%"
+  },
+  "im.ironore.level": {
+   "s": 0,
+   "t": "96"
+  },
+  "im.ironore.vs200": {
+   "s": -1,
+   "t": "-7%"
+  },
+  "im.ironore.ytd": {
+   "s": -1,
+   "t": "-10.5%"
+  },
+  "im.soy.1m": {
+   "s": 1,
+   "t": "+9.4%"
+  },
+  "im.soy.1w": {
+   "s": 1,
+   "t": "+5.1%"
+  },
+  "im.soy.level": {
+   "s": 0,
+   "t": "12.88"
+  },
+  "im.soy.vs200": {
+   "s": 1,
+   "t": "+13%"
+  },
+  "im.soy.ytd": {
+   "s": 1,
+   "t": "+25.0%"
+  },
+  "im.uranium.1m": {
+   "s": 1,
+   "t": "+14.2%"
+  },
+  "im.uranium.1w": {
+   "s": 1,
+   "t": "+9.0%"
+  },
+  "im.uranium.level": {
+   "s": 0,
+   "t": "$20.89"
+  },
+  "im.uranium.vs200": {
+   "s": 1,
+   "t": "+6%"
+  },
+  "im.uranium.ytd": {
+   "s": 1,
+   "t": "+7.3%"
+  },
+  "im.wheat.1m": {
+   "s": 1,
+   "t": "+18.2%"
+  },
+  "im.wheat.1w": {
+   "s": 1,
+   "t": "+15.0%"
+  },
+  "im.wheat.level": {
+   "s": 0,
+   "t": "7.84"
+  },
+  "im.wheat.vs200": {
+   "s": 1,
+   "t": "+33%"
+  },
+  "im.wheat.ytd": {
+   "s": 1,
+   "t": "+54.6%"
+  },
+  "liq.bankcredit": {
+   "date": "2026-08-19",
+   "delta": {
+    "dir": "down",
+    "t": "-0.1 pt",
+    "vs": "vs 3 months ago"
+   },
+   "dl": "19 Aug",
+   "freq": "w",
+   "kind": "tile",
+   "spark": [
+    5.008,
+    4.985,
+    5.436,
+    5.53,
+    6.343,
+    6.505,
+    6.609,
+    5.975,
+    6.458,
+    6.504,
+    6.279,
+    6.325
+   ],
+   "src": "FRED TOTBKCR",
+   "unit": "%",
+   "val": "+6.3%"
+  },
+  "liq.big3": {
+   "date": "2026-07-01",
+   "delta": {
+    "dir": "down",
+    "t": "-4.7% YoY",
+    "vs": "Fed, ECB, BoJ in dollars"
+   },
+   "dl": "Jul 2026",
+   "freq": "m",
+   "kind": "tile",
+   "spark": [
+    18.649,
+    18.413,
+    18.253,
+    18.145,
+    18.215,
+    18.572,
+    18.35,
+    17.867,
+    18.103,
+    18.056,
+    17.673,
+    17.607
+   ],
+   "src": "FRED WALCL, JPNASSETS; ECB; Yahoo FX",
+   "unit": "T",
+   "val": "$17.6<small>T</small>"
+  },
+  "liq.bills": {
+   "date": "2026-07-31",
+   "delta": {
+    "dir": "up",
+    "t": "+1.5 pt",
+    "vs": "vs a year ago"
+   },
+   "dl": "Jul 2026",
+   "freq": "m",
+   "kind": "tile",
+   "spark": [
+    21.658,
+    21.528,
+    21.978,
+    22.264,
+    21.629,
+    21.735,
+    22.237,
+    22.108,
+    21.586,
+    21.863,
+    21.523,
+    22.219
+   ],
+   "src": "Treasury FiscalData MSPD",
+   "unit": "%",
+   "val": "22.2%"
+  },
+  "liq.fiscal": {
+   "date": "2026-07-01",
+   "delta": {
+    "dir": "down",
+    "t": "deficit 6.0% of GDP",
+    "vs": "12-month sum"
+   },
+   "dl": "Jul 2026",
+   "freq": "m",
+   "kind": "tile",
+   "spark": [
+    -0.85,
+    -0.483,
+    -1.031,
+    -1.824,
+    -1.497,
+    -1.983,
+    -2.017,
+    -1.753,
+    -1.457,
+    -1.427,
+    -0.669,
+    -0.264
+   ],
+   "src": "FRED MTSDS133FMS, GDP",
+   "unit": "",
+   "val": "-0.3<small>% GDP</small>"
+  },
+  "liq.m2_global": {
+   "date": "2026-07-01",
+   "delta": {
+    "dir": "up",
+    "t": "+0.8 pt",
+    "vs": "vs 3 months ago, $50.3T"
+   },
+   "dl": "Jul 2026",
+   "freq": "m",
+   "kind": "tile",
+   "spark": [
+    4.959,
+    4.249,
+    5.76,
+    6.149,
+    8.077,
+    9.176,
+    8.064,
+    4.868,
+    2.796,
+    3.453,
+    1.447,
+    3.562
+   ],
+   "src": "FRED M2SL; ECB BSI; BoJ MD02; Yahoo FX",
+   "unit": "%",
+   "val": "+3.6%"
+  },
+  "liq.m2_us": {
+   "date": "2026-07-01",
+   "delta": {
+    "dir": "up",
+    "t": "+0.9 pt",
+    "vs": "vs 3 months ago"
+   },
+   "dl": "Jul 2026",
+   "freq": "m",
+   "kind": "tile",
+   "spark": [
+    4.25,
+    4.233,
+    4.279,
+    3.845,
+    4.038,
+    4.058,
+    4.589,
+    4.41,
+    4.529,
+    5.394,
+    5.344,
+    5.414
+   ],
+   "src": "FRED M2SL",
+   "unit": "%",
+   "val": "+5.4%"
+  },
+  "liq.netliq": {
+   "date": "2026-08-26",
+   "delta": {
+    "dir": "down",
+    "t": "-$45B",
+    "vs": "4 weeks"
+   },
+   "dl": "26 Aug",
+   "freq": "w",
+   "kind": "tile",
+   "spark": [
+    5.897,
+    5.849,
+    5.812,
+    5.843,
+    5.958,
+    5.987,
+    5.917,
+    5.825,
+    5.84,
+    5.795,
+    5.792,
+    5.779
+   ],
+   "src": "FRED WALCL, WTREGEN, RRPONTSYD",
+   "unit": "T",
+   "val": "$5.78<small>T</small>"
+  },
+  "liq.real_m2": {
+   "date": "2026-07-01",
+   "delta": {
+    "dir": "up",
+    "t": "+1.3 pt",
+    "vs": "vs 3 months ago"
+   },
+   "dl": "Jul 2026",
+   "freq": "m",
+   "kind": "tile",
+   "spark": [
+    1.312,
+    1.21,
+    1.257,
+    0.857,
+    1.036,
+    1.229,
+    1.925,
+    1.09,
+    0.582,
+    1.124,
+    1.617,
+    1.874
+   ],
+   "src": "FRED M2SL, CPIAUCSL",
+   "unit": "%",
+   "val": "+1.9%"
+  },
+  "liq.reserves": {
+   "date": "2026-08-26",
+   "delta": {
+    "dir": "flat",
+    "t": "9.0% of GDP",
+    "vs": "getting close to scarce"
+   },
+   "dl": "26 Aug",
+   "freq": "w",
+   "kind": "tile",
+   "spark": [
+    3.081,
+    3.033,
+    2.951,
+    2.967,
+    3.099,
+    3.143,
+    3.062,
+    2.985,
+    2.993,
+    2.944,
+    2.935,
+    2.925
+   ],
+   "src": "FRED WRESBAL, GDP",
+   "unit": "T",
+   "val": "$2.92<small>T</small>"
+  },
+  "liq.rrp": {
+   "date": "2026-08-28",
+   "delta": {
+    "dir": "down",
+    "t": "-$2.0B",
+    "vs": "4 weeks, at the floor"
+   },
+   "dl": "28 Aug",
+   "freq": "d",
+   "kind": "tile",
+   "spark": [
+    0.454,
+    0.251,
+    6.426,
+    2.175,
+    0.545,
+    0.1,
+    0.675,
+    2.151,
+    1.45,
+    0.25,
+    0.2,
+    0.175
+   ],
+   "src": "FRED RRPONTSYD",
+   "unit": "B",
+   "val": "$0.2<small>B</small>"
+  },
+  "liq.sofr_iorb": {
+   "date": "2026-08-27",
+   "delta": {
+    "dir": "flat",
+    "t": "calm",
+    "vs": "daily"
+   },
+   "dl": "27 Aug",
+   "freq": "d",
+   "kind": "tile",
+   "spark": [
+    -3.0,
+    -3.0,
+    -3.0,
+    1.0,
+    0.0,
+    -3.0,
+    -2.0,
+    0.0,
+    0.0,
+    1.0,
+    -1.0,
+    -1.0
+   ],
+   "src": "FRED SOFR, IORB",
+   "unit": " bp",
+   "val": "-1 <small>bp</small>"
+  },
+  "liq.tga": {
+   "date": "2026-08-26",
+   "delta": {
+    "dir": "up",
+    "t": "+$40B",
+    "vs": "4 weeks, a drain"
+   },
+   "dl": "26 Aug",
+   "freq": "w",
+   "kind": "tile",
+   "spark": [
+    0.828,
+    0.881,
+    0.919,
+    0.88,
+    0.774,
+    0.756,
+    0.83,
+    0.911,
+    0.907,
+    0.964,
+    0.954,
+    0.951
+   ],
+   "src": "FRED WTREGEN",
+   "unit": "T",
+   "val": "$0.95<small>T</small>"
+  },
+  "liq.walcl": {
+   "date": "2026-08-26",
+   "delta": {
+    "dir": "down",
+    "t": "-$7.3B",
+    "vs": "4 weeks, runoff ended"
+   },
+   "dl": "26 Aug",
+   "freq": "w",
+   "kind": "tile",
+   "spark": [
+    6.725,
+    6.736,
+    6.736,
+    6.725,
+    6.736,
+    6.743,
+    6.747,
+    6.738,
+    6.749,
+    6.76,
+    6.746,
+    6.731
+   ],
+   "src": "FRED WALCL",
+   "unit": "T",
+   "val": "$6.73<small>T</small>"
+  },
+  "pm.baht_gold.1m": {
+   "s": 1,
+   "t": "+9.4%"
+  },
+  "pm.baht_gold.1w": {
+   "s": -1,
+   "t": "-1.1%"
+  },
+  "pm.baht_gold.level": {
+   "s": 0,
+   "t": "70,979"
+  },
+  "pm.baht_gold.ytd": {
+   "s": 1,
+   "t": "+10.3%"
+  },
+  "pm.gold.1m": {
+   "s": 1,
+   "t": "+10.5%"
+  },
+  "pm.gold.1w": {
+   "s": -1,
+   "t": "-2.0%"
+  },
+  "pm.gold.level": {
+   "s": 0,
+   "t": "4,530"
+  },
+  "pm.gold.vs200": {
+   "s": 0,
+   "t": "0%"
+  },
+  "pm.gold.ytd": {
+   "s": 1,
+   "t": "+4.7%"
+  },
+  "pm.gs_ratio.1m": {
+   "s": 0,
+   "t": "-2.9"
+  },
+  "pm.gs_ratio.1w": {
+   "s": 0,
+   "t": "+0.3"
+  },
+  "pm.gs_ratio.level": {
+   "s": 0,
+   "t": "66.8"
+  },
+  "pm.gs_ratio.ytd": {
+   "s": 0,
+   "t": "+5.2"
+  },
+  "pm.pall.1m": {
+   "s": 1,
+   "t": "+11.1%"
+  },
+  "pm.pall.1w": {
+   "s": 1,
+   "t": "+7.3%"
+  },
+  "pm.pall.level": {
+   "s": 0,
+   "t": "1,447"
+  },
+  "pm.pall.vs200": {
+   "s": -1,
+   "t": "-4%"
+  },
+  "pm.pall.ytd": {
+   "s": -1,
+   "t": "-11.2%"
+  },
+  "pm.plat.1m": {
+   "s": 1,
+   "t": "+12.3%"
+  },
+  "pm.plat.1w": {
+   "s": -1,
+   "t": "-1.7%"
+  },
+  "pm.plat.level": {
+   "s": 0,
+   "t": "1,854"
+  },
+  "pm.plat.vs200": {
+   "s": -1,
+   "t": "-4%"
+  },
+  "pm.plat.ytd": {
+   "s": -1,
+   "t": "-8.9%"
+  },
+  "pm.silver.1m": {
+   "s": 1,
+   "t": "+15.3%"
+  },
+  "pm.silver.1w": {
+   "s": -1,
+   "t": "-2.4%"
+  },
+  "pm.silver.level": {
+   "s": 0,
+   "t": "67.79"
+  },
+  "pm.silver.vs200": {
+   "s": -1,
+   "t": "-5%"
+  },
+  "pm.silver.ytd": {
+   "s": -1,
+   "t": "-3.3%"
+  },
+  "pos.cr_aaii.now": {
+   "s": -1,
+   "t": "-12"
+  },
+  "pos.cr_aaii.pct": {
+   "s": 0,
+   "t": "logging, 1 so far"
+  },
+  "pos.cr_crypto.now": {
+   "s": 0,
+   "t": "69"
+  },
+  "pos.cr_crypto.pct": {
+   "s": 0,
+   "t": "78"
+  },
+  "pos.cr_equity_pc.now": {
+   "s": 0,
+   "t": "0.57"
+  },
+  "pos.cr_equity_pc.pct": {
+   "s": 0,
+   "t": "40"
+  },
+  "pos.cr_margin.now": {
+   "s": 0,
+   "t": "$1.42T"
+  },
+  "pos.cr_margin.pct": {
+   "s": 0,
+   "t": "logging, 13 so far"
+  },
+  "pos.cr_spec_crude.now": {
+   "s": 1,
+   "t": "+123k"
+  },
+  "pos.cr_spec_crude.pct": {
+   "s": 0,
+   "t": "23"
+  },
+  "pos.sm_crude.now": {
+   "s": -1,
+   "t": "-156k"
+  },
+  "pos.sm_crude.pct": {
+   "s": 0,
+   "t": "76"
+  },
+  "pos.sm_dix.now": {
+   "s": 0,
+   "t": "46%"
+  },
+  "pos.sm_dix.pct": {
+   "s": 0,
+   "t": "42"
+  },
+  "pos.sm_dxy.now": {
+   "s": -1,
+   "t": "-20k"
+  },
+  "pos.sm_dxy.pct": {
+   "s": 0,
+   "t": "8"
+  },
+  "pos.sm_gamma.now": {
+   "s": 1,
+   "t": "long, $4.5B"
+  },
+  "pos.sm_gamma.pct": {
+   "s": 0,
+   "t": "37"
+  },
+  "pos.sm_gold.now": {
+   "s": -1,
+   "t": "-280k"
+  },
+  "pos.sm_gold.pct": {
+   "s": 0,
+   "t": "22"
+  },
+  "pos.sm_index_pc.now": {
+   "s": 0,
+   "t": "0.97"
+  },
+  "pos.sm_index_pc.pct": {
+   "s": 0,
+   "t": "4"
+  },
+  "pos.sm_silver.now": {
+   "s": -1,
+   "t": "-45k"
+  },
+  "pos.sm_silver.pct": {
+   "s": 0,
+   "t": "68"
+  },
+  "pos.sm_spx.now": {
+   "s": 1,
+   "t": "+955k"
+  },
+  "pos.sm_spx.pct": {
+   "s": 0,
+   "t": "66"
+  },
+  "pos.sm_ust10.now": {
+   "s": 1,
+   "t": "+2592k"
+  },
+  "pos.sm_ust10.pct": {
+   "s": 0,
+   "t": "99"
+  },
+  "ratio.ag_au.1m": {
+   "s": 1,
+   "t": "+4.3%"
+  },
+  "ratio.ag_au.level": {
+   "s": 0,
+   "t": "0.0150"
+  },
+  "ratio.ag_au.trend": {
+   "s": 0,
+   "t": "■"
+  },
+  "ratio.au_spx.1m": {
+   "s": 1,
+   "t": "+8.1%"
+  },
+  "ratio.au_spx.level": {
+   "s": 0,
+   "t": "0.596"
+  },
+  "ratio.au_spx.trend": {
+   "s": 1,
+   "t": "▲"
+  },
+  "ratio.btc_au.1m": {
+   "s": 1,
+   "t": "+8.8%"
+  },
+  "ratio.btc_au.level": {
+   "s": 0,
+   "t": "17.2 oz"
+  },
+  "ratio.btc_au.trend": {
+   "s": 1,
+   "t": "▲"
+  },
+  "ratio.cu_au.1m": {
+   "s": -1,
+   "t": "-6.5%"
+  },
+  "ratio.cu_au.level": {
+   "s": 0,
+   "t": "1.47"
+  },
+  "ratio.cu_au.trend": {
+   "s": -1,
+   "t": "▼"
+  },
+  "ratio.eem_spy.1m": {
+   "s": 1,
+   "t": "+4.7%"
+  },
+  "ratio.eem_spy.level": {
+   "s": 0,
+   "t": "0.088"
+  },
+  "ratio.eem_spy.trend": {
+   "s": 0,
+   "t": "■"
+  },
+  "ratio.hyg_ief.1m": {
+   "s": 1,
+   "t": "+0.7%"
+  },
+  "ratio.hyg_ief.level": {
+   "s": 0,
+   "t": "0.86"
+  },
+  "ratio.hyg_ief.trend": {
+   "s": 1,
+   "t": "▲"
+  },
+  "ratio.oil_au.1m": {
+   "s": -1,
+   "t": "-9.7%"
+  },
+  "ratio.oil_au.level": {
+   "s": 0,
+   "t": "0.0184"
+  },
+  "ratio.oil_au.trend": {
+   "s": -1,
+   "t": "▼"
+  },
+  "ratio.spy_tlt.1m": {
+   "s": 1,
+   "t": "+5.4%"
+  },
+  "ratio.spy_tlt.level": {
+   "s": 0,
+   "t": "9.28"
+  },
+  "ratio.spy_tlt.trend": {
+   "s": 1,
+   "t": "▲"
+  },
+  "ratio.xly_xlp.1m": {
+   "s": 1,
+   "t": "+6.6%"
+  },
+  "ratio.xly_xlp.level": {
+   "s": 0,
+   "t": "1.36"
+  },
+  "ratio.xly_xlp.trend": {
+   "s": -1,
+   "t": "▼"
+  },
+  "rt.be10": {
+   "date": "2026-08-28",
+   "delta": {
+    "dir": "up",
+    "t": "+4 bp",
+    "vs": "1 month"
+   },
+   "dl": "28 Aug",
+   "freq": "d",
+   "kind": "tile",
+   "spark": [
+    2.36,
+    2.3,
+    2.23,
+    2.25,
+    2.36,
+    2.25,
+    2.3,
+    2.46,
+    2.38,
+    2.24,
+    2.28,
+    2.31
+   ],
+   "src": "FRED T10YIE",
+   "unit": "%",
+   "val": "2.31%"
+  },
+  "rt.ccc": {
+   "date": "2026-08-27",
+   "delta": {
+    "dir": "flat",
+    "t": "normal",
+    "vs": "3y percentile 97"
+   },
+   "dl": "27 Aug",
+   "freq": "d",
+   "kind": "tile",
+   "spark": [
+    807.0,
+    865.0,
+    894.0,
+    885.0,
+    874.0,
+    952.0,
+    994.0,
+    909.0,
+    941.0,
+    970.0,
+    1034.0,
+    1031.0
+   ],
+   "src": "FRED BAMLH0A3HYC",
+   "unit": " bp",
+   "val": "1,031 <small>bp</small>"
+  },
+  "rt.cuts": {
+   "date": "2026-08-28",
+   "delta": {
+    "dir": "down",
+    "t": "-0.6 cuts",
+    "vs": "vs 1 month ago; 60 bp of hikes by Aug 2027"
+   },
+   "dl": "28 Aug",
+   "freq": "d",
+   "kind": "tile",
+   "spark": [
+    -1.36,
+    -1.66,
+    -1.16,
+    -1.36,
+    -1.74,
+    -1.56,
+    -2.24,
+    -2.16,
+    -1.7,
+    -1.52,
+    -1.78,
+    -2.4
+   ],
+   "src": "Yahoo ZQQ27.CBT, FRED EFFR",
+   "unit": "",
+   "val": "2.4 <small>hikes</small>"
+  },
+  "rt.dgs10": {
+   "date": "2026-08-27",
+   "delta": {
+    "dir": "flat",
+    "t": "0 bp",
+    "vs": "1 month"
+   },
+   "dl": "27 Aug",
+   "freq": "d",
+   "kind": "tile",
+   "spark": [
+    4.16,
+    4.11,
+    4.02,
+    4.18,
+    4.26,
+    3.97,
+    4.3,
+    4.4,
+    4.45,
+    4.44,
+    4.75,
+    4.67
+   ],
+   "src": "FRED DGS10",
+   "unit": "%",
+   "val": "4.67%"
+  },
+  "rt.dgs2": {
+   "date": "2026-08-27",
+   "delta": {
+    "dir": "down",
+    "t": "-2 bp",
+    "vs": "1 month"
+   },
+   "dl": "27 Aug",
+   "freq": "d",
+   "kind": "tile",
+   "spark": [
+    3.6,
+    3.6,
+    3.47,
+    3.47,
+    3.52,
+    3.38,
+    3.79,
+    3.88,
+    3.98,
+    4.14,
+    4.28,
+    4.2
+   ],
+   "src": "FRED DGS2",
+   "unit": "%",
+   "val": "4.20%"
+  },
+  "rt.f5y5y": {
+   "date": "2026-08-28",
+   "delta": {
+    "dir": "flat",
+    "t": "anchored",
+    "vs": "+2 bp, 1m"
+   },
+   "dl": "28 Aug",
+   "freq": "d",
+   "kind": "tile",
+   "spark": [
+    2.3,
+    2.2,
+    2.17,
+    2.24,
+    2.19,
+    2.1,
+    2.06,
+    2.25,
+    2.24,
+    2.22,
+    2.3,
+    2.32
+   ],
+   "src": "FRED T5YIFR",
+   "unit": "%",
+   "val": "2.32%"
+  },
+  "rt.ffu": {
+   "date": "2026-08-29",
+   "delta": {
+    "dir": "flat",
+    "t": "hold",
+    "vs": "since Dec 2025"
+   },
+   "dl": "29 Aug",
+   "freq": "d",
+   "kind": "tile",
+   "spark": [
+    4.25,
+    4.0,
+    4.0,
+    3.75,
+    3.75,
+    3.75,
+    3.75,
+    3.75,
+    3.75,
+    3.75,
+    3.75,
+    3.75
+   ],
+   "src": "FRED DFEDTARU",
+   "unit": "%",
+   "val": "3.75%"
+  },
+  "rt.hy": {
+   "date": "2026-08-27",
+   "delta": {
+    "dir": "flat",
+    "t": "tight",
+    "vs": "3y percentile 1"
+   },
+   "dl": "27 Aug",
+   "freq": "d",
+   "kind": "tile",
+   "spark": [
+    280.0,
+    294.0,
+    292.0,
+    281.0,
+    288.0,
+    312.0,
+    328.0,
+    283.0,
+    274.0,
+    275.0,
+    285.0,
+    263.0
+   ],
+   "src": "FRED BAMLH0A0HYM2",
+   "unit": " bp",
+   "val": "263 <small>bp</small>"
+  },
+  "rt.hy_ig": {
+   "date": "2026-08-27",
+   "delta": {
+    "dir": "down",
+    "t": "HY outperforming IG",
+    "vs": "quality preference, 1m"
+   },
+   "dl": "27 Aug",
+   "freq": "d",
+   "kind": "tile",
+   "spark": [
+    3.684,
+    3.675,
+    3.561,
+    3.557,
+    3.84,
+    3.628,
+    3.644,
+    3.494,
+    3.703,
+    3.618,
+    3.608,
+    3.329
+   ],
+   "src": "FRED",
+   "unit": "x",
+   "val": "3.3<small>x</small>"
+  },
+  "rt.ig": {
+   "date": "2026-08-27",
+   "delta": {
+    "dir": "flat",
+    "t": "tight",
+    "vs": "3y percentile 18"
+   },
+   "dl": "27 Aug",
+   "freq": "d",
+   "kind": "tile",
+   "spark": [
+    76.0,
+    80.0,
+    82.0,
+    79.0,
+    75.0,
+    86.0,
+    90.0,
+    81.0,
+    74.0,
+    76.0,
+    79.0,
+    79.0
+   ],
+   "src": "FRED BAMLC0A0CM",
+   "unit": " bp",
+   "val": "79 <small>bp</small>"
+  },
+  "rt.impcorr": {
+   "date": "2026-08-28",
+   "delta": {
+    "dir": "flat",
+    "t": "0.0",
+    "vs": "1 month, COR3M"
+   },
+   "dl": "28 Aug",
+   "freq": "d",
+   "kind": "tile",
+   "spark": [
+    10.57,
+    8.76,
+    9.95,
+    8.18,
+    7.19,
+    8.93,
+    10.0,
+    9.71,
+    10.48,
+    11.03,
+    10.24,
+    10.17
+   ],
+   "src": "Cboe COR3M",
+   "unit": "",
+   "val": "10.2"
+  },
+  "rt.move": {
+   "date": "2026-08-27",
+   "delta": {
+    "dir": "down",
+    "t": "-4",
+    "vs": "1 month, calm"
+   },
+   "dl": "27 Aug",
+   "freq": "d",
+   "kind": "tile",
+   "spark": [
+    77.93,
+    66.61,
+    68.95,
+    63.96,
+    59.2,
+    73.38,
+    96.05,
+    72.07,
+    70.22,
+    71.96,
+    83.02,
+    69.86
+   ],
+   "src": "Yahoo ^MOVE",
+   "unit": "",
+   "val": "70"
+  },
+  "rt.mtg": {
+   "date": "2026-08-27",
+   "delta": {
+    "dir": "flat",
+    "t": "0 bp",
+    "vs": "1 month"
+   },
+   "dl": "27 Aug",
+   "freq": "w",
+   "kind": "tile",
+   "spark": [
+    6.3,
+    6.17,
+    6.23,
+    6.15,
+    6.1,
+    5.98,
+    6.38,
+    6.3,
+    6.53,
+    6.49,
+    6.66,
+    6.66
+   ],
+   "src": "FRED MORTGAGE30US",
+   "unit": "%",
+   "val": "6.66%"
+  },
+  "rt.nfci": {
+   "date": "2026-08-21",
+   "delta": {
+    "dir": "down",
+    "t": "-0.03",
+    "vs": "1 month, looser"
+   },
+   "dl": "21 Aug",
+   "freq": "w",
+   "kind": "tile",
+   "spark": [
+    -0.504,
+    -0.504,
+    -0.506,
+    -0.51,
+    -0.517,
+    -0.524,
+    -0.531,
+    -0.54,
+    -0.547,
+    -0.555,
+    -0.561,
+    -0.566
+   ],
+   "src": "FRED NFCI",
+   "unit": "",
+   "val": "-0.57"
+  },
+  "rt.real10": {
+   "date": "2026-08-27",
+   "delta": {
+    "dir": "down",
+    "t": "-7 bp",
+    "vs": "1 month, gold tailwind"
+   },
+   "dl": "27 Aug",
+   "freq": "d",
+   "kind": "tile",
+   "spark": [
+    1.8,
+    1.81,
+    1.79,
+    1.93,
+    1.9,
+    1.72,
+    2.0,
+    1.94,
+    2.07,
+    2.2,
+    2.47,
+    2.34
+   ],
+   "src": "FRED DFII10",
+   "unit": "%",
+   "val": "2.34%"
+  },
+  "rt.s2s10": {
+   "date": "2026-08-28",
+   "delta": {
+    "dir": "down",
+    "t": "flattening",
+    "vs": "-6 bp, 1m"
+   },
+   "dl": "28 Aug",
+   "freq": "d",
+   "kind": "tile",
+   "spark": [
+    56.0,
+    51.0,
+    55.0,
+    71.0,
+    74.0,
+    59.0,
+    51.0,
+    52.0,
+    47.0,
+    30.0,
+    47.0,
+    39.0
+   ],
+   "src": "FRED T10Y2Y",
+   "unit": " bp",
+   "val": "+39 <small>bp</small>"
+  },
+  "rt.s3m10": {
+   "date": "2026-08-28",
+   "delta": {
+    "dir": "down",
+    "t": "flattening",
+    "vs": "-3 bp, 1m"
+   },
+   "dl": "28 Aug",
+   "freq": "d",
+   "kind": "tile",
+   "spark": [
+    14.0,
+    22.0,
+    14.0,
+    51.0,
+    59.0,
+    30.0,
+    60.0,
+    72.0,
+    76.0,
+    57.0,
+    92.0,
+    83.0
+   ],
+   "src": "FRED T10Y3M",
+   "unit": " bp",
+   "val": "+83 <small>bp</small>"
+  },
+  "rt.sbcorr": {
+   "date": "2026-08-27",
+   "delta": {
+    "dir": "down",
+    "t": "-0.24",
+    "vs": "3 months, 60-day window"
+   },
+   "dl": "27 Aug",
+   "freq": "d",
+   "kind": "tile",
+   "spark": [
+    0.03,
+    -0.098,
+    -0.186,
+    -0.061,
+    0.318,
+    0.051,
+    0.246,
+    0.213,
+    0.559,
+    0.423,
+    0.406,
+    0.311
+   ],
+   "src": "Yahoo SPY, TLT",
+   "unit": "",
+   "val": "+0.31"
+  },
+  "rt.tp10": {
+   "date": "2026-08-21",
+   "delta": {
+    "dir": "up",
+    "t": "+2 bp",
+    "vs": "1 month, Kim-Wright model"
+   },
+   "dl": "21 Aug",
+   "freq": "w",
+   "kind": "tile",
+   "spark": [
+    0.503,
+    0.497,
+    0.451,
+    0.571,
+    0.615,
+    0.463,
+    0.654,
+    0.704,
+    0.754,
+    0.697,
+    0.868,
+    0.868
+   ],
+   "src": "FRED THREEFYTP10",
+   "unit": "%",
+   "val": "+0.87%"
+  },
+  "rt.vixts": {
+   "date": "2026-07-17",
+   "delta": {
+    "dir": "flat",
+    "t": "contango",
+    "vs": "VIX 18.8 / VIX3M 20.5"
+   },
+   "dl": "17 Jul",
+   "freq": "d",
+   "kind": "tile",
+   "spark": [
+    0.834,
+    0.839,
+    0.863,
+    0.834,
+    0.821,
+    0.986,
+    0.862,
+    0.838,
+    0.915,
+    0.848,
+    0.809,
+    0.914
+   ],
+   "src": "Yahoo ^VIX, ^VIX3M",
+   "unit": "",
+   "val": "0.91"
+  },
+  "sc.btc.12m": {
+   "s": -1,
+   "t": "-10.9%"
+  },
+  "sc.btc.1m": {
+   "s": 1,
+   "t": "+21.3%"
+  },
+  "sc.btc.1w": {
+   "s": -1,
+   "t": "-0.3%"
+  },
+  "sc.btc.3m": {
+   "s": 1,
+   "t": "+31.3%"
+  },
+  "sc.btc.level": {
+   "s": 0,
+   "t": "78.7k"
+  },
+  "sc.btc.pct": {
+   "s": 0,
+   "t": "78"
+  },
+  "sc.btc.trend": {
+   "s": 0,
+   "t": "above / above"
+  },
+  "sc.btc.vol": {
+   "s": 0,
+   "t": "31%"
+  },
+  "sc.btc.z": {
+   "s": 0,
+   "t": "+1.9"
+  },
+  "sc.cew.12m": {
+   "s": 1,
+   "t": "+9.7%"
+  },
+  "sc.cew.1m": {
+   "s": 1,
+   "t": "+2.0%"
+  },
+  "sc.cew.1w": {
+   "s": 1,
+   "t": "+0.3%"
+  },
+  "sc.cew.3m": {
+   "s": 1,
+   "t": "+2.7%"
+  },
+  "sc.cew.level": {
+   "s": 0,
+   "t": "20.0"
+  },
+  "sc.cew.pct": {
+   "s": 0,
+   "t": "99"
+  },
+  "sc.cew.trend": {
+   "s": 0,
+   "t": "above / above"
+  },
+  "sc.cew.vol": {
+   "s": 0,
+   "t": "7%"
+  },
+  "sc.cew.z": {
+   "s": 0,
+   "t": "+0.9"
+  },
+  "sc.copper.12m": {
+   "s": 1,
+   "t": "+50.8%"
+  },
+  "sc.copper.1m": {
+   "s": 1,
+   "t": "+3.3%"
+  },
+  "sc.copper.1w": {
+   "s": 1,
+   "t": "+1.2%"
+  },
+  "sc.copper.3m": {
+   "s": 1,
+   "t": "+4.7%"
+  },
+  "sc.copper.level": {
+   "s": 0,
+   "t": "6.66"
+  },
+  "sc.copper.pct": {
+   "s": 0,
+   "t": "99"
+  },
+  "sc.copper.trend": {
+   "s": 0,
+   "t": "above / above"
+  },
+  "sc.copper.vol": {
+   "s": 0,
+   "t": "24%"
+  },
+  "sc.copper.z": {
+   "s": 0,
+   "t": "+0.2"
+  },
+  "sc.dxy.12m": {
+   "s": 1,
+   "t": "+0.9%"
+  },
+  "sc.dxy.1m": {
+   "s": -1,
+   "t": "-1.6%"
+  },
+  "sc.dxy.1w": {
+   "s": 1,
+   "t": "+0.3%"
+  },
+  "sc.dxy.3m": {
+   "s": 1,
+   "t": "+0.1%"
+  },
+  "sc.dxy.level": {
+   "s": 0,
+   "t": "99.2"
+  },
+  "sc.dxy.pct": {
+   "s": 0,
+   "t": "56"
+  },
+  "sc.dxy.trend": {
+   "s": 0,
+   "t": "below / below"
+  },
+  "sc.dxy.vol": {
+   "s": 0,
+   "t": "5%"
+  },
+  "sc.dxy.z": {
+   "s": 0,
+   "t": "-0.9"
+  },
+  "sc.eem.12m": {
+   "s": 1,
+   "t": "+37.3%"
+  },
+  "sc.eem.1m": {
+   "s": 1,
+   "t": "+10.7%"
+  },
+  "sc.eem.1w": {
+   "s": 1,
+   "t": "+1.5%"
+  },
+  "sc.eem.3m": {
+   "s": -1,
+   "t": "-0.9%"
+  },
+  "sc.eem.level": {
+   "s": 0,
+   "t": "67.6"
+  },
+  "sc.eem.pct": {
+   "s": 0,
+   "t": "93"
+  },
+  "sc.eem.trend": {
+   "s": 0,
+   "t": "above / above"
+  },
+  "sc.eem.vol": {
+   "s": 0,
+   "t": "32%"
+  },
+  "sc.eem.z": {
+   "s": 0,
+   "t": "+1.9"
+  },
+  "sc.gold.12m": {
+   "s": 1,
+   "t": "+33.1%"
+  },
+  "sc.gold.1m": {
+   "s": 1,
+   "t": "+10.5%"
+  },
+  "sc.gold.1w": {
+   "s": -1,
+   "t": "-2.0%"
+  },
+  "sc.gold.3m": {
+   "s": -1,
+   "t": "-0.7%"
+  },
+  "sc.gold.level": {
+   "s": 0,
+   "t": "4,530"
+  },
+  "sc.gold.pct": {
+   "s": 0,
+   "t": "64"
+  },
+  "sc.gold.trend": {
+   "s": 0,
+   "t": "above / above"
+  },
+  "sc.gold.vol": {
+   "s": 0,
+   "t": "25%"
+  },
+  "sc.gold.z": {
+   "s": 0,
+   "t": "+1.5"
+  },
+  "sc.hyg.12m": {
+   "s": 1,
+   "t": "+4.7%"
+  },
+  "sc.hyg.1m": {
+   "s": 1,
+   "t": "+1.3%"
+  },
+  "sc.hyg.1w": {
+   "s": 1,
+   "t": "+0.4%"
+  },
+  "sc.hyg.3m": {
+   "s": 1,
+   "t": "+1.0%"
+  },
+  "sc.hyg.level": {
+   "s": 0,
+   "t": "79.9"
+  },
+  "sc.hyg.pct": {
+   "s": 0,
+   "t": "29"
+  },
+  "sc.hyg.trend": {
+   "s": 0,
+   "t": "above / below"
+  },
+  "sc.hyg.vol": {
+   "s": 0,
+   "t": "3%"
+  },
+  "sc.hyg.z": {
+   "s": 0,
+   "t": "+0.5"
+  },
+  "sc.n225.12m": {
+   "s": 1,
+   "t": "+55.1%"
+  },
+  "sc.n225.1m": {
+   "s": 1,
+   "t": "+6.0%"
+  },
+  "sc.n225.1w": {
+   "s": -1,
+   "t": "-0.1%"
+  },
+  "sc.n225.3m": {
+   "s": 1,
+   "t": "+2.2%"
+  },
+  "sc.n225.level": {
+   "s": 0,
+   "t": "66,132"
+  },
+  "sc.n225.pct": {
+   "s": 0,
+   "t": "84"
+  },
+  "sc.n225.trend": {
+   "s": 0,
+   "t": "below / above"
+  },
+  "sc.n225.vol": {
+   "s": 0,
+   "t": "33%"
+  },
+  "sc.n225.z": {
+   "s": 0,
+   "t": "+0.7"
+  },
+  "sc.ndx.12m": {
+   "s": 1,
+   "t": "+26.0%"
+  },
+  "sc.ndx.1m": {
+   "s": 1,
+   "t": "+9.0%"
+  },
+  "sc.ndx.1w": {
+   "s": 1,
+   "t": "+1.5%"
+  },
+  "sc.ndx.3m": {
+   "s": -1,
+   "t": "-1.9%"
+  },
+  "sc.ndx.level": {
+   "s": 0,
+   "t": "29,642"
+  },
+  "sc.ndx.pct": {
+   "s": 0,
+   "t": "90"
+  },
+  "sc.ndx.trend": {
+   "s": 0,
+   "t": "above / above"
+  },
+  "sc.ndx.vol": {
+   "s": 0,
+   "t": "25%"
+  },
+  "sc.ndx.z": {
+   "s": 0,
+   "t": "+1.4"
+  },
+  "sc.rut.12m": {
+   "s": 1,
+   "t": "+27.8%"
+  },
+  "sc.rut.1m": {
+   "s": 1,
+   "t": "+3.7%"
+  },
+  "sc.rut.1w": {
+   "s": 1,
+   "t": "+0.7%"
+  },
+  "sc.rut.3m": {
+   "s": 1,
+   "t": "+2.6%"
+  },
+  "sc.rut.level": {
+   "s": 0,
+   "t": "3,014"
+  },
+  "sc.rut.pct": {
+   "s": 0,
+   "t": "95"
+  },
+  "sc.rut.trend": {
+   "s": 0,
+   "t": "above / above"
+  },
+  "sc.rut.vol": {
+   "s": 0,
+   "t": "16%"
+  },
+  "sc.rut.z": {
+   "s": 0,
+   "t": "+0.4"
+  },
+  "sc.silver.12m": {
+   "s": 1,
+   "t": "+75.2%"
+  },
+  "sc.silver.1m": {
+   "s": 1,
+   "t": "+15.3%"
+  },
+  "sc.silver.1w": {
+   "s": -1,
+   "t": "-2.4%"
+  },
+  "sc.silver.3m": {
+   "s": -1,
+   "t": "-10.4%"
+  },
+  "sc.silver.level": {
+   "s": 0,
+   "t": "67.79"
+  },
+  "sc.silver.pct": {
+   "s": 0,
+   "t": "51"
+  },
+  "sc.silver.trend": {
+   "s": 0,
+   "t": "above / below"
+  },
+  "sc.silver.vol": {
+   "s": 0,
+   "t": "44%"
+  },
+  "sc.silver.z": {
+   "s": 0,
+   "t": "+1.0"
+  },
+  "sc.spx.12m": {
+   "s": 1,
+   "t": "+19.6%"
+  },
+  "sc.spx.1m": {
+   "s": 1,
+   "t": "+5.7%"
+  },
+  "sc.spx.1w": {
+   "s": 1,
+   "t": "+1.2%"
+  },
+  "sc.spx.3m": {
+   "s": 1,
+   "t": "+2.2%"
+  },
+  "sc.spx.level": {
+   "s": 0,
+   "t": "7,731"
+  },
+  "sc.spx.pct": {
+   "s": 0,
+   "t": "97"
+  },
+  "sc.spx.trend": {
+   "s": 0,
+   "t": "above / above"
+  },
+  "sc.spx.vol": {
+   "s": 0,
+   "t": "13%"
+  },
+  "sc.spx.z": {
+   "s": 0,
+   "t": "+1.1"
+  },
+  "sc.stoxx.12m": {
+   "s": 1,
+   "t": "+16.6%"
+  },
+  "sc.stoxx.1m": {
+   "s": 1,
+   "t": "+1.1%"
+  },
+  "sc.stoxx.1w": {
+   "s": 1,
+   "t": "+0.2%"
+  },
+  "sc.stoxx.3m": {
+   "s": 1,
+   "t": "+4.9%"
+  },
+  "sc.stoxx.level": {
+   "s": 0,
+   "t": "652"
+  },
+  "sc.stoxx.pct": {
+   "s": 0,
+   "t": "93"
+  },
+  "sc.stoxx.trend": {
+   "s": 0,
+   "t": "above / above"
+  },
+  "sc.stoxx.vol": {
+   "s": 0,
+   "t": "9%"
+  },
+  "sc.stoxx.z": {
+   "s": 0,
+   "t": "0.0"
+  },
+  "sc.us10y.12m": {
+   "s": 1,
+   "t": "+39 bp"
+  },
+  "sc.us10y.1m": {
+   "s": 0,
+   "t": "0 bp"
+  },
+  "sc.us10y.1w": {
+   "s": -1,
+   "t": "-2 bp"
+  },
+  "sc.us10y.3m": {
+   "s": 1,
+   "t": "+22 bp"
+  },
+  "sc.us10y.level": {
+   "s": 0,
+   "t": "4.67%"
+  },
+  "sc.us10y.pct": {
+   "s": 0,
+   "t": "93"
+  },
+  "sc.us10y.trend": {
+   "s": 0,
+   "t": "above / above"
+  },
+  "sc.us10y.vol": {
+   "s": 0,
+   "t": "67 bp"
+  },
+  "sc.us10y.z": {
+   "s": 0,
+   "t": "-0.1"
+  },
+  "sc.usdjpy.12m": {
+   "s": 1,
+   "t": "+7.9%"
+  },
+  "sc.usdjpy.1m": {
+   "s": -1,
+   "t": "-2.0%"
+  },
+  "sc.usdjpy.1w": {
+   "s": 1,
+   "t": "+0.7%"
+  },
+  "sc.usdjpy.3m": {
+   "s": 1,
+   "t": "+0.3%"
+  },
+  "sc.usdjpy.level": {
+   "s": 0,
+   "t": "160.0"
+  },
+  "sc.usdjpy.pct": {
+   "s": 0,
+   "t": "84"
+  },
+  "sc.usdjpy.trend": {
+   "s": 0,
+   "t": "below / above"
+  },
+  "sc.usdjpy.vol": {
+   "s": 0,
+   "t": "7%"
+  },
+  "sc.usdjpy.z": {
+   "s": 0,
+   "t": "-0.8"
+  },
+  "sc.wti.12m": {
+   "s": 1,
+   "t": "+30.0%"
+  },
+  "sc.wti.1m": {
+   "s": -1,
+   "t": "-0.2%"
+  },
+  "sc.wti.1w": {
+   "s": -1,
+   "t": "-4.2%"
+  },
+  "sc.wti.3m": {
+   "s": -1,
+   "t": "-4.5%"
+  },
+  "sc.wti.level": {
+   "s": 0,
+   "t": "83.40"
+  },
+  "sc.wti.pct": {
+   "s": 0,
+   "t": "67"
+  },
+  "sc.wti.trend": {
+   "s": 0,
+   "t": "above / above"
+  },
+  "sc.wti.vol": {
+   "s": 0,
+   "t": "51%"
+  },
+  "sc.wti.z": {
+   "s": 0,
+   "t": "-0.1"
+  },
+  "sec.xlb.1m": {
+   "s": 1,
+   "t": "+2.9%"
+  },
+  "sec.xlb.3m": {
+   "s": 1,
+   "t": "+4.0%"
+  },
+  "sec.xlb.breadth": {
+   "s": 0,
+   "t": "72%"
+  },
+  "sec.xlb.flowz": {
+   "s": 0,
+   "t": "no feed"
+  },
+  "sec.xlb.ma": {
+   "s": 0,
+   "t": "above / above"
+  },
+  "sec.xlb.quadrant": {
+   "h": "<span class=\"chip serious\"><span class=\"g\">▼</span>Lagging</span>",
+   "s": 0,
+   "t": "Lagging"
+  },
+  "sec.xlb.rs": {
+   "s": 1,
+   "t": "▲ crossed 20 Aug"
+  },
+  "sec.xlc.1m": {
+   "s": 1,
+   "t": "+1.7%"
+  },
+  "sec.xlc.3m": {
+   "s": -1,
+   "t": "-4.3%"
+  },
+  "sec.xlc.breadth": {
+   "s": 0,
+   "t": "54%"
+  },
+  "sec.xlc.flowz": {
+   "s": 0,
+   "t": "no feed"
+  },
+  "sec.xlc.ma": {
+   "s": 0,
+   "t": "above / below"
+  },
+  "sec.xlc.quadrant": {
+   "h": "<span class=\"chip serious\"><span class=\"g\">▼</span>Lagging</span>",
+   "s": 0,
+   "t": "Lagging"
+  },
+  "sec.xlc.rs": {
+   "s": -1,
+   "t": "▼ lost 27 Aug"
+  },
+  "sec.xle.1m": {
+   "s": 1,
+   "t": "+6.2%"
+  },
+  "sec.xle.3m": {
+   "s": 1,
+   "t": "+10.2%"
+  },
+  "sec.xle.breadth": {
+   "s": 0,
+   "t": "90%"
+  },
+  "sec.xle.flowz": {
+   "s": 0,
+   "t": "no feed"
+  },
+  "sec.xle.ma": {
+   "s": 0,
+   "t": "above / above"
+  },
+  "sec.xle.quadrant": {
+   "h": "<span class=\"chip warn\"><span class=\"g\">▼</span>Weakening</span>",
+   "s": 0,
+   "t": "Weakening"
+  },
+  "sec.xle.rs": {
+   "s": 1,
+   "t": "▲ crossed 10 Aug"
+  },
+  "sec.xlf.1m": {
+   "s": 1,
+   "t": "+2.1%"
+  },
+  "sec.xlf.3m": {
+   "s": 1,
+   "t": "+13.3%"
+  },
+  "sec.xlf.breadth": {
+   "s": 0,
+   "t": "64%"
+  },
+  "sec.xlf.flowz": {
+   "s": 0,
+   "t": "no feed"
+  },
+  "sec.xlf.ma": {
+   "s": 0,
+   "t": "above / above"
+  },
+  "sec.xlf.quadrant": {
+   "h": "<span class=\"chip up\"><span class=\"g\">▲</span>Improving</span>",
+   "s": 0,
+   "t": "Improving"
+  },
+  "sec.xlf.rs": {
+   "s": 1,
+   "t": "▲ rising"
+  },
+  "sec.xli.1m": {
+   "s": 1,
+   "t": "+1.2%"
+  },
+  "sec.xli.3m": {
+   "s": 1,
+   "t": "+3.1%"
+  },
+  "sec.xli.breadth": {
+   "s": 0,
+   "t": "44%"
+  },
+  "sec.xli.flowz": {
+   "s": 0,
+   "t": "no feed"
+  },
+  "sec.xli.ma": {
+   "s": 0,
+   "t": "below / above"
+  },
+  "sec.xli.quadrant": {
+   "h": "<span class=\"chip accent\"><span class=\"g\">▲</span>Leading</span>",
+   "s": 0,
+   "t": "Leading"
+  },
+  "sec.xli.rs": {
+   "s": -1,
+   "t": "▼ lost 6 Aug"
+  },
+  "sec.xlk.1m": {
+   "s": 1,
+   "t": "+13.2%"
+  },
+  "sec.xlk.3m": {
+   "s": 1,
+   "t": "+1.1%"
+  },
+  "sec.xlk.breadth": {
+   "s": 0,
+   "t": "53%"
+  },
+  "sec.xlk.flowz": {
+   "s": 0,
+   "t": "no feed"
+  },
+  "sec.xlk.ma": {
+   "s": 0,
+   "t": "above / above"
+  },
+  "sec.xlk.quadrant": {
+   "h": "<span class=\"chip accent\"><span class=\"g\">▲</span>Leading</span>",
+   "s": 0,
+   "t": "Leading"
+  },
+  "sec.xlk.rs": {
+   "s": 1,
+   "t": "▲ crossed 27 Aug"
+  },
+  "sec.xlp.1m": {
+   "s": -1,
+   "t": "-2.6%"
+  },
+  "sec.xlp.3m": {
+   "s": 1,
+   "t": "+1.5%"
+  },
+  "sec.xlp.breadth": {
+   "s": 0,
+   "t": "56%"
+  },
+  "sec.xlp.flowz": {
+   "s": 0,
+   "t": "no feed"
+  },
+  "sec.xlp.ma": {
+   "s": 0,
+   "t": "above / above"
+  },
+  "sec.xlp.quadrant": {
+   "h": "<span class=\"chip up\"><span class=\"g\">▲</span>Improving</span>",
+   "s": 0,
+   "t": "Improving"
+  },
+  "sec.xlp.rs": {
+   "s": -1,
+   "t": "▼ lost 27 Aug"
+  },
+  "sec.xlre.1m": {
+   "s": -1,
+   "t": "-2.8%"
+  },
+  "sec.xlre.3m": {
+   "s": 1,
+   "t": "+1.4%"
+  },
+  "sec.xlre.breadth": {
+   "s": 0,
+   "t": "33%"
+  },
+  "sec.xlre.flowz": {
+   "s": 0,
+   "t": "no feed"
+  },
+  "sec.xlre.ma": {
+   "s": 0,
+   "t": "below / above"
+  },
+  "sec.xlre.quadrant": {
+   "h": "<span class=\"chip up\"><span class=\"g\">▲</span>Improving</span>",
+   "s": 0,
+   "t": "Improving"
+  },
+  "sec.xlre.rs": {
+   "s": -1,
+   "t": "▼ lost 3 Aug"
+  },
+  "sec.xlu.1m": {
+   "s": -1,
+   "t": "-3.9%"
+  },
+  "sec.xlu.3m": {
+   "s": -1,
+   "t": "-2.6%"
+  },
+  "sec.xlu.breadth": {
+   "s": 0,
+   "t": "13%"
+  },
+  "sec.xlu.flowz": {
+   "s": 0,
+   "t": "no feed"
+  },
+  "sec.xlu.ma": {
+   "s": 0,
+   "t": "below / below"
+  },
+  "sec.xlu.quadrant": {
+   "h": "<span class=\"chip serious\"><span class=\"g\">▼</span>Lagging</span>",
+   "s": 0,
+   "t": "Lagging"
+  },
+  "sec.xlu.rs": {
+   "s": -1,
+   "t": "▼ lost 30 Jul"
+  },
+  "sec.xlv.1m": {
+   "s": 1,
+   "t": "+3.2%"
+  },
+  "sec.xlv.3m": {
+   "s": 1,
+   "t": "+14.2%"
+  },
+  "sec.xlv.breadth": {
+   "s": 0,
+   "t": "78%"
+  },
+  "sec.xlv.flowz": {
+   "s": 0,
+   "t": "no feed"
+  },
+  "sec.xlv.ma": {
+   "s": 0,
+   "t": "above / above"
+  },
+  "sec.xlv.quadrant": {
+   "h": "<span class=\"chip accent\"><span class=\"g\">▲</span>Leading</span>",
+   "s": 0,
+   "t": "Leading"
+  },
+  "sec.xlv.rs": {
+   "s": 1,
+   "t": "▲ rising"
+  },
+  "sec.xly.1m": {
+   "s": 1,
+   "t": "+3.8%"
+  },
+  "sec.xly.3m": {
+   "s": -1,
+   "t": "-4.9%"
+  },
+  "sec.xly.breadth": {
+   "s": 0,
+   "t": "38%"
+  },
+  "sec.xly.flowz": {
+   "s": 0,
+   "t": "no feed"
+  },
+  "sec.xly.ma": {
+   "s": 0,
+   "t": "below / below"
+  },
+  "sec.xly.quadrant": {
+   "h": "<span class=\"chip serious\"><span class=\"g\">▼</span>Lagging</span>",
+   "s": 0,
+   "t": "Lagging"
+  },
+  "sec.xly.rs": {
+   "s": -1,
+   "t": "▼ falling"
+  },
+  "strip.btc": {
+   "d": {
+    "dir": "up",
+    "t": "+21.3%, 1m"
+   },
+   "date": "2026-08-30",
+   "dl": "30 Aug",
+   "freq": "d",
+   "kind": "strip",
+   "src": "Yahoo BTC-USD",
+   "val": "78.7k"
+  },
+  "strip.cu_au": {
+   "d": {
+    "dir": "down",
+    "t": "-6.5%, 1m"
+   },
+   "date": "2026-08-28",
+   "dl": "28 Aug",
+   "freq": "d",
+   "kind": "strip",
+   "src": "Yahoo HG=F, GC=F",
+   "val": "1.47"
+  },
+  "strip.dxy": {
+   "d": {
+    "dir": "down",
+    "t": "-1.6%, 1m"
+   },
+   "date": "2026-08-27",
+   "dl": "27 Aug",
+   "freq": "d",
+   "kind": "strip",
+   "src": "Yahoo DXY",
+   "val": "99.2"
+  },
+  "strip.ff": {
+   "d": {
+    "dir": "flat",
+    "t": "2.4 hikes priced, 12m"
+   },
+   "date": "2026-08-28",
+   "dl": "28 Aug",
+   "freq": "d",
+   "kind": "strip",
+   "src": "FRED, Yahoo",
+   "val": "3.75%"
+  },
+  "strip.gold": {
+   "d": {
+    "dir": "up",
+    "t": "+10.5%, 1m"
+   },
+   "date": "2026-08-28",
+   "dl": "28 Aug",
+   "freq": "d",
+   "kind": "strip",
+   "src": "Yahoo GC=F",
+   "val": "4,530"
+  },
+  "strip.hy": {
+   "d": {
+    "dir": "flat",
+    "t": "tight, 3y pct 1"
+   },
+   "date": "2026-08-27",
+   "dl": "27 Aug",
+   "freq": "d",
+   "kind": "strip",
+   "src": "FRED BAMLH0A0HYM2",
+   "val": "263 bp"
+  },
+  "strip.m2_global": {
+   "d": {
+    "dir": "up",
+    "t": "US, euro area, Japan"
+   },
+   "date": "2026-07-01",
+   "dl": "Jul 2026",
+   "freq": "m",
+   "kind": "strip",
+   "src": "FRED M2SL; ECB BSI; BoJ MD02; Yahoo FX",
+   "val": "+3.6%"
+  },
+  "strip.netliq": {
+   "d": {
+    "dir": "down",
+    "t": "-$45B, 4w"
+   },
+   "date": "2026-08-26",
+   "dl": "26 Aug",
+   "freq": "w",
+   "kind": "strip",
+   "src": "FRED",
+   "val": "$5.78T"
+  },
+  "strip.nfci": {
+   "d": {
+    "dir": "flat",
+    "t": "loose, easing 1m"
+   },
+   "date": "2026-08-21",
+   "dl": "21 Aug",
+   "freq": "w",
+   "kind": "strip",
+   "src": "FRED NFCI",
+   "val": "-0.57"
+  },
+  "strip.real10": {
+   "d": {
+    "dir": "down",
+    "t": "-7 bp, 1m"
+   },
+   "date": "2026-08-27",
+   "dl": "27 Aug",
+   "freq": "d",
+   "kind": "strip",
+   "src": "FRED DFII10",
+   "val": "2.34%"
+  },
+  "strip.real_m2": {
+   "d": {
+    "dir": "up",
+    "t": "M2 minus CPI"
+   },
+   "date": "2026-07-01",
+   "dl": "Jul 2026",
+   "freq": "m",
+   "kind": "strip",
+   "src": "FRED",
+   "val": "+1.9%"
+  },
+  "strip.risk": {
+   "d": {
+    "dir": "up",
+    "t": "risk-on, not extreme"
+   },
+   "date": "2026-08-27",
+   "dl": "27 Aug",
+   "freq": "d",
+   "kind": "strip",
+   "src": "six inputs, 3-year z-scores",
+   "val": "+1.3"
+  },
+  "strip.spx": {
+   "d": {
+    "dir": "up",
+    "t": "+5.7%, 1m"
+   },
+   "date": "2026-08-27",
+   "dl": "27 Aug",
+   "freq": "d",
+   "kind": "strip",
+   "src": "Yahoo ^GSPC",
+   "val": "7,731"
+  },
+  "strip.tp10": {
+   "d": {
+    "dir": "up",
+    "t": "+2 bp, 1m"
+   },
+   "date": "2026-08-21",
+   "dl": "21 Aug",
+   "freq": "w",
+   "kind": "strip",
+   "src": "FRED THREEFYTP10",
+   "val": "+0.87%"
+  },
+  "strip.us10y": {
+   "d": {
+    "dir": "down",
+    "t": "-2 bp, 1w"
+   },
+   "date": "2026-08-27",
+   "dl": "27 Aug",
+   "freq": "d",
+   "kind": "strip",
+   "src": "FRED DGS10",
+   "val": "4.67%"
+  },
+  "strip.usdjpy": {
+   "d": {
+    "dir": "down",
+    "t": "-2.0%, 1m"
+   },
+   "date": "2026-08-28",
+   "dl": "28 Aug",
+   "freq": "d",
+   "kind": "strip",
+   "src": "Yahoo JPY=X",
+   "val": "160.0"
+  },
+  "strip.vix": {
+   "d": {
+    "dir": "flat",
+    "t": "contango, calm"
+   },
+   "date": "2026-07-17",
+   "dl": "17 Jul",
+   "freq": "d",
+   "kind": "strip",
+   "src": "Yahoo ^VIX, ^VIX3M",
+   "val": "18.8 <small>0.91</small>"
+  },
+  "strip.wti": {
+   "d": {
+    "dir": "down",
+    "t": "-0.2%, 1m"
+   },
+   "date": "2026-08-28",
+   "dl": "28 Aug",
+   "freq": "d",
+   "kind": "strip",
+   "src": "Yahoo CL=F",
+   "val": "83.4"
+  },
+  "th.btc.1m": {
+   "s": 1,
+   "t": "+21.3%"
+  },
+  "th.btc.1w": {
+   "s": -1,
+   "t": "-0.3%"
+  },
+  "th.btc.3m": {
+   "s": 1,
+   "t": "+31.3%"
+  },
+  "th.btc.breadth": {
+   "s": 0,
+   "t": "no file"
+  },
+  "th.btc.flowz": {
+   "s": 0,
+   "t": "no feed"
+  },
+  "th.btc.rs": {
+   "s": 1,
+   "t": "▲ crossed 19 Aug"
+  },
+  "th.btc.seasonal": {
+   "s": 1,
+   "t": "Positive, hit 67%"
+  },
+  "th.btc.signals": {
+   "h": "<span class=\"meter\"><i class=\"on\"></i><i class=\"on\"></i><i></i><i></i><i></i></span>",
+   "s": 0,
+   "t": "2 of 5"
+  },
+  "th.btc.state": {
+   "h": "<span class=\"chip\"><span class=\"g\">●</span>Watch</span>",
+   "s": 0,
+   "t": "Watch"
+  },
+  "th.cibr.1m": {
+   "s": 1,
+   "t": "+13.5%"
+  },
+  "th.cibr.1w": {
+   "s": 1,
+   "t": "+7.9%"
+  },
+  "th.cibr.3m": {
+   "s": 1,
+   "t": "+20.6%"
+  },
+  "th.cibr.breadth": {
+   "s": 0,
+   "t": "no file"
+  },
+  "th.cibr.flowz": {
+   "s": 0,
+   "t": "no feed"
+  },
+  "th.cibr.rs": {
+   "s": 1,
+   "t": "▲ crossed 26 Aug"
+  },
+  "th.cibr.seasonal": {
+   "s": 0,
+   "t": "Mixed, hit 55%"
+  },
+  "th.cibr.signals": {
+   "h": "<span class=\"meter\"><i class=\"on\"></i><i></i><i></i><i></i><i></i></span>",
+   "s": 0,
+   "t": "1 of 5"
+  },
+  "th.cibr.state": {
+   "h": "<span class=\"chip\"><span class=\"g\">●</span>Watch</span>",
+   "s": 0,
+   "t": "Watch"
+  },
+  "th.gdx.1m": {
+   "s": 1,
+   "t": "+40.9%"
+  },
+  "th.gdx.1w": {
+   "s": 1,
+   "t": "+3.8%"
+  },
+  "th.gdx.3m": {
+   "s": 1,
+   "t": "+18.9%"
+  },
+  "th.gdx.breadth": {
+   "s": 0,
+   "t": "no file"
+  },
+  "th.gdx.flowz": {
+   "s": 0,
+   "t": "no feed"
+  },
+  "th.gdx.rs": {
+   "s": 1,
+   "t": "▲ crossed 5 Aug"
+  },
+  "th.gdx.seasonal": {
+   "s": 0,
+   "t": "Mixed, hit 50%"
+  },
+  "th.gdx.signals": {
+   "h": "<span class=\"meter\"><i class=\"on\"></i><i class=\"on\"></i><i></i><i></i><i></i></span>",
+   "s": 0,
+   "t": "2 of 5"
+  },
+  "th.gdx.state": {
+   "h": "<span class=\"chip up\"><span class=\"g\">▲</span>Early</span>",
+   "s": 0,
+   "t": "Early"
+  },
+  "th.ita.1m": {
+   "s": -1,
+   "t": "-0.8%"
+  },
+  "th.ita.1w": {
+   "s": -1,
+   "t": "-1.4%"
+  },
+  "th.ita.3m": {
+   "s": -1,
+   "t": "-0.5%"
+  },
+  "th.ita.breadth": {
+   "s": 0,
+   "t": "no file"
+  },
+  "th.ita.flowz": {
+   "s": 0,
+   "t": "no feed"
+  },
+  "th.ita.rs": {
+   "s": -1,
+   "t": "▼ lost 19 Aug"
+  },
+  "th.ita.seasonal": {
+   "s": 1,
+   "t": "Positive, hit 60%"
+  },
+  "th.ita.signals": {
+   "h": "<span class=\"meter fade\"><i class=\"on\"></i><i></i><i></i><i></i><i></i></span>",
+   "s": 0,
+   "t": "1 of 5"
+  },
+  "th.ita.state": {
+   "h": "<span class=\"chip\"><span class=\"g\">●</span>Watch (exit)</span>",
+   "s": 0,
+   "t": "Watch (exit)"
+  },
+  "th.kbe.1m": {
+   "s": -1,
+   "t": "-1.8%"
+  },
+  "th.kbe.1w": {
+   "s": -1,
+   "t": "-0.3%"
+  },
+  "th.kbe.3m": {
+   "s": 1,
+   "t": "+8.4%"
+  },
+  "th.kbe.breadth": {
+   "s": 0,
+   "t": "no file"
+  },
+  "th.kbe.flowz": {
+   "s": 0,
+   "t": "no feed"
+  },
+  "th.kbe.rs": {
+   "s": -1,
+   "t": "▼ lost 19 Aug"
+  },
+  "th.kbe.seasonal": {
+   "s": 0,
+   "t": "Mixed, hit 40%"
+  },
+  "th.kbe.signals": {
+   "h": "<span class=\"meter fade\"><i></i><i></i><i></i><i></i><i></i></span>",
+   "s": 0,
+   "t": "0 of 5"
+  },
+  "th.kbe.state": {
+   "h": "<span class=\"chip\"><span class=\"g\">●</span>Watch (exit)</span>",
+   "s": 0,
+   "t": "Watch (exit)"
+  },
+  "th.kre.1m": {
+   "s": -1,
+   "t": "-2.4%"
+  },
+  "th.kre.1w": {
+   "s": -1,
+   "t": "-0.5%"
+  },
+  "th.kre.3m": {
+   "s": 1,
+   "t": "+7.5%"
+  },
+  "th.kre.breadth": {
+   "s": 0,
+   "t": "no file"
+  },
+  "th.kre.flowz": {
+   "s": 0,
+   "t": "no feed"
+  },
+  "th.kre.rs": {
+   "s": -1,
+   "t": "▼ lost 19 Aug"
+  },
+  "th.kre.seasonal": {
+   "s": 0,
+   "t": "Mixed, hit 50%"
+  },
+  "th.kre.signals": {
+   "h": "<span class=\"meter fade\"><i></i><i></i><i></i><i></i><i></i></span>",
+   "s": 0,
+   "t": "0 of 5"
+  },
+  "th.kre.state": {
+   "h": "<span class=\"chip\"><span class=\"g\">●</span>Watch (exit)</span>",
+   "s": 0,
+   "t": "Watch (exit)"
+  },
+  "th.mags.1m": {
+   "s": 1,
+   "t": "+9.7%"
+  },
+  "th.mags.1w": {
+   "s": 1,
+   "t": "+2.6%"
+  },
+  "th.mags.3m": {
+   "s": -1,
+   "t": "-3.2%"
+  },
+  "th.mags.breadth": {
+   "s": 0,
+   "t": "no file"
+  },
+  "th.mags.flowz": {
+   "s": 0,
+   "t": "no feed"
+  },
+  "th.mags.rs": {
+   "s": 1,
+   "t": "▲ crossed 24 Aug"
+  },
+  "th.mags.signals": {
+   "h": "<span class=\"meter\"><i class=\"on\"></i><i></i><i></i><i></i><i></i></span>",
+   "s": 0,
+   "t": "1 of 5"
+  },
+  "th.mags.state": {
+   "h": "<span class=\"chip\"><span class=\"g\">●</span>Watch</span>",
+   "s": 0,
+   "t": "Watch"
+  },
+  "th.sil.1m": {
+   "s": 1,
+   "t": "+41.4%"
+  },
+  "th.sil.1w": {
+   "s": 1,
+   "t": "+5.8%"
+  },
+  "th.sil.3m": {
+   "s": 1,
+   "t": "+13.5%"
+  },
+  "th.sil.breadth": {
+   "s": 0,
+   "t": "no file"
+  },
+  "th.sil.flowz": {
+   "s": 0,
+   "t": "no feed"
+  },
+  "th.sil.rs": {
+   "s": 1,
+   "t": "▲ crossed 5 Aug"
+  },
+  "th.sil.seasonal": {
+   "s": 0,
+   "t": "Mixed, hit 44%"
+  },
+  "th.sil.signals": {
+   "h": "<span class=\"meter\"><i class=\"on\"></i><i class=\"on\"></i><i></i><i></i><i></i></span>",
+   "s": 0,
+   "t": "2 of 5"
+  },
+  "th.sil.state": {
+   "h": "<span class=\"chip up\"><span class=\"g\">▲</span>Early</span>",
+   "s": 0,
+   "t": "Early"
+  },
+  "th.smh.1m": {
+   "s": 1,
+   "t": "+13.6%"
+  },
+  "th.smh.1w": {
+   "s": 1,
+   "t": "+1.8%"
+  },
+  "th.smh.3m": {
+   "s": -1,
+   "t": "-4.5%"
+  },
+  "th.smh.breadth": {
+   "s": 0,
+   "t": "no file"
+  },
+  "th.smh.flowz": {
+   "s": 0,
+   "t": "no feed"
+  },
+  "th.smh.rs": {
+   "s": -1,
+   "t": "▼ falling"
+  },
+  "th.smh.seasonal": {
+   "s": 0,
+   "t": "Mixed, hit 45%"
+  },
+  "th.smh.signals": {
+   "h": "<span class=\"meter fade\"><i></i><i></i><i></i><i></i><i></i></span>",
+   "s": 0,
+   "t": "0 of 5"
+  },
+  "th.smh.state": {
+   "h": "<span class=\"chip\"><span class=\"g\">●</span>Watch (exit)</span>",
+   "s": 0,
+   "t": "Watch (exit)"
+  },
+  "th.staples.1m": {
+   "s": -1,
+   "t": "-2.6%"
+  },
+  "th.staples.1w": {
+   "s": -1,
+   "t": "-0.3%"
+  },
+  "th.staples.3m": {
+   "s": 1,
+   "t": "+1.5%"
+  },
+  "th.staples.breadth": {
+   "s": 0,
+   "t": "56%"
+  },
+  "th.staples.flowz": {
+   "s": 0,
+   "t": "no feed"
+  },
+  "th.staples.rs": {
+   "s": -1,
+   "t": "▼ lost 27 Aug"
+  },
+  "th.staples.seasonal": {
+   "s": 0,
+   "t": "Mixed, hit 40%"
+  },
+  "th.staples.signals": {
+   "h": "<span class=\"meter fade\"><i></i><i></i><i></i><i></i><i></i></span>",
+   "s": 0,
+   "t": "0 of 5"
+  },
+  "th.staples.state": {
+   "h": "<span class=\"chip\"><span class=\"g\">●</span>Watch (exit)</span>",
+   "s": 0,
+   "t": "Watch (exit)"
+  },
+  "th.ura.1m": {
+   "s": 1,
+   "t": "+28.9%"
+  },
+  "th.ura.1w": {
+   "s": 1,
+   "t": "+10.3%"
+  },
+  "th.ura.3m": {
+   "s": -1,
+   "t": "-4.7%"
+  },
+  "th.ura.breadth": {
+   "s": 0,
+   "t": "no file"
+  },
+  "th.ura.flowz": {
+   "s": 0,
+   "t": "no feed"
+  },
+  "th.ura.rs": {
+   "s": 1,
+   "t": "▲ crossed 19 Aug"
+  },
+  "th.ura.seasonal": {
+   "s": -1,
+   "t": "Weak, hit 40%"
+  },
+  "th.ura.signals": {
+   "h": "<span class=\"meter\"><i class=\"on\"></i><i></i><i></i><i></i><i></i></span>",
+   "s": 0,
+   "t": "1 of 5"
+  },
+  "th.ura.state": {
+   "h": "<span class=\"chip\"><span class=\"g\">●</span>Watch</span>",
+   "s": 0,
+   "t": "Watch"
+  },
+  "th.xbi.1m": {
+   "s": 1,
+   "t": "+13.7%"
+  },
+  "th.xbi.1w": {
+   "s": 1,
+   "t": "+3.0%"
+  },
+  "th.xbi.3m": {
+   "s": 1,
+   "t": "+23.8%"
+  },
+  "th.xbi.breadth": {
+   "s": 0,
+   "t": "no file"
+  },
+  "th.xbi.flowz": {
+   "s": 0,
+   "t": "no feed"
+  },
+  "th.xbi.rs": {
+   "s": 1,
+   "t": "▲ crossed 4 Aug"
+  },
+  "th.xbi.seasonal": {
+   "s": 0,
+   "t": "Mixed, hit 50%"
+  },
+  "th.xbi.signals": {
+   "h": "<span class=\"meter\"><i class=\"on\"></i><i class=\"on\"></i><i></i><i></i><i></i></span>",
+   "s": 0,
+   "t": "2 of 5"
+  },
+  "th.xbi.state": {
+   "h": "<span class=\"chip up\"><span class=\"g\">▲</span>Early</span>",
+   "s": 0,
+   "t": "Early"
+  },
+  "th.xhb.1m": {
+   "s": -1,
+   "t": "-0.2%"
+  },
+  "th.xhb.1w": {
+   "s": -1,
+   "t": "-1.0%"
+  },
+  "th.xhb.3m": {
+   "s": 1,
+   "t": "+1.8%"
+  },
+  "th.xhb.breadth": {
+   "s": 0,
+   "t": "21%"
+  },
+  "th.xhb.flowz": {
+   "s": 0,
+   "t": "no feed"
+  },
+  "th.xhb.rs": {
+   "s": -1,
+   "t": "▼ lost 29 Jul"
+  },
+  "th.xhb.seasonal": {
+   "s": -1,
+   "t": "Weak, hit 35%"
+  },
+  "th.xhb.signals": {
+   "h": "<span class=\"meter fade\"><i></i><i></i><i></i><i></i><i></i></span>",
+   "s": 0,
+   "t": "0 of 5"
+  },
+  "th.xhb.state": {
+   "h": "<span class=\"chip\"><span class=\"g\">●</span>Watch (exit)</span>",
+   "s": 0,
+   "t": "Watch (exit)"
+  },
+  "th.xlu.1m": {
+   "s": -1,
+   "t": "-3.9%"
+  },
+  "th.xlu.1w": {
+   "s": -1,
+   "t": "-1.3%"
+  },
+  "th.xlu.3m": {
+   "s": -1,
+   "t": "-2.6%"
+  },
+  "th.xlu.breadth": {
+   "s": 0,
+   "t": "13%"
+  },
+  "th.xlu.flowz": {
+   "s": 0,
+   "t": "no feed"
+  },
+  "th.xlu.rs": {
+   "s": -1,
+   "t": "▼ lost 30 Jul"
+  },
+  "th.xlu.seasonal": {
+   "s": 0,
+   "t": "Mixed, hit 50%"
+  },
+  "th.xlu.signals": {
+   "h": "<span class=\"meter fade\"><i></i><i></i><i></i><i></i><i></i></span>",
+   "s": 0,
+   "t": "0 of 5"
+  },
+  "th.xlu.state": {
+   "h": "<span class=\"chip\"><span class=\"g\">●</span>Watch (exit)</span>",
+   "s": 0,
+   "t": "Watch (exit)"
+  },
+  "th.xop.1m": {
+   "s": 1,
+   "t": "+7.8%"
+  },
+  "th.xop.1w": {
+   "s": -1,
+   "t": "-1.1%"
+  },
+  "th.xop.3m": {
+   "s": 1,
+   "t": "+13.0%"
+  },
+  "th.xop.breadth": {
+   "s": 0,
+   "t": "88%"
+  },
+  "th.xop.flowz": {
+   "s": 0,
+   "t": "no feed"
+  },
+  "th.xop.rs": {
+   "s": 1,
+   "t": "▲ crossed 10 Aug"
+  },
+  "th.xop.seasonal": {
+   "s": 0,
+   "t": "Mixed, hit 55%"
+  },
+  "th.xop.signals": {
+   "h": "<span class=\"meter\"><i class=\"on\"></i><i class=\"on\"></i><i></i><i></i><i></i></span>",
+   "s": 0,
+   "t": "2 of 5"
+  },
+  "th.xop.state": {
+   "h": "<span class=\"chip up\"><span class=\"g\">▲</span>Early</span>",
+   "s": 0,
+   "t": "Early"
+  },
+  "val.erp.hist": {
+   "s": 0,
+   "t": "20-year percentile 0 (20-year low)"
+  },
+  "val.erp.now": {
+   "s": -1,
+   "t": "-1.31 pt"
+  },
+  "val.spx_pe.hist": {
+   "s": 0,
+   "t": "10-year percentile 91"
+  },
+  "val.spx_pe.now": {
+   "s": 0,
+   "t": "29.7x"
+  }
+ },
+ "counts": {
+  "cells": 799,
+  "errors": 0,
+  "rank": 18,
+  "stale": 0
+ },
+ "errors": [],
+ "meta": {
+  "cb.boe": {
+   "date": "2026-08-24",
+   "dl": "Aug 2026",
+   "freq": "m",
+   "src": "BIS WS_CBPOL GB (Bank Rate)"
+  },
+  "cb.boj": {
+   "date": "2026-08-25",
+   "dl": "Aug 2026",
+   "freq": "m",
+   "src": "BIS WS_CBPOL JP (overnight call rate target)"
+  },
+  "cb.bot": {
+   "date": "2026-08-20",
+   "dl": "Aug 2026",
+   "freq": "m",
+   "src": "BIS WS_CBPOL TH (one-day repo rate)"
+  },
+  "cb.ecb": {
+   "date": "2026-08-28",
+   "dl": "Aug 2026",
+   "freq": "m",
+   "src": "FRED ECBDFR (deposit facility)"
+  },
+  "cb.fed": {
+   "date": "2026-08-29",
+   "dl": "Aug 2026",
+   "freq": "m",
+   "src": "FRED DFEDTARU (target range, upper)"
+  },
+  "cb.pboc": {
+   "date": "2026-07-19",
+   "dl": "Jul 2026",
+   "freq": "m",
+   "src": "BIS WS_CBPOL CN (one-year loan prime rate)"
+  },
+  "ce": {
+   "date": "2026-08-30",
+   "dl": "30 Aug",
+   "freq": "d",
+   "src": "calendar rules: NYSE holidays, third Fridays, quarter ends, the tax calendar, the FOMC dates"
+  },
+  "cta.copper": {
+   "date": "2026-08-28",
+   "dl": "28 Aug",
+   "freq": "d",
+   "src": "Trend model on the closes: sign of 20, 50, 100 and 200-day returns, majority rule"
+  },
+  "cta.dxy": {
+   "date": "2026-08-27",
+   "dl": "27 Aug",
+   "freq": "d",
+   "src": "Trend model on the closes: sign of 20, 50, 100 and 200-day returns, majority rule"
+  },
+  "cta.gold": {
+   "date": "2026-08-28",
+   "dl": "28 Aug",
+   "freq": "d",
+   "src": "Trend model on the closes: sign of 20, 50, 100 and 200-day returns, majority rule"
+  },
+  "cta.ndx": {
+   "date": "2026-08-27",
+   "dl": "27 Aug",
+   "freq": "d",
+   "src": "Trend model on the closes: sign of 20, 50, 100 and 200-day returns, majority rule"
+  },
+  "cta.spx": {
+   "date": "2026-08-27",
+   "dl": "27 Aug",
+   "freq": "d",
+   "src": "Trend model on the closes: sign of 20, 50, 100 and 200-day returns, majority rule"
+  },
+  "cta.ust10": {
+   "date": "2026-08-27",
+   "dl": "27 Aug",
+   "freq": "d",
+   "src": "Trend model on the closes: sign of 20, 50, 100 and 200-day returns, majority rule"
+  },
+  "cta.wti": {
+   "date": "2026-08-28",
+   "dl": "28 Aug",
+   "freq": "d",
+   "src": "Trend model on the closes: sign of 20, 50, 100 and 200-day returns, majority rule"
+  },
+  "div.btc": {
+   "date": "2026-08-25",
+   "dl": "25 Aug",
+   "freq": "w",
+   "src": "CFTC TFF plus the daily inputs listed in the cells"
+  },
+  "div.copper": {
+   "date": "2026-08-25",
+   "dl": "25 Aug",
+   "freq": "w",
+   "src": "CFTC legacy plus the daily inputs listed in the cells"
+  },
+  "div.crude": {
+   "date": "2026-08-25",
+   "dl": "25 Aug",
+   "freq": "w",
+   "src": "CFTC legacy plus the daily inputs listed in the cells"
+  },
+  "div.dxy": {
+   "date": "2026-08-25",
+   "dl": "25 Aug",
+   "freq": "w",
+   "src": "CFTC legacy plus the daily inputs listed in the cells"
+  },
+  "div.gold": {
+   "date": "2026-08-25",
+   "dl": "25 Aug",
+   "freq": "w",
+   "src": "CFTC legacy plus the daily inputs listed in the cells"
+  },
+  "div.semis": {
+   "date": "2026-08-25",
+   "dl": "25 Aug",
+   "freq": "w",
+   "src": "CFTC TFF plus the daily inputs listed in the cells"
+  },
+  "div.silver": {
+   "date": "2026-08-25",
+   "dl": "25 Aug",
+   "freq": "w",
+   "src": "CFTC legacy plus the daily inputs listed in the cells"
+  },
+  "div.spx": {
+   "date": "2026-08-25",
+   "dl": "25 Aug",
+   "freq": "w",
+   "src": "CFTC TFF plus the daily inputs listed in the cells"
+  },
+  "div.ust10": {
+   "date": "2026-08-25",
+   "dl": "25 Aug",
+   "freq": "w",
+   "src": "CFTC TFF plus the daily inputs listed in the cells"
+  },
+  "en.brent": {
+   "date": "2026-08-28",
+   "dl": "28 Aug",
+   "freq": "d",
+   "src": "Yahoo BZ=F"
+  },
+  "en.crack": {
+   "date": "2026-08-28",
+   "dl": "28 Aug",
+   "freq": "d",
+   "src": "Yahoo RB=F, HO=F, CL=F (3-2-1, computed)"
+  },
+  "en.natgas": {
+   "date": "2026-08-28",
+   "dl": "28 Aug",
+   "freq": "d",
+   "src": "Yahoo NG=F"
+  },
+  "en.rigs": {
+   "date": "2026-06-01",
+   "dl": "Jun 2026",
+   "freq": "m",
+   "src": "EIA monthly rig count (Baker Hughes)"
+  },
+  "en.spr": {
+   "date": "2026-08-21",
+   "dl": "21 Aug",
+   "freq": "w",
+   "src": "EIA WCSSTUS1 (Strategic Petroleum Reserve)"
+  },
+  "en.stocks": {
+   "date": "2026-08-21",
+   "dl": "21 Aug",
+   "freq": "w",
+   "src": "EIA WCESTUS1 (commercial crude, excluding SPR)"
+  },
+  "en.wti": {
+   "date": "2026-08-28",
+   "dl": "28 Aug",
+   "freq": "d",
+   "src": "Yahoo CL=F"
+  },
+  "fac.beta_lowvol": {
+   "date": "2026-08-27",
+   "dl": "27 Aug",
+   "freq": "d",
+   "src": "Yahoo SPHB, SPLV"
+  },
+  "fac.cyc_def": {
+   "date": "2026-08-27",
+   "dl": "27 Aug",
+   "freq": "d",
+   "src": "Yahoo XLI, XLB, XLY, XLF against XLP, XLU, XLV"
+  },
+  "fac.eq_cap": {
+   "date": "2026-08-27",
+   "dl": "27 Aug",
+   "freq": "d",
+   "src": "Yahoo RSP, SPY"
+  },
+  "fac.mom_mkt": {
+   "date": "2026-08-27",
+   "dl": "27 Aug",
+   "freq": "d",
+   "src": "Yahoo MTUM, SPY"
+  },
+  "fac.qual_mkt": {
+   "date": "2026-08-27",
+   "dl": "27 Aug",
+   "freq": "d",
+   "src": "Yahoo QUAL, SPY"
+  },
+  "fac.small_large": {
+   "date": "2026-08-27",
+   "dl": "27 Aug",
+   "freq": "d",
+   "src": "Yahoo IWM, SPY"
+  },
+  "fac.value_growth": {
+   "date": "2026-08-27",
+   "dl": "27 Aug",
+   "freq": "d",
+   "src": "Yahoo IWD, IWF"
+  },
+  "flow.mmf": {
+   "date": "2026-08-26",
+   "dl": "26 Aug",
+   "freq": "w",
+   "src": "ICI weekly money market fund assets"
+  },
+  "flow2.gamma": {
+   "date": "2026-08-28",
+   "dl": "28 Aug",
+   "freq": "d",
+   "src": "SqueezeMetrics GEX"
+  },
+  "flow2.pension": {
+   "date": "2026-08-30",
+   "dl": "30 Aug",
+   "freq": "d",
+   "src": "SPY and TLT quarter-to-date returns"
+  },
+  "flow2.rp": {
+   "date": "2026-08-30",
+   "dl": "30 Aug",
+   "freq": "d",
+   "src": "SPY and TLT: 100-day trends and 60-day correlation"
+  },
+  "flow2.volctl": {
+   "date": "2026-08-30",
+   "dl": "30 Aug",
+   "freq": "d",
+   "src": "S&P 500 closes, 21-day realized volatility against a 12% target"
+  },
+  "fx.broad": {
+   "date": "2026-08-21",
+   "dl": "21 Aug",
+   "freq": "w",
+   "src": "FRED DTWEXBGS"
+  },
+  "fx.cew": {
+   "date": "2026-08-27",
+   "dl": "27 Aug",
+   "freq": "d",
+   "src": "Yahoo CEW"
+  },
+  "fx.dxy": {
+   "date": "2026-08-27",
+   "dl": "27 Aug",
+   "freq": "d",
+   "src": "Yahoo DX-Y.NYB"
+  },
+  "fx.eurusd": {
+   "date": "2026-08-28",
+   "dl": "28 Aug",
+   "freq": "d",
+   "src": "Yahoo EURUSD=X"
+  },
+  "fx.usdcny": {
+   "date": "2026-08-30",
+   "dl": "30 Aug",
+   "freq": "d",
+   "src": "Yahoo CNY=X"
+  },
+  "fx.usdjpy": {
+   "date": "2026-08-28",
+   "dl": "28 Aug",
+   "freq": "d",
+   "src": "Yahoo JPY=X"
+  },
+  "fx.usdthb": {
+   "date": "2026-08-28",
+   "dl": "28 Aug",
+   "freq": "d",
+   "src": "Yahoo THB=X"
+  },
+  "gp.cfnai": {
+   "date": "2026-07-01",
+   "dl": "Jul 2026",
+   "freq": "m",
+   "src": "FRED CFNAIMA3"
+  },
+  "gp.claims": {
+   "date": "2026-08-22",
+   "dl": "22 Aug",
+   "freq": "w",
+   "src": "FRED IC4WSA"
+  },
+  "gp.cpinow": {
+   "date": "2026-08-28",
+   "dl": "28 Aug",
+   "freq": "d",
+   "src": "Cleveland Fed inflation nowcast"
+  },
+  "gp.gdpnow": {
+   "date": "2026-07-01",
+   "dl": "Q3 2026",
+   "freq": "q",
+   "src": "FRED GDPNOW, A191RL1Q225SBEA"
+  },
+  "gp.payrolls": {
+   "date": "2026-07-01",
+   "dl": "Jul 2026",
+   "freq": "m",
+   "src": "FRED PAYEMS (computed)"
+  },
+  "gp.sahm": {
+   "date": "2026-07-01",
+   "dl": "Jul 2026",
+   "freq": "m",
+   "src": "FRED SAHMREALTIME"
+  },
+  "gp.surprise": {
+   "date": "2026-08-30",
+   "dl": "30 Aug",
+   "freq": "d",
+   "src": "in-house: Forex Factory consensus against FRED first prints, mean standardized surprise over 90 days (US only; no free consensus feed with actuals for the euro area or China)"
+  },
+  "gy.de": {
+   "date": "2026-06-01",
+   "dl": "Jun 2026",
+   "freq": "m",
+   "src": "FRED IRLTLT01DEM156N (OECD, monthly)"
+  },
+  "gy.jp": {
+   "date": "2026-06-01",
+   "dl": "Jun 2026",
+   "freq": "m",
+   "src": "FRED IRLTLT01JPM156N (OECD, monthly)"
+  },
+  "gy.uk": {
+   "date": "2026-06-01",
+   "dl": "Jun 2026",
+   "freq": "m",
+   "src": "FRED IRLTLT01GBM156N (OECD, monthly)"
+  },
+  "gy.us": {
+   "date": "2026-08-27",
+   "dl": "27 Aug",
+   "freq": "d",
+   "src": "FRED DGS10, DFII10"
+  },
+  "idx.csi300": {
+   "date": "2026-07-17",
+   "dl": "17 Jul",
+   "freq": "d",
+   "src": "Yahoo 000300.SS"
+  },
+  "idx.eem": {
+   "date": "2026-08-27",
+   "dl": "27 Aug",
+   "freq": "d",
+   "src": "Yahoo EEM"
+  },
+  "idx.hsi": {
+   "date": "2026-08-27",
+   "dl": "27 Aug",
+   "freq": "d",
+   "src": "Yahoo ^HSI"
+  },
+  "idx.n225": {
+   "date": "2026-08-27",
+   "dl": "27 Aug",
+   "freq": "d",
+   "src": "Yahoo ^N225"
+  },
+  "idx.ndx": {
+   "date": "2026-08-27",
+   "dl": "27 Aug",
+   "freq": "d",
+   "src": "Yahoo ^NDX"
+  },
+  "idx.rut": {
+   "date": "2026-08-27",
+   "dl": "27 Aug",
+   "freq": "d",
+   "src": "Yahoo ^RUT"
+  },
+  "idx.set": {
+   "date": "2026-07-17",
+   "dl": "17 Jul",
+   "freq": "d",
+   "src": "Yahoo ^SET.BK"
+  },
+  "idx.spx": {
+   "date": "2026-08-27",
+   "dl": "27 Aug",
+   "freq": "d",
+   "src": "Yahoo ^GSPC"
+  },
+  "idx.spxew": {
+   "date": "2026-08-27",
+   "dl": "27 Aug",
+   "freq": "d",
+   "src": "Yahoo ^SPXEW"
+  },
+  "idx.stoxx": {
+   "date": "2026-08-27",
+   "dl": "27 Aug",
+   "freq": "d",
+   "src": "Yahoo ^STOXX"
+  },
+  "im.copper": {
+   "date": "2026-08-28",
+   "dl": "28 Aug",
+   "freq": "d",
+   "src": "Yahoo HG=F"
+  },
+  "im.corn": {
+   "date": "2026-08-28",
+   "dl": "28 Aug",
+   "freq": "d",
+   "src": "Yahoo ZC=F"
+  },
+  "im.cu_au": {
+   "date": "2026-08-28",
+   "dl": "28 Aug",
+   "freq": "d",
+   "src": "Yahoo HG=F, GC=F"
+  },
+  "im.ironore": {
+   "date": "2026-08-28",
+   "dl": "28 Aug",
+   "freq": "d",
+   "src": "Yahoo TIO=F"
+  },
+  "im.soy": {
+   "date": "2026-08-28",
+   "dl": "28 Aug",
+   "freq": "d",
+   "src": "Yahoo ZS=F"
+  },
+  "im.uranium": {
+   "date": "2026-08-27",
+   "dl": "27 Aug",
+   "freq": "d",
+   "src": "Yahoo SRUUF (Sprott Physical Uranium Trust, a spot proxy)"
+  },
+  "im.wheat": {
+   "date": "2026-08-28",
+   "dl": "28 Aug",
+   "freq": "d",
+   "src": "Yahoo ZW=F"
+  },
+  "pm.baht_gold": {
+   "date": "2026-08-28",
+   "dl": "28 Aug",
+   "freq": "d",
+   "src": "Yahoo GC=F, THB=X (computed)"
+  },
+  "pm.gold": {
+   "date": "2026-08-28",
+   "dl": "28 Aug",
+   "freq": "d",
+   "src": "Yahoo GC=F"
+  },
+  "pm.gs_ratio": {
+   "date": "2026-08-28",
+   "dl": "28 Aug",
+   "freq": "d",
+   "src": "Yahoo GC=F, SI=F"
+  },
+  "pm.pall": {
+   "date": "2026-08-28",
+   "dl": "28 Aug",
+   "freq": "d",
+   "src": "Yahoo PA=F"
+  },
+  "pm.plat": {
+   "date": "2026-08-28",
+   "dl": "28 Aug",
+   "freq": "d",
+   "src": "Yahoo PL=F"
+  },
+  "pm.silver": {
+   "date": "2026-08-28",
+   "dl": "28 Aug",
+   "freq": "d",
+   "src": "Yahoo SI=F"
+  },
+  "pos.cr_aaii": {
+   "date": "2026-08-26",
+   "dl": "26 Aug",
+   "freq": "w",
+   "src": "AAII survey page (bulls 32.9%, bears 44.4%)"
+  },
+  "pos.cr_crypto": {
+   "date": "2026-08-30",
+   "dl": "30 Aug",
+   "freq": "d",
+   "src": "alternative.me crypto fear and greed"
+  },
+  "pos.cr_equity_pc": {
+   "date": "2026-08-27",
+   "dl": "27 Aug",
+   "freq": "d",
+   "src": "Cboe daily statistics, equity put/call, 10-day average"
+  },
+  "pos.cr_margin": {
+   "date": "2026-07-01",
+   "dl": "Jul 2026",
+   "freq": "m",
+   "src": "FINRA margin statistics, debit balances, +38.6% YoY"
+  },
+  "pos.cr_spec_crude": {
+   "date": "2026-08-25",
+   "dl": "25 Aug",
+   "freq": "w",
+   "src": "CFTC legacy report, non-commercials"
+  },
+  "pos.sm_crude": {
+   "date": "2026-08-25",
+   "dl": "25 Aug",
+   "freq": "w",
+   "src": "CFTC legacy report, commercials"
+  },
+  "pos.sm_dix": {
+   "date": "2026-08-28",
+   "dl": "28 Aug",
+   "freq": "d",
+   "src": "SqueezeMetrics DIX"
+  },
+  "pos.sm_dxy": {
+   "date": "2026-08-25",
+   "dl": "25 Aug",
+   "freq": "w",
+   "src": "CFTC legacy report, commercials"
+  },
+  "pos.sm_gamma": {
+   "date": "2026-08-28",
+   "dl": "28 Aug",
+   "freq": "d",
+   "src": "SqueezeMetrics GEX (gamma exposure)"
+  },
+  "pos.sm_gold": {
+   "date": "2026-08-25",
+   "dl": "25 Aug",
+   "freq": "w",
+   "src": "CFTC legacy report, commercials"
+  },
+  "pos.sm_index_pc": {
+   "date": "2026-08-27",
+   "dl": "27 Aug",
+   "freq": "d",
+   "src": "Cboe daily statistics, index put/call, 10-day average"
+  },
+  "pos.sm_silver": {
+   "date": "2026-08-25",
+   "dl": "25 Aug",
+   "freq": "w",
+   "src": "CFTC legacy report, commercials"
+  },
+  "pos.sm_spx": {
+   "date": "2026-08-25",
+   "dl": "25 Aug",
+   "freq": "w",
+   "src": "CFTC TFF report, asset managers"
+  },
+  "pos.sm_ust10": {
+   "date": "2026-08-25",
+   "dl": "25 Aug",
+   "freq": "w",
+   "src": "CFTC TFF report, asset managers"
+  },
+  "ratio.ag_au": {
+   "date": "2026-08-28",
+   "dl": "28 Aug",
+   "freq": "d",
+   "src": "Yahoo SI=F, GC=F"
+  },
+  "ratio.au_spx": {
+   "date": "2026-08-27",
+   "dl": "27 Aug",
+   "freq": "d",
+   "src": "Yahoo GC=F, ^GSPC"
+  },
+  "ratio.btc_au": {
+   "date": "2026-08-28",
+   "dl": "28 Aug",
+   "freq": "d",
+   "src": "Yahoo BTC-USD, GC=F"
+  },
+  "ratio.cu_au": {
+   "date": "2026-08-28",
+   "dl": "28 Aug",
+   "freq": "d",
+   "src": "Yahoo HG=F, GC=F"
+  },
+  "ratio.eem_spy": {
+   "date": "2026-08-27",
+   "dl": "27 Aug",
+   "freq": "d",
+   "src": "Yahoo EEM, SPY"
+  },
+  "ratio.hyg_ief": {
+   "date": "2026-08-27",
+   "dl": "27 Aug",
+   "freq": "d",
+   "src": "Yahoo HYG, IEF"
+  },
+  "ratio.oil_au": {
+   "date": "2026-08-28",
+   "dl": "28 Aug",
+   "freq": "d",
+   "src": "Yahoo CL=F, GC=F"
+  },
+  "ratio.spy_tlt": {
+   "date": "2026-08-27",
+   "dl": "27 Aug",
+   "freq": "d",
+   "src": "Yahoo SPY, TLT"
+  },
+  "ratio.xly_xlp": {
+   "date": "2026-08-27",
+   "dl": "27 Aug",
+   "freq": "d",
+   "src": "Yahoo XLY, XLP"
+  },
+  "sc.btc": {
+   "date": "2026-08-30",
+   "dl": "30 Aug",
+   "freq": "d",
+   "src": "Yahoo BTC-USD"
+  },
+  "sc.cew": {
+   "date": "2026-08-27",
+   "dl": "27 Aug",
+   "freq": "d",
+   "src": "Yahoo CEW"
+  },
+  "sc.copper": {
+   "date": "2026-08-28",
+   "dl": "28 Aug",
+   "freq": "d",
+   "src": "Yahoo HG=F"
+  },
+  "sc.dxy": {
+   "date": "2026-08-27",
+   "dl": "27 Aug",
+   "freq": "d",
+   "src": "Yahoo DX-Y.NYB"
+  },
+  "sc.eem": {
+   "date": "2026-08-27",
+   "dl": "27 Aug",
+   "freq": "d",
+   "src": "Yahoo EEM"
+  },
+  "sc.gold": {
+   "date": "2026-08-28",
+   "dl": "28 Aug",
+   "freq": "d",
+   "src": "Yahoo GC=F"
+  },
+  "sc.hyg": {
+   "date": "2026-08-27",
+   "dl": "27 Aug",
+   "freq": "d",
+   "src": "Yahoo HYG"
+  },
+  "sc.n225": {
+   "date": "2026-08-27",
+   "dl": "27 Aug",
+   "freq": "d",
+   "src": "Yahoo ^N225"
+  },
+  "sc.ndx": {
+   "date": "2026-08-27",
+   "dl": "27 Aug",
+   "freq": "d",
+   "src": "Yahoo ^NDX"
+  },
+  "sc.rut": {
+   "date": "2026-08-27",
+   "dl": "27 Aug",
+   "freq": "d",
+   "src": "Yahoo ^RUT"
+  },
+  "sc.silver": {
+   "date": "2026-08-28",
+   "dl": "28 Aug",
+   "freq": "d",
+   "src": "Yahoo SI=F"
+  },
+  "sc.spx": {
+   "date": "2026-08-27",
+   "dl": "27 Aug",
+   "freq": "d",
+   "src": "Yahoo ^GSPC"
+  },
+  "sc.stoxx": {
+   "date": "2026-08-27",
+   "dl": "27 Aug",
+   "freq": "d",
+   "src": "Yahoo ^STOXX"
+  },
+  "sc.us10y": {
+   "date": "2026-08-27",
+   "dl": "27 Aug",
+   "freq": "d",
+   "src": "FRED DGS10"
+  },
+  "sc.usdjpy": {
+   "date": "2026-08-28",
+   "dl": "28 Aug",
+   "freq": "d",
+   "src": "Yahoo JPY=X"
+  },
+  "sc.wti": {
+   "date": "2026-08-28",
+   "dl": "28 Aug",
+   "freq": "d",
+   "src": "Yahoo CL=F"
+  },
+  "sec.xlb": {
+   "date": "2026-08-27",
+   "dl": "27 Aug",
+   "freq": "d",
+   "src": "Yahoo XLB, SPY"
+  },
+  "sec.xlc": {
+   "date": "2026-08-27",
+   "dl": "27 Aug",
+   "freq": "d",
+   "src": "Yahoo XLC, SPY"
+  },
+  "sec.xle": {
+   "date": "2026-08-27",
+   "dl": "27 Aug",
+   "freq": "d",
+   "src": "Yahoo XLE, SPY"
+  },
+  "sec.xlf": {
+   "date": "2026-08-27",
+   "dl": "27 Aug",
+   "freq": "d",
+   "src": "Yahoo XLF, SPY"
+  },
+  "sec.xli": {
+   "date": "2026-08-27",
+   "dl": "27 Aug",
+   "freq": "d",
+   "src": "Yahoo XLI, SPY"
+  },
+  "sec.xlk": {
+   "date": "2026-08-27",
+   "dl": "27 Aug",
+   "freq": "d",
+   "src": "Yahoo XLK, SPY"
+  },
+  "sec.xlp": {
+   "date": "2026-08-27",
+   "dl": "27 Aug",
+   "freq": "d",
+   "src": "Yahoo XLP, SPY"
+  },
+  "sec.xlre": {
+   "date": "2026-08-27",
+   "dl": "27 Aug",
+   "freq": "d",
+   "src": "Yahoo XLRE, SPY"
+  },
+  "sec.xlu": {
+   "date": "2026-08-27",
+   "dl": "27 Aug",
+   "freq": "d",
+   "src": "Yahoo XLU, SPY"
+  },
+  "sec.xlv": {
+   "date": "2026-08-27",
+   "dl": "27 Aug",
+   "freq": "d",
+   "src": "Yahoo XLV, SPY"
+  },
+  "sec.xly": {
+   "date": "2026-08-27",
+   "dl": "27 Aug",
+   "freq": "d",
+   "src": "Yahoo XLY, SPY"
+  },
+  "th.btc": {
+   "date": "2026-08-30",
+   "dl": "30 Aug",
+   "freq": "d",
+   "src": "Yahoo BTC-USD, SPY"
+  },
+  "th.cibr": {
+   "date": "2026-08-27",
+   "dl": "27 Aug",
+   "freq": "d",
+   "src": "Yahoo CIBR, SPY"
+  },
+  "th.gdx": {
+   "date": "2026-08-27",
+   "dl": "27 Aug",
+   "freq": "d",
+   "src": "Yahoo GDX, SPY"
+  },
+  "th.ita": {
+   "date": "2026-08-27",
+   "dl": "27 Aug",
+   "freq": "d",
+   "src": "Yahoo ITA, SPY"
+  },
+  "th.kbe": {
+   "date": "2026-08-27",
+   "dl": "27 Aug",
+   "freq": "d",
+   "src": "Yahoo KBE, SPY"
+  },
+  "th.kre": {
+   "date": "2026-08-27",
+   "dl": "27 Aug",
+   "freq": "d",
+   "src": "Yahoo KRE, SPY"
+  },
+  "th.mags": {
+   "date": "2026-08-27",
+   "dl": "27 Aug",
+   "freq": "d",
+   "src": "Yahoo MAGS, SPY"
+  },
+  "th.sil": {
+   "date": "2026-08-27",
+   "dl": "27 Aug",
+   "freq": "d",
+   "src": "Yahoo SIL, SPY"
+  },
+  "th.smh": {
+   "date": "2026-08-27",
+   "dl": "27 Aug",
+   "freq": "d",
+   "src": "Yahoo SMH, SPY"
+  },
+  "th.staples": {
+   "date": "2026-08-27",
+   "dl": "27 Aug",
+   "freq": "d",
+   "src": "Yahoo XLP, SPY"
+  },
+  "th.ura": {
+   "date": "2026-08-27",
+   "dl": "27 Aug",
+   "freq": "d",
+   "src": "Yahoo URA, SPY"
+  },
+  "th.xbi": {
+   "date": "2026-08-27",
+   "dl": "27 Aug",
+   "freq": "d",
+   "src": "Yahoo XBI, SPY"
+  },
+  "th.xhb": {
+   "date": "2026-08-27",
+   "dl": "27 Aug",
+   "freq": "d",
+   "src": "Yahoo XHB, SPY"
+  },
+  "th.xlu": {
+   "date": "2026-08-27",
+   "dl": "27 Aug",
+   "freq": "d",
+   "src": "Yahoo XLU, SPY"
+  },
+  "th.xop": {
+   "date": "2026-08-27",
+   "dl": "27 Aug",
+   "freq": "d",
+   "src": "Yahoo XOP, SPY"
+  },
+  "val.erp": {
+   "date": "2026-08-28",
+   "dl": "Aug 2026",
+   "freq": "m",
+   "src": "multpl P/E, FRED DGS10 (computed)"
+  },
+  "val.spx_pe": {
+   "date": "2026-08-28",
+   "dl": "Aug 2026",
+   "freq": "m",
+   "src": "multpl (trailing twelve-month P/E)"
+  }
+ },
+ "rank": {
+  "banks": {
+   "cond": 0.9,
+   "cond_wow": null,
+   "date": "2026-08-27",
+   "dl": "27 Aug",
+   "freq": "d",
+   "mom": "+7.2%",
+   "n_pillars": 4,
+   "pillars": {
+    "C": {
+     "title": "Cost of money 0.0: cost-of-money composite -0.1 times sensitivity 0.5",
+     "v": 0.0
+    },
+    "F": {
+     "title": "Flows not scored: no free flow feed yet",
+     "v": null
+    },
+    "L": {
+     "title": "Liquidity 0.0: liquidity composite +0.2 times beta 1.0",
+     "v": 0.0
+    },
+    "P": {
+     "title": "Positioning not scored: no futures positioning for this market",
+     "v": null
+    },
+    "S": {
+     "title": "Seasonal +2.0: next 3 months, 20 years: average +2.0%, hit rate 65%",
+     "v": 2.0
+    },
+    "V": {
+     "title": "Valuation not scored: no free valuation series",
+     "v": null
+    },
+    "Y": {
+     "title": "Cycle +2.0: Recovery quadrant preference",
+     "v": 2.0
+    }
+   },
+   "price": 1.4,
+   "price_wow": null,
+   "read": "Aligned up",
+   "read_html": "<span class=\"chip up\"><span class=\"g\">▲</span>Aligned up</span>",
+   "rules": {
+    "B": 2,
+    "H": 2,
+    "M": -1,
+    "T": 2,
+    "X": 2
+   },
+   "src": "Yahoo XLF",
+   "tags": "Failed breakout",
+   "wow_ref": null
+  },
+  "bitcoin": {
+   "cond": 0.0,
+   "cond_wow": null,
+   "date": "2026-08-30",
+   "dl": "30 Aug",
+   "freq": "d",
+   "mom": "-26.5%",
+   "n_pillars": 5,
+   "pillars": {
+    "C": {
+     "title": "Cost of money 0.0: cost-of-money composite -0.1 times sensitivity 1.5",
+     "v": 0.0
+    },
+    "F": {
+     "title": "Flows not scored: no free flow feed yet",
+     "v": null
+    },
+    "L": {
+     "title": "Liquidity +0.5: liquidity composite +0.2 times beta 2.0",
+     "v": 0.5
+    },
+    "P": {
+     "title": "Positioning -2.0: section 6 divergence score, smart money minus the crowd",
+     "v": -2.0
+    },
+    "S": {
+     "title": "Seasonal +1.0: next 3 months, 20 years: average +19.0%, hit rate 58%",
+     "v": 1.0
+    },
+    "V": {
+     "title": "Valuation not scored: no free valuation series",
+     "v": null
+    },
+    "Y": {
+     "title": "Cycle +1.0: Recovery quadrant preference",
+     "v": 1.0
+    }
+   },
+   "price": 0.0,
+   "price_wow": null,
+   "read": "Neutral",
+   "read_html": "<span class=\"chip\"><span class=\"g\">●</span>Neutral</span>",
+   "rules": {
+    "B": 2,
+    "H": 0,
+    "M": -2,
+    "T": 1,
+    "X": -1
+   },
+   "src": "Yahoo BTC-USD",
+   "tags": "Failed breakout, Extended",
+   "wow_ref": null
+  },
+  "cash": {
+   "cond": -0.7,
+   "cond_wow": null,
+   "n_pillars": 4,
+   "pillars": {
+    "C": {
+     "title": "Cost of money 0.0: cost-of-money composite -0.1 times sensitivity -1.5",
+     "v": 0.0
+    },
+    "F": {
+     "title": "Flows not scored: no free flow feed yet",
+     "v": null
+    },
+    "L": {
+     "title": "Liquidity -0.5: liquidity composite +0.2 times beta -1.5",
+     "v": -0.5
+    },
+    "P": {
+     "title": "Positioning not scored: no futures positioning for this market",
+     "v": null
+    },
+    "S": {
+     "title": "Seasonal 0.0: cash has no season",
+     "v": 0.0
+    },
+    "V": {
+     "title": "Valuation not scored: no free valuation series",
+     "v": null
+    },
+    "Y": {
+     "title": "Cycle -2.0: Recovery quadrant preference",
+     "v": -2.0
+    }
+   },
+   "price": null,
+   "price_wow": null,
+   "read": null,
+   "wow_ref": null
+  },
+  "copper": {
+   "cond": -0.1,
+   "cond_wow": null,
+   "date": "2026-08-28",
+   "dl": "28 Aug",
+   "freq": "d",
+   "mom": "+46.0%",
+   "n_pillars": 5,
+   "pillars": {
+    "C": {
+     "title": "Cost of money 0.0: cost-of-money composite -0.1 times sensitivity 1.0",
+     "v": 0.0
+    },
+    "F": {
+     "title": "Flows not scored: no free flow feed yet",
+     "v": null
+    },
+    "L": {
+     "title": "Liquidity +0.5: liquidity composite +0.2 times beta 1.5",
+     "v": 0.5
+    },
+    "P": {
+     "title": "Positioning -2.0: section 6 divergence score, smart money minus the crowd",
+     "v": -2.0
+    },
+    "S": {
+     "title": "Seasonal 0.0: next 3 months, 20 years: average -1.5%, hit rate 50%",
+     "v": 0.0
+    },
+    "V": {
+     "title": "Valuation not scored: no free valuation series",
+     "v": null
+    },
+    "Y": {
+     "title": "Cycle +1.0: Recovery quadrant preference",
+     "v": 1.0
+    }
+   },
+   "price": 1.6,
+   "price_wow": null,
+   "read": "Price ahead, up",
+   "read_html": "<span class=\"chip accent\"><span class=\"g\">▲</span>Price ahead</span>",
+   "rules": {
+    "B": 1,
+    "H": 2,
+    "M": 2,
+    "T": 2,
+    "X": 1
+   },
+   "src": "Yahoo HG=F",
+   "tags": "Failed breakout",
+   "wow_ref": null
+  },
+  "em_ex_china": {
+   "cond": 0.9,
+   "cond_wow": null,
+   "date": "2026-08-27",
+   "dl": "27 Aug",
+   "freq": "d",
+   "mom": "+39.1%",
+   "n_pillars": 4,
+   "pillars": {
+    "C": {
+     "title": "Cost of money 0.0: cost-of-money composite -0.1 times sensitivity 1.5",
+     "v": 0.0
+    },
+    "F": {
+     "title": "Flows not scored: no free flow feed yet",
+     "v": null
+    },
+    "L": {
+     "title": "Liquidity +0.5: liquidity composite +0.2 times beta 1.5",
+     "v": 0.5
+    },
+    "P": {
+     "title": "Positioning not scored: no futures positioning for this market",
+     "v": null
+    },
+    "S": {
+     "title": "Seasonal +1.0: next 3 months, 20 years: average +2.3%, hit rate 56%",
+     "v": 1.0
+    },
+    "V": {
+     "title": "Valuation not scored: no free valuation series",
+     "v": null
+    },
+    "Y": {
+     "title": "Cycle +2.0: Recovery quadrant preference",
+     "v": 2.0
+    }
+   },
+   "price": 1.2,
+   "price_wow": null,
+   "read": "Aligned up",
+   "read_html": "<span class=\"chip up\"><span class=\"g\">▲</span>Aligned up</span>",
+   "rules": {
+    "B": 1,
+    "H": 1,
+    "M": 1,
+    "T": 2,
+    "X": 1
+   },
+   "src": "Yahoo EMXC",
+   "tags": "20-day breakout",
+   "wow_ref": null
+  },
+  "energy": {
+   "cond": 0.3,
+   "cond_wow": null,
+   "date": "2026-08-27",
+   "dl": "27 Aug",
+   "freq": "d",
+   "mom": "+37.1%",
+   "n_pillars": 5,
+   "pillars": {
+    "C": {
+     "title": "Cost of money 0.0: cost-of-money composite -0.1 times sensitivity 0.0",
+     "v": 0.0
+    },
+    "F": {
+     "title": "Flows not scored: no free flow feed yet",
+     "v": null
+    },
+    "L": {
+     "title": "Liquidity 0.0: liquidity composite +0.2 times beta 0.5",
+     "v": 0.0
+    },
+    "P": {
+     "title": "Positioning +0.5: section 6 divergence score, smart money minus the crowd",
+     "v": 0.5
+    },
+    "S": {
+     "title": "Seasonal +2.0: next 3 months, 20 years: average +2.5%, hit rate 70%",
+     "v": 2.0
+    },
+    "V": {
+     "title": "Valuation not scored: no free valuation series",
+     "v": null
+    },
+    "Y": {
+     "title": "Cycle 0.0: Recovery quadrant preference",
+     "v": 0.0
+    }
+   },
+   "price": 1.6,
+   "price_wow": null,
+   "read": "Price ahead, up",
+   "read_html": "<span class=\"chip accent\"><span class=\"g\">▲</span>Price ahead</span>",
+   "rules": {
+    "B": 2,
+    "H": 2,
+    "M": 1,
+    "T": 2,
+    "X": 1
+   },
+   "src": "Yahoo XLE",
+   "tags": "Failed breakout",
+   "wow_ref": null
+  },
+  "europe": {
+   "cond": 0.7,
+   "cond_wow": null,
+   "date": "2026-08-27",
+   "dl": "27 Aug",
+   "freq": "d",
+   "mom": "+16.1%",
+   "n_pillars": 4,
+   "pillars": {
+    "C": {
+     "title": "Cost of money 0.0: cost-of-money composite -0.1 times sensitivity 1.0",
+     "v": 0.0
+    },
+    "F": {
+     "title": "Flows not scored: no free flow feed yet",
+     "v": null
+    },
+    "L": {
+     "title": "Liquidity 0.0: liquidity composite +0.2 times beta 1.0",
+     "v": 0.0
+    },
+    "P": {
+     "title": "Positioning not scored: no futures positioning for this market",
+     "v": null
+    },
+    "S": {
+     "title": "Seasonal +1.0: next 3 months, 20 years: average +0.0%, hit rate 60%",
+     "v": 1.0
+    },
+    "V": {
+     "title": "Valuation not scored: no free valuation series",
+     "v": null
+    },
+    "Y": {
+     "title": "Cycle +2.0: Recovery quadrant preference",
+     "v": 2.0
+    }
+   },
+   "price": 1.4,
+   "price_wow": null,
+   "read": "Aligned up",
+   "read_html": "<span class=\"chip up\"><span class=\"g\">▲</span>Aligned up</span>",
+   "rules": {
+    "B": 2,
+    "H": 2,
+    "M": 0,
+    "T": 2,
+    "X": 1
+   },
+   "src": "Yahoo VGK",
+   "tags": "Failed breakout",
+   "wow_ref": null
+  },
+  "gold": {
+   "cond": -0.3,
+   "cond_wow": null,
+   "date": "2026-08-28",
+   "dl": "28 Aug",
+   "freq": "d",
+   "mom": "+20.4%",
+   "n_pillars": 5,
+   "pillars": {
+    "C": {
+     "title": "Cost of money 0.0: cost-of-money composite -0.1 times sensitivity 1.5",
+     "v": 0.0
+    },
+    "F": {
+     "title": "Flows not scored: no free flow feed yet",
+     "v": null
+    },
+    "L": {
+     "title": "Liquidity +0.5: liquidity composite +0.2 times beta 1.2",
+     "v": 0.5
+    },
+    "P": {
+     "title": "Positioning -2.0: section 6 divergence score, smart money minus the crowd",
+     "v": -2.0
+    },
+    "S": {
+     "title": "Seasonal 0.0: next 3 months, 20 years: average +2.1%, hit rate 50%",
+     "v": 0.0
+    },
+    "V": {
+     "title": "Valuation not scored: no free valuation series",
+     "v": null
+    },
+    "Y": {
+     "title": "Cycle 0.0: Recovery quadrant preference",
+     "v": 0.0
+    }
+   },
+   "price": 0.4,
+   "price_wow": null,
+   "read": "Neutral",
+   "read_html": "<span class=\"chip\"><span class=\"g\">●</span>Neutral</span>",
+   "rules": {
+    "B": 2,
+    "H": 0,
+    "M": 0,
+    "T": 2,
+    "X": -2
+   },
+   "src": "Yahoo GC=F",
+   "tags": "Failed breakout",
+   "wow_ref": null
+  },
+  "gold_miners": {
+   "cond": 0.0,
+   "cond_wow": null,
+   "date": "2026-08-27",
+   "dl": "27 Aug",
+   "freq": "d",
+   "mom": "+20.3%",
+   "n_pillars": 4,
+   "pillars": {
+    "C": {
+     "title": "Cost of money 0.0: cost-of-money composite -0.1 times sensitivity 1.5",
+     "v": 0.0
+    },
+    "F": {
+     "title": "Flows not scored: no free flow feed yet",
+     "v": null
+    },
+    "L": {
+     "title": "Liquidity +0.5: liquidity composite +0.2 times beta 1.5",
+     "v": 0.5
+    },
+    "P": {
+     "title": "Positioning not scored: no futures positioning for this market",
+     "v": null
+    },
+    "S": {
+     "title": "Seasonal -1.0: next 3 months, 20 years: average -1.5%, hit rate 40%",
+     "v": -1.0
+    },
+    "V": {
+     "title": "Valuation not scored: no free valuation series",
+     "v": null
+    },
+    "Y": {
+     "title": "Cycle 0.0: Recovery quadrant preference",
+     "v": 0.0
+    }
+   },
+   "price": 0.4,
+   "price_wow": null,
+   "read": "Neutral",
+   "read_html": "<span class=\"chip\"><span class=\"g\">●</span>Neutral</span>",
+   "rules": {
+    "B": 2,
+    "H": 0,
+    "M": 0,
+    "T": 2,
+    "X": -2
+   },
+   "src": "Yahoo GDX",
+   "tags": "Extended",
+   "wow_ref": null
+  },
+  "japan": {
+   "cond": 0.7,
+   "cond_wow": null,
+   "date": "2026-08-27",
+   "dl": "27 Aug",
+   "freq": "d",
+   "mom": "+18.1%",
+   "n_pillars": 4,
+   "pillars": {
+    "C": {
+     "title": "Cost of money 0.0: cost-of-money composite -0.1 times sensitivity 0.5",
+     "v": 0.0
+    },
+    "F": {
+     "title": "Flows not scored: no free flow feed yet",
+     "v": null
+    },
+    "L": {
+     "title": "Liquidity 0.0: liquidity composite +0.2 times beta 1.0",
+     "v": 0.0
+    },
+    "P": {
+     "title": "Positioning not scored: no futures positioning for this market",
+     "v": null
+    },
+    "S": {
+     "title": "Seasonal +1.0: next 3 months, 20 years: average +0.5%, hit rate 55%",
+     "v": 1.0
+    },
+    "V": {
+     "title": "Valuation not scored: no free valuation series",
+     "v": null
+    },
+    "Y": {
+     "title": "Cycle +2.0: Recovery quadrant preference",
+     "v": 2.0
+    }
+   },
+   "price": 0.8,
+   "price_wow": null,
+   "read": "Aligned up",
+   "read_html": "<span class=\"chip up\"><span class=\"g\">▲</span>Aligned up</span>",
+   "rules": {
+    "B": -1,
+    "H": 2,
+    "M": 0,
+    "T": 2,
+    "X": 1
+   },
+   "src": "Yahoo EWJ",
+   "tags": "",
+   "wow_ref": null
+  },
+  "reits": {
+   "cond": 0.3,
+   "cond_wow": null,
+   "date": "2026-08-27",
+   "dl": "27 Aug",
+   "freq": "d",
+   "mom": "+13.2%",
+   "n_pillars": 4,
+   "pillars": {
+    "C": {
+     "title": "Cost of money 0.0: cost-of-money composite -0.1 times sensitivity 1.5",
+     "v": 0.0
+    },
+    "F": {
+     "title": "Flows not scored: no free flow feed yet",
+     "v": null
+    },
+    "L": {
+     "title": "Liquidity 0.0: liquidity composite +0.2 times beta 1.0",
+     "v": 0.0
+    },
+    "P": {
+     "title": "Positioning not scored: no futures positioning for this market",
+     "v": null
+    },
+    "S": {
+     "title": "Seasonal 0.0: next 3 months, 20 years: average -0.6%, hit rate 50%",
+     "v": 0.0
+    },
+    "V": {
+     "title": "Valuation not scored: no free valuation series",
+     "v": null
+    },
+    "Y": {
+     "title": "Cycle +1.0: Recovery quadrant preference",
+     "v": 1.0
+    }
+   },
+   "price": 0.4,
+   "price_wow": null,
+   "read": "Neutral",
+   "read_html": "<span class=\"chip\"><span class=\"g\">●</span>Neutral</span>",
+   "rules": {
+    "B": -2,
+    "H": 2,
+    "M": -1,
+    "T": 2,
+    "X": 1
+   },
+   "src": "Yahoo XLRE",
+   "tags": "Base",
+   "wow_ref": null
+  },
+  "semis": {
+   "cond": 0.9,
+   "cond_wow": null,
+   "date": "2026-08-27",
+   "dl": "27 Aug",
+   "freq": "d",
+   "mom": "+70.4%",
+   "n_pillars": 5,
+   "pillars": {
+    "C": {
+     "title": "Cost of money 0.0: cost-of-money composite -0.1 times sensitivity 1.5",
+     "v": 0.0
+    },
+    "F": {
+     "title": "Flows not scored: no free flow feed yet",
+     "v": null
+    },
+    "L": {
+     "title": "Liquidity +0.5: liquidity composite +0.2 times beta 1.5",
+     "v": 0.5
+    },
+    "P": {
+     "title": "Positioning +0.5: section 6 divergence score, smart money minus the crowd",
+     "v": 0.5
+    },
+    "S": {
+     "title": "Seasonal +2.0: next 3 months, 20 years: average +4.3%, hit rate 70%",
+     "v": 2.0
+    },
+    "V": {
+     "title": "Valuation not scored: no free valuation series",
+     "v": null
+    },
+    "Y": {
+     "title": "Cycle +2.0: Recovery quadrant preference",
+     "v": 2.0
+    }
+   },
+   "price": 0.6,
+   "price_wow": null,
+   "read": "Aligned up",
+   "read_html": "<span class=\"chip up\"><span class=\"g\">▲</span>Aligned up</span>",
+   "rules": {
+    "B": -2,
+    "H": 0,
+    "M": 2,
+    "T": 2,
+    "X": 1
+   },
+   "src": "Yahoo SMH",
+   "tags": "",
+   "wow_ref": null
+  },
+  "silver": {
+   "cond": 0.1,
+   "cond_wow": null,
+   "date": "2026-08-28",
+   "dl": "28 Aug",
+   "freq": "d",
+   "mom": "+52.0%",
+   "n_pillars": 5,
+   "pillars": {
+    "C": {
+     "title": "Cost of money 0.0: cost-of-money composite -0.1 times sensitivity 1.5",
+     "v": 0.0
+    },
+    "F": {
+     "title": "Flows not scored: no free flow feed yet",
+     "v": null
+    },
+    "L": {
+     "title": "Liquidity +0.5: liquidity composite +0.2 times beta 1.5",
+     "v": 0.5
+    },
+    "P": {
+     "title": "Positioning 0.0: section 6 divergence score, smart money minus the crowd",
+     "v": 0.0
+    },
+    "S": {
+     "title": "Seasonal 0.0: next 3 months, 20 years: average +2.2%, hit rate 45%",
+     "v": 0.0
+    },
+    "V": {
+     "title": "Valuation not scored: no free valuation series",
+     "v": null
+    },
+    "Y": {
+     "title": "Cycle 0.0: Recovery quadrant preference",
+     "v": 0.0
+    }
+   },
+   "price": -0.2,
+   "price_wow": null,
+   "read": "Neutral",
+   "read_html": "<span class=\"chip\"><span class=\"g\">●</span>Neutral</span>",
+   "rules": {
+    "B": 1,
+    "H": -1,
+    "M": 2,
+    "T": -1,
+    "X": -2
+   },
+   "src": "Yahoo SI=F",
+   "tags": "",
+   "wow_ref": null
+  },
+  "thailand": {
+   "cond": 0.7,
+   "cond_wow": null,
+   "date": "2026-07-17",
+   "dl": "17 Jul",
+   "freq": "d",
+   "mom": "+42.8%",
+   "n_pillars": 4,
+   "pillars": {
+    "C": {
+     "title": "Cost of money 0.0: cost-of-money composite -0.1 times sensitivity 1.0",
+     "v": 0.0
+    },
+    "F": {
+     "title": "Flows not scored: no free flow feed yet",
+     "v": null
+    },
+    "L": {
+     "title": "Liquidity +0.5: liquidity composite +0.2 times beta 1.5",
+     "v": 0.5
+    },
+    "P": {
+     "title": "Positioning not scored: no futures positioning for this market",
+     "v": null
+    },
+    "S": {
+     "title": "Seasonal 0.0: next 3 months, 20 years: average -0.5%, hit rate 60%",
+     "v": 0.0
+    },
+    "V": {
+     "title": "Valuation not scored: no free valuation series",
+     "v": null
+    },
+    "Y": {
+     "title": "Cycle +2.0: Recovery quadrant preference",
+     "v": 2.0
+    }
+   },
+   "price": 1.6,
+   "price_wow": null,
+   "read": "Aligned up",
+   "read_html": "<span class=\"chip up\"><span class=\"g\">▲</span>Aligned up</span>",
+   "rules": {
+    "B": 2,
+    "H": 2,
+    "M": 1,
+    "T": 2,
+    "X": 1
+   },
+   "src": "Yahoo ^SET.BK",
+   "tags": "55-day breakout",
+   "wow_ref": null
+  },
+  "us_hy": {
+   "cond": 0.0,
+   "cond_wow": null,
+   "date": "2026-08-27",
+   "dl": "27 Aug",
+   "freq": "d",
+   "mom": "+3.4%",
+   "n_pillars": 5,
+   "pillars": {
+    "C": {
+     "title": "Cost of money 0.0: cost-of-money composite -0.1 times sensitivity 1.0",
+     "v": 0.0
+    },
+    "F": {
+     "title": "Flows not scored: no free flow feed yet",
+     "v": null
+    },
+    "L": {
+     "title": "Liquidity 0.0: liquidity composite +0.2 times beta 1.0",
+     "v": 0.0
+    },
+    "P": {
+     "title": "Positioning not scored: no futures positioning for this market",
+     "v": null
+    },
+    "S": {
+     "title": "Seasonal 0.0: next 3 months, 20 years: average -0.4%, hit rate 63%",
+     "v": 0.0
+    },
+    "V": {
+     "title": "Valuation -2.0: HY spread, 3-year percentile",
+     "v": -2.0
+    },
+    "Y": {
+     "title": "Cycle +2.0: Recovery quadrant preference",
+     "v": 2.0
+    }
+   },
+   "price": 0.8,
+   "price_wow": null,
+   "read": "Price ahead, up",
+   "read_html": "<span class=\"chip accent\"><span class=\"g\">▲</span>Price ahead</span>",
+   "rules": {
+    "B": null,
+    "H": 2,
+    "M": -2,
+    "T": 2,
+    "X": 1
+   },
+   "src": "Yahoo HYG",
+   "tags": "Base",
+   "wow_ref": null
+  },
+  "us_large": {
+   "cond": 0.1,
+   "cond_wow": null,
+   "date": "2026-08-27",
+   "dl": "27 Aug",
+   "freq": "d",
+   "mom": "+13.1%",
+   "n_pillars": 6,
+   "pillars": {
+    "C": {
+     "title": "Cost of money 0.0: cost-of-money composite -0.1 times sensitivity 1.0",
+     "v": 0.0
+    },
+    "F": {
+     "title": "Flows not scored: no free flow feed yet",
+     "v": null
+    },
+    "L": {
+     "title": "Liquidity 0.0: liquidity composite +0.2 times beta 1.0",
+     "v": 0.0
+    },
+    "P": {
+     "title": "Positioning -0.5: section 6 divergence score, smart money minus the crowd",
+     "v": -0.5
+    },
+    "S": {
+     "title": "Seasonal +2.0: next 3 months, 20 years: average +1.9%, hit rate 70%",
+     "v": 2.0
+    },
+    "V": {
+     "title": "Valuation -2.0: trailing P/E, 10-year percentile",
+     "v": -2.0
+    },
+    "Y": {
+     "title": "Cycle +2.0: Recovery quadrant preference",
+     "v": 2.0
+    }
+   },
+   "price": 1.2,
+   "price_wow": null,
+   "read": "Price ahead, up",
+   "read_html": "<span class=\"chip accent\"><span class=\"g\">▲</span>Price ahead</span>",
+   "rules": {
+    "B": 2,
+    "H": 2,
+    "M": -1,
+    "T": 2,
+    "X": 1
+   },
+   "src": "Yahoo ^GSPC",
+   "tags": "Base",
+   "wow_ref": null
+  },
+  "us_small": {
+   "cond": 1.0,
+   "cond_wow": null,
+   "date": "2026-08-27",
+   "dl": "27 Aug",
+   "freq": "d",
+   "mom": "+24.5%",
+   "n_pillars": 4,
+   "pillars": {
+    "C": {
+     "title": "Cost of money 0.0: cost-of-money composite -0.1 times sensitivity 1.5",
+     "v": 0.0
+    },
+    "F": {
+     "title": "Flows not scored: no free flow feed yet",
+     "v": null
+    },
+    "L": {
+     "title": "Liquidity +0.5: liquidity composite +0.2 times beta 1.5",
+     "v": 0.5
+    },
+    "P": {
+     "title": "Positioning not scored: no futures positioning for this market",
+     "v": null
+    },
+    "S": {
+     "title": "Seasonal +2.0: next 3 months, 20 years: average +2.4%, hit rate 65%",
+     "v": 2.0
+    },
+    "V": {
+     "title": "Valuation not scored: no free valuation series",
+     "v": null
+    },
+    "Y": {
+     "title": "Cycle +2.0: Recovery quadrant preference",
+     "v": 2.0
+    }
+   },
+   "price": 0.8,
+   "price_wow": null,
+   "read": "Aligned up",
+   "read_html": "<span class=\"chip up\"><span class=\"g\">▲</span>Aligned up</span>",
+   "rules": {
+    "B": -1,
+    "H": 2,
+    "M": 0,
+    "T": 2,
+    "X": 1
+   },
+   "src": "Yahoo IWM",
+   "tags": "Failed breakout",
+   "wow_ref": null
+  },
+  "ust10": {
+   "cond": 0.5,
+   "cond_wow": null,
+   "date": "2026-08-27",
+   "dl": "27 Aug",
+   "freq": "d",
+   "mom": "+0.7%",
+   "n_pillars": 6,
+   "pillars": {
+    "C": {
+     "title": "Cost of money 0.0: cost-of-money composite -0.1 times sensitivity 1.5",
+     "v": 0.0
+    },
+    "F": {
+     "title": "Flows not scored: no free flow feed yet",
+     "v": null
+    },
+    "L": {
+     "title": "Liquidity 0.0: liquidity composite +0.2 times beta 0.5",
+     "v": 0.0
+    },
+    "P": {
+     "title": "Positioning +2.0: section 6 divergence score, smart money minus the crowd",
+     "v": 2.0
+    },
+    "S": {
+     "title": "Seasonal 0.0: next 3 months, 20 years: average +0.5%, hit rate 50%",
+     "v": 0.0
+    },
+    "V": {
+     "title": "Valuation +2.0: 10-year real yield, 10-year percentile",
+     "v": 2.0
+    },
+    "Y": {
+     "title": "Cycle -1.0: Recovery quadrant preference",
+     "v": -1.0
+    }
+   },
+   "price": -0.8,
+   "price_wow": null,
+   "read": "Divergence",
+   "read_html": "<span class=\"chip warn\"><span class=\"g\">◆</span>Divergence</span>",
+   "rules": {
+    "B": null,
+    "H": 2,
+    "M": -2,
+    "T": -2,
+    "X": -1
+   },
+   "src": "Yahoo IEF",
+   "tags": "Base",
+   "wow_ref": null
+  }
+ },
+ "schema": 1,
+ "v2": {
+  "calendar": {
+   "asof": "30 Aug",
+   "counts": {
+    "reviewed": 0,
+    "rows": 34,
+    "tier1": 11
+   },
+   "feeds": {
+    "failed": [],
+    "live": [
+     "Forex Factory",
+     "Federal Reserve",
+     "ECB",
+     "Bank of Japan",
+     "BLS (payrolls)",
+     "BLS (CPI)",
+     "TreasuryDirect",
+     "Cboe SPX chain"
+    ]
+   },
+   "ff_window": [
+    "2026-08-30",
+    "2026-09-04"
+   ],
+   "implied": {
+    "asof": "28 Aug",
+    "base": "±0.6%"
+   },
+   "ranges": {
+    "two_months": [
+     "2026-09-21",
+     "2026-11-08"
+    ],
+    "two_weeks": [
+     "2026-09-07",
+     "2026-09-20"
+    ],
+    "week": [
+     "2026-08-31",
+     "2026-09-06"
+    ]
+   },
+   "read": {
+    "label": "Week ahead, 31 Aug to 6 Sep (rule-based)",
+    "src": "rule",
+    "text": "One tier-1 event this week: Nonfarm payrolls on Fri 4 Sep. The session to watch is Fri 4 Sep: options price ±0.8% for the S&P, against ±0.6% for a normal session. Tier 2: China RatingDog manufacturing PMI (formerly Caixin) (Mon), Euro area CPI flash (Tue), ISM manufacturing (Tue), JOLTS job openings (Tue), EIA crude inventories (Wed) and ISM services (Thu). And 1 more. Closed: London (Mon)."
+   },
+   "rows": [
+    {
+     "brief": {
+      "expect": "Consensus: manufacturing 49.5 (prior 49.2), non-manufacturing 49.5 (prior 49.0). Options price ±0.4% for the session against ±0.6% for a normal one.",
+      "src": "rule",
+      "stronger": "Copper, miners, EM and luxury up.",
+      "weaker": "Weaker demand against stimulus hopes: copper and EM down, mixed for gold."
+     },
+     "confirmed": true,
+     "cons": "manufacturing 49.5, non-manufacturing 49.5",
+     "date": "2026-08-30",
+     "day": "Sun 30 Aug",
+     "dim": false,
+     "id": "china_pmi:2026-08-30",
+     "implied": 0.39,
+     "key": "china_pmi",
+     "name": "China official PMIs",
+     "range": "week",
+     "src": "Forex Factory",
+     "tier": 2,
+     "time": "21:30 / 08:30 Mon",
+     "touches": "Touches: Copper, EM, China equities"
+    },
+    {
+     "brief": {
+      "expect": "Thinner liquidity in the other regions; moves exaggerate.",
+      "src": "rule",
+      "stronger": "",
+      "weaker": ""
+     },
+     "confirmed": true,
+     "cons": "",
+     "date": "2026-08-31",
+     "day": "Mon 31 Aug",
+     "dim": true,
+     "id": "holiday:GBP:2026-08-31",
+     "implied": null,
+     "key": "holiday",
+     "name": "London closed: Bank Holiday",
+     "range": "week",
+     "src": "Forex Factory",
+     "tier": 0,
+     "time": "",
+     "touches": ""
+    },
+    {
+     "brief": {
+      "expect": "Consensus: manufacturing 51.5 (prior 50.9). Options price ±0.5% for the session against ±0.6% for a normal one.",
+      "src": "rule",
+      "stronger": "Copper, miners, EM and luxury up.",
+      "weaker": "Weaker demand against stimulus hopes: copper and EM down, mixed for gold."
+     },
+     "confirmed": true,
+     "cons": "manufacturing 51.5",
+     "date": "2026-08-31",
+     "day": "Mon 31 Aug",
+     "dim": false,
+     "id": "china_pmi_private:2026-08-31",
+     "implied": 0.53,
+     "key": "china_pmi_private",
+     "name": "China RatingDog manufacturing PMI (formerly Caixin)",
+     "range": "week",
+     "src": "Forex Factory",
+     "tier": 2,
+     "time": "21:45 / 08:45 Tue",
+     "touches": "Touches: Copper, EM"
+    },
+    {
+     "brief": {
+      "expect": "Consensus: headline y/y 3.3% (prior 2.9%), core y/y 2.5% (prior 2.5%). Options price ±0.5% for the session against ±0.6% for a normal one.",
+      "src": "rule",
+      "stronger": "Euro up, bunds down, ECB cut odds fade.",
+      "weaker": "Euro down, bunds up."
+     },
+     "confirmed": true,
+     "cons": "headline y/y 3.3%, core y/y 2.5%",
+     "date": "2026-09-01",
+     "day": "Tue 1 Sep",
+     "dim": false,
+     "id": "ez_cpi:2026-09-01",
+     "implied": 0.53,
+     "key": "ez_cpi",
+     "name": "Euro area CPI flash",
+     "range": "week",
+     "src": "Forex Factory",
+     "tier": 2,
+     "time": "05:00 / 16:00",
+     "touches": "Touches: EUR, ECB pricing"
+    },
+    {
+     "brief": {
+      "expect": "Consensus: headline 55.2 (prior 55.6), prices paid 71.2 (prior 71.1). Options price ±0.5% for the session against ±0.6% for a normal one.",
+      "src": "rule",
+      "stronger": "Yields and the dollar up; cyclicals, copper and banks lead; bonds, gold and utilities lag.",
+      "weaker": "Bonds, gold, staples and utilities up; small caps and cyclicals down; cut odds firm."
+     },
+     "confirmed": true,
+     "cons": "headline 55.2, prices paid 71.2",
+     "date": "2026-09-01",
+     "day": "Tue 1 Sep",
+     "dim": false,
+     "id": "ism_mfg:2026-09-01",
+     "implied": 0.53,
+     "key": "ism_mfg",
+     "name": "ISM manufacturing",
+     "range": "week",
+     "src": "Forex Factory, confirms the usual slot (first business day)",
+     "tier": 2,
+     "time": "10:00 / 21:00",
+     "touches": "Touches: Industrials, materials, copper, 10Y"
+    },
+    {
+     "brief": {
+      "expect": "Consensus: openings 7.33M (prior 7.36M). Options price ±0.5% for the session against ±0.6% for a normal one.",
+      "src": "rule",
+      "stronger": "Yields and the dollar up; cyclicals, copper and banks lead; bonds, gold and utilities lag.",
+      "weaker": "Bonds, gold, staples and utilities up; small caps and cyclicals down; cut odds firm."
+     },
+     "confirmed": true,
+     "cons": "openings 7.33M",
+     "date": "2026-09-01",
+     "day": "Tue 1 Sep",
+     "dim": false,
+     "id": "jolts:2026-09-01",
+     "implied": 0.53,
+     "key": "jolts",
+     "name": "JOLTS job openings",
+     "range": "week",
+     "src": "Forex Factory",
+     "tier": 2,
+     "time": "10:00 / 21:00",
+     "touches": "Touches: Rates, small caps"
+    },
+    {
+     "brief": {
+      "expect": "Options price ±0.6% for the session against ±0.6% for a normal one.",
+      "src": "rule",
+      "stronger": "A larger build: crude down.",
+      "weaker": "A draw: crude and producers up."
+     },
+     "confirmed": true,
+     "cons": "",
+     "date": "2026-09-02",
+     "day": "Wed 2 Sep",
+     "dim": false,
+     "id": "eia:2026-09-02",
+     "implied": 0.57,
+     "key": "eia",
+     "name": "EIA crude inventories",
+     "range": "week",
+     "src": "Forex Factory",
+     "tier": 2,
+     "time": "10:30 / 21:30",
+     "touches": "Touches: Oil"
+    },
+    {
+     "brief": {
+      "expect": "Consensus: headline 54.1 (prior 54.1). Options price ±0.7% for the session against ±0.6% for a normal one.",
+      "src": "rule",
+      "stronger": "Yields and the dollar up; cyclicals, copper and banks lead; bonds, gold and utilities lag.",
+      "weaker": "Bonds, gold, staples and utilities up; small caps and cyclicals down; cut odds firm."
+     },
+     "confirmed": true,
+     "cons": "headline 54.1",
+     "date": "2026-09-03",
+     "day": "Thu 3 Sep",
+     "dim": false,
+     "id": "ism_svc:2026-09-03",
+     "implied": 0.68,
+     "key": "ism_svc",
+     "name": "ISM services",
+     "range": "week",
+     "src": "Forex Factory, confirms the usual slot (third business day)",
+     "tier": 2,
+     "time": "10:00 / 21:00",
+     "touches": "Touches: All"
+    },
+    {
+     "brief": {
+      "expect": "Consensus: payrolls 58k (prior -23k), unemployment 4.1% (prior 4.1%), wages m/m 0.3% (prior 0.1%). Past releases since 2011 (n=187): the S&P moves 0.6% on the day at the median, 1.7% in the worst tenth; the 10Y 5 bp; gold 0.7%. Options price ±0.8% for the session against ±0.6% for a normal one.",
+      "src": "rule",
+      "stronger": "Yields and the dollar up; cyclicals, copper and banks lead; bonds, gold and utilities lag.",
+      "weaker": "Bonds, gold, staples and utilities up; small caps and cyclicals down; cut odds firm."
+     },
+     "confirmed": true,
+     "cons": "payrolls 58k, unemployment 4.1%, wages m/m 0.3%; options price ±0.8%",
+     "date": "2026-09-04",
+     "day": "Fri 4 Sep",
+     "dim": false,
+     "id": "payrolls:2026-09-04",
+     "implied": 0.76,
+     "key": "payrolls",
+     "name": "Nonfarm payrolls",
+     "range": "week",
+     "src": "BLS schedule and Forex Factory",
+     "tier": 1,
+     "time": "08:30 / 19:30",
+     "touches": "Touches: All"
+    },
+    {
+     "brief": {
+      "expect": "No official guidance until the Thursday after the meeting; cut odds move on data and press reports only.",
+      "src": "rule",
+      "stronger": "",
+      "weaker": ""
+     },
+     "confirmed": true,
+     "cons": "",
+     "date": "2026-09-05",
+     "day": "Sat 5 Sep",
+     "dim": false,
+     "id": "blackout:2026-09-05",
+     "implied": null,
+     "key": "blackout",
+     "name": "Fed communications blackout begins (to 17 Sep)",
+     "range": "week",
+     "src": "Federal Reserve meeting dates, blackout rule",
+     "tier": 2,
+     "time": "",
+     "touches": "Touches: Rates"
+    },
+    {
+     "brief": {
+      "expect": "Thinner liquidity in the other regions; moves exaggerate.",
+      "src": "rule",
+      "stronger": "",
+      "weaker": ""
+     },
+     "confirmed": true,
+     "cons": "",
+     "date": "2026-09-07",
+     "day": "Mon 7 Sep",
+     "dim": true,
+     "id": "holiday:USD:2026-09-07",
+     "implied": null,
+     "key": "holiday",
+     "name": "US markets closed: Labor Day",
+     "range": "two_weeks",
+     "src": "NYSE calendar",
+     "tier": 0,
+     "time": "",
+     "touches": ""
+    },
+    {
+     "brief": {
+      "expect": "Options price ±0.7% for the session against ±0.6% for a normal one. A demand test for the long end: a tail over 2 bp pushes yields up.",
+      "src": "rule",
+      "stronger": "Strong demand: yields down, everything long duration up.",
+      "weaker": "A tail: 10Y up, bear steepener, tech and REITs down."
+     },
+     "confirmed": true,
+     "cons": "",
+     "date": "2026-09-09",
+     "day": "Wed 9 Sep",
+     "dim": false,
+     "id": "auction:10Y:2026-09-09",
+     "implied": 0.68,
+     "key": "auction",
+     "name": "10-year Treasury auction (reopening)",
+     "range": "two_weeks",
+     "src": "TreasuryDirect",
+     "tier": 2,
+     "time": "13:00 / 00:00 Thu",
+     "touches": "Touches: Rates, tech, REITs"
+    },
+    {
+     "brief": {
+      "expect": "Options price ±0.7% for the session against ±0.6% for a normal one.",
+      "src": "rule",
+      "stronger": "Hawkish: euro up, dollar down, European banks up.",
+      "weaker": "Dovish: euro down, bunds up."
+     },
+     "confirmed": true,
+     "cons": "",
+     "date": "2026-09-10",
+     "day": "Thu 10 Sep",
+     "dim": false,
+     "id": "ecb:2026-09-10",
+     "implied": 0.71,
+     "key": "ecb",
+     "name": "ECB decision, press conference 08:45",
+     "range": "two_weeks",
+     "src": "ECB",
+     "tier": 2,
+     "time": "08:15 / 19:15",
+     "touches": "Touches: EUR, European equities, banks"
+    },
+    {
+     "brief": {
+      "expect": "Options price ±0.7% for the session against ±0.6% for a normal one. A demand test for the long end: a tail over 2 bp pushes yields up.",
+      "src": "rule",
+      "stronger": "Strong demand: yields down, everything long duration up.",
+      "weaker": "A tail: 10Y up, bear steepener, tech and REITs down."
+     },
+     "confirmed": true,
+     "cons": "",
+     "date": "2026-09-10",
+     "day": "Thu 10 Sep",
+     "dim": false,
+     "id": "auction:30Y:2026-09-10",
+     "implied": 0.71,
+     "key": "auction",
+     "name": "30-year Treasury auction (reopening)",
+     "range": "two_weeks",
+     "src": "TreasuryDirect",
+     "tier": 2,
+     "time": "13:00 / 00:00 Fri",
+     "touches": "Touches: Rates, tech, REITs"
+    },
+    {
+     "brief": {
+      "expect": "Past releases since 2011 (n=187): the S&P moves 0.5% on the day at the median, 1.6% in the worst tenth; the 10Y 4 bp; gold 0.6%. Options price ±0.9% for the session against ±0.6% for a normal one.",
+      "src": "rule",
+      "stronger": "Yields and the dollar up; gold, small caps and long-duration tech down; cut odds fade.",
+      "weaker": "Cut path firm: gold, miners, small caps and homebuilders up; dollar down."
+     },
+     "confirmed": true,
+     "cons": "options price ±0.9%",
+     "date": "2026-09-11",
+     "day": "Fri 11 Sep",
+     "dim": false,
+     "id": "cpi:2026-09-11",
+     "implied": 0.86,
+     "key": "cpi",
+     "name": "US CPI",
+     "range": "two_weeks",
+     "src": "BLS schedule",
+     "tier": 1,
+     "time": "08:30 / 19:30",
+     "touches": "Touches: All"
+    },
+    {
+     "brief": {
+      "expect": "Treasury cash rises $100B or more and bank reserves fall; net liquidity dips for about two weeks. It matters when SOFR minus IORB moves above +10 bp.",
+      "src": "rule",
+      "stronger": "",
+      "weaker": ""
+     },
+     "confirmed": true,
+     "cons": "",
+     "date": "2026-09-15",
+     "day": "Tue 15 Sep",
+     "dim": false,
+     "id": "tax:2026-09-15",
+     "implied": null,
+     "key": "tax",
+     "name": "US corporate tax payments (quarterly)",
+     "range": "two_weeks",
+     "src": "tax calendar",
+     "tier": 2,
+     "time": "",
+     "touches": "Touches: Net liquidity, bank reserves, bills"
+    },
+    {
+     "brief": {
+      "expect": "Past releases since 2011 (n=128): the S&P moves 0.6% on the day at the median, 1.9% in the worst tenth; the 10Y 4 bp; gold 0.4%. Options price ±1.0% for the session against ±0.6% for a normal one. The projections and the dots matter more than the decision itself.",
+      "src": "rule",
+      "stronger": "Hawkish: yields and the dollar up, curve flattens; gold, small caps and EM down.",
+      "weaker": "Dovish: gold, miners, homebuilders, small caps and EM up; dollar down; banks mixed."
+     },
+     "confirmed": true,
+     "cons": "options price ±1.0%",
+     "date": "2026-09-16",
+     "day": "Wed 16 Sep",
+     "dim": false,
+     "id": "fomc:2026-09-16",
+     "implied": 1.02,
+     "key": "fomc",
+     "name": "FOMC decision, projections and dot plot",
+     "range": "two_weeks",
+     "src": "Federal Reserve",
+     "tier": 1,
+     "time": "14:00 / 01:00 Thu",
+     "touches": "Touches: All"
+    },
+    {
+     "brief": {
+      "expect": "Options price ±0.9% for the session against ±0.6% for a normal one.",
+      "src": "rule",
+      "stronger": "Hawkish: yen up, Nikkei down, global carry unwinds, gold and tech dip.",
+      "weaker": "Dovish: yen down, Nikkei up, carry trades relax."
+     },
+     "confirmed": true,
+     "cons": "options price ±0.9%",
+     "date": "2026-09-18",
+     "day": "Fri 18 Sep",
+     "dim": false,
+     "id": "boj:2026-09-18",
+     "implied": 0.88,
+     "key": "boj",
+     "name": "Bank of Japan decision",
+     "range": "two_weeks",
+     "src": "Bank of Japan",
+     "tier": 1,
+     "time": "midday Tokyo / about 10:00",
+     "touches": "Touches: JPY, Nikkei, global carry"
+    },
+    {
+     "brief": {
+      "expect": "Largest option expiry of the quarter. Dealer hedging that pinned the market comes off; moves often widen the week after.",
+      "src": "rule",
+      "stronger": "",
+      "weaker": ""
+     },
+     "confirmed": true,
+     "cons": "",
+     "date": "2026-09-18",
+     "day": "Fri 18 Sep",
+     "dim": false,
+     "id": "quad:2026-09-18",
+     "implied": null,
+     "key": "quad",
+     "name": "Quad witching and index rebalances",
+     "range": "two_weeks",
+     "src": "third Friday of the quarter's last month",
+     "tier": 2,
+     "time": "16:00 / 03:00 Sat",
+     "touches": "Touches: Equities, VIX"
+    },
+    {
+     "brief": {
+      "expect": "Rebalancing sells the quarter's winner into the last sessions; the pension gap in section 6 sizes it.",
+      "src": "rule",
+      "stronger": "",
+      "weaker": ""
+     },
+     "confirmed": true,
+     "cons": "",
+     "date": "2026-09-30",
+     "day": "Wed 30 Sep",
+     "dim": false,
+     "id": "qend:2026-09-30",
+     "implied": null,
+     "key": "qend",
+     "name": "Quarter end: pension rebalancing; US fiscal year ends",
+     "range": "two_months",
+     "src": "last business day of the quarter",
+     "tier": 1,
+     "time": "",
+     "touches": "Touches: All"
+    },
+    {
+     "brief": {
+      "expect": "Thinner liquidity in the other regions; moves exaggerate.",
+      "src": "rule",
+      "stronger": "",
+      "weaker": ""
+     },
+     "confirmed": true,
+     "cons": "",
+     "date": "2026-10-01",
+     "day": "Thu 1 Oct",
+     "dim": true,
+     "id": "holiday:CNY:2026-10-01",
+     "implied": null,
+     "key": "holiday",
+     "name": "China mainland markets closed 1 to 7 Oct: National Day",
+     "range": "two_months",
+     "src": "mainland exchange calendar",
+     "tier": 0,
+     "time": "",
+     "touches": ""
+    },
+    {
+     "brief": {
+      "expect": "Options price ±0.9% for the session against ±0.6% for a normal one. Usual slot, not yet confirmed by a feed.",
+      "src": "rule",
+      "stronger": "Yields and the dollar up; cyclicals, copper and banks lead; bonds, gold and utilities lag.",
+      "weaker": "Bonds, gold, staples and utilities up; small caps and cyclicals down; cut odds firm."
+     },
+     "confirmed": false,
+     "cons": "",
+     "date": "2026-10-01",
+     "day": "Thu 1 Oct",
+     "dim": false,
+     "id": "ism_mfg:2026-10-01",
+     "implied": 0.89,
+     "key": "ism_mfg",
+     "name": "ISM manufacturing (usual slot, to confirm)",
+     "range": "two_months",
+     "src": "usual slot (first business day)",
+     "tier": 2,
+     "time": "10:00 / 21:00",
+     "touches": "Touches: Industrials, materials, copper, 10Y"
+    },
+    {
+     "brief": {
+      "expect": "Past releases since 2011 (n=187): the S&P moves 0.6% on the day at the median, 1.7% in the worst tenth; the 10Y 5 bp; gold 0.7%. Options price ±1.0% for the session against ±0.6% for a normal one.",
+      "src": "rule",
+      "stronger": "Yields and the dollar up; cyclicals, copper and banks lead; bonds, gold and utilities lag.",
+      "weaker": "Bonds, gold, staples and utilities up; small caps and cyclicals down; cut odds firm."
+     },
+     "confirmed": true,
+     "cons": "options price ±1.0%",
+     "date": "2026-10-02",
+     "day": "Fri 2 Oct",
+     "dim": false,
+     "id": "payrolls:2026-10-02",
+     "implied": 0.99,
+     "key": "payrolls",
+     "name": "Nonfarm payrolls",
+     "range": "two_months",
+     "src": "BLS schedule",
+     "tier": 1,
+     "time": "08:30 / 19:30",
+     "touches": "Touches: All"
+    },
+    {
+     "brief": {
+      "expect": "Options price ±0.7% for the session against ±0.6% for a normal one. Usual slot, not yet confirmed by a feed.",
+      "src": "rule",
+      "stronger": "Yields and the dollar up; cyclicals, copper and banks lead; bonds, gold and utilities lag.",
+      "weaker": "Bonds, gold, staples and utilities up; small caps and cyclicals down; cut odds firm."
+     },
+     "confirmed": false,
+     "cons": "",
+     "date": "2026-10-05",
+     "day": "Mon 5 Oct",
+     "dim": false,
+     "id": "ism_svc:2026-10-05",
+     "implied": 0.69,
+     "key": "ism_svc",
+     "name": "ISM services (usual slot, to confirm)",
+     "range": "two_months",
+     "src": "usual slot (third business day)",
+     "tier": 2,
+     "time": "10:00 / 21:00",
+     "touches": "Touches: All"
+    },
+    {
+     "brief": {
+      "expect": "The dissent count and the balance sheet discussion matter more than the recap. Usual slot, not yet confirmed by a feed.",
+      "src": "rule",
+      "stronger": "Hawkish: yields and the dollar up, curve flattens; gold, small caps and EM down.",
+      "weaker": "Dovish: gold, miners, homebuilders, small caps and EM up; dollar down; banks mixed."
+     },
+     "confirmed": false,
+     "cons": "",
+     "date": "2026-10-07",
+     "day": "Wed 7 Oct",
+     "dim": false,
+     "id": "fomc_minutes:2026-10-07",
+     "implied": null,
+     "key": "fomc_minutes",
+     "name": "FOMC minutes (Sep meeting) (usual slot, to confirm)",
+     "range": "two_months",
+     "src": "three weeks after the meeting (usual slot)",
+     "tier": 2,
+     "time": "14:00 / 01:00 Thu",
+     "touches": "Touches: Rates"
+    },
+    {
+     "brief": {
+      "expect": "Past releases since 2011 (n=187): the S&P moves 0.5% on the day at the median, 1.6% in the worst tenth; the 10Y 4 bp; gold 0.6%.",
+      "src": "rule",
+      "stronger": "Yields and the dollar up; gold, small caps and long-duration tech down; cut odds fade.",
+      "weaker": "Cut path firm: gold, miners, small caps and homebuilders up; dollar down."
+     },
+     "confirmed": true,
+     "cons": "",
+     "date": "2026-10-14",
+     "day": "Wed 14 Oct",
+     "dim": false,
+     "id": "cpi:2026-10-14",
+     "implied": null,
+     "key": "cpi",
+     "name": "US CPI",
+     "range": "two_months",
+     "src": "BLS schedule",
+     "tier": 1,
+     "time": "08:30 / 19:30",
+     "touches": "Touches: All"
+    },
+    {
+     "brief": {
+      "expect": "No official guidance until the Thursday after the meeting; cut odds move on data and press reports only.",
+      "src": "rule",
+      "stronger": "",
+      "weaker": ""
+     },
+     "confirmed": true,
+     "cons": "",
+     "date": "2026-10-17",
+     "day": "Sat 17 Oct",
+     "dim": false,
+     "id": "blackout:2026-10-17",
+     "implied": null,
+     "key": "blackout",
+     "name": "Fed communications blackout begins (to 29 Oct)",
+     "range": "two_months",
+     "src": "Federal Reserve meeting dates, blackout rule",
+     "tier": 2,
+     "time": "",
+     "touches": "Touches: Rates"
+    },
+    {
+     "brief": {
+      "expect": "Past releases since 2011 (n=128): the S&P moves 0.6% on the day at the median, 1.9% in the worst tenth; the 10Y 4 bp; gold 0.4%.",
+      "src": "rule",
+      "stronger": "Hawkish: yields and the dollar up, curve flattens; gold, small caps and EM down.",
+      "weaker": "Dovish: gold, miners, homebuilders, small caps and EM up; dollar down; banks mixed."
+     },
+     "confirmed": true,
+     "cons": "",
+     "date": "2026-10-28",
+     "day": "Wed 28 Oct",
+     "dim": false,
+     "id": "fomc:2026-10-28",
+     "implied": null,
+     "key": "fomc",
+     "name": "FOMC decision",
+     "range": "two_months",
+     "src": "Federal Reserve",
+     "tier": 1,
+     "time": "14:00 / 01:00 Thu",
+     "touches": "Touches: All"
+    },
+    {
+     "brief": {
+      "expect": "",
+      "src": "rule",
+      "stronger": "Hawkish: euro up, dollar down, European banks up.",
+      "weaker": "Dovish: euro down, bunds up."
+     },
+     "confirmed": true,
+     "cons": "",
+     "date": "2026-10-29",
+     "day": "Thu 29 Oct",
+     "dim": false,
+     "id": "ecb:2026-10-29",
+     "implied": null,
+     "key": "ecb",
+     "name": "ECB decision, press conference 08:45",
+     "range": "two_months",
+     "src": "ECB",
+     "tier": 2,
+     "time": "08:15 / 19:15",
+     "touches": "Touches: EUR, European equities, banks"
+    },
+    {
+     "brief": {
+      "expect": "",
+      "src": "rule",
+      "stronger": "Hawkish: yen up, Nikkei down, global carry unwinds, gold and tech dip.",
+      "weaker": "Dovish: yen down, Nikkei up, carry trades relax."
+     },
+     "confirmed": true,
+     "cons": "",
+     "date": "2026-10-30",
+     "day": "Fri 30 Oct",
+     "dim": false,
+     "id": "boj:2026-10-30",
+     "implied": null,
+     "key": "boj",
+     "name": "Bank of Japan decision",
+     "range": "two_months",
+     "src": "Bank of Japan",
+     "tier": 1,
+     "time": "midday Tokyo / about 10:00",
+     "touches": "Touches: JPY, Nikkei, global carry"
+    },
+    {
+     "brief": {
+      "expect": "Usual slot, not yet confirmed by a feed.",
+      "src": "rule",
+      "stronger": "Yields and the dollar up; cyclicals, copper and banks lead; bonds, gold and utilities lag.",
+      "weaker": "Bonds, gold, staples and utilities up; small caps and cyclicals down; cut odds firm."
+     },
+     "confirmed": false,
+     "cons": "",
+     "date": "2026-11-02",
+     "day": "Mon 2 Nov",
+     "dim": false,
+     "id": "ism_mfg:2026-11-02",
+     "implied": null,
+     "key": "ism_mfg",
+     "name": "ISM manufacturing (usual slot, to confirm)",
+     "range": "two_months",
+     "src": "usual slot (first business day)",
+     "tier": 2,
+     "time": "10:00 / 22:00",
+     "touches": "Touches: Industrials, materials, copper, 10Y"
+    },
+    {
+     "brief": {
+      "expect": "Options price ±1.2% for the session against ±0.6% for a normal one. Usual slot, not yet confirmed by a feed.",
+      "src": "rule",
+      "stronger": "Coupon increases: 10Y and term premium up, tech and REITs down, dollar up.",
+      "weaker": "Bills-heavy with coupons flat: net liquidity up, gold and small caps up."
+     },
+     "confirmed": false,
+     "cons": "options price ±1.2%",
+     "date": "2026-11-04",
+     "day": "Wed 4 Nov",
+     "dim": false,
+     "id": "qra:2026-11-04",
+     "implied": 1.16,
+     "key": "qra",
+     "name": "Treasury quarterly refunding announcement (QRA) (usual slot, to confirm)",
+     "range": "two_months",
+     "src": "usual slot (the Wednesday nearest the first of the month)",
+     "tier": 1,
+     "time": "08:30 / 20:30",
+     "touches": "Touches: Net liquidity, term premium, everything long duration"
+    },
+    {
+     "brief": {
+      "expect": "Options price ±1.2% for the session against ±0.6% for a normal one. Usual slot, not yet confirmed by a feed.",
+      "src": "rule",
+      "stronger": "Yields and the dollar up; cyclicals, copper and banks lead; bonds, gold and utilities lag.",
+      "weaker": "Bonds, gold, staples and utilities up; small caps and cyclicals down; cut odds firm."
+     },
+     "confirmed": false,
+     "cons": "",
+     "date": "2026-11-04",
+     "day": "Wed 4 Nov",
+     "dim": false,
+     "id": "ism_svc:2026-11-04",
+     "implied": 1.16,
+     "key": "ism_svc",
+     "name": "ISM services (usual slot, to confirm)",
+     "range": "two_months",
+     "src": "usual slot (third business day)",
+     "tier": 2,
+     "time": "10:00 / 22:00",
+     "touches": "Touches: All"
+    },
+    {
+     "brief": {
+      "expect": "Past releases since 2011 (n=187): the S&P moves 0.6% on the day at the median, 1.7% in the worst tenth; the 10Y 5 bp; gold 0.7%.",
+      "src": "rule",
+      "stronger": "Yields and the dollar up; cyclicals, copper and banks lead; bonds, gold and utilities lag.",
+      "weaker": "Bonds, gold, staples and utilities up; small caps and cyclicals down; cut odds firm."
+     },
+     "confirmed": true,
+     "cons": "",
+     "date": "2026-11-06",
+     "day": "Fri 6 Nov",
+     "dim": false,
+     "id": "payrolls:2026-11-06",
+     "implied": null,
+     "key": "payrolls",
+     "name": "Nonfarm payrolls",
+     "range": "two_months",
+     "src": "BLS schedule",
+     "tier": 1,
+     "time": "08:30 / 20:30",
+     "touches": "Touches: All"
+    }
+   ],
+   "studies": [
+    {
+     "cells": {
+      "dgs10": {
+       "med": "5 bp",
+       "med5": "8 bp",
+       "n": 187,
+       "p90": "12 bp",
+       "up": "54%"
+      },
+      "dxy": {
+       "med": "0.3%",
+       "med5": "0.6%",
+       "n": 187,
+       "p90": "0.9%",
+       "up": "47%"
+      },
+      "gold": {
+       "med": "0.7%",
+       "med5": "1.4%",
+       "n": 187,
+       "p90": "2.1%",
+       "up": "54%"
+      },
+      "spx": {
+       "med": "0.6%",
+       "med5": "1.3%",
+       "n": 187,
+       "p90": "1.7%",
+       "up": "57%"
+      }
+     },
+     "from": "Jan 2011",
+     "key": "nfp",
+     "n": 187,
+     "name": "Nonfarm payrolls",
+     "next": {
+      "date": "4 Sep",
+      "implied": "±0.8%"
+     }
+    },
+    {
+     "cells": {
+      "dgs10": {
+       "med": "4 bp",
+       "med5": "7 bp",
+       "n": 187,
+       "p90": "9 bp",
+       "up": "43%"
+      },
+      "dxy": {
+       "med": "0.3%",
+       "med5": "0.6%",
+       "n": 187,
+       "p90": "0.9%",
+       "up": "44%"
+      },
+      "gold": {
+       "med": "0.6%",
+       "med5": "1.5%",
+       "n": 187,
+       "p90": "1.6%",
+       "up": "56%"
+      },
+      "spx": {
+       "med": "0.5%",
+       "med5": "1.1%",
+       "n": 187,
+       "p90": "1.6%",
+       "up": "56%"
+      }
+     },
+     "from": "Jan 2011",
+     "key": "cpi",
+     "n": 187,
+     "name": "US CPI",
+     "next": {
+      "date": "11 Sep",
+      "implied": "±0.9%"
+     }
+    },
+    {
+     "cells": {
+      "dgs10": {
+       "med": "4 bp",
+       "med5": "7 bp",
+       "n": 128,
+       "p90": "10 bp",
+       "up": "42%"
+      },
+      "dxy": {
+       "med": "0.4%",
+       "med5": "0.7%",
+       "n": 128,
+       "p90": "0.9%",
+       "up": "38%"
+      },
+      "gold": {
+       "med": "0.4%",
+       "med5": "1.6%",
+       "n": 128,
+       "p90": "1.4%",
+       "up": "53%"
+      },
+      "spx": {
+       "med": "0.6%",
+       "med5": "1.3%",
+       "n": 128,
+       "p90": "1.9%",
+       "up": "48%"
+      }
+     },
+     "from": "Jan 2011",
+     "key": "fomc",
+     "n": 128,
+     "name": "FOMC decision",
+     "next": {
+      "date": "16 Sep",
+      "implied": "±1.0%"
+     }
+    }
+   ],
+   "today": "2026-08-30"
+  },
+  "positioning": {
+   "asof": "25 Aug",
+   "dots": [
+    {
+     "key": "ust10",
+     "name": "10Y Treasuries",
+     "score": 2.75,
+     "x": true
+    },
+    {
+     "key": "crude",
+     "name": "Crude oil",
+     "score": 0.56,
+     "x": false
+    },
+    {
+     "key": "semis",
+     "name": "Semiconductors",
+     "score": 0.26,
+     "x": false
+    },
+    {
+     "key": "silver",
+     "name": "Silver",
+     "score": 0.15,
+     "x": false
+    },
+    {
+     "key": "spx",
+     "name": "S&P 500",
+     "score": -0.64,
+     "x": false
+    },
+    {
+     "key": "gold",
+     "name": "Gold",
+     "score": -2.1,
+     "x": false
+    },
+    {
+     "key": "btc",
+     "name": "Bitcoin",
+     "score": -2.63,
+     "x": true
+    },
+    {
+     "key": "dxy",
+     "name": "US dollar",
+     "score": -2.93,
+     "x": true
+    },
+    {
+     "key": "copper",
+     "name": "Copper",
+     "score": -3.73,
+     "x": true
+    }
+   ],
+   "read": "The crowd is optimistic, not euphoric (S&P 500 crowd score +0.7). Divergence alerts: 10Y Treasuries (+2.8, smart money buying), us dollar (-2.9, smart money leaving), bitcoin (-2.6, smart money leaving) and copper (-3.7, smart money leaving). Trend followers are long S&P 500, Nasdaq 100, Gold and Copper and short 10Y Treasury note, WTI crude and Dollar index. Vol-control allocation is high."
+  },
+  "regime": {
+   "asof": "27 Aug",
+   "clock": {
+    "detail": "growth up, inflation down",
+    "quadrant": "Recovery",
+    "trail": [
+     [
+      0.88,
+      0.18,
+      "Feb"
+     ],
+     [
+      1.53,
+      0.18,
+      "Mar"
+     ],
+     [
+      0.74,
+      0.53,
+      "Apr"
+     ],
+     [
+      1.15,
+      1.27,
+      "May"
+     ],
+     [
+      0.1,
+      0.47,
+      "Jun"
+     ],
+     [
+      0.14,
+      -0.85,
+      "Jul"
+     ],
+     [
+      0.08,
+      -0.85,
+      "now"
+     ]
+    ]
+   },
+   "composites": {
+    "growth": {
+     "left": 52.0,
+     "t": "+0.1",
+     "title": "3 inputs, three-year z-scores, as of 22 Aug",
+     "v": 0.08
+    },
+    "infl": {
+     "left": 28.7,
+     "t": "-0.8",
+     "title": "3 inputs, three-year z-scores, as of 1 Jul",
+     "v": -0.85
+    },
+    "liq": {
+     "left": 56.2,
+     "t": "+0.2",
+     "title": "3 inputs, three-year z-scores, as of 1 Jul",
+     "v": 0.25
+    },
+    "risk": {
+     "left": 81.8,
+     "t": "+1.3",
+     "title": "6 inputs, three-year z-scores, as of 27 Aug",
+     "v": 1.27
+    }
+   },
+   "flags": {
+    "breadth": {
+     "cls": "chip up",
+     "g": "▲",
+     "text": "Breadth: broadening"
+    },
+    "cost": {
+     "cls": "chip",
+     "g": "●",
+     "text": "Cost of money: stable"
+    },
+    "credit": {
+     "cls": "chip",
+     "g": "●",
+     "text": "Credit stress: none"
+    },
+    "crowd": {
+     "cls": "chip warn",
+     "g": "▲",
+     "text": "Crowd: optimistic, not euphoric"
+    },
+    "cycle": {
+     "cls": "chip accent",
+     "g": "●",
+     "text": "Cycle: Recovery (growth up, inflation down)"
+    },
+    "dollar": {
+     "cls": "chip",
+     "g": "●",
+     "text": "Dollar: weakening"
+    },
+    "liquidity": {
+     "cls": "chip up",
+     "g": "▲",
+     "text": "Liquidity: expanding"
+    },
+    "momentum": {
+     "cls": "chip warn",
+     "g": "▲",
+     "text": "Momentum factor: rolling over"
+    },
+    "risk": {
+     "cls": "chip accent",
+     "g": "●",
+     "text": "Risk appetite: on"
+    }
+   },
+   "label": "The read at a glance (rule-based, live)",
+   "line": "Liquidity expanding, cost of money stable, risk appetite on, breadth broadening. Cycle: Recovery (growth up, inflation down). Gold miners, silver miners, oil and gas producers and biotech are early."
+  },
+  "rotation": {
+   "asof": "2026-08-27",
+   "cards": [
+    {
+     "chip": "<span class=\"chip up\"><span class=\"g\">▲</span>Early</span>",
+     "count": 2,
+     "fade": false,
+     "key": "xop",
+     "lines": [
+      {
+       "cls": "",
+       "mark": "✓",
+       "text": "Relative strength: XOP to S&P ratio above its 50-day since 10 Aug"
+      },
+      {
+       "cls": "no",
+       "mark": "○",
+       "text": "Flows: no free share-count feed yet, not scored"
+      },
+      {
+       "cls": "",
+       "mark": "✓",
+       "text": "Macro: crude +7.2% against its 200-day in a month (crude above its 200-day)"
+      },
+      {
+       "cls": "no",
+       "mark": "○",
+       "text": "Breadth: 88% of members above the 50-day; four-week range 37 to 92% (a thrust needs under 35% to over 60%)"
+      },
+      {
+       "cls": "no",
+       "mark": "○",
+       "text": "Seasonal: next 8 weeks -0.4% relative on average, hit rate 55% over 20 years, bar is 60%"
+      }
+     ],
+     "meta": "n=39 since 2011, hit 46%, avg +0.4% excess, worst -20.0%, t=0.2; in Recovery regime 50% (n=8); live",
+     "name": "Oil and gas producers",
+     "since": "10 Aug",
+     "so": "At 2 of the three backtested conditions, XOP beat the S&P 500 over the next eight weeks 46% of the time (n=39 since 2011), average +0.4% relative. Developing needs 1.0 more condition: pending breadth and seasonal.",
+     "state": "early",
+     "tk": "XOP",
+     "word": "Early"
+    },
+    {
+     "chip": "<span class=\"chip up\"><span class=\"g\">▲</span>Early</span>",
+     "count": 2,
+     "fade": false,
+     "key": "gdx",
+     "lines": [
+      {
+       "cls": "",
+       "mark": "✓",
+       "text": "Relative strength: GDX to S&P ratio above its 50-day since 5 Aug"
+      },
+      {
+       "cls": "no",
+       "mark": "○",
+       "text": "Flows: no free share-count feed yet, not scored"
+      },
+      {
+       "cls": "",
+       "mark": "✓",
+       "text": "Macro: 10Y real yield -7 bp, dollar -1.6% in a month (real yields and the dollar falling)"
+      },
+      {
+       "cls": "no",
+       "mark": "○",
+       "text": "Breadth: no free holdings file for this fund yet, not scored"
+      },
+      {
+       "cls": "no",
+       "mark": "○",
+       "text": "Seasonal: next 8 weeks -2.1% relative on average, hit rate 50% over 20 years, bar is 60%"
+      }
+     ],
+     "meta": "n=51 since 2011, hit 41%, avg +0.4% excess, worst -26.8%, t=0.2; in Recovery regime 44% (n=9); live",
+     "name": "Gold miners",
+     "since": "5 Aug",
+     "so": "At 2 of the three backtested conditions, GDX beat the S&P 500 over the next eight weeks 41% of the time (n=51 since 2011), average +0.4% relative. Developing needs 1.0 more condition: pending seasonal.",
+     "state": "early",
+     "tk": "GDX",
+     "word": "Early"
+    },
+    {
+     "chip": "<span class=\"chip up\"><span class=\"g\">▲</span>Early</span>",
+     "count": 2,
+     "fade": false,
+     "key": "sil",
+     "lines": [
+      {
+       "cls": "",
+       "mark": "✓",
+       "text": "Relative strength: SIL to S&P ratio above its 50-day since 5 Aug"
+      },
+      {
+       "cls": "no",
+       "mark": "○",
+       "text": "Flows: no free share-count feed yet, not scored"
+      },
+      {
+       "cls": "",
+       "mark": "✓",
+       "text": "Macro: 10Y real yield -7 bp, dollar -1.6% in a month (real yields and the dollar falling)"
+      },
+      {
+       "cls": "no",
+       "mark": "○",
+       "text": "Breadth: no free holdings file for this fund yet, not scored"
+      },
+      {
+       "cls": "no",
+       "mark": "○",
+       "text": "Seasonal: next 8 weeks -1.4% relative on average, hit rate 44% over 16 years, bar is 60%"
+      }
+     ],
+     "meta": "n=47 since 2011, hit 45%, avg +1.1% excess, worst -27.0%, t=0.5; in Recovery regime 50% (n=8); live",
+     "name": "Silver miners",
+     "since": "5 Aug",
+     "so": "At 2 of the three backtested conditions, SIL beat the S&P 500 over the next eight weeks 45% of the time (n=47 since 2011), average +1.1% relative. Developing needs 1.0 more condition: pending seasonal.",
+     "state": "early",
+     "tk": "SIL",
+     "word": "Early"
+    },
+    {
+     "chip": "<span class=\"chip up\"><span class=\"g\">▲</span>Early</span>",
+     "count": 2,
+     "fade": false,
+     "key": "xbi",
+     "lines": [
+      {
+       "cls": "",
+       "mark": "✓",
+       "text": "Relative strength: XBI to S&P ratio above its 50-day since 4 Aug"
+      },
+      {
+       "cls": "no",
+       "mark": "○",
+       "text": "Flows: no free share-count feed yet, not scored"
+      },
+      {
+       "cls": "",
+       "mark": "✓",
+       "text": "Macro: 10Y real yield -7 bp in a month (real yields falling)"
+      },
+      {
+       "cls": "no",
+       "mark": "○",
+       "text": "Breadth: no free holdings file for this fund yet, not scored"
+      },
+      {
+       "cls": "no",
+       "mark": "○",
+       "text": "Seasonal: next 8 weeks -1.2% relative on average, hit rate 50% over 20 years, bar is 60%"
+      }
+     ],
+     "meta": "n=57 since 2011, hit 49%, avg -0.0% excess, worst -27.5%, t=-0.0; in Recovery regime 56% (n=9); live",
+     "name": "Biotech",
+     "since": "4 Aug",
+     "so": "At 2 of the three backtested conditions, XBI beat the S&P 500 over the next eight weeks 49% of the time (n=57 since 2011), average -0.0% relative. Developing needs 1.0 more condition: pending seasonal.",
+     "state": "early",
+     "tk": "XBI",
+     "word": "Early"
+    },
+    {
+     "chip": "<span class=\"chip\"><span class=\"g\">●</span>Watch (exit)</span>",
+     "count": 0,
+     "fade": true,
+     "key": "staples",
+     "lines": [
+      {
+       "cls": "lost",
+       "mark": "✕",
+       "text": "Relative strength: XLP to S&P ratio below its 50-day since 27 Aug"
+      },
+      {
+       "cls": "no",
+       "mark": "○",
+       "text": "Flows: no free share-count feed yet, not scored"
+      },
+      {
+       "cls": "no",
+       "mark": "○",
+       "text": "Macro: mixed: HY spread +0 bp in a month (needs HY spreads widening)"
+      },
+      {
+       "cls": "no",
+       "mark": "○",
+       "text": "Breadth: 55% of members above the 50-day; four-week range 55 to 88% (a thrust needs under 35% to over 60%)"
+      },
+      {
+       "cls": "no",
+       "mark": "○",
+       "text": "Seasonal: next 8 weeks +0.4% relative on average, hit rate 40% over 20 years, bar is 60%"
+      }
+     ],
+     "meta": "live",
+     "name": "Consumer staples",
+     "since": "27 Aug",
+     "so": "No backtest events at this signal count since 2011. Watch needs 1.0 more condition: pending breadth, seasonal and macro.",
+     "state": "watch_exit",
+     "tk": "XLP",
+     "word": "Watch (exit)"
+    },
+    {
+     "chip": "<span class=\"chip\"><span class=\"g\">●</span>Watch (exit)</span>",
+     "count": 0,
+     "fade": true,
+     "key": "kbe",
+     "lines": [
+      {
+       "cls": "lost",
+       "mark": "✕",
+       "text": "Relative strength: KBE to S&P ratio below its 50-day since 19 Aug"
+      },
+      {
+       "cls": "no",
+       "mark": "○",
+       "text": "Flows: no free share-count feed yet, not scored"
+      },
+      {
+       "cls": "no",
+       "mark": "○",
+       "text": "Macro: mixed: 2s10s curve +2 bp in a month (needs curve steepening)"
+      },
+      {
+       "cls": "no",
+       "mark": "○",
+       "text": "Breadth: no free holdings file for this fund yet, not scored"
+      },
+      {
+       "cls": "no",
+       "mark": "○",
+       "text": "Seasonal: next 8 weeks +0.1% relative on average, hit rate 40% over 20 years, bar is 60%"
+      }
+     ],
+     "meta": "live",
+     "name": "Banks",
+     "since": "19 Aug",
+     "so": "No backtest events at this signal count since 2011. Watch needs 1.0 more condition: pending seasonal and macro.",
+     "state": "watch_exit",
+     "tk": "KBE",
+     "word": "Watch (exit)"
+    },
+    {
+     "chip": "<span class=\"chip\"><span class=\"g\">●</span>Watch (exit)</span>",
+     "count": 1,
+     "fade": true,
+     "key": "ita",
+     "lines": [
+      {
+       "cls": "lost",
+       "mark": "✕",
+       "text": "Relative strength: ITA to S&P ratio below its 50-day since 19 Aug"
+      },
+      {
+       "cls": "no",
+       "mark": "○",
+       "text": "Flows: no free share-count feed yet, not scored"
+      },
+      {
+       "cls": "no",
+       "mark": "○",
+       "text": "Macro: no driver defined for this theme on the page, not scored"
+      },
+      {
+       "cls": "no",
+       "mark": "○",
+       "text": "Breadth: no free holdings file for this fund yet, not scored"
+      },
+      {
+       "cls": "",
+       "mark": "✓",
+       "text": "Seasonal: next 8 weeks +0.3% relative on average, hit rate 60% over 20 years"
+      }
+     ],
+     "meta": "live",
+     "name": "Defense and aerospace",
+     "since": "19 Aug",
+     "so": "No backtest events at this signal count since 2011. Watch needs 0.5 more condition.",
+     "state": "watch_exit",
+     "tk": "ITA",
+     "word": "Watch (exit)"
+    },
+    {
+     "chip": "<span class=\"chip\"><span class=\"g\">●</span>Watch (exit)</span>",
+     "count": 0,
+     "fade": true,
+     "key": "kre",
+     "lines": [
+      {
+       "cls": "lost",
+       "mark": "✕",
+       "text": "Relative strength: KRE to S&P ratio below its 50-day since 19 Aug"
+      },
+      {
+       "cls": "no",
+       "mark": "○",
+       "text": "Flows: no free share-count feed yet, not scored"
+      },
+      {
+       "cls": "no",
+       "mark": "○",
+       "text": "Macro: mixed: 2s10s curve +2 bp in a month (needs curve steepening)"
+      },
+      {
+       "cls": "no",
+       "mark": "○",
+       "text": "Breadth: no free holdings file for this fund yet, not scored"
+      },
+      {
+       "cls": "no",
+       "mark": "○",
+       "text": "Seasonal: next 8 weeks +1.1% relative on average, hit rate 50% over 20 years, bar is 60%"
+      }
+     ],
+     "meta": "live",
+     "name": "Regional banks",
+     "since": "19 Aug",
+     "so": "No backtest events at this signal count since 2011. Watch needs 1.0 more condition: pending seasonal and macro.",
+     "state": "watch_exit",
+     "tk": "KRE",
+     "word": "Watch (exit)"
+    },
+    {
+     "chip": "<span class=\"chip\"><span class=\"g\">●</span>Watch (exit)</span>",
+     "count": 0,
+     "fade": true,
+     "key": "xlu",
+     "lines": [
+      {
+       "cls": "lost",
+       "mark": "✕",
+       "text": "Relative strength: XLU to S&P ratio below its 50-day since 30 Jul"
+      },
+      {
+       "cls": "no",
+       "mark": "○",
+       "text": "Flows: no free share-count feed yet, not scored"
+      },
+      {
+       "cls": "no",
+       "mark": "○",
+       "text": "Macro: mixed: HY spread +0 bp in a month (needs HY spreads widening)"
+      },
+      {
+       "cls": "lost",
+       "mark": "✕",
+       "text": "Breadth: 12% of members above the 50-day, down from 96% in four weeks"
+      },
+      {
+       "cls": "no",
+       "mark": "○",
+       "text": "Seasonal: next 8 weeks +0.2% relative on average, hit rate 50% over 20 years, bar is 60%"
+      }
+     ],
+     "meta": "live",
+     "name": "Utilities",
+     "since": "30 Jul",
+     "so": "No backtest events at this signal count since 2011. Watch needs 1.0 more condition: pending seasonal and macro.",
+     "state": "watch_exit",
+     "tk": "XLU",
+     "word": "Watch (exit)"
+    },
+    {
+     "chip": "<span class=\"chip\"><span class=\"g\">●</span>Watch (exit)</span>",
+     "count": 0,
+     "fade": true,
+     "key": "xhb",
+     "lines": [
+      {
+       "cls": "lost",
+       "mark": "✕",
+       "text": "Relative strength: XHB to S&P ratio below its 50-day since 29 Jul"
+      },
+      {
+       "cls": "no",
+       "mark": "○",
+       "text": "Flows: no free share-count feed yet, not scored"
+      },
+      {
+       "cls": "no",
+       "mark": "○",
+       "text": "Macro: mixed: mortgage rate +0 bp in a month (needs mortgage rates falling)"
+      },
+      {
+       "cls": "lost",
+       "mark": "✕",
+       "text": "Breadth: 21% of members above the 50-day, down from 84% in four weeks"
+      },
+      {
+       "cls": "lost",
+       "mark": "✕",
+       "text": "Seasonal: next 8 weeks -2.1% relative on average, hit rate 35% over 20 years, a weak window"
+      }
+     ],
+     "meta": "live",
+     "name": "Homebuilders",
+     "since": "29 Jul",
+     "so": "No backtest events at this signal count since 2011. Watch needs 1.0 more condition: pending macro.",
+     "state": "watch_exit",
+     "tk": "XHB",
+     "word": "Watch (exit)"
+    },
+    {
+     "chip": "<span class=\"chip\"><span class=\"g\">●</span>Watch (exit)</span>",
+     "count": 0,
+     "fade": true,
+     "key": "smh",
+     "lines": [
+      {
+       "cls": "lost",
+       "mark": "✕",
+       "text": "Relative strength: SMH to S&P ratio below its 50-day since 15 Jul"
+      },
+      {
+       "cls": "no",
+       "mark": "○",
+       "text": "Flows: no free share-count feed yet, not scored"
+      },
+      {
+       "cls": "no",
+       "mark": "○",
+       "text": "Macro: mixed: net liquidity -93 $B in 13 weeks, 10Y real yield -7 bp in a month (needs liquidity expanding, real yields falling)"
+      },
+      {
+       "cls": "no",
+       "mark": "○",
+       "text": "Breadth: no free holdings file for this fund yet, not scored"
+      },
+      {
+       "cls": "no",
+       "mark": "○",
+       "text": "Seasonal: next 8 weeks -0.2% relative on average, hit rate 45% over 20 years, bar is 60%"
+      }
+     ],
+     "meta": "live",
+     "name": "Semiconductors",
+     "since": "15 Jul",
+     "so": "No backtest events at this signal count since 2011. Watch needs 1.0 more condition: pending seasonal and macro.",
+     "state": "watch_exit",
+     "tk": "SMH",
+     "word": "Watch (exit)"
+    },
+    {
+     "chip": "<span class=\"chip\"><span class=\"g\">●</span>Watch</span>",
+     "count": 2,
+     "fade": false,
+     "key": "cash",
+     "lines": [
+      {
+       "cls": "no",
+       "mark": "○",
+       "text": "Flows: money market assets: 1 week of history logged, three are needed"
+      },
+      {
+       "cls": "no",
+       "mark": "○",
+       "text": "Destination: US equity fund flows: no free feed yet, not scored"
+      },
+      {
+       "cls": "no",
+       "mark": "○",
+       "text": "Macro: mixed: 3-month bill yield +1 bp in a month (needs bill yields falling)"
+      },
+      {
+       "cls": "",
+       "mark": "✓",
+       "text": "Breadth: equal-weight beating cap-weight for 8 weeks (+0.4%)"
+      },
+      {
+       "cls": "",
+       "mark": "✓",
+       "text": "Seasonal: next 8 weeks +0.5% absolute on average, hit rate 65% over 20 years"
+      }
+     ],
+     "meta": "no backtest for this composite card; live",
+     "name": "Cash leaving the sidelines",
+     "since": "27 Aug",
+     "so": "Sideline cash re-entering after a cut is the confirmation a broadening rally needs; the money market series is logged weekly from here, so the flow condition needs three weeks of history. Early needs 0.5 more condition: pending macro.",
+     "state": "watch",
+     "tk": "money market funds",
+     "word": "Watch"
+    }
+   ],
+   "map": [
+    {
+     "hot": true,
+     "key": "smh",
+     "label": "Semis",
+     "mom": 94.2,
+     "rs": 123.6,
+     "tail": [
+      [
+       130.61,
+       104.76
+      ],
+      [
+       128.51,
+       101.41
+      ],
+      [
+       126.29,
+       98.04
+      ]
+     ],
+     "title": "Semis: relative strength 123.6, momentum 94.2, weakening, watch (exit)"
+    },
+    {
+     "hot": false,
+     "key": "xlk",
+     "label": "Tech",
+     "mom": 100.4,
+     "rs": 109.5,
+     "tail": [
+      [
+       111.8,
+       107.04
+      ],
+      [
+       110.99,
+       104.72
+      ],
+      [
+       110.25,
+       102.53
+      ]
+     ],
+     "title": "Tech: relative strength 109.5, momentum 100.4, leading"
+    },
+    {
+     "hot": false,
+     "key": "xlf",
+     "label": "Financials",
+     "mom": 107.1,
+     "rs": 98.3,
+     "tail": [
+      [
+       95.69,
+       103.23
+      ],
+      [
+       96.74,
+       104.77
+      ],
+      [
+       97.59,
+       106.1
+      ]
+     ],
+     "title": "Financials: relative strength 98.3, momentum 107.1, improving"
+    },
+    {
+     "hot": false,
+     "key": "xli",
+     "label": "Industrials",
+     "mom": 101.1,
+     "rs": 101.6,
+     "tail": [
+      [
+       101.14,
+       98.9
+      ],
+      [
+       101.54,
+       99.97
+      ],
+      [
+       101.68,
+       100.72
+      ]
+     ],
+     "title": "Industrials: relative strength 101.6, momentum 101.1, leading"
+    },
+    {
+     "hot": false,
+     "key": "xlc",
+     "label": "Comm services",
+     "mom": 94.7,
+     "rs": 89.2,
+     "tail": [
+      [
+       89.46,
+       92.37
+      ],
+      [
+       89.2,
+       92.98
+      ],
+      [
+       89.16,
+       93.83
+      ]
+     ],
+     "title": "Comm services: relative strength 89.2, momentum 94.7, lagging"
+    },
+    {
+     "hot": true,
+     "key": "gdx",
+     "label": "Gold miners",
+     "mom": 84.6,
+     "rs": 88.5,
+     "tail": [
+      [
+       86.74,
+       77.44
+      ],
+      [
+       86.43,
+       78.59
+      ],
+      [
+       86.99,
+       80.66
+      ]
+     ],
+     "title": "Gold miners: relative strength 88.5, momentum 84.6, lagging, early"
+    },
+    {
+     "hot": true,
+     "key": "xhb",
+     "label": "Homebuilders",
+     "mom": 104.0,
+     "rs": 93.5,
+     "tail": [
+      [
+       92.4,
+       101.27
+      ],
+      [
+       93.05,
+       102.63
+      ],
+      [
+       93.45,
+       103.68
+      ]
+     ],
+     "title": "Homebuilders: relative strength 93.5, momentum 104.0, improving, watch (exit)"
+    },
+    {
+     "hot": false,
+     "key": "iwm",
+     "label": "Small caps",
+     "mom": 100.2,
+     "rs": 104.3,
+     "tail": [
+      [
+       104.53,
+       100.49
+      ],
+      [
+       104.45,
+       100.32
+      ],
+      [
+       104.46,
+       100.44
+      ]
+     ],
+     "title": "Small caps: relative strength 104.3, momentum 100.2, leading"
+    },
+    {
+     "hot": false,
+     "key": "xlb",
+     "label": "Materials",
+     "mom": 97.8,
+     "rs": 98.8,
+     "tail": [
+      [
+       98.64,
+       95.38
+      ],
+      [
+       98.74,
+       96.03
+      ],
+      [
+       98.74,
+       96.8
+      ]
+     ],
+     "title": "Materials: relative strength 98.8, momentum 97.8, lagging"
+    },
+    {
+     "hot": true,
+     "key": "xlp",
+     "label": "Staples",
+     "mom": 100.8,
+     "rs": 96.5,
+     "tail": [
+      [
+       95.84,
+       97.88
+      ],
+      [
+       96.17,
+       99.03
+      ],
+      [
+       96.43,
+       100.1
+      ]
+     ],
+     "title": "Staples: relative strength 96.5, momentum 100.8, improving, watch (exit)"
+    },
+    {
+     "hot": false,
+     "key": "xlre",
+     "label": "Real estate",
+     "mom": 100.6,
+     "rs": 98.5,
+     "tail": [
+      [
+       98.38,
+       99.71
+      ],
+      [
+       98.55,
+       100.35
+      ],
+      [
+       98.57,
+       100.51
+      ]
+     ],
+     "title": "Real estate: relative strength 98.5, momentum 100.6, improving"
+    },
+    {
+     "hot": true,
+     "key": "xlu",
+     "label": "Utilities",
+     "mom": 97.5,
+     "rs": 93.8,
+     "tail": [
+      [
+       94.01,
+       93.51
+      ],
+      [
+       94.02,
+       94.88
+      ],
+      [
+       94.03,
+       96.26
+      ]
+     ],
+     "title": "Utilities: relative strength 93.8, momentum 97.5, lagging, watch (exit)"
+    },
+    {
+     "hot": false,
+     "key": "xly",
+     "label": "Discretionary",
+     "mom": 97.9,
+     "rs": 91.6,
+     "tail": [
+      [
+       91.55,
+       96.81
+      ],
+      [
+       91.5,
+       96.98
+      ],
+      [
+       91.59,
+       97.54
+      ]
+     ],
+     "title": "Discretionary: relative strength 91.6, momentum 97.9, lagging"
+    },
+    {
+     "hot": false,
+     "key": "xlv",
+     "label": "Health care",
+     "mom": 106.2,
+     "rs": 100.1,
+     "tail": [
+      [
+       97.71,
+       101.13
+      ],
+      [
+       98.54,
+       103.04
+      ],
+      [
+       99.25,
+       104.58
+      ]
+     ],
+     "title": "Health care: relative strength 100.1, momentum 106.2, leading"
+    },
+    {
+     "hot": true,
+     "key": "xop",
+     "label": "Energy",
+     "mom": 94.6,
+     "rs": 104.5,
+     "tail": [
+      [
+       103.61,
+       87.54
+      ],
+      [
+       103.65,
+       89.18
+      ],
+      [
+       103.87,
+       91.64
+      ]
+     ],
+     "title": "Energy: relative strength 104.5, momentum 94.6, weakening, early"
+    }
+   ],
+   "read": "No rotation is developing yet. Gold miners, silver miners, oil and gas producers and biotech are early. Semiconductors, defense and aerospace, banks, regional banks, homebuilders, consumer staples and utilities are the quiet exits. Nothing is confirmed yet. Flows are not scored (no free share-count feed); breadth is scored where a free holdings file exists.",
+   "season": {
+    "month": 8,
+    "rows": [
+     {
+      "cells": [
+       {
+        "t": "0.3",
+        "title": "hit rate 57% over 21 years",
+        "v": 0.29
+       },
+       {
+        "t": "-0.1",
+        "title": "hit rate 52% over 21 years",
+        "v": -0.09
+       },
+       {
+        "t": "0.9",
+        "title": "hit rate 62% over 21 years",
+        "v": 0.87
+       },
+       {
+        "t": "2.3",
+        "title": "hit rate 81% over 21 years",
+        "v": 2.29
+       },
+       {
+        "t": "0.7",
+        "title": "hit rate 76% over 21 years",
+        "v": 0.75
+       },
+       {
+        "t": "0.1",
+        "title": "hit rate 62% over 21 years",
+        "v": 0.1
+       },
+       {
+        "t": "2.3",
+        "title": "hit rate 76% over 21 years",
+        "v": 2.32
+       },
+       {
+        "t": "0.3",
+        "title": "hit rate 62% over 21 years",
+        "v": 0.3
+       },
+       {
+        "t": "-0.5",
+        "title": "hit rate 55% over 20 years",
+        "v": -0.5
+       },
+       {
+        "t": "1.0",
+        "title": "hit rate 60% over 20 years",
+        "v": 0.99
+       },
+       {
+        "t": "2.1",
+        "title": "hit rate 75% over 20 years",
+        "v": 2.09
+       },
+       {
+        "t": "0.6",
+        "title": "hit rate 65% over 20 years",
+        "v": 0.59
+       }
+      ],
+      "name": "S&P 500",
+      "years": 21
+     },
+     {
+      "cells": [
+       {
+        "t": "1.5",
+        "title": "hit rate 62% over 21 years",
+        "v": 1.53
+       },
+       {
+        "t": "2.5",
+        "title": "hit rate 76% over 21 years",
+        "v": 2.46
+       },
+       {
+        "t": "1.1",
+        "title": "hit rate 62% over 21 years",
+        "v": 1.15
+       },
+       {
+        "t": "2.7",
+        "title": "hit rate 52% over 21 years",
+        "v": 2.69
+       },
+       {
+        "t": "4.0",
+        "title": "hit rate 76% over 21 years",
+        "v": 4.0
+       },
+       {
+        "t": "1.1",
+        "title": "hit rate 57% over 21 years",
+        "v": 1.07
+       },
+       {
+        "t": "1.9",
+        "title": "hit rate 62% over 21 years",
+        "v": 1.86
+       },
+       {
+        "t": "0.1",
+        "title": "hit rate 62% over 21 years",
+        "v": 0.05
+       },
+       {
+        "t": "0.1",
+        "title": "hit rate 55% over 20 years",
+        "v": 0.1
+       },
+       {
+        "t": "0.7",
+        "title": "hit rate 55% over 20 years",
+        "v": 0.69
+       },
+       {
+        "t": "3.5",
+        "title": "hit rate 75% over 20 years",
+        "v": 3.53
+       },
+       {
+        "t": "1.6",
+        "title": "hit rate 65% over 20 years",
+        "v": 1.63
+       }
+      ],
+      "name": "Semiconductors",
+      "years": 21
+     },
+     {
+      "cells": [
+       {
+        "t": "3.8",
+        "title": "hit rate 71% over 21 years",
+        "v": 3.81
+       },
+       {
+        "t": "1.3",
+        "title": "hit rate 52% over 21 years",
+        "v": 1.34
+       },
+       {
+        "t": "0.3",
+        "title": "hit rate 48% over 21 years",
+        "v": 0.31
+       },
+       {
+        "t": "1.6",
+        "title": "hit rate 57% over 21 years",
+        "v": 1.62
+       },
+       {
+        "t": "-0.2",
+        "title": "hit rate 43% over 21 years",
+        "v": -0.19
+       },
+       {
+        "t": "-1.0",
+        "title": "hit rate 43% over 21 years",
+        "v": -0.99
+       },
+       {
+        "t": "1.4",
+        "title": "hit rate 67% over 21 years",
+        "v": 1.4
+       },
+       {
+        "t": "2.1",
+        "title": "hit rate 67% over 21 years",
+        "v": 2.1
+       },
+       {
+        "t": "-0.1",
+        "title": "hit rate 40% over 20 years",
+        "v": -0.07
+       },
+       {
+        "t": "0.7",
+        "title": "hit rate 60% over 20 years",
+        "v": 0.68
+       },
+       {
+        "t": "1.1",
+        "title": "hit rate 55% over 20 years",
+        "v": 1.05
+       },
+       {
+        "t": "0.9",
+        "title": "hit rate 60% over 20 years",
+        "v": 0.91
+       }
+      ],
+      "name": "Gold",
+      "years": 21
+     },
+     {
+      "cells": [
+       {
+        "t": "3.1",
+        "title": "hit rate 60% over 20 years",
+        "v": 3.07
+       },
+       {
+        "t": "1.8",
+        "title": "hit rate 45% over 20 years",
+        "v": 1.79
+       },
+       {
+        "t": "0.6",
+        "title": "hit rate 60% over 20 years",
+        "v": 0.57
+       },
+       {
+        "t": "2.7",
+        "title": "hit rate 55% over 20 years",
+        "v": 2.69
+       },
+       {
+        "t": "1.1",
+        "title": "hit rate 50% over 20 years",
+        "v": 1.07
+       },
+       {
+        "t": "-1.1",
+        "title": "hit rate 38% over 21 years",
+        "v": -1.07
+       },
+       {
+        "t": "1.0",
+        "title": "hit rate 57% over 21 years",
+        "v": 0.99
+       },
+       {
+        "t": "2.8",
+        "title": "hit rate 57% over 21 years",
+        "v": 2.82
+       },
+       {
+        "t": "-1.5",
+        "title": "hit rate 40% over 20 years",
+        "v": -1.53
+       },
+       {
+        "t": "-1.4",
+        "title": "hit rate 60% over 20 years",
+        "v": -1.38
+       },
+       {
+        "t": "2.5",
+        "title": "hit rate 55% over 20 years",
+        "v": 2.46
+       },
+       {
+        "t": "1.3",
+        "title": "hit rate 70% over 20 years",
+        "v": 1.34
+       }
+      ],
+      "name": "Gold miners",
+      "years": 21
+     },
+     {
+      "cells": [
+       {
+        "t": "4.7",
+        "title": "hit rate 71% over 21 years",
+        "v": 4.68
+       },
+       {
+        "t": "2.4",
+        "title": "hit rate 52% over 21 years",
+        "v": 2.37
+       },
+       {
+        "t": "0.0",
+        "title": "hit rate 43% over 21 years",
+        "v": 0.04
+       },
+       {
+        "t": "1.6",
+        "title": "hit rate 48% over 21 years",
+        "v": 1.55
+       },
+       {
+        "t": "0.4",
+        "title": "hit rate 48% over 21 years",
+        "v": 0.39
+       },
+       {
+        "t": "-2.9",
+        "title": "hit rate 33% over 21 years",
+        "v": -2.87
+       },
+       {
+        "t": "3.1",
+        "title": "hit rate 62% over 21 years",
+        "v": 3.14
+       },
+       {
+        "t": "2.6",
+        "title": "hit rate 52% over 21 years",
+        "v": 2.6
+       },
+       {
+        "t": "-1.7",
+        "title": "hit rate 45% over 20 years",
+        "v": -1.7
+       },
+       {
+        "t": "1.5",
+        "title": "hit rate 70% over 20 years",
+        "v": 1.49
+       },
+       {
+        "t": "1.5",
+        "title": "hit rate 40% over 20 years",
+        "v": 1.51
+       },
+       {
+        "t": "2.0",
+        "title": "hit rate 55% over 20 years",
+        "v": 1.97
+       }
+      ],
+      "name": "Silver",
+      "years": 21
+     },
+     {
+      "cells": [
+       {
+        "t": "1.3",
+        "title": "hit rate 48% over 21 years",
+        "v": 1.26
+       },
+       {
+        "t": "2.8",
+        "title": "hit rate 71% over 21 years",
+        "v": 2.78
+       },
+       {
+        "t": "2.9",
+        "title": "hit rate 62% over 21 years",
+        "v": 2.87
+       },
+       {
+        "t": "3.4",
+        "title": "hit rate 67% over 21 years",
+        "v": 3.39
+       },
+       {
+        "t": "2.8",
+        "title": "hit rate 43% over 21 years",
+        "v": 2.78
+       },
+       {
+        "t": "2.5",
+        "title": "hit rate 67% over 21 years",
+        "v": 2.51
+       },
+       {
+        "t": "0.6",
+        "title": "hit rate 62% over 21 years",
+        "v": 0.6
+       },
+       {
+        "t": "-2.1",
+        "title": "hit rate 38% over 21 years",
+        "v": -2.14
+       },
+       {
+        "t": "-1.1",
+        "title": "hit rate 40% over 20 years",
+        "v": -1.13
+       },
+       {
+        "t": "-1.3",
+        "title": "hit rate 50% over 20 years",
+        "v": -1.3
+       },
+       {
+        "t": "-2.9",
+        "title": "hit rate 45% over 20 years",
+        "v": -2.92
+       },
+       {
+        "t": "0.4",
+        "title": "hit rate 55% over 20 years",
+        "v": 0.37
+       }
+      ],
+      "name": "WTI crude",
+      "years": 21
+     },
+     {
+      "cells": [
+       {
+        "t": "-3.9",
+        "title": "hit rate 38% over 21 years",
+        "v": -3.94
+       },
+       {
+        "t": "-5.1",
+        "title": "hit rate 33% over 21 years",
+        "v": -5.14
+       },
+       {
+        "t": "0.9",
+        "title": "hit rate 52% over 21 years",
+        "v": 0.87
+       },
+       {
+        "t": "4.6",
+        "title": "hit rate 76% over 21 years",
+        "v": 4.63
+       },
+       {
+        "t": "3.6",
+        "title": "hit rate 57% over 21 years",
+        "v": 3.56
+       },
+       {
+        "t": "1.6",
+        "title": "hit rate 43% over 21 years",
+        "v": 1.59
+       },
+       {
+        "t": "-1.2",
+        "title": "hit rate 29% over 21 years",
+        "v": -1.25
+       },
+       {
+        "t": "-0.1",
+        "title": "hit rate 57% over 21 years",
+        "v": -0.08
+       },
+       {
+        "t": "7.1",
+        "title": "hit rate 60% over 20 years",
+        "v": 7.12
+       },
+       {
+        "t": "7.0",
+        "title": "hit rate 65% over 20 years",
+        "v": 7.03
+       },
+       {
+        "t": "2.1",
+        "title": "hit rate 50% over 20 years",
+        "v": 2.11
+       },
+       {
+        "t": "-9.1",
+        "title": "hit rate 35% over 20 years",
+        "v": -9.13
+       }
+      ],
+      "name": "Natural gas",
+      "years": 21
+     },
+     {
+      "cells": [
+       {
+        "t": "0.8",
+        "title": "hit rate 62% over 21 years",
+        "v": 0.75
+       },
+       {
+        "t": "3.1",
+        "title": "hit rate 71% over 21 years",
+        "v": 3.1
+       },
+       {
+        "t": "2.0",
+        "title": "hit rate 52% over 21 years",
+        "v": 2.04
+       },
+       {
+        "t": "3.2",
+        "title": "hit rate 57% over 21 years",
+        "v": 3.2
+       },
+       {
+        "t": "-0.9",
+        "title": "hit rate 52% over 21 years",
+        "v": -0.87
+       },
+       {
+        "t": "-0.1",
+        "title": "hit rate 57% over 21 years",
+        "v": -0.12
+       },
+       {
+        "t": "1.4",
+        "title": "hit rate 62% over 21 years",
+        "v": 1.42
+       },
+       {
+        "t": "-1.1",
+        "title": "hit rate 38% over 21 years",
+        "v": -1.07
+       },
+       {
+        "t": "-0.2",
+        "title": "hit rate 55% over 20 years",
+        "v": -0.23
+       },
+       {
+        "t": "-1.0",
+        "title": "hit rate 45% over 20 years",
+        "v": -0.96
+       },
+       {
+        "t": "0.4",
+        "title": "hit rate 50% over 20 years",
+        "v": 0.39
+       },
+       {
+        "t": "1.0",
+        "title": "hit rate 60% over 20 years",
+        "v": 1.01
+       }
+      ],
+      "name": "Copper",
+      "years": 21
+     },
+     {
+      "cells": [
+       {
+        "t": "-0.5",
+        "title": "hit rate 48% over 21 years",
+        "v": -0.47
+       },
+       {
+        "t": "0.5",
+        "title": "hit rate 57% over 21 years",
+        "v": 0.5
+       },
+       {
+        "t": "0.7",
+        "title": "hit rate 57% over 21 years",
+        "v": 0.68
+       },
+       {
+        "t": "-0.7",
+        "title": "hit rate 43% over 21 years",
+        "v": -0.7
+       },
+       {
+        "t": "-0.9",
+        "title": "hit rate 38% over 21 years",
+        "v": -0.86
+       },
+       {
+        "t": "-0.0",
+        "title": "hit rate 48% over 21 years",
+        "v": -0.04
+       },
+       {
+        "t": "-0.3",
+        "title": "hit rate 52% over 21 years",
+        "v": -0.27
+       },
+       {
+        "t": "0.1",
+        "title": "hit rate 48% over 21 years",
+        "v": 0.06
+       },
+       {
+        "t": "0.2",
+        "title": "hit rate 45% over 20 years",
+        "v": 0.19
+       },
+       {
+        "t": "-0.2",
+        "title": "hit rate 50% over 20 years",
+        "v": -0.2
+       },
+       {
+        "t": "-0.0",
+        "title": "hit rate 45% over 20 years",
+        "v": -0.04
+       },
+       {
+        "t": "-0.0",
+        "title": "hit rate 40% over 20 years",
+        "v": -0.01
+       }
+      ],
+      "name": "Staples vs S&P",
+      "years": 21
+     },
+     {
+      "cells": [
+       {
+        "t": "1.9",
+        "title": "hit rate 70% over 20 years",
+        "v": 1.91
+       },
+       {
+        "t": "-0.1",
+        "title": "hit rate 55% over 20 years",
+        "v": -0.09
+       },
+       {
+        "t": "0.5",
+        "title": "hit rate 71% over 21 years",
+        "v": 0.51
+       },
+       {
+        "t": "3.2",
+        "title": "hit rate 62% over 21 years",
+        "v": 3.19
+       },
+       {
+        "t": "-1.3",
+        "title": "hit rate 43% over 21 years",
+        "v": -1.26
+       },
+       {
+        "t": "-1.2",
+        "title": "hit rate 48% over 21 years",
+        "v": -1.24
+       },
+       {
+        "t": "2.6",
+        "title": "hit rate 62% over 21 years",
+        "v": 2.59
+       },
+       {
+        "t": "1.2",
+        "title": "hit rate 57% over 21 years",
+        "v": 1.21
+       },
+       {
+        "t": "-1.4",
+        "title": "hit rate 45% over 20 years",
+        "v": -1.43
+       },
+       {
+        "t": "-0.7",
+        "title": "hit rate 50% over 20 years",
+        "v": -0.73
+       },
+       {
+        "t": "3.3",
+        "title": "hit rate 90% over 20 years",
+        "v": 3.32
+       },
+       {
+        "t": "1.1",
+        "title": "hit rate 70% over 20 years",
+        "v": 1.11
+       }
+      ],
+      "name": "Homebuilders",
+      "years": 21
+     },
+     {
+      "cells": [
+       {
+        "t": "0.2",
+        "title": "hit rate 48% over 21 years",
+        "v": 0.18
+       },
+       {
+        "t": "0.4",
+        "title": "hit rate 67% over 21 years",
+        "v": 0.44
+       },
+       {
+        "t": "-0.2",
+        "title": "hit rate 52% over 21 years",
+        "v": -0.16
+       },
+       {
+        "t": "-0.9",
+        "title": "hit rate 29% over 21 years",
+        "v": -0.9
+       },
+       {
+        "t": "0.8",
+        "title": "hit rate 62% over 21 years",
+        "v": 0.76
+       },
+       {
+        "t": "-0.2",
+        "title": "hit rate 33% over 21 years",
+        "v": -0.18
+       },
+       {
+        "t": "-0.5",
+        "title": "hit rate 38% over 21 years",
+        "v": -0.48
+       },
+       {
+        "t": "0.3",
+        "title": "hit rate 57% over 21 years",
+        "v": 0.3
+       },
+       {
+        "t": "0.4",
+        "title": "hit rate 60% over 20 years",
+        "v": 0.38
+       },
+       {
+        "t": "0.6",
+        "title": "hit rate 50% over 20 years",
+        "v": 0.58
+       },
+       {
+        "t": "0.3",
+        "title": "hit rate 60% over 20 years",
+        "v": 0.27
+       },
+       {
+        "t": "-0.5",
+        "title": "hit rate 35% over 20 years",
+        "v": -0.5
+       }
+      ],
+      "name": "Dollar index",
+      "years": 21
+     },
+     {
+      "cells": [
+       {
+        "t": "-1.2",
+        "title": "hit rate 50% over 12 years",
+        "v": -1.15
+       },
+       {
+        "t": "10.2",
+        "title": "hit rate 75% over 12 years",
+        "v": 10.19
+       },
+       {
+        "t": "0.5",
+        "title": "hit rate 50% over 12 years",
+        "v": 0.48
+       },
+       {
+        "t": "10.2",
+        "title": "hit rate 67% over 12 years",
+        "v": 10.16
+       },
+       {
+        "t": "8.1",
+        "title": "hit rate 50% over 12 years",
+        "v": 8.08
+       },
+       {
+        "t": "0.0",
+        "title": "hit rate 50% over 12 years",
+        "v": 0.05
+       },
+       {
+        "t": "8.9",
+        "title": "hit rate 75% over 12 years",
+        "v": 8.88
+       },
+       {
+        "t": "2.0",
+        "title": "hit rate 33% over 12 years",
+        "v": 1.97
+       },
+       {
+        "t": "-1.8",
+        "title": "hit rate 45% over 11 years",
+        "v": -1.82
+       },
+       {
+        "t": "16.6",
+        "title": "hit rate 75% over 12 years",
+        "v": 16.63
+       },
+       {
+        "t": "7.5",
+        "title": "hit rate 58% over 12 years",
+        "v": 7.51
+       },
+       {
+        "t": "7.1",
+        "title": "hit rate 42% over 12 years",
+        "v": 7.14
+       }
+      ],
+      "name": "Bitcoin",
+      "years": 12
+     }
+    ]
+   }
+  }
+ }
+}
