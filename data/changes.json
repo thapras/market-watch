@@ -1,0 +1,105 @@
+{
+ "asOf": "2026-08-30T22:15+07:00",
+ "asOfLabel": "30 Aug 2026, 22:15 BKK",
+ "changes": [
+  {
+   "d": "30 Aug",
+   "href": "#regime",
+   "key": "init",
+   "sec": "regime",
+   "t": "2026-08-30T22:15+07:00",
+   "text": "State log started: alerts fire from the next run on, once a state has held for three closes.",
+   "tier": "fyi"
+  },
+  {
+   "d": "30 Aug",
+   "href": "#rotation",
+   "key": "near.btc",
+   "sec": "rotation",
+   "t": "2026-08-30T22:15+07:00",
+   "text": "Near a flip: Bitcoin sits at 1.5 of 5; Macro would move it to Early.",
+   "tier": "fyi"
+  },
+  {
+   "d": "30 Aug",
+   "href": "#rotation",
+   "key": "near.cash",
+   "sec": "rotation",
+   "t": "2026-08-30T22:15+07:00",
+   "text": "Near a flip: Cash leaving the sidelines sits at 0.5 of 5; Breadth would move it to Watch.",
+   "tier": "fyi"
+  },
+  {
+   "d": "30 Aug",
+   "href": "#ranking",
+   "key": "nearrank.gold",
+   "sec": "regime",
+   "t": "2026-08-30T22:15+07:00",
+   "text": "Near a flip: Gold conditions score -0.3 is inside the 0.5 band; one more step down changes the read from Neutral.",
+   "tier": "fyi"
+  },
+  {
+   "d": "30 Aug",
+   "href": "#ranking",
+   "key": "nearrank.reits",
+   "sec": "regime",
+   "t": "2026-08-30T22:15+07:00",
+   "text": "Near a flip: Real estate (REITs) conditions score +0.3 is inside the 0.5 band; one more step up changes the read from Neutral.",
+   "tier": "fyi"
+  },
+  {
+   "d": "30 Aug",
+   "href": "#ranking",
+   "key": "nearrank.energy",
+   "sec": "regime",
+   "t": "2026-08-30T22:15+07:00",
+   "text": "Near a flip: Energy conditions score +0.3 is inside the 0.5 band; one more step up changes the read from Price ahead, up.",
+   "tier": "fyi"
+  },
+  {
+   "d": "30 Aug",
+   "href": "#calendar",
+   "key": "cal.china_pmi:2026-08-30",
+   "sec": "calendar",
+   "t": "2026-08-30T22:15+07:00",
+   "text": "Coming Sun 30 Aug, 21:30 ET: China official PMIs (consensus manufacturing 49.5; non-manufacturing 49.5); options price a 0.4% S&P move.",
+   "tier": "fyi"
+  },
+  {
+   "d": "30 Aug",
+   "href": "#calendar",
+   "key": "cal.china_pmi_private:2026-08-31",
+   "sec": "calendar",
+   "t": "2026-08-30T22:15+07:00",
+   "text": "Coming Mon 31 Aug, 21:45 ET: China RatingDog manufacturing PMI (formerly Caixin) (consensus manufacturing 51.5); options price a 0.5% S&P move.",
+   "tier": "fyi"
+  },
+  {
+   "d": "30 Aug",
+   "href": "#calendar",
+   "key": "cal.ez_cpi:2026-09-01",
+   "sec": "calendar",
+   "t": "2026-08-30T22:15+07:00",
+   "text": "Coming Tue 1 Sep, 05:00 ET: Euro area CPI flash (consensus headline y/y 3.3%; core y/y 2.5%); options price a 0.5% S&P move.",
+   "tier": "fyi"
+  },
+  {
+   "d": "30 Aug",
+   "href": "#calendar",
+   "key": "cal.ism_mfg:2026-09-01",
+   "sec": "calendar",
+   "t": "2026-08-30T22:15+07:00",
+   "text": "Coming Tue 1 Sep, 10:00 ET: ISM manufacturing (consensus headline 55.2; prices paid 71.2); options price a 0.5% S&P move.",
+   "tier": "fyi"
+  },
+  {
+   "d": "30 Aug",
+   "href": "#calendar",
+   "key": "cal.payrolls:2026-09-04",
+   "sec": "calendar",
+   "t": "2026-08-30T22:15+07:00",
+   "text": "Coming Fri 4 Sep, 08:30 ET: Nonfarm payrolls (consensus payrolls 58k; unemployment 4.1%; wages m/m 0.3%); options price a 0.8% S&P move.",
+   "tier": "note"
+  }
+ ]
+}

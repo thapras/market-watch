@@ -1,0 +1,2862 @@
+{
+ "asOf": "2026-08-30T22:15+07:00",
+ "date": "2026-08-28",
+ "detector": {
+  "btc": {
+   "count": 2,
+   "entry": 1.5,
+   "lost": 0.0,
+   "lostn": [],
+   "name": "Bitcoin",
+   "off": [
+    "Macro"
+   ],
+   "on": [
+    "Relative strength",
+    "Seasonal"
+   ],
+   "raw": "watch",
+   "raw_count": 3,
+   "raw_since": "2026-08-19",
+   "since": "2026-08-19",
+   "state": "watch"
+  },
+  "cash": {
+   "count": 1,
+   "entry": 0.5,
+   "lost": 0.0,
+   "lostn": [],
+   "name": "Cash leaving the sidelines",
+   "off": [
+    "Breadth",
+    "Macro"
+   ],
+   "on": [
+    "Seasonal"
+   ],
+   "raw": "none",
+   "raw_count": 3,
+   "raw_since": "2026-08-28",
+   "since": "2026-08-28",
+   "state": "none"
+  },
+  "cibr": {
+   "count": 1,
+   "entry": 1.0,
+   "lost": 0.0,
+   "lostn": [],
+   "name": "Cybersecurity",
+   "off": [
+    "Seasonal"
+   ],
+   "on": [
+    "Relative strength"
+   ],
+   "raw": "watch",
+   "raw_count": 3,
+   "raw_since": "2026-08-26",
+   "since": "2026-08-26",
+   "state": "watch"
+  },
+  "gdx": {
+   "count": 2,
+   "entry": 2.0,
+   "lost": 0.0,
+   "lostn": [],
+   "name": "Gold miners",
+   "off": [
+    "Seasonal"
+   ],
+   "on": [
+    "Relative strength",
+    "Macro"
+   ],
+   "raw": "early",
+   "raw_count": 3,
+   "raw_since": "2026-08-05",
+   "since": "2026-08-05",
+   "state": "early"
+  },
+  "ita": {
+   "count": 1,
+   "entry": 0.5,
+   "lost": 1.0,
+   "lostn": [
+    "Relative strength"
+   ],
+   "name": "Defense and aerospace",
+   "off": [],
+   "on": [
+    "Seasonal"
+   ],
+   "raw": "watch_exit",
+   "raw_count": 3,
+   "raw_since": "2026-08-19",
+   "since": "2026-08-19",
+   "state": "watch_exit"
+  },
+  "kbe": {
+   "count": 0,
+   "entry": 0.0,
+   "lost": 2.5,
+   "lostn": [
+    "Relative strength",
+    "Seasonal",
+    "Macro"
+   ],
+   "name": "Banks",
+   "off": [],
+   "on": [],
+   "raw": "watch_exit",
+   "raw_count": 3,
+   "raw_since": "2026-08-19",
+   "since": "2026-08-19",
+   "state": "watch_exit"
+  },
+  "kre": {
+   "count": 0,
+   "entry": 0.0,
+   "lost": 2.0,
+   "lostn": [
+    "Relative strength",
+    "Macro"
+   ],
+   "name": "Regional banks",
+   "off": [
+    "Seasonal"
+   ],
+   "on": [],
+   "raw": "watch_exit",
+   "raw_count": 3,
+   "raw_since": "2026-08-19",
+   "since": "2026-08-19",
+   "state": "watch_exit"
+  },
+  "mags": {
+   "count": 1,
+   "entry": 1.0,
+   "lost": 0.0,
+   "lostn": [],
+   "name": "Mega-cap tech and AI",
+   "off": [
+    "Macro"
+   ],
+   "on": [
+    "Relative strength"
+   ],
+   "raw": "watch",
+   "raw_count": 3,
+   "raw_since": "2026-08-24",
+   "since": "2026-08-24",
+   "state": "watch"
+  },
+  "sil": {
+   "count": 2,
+   "entry": 2.0,
+   "lost": 0.0,
+   "lostn": [],
+   "name": "Silver miners",
+   "off": [
+    "Seasonal"
+   ],
+   "on": [
+    "Relative strength",
+    "Macro"
+   ],
+   "raw": "early",
+   "raw_count": 3,
+   "raw_since": "2026-08-05",
+   "since": "2026-08-05",
+   "state": "early"
+  },
+  "smh": {
+   "count": 0,
+   "entry": 0.0,
+   "lost": 1.0,
+   "lostn": [
+    "Relative strength"
+   ],
+   "name": "Semiconductors",
+   "off": [
+    "Seasonal",
+    "Macro"
+   ],
+   "on": [],
+   "raw": "watch_exit",
+   "raw_count": 3,
+   "raw_since": "2026-07-15",
+   "since": "2026-07-15",
+   "state": "watch_exit"
+  },
+  "staples": {
+   "count": 0,
+   "entry": 0.0,
+   "lost": 1.0,
+   "lostn": [
+    "Relative strength"
+   ],
+   "name": "Consumer staples",
+   "off": [
+    "Breadth",
+    "Seasonal",
+    "Macro"
+   ],
+   "on": [],
+   "raw": "watch_exit",
+   "raw_count": 3,
+   "raw_since": "2026-08-27",
+   "since": "2026-08-27",
+   "state": "watch_exit"
+  },
+  "ura": {
+   "count": 1,
+   "entry": 1.0,
+   "lost": 0.5,
+   "lostn": [
+    "Seasonal"
+   ],
+   "name": "Uranium",
+   "off": [],
+   "on": [
+    "Relative strength"
+   ],
+   "raw": "watch",
+   "raw_count": 3,
+   "raw_since": "2026-08-19",
+   "since": "2026-08-19",
+   "state": "watch"
+  },
+  "xbi": {
+   "count": 2,
+   "entry": 2.0,
+   "lost": 0.0,
+   "lostn": [],
+   "name": "Biotech",
+   "off": [
+    "Seasonal"
+   ],
+   "on": [
+    "Relative strength",
+    "Macro"
+   ],
+   "raw": "early",
+   "raw_count": 3,
+   "raw_since": "2026-08-04",
+   "since": "2026-08-04",
+   "state": "early"
+  },
+  "xhb": {
+   "count": 0,
+   "entry": 0.0,
+   "lost": 2.5,
+   "lostn": [
+    "Relative strength",
+    "Breadth",
+    "Seasonal"
+   ],
+   "name": "Homebuilders",
+   "off": [
+    "Macro"
+   ],
+   "on": [],
+   "raw": "watch_exit",
+   "raw_count": 3,
+   "raw_since": "2026-07-29",
+   "since": "2026-07-29",
+   "state": "watch_exit"
+  },
+  "xlu": {
+   "count": 0,
+   "entry": 0.0,
+   "lost": 2.0,
+   "lostn": [
+    "Relative strength",
+    "Breadth"
+   ],
+   "name": "Utilities",
+   "off": [
+    "Seasonal",
+    "Macro"
+   ],
+   "on": [],
+   "raw": "watch_exit",
+   "raw_count": 3,
+   "raw_since": "2026-07-30",
+   "since": "2026-07-30",
+   "state": "watch_exit"
+  },
+  "xop": {
+   "count": 2,
+   "entry": 2.0,
+   "lost": 0.0,
+   "lostn": [],
+   "name": "Oil and gas producers",
+   "off": [
+    "Breadth",
+    "Seasonal"
+   ],
+   "on": [
+    "Relative strength",
+    "Macro"
+   ],
+   "raw": "early",
+   "raw_count": 3,
+   "raw_since": "2026-08-10",
+   "since": "2026-08-10",
+   "state": "early"
+  }
+ },
+ "history": {
+  "aaii": {
+   "2026-08-26": -11.5
+  },
+  "fomc": {
+   "2011": [
+    {
+     "end": "2011-01-26",
+     "scheduled": true,
+     "sep": false,
+     "start": "2011-01-25"
+    },
+    {
+     "end": "2011-03-15",
+     "scheduled": true,
+     "sep": false,
+     "start": "2011-03-15"
+    },
+    {
+     "end": "2011-04-27",
+     "scheduled": true,
+     "sep": false,
+     "start": "2011-04-26"
+    },
+    {
+     "end": "2011-06-22",
+     "scheduled": true,
+     "sep": false,
+     "start": "2011-06-21"
+    },
+    {
+     "end": "2011-08-09",
+     "scheduled": true,
+     "sep": false,
+     "start": "2011-08-09"
+    },
+    {
+     "end": "2011-09-21",
+     "scheduled": true,
+     "sep": false,
+     "start": "2011-09-20"
+    },
+    {
+     "end": "2011-11-02",
+     "scheduled": true,
+     "sep": false,
+     "start": "2011-11-01"
+    },
+    {
+     "end": "2011-12-13",
+     "scheduled": true,
+     "sep": false,
+     "start": "2011-12-13"
+    }
+   ],
+   "2012": [
+    {
+     "end": "2012-01-25",
+     "scheduled": true,
+     "sep": false,
+     "start": "2012-01-24"
+    },
+    {
+     "end": "2012-03-13",
+     "scheduled": true,
+     "sep": false,
+     "start": "2012-03-13"
+    },
+    {
+     "end": "2012-04-25",
+     "scheduled": true,
+     "sep": false,
+     "start": "2012-04-24"
+    },
+    {
+     "end": "2012-06-20",
+     "scheduled": true,
+     "sep": false,
+     "start": "2012-06-19"
+    },
+    {
+     "end": "2012-09-13",
+     "scheduled": true,
+     "sep": false,
+     "start": "2012-09-12"
+    },
+    {
+     "end": "2012-10-24",
+     "scheduled": true,
+     "sep": false,
+     "start": "2012-10-23"
+    },
+    {
+     "end": "2012-12-12",
+     "scheduled": true,
+     "sep": false,
+     "start": "2012-12-11"
+    }
+   ],
+   "2013": [
+    {
+     "end": "2013-01-30",
+     "scheduled": true,
+     "sep": false,
+     "start": "2013-01-29"
+    },
+    {
+     "end": "2013-03-20",
+     "scheduled": true,
+     "sep": false,
+     "start": "2013-03-19"
+    },
+    {
+     "end": "2013-05-01",
+     "scheduled": true,
+     "sep": false,
+     "start": "2013-04-30"
+    },
+    {
+     "end": "2013-06-19",
+     "scheduled": true,
+     "sep": false,
+     "start": "2013-06-18"
+    },
+    {
+     "end": "2013-07-31",
+     "scheduled": true,
+     "sep": false,
+     "start": "2013-07-30"
+    },
+    {
+     "end": "2013-09-18",
+     "scheduled": true,
+     "sep": false,
+     "start": "2013-09-17"
+    },
+    {
+     "end": "2013-10-16",
+     "scheduled": false,
+     "sep": false,
+     "start": "2013-10-16"
+    },
+    {
+     "end": "2013-10-30",
+     "scheduled": true,
+     "sep": false,
+     "start": "2013-10-29"
+    },
+    {
+     "end": "2013-12-18",
+     "scheduled": true,
+     "sep": false,
+     "start": "2013-12-17"
+    }
+   ],
+   "2014": [
+    {
+     "end": "2014-01-29",
+     "scheduled": true,
+     "sep": false,
+     "start": "2014-01-28"
+    },
+    {
+     "end": "2014-03-04",
+     "scheduled": false,
+     "sep": false,
+     "start": "2014-03-04"
+    },
+    {
+     "end": "2014-03-19",
+     "scheduled": true,
+     "sep": false,
+     "start": "2014-03-18"
+    },
+    {
+     "end": "2014-04-30",
+     "scheduled": true,
+     "sep": false,
+     "start": "2014-04-29"
+    },
+    {
+     "end": "2014-06-18",
+     "scheduled": true,
+     "sep": false,
+     "start": "2014-06-17"
+    },
+    {
+     "end": "2014-07-30",
+     "scheduled": true,
+     "sep": false,
+     "start": "2014-07-29"
+    },
+    {
+     "end": "2014-09-17",
+     "scheduled": true,
+     "sep": false,
+     "start": "2014-09-16"
+    },
+    {
+     "end": "2014-10-29",
+     "scheduled": true,
+     "sep": false,
+     "start": "2014-10-28"
+    },
+    {
+     "end": "2014-12-17",
+     "scheduled": true,
+     "sep": false,
+     "start": "2014-12-16"
+    }
+   ],
+   "2015": [
+    {
+     "end": "2015-01-28",
+     "scheduled": true,
+     "sep": false,
+     "start": "2015-01-27"
+    },
+    {
+     "end": "2015-03-18",
+     "scheduled": true,
+     "sep": false,
+     "start": "2015-03-17"
+    },
+    {
+     "end": "2015-04-29",
+     "scheduled": true,
+     "sep": false,
+     "start": "2015-04-28"
+    },
+    {
+     "end": "2015-06-17",
+     "scheduled": true,
+     "sep": false,
+     "start": "2015-06-16"
+    },
+    {
+     "end": "2015-07-29",
+     "scheduled": true,
+     "sep": false,
+     "start": "2015-07-28"
+    },
+    {
+     "end": "2015-09-17",
+     "scheduled": true,
+     "sep": false,
+     "start": "2015-09-16"
+    },
+    {
+     "end": "2015-10-28",
+     "scheduled": true,
+     "sep": false,
+     "start": "2015-10-27"
+    },
+    {
+     "end": "2015-12-16",
+     "scheduled": true,
+     "sep": false,
+     "start": "2015-12-15"
+    }
+   ],
+   "2016": [
+    {
+     "end": "2016-01-27",
+     "scheduled": true,
+     "sep": false,
+     "start": "2016-01-26"
+    },
+    {
+     "end": "2016-03-16",
+     "scheduled": true,
+     "sep": false,
+     "start": "2016-03-15"
+    },
+    {
+     "end": "2016-04-27",
+     "scheduled": true,
+     "sep": false,
+     "start": "2016-04-26"
+    },
+    {
+     "end": "2016-06-15",
+     "scheduled": true,
+     "sep": false,
+     "start": "2016-06-14"
+    },
+    {
+     "end": "2016-07-27",
+     "scheduled": true,
+     "sep": false,
+     "start": "2016-07-26"
+    },
+    {
+     "end": "2016-09-21",
+     "scheduled": true,
+     "sep": false,
+     "start": "2016-09-20"
+    },
+    {
+     "end": "2016-11-02",
+     "scheduled": true,
+     "sep": false,
+     "start": "2016-11-01"
+    },
+    {
+     "end": "2016-12-14",
+     "scheduled": true,
+     "sep": false,
+     "start": "2016-12-13"
+    }
+   ],
+   "2017": [
+    {
+     "end": "2017-02-01",
+     "scheduled": true,
+     "sep": false,
+     "start": "2017-01-31"
+    },
+    {
+     "end": "2017-03-15",
+     "scheduled": true,
+     "sep": false,
+     "start": "2017-03-14"
+    },
+    {
+     "end": "2017-05-03",
+     "scheduled": true,
+     "sep": false,
+     "start": "2017-05-02"
+    },
+    {
+     "end": "2017-06-14",
+     "scheduled": true,
+     "sep": false,
+     "start": "2017-06-13"
+    },
+    {
+     "end": "2017-07-26",
+     "scheduled": true,
+     "sep": false,
+     "start": "2017-07-25"
+    },
+    {
+     "end": "2017-09-20",
+     "scheduled": true,
+     "sep": false,
+     "start": "2017-09-19"
+    },
+    {
+     "end": "2017-11-01",
+     "scheduled": true,
+     "sep": false,
+     "start": "2017-10-31"
+    },
+    {
+     "end": "2017-12-13",
+     "scheduled": true,
+     "sep": false,
+     "start": "2017-12-12"
+    }
+   ],
+   "2018": [
+    {
+     "end": "2018-01-31",
+     "scheduled": true,
+     "sep": false,
+     "start": "2018-01-30"
+    },
+    {
+     "end": "2018-03-21",
+     "scheduled": true,
+     "sep": false,
+     "start": "2018-03-20"
+    },
+    {
+     "end": "2018-05-02",
+     "scheduled": true,
+     "sep": false,
+     "start": "2018-05-01"
+    },
+    {
+     "end": "2018-06-13",
+     "scheduled": true,
+     "sep": false,
+     "start": "2018-06-12"
+    },
+    {
+     "end": "2018-08-01",
+     "scheduled": true,
+     "sep": false,
+     "start": "2018-07-31"
+    },
+    {
+     "end": "2018-09-26",
+     "scheduled": true,
+     "sep": false,
+     "start": "2018-09-25"
+    },
+    {
+     "end": "2018-11-08",
+     "scheduled": true,
+     "sep": false,
+     "start": "2018-11-07"
+    },
+    {
+     "end": "2018-12-19",
+     "scheduled": true,
+     "sep": false,
+     "start": "2018-12-18"
+    }
+   ],
+   "2019": [
+    {
+     "end": "2019-01-30",
+     "scheduled": true,
+     "sep": false,
+     "start": "2019-01-29"
+    },
+    {
+     "end": "2019-03-20",
+     "scheduled": true,
+     "sep": false,
+     "start": "2019-03-19"
+    },
+    {
+     "end": "2019-05-01",
+     "scheduled": true,
+     "sep": false,
+     "start": "2019-04-30"
+    },
+    {
+     "end": "2019-06-19",
+     "scheduled": true,
+     "sep": false,
+     "start": "2019-06-18"
+    },
+    {
+     "end": "2019-07-31",
+     "scheduled": true,
+     "sep": false,
+     "start": "2019-07-30"
+    },
+    {
+     "end": "2019-09-18",
+     "scheduled": true,
+     "sep": false,
+     "start": "2019-09-17"
+    },
+    {
+     "end": "2019-10-04",
+     "scheduled": false,
+     "sep": false,
+     "start": "2019-10-04"
+    },
+    {
+     "end": "2019-10-30",
+     "scheduled": true,
+     "sep": false,
+     "start": "2019-10-29"
+    },
+    {
+     "end": "2019-12-11",
+     "scheduled": true,
+     "sep": false,
+     "start": "2019-12-10"
+    }
+   ],
+   "2020": [
+    {
+     "end": "2020-01-29",
+     "scheduled": true,
+     "sep": false,
+     "start": "2020-01-28"
+    },
+    {
+     "end": "2020-03-02",
+     "scheduled": false,
+     "sep": false,
+     "start": "2020-03-02"
+    },
+    {
+     "end": "2020-03-15",
+     "scheduled": false,
+     "sep": false,
+     "start": "2020-03-15"
+    },
+    {
+     "end": "2020-03-18",
+     "scheduled": true,
+     "sep": false,
+     "start": "2020-03-17"
+    },
+    {
+     "end": "2020-03-19",
+     "scheduled": true,
+     "sep": false,
+     "start": "2020-03-19"
+    },
+    {
+     "end": "2020-03-23",
+     "scheduled": true,
+     "sep": false,
+     "start": "2020-03-23"
+    },
+    {
+     "end": "2020-03-31",
+     "scheduled": true,
+     "sep": false,
+     "start": "2020-03-31"
+    },
+    {
+     "end": "2020-04-29",
+     "scheduled": true,
+     "sep": false,
+     "start": "2020-04-28"
+    },
+    {
+     "end": "2020-06-10",
+     "scheduled": true,
+     "sep": false,
+     "start": "2020-06-09"
+    },
+    {
+     "end": "2020-07-29",
+     "scheduled": true,
+     "sep": false,
+     "start": "2020-07-28"
+    },
+    {
+     "end": "2020-08-27",
+     "scheduled": true,
+     "sep": false,
+     "start": "2020-08-27"
+    },
+    {
+     "end": "2020-09-16",
+     "scheduled": true,
+     "sep": false,
+     "start": "2020-09-15"
+    },
+    {
+     "end": "2020-11-05",
+     "scheduled": true,
+     "sep": false,
+     "start": "2020-11-04"
+    },
+    {
+     "end": "2020-12-16",
+     "scheduled": true,
+     "sep": false,
+     "start": "2020-12-15"
+    }
+   ],
+   "2021": [
+    {
+     "end": "2021-01-27",
+     "scheduled": true,
+     "sep": false,
+     "start": "2021-01-26"
+    },
+    {
+     "end": "2021-03-17",
+     "scheduled": true,
+     "sep": true,
+     "start": "2021-03-16"
+    },
+    {
+     "end": "2021-04-28",
+     "scheduled": true,
+     "sep": false,
+     "start": "2021-04-27"
+    },
+    {
+     "end": "2021-06-16",
+     "scheduled": true,
+     "sep": true,
+     "start": "2021-06-15"
+    },
+    {
+     "end": "2021-07-28",
+     "scheduled": true,
+     "sep": false,
+     "start": "2021-07-27"
+    },
+    {
+     "end": "2021-09-22",
+     "scheduled": true,
+     "sep": true,
+     "start": "2021-09-21"
+    },
+    {
+     "end": "2021-11-03",
+     "scheduled": true,
+     "sep": false,
+     "start": "2021-11-02"
+    },
+    {
+     "end": "2021-12-15",
+     "scheduled": true,
+     "sep": true,
+     "start": "2021-12-14"
+    }
+   ],
+   "2022": [
+    {
+     "end": "2022-01-26",
+     "scheduled": true,
+     "sep": false,
+     "start": "2022-01-25"
+    },
+    {
+     "end": "2022-03-16",
+     "scheduled": true,
+     "sep": true,
+     "start": "2022-03-15"
+    },
+    {
+     "end": "2022-05-04",
+     "scheduled": true,
+     "sep": false,
+     "start": "2022-05-03"
+    },
+    {
+     "end": "2022-06-15",
+     "scheduled": true,
+     "sep": true,
+     "start": "2022-06-14"
+    },
+    {
+     "end": "2022-07-27",
+     "scheduled": true,
+     "sep": false,
+     "start": "2022-07-26"
+    },
+    {
+     "end": "2022-09-21",
+     "scheduled": true,
+     "sep": true,
+     "start": "2022-09-20"
+    },
+    {
+     "end": "2022-11-02",
+     "scheduled": true,
+     "sep": false,
+     "start": "2022-11-01"
+    },
+    {
+     "end": "2022-12-14",
+     "scheduled": true,
+     "sep": true,
+     "start": "2022-12-13"
+    }
+   ],
+   "2023": [
+    {
+     "end": "2023-02-01",
+     "scheduled": true,
+     "sep": false,
+     "start": "2023-01-31"
+    },
+    {
+     "end": "2023-03-22",
+     "scheduled": true,
+     "sep": true,
+     "start": "2023-03-21"
+    },
+    {
+     "end": "2023-05-03",
+     "scheduled": true,
+     "sep": false,
+     "start": "2023-05-02"
+    },
+    {
+     "end": "2023-06-14",
+     "scheduled": true,
+     "sep": true,
+     "start": "2023-06-13"
+    },
+    {
+     "end": "2023-07-26",
+     "scheduled": true,
+     "sep": false,
+     "start": "2023-07-25"
+    },
+    {
+     "end": "2023-09-20",
+     "scheduled": true,
+     "sep": true,
+     "start": "2023-09-19"
+    },
+    {
+     "end": "2023-11-01",
+     "scheduled": true,
+     "sep": false,
+     "start": "2023-10-31"
+    },
+    {
+     "end": "2023-12-13",
+     "scheduled": true,
+     "sep": true,
+     "start": "2023-12-12"
+    }
+   ],
+   "2024": [
+    {
+     "end": "2024-01-31",
+     "scheduled": true,
+     "sep": false,
+     "start": "2024-01-30"
+    },
+    {
+     "end": "2024-03-20",
+     "scheduled": true,
+     "sep": true,
+     "start": "2024-03-19"
+    },
+    {
+     "end": "2024-05-01",
+     "scheduled": true,
+     "sep": false,
+     "start": "2024-04-30"
+    },
+    {
+     "end": "2024-06-12",
+     "scheduled": true,
+     "sep": true,
+     "start": "2024-06-11"
+    },
+    {
+     "end": "2024-07-31",
+     "scheduled": true,
+     "sep": false,
+     "start": "2024-07-30"
+    },
+    {
+     "end": "2024-09-18",
+     "scheduled": true,
+     "sep": true,
+     "start": "2024-09-17"
+    },
+    {
+     "end": "2024-11-07",
+     "scheduled": true,
+     "sep": false,
+     "start": "2024-11-06"
+    },
+    {
+     "end": "2024-12-18",
+     "scheduled": true,
+     "sep": true,
+     "start": "2024-12-17"
+    }
+   ],
+   "2025": [
+    {
+     "end": "2025-01-29",
+     "scheduled": true,
+     "sep": false,
+     "start": "2025-01-28"
+    },
+    {
+     "end": "2025-03-19",
+     "scheduled": true,
+     "sep": true,
+     "start": "2025-03-18"
+    },
+    {
+     "end": "2025-05-07",
+     "scheduled": true,
+     "sep": false,
+     "start": "2025-05-06"
+    },
+    {
+     "end": "2025-06-18",
+     "scheduled": true,
+     "sep": true,
+     "start": "2025-06-17"
+    },
+    {
+     "end": "2025-07-30",
+     "scheduled": true,
+     "sep": false,
+     "start": "2025-07-29"
+    },
+    {
+     "end": "2025-09-17",
+     "scheduled": true,
+     "sep": true,
+     "start": "2025-09-16"
+    },
+    {
+     "end": "2025-10-29",
+     "scheduled": true,
+     "sep": false,
+     "start": "2025-10-28"
+    },
+    {
+     "end": "2025-12-10",
+     "scheduled": true,
+     "sep": true,
+     "start": "2025-12-09"
+    }
+   ],
+   "2026": [
+    {
+     "end": "2026-01-28",
+     "scheduled": true,
+     "sep": false,
+     "start": "2026-01-27"
+    },
+    {
+     "end": "2026-03-18",
+     "scheduled": true,
+     "sep": true,
+     "start": "2026-03-17"
+    },
+    {
+     "end": "2026-04-29",
+     "scheduled": true,
+     "sep": false,
+     "start": "2026-04-28"
+    },
+    {
+     "end": "2026-06-17",
+     "scheduled": true,
+     "sep": true,
+     "start": "2026-06-16"
+    },
+    {
+     "end": "2026-07-29",
+     "scheduled": true,
+     "sep": false,
+     "start": "2026-07-28"
+    },
+    {
+     "end": "2026-09-16",
+     "scheduled": true,
+     "sep": true,
+     "start": "2026-09-15"
+    },
+    {
+     "end": "2026-10-28",
+     "scheduled": true,
+     "sep": false,
+     "start": "2026-10-27"
+    },
+    {
+     "end": "2026-12-09",
+     "scheduled": true,
+     "sep": true,
+     "start": "2026-12-08"
+    }
+   ],
+   "2027": [
+    {
+     "end": "2027-01-27",
+     "scheduled": true,
+     "sep": false,
+     "start": "2027-01-26"
+    },
+    {
+     "end": "2027-03-17",
+     "scheduled": true,
+     "sep": true,
+     "start": "2027-03-16"
+    },
+    {
+     "end": "2027-04-28",
+     "scheduled": true,
+     "sep": false,
+     "start": "2027-04-27"
+    },
+    {
+     "end": "2027-06-09",
+     "scheduled": true,
+     "sep": true,
+     "start": "2027-06-08"
+    },
+    {
+     "end": "2027-07-28",
+     "scheduled": true,
+     "sep": false,
+     "start": "2027-07-27"
+    },
+    {
+     "end": "2027-09-15",
+     "scheduled": true,
+     "sep": true,
+     "start": "2027-09-14"
+    },
+    {
+     "end": "2027-10-27",
+     "scheduled": true,
+     "sep": false,
+     "start": "2027-10-26"
+    },
+    {
+     "end": "2027-12-08",
+     "scheduled": true,
+     "sep": true,
+     "start": "2027-12-07"
+    }
+   ]
+  },
+  "margin": {
+   "2025-07-01": 1022548.0,
+   "2025-08-01": 1059723.0,
+   "2025-09-01": 1126494.0,
+   "2025-10-01": 1183654.0,
+   "2025-11-01": 1214321.0,
+   "2025-12-01": 1225597.0,
+   "2026-01-01": 1279042.0,
+   "2026-02-01": 1253192.0,
+   "2026-03-01": 1220922.0,
+   "2026-04-01": 1304281.0,
+   "2026-05-01": 1415557.0,
+   "2026-06-01": 1502072.0,
+   "2026-07-01": 1417225.0
+  },
+  "mmf": {
+   "2026-08-26": 7934.59
+  },
+  "pc": {
+   "2025-08-25": {
+    "equity": 0.55,
+    "index": 1.16,
+    "total": 0.86
+   },
+   "2025-08-26": {
+    "equity": 0.55,
+    "index": 1.2,
+    "total": 0.89
+   },
+   "2025-08-27": {
+    "equity": 0.53,
+    "index": 0.85,
+    "total": 0.75
+   },
+   "2025-08-28": {
+    "equity": 0.75,
+    "index": 1.05,
+    "total": 0.89
+   },
+   "2025-08-29": {
+    "equity": 0.56,
+    "index": 0.92,
+    "total": 0.83
+   },
+   "2025-09-02": {
+    "equity": 0.68,
+    "index": 1.04,
+    "total": 0.93
+   },
+   "2025-09-03": {
+    "equity": 0.61,
+    "index": 1.03,
+    "total": 0.87
+   },
+   "2025-09-04": {
+    "equity": 0.62,
+    "index": 1.23,
+    "total": 0.96
+   },
+   "2025-09-05": {
+    "equity": 0.58,
+    "index": 0.8,
+    "total": 0.75
+   },
+   "2025-09-08": {
+    "equity": 0.63,
+    "index": 1.01,
+    "total": 0.8
+   },
+   "2025-09-09": {
+    "equity": 0.54,
+    "index": 1.12,
+    "total": 0.87
+   },
+   "2025-09-10": {
+    "equity": 0.54,
+    "index": 0.99,
+    "total": 0.82
+   },
+   "2025-09-11": {
+    "equity": 0.68,
+    "index": 1.02,
+    "total": 0.86
+   },
+   "2025-09-12": {
+    "equity": 0.58,
+    "index": 1.13,
+    "total": 0.83
+   },
+   "2025-09-15": {
+    "equity": 0.54,
+    "index": 1.27,
+    "total": 0.89
+   },
+   "2025-09-16": {
+    "equity": 0.54,
+    "index": 0.93,
+    "total": 0.78
+   },
+   "2025-09-17": {
+    "equity": 0.6,
+    "index": 1.11,
+    "total": 1.06
+   },
+   "2025-09-18": {
+    "equity": 0.54,
+    "index": 1.05,
+    "total": 0.75
+   },
+   "2025-09-19": {
+    "equity": 0.45,
+    "index": 1.2,
+    "total": 0.77
+   },
+   "2025-09-22": {
+    "equity": 0.48,
+    "index": 1.02,
+    "total": 0.81
+   },
+   "2025-09-23": {
+    "equity": 0.47,
+    "index": 1.21,
+    "total": 0.9
+   },
+   "2025-09-24": {
+    "equity": 0.51,
+    "index": 1.16,
+    "total": 0.86
+   },
+   "2025-09-25": {
+    "equity": 0.56,
+    "index": 1.19,
+    "total": 0.9
+   },
+   "2025-09-26": {
+    "equity": 0.51,
+    "index": 1.12,
+    "total": 0.82
+   },
+   "2025-09-29": {
+    "equity": 0.52,
+    "index": 0.92,
+    "total": 0.78
+   },
+   "2025-09-30": {
+    "equity": 0.58,
+    "index": 1.14,
+    "total": 0.89
+   },
+   "2025-10-01": {
+    "equity": 0.48,
+    "index": 1.04,
+    "total": 0.77
+   },
+   "2025-10-02": {
+    "equity": 0.47,
+    "index": 1.11,
+    "total": 0.81
+   },
+   "2025-10-03": {
+    "equity": 0.6,
+    "index": 1.1,
+    "total": 0.84
+   },
+   "2025-10-06": {
+    "equity": 0.45,
+    "index": 1.03,
+    "total": 0.73
+   },
+   "2025-10-07": {
+    "equity": 0.5,
+    "index": 1.1,
+    "total": 0.91
+   },
+   "2025-10-08": {
+    "equity": 0.5,
+    "index": 1.0,
+    "total": 0.76
+   },
+   "2025-10-09": {
+    "equity": 0.54,
+    "index": 1.05,
+    "total": 0.8
+   },
+   "2025-10-10": {
+    "equity": 0.69,
+    "index": 1.19,
+    "total": 0.98
+   },
+   "2025-10-13": {
+    "equity": 0.55,
+    "index": 0.98,
+    "total": 0.81
+   },
+   "2025-10-14": {
+    "equity": 0.49,
+    "index": 1.14,
+    "total": 0.87
+   },
+   "2025-10-15": {
+    "equity": 0.48,
+    "index": 1.0,
+    "total": 0.78
+   },
+   "2025-10-16": {
+    "equity": 0.56,
+    "index": 1.18,
+    "total": 0.86
+   },
+   "2025-10-17": {
+    "equity": 0.72,
+    "index": 1.07,
+    "total": 0.93
+   },
+   "2025-10-20": {
+    "equity": 0.5,
+    "index": 1.14,
+    "total": 0.86
+   },
+   "2025-10-21": {
+    "equity": 0.48,
+    "index": 1.24,
+    "total": 0.88
+   },
+   "2025-10-22": {
+    "equity": 0.53,
+    "index": 1.07,
+    "total": 0.83
+   },
+   "2025-10-23": {
+    "equity": 0.6,
+    "index": 1.12,
+    "total": 0.85
+   },
+   "2025-10-24": {
+    "equity": 0.52,
+    "index": 1.07,
+    "total": 0.86
+   },
+   "2025-10-27": {
+    "equity": 0.46,
+    "index": 0.99,
+    "total": 0.79
+   },
+   "2025-10-28": {
+    "equity": 0.47,
+    "index": 0.92,
+    "total": 0.74
+   },
+   "2025-10-29": {
+    "equity": 0.44,
+    "index": 1.05,
+    "total": 0.78
+   },
+   "2025-10-30": {
+    "equity": 0.57,
+    "index": 1.14,
+    "total": 0.81
+   },
+   "2025-10-31": {
+    "equity": 0.55,
+    "index": 1.02,
+    "total": 0.86
+   },
+   "2025-11-03": {
+    "equity": 0.58,
+    "index": 1.09,
+    "total": 0.93
+   },
+   "2025-11-04": {
+    "equity": 0.66,
+    "index": 0.99,
+    "total": 0.85
+   },
+   "2025-11-05": {
+    "equity": 0.57,
+    "index": 1.05,
+    "total": 0.85
+   },
+   "2025-11-06": {
+    "equity": 0.56,
+    "index": 1.14,
+    "total": 0.88
+   },
+   "2025-11-07": {
+    "equity": 0.63,
+    "index": 1.19,
+    "total": 1.08
+   },
+   "2025-11-10": {
+    "equity": 0.49,
+    "index": 1.08,
+    "total": 0.83
+   },
+   "2025-11-11": {
+    "equity": 0.7,
+    "index": 0.94,
+    "total": 0.85
+   },
+   "2025-11-12": {
+    "equity": 0.56,
+    "index": 0.95,
+    "total": 0.78
+   },
+   "2025-11-13": {
+    "equity": 0.65,
+    "index": 1.0,
+    "total": 0.83
+   },
+   "2025-11-14": {
+    "equity": 0.63,
+    "index": 1.14,
+    "total": 1.04
+   },
+   "2025-11-17": {
+    "equity": 0.76,
+    "index": 1.04,
+    "total": 0.97
+   },
+   "2025-11-18": {
+    "equity": 0.7,
+    "index": 0.94,
+    "total": 0.91
+   },
+   "2025-11-19": {
+    "equity": 0.63,
+    "index": 1.12,
+    "total": 0.98
+   },
+   "2025-11-20": {
+    "equity": 0.59,
+    "index": 1.1,
+    "total": 0.95
+   },
+   "2025-11-21": {
+    "equity": 0.56,
+    "index": 1.03,
+    "total": 0.87
+   },
+   "2025-11-24": {
+    "equity": 0.58,
+    "index": 1.13,
+    "total": 0.91
+   },
+   "2025-11-25": {
+    "equity": 0.76,
+    "index": 1.06,
+    "total": 0.94
+   },
+   "2025-11-26": {
+    "equity": 0.69,
+    "index": 0.92,
+    "total": 0.88
+   },
+   "2025-11-28": {
+    "equity": 0.44,
+    "index": 1.06,
+    "total": 0.7
+   },
+   "2025-12-01": {
+    "equity": 0.59,
+    "index": 1.13,
+    "total": 0.95
+   },
+   "2025-12-02": {
+    "equity": 0.54,
+    "index": 0.95,
+    "total": 0.79
+   },
+   "2025-12-03": {
+    "equity": 0.58,
+    "index": 1.18,
+    "total": 0.91
+   },
+   "2025-12-04": {
+    "equity": 0.5,
+    "index": 1.04,
+    "total": 0.78
+   },
+   "2025-12-05": {
+    "equity": 0.43,
+    "index": 1.07,
+    "total": 0.75
+   },
+   "2025-12-08": {
+    "equity": 0.65,
+    "index": 0.99,
+    "total": 0.91
+   },
+   "2025-12-09": {
+    "equity": 0.52,
+    "index": 1.06,
+    "total": 0.82
+   },
+   "2025-12-10": {
+    "equity": 0.59,
+    "index": 1.02,
+    "total": 0.91
+   },
+   "2025-12-11": {
+    "equity": 0.59,
+    "index": 1.06,
+    "total": 0.83
+   },
+   "2025-12-12": {
+    "equity": 0.57,
+    "index": 1.14,
+    "total": 0.91
+   },
+   "2025-12-15": {
+    "equity": 0.58,
+    "index": 1.1,
+    "total": 0.92
+   },
+   "2025-12-16": {
+    "equity": 0.74,
+    "index": 1.01,
+    "total": 0.94
+   },
+   "2025-12-17": {
+    "equity": 0.75,
+    "index": 1.09,
+    "total": 0.99
+   },
+   "2025-12-18": {
+    "equity": 0.59,
+    "index": 0.98,
+    "total": 0.79
+   },
+   "2025-12-19": {
+    "equity": 0.59,
+    "index": 1.05,
+    "total": 0.85
+   },
+   "2025-12-22": {
+    "equity": 0.61,
+    "index": 1.03,
+    "total": 0.89
+   },
+   "2025-12-23": {
+    "equity": 0.46,
+    "index": 1.01,
+    "total": 0.8
+   },
+   "2025-12-24": {
+    "equity": 0.57,
+    "index": 0.96,
+    "total": 0.91
+   },
+   "2025-12-26": {
+    "equity": 0.64,
+    "index": 1.08,
+    "total": 0.85
+   },
+   "2025-12-29": {
+    "equity": 0.67,
+    "index": 0.96,
+    "total": 0.93
+   },
+   "2025-12-30": {
+    "equity": 0.51,
+    "index": 1.08,
+    "total": 0.83
+   },
+   "2025-12-31": {
+    "equity": 0.92,
+    "index": 1.12,
+    "total": 1.13
+   },
+   "2026-01-02": {
+    "equity": 0.56,
+    "index": 1.08,
+    "total": 0.83
+   },
+   "2026-01-05": {
+    "equity": 0.54,
+    "index": 1.1,
+    "total": 0.89
+   },
+   "2026-01-06": {
+    "equity": 0.58,
+    "index": 1.02,
+    "total": 0.9
+   },
+   "2026-01-07": {
+    "equity": 0.63,
+    "index": 1.02,
+    "total": 0.96
+   },
+   "2026-01-08": {
+    "equity": 0.49,
+    "index": 1.04,
+    "total": 0.83
+   },
+   "2026-01-09": {
+    "equity": 0.47,
+    "index": 1.0,
+    "total": 0.75
+   },
+   "2026-01-12": {
+    "equity": 0.66,
+    "index": 1.19,
+    "total": 0.97
+   },
+   "2026-01-13": {
+    "equity": 0.7,
+    "index": 1.0,
+    "total": 0.88
+   },
+   "2026-01-14": {
+    "equity": 0.77,
+    "index": 0.92,
+    "total": 0.93
+   },
+   "2026-01-15": {
+    "equity": 0.52,
+    "index": 1.07,
+    "total": 0.83
+   },
+   "2026-01-16": {
+    "equity": 0.46,
+    "index": 1.02,
+    "total": 0.73
+   },
+   "2026-01-20": {
+    "equity": 0.52,
+    "index": 0.95,
+    "total": 0.9
+   },
+   "2026-01-21": {
+    "equity": 0.46,
+    "index": 0.91,
+    "total": 0.85
+   },
+   "2026-01-22": {
+    "equity": 0.41,
+    "index": 1.02,
+    "total": 0.76
+   },
+   "2026-01-23": {
+    "equity": 0.58,
+    "index": 1.1,
+    "total": 0.88
+   },
+   "2026-01-26": {
+    "equity": 0.56,
+    "index": 1.15,
+    "total": 0.96
+   },
+   "2026-01-27": {
+    "equity": 0.54,
+    "index": 0.99,
+    "total": 0.76
+   },
+   "2026-01-28": {
+    "equity": 0.57,
+    "index": 0.93,
+    "total": 0.81
+   },
+   "2026-01-29": {
+    "equity": 0.52,
+    "index": 1.0,
+    "total": 0.84
+   },
+   "2026-01-30": {
+    "equity": 0.58,
+    "index": 1.04,
+    "total": 0.82
+   },
+   "2026-02-02": {
+    "equity": 0.65,
+    "index": 0.92,
+    "total": 0.93
+   },
+   "2026-02-03": {
+    "equity": 0.53,
+    "index": 1.03,
+    "total": 0.84
+   },
+   "2026-02-04": {
+    "equity": 0.63,
+    "index": 1.02,
+    "total": 1.0
+   },
+   "2026-02-05": {
+    "equity": 0.65,
+    "index": 1.09,
+    "total": 0.92
+   },
+   "2026-02-06": {
+    "equity": 0.58,
+    "index": 1.13,
+    "total": 0.86
+   },
+   "2026-02-09": {
+    "equity": 0.6,
+    "index": 1.02,
+    "total": 0.88
+   },
+   "2026-02-10": {
+    "equity": 0.78,
+    "index": 1.09,
+    "total": 0.97
+   },
+   "2026-02-11": {
+    "equity": 0.67,
+    "index": 1.05,
+    "total": 1.01
+   },
+   "2026-02-12": {
+    "equity": 0.67,
+    "index": 1.13,
+    "total": 0.94
+   },
+   "2026-02-13": {
+    "equity": 0.6,
+    "index": 1.14,
+    "total": 0.88
+   },
+   "2026-02-17": {
+    "equity": 0.83,
+    "index": 0.93,
+    "total": 0.98
+   },
+   "2026-02-18": {
+    "equity": 0.69,
+    "index": 1.06,
+    "total": 1.01
+   },
+   "2026-02-19": {
+    "equity": 0.64,
+    "index": 1.05,
+    "total": 0.87
+   },
+   "2026-02-20": {
+    "equity": 0.65,
+    "index": 1.15,
+    "total": 0.9
+   },
+   "2026-02-23": {
+    "equity": 0.63,
+    "index": 1.04,
+    "total": 0.93
+   },
+   "2026-02-24": {
+    "equity": 0.62,
+    "index": 1.03,
+    "total": 0.87
+   },
+   "2026-02-25": {
+    "equity": 0.61,
+    "index": 0.92,
+    "total": 0.85
+   },
+   "2026-02-26": {
+    "equity": 0.59,
+    "index": 0.9,
+    "total": 0.85
+   },
+   "2026-02-27": {
+    "equity": 0.66,
+    "index": 1.0,
+    "total": 0.84
+   },
+   "2026-03-02": {
+    "equity": 0.67,
+    "index": 1.1,
+    "total": 0.94
+   },
+   "2026-03-03": {
+    "equity": 0.72,
+    "index": 0.98,
+    "total": 0.96
+   },
+   "2026-03-04": {
+    "equity": 0.65,
+    "index": 1.04,
+    "total": 0.94
+   },
+   "2026-03-05": {
+    "equity": 0.6,
+    "index": 1.06,
+    "total": 0.9
+   },
+   "2026-03-06": {
+    "equity": 0.67,
+    "index": 1.12,
+    "total": 0.96
+   },
+   "2026-03-09": {
+    "equity": 0.64,
+    "index": 1.02,
+    "total": 1.0
+   },
+   "2026-03-10": {
+    "equity": 0.57,
+    "index": 1.07,
+    "total": 0.94
+   },
+   "2026-03-11": {
+    "equity": 0.8,
+    "index": 1.01,
+    "total": 1.05
+   },
+   "2026-03-12": {
+    "equity": 0.68,
+    "index": 1.0,
+    "total": 0.91
+   },
+   "2026-03-13": {
+    "equity": 0.58,
+    "index": 1.02,
+    "total": 0.9
+   },
+   "2026-03-16": {
+    "equity": 0.76,
+    "index": 1.03,
+    "total": 1.05
+   },
+   "2026-03-17": {
+    "equity": 0.86,
+    "index": 0.99,
+    "total": 1.0
+   },
+   "2026-03-18": {
+    "equity": 0.9,
+    "index": 1.02,
+    "total": 1.12
+   },
+   "2026-03-19": {
+    "equity": 0.58,
+    "index": 1.04,
+    "total": 0.84
+   },
+   "2026-03-20": {
+    "equity": 0.81,
+    "index": 1.15,
+    "total": 1.01
+   },
+   "2026-03-23": {
+    "equity": 0.57,
+    "index": 1.06,
+    "total": 0.99
+   },
+   "2026-03-24": {
+    "equity": 0.58,
+    "index": 0.95,
+    "total": 0.89
+   },
+   "2026-03-25": {
+    "equity": 0.56,
+    "index": 1.06,
+    "total": 0.99
+   },
+   "2026-03-26": {
+    "equity": 0.63,
+    "index": 1.21,
+    "total": 1.0
+   },
+   "2026-03-27": {
+    "equity": 0.56,
+    "index": 1.15,
+    "total": 0.96
+   },
+   "2026-03-30": {
+    "equity": 0.66,
+    "index": 1.16,
+    "total": 1.07
+   },
+   "2026-03-31": {
+    "equity": 0.56,
+    "index": 1.1,
+    "total": 0.96
+   },
+   "2026-04-01": {
+    "equity": 0.63,
+    "index": 1.07,
+    "total": 1.03
+   },
+   "2026-04-02": {
+    "equity": 0.59,
+    "index": 1.16,
+    "total": 1.05
+   },
+   "2026-04-06": {
+    "equity": 0.68,
+    "index": 1.08,
+    "total": 1.02
+   },
+   "2026-04-07": {
+    "equity": 0.72,
+    "index": 0.98,
+    "total": 0.96
+   },
+   "2026-04-08": {
+    "equity": 0.56,
+    "index": 1.08,
+    "total": 1.03
+   },
+   "2026-04-09": {
+    "equity": 0.48,
+    "index": 0.98,
+    "total": 0.89
+   },
+   "2026-04-10": {
+    "equity": 0.51,
+    "index": 0.93,
+    "total": 0.82
+   },
+   "2026-04-13": {
+    "equity": 0.52,
+    "index": 0.96,
+    "total": 0.87
+   },
+   "2026-04-14": {
+    "equity": 0.5,
+    "index": 0.7,
+    "total": 0.68
+   },
+   "2026-04-15": {
+    "equity": 0.47,
+    "index": 0.93,
+    "total": 0.78
+   },
+   "2026-04-16": {
+    "equity": 0.45,
+    "index": 0.82,
+    "total": 0.67
+   },
+   "2026-04-17": {
+    "equity": 0.41,
+    "index": 0.85,
+    "total": 0.66
+   },
+   "2026-04-20": {
+    "equity": 0.54,
+    "index": 1.16,
+    "total": 0.91
+   },
+   "2026-04-21": {
+    "equity": 0.56,
+    "index": 1.11,
+    "total": 0.94
+   },
+   "2026-04-22": {
+    "equity": 0.48,
+    "index": 1.09,
+    "total": 0.86
+   },
+   "2026-04-23": {
+    "equity": 0.51,
+    "index": 1.19,
+    "total": 0.91
+   },
+   "2026-04-24": {
+    "equity": 0.53,
+    "index": 0.95,
+    "total": 0.79
+   },
+   "2026-04-27": {
+    "equity": 0.5,
+    "index": 1.12,
+    "total": 0.86
+   },
+   "2026-04-28": {
+    "equity": 0.52,
+    "index": 1.07,
+    "total": 0.83
+   },
+   "2026-04-29": {
+    "equity": 0.52,
+    "index": 1.0,
+    "total": 0.93
+   },
+   "2026-04-30": {
+    "equity": 0.46,
+    "index": 0.97,
+    "total": 0.78
+   },
+   "2026-05-01": {
+    "equity": 0.46,
+    "index": 0.98,
+    "total": 0.76
+   },
+   "2026-05-04": {
+    "equity": 0.54,
+    "index": 1.12,
+    "total": 0.87
+   },
+   "2026-05-05": {
+    "equity": 0.57,
+    "index": 1.06,
+    "total": 0.84
+   },
+   "2026-05-06": {
+    "equity": 0.51,
+    "index": 0.71,
+    "total": 0.67
+   },
+   "2026-05-07": {
+    "equity": 0.46,
+    "index": 1.11,
+    "total": 0.8
+   },
+   "2026-05-08": {
+    "equity": 0.53,
+    "index": 1.03,
+    "total": 0.74
+   },
+   "2026-05-11": {
+    "equity": 0.43,
+    "index": 1.18,
+    "total": 0.74
+   },
+   "2026-05-12": {
+    "equity": 0.49,
+    "index": 1.13,
+    "total": 0.84
+   },
+   "2026-05-13": {
+    "equity": 0.5,
+    "index": 0.89,
+    "total": 0.73
+   },
+   "2026-05-14": {
+    "equity": 0.51,
+    "index": 0.93,
+    "total": 0.67
+   },
+   "2026-05-15": {
+    "equity": 0.59,
+    "index": 1.03,
+    "total": 0.93
+   },
+   "2026-05-18": {
+    "equity": 0.51,
+    "index": 0.91,
+    "total": 0.82
+   },
+   "2026-05-19": {
+    "equity": 0.56,
+    "index": 0.91,
+    "total": 0.84
+   },
+   "2026-05-20": {
+    "equity": 0.49,
+    "index": 0.77,
+    "total": 0.75
+   },
+   "2026-05-21": {
+    "equity": 0.49,
+    "index": 0.97,
+    "total": 0.83
+   },
+   "2026-05-22": {
+    "equity": 0.55,
+    "index": 1.18,
+    "total": 0.85
+   },
+   "2026-05-26": {
+    "equity": 0.47,
+    "index": 1.11,
+    "total": 0.82
+   },
+   "2026-05-27": {
+    "equity": 0.43,
+    "index": 1.08,
+    "total": 0.83
+   },
+   "2026-05-28": {
+    "equity": 0.39,
+    "index": 1.07,
+    "total": 0.74
+   },
+   "2026-05-29": {
+    "equity": 0.42,
+    "index": 0.84,
+    "total": 0.64
+   },
+   "2026-06-01": {
+    "equity": 0.44,
+    "index": 0.99,
+    "total": 0.77
+   },
+   "2026-06-02": {
+    "equity": 0.43,
+    "index": 1.0,
+    "total": 0.73
+   },
+   "2026-06-03": {
+    "equity": 0.49,
+    "index": 1.02,
+    "total": 0.83
+   },
+   "2026-06-04": {
+    "equity": 0.44,
+    "index": 1.07,
+    "total": 0.77
+   },
+   "2026-06-05": {
+    "equity": 0.67,
+    "index": 1.13,
+    "total": 0.97
+   },
+   "2026-06-08": {
+    "equity": 0.52,
+    "index": 1.24,
+    "total": 0.96
+   },
+   "2026-06-09": {
+    "equity": 0.62,
+    "index": 1.11,
+    "total": 0.96
+   },
+   "2026-06-10": {
+    "equity": 0.66,
+    "index": 1.06,
+    "total": 0.97
+   },
+   "2026-06-11": {
+    "equity": 0.56,
+    "index": 0.98,
+    "total": 0.86
+   },
+   "2026-06-12": {
+    "equity": 0.54,
+    "index": 1.06,
+    "total": 0.76
+   },
+   "2026-06-15": {
+    "equity": 0.54,
+    "index": 1.16,
+    "total": 0.89
+   },
+   "2026-06-16": {
+    "equity": 0.59,
+    "index": 0.93,
+    "total": 0.84
+   },
+   "2026-06-17": {
+    "equity": 0.59,
+    "index": 1.11,
+    "total": 0.86
+   },
+   "2026-06-18": {
+    "equity": 0.58,
+    "index": 1.17,
+    "total": 0.91
+   },
+   "2026-06-22": {
+    "equity": 0.6,
+    "index": 1.08,
+    "total": 0.92
+   },
+   "2026-06-23": {
+    "equity": 0.56,
+    "index": 1.06,
+    "total": 0.92
+   },
+   "2026-06-24": {
+    "equity": 0.61,
+    "index": 1.16,
+    "total": 1.02
+   },
+   "2026-06-25": {
+    "equity": 0.67,
+    "index": 1.18,
+    "total": 0.99
+   },
+   "2026-06-26": {
+    "equity": 0.85,
+    "index": 1.19,
+    "total": 1.12
+   },
+   "2026-06-29": {
+    "equity": 0.59,
+    "index": 1.19,
+    "total": 0.95
+   },
+   "2026-06-30": {
+    "equity": 0.64,
+    "index": 1.01,
+    "total": 0.88
+   },
+   "2026-07-01": {
+    "equity": 0.69,
+    "index": 0.95,
+    "total": 0.9
+   },
+   "2026-07-02": {
+    "equity": 0.53,
+    "index": 0.97,
+    "total": 0.79
+   },
+   "2026-07-06": {
+    "equity": 0.62,
+    "index": 1.02,
+    "total": 0.9
+   },
+   "2026-07-07": {
+    "equity": 0.69,
+    "index": 1.01,
+    "total": 0.9
+   },
+   "2026-07-08": {
+    "equity": 0.86,
+    "index": 1.01,
+    "total": 1.03
+   },
+   "2026-07-09": {
+    "equity": 0.57,
+    "index": 1.01,
+    "total": 0.86
+   },
+   "2026-07-10": {
+    "equity": 0.55,
+    "index": 1.01,
+    "total": 0.81
+   },
+   "2026-07-13": {
+    "equity": 0.67,
+    "index": 1.1,
+    "total": 0.96
+   },
+   "2026-07-14": {
+    "equity": 0.62,
+    "index": 1.01,
+    "total": 0.93
+   },
+   "2026-07-15": {
+    "equity": 0.69,
+    "index": 1.02,
+    "total": 0.93
+   },
+   "2026-07-16": {
+    "equity": 0.67,
+    "index": 0.98,
+    "total": 0.87
+   },
+   "2026-07-17": {
+    "equity": 0.73,
+    "index": 0.98,
+    "total": 0.97
+   },
+   "2026-07-20": {
+    "equity": 0.66,
+    "index": 1.07,
+    "total": 1.0
+   },
+   "2026-07-21": {
+    "equity": 0.65,
+    "index": 1.0,
+    "total": 0.92
+   },
+   "2026-07-22": {
+    "equity": 0.67,
+    "index": 1.06,
+    "total": 1.01
+   },
+   "2026-07-23": {
+    "equity": 0.61,
+    "index": 0.86,
+    "total": 0.88
+   },
+   "2026-07-24": {
+    "equity": 0.79,
+    "index": 1.08,
+    "total": 0.99
+   },
+   "2026-07-27": {
+    "equity": 0.66,
+    "index": 1.02,
+    "total": 0.94
+   },
+   "2026-07-28": {
+    "equity": 0.71,
+    "index": 1.11,
+    "total": 0.96
+   },
+   "2026-07-29": {
+    "equity": 0.61,
+    "index": 1.13,
+    "total": 1.05
+   },
+   "2026-07-30": {
+    "equity": 0.61,
+    "index": 1.0,
+    "total": 0.91
+   },
+   "2026-07-31": {
+    "equity": 0.63,
+    "index": 1.01,
+    "total": 0.91
+   },
+   "2026-08-03": {
+    "equity": 0.55,
+    "index": 0.88,
+    "total": 0.8
+   },
+   "2026-08-04": {
+    "equity": 0.46,
+    "index": 0.78,
+    "total": 0.69
+   },
+   "2026-08-05": {
+    "equity": 0.6,
+    "index": 0.94,
+    "total": 0.88
+   },
+   "2026-08-06": {
+    "equity": 0.57,
+    "index": 1.03,
+    "total": 0.86
+   },
+   "2026-08-07": {
+    "equity": 0.54,
+    "index": 0.98,
+    "total": 0.76
+   },
+   "2026-08-10": {
+    "equity": 0.61,
+    "index": 1.0,
+    "total": 0.86
+   },
+   "2026-08-11": {
+    "equity": 0.63,
+    "index": 0.9,
+    "total": 0.81
+   },
+   "2026-08-12": {
+    "equity": 0.61,
+    "index": 1.03,
+    "total": 0.84
+   },
+   "2026-08-13": {
+    "equity": 0.59,
+    "index": 0.93,
+    "total": 0.79
+   },
+   "2026-08-14": {
+    "equity": 0.52,
+    "index": 0.99,
+    "total": 0.77
+   },
+   "2026-08-17": {
+    "equity": 0.65,
+    "index": 1.03,
+    "total": 0.92
+   },
+   "2026-08-18": {
+    "equity": 0.64,
+    "index": 1.12,
+    "total": 0.95
+   },
+   "2026-08-19": {
+    "equity": 0.52,
+    "index": 0.97,
+    "total": 0.8
+   },
+   "2026-08-20": {
+    "equity": 0.58,
+    "index": 0.92,
+    "total": 0.78
+   },
+   "2026-08-21": {
+    "equity": 0.51,
+    "index": 0.85,
+    "total": 0.72
+   },
+   "2026-08-24": {
+    "equity": 0.68,
+    "index": 1.0,
+    "total": 0.91
+   },
+   "2026-08-25": {
+    "equity": 0.57,
+    "index": 0.97,
+    "total": 0.83
+   },
+   "2026-08-26": {
+    "equity": 0.64,
+    "index": 0.94,
+    "total": 0.87
+   },
+   "2026-08-27": {
+    "equity": 0.39,
+    "index": 0.92,
+    "total": 0.73
+   },
+   "2026-08-28": {
+    "equity": 0.62,
+    "index": 0.99,
+    "total": 0.84
+   }
+  },
+  "scores": {
+   "2026-08-28": {
+    "banks": [
+     0.9,
+     1.4
+    ],
+    "bitcoin": [
+     0.0,
+     0.0
+    ],
+    "cash": [
+     -0.7,
+     null
+    ],
+    "copper": [
+     -0.2,
+     1.6
+    ],
+    "em_ex_china": [
+     0.9,
+     0.6
+    ],
+    "energy": [
+     0.3,
+     1.6
+    ],
+    "europe": [
+     0.7,
+     1.4
+    ],
+    "gold": [
+     -0.3,
+     0.4
+    ],
+    "gold_miners": [
+     0.0,
+     0.6
+    ],
+    "japan": [
+     0.7,
+     0.8
+    ],
+    "reits": [
+     0.3,
+     0.2
+    ],
+    "semis": [
+     0.9,
+     0.6
+    ],
+    "silver": [
+     0.1,
+     -0.2
+    ],
+    "thailand": [
+     0.8,
+     null
+    ],
+    "us_hy": [
+     0.0,
+     0.8
+    ],
+    "us_large": [
+     0.1,
+     1.2
+    ],
+    "us_small": [
+     0.9,
+     0.6
+    ],
+    "ust10": [
+     0.5,
+     -1.0
+    ]
+   }
+  },
+  "surprises": {
+   "ahe": {
+    "2026-09-04": {
+     "f": 0.3,
+     "p": 0.1
+    }
+   },
+   "jolts": {
+    "2026-09-01": {
+     "f": 7.33,
+     "p": 7.36
+    }
+   },
+   "nfp": {
+    "2026-09-04": {
+     "f": 58.0,
+     "p": -23.0
+    }
+   },
+   "unrate": {
+    "2026-09-04": {
+     "f": 4.1,
+     "p": 4.1
+    }
+   }
+  },
+  "surprises_since": "2026-08-30"
+ },
+ "notified": "",
+ "ranking": {
+  "banks": {
+   "cond": 0.9,
+   "name": "Banks and financials",
+   "price": 1.4,
+   "read": "Aligned up"
+  },
+  "bitcoin": {
+   "cond": 0.0,
+   "name": "Bitcoin",
+   "price": 0.0,
+   "read": "Neutral"
+  },
+  "cash": {
+   "cond": -0.7,
+   "name": "Cash (T-bills)",
+   "price": null,
+   "read": null
+  },
+  "copper": {
+   "cond": -0.2,
+   "name": "Copper and industrial metals",
+   "price": 1.6,
+   "read": "Price ahead, up"
+  },
+  "em_ex_china": {
+   "cond": 0.9,
+   "name": "Emerging markets ex China",
+   "price": 0.6,
+   "read": "Aligned up"
+  },
+  "energy": {
+   "cond": 0.3,
+   "name": "Energy",
+   "price": 1.6,
+   "read": "Price ahead, up"
+  },
+  "europe": {
+   "cond": 0.7,
+   "name": "Europe equities",
+   "price": 1.4,
+   "read": "Aligned up"
+  },
+  "gold": {
+   "cond": -0.3,
+   "name": "Gold",
+   "price": 0.4,
+   "read": "Neutral"
+  },
+  "gold_miners": {
+   "cond": 0.0,
+   "name": "Gold miners",
+   "price": 0.6,
+   "read": "Price ahead, up"
+  },
+  "japan": {
+   "cond": 0.7,
+   "name": "Japan equities",
+   "price": 0.8,
+   "read": "Aligned up"
+  },
+  "reits": {
+   "cond": 0.3,
+   "name": "Real estate (REITs)",
+   "price": 0.2,
+   "read": "Neutral"
+  },
+  "semis": {
+   "cond": 0.9,
+   "name": "Semiconductors and mega-cap tech",
+   "price": 0.6,
+   "read": "Aligned up"
+  },
+  "silver": {
+   "cond": 0.1,
+   "name": "Silver and silver miners",
+   "price": -0.2,
+   "read": "Neutral"
+  },
+  "thailand": {
+   "cond": 0.8,
+   "name": "Thailand (SET)",
+   "price": null,
+   "read": null
+  },
+  "us_hy": {
+   "cond": 0.0,
+   "name": "US high yield credit",
+   "price": 0.8,
+   "read": "Price ahead, up"
+  },
+  "us_large": {
+   "cond": 0.1,
+   "name": "US large caps (S&P 500)",
+   "price": 1.2,
+   "read": "Price ahead, up"
+  },
+  "us_small": {
+   "cond": 0.9,
+   "name": "US small caps",
+   "price": 0.6,
+   "read": "Aligned up"
+  },
+  "ust10": {
+   "cond": 0.5,
+   "name": "US 10-year Treasuries",
+   "price": -1.0,
+   "read": "Divergence"
+  }
+ },
+ "regime": {
+  "composites": {
+   "cost": {
+    "value": -0.05
+   },
+   "growth": {
+    "value": 0.08
+   },
+   "infl": {
+    "value": -0.85
+   },
+   "liq": {
+    "value": 0.25
+   },
+   "risk": {
+    "value": 1.24
+   }
+  },
+  "flags": {
+   "breadth": "broadening",
+   "cost": "stable",
+   "credit": "none",
+   "cycle": "Recovery",
+   "cycle_detail": "growth up, inflation down",
+   "dollar": "mixed",
+   "liquidity": "expanding",
+   "momentum": "rolling over",
+   "risk": "on"
+  }
+ },
+ "sectors": {
+  "xlb": {
+   "mom": 97.9,
+   "name": "Materials",
+   "quadrant": "Lagging",
+   "rs": 98.8
+  },
+  "xlc": {
+   "mom": 95.0,
+   "name": "Communication services",
+   "quadrant": "Lagging",
+   "rs": 89.2
+  },
+  "xle": {
+   "mom": 95.5,
+   "name": "Energy",
+   "quadrant": "Weakening",
+   "rs": 104.3
+  },
+  "xlf": {
+   "mom": 107.3,
+   "name": "Financials",
+   "quadrant": "Improving",
+   "rs": 98.4
+  },
+  "xli": {
+   "mom": 101.1,
+   "name": "Industrials",
+   "quadrant": "Leading",
+   "rs": 101.5
+  },
+  "xlk": {
+   "mom": 99.9,
+   "name": "Technology",
+   "quadrant": "Weakening",
+   "rs": 109.3
+  },
+  "xlp": {
+   "mom": 100.9,
+   "name": "Consumer staples",
+   "quadrant": "Improving",
+   "rs": 96.5
+  },
+  "xlre": {
+   "mom": 100.6,
+   "name": "Real estate",
+   "quadrant": "Improving",
+   "rs": 98.5
+  },
+  "xlu": {
+   "mom": 97.7,
+   "name": "Utilities",
+   "quadrant": "Lagging",
+   "rs": 93.7
+  },
+  "xlv": {
+   "mom": 106.5,
+   "name": "Health care",
+   "quadrant": "Leading",
+   "rs": 100.2
+  },
+  "xly": {
+   "mom": 98.0,
+   "name": "Consumer discretionary",
+   "quadrant": "Lagging",
+   "rs": 91.7
+  }
+ },
+ "v3": {
+  "alerts": {
+   "btc": "down",
+   "copper": "down",
+   "crude": null,
+   "dxy": "down",
+   "gold": null,
+   "semis": null,
+   "silver": null,
+   "spx": null,
+   "ust10": "up"
+  },
+  "cot_date": "2026-08-25",
+  "crowd": "optimistic, not euphoric",
+  "cta": {
+   "copper": 1,
+   "dxy": -1,
+   "gold": 1,
+   "ndx": 1,
+   "spx": 1,
+   "ust10": -1,
+   "wti": -1
+  }
+ },
+ "v4": {
+  "date": "2026-08-30",
+  "surprises": [],
+  "tier1_soon": [
+   "payrolls:2026-09-04"
+  ],
+  "tier2_soon": [
+   "china_pmi:2026-08-30",
+   "china_pmi_private:2026-08-31",
+   "ez_cpi:2026-09-01",
+   "ism_mfg:2026-09-01",
+   "jolts:2026-09-01",
+   "eia:2026-09-02",
+   "ism_svc:2026-09-03"
+  ]
+ },
+ "yesterday": {}
+}
