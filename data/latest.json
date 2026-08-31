@@ -1,6 +1,6 @@
 {
- "asOf": "2026-08-30T23:52+07:00",
- "asOfLabel": "30 Aug 2026, 23:52 BKK",
+ "asOf": "2026-08-31T07:44+07:00",
+ "asOfLabel": "31 Aug 2026, 07:44 BKK",
  "cells": {
   "cb.boe.last": {
    "s": 0,
@@ -110,7 +110,7 @@
   },
   "cta.copper.flip": {
    "s": 0,
-   "t": "5.54 (-16.7%)"
+   "t": "5.76 (-13.1%)"
   },
   "cta.copper.signal": {
    "h": "<span class=\"chip up\"><span class=\"g\">▲</span>Long</span>",
@@ -123,7 +123,7 @@
   },
   "cta.dxy.flip": {
    "s": 0,
-   "t": "100 (+0.1%)"
+   "t": "100 (+0.3%)"
   },
   "cta.dxy.signal": {
    "h": "<span class=\"chip serious\"><span class=\"g\">▼</span>Short</span>",
@@ -136,7 +136,7 @@
   },
   "cta.gold.flip": {
    "s": 0,
-   "t": "4,112 (-9.2%)"
+   "t": "4,107 (-9.0%)"
   },
   "cta.gold.signal": {
    "h": "<span class=\"chip up\"><span class=\"g\">▲</span>Long</span>",
@@ -188,16 +188,16 @@
   },
   "cta.wti.flip": {
    "s": 0,
-   "t": "85 (+1.5%)"
+   "t": "77 (-9.1%)"
   },
   "cta.wti.signal": {
-   "h": "<span class=\"chip serious\"><span class=\"g\">▼</span>Short</span>",
+   "h": "<span class=\"chip up\"><span class=\"g\">▲</span>Long</span>",
    "s": 0,
-   "t": "Short"
+   "t": "Long"
   },
   "cta.wti.since": {
    "s": 0,
-   "t": "14 Aug"
+   "t": "30 Aug"
   },
   "div.btc.before": {
    "s": 0,
@@ -205,7 +205,7 @@
   },
   "div.btc.cr": {
    "s": 0,
-   "t": "Leveraged funds net -8k, pct 85; crypto fear and greed 69, pct 78"
+   "t": "Leveraged funds net -8k, pct 85; crypto fear and greed 62, pct 71"
   },
   "div.btc.read": {
    "s": 0,
@@ -213,7 +213,7 @@
   },
   "div.btc.score": {
    "s": -1,
-   "t": "-2.6"
+   "t": "-2.5"
   },
   "div.btc.sm": {
    "s": 0,
@@ -381,55 +381,55 @@
   },
   "en.brent.1m": {
    "s": -1,
-   "t": "-1.0%"
+   "t": "-1.1%"
   },
   "en.brent.1w": {
    "s": -1,
-   "t": "-6.7%"
+   "t": "-3.3%"
   },
   "en.brent.level": {
    "s": 0,
-   "t": "88.10"
+   "t": "89.15"
   },
   "en.brent.vs200": {
    "s": 1,
-   "t": "+6%"
+   "t": "+7%"
   },
   "en.brent.ytd": {
    "s": 1,
-   "t": "+44.8%"
+   "t": "+46.5%"
   },
   "en.crack.1m": {
    "s": -1,
-   "t": "-5.82"
+   "t": "-2.03"
   },
   "en.crack.1w": {
    "s": -1,
-   "t": "-8.12"
+   "t": "-5.11"
   },
   "en.crack.level": {
    "s": 0,
-   "t": "61.49"
+   "t": "61.21"
   },
   "en.natgas.1m": {
    "s": 1,
-   "t": "+4.7%"
+   "t": "+3.2%"
   },
   "en.natgas.1w": {
    "s": 1,
-   "t": "+4.1%"
+   "t": "+1.9%"
   },
   "en.natgas.level": {
    "s": 0,
-   "t": "2.89"
+   "t": "2.84"
   },
   "en.natgas.vs200": {
    "s": -1,
-   "t": "-14%"
+   "t": "-15%"
   },
   "en.natgas.ytd": {
    "s": -1,
-   "t": "-21.6%"
+   "t": "-23.1%"
   },
   "en.rigs.1m": {
    "s": 1,
@@ -493,23 +493,23 @@
   },
   "en.wti.1m": {
    "s": -1,
-   "t": "-0.2%"
+   "t": "-0.5%"
   },
   "en.wti.1w": {
    "s": -1,
-   "t": "-4.2%"
+   "t": "-0.9%"
   },
   "en.wti.level": {
    "s": 0,
-   "t": "83.40"
+   "t": "84.23"
   },
   "en.wti.vs200": {
    "s": 1,
-   "t": "+7%"
+   "t": "+8%"
   },
   "en.wti.ytd": {
    "s": 1,
-   "t": "+45.2%"
+   "t": "+46.7%"
   },
   "fac.beta_lowvol.1m": {
    "s": 1,
@@ -670,15 +670,15 @@
   },
   "fx.dxy.1m": {
    "s": -1,
-   "t": "-0.3%"
+   "t": "-0.2%"
   },
   "fx.dxy.3m": {
    "s": 1,
-   "t": "+0.8%"
+   "t": "+0.4%"
   },
   "fx.dxy.level": {
    "s": 0,
-   "t": "99.7"
+   "t": "99.6"
   },
   "fx.dxy.trend": {
    "s": -1,
@@ -686,11 +686,11 @@
   },
   "fx.eurusd.1m": {
    "s": 1,
-   "t": "+1.0%"
+   "t": "+0.6%"
   },
   "fx.eurusd.3m": {
    "s": -1,
-   "t": "-0.4%"
+   "t": "-0.2%"
   },
   "fx.eurusd.level": {
    "s": 0,
@@ -718,11 +718,11 @@
   },
   "fx.usdjpy.1m": {
    "s": -1,
-   "t": "-2.0%"
+   "t": "-0.1%"
   },
   "fx.usdjpy.3m": {
-   "s": 1,
-   "t": "+0.3%"
+   "s": 0,
+   "t": "0.0%"
   },
   "fx.usdjpy.level": {
    "s": 0,
@@ -944,27 +944,27 @@
   },
   "idx.n225.1m": {
    "s": 1,
-   "t": "+8.1%"
+   "t": "+5.5%"
   },
   "idx.n225.1w": {
-   "s": 1,
-   "t": "+0.6%"
+   "s": -1,
+   "t": "-0.4%"
   },
   "idx.n225.3m": {
-   "s": 1,
-   "t": "+0.1%"
+   "s": -1,
+   "t": "-2.5%"
   },
   "idx.n225.level": {
    "s": 0,
-   "t": "66,406"
+   "t": "65,278"
   },
   "idx.n225.vs200": {
    "s": 1,
-   "t": "+13%"
+   "t": "+11%"
   },
   "idx.n225.ytd": {
    "s": 1,
-   "t": "+31.9%"
+   "t": "+29.7%"
   },
   "idx.ndx.1m": {
    "s": 1,
@@ -1118,47 +1118,47 @@
   },
   "im.copper.1m": {
    "s": 1,
-   "t": "+3.3%"
+   "t": "+3.0%"
   },
   "im.copper.1w": {
    "s": 1,
-   "t": "+1.2%"
+   "t": "+0.5%"
   },
   "im.copper.level": {
    "s": 0,
-   "t": "6.66"
+   "t": "6.63"
   },
   "im.copper.vs200": {
    "s": 1,
-   "t": "+12%"
+   "t": "+11%"
   },
   "im.copper.ytd": {
    "s": 1,
-   "t": "+18.3%"
+   "t": "+17.7%"
   },
   "im.corn.1m": {
    "s": 1,
-   "t": "+20.4%"
+   "t": "+21.3%"
   },
   "im.corn.1w": {
    "s": 1,
-   "t": "+10.9%"
+   "t": "+8.7%"
   },
   "im.corn.level": {
    "s": 0,
-   "t": "5.37"
+   "t": "5.34"
   },
   "im.corn.vs200": {
    "s": 1,
-   "t": "+21%"
+   "t": "+20%"
   },
   "im.corn.ytd": {
    "s": 1,
-   "t": "+21.9%"
+   "t": "+21.4%"
   },
   "im.cu_au.1m": {
    "s": -1,
-   "t": "-6.5%"
+   "t": "-7.6%"
   },
   "im.cu_au.1w": {
    "s": 1,
@@ -1170,7 +1170,7 @@
   },
   "im.cu_au.ytd": {
    "s": 1,
-   "t": "+12.9%"
+   "t": "+12.8%"
   },
   "im.ironore.1m": {
    "s": -1,
@@ -1194,23 +1194,23 @@
   },
   "im.soy.1m": {
    "s": 1,
-   "t": "+9.4%"
+   "t": "+9.6%"
   },
   "im.soy.1w": {
    "s": 1,
-   "t": "+5.1%"
+   "t": "+5.6%"
   },
   "im.soy.level": {
    "s": 0,
-   "t": "12.88"
+   "t": "12.84"
   },
   "im.soy.vs200": {
    "s": 1,
-   "t": "+13%"
+   "t": "+12%"
   },
   "im.soy.ytd": {
    "s": 1,
-   "t": "+25.0%"
+   "t": "+24.6%"
   },
   "im.uranium.1m": {
    "s": 1,
@@ -1234,23 +1234,23 @@
   },
   "im.wheat.1m": {
    "s": 1,
-   "t": "+18.2%"
+   "t": "+20.7%"
   },
   "im.wheat.1w": {
    "s": 1,
-   "t": "+15.0%"
+   "t": "+13.2%"
   },
   "im.wheat.level": {
    "s": 0,
-   "t": "7.84"
+   "t": "7.72"
   },
   "im.wheat.vs200": {
    "s": 1,
-   "t": "+33%"
+   "t": "+31%"
   },
   "im.wheat.ytd": {
    "s": 1,
-   "t": "+54.6%"
+   "t": "+52.2%"
   },
   "liq.bankcredit": {
    "date": "2026-08-19",
@@ -1618,31 +1618,31 @@
   },
   "pm.baht_gold.1m": {
    "s": 1,
-   "t": "+8.5%"
+   "t": "+7.3%"
   },
   "pm.baht_gold.1w": {
    "s": -1,
-   "t": "-1.9%"
+   "t": "-3.0%"
   },
   "pm.baht_gold.level": {
    "s": 0,
-   "t": "70,400"
+   "t": "69,595"
   },
   "pm.baht_gold.ytd": {
    "s": 1,
-   "t": "+9.4%"
+   "t": "+8.2%"
   },
   "pm.gold.1m": {
    "s": 1,
-   "t": "+10.5%"
+   "t": "+11.5%"
   },
   "pm.gold.1w": {
    "s": -1,
-   "t": "-2.0%"
+   "t": "-2.7%"
   },
   "pm.gold.level": {
    "s": 0,
-   "t": "4,530"
+   "t": "4,513"
   },
   "pm.gold.vs200": {
    "s": 0,
@@ -1650,55 +1650,55 @@
   },
   "pm.gold.ytd": {
    "s": 1,
-   "t": "+4.7%"
+   "t": "+4.3%"
   },
   "pm.gs_ratio.1m": {
    "s": 0,
-   "t": "-2.9"
+   "t": "-3.3"
   },
   "pm.gs_ratio.1w": {
    "s": 0,
-   "t": "+0.3"
+   "t": "-0.7"
   },
   "pm.gs_ratio.level": {
    "s": 0,
-   "t": "66.8"
+   "t": "67.0"
   },
   "pm.gs_ratio.ytd": {
    "s": 0,
-   "t": "+5.2"
+   "t": "+5.4"
   },
   "pm.pall.1m": {
    "s": 1,
-   "t": "+11.1%"
+   "t": "+13.8%"
   },
   "pm.pall.1w": {
    "s": 1,
-   "t": "+7.3%"
+   "t": "+6.6%"
   },
   "pm.pall.level": {
    "s": 0,
-   "t": "1,447"
+   "t": "1,452"
   },
   "pm.pall.vs200": {
    "s": -1,
-   "t": "-4%"
+   "t": "-3%"
   },
   "pm.pall.ytd": {
    "s": -1,
-   "t": "-11.2%"
+   "t": "-10.9%"
   },
   "pm.plat.1m": {
    "s": 1,
-   "t": "+12.3%"
+   "t": "+11.8%"
   },
   "pm.plat.1w": {
    "s": -1,
-   "t": "-1.7%"
+   "t": "-1.9%"
   },
   "pm.plat.level": {
    "s": 0,
-   "t": "1,854"
+   "t": "1,845"
   },
   "pm.plat.vs200": {
    "s": -1,
@@ -1706,27 +1706,27 @@
   },
   "pm.plat.ytd": {
    "s": -1,
-   "t": "-8.9%"
+   "t": "-9.3%"
   },
   "pm.silver.1m": {
    "s": 1,
-   "t": "+15.3%"
+   "t": "+16.9%"
   },
   "pm.silver.1w": {
    "s": -1,
-   "t": "-2.4%"
+   "t": "-1.8%"
   },
   "pm.silver.level": {
    "s": 0,
-   "t": "67.79"
+   "t": "67.33"
   },
   "pm.silver.vs200": {
    "s": -1,
-   "t": "-5%"
+   "t": "-6%"
   },
   "pm.silver.ytd": {
    "s": -1,
-   "t": "-3.3%"
+   "t": "-4.0%"
   },
   "pos.cr_aaii.now": {
    "s": -1,
@@ -1738,11 +1738,11 @@
   },
   "pos.cr_crypto.now": {
    "s": 0,
-   "t": "69"
+   "t": "62"
   },
   "pos.cr_crypto.pct": {
    "s": 0,
-   "t": "78"
+   "t": "71"
   },
   "pos.cr_equity_pc.now": {
    "s": 0,
@@ -1842,11 +1842,11 @@
   },
   "ratio.ag_au.1m": {
    "s": 1,
-   "t": "+4.3%"
+   "t": "+4.9%"
   },
   "ratio.ag_au.level": {
    "s": 0,
-   "t": "0.0150"
+   "t": "0.0149"
   },
   "ratio.ag_au.trend": {
    "s": 0,
@@ -1854,11 +1854,11 @@
   },
   "ratio.au_spx.1m": {
    "s": 1,
-   "t": "+6.6%"
+   "t": "+5.3%"
   },
   "ratio.au_spx.level": {
    "s": 0,
-   "t": "0.587"
+   "t": "0.581"
   },
   "ratio.au_spx.trend": {
    "s": 1,
@@ -1866,11 +1866,11 @@
   },
   "ratio.btc_au.1m": {
    "s": 1,
-   "t": "+8.8%"
+   "t": "+10.1%"
   },
   "ratio.btc_au.level": {
    "s": 0,
-   "t": "17.2 oz"
+   "t": "17.4 oz"
   },
   "ratio.btc_au.trend": {
    "s": 1,
@@ -1878,7 +1878,7 @@
   },
   "ratio.cu_au.1m": {
    "s": -1,
-   "t": "-6.5%"
+   "t": "-7.6%"
   },
   "ratio.cu_au.level": {
    "s": 0,
@@ -1914,11 +1914,11 @@
   },
   "ratio.oil_au.1m": {
    "s": -1,
-   "t": "-9.7%"
+   "t": "-10.8%"
   },
   "ratio.oil_au.level": {
    "s": 0,
-   "t": "0.0184"
+   "t": "0.0187"
   },
   "ratio.oil_au.trend": {
    "s": -1,
@@ -2005,13 +2005,13 @@
    "val": "1,031 <small>bp</small>"
   },
   "rt.cuts": {
-   "date": "2026-08-28",
+   "date": "2026-08-30",
    "delta": {
     "dir": "down",
-    "t": "-0.6 cuts",
-    "vs": "vs 1 month ago; 60 bp of hikes by Aug 2027"
+    "t": "-0.2 cuts",
+    "vs": "vs 1 month ago; 59 bp of hikes by Aug 2027"
    },
-   "dl": "28 Aug",
+   "dl": "30 Aug",
    "freq": "d",
    "kind": "tile",
    "spark": [
@@ -2026,7 +2026,7 @@
     -1.7,
     -1.52,
     -1.78,
-    -2.4
+    -2.38
    ],
    "src": "Yahoo ZQQ27.CBT, FRED EFFR",
    "unit": "",
@@ -2511,27 +2511,27 @@
   },
   "sc.btc.12m": {
    "s": -1,
-   "t": "-10.3%"
+   "t": "-11.7%"
   },
   "sc.btc.1m": {
    "s": 1,
-   "t": "+22.1%"
+   "t": "+20.2%"
   },
   "sc.btc.1w": {
-   "s": 1,
-   "t": "+0.3%"
+   "s": -1,
+   "t": "-1.2%"
   },
   "sc.btc.3m": {
    "s": 1,
-   "t": "+32.2%"
+   "t": "+30.2%"
   },
   "sc.btc.level": {
    "s": 0,
-   "t": "79.2k"
+   "t": "78.0k"
   },
   "sc.btc.pct": {
    "s": 0,
-   "t": "79"
+   "t": "73"
   },
   "sc.btc.trend": {
    "s": 0,
@@ -2543,7 +2543,7 @@
   },
   "sc.btc.z": {
    "s": 0,
-   "t": "+2.0"
+   "t": "+1.8"
   },
   "sc.cew.12m": {
    "s": 1,
@@ -2583,27 +2583,27 @@
   },
   "sc.copper.12m": {
    "s": 1,
-   "t": "+50.8%"
+   "t": "+48.5%"
   },
   "sc.copper.1m": {
    "s": 1,
-   "t": "+3.3%"
+   "t": "+3.0%"
   },
   "sc.copper.1w": {
    "s": 1,
-   "t": "+1.2%"
+   "t": "+0.5%"
   },
   "sc.copper.3m": {
    "s": 1,
-   "t": "+4.7%"
+   "t": "+1.6%"
   },
   "sc.copper.level": {
    "s": 0,
-   "t": "6.66"
+   "t": "6.63"
   },
   "sc.copper.pct": {
    "s": 0,
-   "t": "99"
+   "t": "98"
   },
   "sc.copper.trend": {
    "s": 0,
@@ -2611,7 +2611,7 @@
   },
   "sc.copper.vol": {
    "s": 0,
-   "t": "24%"
+   "t": "23%"
   },
   "sc.copper.z": {
    "s": 0,
@@ -2619,27 +2619,27 @@
   },
   "sc.dxy.12m": {
    "s": 1,
-   "t": "+1.5%"
+   "t": "+1.9%"
   },
   "sc.dxy.1m": {
    "s": -1,
-   "t": "-0.3%"
+   "t": "-0.2%"
   },
   "sc.dxy.1w": {
    "s": 1,
-   "t": "+0.9%"
+   "t": "+0.6%"
   },
   "sc.dxy.3m": {
    "s": 1,
-   "t": "+0.8%"
+   "t": "+0.4%"
   },
   "sc.dxy.level": {
    "s": 0,
-   "t": "99.7"
+   "t": "99.6"
   },
   "sc.dxy.pct": {
    "s": 0,
-   "t": "75"
+   "t": "71"
   },
   "sc.dxy.trend": {
    "s": 0,
@@ -2691,31 +2691,31 @@
   },
   "sc.gold.12m": {
    "s": 1,
-   "t": "+33.1%"
+   "t": "+31.5%"
   },
   "sc.gold.1m": {
    "s": 1,
-   "t": "+10.5%"
+   "t": "+11.5%"
   },
   "sc.gold.1w": {
    "s": -1,
-   "t": "-2.0%"
+   "t": "-2.7%"
   },
   "sc.gold.3m": {
-   "s": -1,
-   "t": "-0.7%"
+   "s": 1,
+   "t": "+0.9%"
   },
   "sc.gold.level": {
    "s": 0,
-   "t": "4,530"
+   "t": "4,513"
   },
   "sc.gold.pct": {
    "s": 0,
-   "t": "64"
+   "t": "62"
   },
   "sc.gold.trend": {
    "s": 0,
-   "t": "above / above"
+   "t": "above / below"
   },
   "sc.gold.vol": {
    "s": 0,
@@ -2723,7 +2723,7 @@
   },
   "sc.gold.z": {
    "s": 0,
-   "t": "+1.5"
+   "t": "+1.7"
   },
   "sc.hyg.12m": {
    "s": 1,
@@ -2763,27 +2763,27 @@
   },
   "sc.n225.12m": {
    "s": 1,
-   "t": "+53.1%"
+   "t": "+49.3%"
   },
   "sc.n225.1m": {
    "s": 1,
-   "t": "+8.1%"
+   "t": "+5.5%"
   },
   "sc.n225.1w": {
-   "s": 1,
-   "t": "+0.6%"
+   "s": -1,
+   "t": "-0.4%"
   },
   "sc.n225.3m": {
-   "s": 1,
-   "t": "+0.1%"
+   "s": -1,
+   "t": "-2.5%"
   },
   "sc.n225.level": {
    "s": 0,
-   "t": "66,406"
+   "t": "65,278"
   },
   "sc.n225.pct": {
    "s": 0,
-   "t": "86"
+   "t": "79"
   },
   "sc.n225.trend": {
    "s": 0,
@@ -2795,7 +2795,7 @@
   },
   "sc.n225.z": {
    "s": 0,
-   "t": "+1.0"
+   "t": "+0.6"
   },
   "sc.ndx.12m": {
    "s": 1,
@@ -2871,27 +2871,27 @@
   },
   "sc.silver.12m": {
    "s": 1,
-   "t": "+75.2%"
+   "t": "+71.8%"
   },
   "sc.silver.1m": {
    "s": 1,
-   "t": "+15.3%"
+   "t": "+16.9%"
   },
   "sc.silver.1w": {
    "s": -1,
-   "t": "-2.4%"
+   "t": "-1.8%"
   },
   "sc.silver.3m": {
    "s": -1,
-   "t": "-10.4%"
+   "t": "-10.2%"
   },
   "sc.silver.level": {
    "s": 0,
-   "t": "67.79"
+   "t": "67.33"
   },
   "sc.silver.pct": {
    "s": 0,
-   "t": "51"
+   "t": "50"
   },
   "sc.silver.trend": {
    "s": 0,
@@ -2903,7 +2903,7 @@
   },
   "sc.silver.z": {
    "s": 0,
-   "t": "+1.0"
+   "t": "+1.2"
   },
   "sc.spx.12m": {
    "s": 1,
@@ -3015,19 +3015,19 @@
   },
   "sc.usdjpy.12m": {
    "s": 1,
-   "t": "+7.9%"
+   "t": "+8.6%"
   },
   "sc.usdjpy.1m": {
    "s": -1,
-   "t": "-2.0%"
+   "t": "-0.1%"
   },
   "sc.usdjpy.1w": {
    "s": 1,
    "t": "+0.7%"
   },
   "sc.usdjpy.3m": {
-   "s": 1,
-   "t": "+0.3%"
+   "s": 0,
+   "t": "0.0%"
   },
   "sc.usdjpy.level": {
    "s": 0,
@@ -3047,31 +3047,31 @@
   },
   "sc.usdjpy.z": {
    "s": 0,
-   "t": "-0.8"
+   "t": "-0.1"
   },
   "sc.wti.12m": {
    "s": 1,
-   "t": "+30.0%"
+   "t": "+30.4%"
   },
   "sc.wti.1m": {
    "s": -1,
-   "t": "-0.2%"
+   "t": "-0.5%"
   },
   "sc.wti.1w": {
    "s": -1,
-   "t": "-4.2%"
+   "t": "-0.9%"
   },
   "sc.wti.3m": {
    "s": -1,
-   "t": "-4.5%"
+   "t": "-8.6%"
   },
   "sc.wti.level": {
    "s": 0,
-   "t": "83.40"
+   "t": "84.23"
   },
   "sc.wti.pct": {
    "s": 0,
-   "t": "67"
+   "t": "69"
   },
   "sc.wti.trend": {
    "s": 0,
@@ -3079,7 +3079,7 @@
   },
   "sc.wti.vol": {
    "s": 0,
-   "t": "51%"
+   "t": "50%"
   },
   "sc.wti.z": {
    "s": 0,
@@ -3407,22 +3407,22 @@
   "strip.btc": {
    "d": {
     "dir": "up",
-    "t": "+22.1%, 1m"
+    "t": "+20.2%, 1m"
    },
-   "date": "2026-08-30",
-   "dl": "30 Aug",
+   "date": "2026-08-31",
+   "dl": "31 Aug",
    "freq": "d",
    "kind": "strip",
    "src": "Yahoo BTC-USD",
-   "val": "79.2k"
+   "val": "78.0k"
   },
   "strip.cu_au": {
    "d": {
     "dir": "down",
-    "t": "-6.5%, 1m"
+    "t": "-7.6%, 1m"
    },
-   "date": "2026-08-28",
-   "dl": "28 Aug",
+   "date": "2026-08-30",
+   "dl": "30 Aug",
    "freq": "d",
    "kind": "strip",
    "src": "Yahoo HG=F, GC=F",
@@ -3431,22 +3431,22 @@
   "strip.dxy": {
    "d": {
     "dir": "down",
-    "t": "-0.3%, 1m"
+    "t": "-0.2%, 1m"
    },
-   "date": "2026-08-28",
-   "dl": "28 Aug",
+   "date": "2026-08-30",
+   "dl": "30 Aug",
    "freq": "d",
    "kind": "strip",
    "src": "Yahoo DXY",
-   "val": "99.7"
+   "val": "99.6"
   },
   "strip.ff": {
    "d": {
     "dir": "flat",
     "t": "2.4 hikes priced, 12m"
    },
-   "date": "2026-08-28",
-   "dl": "28 Aug",
+   "date": "2026-08-30",
+   "dl": "30 Aug",
    "freq": "d",
    "kind": "strip",
    "src": "FRED, Yahoo",
@@ -3455,14 +3455,14 @@
   "strip.gold": {
    "d": {
     "dir": "up",
-    "t": "+10.5%, 1m"
+    "t": "+11.5%, 1m"
    },
-   "date": "2026-08-28",
-   "dl": "28 Aug",
+   "date": "2026-08-30",
+   "dl": "30 Aug",
    "freq": "d",
    "kind": "strip",
    "src": "Yahoo GC=F",
-   "val": "4,530"
+   "val": "4,513"
   },
   "strip.hy": {
    "d": {
@@ -3587,10 +3587,10 @@
   "strip.usdjpy": {
    "d": {
     "dir": "down",
-    "t": "-2.0%, 1m"
+    "t": "-0.1%, 1m"
    },
-   "date": "2026-08-28",
-   "dl": "28 Aug",
+   "date": "2026-08-31",
+   "dl": "31 Aug",
    "freq": "d",
    "kind": "strip",
    "src": "Yahoo JPY=X",
@@ -3612,26 +3612,26 @@
   "strip.wti": {
    "d": {
     "dir": "down",
-    "t": "-0.2%, 1m"
+    "t": "-0.5%, 1m"
    },
-   "date": "2026-08-28",
-   "dl": "28 Aug",
+   "date": "2026-08-30",
+   "dl": "30 Aug",
    "freq": "d",
    "kind": "strip",
    "src": "Yahoo CL=F",
-   "val": "83.4"
+   "val": "84.2"
   },
   "th.btc.1m": {
    "s": 1,
-   "t": "+22.1%"
+   "t": "+20.2%"
   },
   "th.btc.1w": {
-   "s": 1,
-   "t": "+0.3%"
+   "s": -1,
+   "t": "-1.2%"
   },
   "th.btc.3m": {
    "s": 1,
-   "t": "+32.2%"
+   "t": "+30.2%"
   },
   "th.btc.breadth": {
    "s": 0,
@@ -4263,20 +4263,20 @@
    "src": "calendar rules: NYSE holidays, third Fridays, quarter ends, the tax calendar, the FOMC dates"
   },
   "cta.copper": {
-   "date": "2026-08-28",
-   "dl": "28 Aug",
+   "date": "2026-08-30",
+   "dl": "30 Aug",
    "freq": "d",
    "src": "Trend model on the closes: sign of 20, 50, 100 and 200-day returns, majority rule"
   },
   "cta.dxy": {
-   "date": "2026-08-28",
-   "dl": "28 Aug",
+   "date": "2026-08-30",
+   "dl": "30 Aug",
    "freq": "d",
    "src": "Trend model on the closes: sign of 20, 50, 100 and 200-day returns, majority rule"
   },
   "cta.gold": {
-   "date": "2026-08-28",
-   "dl": "28 Aug",
+   "date": "2026-08-30",
+   "dl": "30 Aug",
    "freq": "d",
    "src": "Trend model on the closes: sign of 20, 50, 100 and 200-day returns, majority rule"
   },
@@ -4299,8 +4299,8 @@
    "src": "Trend model on the closes: sign of 20, 50, 100 and 200-day returns, majority rule"
   },
   "cta.wti": {
-   "date": "2026-08-28",
-   "dl": "28 Aug",
+   "date": "2026-08-30",
+   "dl": "30 Aug",
    "freq": "d",
    "src": "Trend model on the closes: sign of 20, 50, 100 and 200-day returns, majority rule"
   },
@@ -4359,20 +4359,20 @@
    "src": "CFTC TFF plus the daily inputs listed in the cells"
   },
   "en.brent": {
-   "date": "2026-08-28",
-   "dl": "28 Aug",
+   "date": "2026-08-30",
+   "dl": "30 Aug",
    "freq": "d",
    "src": "Yahoo BZ=F"
   },
   "en.crack": {
-   "date": "2026-08-28",
-   "dl": "28 Aug",
+   "date": "2026-08-30",
+   "dl": "30 Aug",
    "freq": "d",
    "src": "Yahoo RB=F, HO=F, CL=F (3-2-1, computed)"
   },
   "en.natgas": {
-   "date": "2026-08-28",
-   "dl": "28 Aug",
+   "date": "2026-08-30",
+   "dl": "30 Aug",
    "freq": "d",
    "src": "Yahoo NG=F"
   },
@@ -4395,8 +4395,8 @@
    "src": "EIA WCESTUS1 (commercial crude, excluding SPR)"
   },
   "en.wti": {
-   "date": "2026-08-28",
-   "dl": "28 Aug",
+   "date": "2026-08-30",
+   "dl": "30 Aug",
    "freq": "d",
    "src": "Yahoo CL=F"
   },
@@ -4455,20 +4455,20 @@
    "src": "SqueezeMetrics GEX"
   },
   "flow2.pension": {
-   "date": "2026-08-30",
-   "dl": "30 Aug",
+   "date": "2026-08-31",
+   "dl": "31 Aug",
    "freq": "d",
    "src": "SPY and TLT quarter-to-date returns"
   },
   "flow2.rp": {
-   "date": "2026-08-30",
-   "dl": "30 Aug",
+   "date": "2026-08-31",
+   "dl": "31 Aug",
    "freq": "d",
    "src": "SPY and TLT: 100-day trends and 60-day correlation"
   },
   "flow2.volctl": {
-   "date": "2026-08-30",
-   "dl": "30 Aug",
+   "date": "2026-08-31",
+   "dl": "31 Aug",
    "freq": "d",
    "src": "S&P 500 closes, 21-day realized volatility against a 12% target"
   },
@@ -4485,32 +4485,32 @@
    "src": "Yahoo CEW"
   },
   "fx.dxy": {
-   "date": "2026-08-28",
-   "dl": "28 Aug",
+   "date": "2026-08-30",
+   "dl": "30 Aug",
    "freq": "d",
    "src": "Yahoo DX-Y.NYB"
   },
   "fx.eurusd": {
-   "date": "2026-08-28",
-   "dl": "28 Aug",
+   "date": "2026-08-31",
+   "dl": "31 Aug",
    "freq": "d",
    "src": "Yahoo EURUSD=X"
   },
   "fx.usdcny": {
-   "date": "2026-08-30",
-   "dl": "30 Aug",
+   "date": "2026-08-31",
+   "dl": "31 Aug",
    "freq": "d",
    "src": "Yahoo CNY=X"
   },
   "fx.usdjpy": {
-   "date": "2026-08-28",
-   "dl": "28 Aug",
+   "date": "2026-08-31",
+   "dl": "31 Aug",
    "freq": "d",
    "src": "Yahoo JPY=X"
   },
   "fx.usdthb": {
-   "date": "2026-08-30",
-   "dl": "30 Aug",
+   "date": "2026-08-31",
+   "dl": "31 Aug",
    "freq": "d",
    "src": "Yahoo THB=X"
   },
@@ -4599,8 +4599,8 @@
    "src": "Yahoo ^HSI"
   },
   "idx.n225": {
-   "date": "2026-08-28",
-   "dl": "28 Aug",
+   "date": "2026-08-31",
+   "dl": "31 Aug",
    "freq": "d",
    "src": "Yahoo ^N225"
   },
@@ -4641,20 +4641,20 @@
    "src": "Yahoo ^STOXX"
   },
   "im.copper": {
-   "date": "2026-08-28",
-   "dl": "28 Aug",
+   "date": "2026-08-30",
+   "dl": "30 Aug",
    "freq": "d",
    "src": "Yahoo HG=F"
   },
   "im.corn": {
-   "date": "2026-08-28",
-   "dl": "28 Aug",
+   "date": "2026-08-30",
+   "dl": "30 Aug",
    "freq": "d",
    "src": "Yahoo ZC=F"
   },
   "im.cu_au": {
-   "date": "2026-08-28",
-   "dl": "28 Aug",
+   "date": "2026-08-30",
+   "dl": "30 Aug",
    "freq": "d",
    "src": "Yahoo HG=F, GC=F"
   },
@@ -4665,8 +4665,8 @@
    "src": "Yahoo TIO=F"
   },
   "im.soy": {
-   "date": "2026-08-28",
-   "dl": "28 Aug",
+   "date": "2026-08-30",
+   "dl": "30 Aug",
    "freq": "d",
    "src": "Yahoo ZS=F"
   },
@@ -4677,8 +4677,8 @@
    "src": "Yahoo SRUUF (Sprott Physical Uranium Trust, a spot proxy)"
   },
   "im.wheat": {
-   "date": "2026-08-28",
-   "dl": "28 Aug",
+   "date": "2026-08-30",
+   "dl": "30 Aug",
    "freq": "d",
    "src": "Yahoo ZW=F"
   },
@@ -4689,32 +4689,32 @@
    "src": "Yahoo GC=F, THB=X (computed)"
   },
   "pm.gold": {
-   "date": "2026-08-28",
-   "dl": "28 Aug",
+   "date": "2026-08-30",
+   "dl": "30 Aug",
    "freq": "d",
    "src": "Yahoo GC=F"
   },
   "pm.gs_ratio": {
-   "date": "2026-08-28",
-   "dl": "28 Aug",
+   "date": "2026-08-30",
+   "dl": "30 Aug",
    "freq": "d",
    "src": "Yahoo GC=F, SI=F"
   },
   "pm.pall": {
-   "date": "2026-08-28",
-   "dl": "28 Aug",
+   "date": "2026-08-30",
+   "dl": "30 Aug",
    "freq": "d",
    "src": "Yahoo PA=F"
   },
   "pm.plat": {
-   "date": "2026-08-28",
-   "dl": "28 Aug",
+   "date": "2026-08-30",
+   "dl": "30 Aug",
    "freq": "d",
    "src": "Yahoo PL=F"
   },
   "pm.silver": {
-   "date": "2026-08-28",
-   "dl": "28 Aug",
+   "date": "2026-08-30",
+   "dl": "30 Aug",
    "freq": "d",
    "src": "Yahoo SI=F"
   },
@@ -4725,8 +4725,8 @@
    "src": "AAII survey page (bulls 32.9%, bears 44.4%)"
   },
   "pos.cr_crypto": {
-   "date": "2026-08-30",
-   "dl": "30 Aug",
+   "date": "2026-08-31",
+   "dl": "31 Aug",
    "freq": "d",
    "src": "alternative.me crypto fear and greed"
   },
@@ -4803,8 +4803,8 @@
    "src": "CFTC TFF report, asset managers"
   },
   "ratio.ag_au": {
-   "date": "2026-08-28",
-   "dl": "28 Aug",
+   "date": "2026-08-30",
+   "dl": "30 Aug",
    "freq": "d",
    "src": "Yahoo SI=F, GC=F"
   },
@@ -4821,8 +4821,8 @@
    "src": "Yahoo BTC-USD, GC=F"
   },
   "ratio.cu_au": {
-   "date": "2026-08-28",
-   "dl": "28 Aug",
+   "date": "2026-08-30",
+   "dl": "30 Aug",
    "freq": "d",
    "src": "Yahoo HG=F, GC=F"
   },
@@ -4839,8 +4839,8 @@
    "src": "Yahoo HYG, IEF"
   },
   "ratio.oil_au": {
-   "date": "2026-08-28",
-   "dl": "28 Aug",
+   "date": "2026-08-30",
+   "dl": "30 Aug",
    "freq": "d",
    "src": "Yahoo CL=F, GC=F"
   },
@@ -4857,8 +4857,8 @@
    "src": "Yahoo XLY, XLP"
   },
   "sc.btc": {
-   "date": "2026-08-30",
-   "dl": "30 Aug",
+   "date": "2026-08-31",
+   "dl": "31 Aug",
    "freq": "d",
    "src": "Yahoo BTC-USD"
   },
@@ -4869,14 +4869,14 @@
    "src": "Yahoo CEW"
   },
   "sc.copper": {
-   "date": "2026-08-28",
-   "dl": "28 Aug",
+   "date": "2026-08-30",
+   "dl": "30 Aug",
    "freq": "d",
    "src": "Yahoo HG=F"
   },
   "sc.dxy": {
-   "date": "2026-08-28",
-   "dl": "28 Aug",
+   "date": "2026-08-30",
+   "dl": "30 Aug",
    "freq": "d",
    "src": "Yahoo DX-Y.NYB"
   },
@@ -4887,8 +4887,8 @@
    "src": "Yahoo EEM"
   },
   "sc.gold": {
-   "date": "2026-08-28",
-   "dl": "28 Aug",
+   "date": "2026-08-30",
+   "dl": "30 Aug",
    "freq": "d",
    "src": "Yahoo GC=F"
   },
@@ -4899,8 +4899,8 @@
    "src": "Yahoo HYG"
   },
   "sc.n225": {
-   "date": "2026-08-28",
-   "dl": "28 Aug",
+   "date": "2026-08-31",
+   "dl": "31 Aug",
    "freq": "d",
    "src": "Yahoo ^N225"
   },
@@ -4917,8 +4917,8 @@
    "src": "Yahoo ^RUT"
   },
   "sc.silver": {
-   "date": "2026-08-28",
-   "dl": "28 Aug",
+   "date": "2026-08-30",
+   "dl": "30 Aug",
    "freq": "d",
    "src": "Yahoo SI=F"
   },
@@ -4941,14 +4941,14 @@
    "src": "FRED DGS10"
   },
   "sc.usdjpy": {
-   "date": "2026-08-28",
-   "dl": "28 Aug",
+   "date": "2026-08-31",
+   "dl": "31 Aug",
    "freq": "d",
    "src": "Yahoo JPY=X"
   },
   "sc.wti": {
-   "date": "2026-08-28",
-   "dl": "28 Aug",
+   "date": "2026-08-30",
+   "dl": "30 Aug",
    "freq": "d",
    "src": "Yahoo CL=F"
   },
@@ -5019,8 +5019,8 @@
    "src": "Yahoo XLY, SPY"
   },
   "th.btc": {
-   "date": "2026-08-30",
-   "dl": "30 Aug",
+   "date": "2026-08-31",
+   "dl": "31 Aug",
    "freq": "d",
    "src": "Yahoo BTC-USD, SPY"
   },
@@ -5178,8 +5178,8 @@
   "bitcoin": {
    "cond": 0.0,
    "cond_wow": null,
-   "date": "2026-08-30",
-   "dl": "30 Aug",
+   "date": "2026-08-31",
+   "dl": "31 Aug",
    "freq": "d",
    "mom": "-26.5%",
    "n_pillars": 5,
@@ -5225,7 +5225,7 @@
     "X": -1
    },
    "src": "Yahoo BTC-USD",
-   "tags": "Extended",
+   "tags": "Failed breakout, Extended",
    "wow_ref": null
   },
   "cash": {
@@ -5270,10 +5270,10 @@
   "copper": {
    "cond": -0.2,
    "cond_wow": null,
-   "date": "2026-08-28",
-   "dl": "28 Aug",
+   "date": "2026-08-30",
+   "dl": "30 Aug",
    "freq": "d",
-   "mom": "+46.0%",
+   "mom": "+44.2%",
    "n_pillars": 5,
    "pillars": {
     "C": {
@@ -5305,14 +5305,14 @@
      "v": 1.0
     }
    },
-   "price": 1.6,
+   "price": 1.4,
    "price_wow": null,
    "read": "Price ahead, up",
    "read_html": "<span class=\"chip accent\"><span class=\"g\">▲</span>Price ahead</span>",
    "rules": {
     "B": 1,
     "H": 2,
-    "M": 2,
+    "M": 1,
     "T": 2,
     "X": 1
    },
@@ -5358,14 +5358,14 @@
      "v": 2.0
     }
    },
-   "price": 0.6,
+   "price": 0.8,
    "price_wow": null,
    "read": "Aligned up",
    "read_html": "<span class=\"chip up\"><span class=\"g\">▲</span>Aligned up</span>",
    "rules": {
     "B": -2,
     "H": 1,
-    "M": 1,
+    "M": 2,
     "T": 2,
     "X": 1
    },
@@ -5482,10 +5482,10 @@
   "gold": {
    "cond": -0.3,
    "cond_wow": null,
-   "date": "2026-08-28",
-   "dl": "28 Aug",
+   "date": "2026-08-30",
+   "dl": "30 Aug",
    "freq": "d",
-   "mom": "+20.4%",
+   "mom": "+18.0%",
    "n_pillars": 5,
    "pillars": {
     "C": {
@@ -5517,7 +5517,7 @@
      "v": 0.0
     }
    },
-   "price": 0.4,
+   "price": -0.2,
    "price_wow": null,
    "read": "Neutral",
    "read_html": "<span class=\"chip\"><span class=\"g\">●</span>Neutral</span>",
@@ -5525,7 +5525,7 @@
     "B": 2,
     "H": 0,
     "M": 0,
-    "T": 2,
+    "T": -1,
     "X": -2
    },
    "src": "Yahoo GC=F",
@@ -5747,10 +5747,10 @@
   "silver": {
    "cond": 0.1,
    "cond_wow": null,
-   "date": "2026-08-28",
-   "dl": "28 Aug",
+   "date": "2026-08-30",
+   "dl": "30 Aug",
    "freq": "d",
-   "mom": "+52.0%",
+   "mom": "+47.0%",
    "n_pillars": 5,
    "pillars": {
     "C": {
@@ -7014,7 +7014,7 @@
     {
      "key": "btc",
      "name": "Bitcoin",
-     "score": -2.63,
+     "score": -2.48,
      "x": true
     },
     {
@@ -7030,7 +7030,7 @@
      "x": true
     }
    ],
-   "read": "The crowd is optimistic, not euphoric (S&P 500 crowd score +0.7). Divergence alerts: 10Y Treasuries (+2.8, smart money buying), us dollar (-2.9, smart money leaving), bitcoin (-2.6, smart money leaving) and copper (-3.7, smart money leaving). Trend followers are long S&P 500, Nasdaq 100, Gold and Copper and short 10Y Treasury note, WTI crude and Dollar index. Vol-control allocation is high."
+   "read": "The crowd is optimistic, not euphoric (S&P 500 crowd score +0.7). Divergence alerts: 10Y Treasuries (+2.8, smart money buying), us dollar (-2.9, smart money leaving), bitcoin (-2.5, smart money leaving) and copper (-3.7, smart money leaving). Trend followers are long S&P 500, Nasdaq 100, Gold, WTI crude and Copper and short 10Y Treasury note and Dollar index. Vol-control allocation is high."
   },
   "rates": {
    "curve": {
@@ -7078,40 +7078,40 @@
     "y1_date": "27 Aug 2025"
    },
    "path": {
-    "date": "28 Aug",
+    "date": "30 Aug",
     "effr": 3.63,
     "effr_date": "27 Aug",
-    "iso": "2026-08-28",
+    "iso": "2026-08-30",
     "n": 12,
     "points": [
      {
       "fomc": true,
       "label": "Sep 2026",
-      "rate": 3.69,
+      "rate": 3.7,
       "ym": "2026-09"
      },
      {
       "fomc": true,
       "label": "Oct 2026",
-      "rate": 3.78,
+      "rate": 3.79,
       "ym": "2026-10"
      },
      {
       "fomc": false,
       "label": "Nov 2026",
-      "rate": 3.85,
+      "rate": 3.86,
       "ym": "2026-11"
      },
      {
       "fomc": true,
       "label": "Dec 2026",
-      "rate": 3.96,
+      "rate": 3.97,
       "ym": "2026-12"
      },
      {
       "fomc": true,
       "label": "Jan 2027",
-      "rate": 4.01,
+      "rate": 4.02,
       "ym": "2027-01"
      },
      {
@@ -7123,7 +7123,7 @@
      {
       "fomc": true,
       "label": "Mar 2027",
-      "rate": 4.12,
+      "rate": 4.11,
       "ym": "2027-03"
      },
      {
@@ -7135,25 +7135,25 @@
      {
       "fomc": false,
       "label": "May 2027",
-      "rate": 4.2,
+      "rate": 4.19,
       "ym": "2027-05"
      },
      {
       "fomc": true,
       "label": "Jun 2027",
-      "rate": 4.22,
+      "rate": 4.21,
       "ym": "2027-06"
      },
      {
       "fomc": true,
       "label": "Jul 2027",
-      "rate": 4.23,
+      "rate": 4.21,
       "ym": "2027-07"
      },
      {
       "fomc": false,
       "label": "Aug 2027",
-      "rate": 4.23,
+      "rate": 4.22,
       "ym": "2027-08"
      }
     ],
@@ -8336,7 +8336,7 @@
        {
         "t": "2.1",
         "title": "hit rate 67% over 21 years",
-        "v": 2.1
+        "v": 2.08
        },
        {
         "t": "-0.1",
@@ -8468,7 +8468,7 @@
        {
         "t": "2.6",
         "title": "hit rate 52% over 21 years",
-        "v": 2.6
+        "v": 2.56
        },
        {
         "t": "-1.7",
@@ -8534,7 +8534,7 @@
        {
         "t": "-2.1",
         "title": "hit rate 38% over 21 years",
-        "v": -2.14
+        "v": -2.1
        },
        {
         "t": "-1.1",
@@ -8598,9 +8598,9 @@
         "v": -1.25
        },
        {
-        "t": "-0.1",
+        "t": "-0.2",
         "title": "hit rate 57% over 21 years",
-        "v": -0.08
+        "v": -0.17
        },
        {
         "t": "7.1",
@@ -8666,7 +8666,7 @@
        {
         "t": "-1.1",
         "title": "hit rate 38% over 21 years",
-        "v": -1.07
+        "v": -1.09
        },
        {
         "t": "-0.2",
@@ -8928,9 +8928,9 @@
         "v": 8.88
        },
        {
-        "t": "2.0",
+        "t": "1.9",
         "title": "hit rate 33% over 12 years",
-        "v": 2.04
+        "v": 1.88
        },
        {
         "t": "-1.8",

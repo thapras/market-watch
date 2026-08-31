@@ -1,5 +1,5 @@
 {
- "asOf": "2026-08-30T23:52+07:00",
+ "asOf": "2026-08-31T07:44+07:00",
  "date": "2026-08-28",
  "detector": {
   "btc": {
@@ -2521,11 +2521,11 @@
     ],
     "copper": [
      -0.2,
-     1.6
+     1.4
     ],
     "em_ex_china": [
      0.9,
-     0.6
+     0.8
     ],
     "energy": [
      0.3,
@@ -2537,7 +2537,7 @@
     ],
     "gold": [
      -0.3,
-     0.4
+     -0.2
     ],
     "gold_miners": [
      0.0,
@@ -2632,13 +2632,13 @@
   "copper": {
    "cond": -0.2,
    "name": "Copper and industrial metals",
-   "price": 1.6,
+   "price": 1.4,
    "read": "Price ahead, up"
   },
   "em_ex_china": {
    "cond": 0.9,
    "name": "Emerging markets ex China",
-   "price": 0.6,
+   "price": 0.8,
    "read": "Aligned up"
   },
   "energy": {
@@ -2656,7 +2656,7 @@
   "gold": {
    "cond": -0.3,
    "name": "Gold",
-   "price": 0.4,
+   "price": -0.2,
    "read": "Neutral"
   },
   "gold_miners": {
@@ -2839,7 +2839,7 @@
    "ndx": 1,
    "spx": 1,
    "ust10": -1,
-   "wti": -1
+   "wti": 1
   }
  },
  "v4": {
