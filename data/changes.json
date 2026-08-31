@@ -1,7 +1,43 @@
 {
- "asOf": "2026-08-31T07:44+07:00",
- "asOfLabel": "31 Aug 2026, 07:44 BKK",
+ "asOf": "2026-08-31T18:27+07:00",
+ "asOfLabel": "31 Aug 2026, 18:27 BKK",
  "changes": [
+  {
+   "d": "31 Aug",
+   "href": "#ranking",
+   "key": "nearrank.gold_miners",
+   "sec": "regime",
+   "t": "2026-08-31T18:27+07:00",
+   "text": "Near a flip: Gold miners price score +0.4 is inside the 0.5 band; one more step up changes the read from Neutral.",
+   "tier": "fyi"
+  },
+  {
+   "d": "31 Aug",
+   "href": "#calendar",
+   "key": "cal.jolts:2026-09-01",
+   "sec": "calendar",
+   "t": "2026-08-31T18:27+07:00",
+   "text": "Coming Tue 1 Sep, 10:00 ET: JOLTS job openings (consensus openings 7.33M); options price a 0.5% S&P move.",
+   "tier": "fyi"
+  },
+  {
+   "d": "31 Aug",
+   "href": "#markets",
+   "key": "sector.xlk",
+   "sec": "markets",
+   "t": "2026-08-31T18:27+07:00",
+   "text": "Technology moved from Weakening to Leading on the rotation map (relative strength 109.5, momentum 100.4).",
+   "tier": "note"
+  },
+  {
+   "d": "31 Aug",
+   "href": "#ranking",
+   "key": "rank.gold_miners",
+   "sec": "regime",
+   "t": "2026-08-31T18:27+07:00",
+   "text": "Gold miners read changed: Price ahead, up to Neutral (conditions +0.0, price +0.4).",
+   "tier": "note"
+  },
   {
    "d": "30 Aug",
    "href": "#regime",
