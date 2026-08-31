@@ -271,6 +271,16 @@ def main(argv=None):
                 prev = json.load(f)
         except Exception:           # noqa: BLE001
             prev = None
+
+    # the watchlist: hand-initiated snapshots in data/watchlist.json, graded against the S&P 500
+    try:
+        watch = ch.load(os.path.join(os.path.dirname(args.out) or ".", "watchlist.json"))
+        render.render_watchlist(D, o, watch, ((prev or {}).get("v2") or {}).get("watchlist"))
+        wl = o.v2.get("watchlist") or {}
+        if wl.get("rows") or wl.get("closed"):
+            log("watchlist: %d open snapshot(s), %d closed" % (len(wl.get("rows") or []), len(wl.get("closed") or [])))
+    except Exception as e:          # noqa: BLE001
+        errors.append("watchlist: %s: %s" % (type(e).__name__, e))
     payload = {
         "schema": 1,
         "asOf": now.isoformat(timespec="minutes"),

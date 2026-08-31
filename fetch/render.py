@@ -1629,3 +1629,76 @@ def render_v4(V4, o, now, V3=None):
     bo = next((e for e in V4["events"] if e["key"] == "blackout"), None)
     if bo:
         o.put("ce.blackout.next", cell(cal.span_label(bo["date"], bo["end"]) if bo.get("end") else cal.short_label(bo["date"])))
+
+
+# ---------------------------------------------------------------- the watchlist: snapshots graded against the page
+WL_EARLY_SESSIONS = 21          # the surprise index's resolve window: under it, too soon to grade
+WL_COND_BAND = 0.5              # the ranking's read band
+
+
+def wl_verdict(rel, sessions, cond_now):
+    """Open snapshots: early, working, stalled or not working, from the page's own thresholds."""
+    if sessions is None or sessions < WL_EARLY_SESSIONS:
+        return "early"
+    if rel is not None and rel > 0:
+        return "working"
+    if cond_now is not None and cond_now >= WL_COND_BAND:
+        return "stalled"
+    return "not working"
+
+
+def wl_grade(D, yk, date, end=None):
+    """Return and sessions from a snapshot date to the latest close (or to end), or None."""
+    if not yk or yk not in D or "spx" not in D or not date:
+        return None
+    s, b = A(D, yk), A(D, "spx")
+    if end:
+        s = [p for p in s if p[0] <= end]
+        b = [p for p in b if p[0] <= end]
+    if not s or not b:
+        return None
+    base, sbase = c.at_or_before(s, date), c.at_or_before(b, date)
+    if not (base and sbase and base[1] and sbase[1]):
+        return None
+    return {"ret": s[-1][1] / base[1] - 1.0, "spx": b[-1][1] / sbase[1] - 1.0,
+            "sessions": sum(1 for d, _ in s if d > date), "dl": dl(s[-1][0])}
+
+
+def render_watchlist(D, o, watch, prev=None):
+    """o.v2['watchlist'] from data/watchlist.json: every snapshot graded against the S&P 500.
+
+    watch is the hand-initiated file (fetch.watch writes it; this function never does); prev is the
+    previous run's block, the carry for a row whose price feed failed this run. US large caps, the
+    benchmark itself, grade on absolute return. Closed snapshots grade over snapshot to close."""
+    W = watch or {}
+    prev_rows = {r.get("id"): r for r in (((prev or {}).get("rows") or []) + ((prev or {}).get("closed") or []))}
+    wl_keys = {k: yk for k, yk, _ in RANKING}
+    rows, closed = [], []
+    for e in list(W.get("open") or []) + list(W.get("closed") or []):
+        is_closed = bool(e.get("closed"))
+        rk = o.rank.get(e.get("key")) or {}
+        row = {"id": e.get("id"), "key": e.get("key"), "date": e.get("date"),
+               "dl": dl(e["date"]) if e.get("date") else "", "note": e.get("note") or "",
+               "then": e.get("then") or {},
+               "now": {"cond": rk.get("cond"), "price": rk.get("price"), "read": rk.get("read")}}
+        if is_closed:
+            row["closed"], row["closed_dl"] = e["closed"], dl(e["closed"])
+            row["close_note"] = e.get("close_note") or ""
+        g = wl_grade(D, wl_keys.get(e.get("key")), e.get("date"), e.get("closed"))
+        if g:
+            rel = g["ret"] if e.get("key") == "us_large" else g["ret"] - g["spx"]
+            row.update({"ret": g["ret"], "spx": g["spx"], "rel": rel,
+                        "sessions": g["sessions"], "asof_dl": g["dl"]})
+            if is_closed:
+                row["verdict"] = "early" if g["sessions"] < WL_EARLY_SESSIONS else ("worked" if rel > 0 else "did not work")
+            else:
+                row["verdict"] = wl_verdict(rel, g["sessions"], rk.get("cond"))
+        elif e.get("id") in prev_rows:
+            row = dict(prev_rows[e["id"]])
+            row["stale"] = row.get("stale") or row.get("asof_dl") or "an earlier run"
+        else:
+            row["missing"], row["verdict"] = True, "no series"
+        (closed if is_closed else rows).append(row)
+    rows.sort(key=lambda r: r.get("date") or "", reverse=True)
+    closed.sort(key=lambda r: r.get("closed") or "", reverse=True)
+    o.v2["watchlist"] = {"rows": rows, "closed": closed, "src": "graded against Yahoo ^GSPC"}

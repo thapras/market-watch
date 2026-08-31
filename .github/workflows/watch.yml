@@ -1,0 +1,67 @@
+name: watch snapshot
+
+# The page's snapshot button opens a prefilled issue titled "watch: <key>". Submitting it (owner
+# only) runs fetch.watch against the committed data/latest.json, commits the entry, and closes the
+# issue with the result. The nightly fetch grades the snapshot from the next run on.
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: fetch
+  cancel-in-progress: false
+
+jobs:
+  snapshot:
+    if: github.event.issue.user.login == github.repository_owner && startsWith(github.event.issue.title, 'watch:')
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Add the snapshot from the issue title (first body line becomes the note)
+        id: add
+        env:
+          TITLE: ${{ github.event.issue.title }}
+          BODY: ${{ github.event.issue.body }}
+        run: |
+          key="$(printf '%s' "$TITLE" | sed 's/^watch:[[:space:]]*//' | tr -d '[:space:]' | tr 'A-Z' 'a-z')"
+          note="$(printf '%s' "$BODY" | head -n 1 | cut -c1-140)"
+          echo "key=$key" >> "$GITHUB_OUTPUT"
+          if python3 -m fetch.watch add "$key" --note "$note" > out.txt 2>&1; then
+            echo "ok=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "ok=false" >> "$GITHUB_OUTPUT"
+          fi
+          cat out.txt
+
+      - name: Commit the watchlist
+        if: steps.add.outputs.ok == 'true'
+        env:
+          KEY: ${{ steps.add.outputs.key }}
+          ISSUE: ${{ github.event.issue.number }}
+        run: |
+          git config user.name "market-watch-fetch"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/watchlist.json
+          git commit -m "watch: add $KEY (#$ISSUE)"
+          for i in 1 2 3; do git push && break || git pull --rebase; done
+
+      - name: Close the issue with the result
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ISSUE: ${{ github.event.issue.number }}
+          REPO: ${{ github.repository }}
+        run: |
+          gh issue comment "$ISSUE" --repo "$REPO" --body "$(cat out.txt 2>/dev/null || echo 'no output')"
+          gh issue close "$ISSUE" --repo "$REPO"

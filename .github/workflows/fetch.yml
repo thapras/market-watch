@@ -24,7 +24,7 @@ jobs:
           python-version: "3.12"
 
       - name: Unit tests for the rules and the page parsers
-        run: python3 -m unittest fetch.test_compute fetch.test_v2 fetch.test_v4
+        run: python3 -m unittest fetch.test_compute fetch.test_v2 fetch.test_v4 fetch.test_watch
 
       - name: Fetch the feeds and write data/latest.json
         run: python3 -m fetch.fetch --out data/latest.json

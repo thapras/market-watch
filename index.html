@@ -556,12 +556,27 @@ details.alert>.body{padding:0 14px 12px;display:flex;flex-direction:column;gap:8
 .tile.chart .empty{font-size:11.5px;color:var(--muted);padding:44px 0;text-align:center}
 .tile.chart.sample svg.ch{display:none}
 .tile.chart.live .empty{display:none}
+
+/* ---------- v4.2: the watchlist ---------- */
+.watchlist{margin-top:26px;border-top:1px solid var(--hair);padding-top:18px}
+.watchlist h3{margin:0 0 6px}
+.watchlist>.exp{color:var(--ink-2);font-size:12.5px;max-width:78ch;margin:0 0 12px}
+.wl-empty{color:var(--muted);font-size:13px;border:1px dashed var(--hair);border-radius:8px;padding:12px 14px;margin:0}
+.watchlist .tag{color:var(--muted);font-size:11px;margin-top:2px;font-weight:400}
+.watchlist td{vertical-align:top}
+.watchlist tr.wl-pend td{color:var(--muted)}
+.watchlist .foot{margin-top:10px;font-size:11px;color:var(--muted);line-height:1.45;padding-top:8px;border-top:1px solid var(--hair)}
+.watchlist details.wl-closed{margin-top:10px}
+.watchlist details.wl-closed summary{cursor:pointer;color:var(--muted);font-size:12.5px}
+.watchlist details.wl-closed[open] summary{margin-bottom:8px}
+td.name .snap{display:inline-block;margin-left:7px;color:var(--muted);text-decoration:none;border:1px solid var(--hair-2);border-radius:6px;line-height:1;padding:1px 5px 2px;font-size:11px;vertical-align:1px}
+td.name .snap:hover,td.name .snap:focus-visible{color:var(--accent-text);border-color:var(--accent)}
 </style>
 </head>
 <body>
 <header class="topbar">
   <div class="wrap">
-    <div class="brand"><h1>Market Watch</h1><span class="v">v4.1, 30 Aug 2026</span><span class="stamp" id="stamp">data file not loaded yet</span></div>
+    <div class="brand"><h1>Market Watch</h1><span class="v">v4.2, 31 Aug 2026</span><span class="stamp" id="stamp">data file not loaded yet</span></div>
     <nav class="sections" aria-label="Sections">
       <a href="#regime">Regime</a>
       <a href="#liquidity">1 Liquidity</a>
@@ -688,6 +703,12 @@ details.alert>.body{padding:0 14px 12px;display:flex;flex-direction:column;gap:8
       </table>
     </div>
     <div class="foot"><b>Conditions pillars:</b> L liquidity (the section 1 composite times the asset's liquidity beta), C cost of money (real yields, curve shape and the dollar, mapped per asset), Y cycle (the Investment Clock quadrant's historical preference), V valuation (percentile of the asset's own valuation history), F flows (four-week z-score), P positioning (the section 6 divergence score, contrarian), S seasonal (the next twelve months from the twenty-year record, including the presidential cycle). <b>Weights</b> 1, 1, 1, 1, 0.5, 1, 0.5. <b>Price rules</b>, each scored -2 to +2 and equal-weighted: T price against its 200-day average and the average's slope (above a rising average +2, below a falling one -2); M twelve-month return skipping the last month, ranked across these eighteen markets (top three +2, bottom three -2); X the 50-day against the 200-day, three closes to confirm, a cross inside the last three months counts double; H distance to the 52-week high (within 3% +2, within 10% +1, more than 20% below -1, at a 52-week low -2); B share of members above their 200-day (over 70% +2, under 35% -1, under 20% -2), or the trend of the ratio to the S&amp;P 500 where there are no members (not applied to the two bond rows, whose ratio to equities measures the equity cycle, not breadth). <b>Tags</b> mark 20 and 55-day breakouts, bases (55-day range under 8%), failed breakouts (back below the level within ten sessions) and extended moves (more than 10% above the 50-day); tags are shown, not scored, until three months of logs exist. <b>Read:</b> both scores at or beyond 0.5 in the same direction is Aligned; opposite directions is Divergence; one score beyond the band with the other inside it is Conditions ahead or Price ahead, with the arrow of the leading score. Named chart patterns (head and shoulders, wedges, cups) are deliberately excluded: the evidence for them is weak and a pattern read by eye cannot be backtested or refreshed nightly. Cells show the sign of each input; the scores use the magnitudes. Price rules go live in v1, the conditions score in v2, both shown with the change since last week; the table above is hand-built from the placeholder readings on this page.</div>
+  </div>
+  <div class="watchlist" id="watchlist">
+    <h3>Watchlist: snapshots against the page</h3>
+    <p class="exp">A snapshot freezes a market's row above as it stands: both scores, the read and the tags. Every data run after that grades it against what happened next, the market's own return beside the S&amp;P 500 since that day. The goal is evidence for the reads themselves: does conditions ahead actually lead price, does aligned up keep paying. Not advice, positions or price targets.</p>
+    <div id="wl-body"><p class="wl-empty">No snapshots yet. The + beside a market's name in the ranking adds one (it opens a prefilled GitHub issue; submitting is for the repo owner), or run /watch add gold in a working session. Entries appear here on the next data run.</p></div>
+    <div class="foot"><b>Grades:</b> early (under 21 sessions, the window the surprise index uses to resolve), working (ahead of the S&amp;P 500 since the snapshot), stalled (behind, conditions still at or above 0.5), not working (behind, conditions below 0.5). Closed snapshots grade over snapshot to close (worked, did not work) and collapse below the table. US large caps, the benchmark itself, grade on absolute return. A row whose price feed fails a run carries its last grade with its date. Grades compare closes only, use the page's stated thresholds, and never fire alerts.</div>
   </div>
 </section>
 
@@ -1995,6 +2016,8 @@ details.alert>.body{padding:0 14px 12px;display:flex;flex-direction:column;gap:8
       total++;
       if (!r || r.price == null) { [5, 6, 7].forEach(function(i){ if (tds[i]) tds[i].classList.add('sample'); }); return; }
       live++;
+      var nm = tds[1];
+      if (nm && !nm.querySelector('.snap')) { var sa = document.createElement('a'); sa.className = 'snap'; sa.setAttribute('aria-label', 'Snapshot ' + nm.textContent.trim() + ' to the watchlist'); sa.href = 'https://github.com/thapras/market-watch/issues/new?title=' + encodeURIComponent('watch: ' + tr.getAttribute('data-rank')); sa.target = '_blank'; sa.rel = 'noopener'; sa.textContent = '+'; sa.title = 'Snapshot to the watchlist: opens a prefilled GitHub issue (repo owner only)'; nm.appendChild(sa); }
       var bar = tds[5].querySelector('.sbar i');
       if (bar) { bar.setAttribute('data-v', r.price); bar.className = r.price >= 0 ? 'p' : 'm'; bar.style.width = (Math.min(2, Math.abs(r.price)) / 2 * 50) + '%'; }
       tds[6].textContent = (r.price > 0 ? '+' : '') + r.price.toFixed(1); setSign(tds[6], r.price); tds[6].classList.add('live');
@@ -2237,10 +2260,115 @@ details.alert>.body{padding:0 14px 12px;display:flex;flex-direction:column;gap:8
       live(pt, 'Yahoo ZQ futures, ' + P.date);
     }
   }
+  /* ---------- v4.2: the watchlist panel ---------- */
+  var WLREAD = {'Aligned up': ['chip up', '\u25b2'], 'Aligned down': ['chip serious', '\u25bc'], 'Conditions ahead, up': ['chip accent', '\u25b2'], 'Conditions ahead, down': ['chip warn', '\u25bc'], 'Price ahead, up': ['chip accent', '\u25b2'], 'Price ahead, down': ['chip warn', '\u25bc'], 'Divergence': ['chip warn', '\u25c6'], 'Neutral': ['chip', '\u25cf']};
+  var WLVERDICT = {working: ['chip up', '\u25b2'], early: ['chip', '\u25cf'], stalled: ['chip warn', '\u25cf'], 'not working': ['chip serious', '\u25bc'], worked: ['chip up', '\u25b2'], 'did not work': ['chip serious', '\u25bc'], 'no series': ['chip muted', '']};
+  function wlName(key){
+    var nm = document.querySelector('tr[data-rank="' + key + '"] td.name');
+    if (!nm) return key;
+    var cp = nm.cloneNode(true), sn = cp.querySelector('.snap');
+    if (sn) cp.removeChild(sn);
+    return cp.textContent.trim() || key;
+  }
+  function wlChip(map, label, text){
+    var m = map[label];
+    if (!m) return el('span', 'chip muted', text || label || '');
+    var sp = el('span', m[0]);
+    if (m[1]) sp.appendChild(el('span', 'g', m[1]));
+    sp.appendChild(document.createTextNode(text != null ? text : label));
+    return sp;
+  }
+  function wlNum(v){ return v == null ? 'n/a' : (v > 0 ? '+' : '') + (+v).toFixed(1); }
+  function wlDl(d){
+    var m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(d || '');
+    if (!m) return d || '';
+    var MS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+    var t = (+m[3]) + ' ' + MS[+m[2] - 1];
+    return +m[1] === new Date().getFullYear() ? t : t + ' ' + m[1];
+  }
+  function wlPct(v){ return (v > 0 ? '+' : '') + (v * 100).toFixed(1) + '%'; }
+  function wlTable(){
+    var t = el('table', 'tbl cards-sm');
+    t.innerHTML = '<thead><tr><th>Market</th><th>Snapshot</th><th>Then</th><th>Now</th><th class="n">Return</th><th class="n">vs S&amp;P 500</th><th>Grade</th></tr></thead>';
+    t.appendChild(el('tbody'));
+    return t;
+  }
+  function wlRow(r, isClosed){
+    var tr = el('tr');
+    var nm = el('td', 'name'); nm.appendChild(document.createTextNode(wlName(r.key)));
+    if (r.note) nm.appendChild(el('div', 'tag', r.note));
+    tr.appendChild(nm);
+    var sn = el('td', 'n'); sn.appendChild(document.createTextNode(r.dl || r.date || ''));
+    sn.appendChild(el('div', 'tag', isClosed ? 'closed ' + (r.closed_dl || '') : (r.sessions != null ? r.sessions + ' sessions' : 'not graded yet')));
+    tr.appendChild(sn);
+    [r.then || {}, r.now || {}].forEach(function(x){
+      var td = el('td');
+      if (x.read) td.appendChild(wlChip(WLREAD, x.read, x.read.split(',')[0]));
+      td.appendChild(el('div', 'tag', 'C ' + wlNum(x.cond) + ', P ' + wlNum(x.price)));
+      tr.appendChild(td);
+    });
+    var rt = el('td', 'n', r.ret != null ? wlPct(r.ret) : ''); if (r.ret != null) setSign(rt, r.ret); tr.appendChild(rt);
+    var rl = el('td', 'n');
+    if (r.key === 'us_large') { rl.textContent = 'benchmark'; rl.style.color = 'var(--muted)'; }
+    else if (r.rel != null) { rl.textContent = wlPct(r.rel); setSign(rl, r.rel); rl.title = 'market ' + wlPct(r.ret) + ', S&P 500 ' + wlPct(r.spx); }
+    tr.appendChild(rl);
+    var gd = el('td'); gd.appendChild(wlChip(WLVERDICT, r.verdict || ''));
+    if (r.stale) { gd.appendChild(el('div', 'tag', 'carried, ' + r.stale)); tr.classList.add('stale'); }
+    if (isClosed && r.close_note) gd.appendChild(el('div', 'tag', r.close_note));
+    if (r.missing) gd.appendChild(el('div', 'tag', 'price series unavailable'));
+    tr.appendChild(gd);
+    return tr;
+  }
+  function wlPanel(WL){
+    var body = document.getElementById('wl-body');
+    if (!body || !WL) return;
+    var rows = WL.rows || [], closedRows = WL.closed || [];
+    if (!rows.length && !closedRows.length) return;
+    body.innerHTML = '';
+    if (rows.length) {
+      var t = wlTable();
+      rows.forEach(function(r){ t.lastChild.appendChild(wlRow(r, false)); });
+      var w = el('div', 'scroll'); w.appendChild(t); body.appendChild(w);
+    } else {
+      body.appendChild(el('p', 'wl-empty', 'Nothing open. Closed snapshots are below; the + beside a market in the ranking adds a new one.'));
+    }
+    if (closedRows.length) {
+      var d = el('details', 'wl-closed'); d.appendChild(el('summary', null, 'Closed: ' + closedRows.length));
+      var t2 = wlTable();
+      closedRows.forEach(function(r){ t2.lastChild.appendChild(wlRow(r, true)); });
+      var w2 = el('div', 'scroll'); w2.appendChild(t2); d.appendChild(w2);
+      body.appendChild(d);
+    }
+    mobileLabels(); overflowFades();
+  }
+  function wlPending(data){
+    if (!window.fetch) return;
+    fetch('data/watchlist.json?t=' + Math.floor(Date.now() / 900000), {cache: 'no-store'}).then(function(r){ if (!r.ok) throw new Error(r.status); return r.json(); }).then(function(w){
+      var have = {};
+      ((((data || {}).v2 || {}).watchlist || {}).rows || []).forEach(function(r){ have[r.id] = 1; });
+      var pend = (w.open || []).filter(function(e){ return !have[e.id]; });
+      if (!pend.length) return;
+      var body = document.getElementById('wl-body');
+      if (!body) return;
+      var t = body.querySelector('.scroll table');
+      if (!t) { body.innerHTML = ''; t = wlTable(); var w3 = el('div', 'scroll'); w3.appendChild(t); body.appendChild(w3); }
+      var tb = t.lastChild;
+      pend.forEach(function(e){
+        var tr = el('tr', 'wl-pend');
+        var nm = el('td', 'name'); nm.appendChild(document.createTextNode(wlName(e.key)));
+        if (e.note) nm.appendChild(el('div', 'tag', e.note));
+        tr.appendChild(nm);
+        tr.appendChild(el('td', 'n', wlDl(e.date)));
+        var td = el('td', 'txt', 'logged, grades after the next data run'); td.colSpan = 5; tr.appendChild(td);
+        tb.insertBefore(tr, tb.firstChild);
+      });
+      mobileLabels();
+    }).catch(function(){});
+  }
   function visuals(data){
     var v2 = data.v2 || {};
     encodeCells(); mobileLabels(); overflowFades();
-    rankMap(data.rank || {}); compTrails(v2.regime); calStrip(v2.calendar); ratesCharts(v2.rates);
+    rankMap(data.rank || {}); compTrails(v2.regime); calStrip(v2.calendar); ratesCharts(v2.rates); wlPanel(v2.watchlist);
   }
   function fillV2(v){
     var R = v.regime, T = v.rotation;
@@ -2452,7 +2580,7 @@ details.alert>.body{padding:0 14px 12px;display:flex;flex-direction:column;gap:8
   if (inline) { try { fill(JSON.parse(inline.textContent)); return; } catch (e) {} }
   var url = 'data/latest.json?t=' + Math.floor(Date.now() / 900000);
   if (!window.fetch) { none('This browser cannot load the data file; placeholders shown.'); return; }
-  fetch(url, {cache: 'no-store'}).then(function(r){ if (!r.ok) throw new Error(r.status); return r.json(); }).then(fill).catch(function(){ none('The data file could not be loaded, so every figure is a placeholder. Run the fetcher, or open the page over http rather than file://.'); });
+  fetch(url, {cache: 'no-store'}).then(function(r){ if (!r.ok) throw new Error(r.status); return r.json(); }).then(function(d){ fill(d); wlPending(d); }).catch(function(){ none('The data file could not be loaded, so every figure is a placeholder. Run the fetcher, or open the page over http rather than file://.'); });
 })();
 </script>
 
