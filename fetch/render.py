@@ -1662,6 +1662,7 @@ def wl_grade(D, yk, date, end=None):
     if not (base and sbase and base[1] and sbase[1]):
         return None
     return {"ret": s[-1][1] / base[1] - 1.0, "spx": b[-1][1] / sbase[1] - 1.0,
+            "px0": base[1], "px1": s[-1][1], "b0": sbase[1], "b1": b[-1][1],
             "sessions": sum(1 for d, _ in s if d > date), "dl": dl(s[-1][0])}
 
 
@@ -1689,6 +1690,7 @@ def render_watchlist(D, o, watch, prev=None):
         if g:
             rel = g["ret"] if e.get("key") == "us_large" else g["ret"] - g["spx"]
             row.update({"ret": g["ret"], "spx": g["spx"], "rel": rel,
+                        "level_then": g["px0"], "level_now": g["px1"], "spx_then": g["b0"], "spx_now": g["b1"],
                         "sessions": g["sessions"], "asof_dl": g["dl"]})
             if is_closed:
                 row["verdict"] = "early" if g["sessions"] < WL_EARLY_SESSIONS else ("worked" if rel > 0 else "did not work")

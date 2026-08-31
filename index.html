@@ -2291,8 +2291,10 @@ td.name .snap:hover,td.name .snap:focus-visible{color:var(--accent-text);border-
     var inRepo = repo.some(function(e){ return e.key === key; });
     if (!exists && !inRepo) {
       var day = r.date || new Date().toISOString().slice(0, 10);
+      var ps = null;
+      if (r.pillars) { ps = {}; for (var pk2 in r.pillars) ps[pk2] = r.pillars[pk2] && r.pillars[pk2].v; }
       st.open.push({id: key + ':' + day + ':local', key: key, date: day,
-        then: {cond: r.cond, price: r.price, read: r.read, tags: r.tags},
+        then: {cond: r.cond, price: r.price, read: r.read, tags: r.tags, rules: r.rules || null, pillars: ps},
         level: r.level, spx: (rank.us_large || {}).level});
       wlStoreSave(st);
       wlRerender();
@@ -2311,6 +2313,7 @@ td.name .snap:hover,td.name .snap:focus-visible{color:var(--accent-text);border-
       var r = (rank || {})[e.key] || {};
       var row = {local: true, id: e.id, key: e.key, date: e.date, dl: wlDl(e.date), note: e.note || '',
                  then: e.then || {}, now: {cond: r.cond, price: r.price, read: r.read}};
+      row.level_then = e.level; row.level_now = r.level; row.spx_then = e.spx; row.spx_now = ((rank || {}).us_large || {}).level;
       if (e.level != null && r.level != null) {
         row.ret = r.level / e.level - 1;
         if (e.spx != null && spxNow != null) row.spx = spxNow / e.spx - 1;
@@ -2339,6 +2342,7 @@ td.name .snap:hover,td.name .snap:focus-visible{color:var(--accent-text);border-
     return +m[1] === new Date().getFullYear() ? t : t + ' ' + m[1];
   }
   function wlPct(v){ return (v > 0 ? '+' : '') + (v * 100).toFixed(1) + '%'; }
+  function wlLvl(v){ if (v == null) return ''; var a2 = Math.abs(v), d = a2 >= 1000 ? 0 : a2 >= 100 ? 1 : 2; return (+v).toLocaleString('en-US', {minimumFractionDigits: d, maximumFractionDigits: d}); }
   function wlTable(){
     var t = el('table', 'tbl cards-sm');
     t.innerHTML = '<thead><tr><th>Market</th><th>Snapshot</th><th>Then</th><th>Now</th><th class="n">Return</th><th class="n">vs S&amp;P 500</th><th>Grade</th></tr></thead>';
@@ -2360,10 +2364,15 @@ td.name .snap:hover,td.name .snap:focus-visible{color:var(--accent-text);border-
       td.appendChild(el('div', 'tag', 'C ' + wlNum(x.cond) + ', P ' + wlNum(x.price)));
       tr.appendChild(td);
     });
-    var rt = el('td', 'n', r.ret != null ? wlPct(r.ret) : ''); if (r.ret != null) setSign(rt, r.ret); tr.appendChild(rt);
+    var rt = el('td', 'n', r.ret != null ? wlPct(r.ret) : ''); if (r.ret != null) setSign(rt, r.ret);
+    if (r.level_then != null && r.level_now != null) rt.appendChild(el('div', 'tag', wlLvl(r.level_then) + ' to ' + wlLvl(r.level_now)));
+    tr.appendChild(rt);
     var rl = el('td', 'n');
     if (r.key === 'us_large') { rl.textContent = 'benchmark'; rl.style.color = 'var(--muted)'; }
-    else if (r.rel != null) { rl.textContent = wlPct(r.rel); setSign(rl, r.rel); rl.title = 'market ' + wlPct(r.ret) + ', S&P 500 ' + wlPct(r.spx); }
+    else if (r.rel != null) {
+      rl.textContent = wlPct(r.rel); setSign(rl, r.rel); rl.title = 'market ' + wlPct(r.ret) + ', S&P 500 ' + wlPct(r.spx);
+      if (r.spx_then != null && r.spx_now != null) rl.appendChild(el('div', 'tag', 'S&P ' + wlLvl(r.spx_then) + ' to ' + wlLvl(r.spx_now)));
+    }
     tr.appendChild(rl);
     var gd = el('td'); gd.appendChild(wlChip(WLVERDICT, r.verdict || ''));
     if (r.stale) { gd.appendChild(el('div', 'tag', 'carried, ' + r.stale)); tr.classList.add('stale'); }

@@ -94,6 +94,9 @@ class WatchGrading(unittest.TestCase):
         self.assertEqual(r["sessions"], 60)
         self.assertGreater(r["rel"], 0)
         self.assertAlmostEqual(r["ret"], 1.002 ** 60 - 1.0, places=6)
+        self.assertAlmostEqual(r["level_then"], D["gold"]["adj"][-61][1], places=6)
+        self.assertAlmostEqual(r["level_now"], D["gold"]["adj"][-1][1], places=6)
+        self.assertAlmostEqual(r["spx_now"], 100.0, places=6)
 
     def test_early_under_21_sessions(self):
         D = self.D(0.002)
