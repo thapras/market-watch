@@ -4,7 +4,7 @@
 > Put only what's specific to THIS project below.
 
 ## What this is
-A personal global-markets monitor: is money supply growing, where is it sitting, where is it starting to rotate, what events could move it, and how smart money is positioned versus the crowd. Single static page (`index.html`), six questions in reading order, plus a build plan.
+A personal global-markets monitor: is money supply growing, where is it sitting, where is it starting to rotate, what events could move it, and how smart money is positioned versus the crowd. Single static page (`index.html`), six questions in reading order; the build plan lives in `PLAN.md` (cut from the page 31 Aug 2026).
 
 ## Stack / constraints
 - `index.html`: one self-contained page, no build step, no libraries. Google Fonts (Archivo, JetBrains Mono) with system fallbacks. Theme-aware (light and dark tokens). It reads `data/latest.json` (or an inline `#mw-data` block in the artifact copy) and fills every element carrying `data-tile`, `data-strip`, `data-cell` or `data-rank`; unfilled elements are tagged sample, failed feeds carry forward stale, readings older than their refresh interval (loader LIMIT: daily 10 days, weekly 16, monthly 110) grey out with their date.

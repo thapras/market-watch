@@ -570,7 +570,6 @@ details.alert>.body{padding:0 14px 12px;display:flex;flex-direction:column;gap:8
       <a href="#rotation">4 Rotation</a>
       <a href="#calendar">5 Calendar</a>
       <a href="#sentiment">6 Sentiment</a>
-      <a href="#build">Build plan</a>
     </nav>
   </div>
 </header>
@@ -1704,94 +1703,9 @@ details.alert>.body{padding:0 14px 12px;display:flex;flex-direction:column;gap:8
   </div>
 </section>
 
-<!-- ============ BUILD PLAN ============ -->
-<section id="build" class="block" aria-labelledby="build-h">
-  <div class="sec-head">
-    <div>
-      <span class="q">Build plan</span>
-      <h2 id="build-h">How this gets built, right-sized</h2>
-      <p class="why">Static page, one nightly script, free data only, no backend and no database. Each phase is useful on its own; v1 alone replaces the placeholders with live numbers. About thirteen to seventeen weekends in total at eight to ten hours a week.</p>
-    </div>
-    <div class="read"><span class="label">Recommendation</span>Build v1 next. Live numbers in the regime strip, the scorecard, liquidity, rates and markets are what make the weekly routine real, and they now cover most of what a professional desk reads each morning; the detector, regime and positioning layers are only worth tuning against data you have been reading for a few weeks.</div>
-  </div>
-
-  <div class="grid">
-    <div class="s6 card">
-      <h3>Phases</h3>
-      <div class="phase"><div class="p">v0<small>today</small></div><div><b>This page.</b><p>Layout, the six questions, the detection logic, the calendar template and the sentiment method, all with placeholder numbers.</p></div></div>
-      <div class="phase"><div class="p">v1<small>4 to 5 weekends</small></div><div><b>Live numbers.</b><p>A Python script (FRED API, yfinance, CFTC and EIA CSVs, NY Fed, CBOE) runs nightly on GitHub Actions and writes <span class="num">data/latest.json</span>; the page reads it and fills the tiles and tables. The scorecard, z-scores, factor spreads, ratios, currencies, term premium, NFCI and the VIX term structure come from the same feeds, so most of what a desk reads daily is live from v1. The price rules behind the ranking (200-day trend, 12-1 momentum, 50/200 state, 52-week high, breadth, breakout tags) are simple transforms of the same closes, so the price-confirmation score is live from v1 too, at the cost of about one extra weekend. Hosted as a static site on a private URL.</p></div></div>
-      <div class="phase"><div class="p">v2<small>4.5 to 5.5 weekends</small></div><div><b>Rotation detector and regime.</b><p>Vol-adjusted relative strength, ETF flows from share counts, breadth from holdings files, de-trended seasonality from twenty years of daily closes, the four composites and the cycle clock, the conditions score of the ranking with its weekly change, the CTA and vol-control replication, the growth pulse and the FactSet valuation pull. Scores, states, backtest statistics and the alert log. Every state change is appended to <span class="num">data/changes.json</span> (ninety days, which is also the tuning log); the page shows what changed since your last read, with a count per section in the bar. The morning digest, Bangkok time, goes out only when there is a must-read, and must-reads also push over a Telegram bot or ntfy from the same Action: about half a weekend plus an hour for the channel.</p></div></div>
-      <div class="phase"><div class="p">v3<small>2 to 3 weekends</small></div><div><b>Sentiment and positioning.</b><p>COT index and TFF report from the CFTC, AAII, NAAIM, Investors Intelligence and BofA headlines, put/call by participant, margin debt, search interest, dealer gamma from open interest, the divergence score and its alerts. Refreshes Friday nights.</p></div></div>
-      <div class="phase"><div class="p">v4<small>2 to 3 weekends</small></div><div><b>Calendar, event studies and briefs.</b><p>Nightly pull of the release calendar filtered to tiers 1 and 2 (Forex Factory for the week, the central bank pages, the BLS lists, TreasuryDirect, rules for the usual slots), the in-house surprise index from logged consensus against FRED first prints, event studies per release since 2011, options-implied moves per session from the SPX chain; rule-based expectation columns on every row, replaced by the Sunday brief (drafted in a Claude session from consensus, positioning and the event study, reviewed before it is saved).</p></div></div>
-    </div>
-
-    <div class="s6 card tight">
-      <h3>Data sources and refresh</h3>
-      <div class="scroll">
-        <table class="tbl cards-sm">
-          <thead><tr><th>Panel</th><th>Series</th><th>Free source</th><th>Refresh</th><th class="n">Phase</th></tr></thead>
-          <tbody>
-            <tr><td class="name">Liquidity</td><td class="txt">M2, Fed balance sheet, TGA, RRP, bank credit</td><td class="txt">FRED API</td><td>Weekly</td><td class="n">v1</td></tr>
-            <tr><td class="name">Liquidity</td><td class="txt">Euro area and Japan M2 (China M2 has no free monthly feed; China TSF open)</td><td class="txt">ECB data portal, BoJ time series</td><td>Monthly</td><td class="n">v1</td></tr>
-            <tr><td class="name">Rates</td><td class="txt">Treasury yields, TIPS, breakevens, spreads, mortgage</td><td class="txt">FRED API</td><td>Daily</td><td class="n">v1</td></tr>
-            <tr><td class="name">Rates</td><td class="txt">Implied cuts</td><td class="txt">Fed funds futures via the Yahoo chart endpoint</td><td>Daily</td><td class="n">v1</td></tr>
-            <tr><td class="name">Markets</td><td class="txt">Indices, sector and theme ETFs, futures, FX, bitcoin</td><td class="txt">Yahoo chart endpoint</td><td>Daily</td><td class="n">v1</td></tr>
-            <tr><td class="name">Markets</td><td class="txt">Money market fund assets (weekly change as the flow proxy); other fund flows open</td><td class="txt">ICI weekly release</td><td>Weekly</td><td class="n">v1</td></tr>
-            <tr><td class="name">Markets</td><td class="txt">Crude and SPR stocks, oil rig count (monthly); OPEC spare capacity open</td><td class="txt">EIA history tables (weekly report, Baker Hughes count)</td><td>Weekly</td><td class="n">v1</td></tr>
-            <tr><td class="name">Rotation</td><td class="txt">Holdings files for breadth (SPDR funds), twenty years of closes for seasonality and backtests; ETF share counts for flows still open</td><td class="txt">SSGA holdings workbooks, Yahoo chart endpoint</td><td>Daily</td><td class="n">v2</td></tr>
-            <tr><td class="name">Sentiment</td><td class="txt">Hedger and speculator positioning, nine markets</td><td class="txt">CFTC Socrata API (legacy and TFF)</td><td>Weekly, Fri</td><td class="n">v3</td></tr>
-            <tr><td class="name">Sentiment</td><td class="txt">AAII survey, Cboe put/call, FINRA margin debt, DIX and GEX, crypto fear and greed live; search, insiders and NAAIM have no free feed</td><td class="txt">AAII page, Cboe daily JSON, FINRA, SqueezeMetrics, alternative.me</td><td>Weekly</td><td class="n">v3</td></tr>
-            <tr><td class="name">Calendar</td><td class="txt">Releases, consensus, meeting dates, auctions, implied moves; earnings dates have no keyless feed</td><td class="txt">Forex Factory JSON, Fed, ECB and BoJ pages, BLS archives, TreasuryDirect, Cboe SPX chain</td><td>Nightly</td><td class="n">v4</td></tr>
-            <tr><td class="name">Liquidity</td><td class="txt">Bank reserves, SOFR, IORB, bills share, fiscal impulse</td><td class="txt">FRED (WRESBAL, SOFR, IORB, MTSDS133FMS), Treasury FiscalData (Monthly Statement of the Public Debt)</td><td>Daily, monthly</td><td class="n">v1</td></tr>
-            <tr><td class="name">Rates</td><td class="txt">Term premium, 3m10y, 5y5y, NFCI, CCC spread</td><td class="txt">FRED (THREEFYTP10 Kim-Wright, T10Y3M, T5YIFR, NFCI, BAMLH0A3HYC)</td><td>Daily, weekly</td><td class="n">v1</td></tr>
-            <tr><td class="name">Volatility</td><td class="txt">VIX term structure, implied correlation, MOVE</td><td class="txt">Yahoo (VIX, VIX3M, MOVE), Cboe history CSV (COR3M)</td><td>Daily</td><td class="n">v1</td></tr>
-            <tr><td class="name">Markets</td><td class="txt">Scorecard, factor ETFs, ratios, currencies, global yields</td><td class="txt">Yahoo chart endpoint, FRED, BIS policy rates</td><td>Daily</td><td class="n">v1</td></tr>
-            <tr><td class="name">Ranking</td><td class="txt">Price rules: 200-day, 12-1 momentum, 50/200, 52-week high, breadth, breakout tags</td><td class="txt">yfinance closes, issuer holdings files</td><td>Daily</td><td class="n">v1</td></tr>
-            <tr><td class="name">Notifications</td><td class="txt">State-change log, per-section unread counts, digest, push</td><td class="txt">GitHub Actions cron, Gmail SMTP app password, Telegram bot or ntfy.sh (all free)</td><td>Nightly, must-read only</td><td class="n">v2</td></tr>
-            <tr><td class="name">Growth pulse</td><td class="txt">Nowcasts, claims, Sahm, CFNAI, payrolls live; the US surprise index is in-house from v4; PMIs, Korea exports and Baltic Dry have no free feed</td><td class="txt">FRED, Cleveland Fed nowcast file, the consensus log</td><td>Weekly</td><td class="n">v1</td></tr>
-            <tr><td class="name">Valuation</td><td class="txt">Trailing P/E and equity risk premium live; forward P/E, revisions and expected growth need FactSet</td><td class="txt">multpl, FRED</td><td>Monthly</td><td class="n">v1</td></tr>
-            <tr><td class="name">Systematic flows</td><td class="txt">CTA trend, vol-control, risk parity, pension rebalancing and dealer gamma live; buybacks and 0DTE share open</td><td class="txt">Own replication on the closes, SqueezeMetrics GEX</td><td>Daily</td><td class="n">v3</td></tr>
-            <tr><td class="name">Sentiment</td><td class="txt">TFF asset managers and leveraged funds live; NAAIM, Investors Intelligence and BofA have no free feed</td><td class="txt">CFTC Socrata API</td><td>Weekly</td><td class="n">v3</td></tr>
-
-          </tbody>
-        </table>
-      </div>
-      <div class="foot"><b>Paid data deliberately skipped:</b> EPFR fund flows (share-count proxy instead), Bloomberg terminal series (FRED and yfinance cover the rest), SpotGamma (dealer gamma read from public option open interest is good enough for a flag).</div>
-    </div>
-
-    <div class="s12 card">
-      <h3>The quant standard applied here</h3>
-      <p class="sub">What separates a dashboard from a screen full of prices. Each rule is cheap to implement and expensive to skip.</p>
-      <ul class="rules">
-        <li><span class="k">1</span><span><b>Standardize everything.</b> Every reading is shown with its three-year z-score or percentile (five years for monthly series), winsorized at plus or minus 3. Levels stay visible next to the transform so nothing hides behind it.</span></li>
-        <li><span class="k">2</span><span><b>Composites are equal-weighted.</b> Optimized weights overfit; four equal-weighted z-scores per composite, membership fixed in advance, changed only with a written reason.</span></li>
-        <li><span class="k">3</span><span><b>Condition on regime.</b> Two direction-based axes (growth and inflation momentum) plus liquidity place the cycle; every hit rate is reported unconditionally and for the current quadrant, and the alert shows the lower of the two.</span></li>
-        <li><span class="k">4</span><span><b>Evaluate signals properly.</b> Hit rate, average excess return, t-statistic, information coefficient (rank correlation of signal and the next eight-week return), decay profile from one to thirteen weeks, and turnover. Nothing is Confirmed below n of 20 and t of 2.</span></li>
-        <li><span class="k">5</span><span><b>Event studies, not anecdotes.</b> Surprise z = (actual minus consensus) divided by the dispersion of forecasts; average one-day and five-day moves per asset, split by sign, with n; the options-implied move is the bar for "big".</span></li>
-        <li><span class="k">6</span><span><b>Seasonality is de-trended and weighted half.</b> Subtract the unconditional mean, show hit rate and t-stat, never use it alone. Calendar effects with a mechanical cause (tax dates, expiry, rebalancing) rank above pure seasonality.</span></li>
-        <li><span class="k">7</span><span><b>No look-ahead.</b> Backtests use publication dates, not reference dates (July M2 is known in late August); walk-forward evaluation; 10 bp transaction cost assumed; the live alert log is the out-of-sample test.</span></li>
-        <li><span class="k">8</span><span><b>Vol-adjust before comparing.</b> Relative strength and momentum are measured on returns divided by 60-day realized volatility, so high-beta themes do not win by construction.</span></li>
-        <li><span class="k">9</span><span><b>Show the timestamp.</b> Every panel carries its data date; a panel older than its refresh interval greys out rather than showing a stale number as current.</span></li>
-      </ul>
-    </div>
-
-    <div class="s12 card">
-      <h3>Open decisions, for review</h3>
-      <p class="sub">Each has a recommendation so nothing waits on a discussion. Change any of them and the plan still holds.</p>
-      <ol class="decisions">
-        <li><b>Alert channel.</b> Email digest at 07:00 Bangkok for daily state changes, nothing real-time. <span class="rec">Recommendation:</span> email first; a Telegram bot later if the digest gets ignored. LINE's Messaging API works too but is heavier to set up than it is worth for one reader.</li>
-        <li><b>Thai exposure.</b> The SET, the baht, Bank of Thailand and baht gold as one row each, since that is how gold is quoted locally. <span class="rec">Recommendation:</span> include them in v1; they cost four extra series.</li>
-        <li><b>Free data only.</b> ETF flows come from share counts, not from EPFR; breadth from holdings files, not from a data vendor. <span class="rec">Recommendation:</span> accept the proxies; they track the paid series closely enough for a state machine with three-day confirmation.</li>
-        <li><b>Thresholds.</b> The five detector bars and the two divergence lines are starting values. <span class="rec">Recommendation:</span> leave them alone for three months, then tune from the alert log, not from memory.</li>
-        <li><b>Scope guard.</b> No trade execution, no single-stock analysis, no price targets. <span class="rec">Recommendation:</span> keep it a regime and rotation monitor; everything that would make it a trading system doubles the build time.</li>
-        <li><b>Where it lives.</b> A static site on a private URL, rebuilt nightly by the same GitHub Action that fetches the data. <span class="rec">Recommendation:</span> GitHub Pages; no server to maintain.</li>
-      </ol>
-    </div>
-  </div>
-</section>
 
 <footer class="end">
-  <div>Market Watch, v4.1 (30 Aug 2026). Live readings carry a source tag; grey figures are placeholders. Nothing on this page is advice. Structure: six questions in reading order, one build plan. v0.2 added the professional layer: z-scores and percentiles, reserves and issuance, term premium and financial conditions, cycle position, systematic flows, event-study discipline. v0.3 added the twelve-month conditions ranking. v0.4 redrew the charts: marks above grid lines, sparklines at true scale with a range grid and zero line, axis ticks and trail markers on the rotation map and the clock. v0.5 added the price-confirmation score and the read column to the ranking. v0.6 added the What changed strip, per-section unread counts and the data stamp, and let tile labels wrap. v1 connected the feeds: a nightly script pulls FRED, Yahoo Finance and the ECB data portal, computes the transforms and writes data/latest.json; the page fills the strip, the tiles, the market tables and the price side of the ranking from it. v2 added the regime composites, the rotation detector with its three-close state rule and the change log; v3 the positioning and sentiment section from the CFTC and the free sentiment feeds; v4 the keyless event calendar with event studies, options-implied moves, the surprise log and the Sunday brief.</div>
+  <div>Market Watch, v4.1 (30 Aug 2026). Live readings carry a source tag; grey figures are placeholders. Nothing on this page is advice. Structure: six questions in reading order; the build plan lives in the repo as PLAN.md. v0.2 added the professional layer: z-scores and percentiles, reserves and issuance, term premium and financial conditions, cycle position, systematic flows, event-study discipline. v0.3 added the twelve-month conditions ranking. v0.4 redrew the charts: marks above grid lines, sparklines at true scale with a range grid and zero line, axis ticks and trail markers on the rotation map and the clock. v0.5 added the price-confirmation score and the read column to the ranking. v0.6 added the What changed strip, per-section unread counts and the data stamp, and let tile labels wrap. v1 connected the feeds: a nightly script pulls FRED, Yahoo Finance and the ECB data portal, computes the transforms and writes data/latest.json; the page fills the strip, the tiles, the market tables and the price side of the ranking from it. v2 added the regime composites, the rotation detector with its three-close state rule and the change log; v3 the positioning and sentiment section from the CFTC and the free sentiment feeds; v4 the keyless event calendar with event studies, options-implied moves, the surprise log and the Sunday brief.</div>
 </footer>
 
 </main>

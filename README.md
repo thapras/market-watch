@@ -2,6 +2,8 @@
 
 A personal global-markets monitor: is money supply growing, what does it cost, where is it sitting, where is it starting to move, what could move it next, and how smart money is positioned against the crowd. One static page, six questions in reading order, a twelve-month conditions ranking, a ten-week event calendar with a reviewed weekly brief, and a build plan at the bottom of the page.
 
+The build plan (phases, the source table, the quant standard, the open decisions) lives in [PLAN.md](PLAN.md); it was cut from the page on 31 Aug 2026 so production carries only the six questions.
+
 Live page: **https://thapras.github.io/market-watch/** from the repo **https://github.com/thapras/market-watch**, rebuilt by the nightly Action at 05:30 Bangkok.
 
 ## How it runs
