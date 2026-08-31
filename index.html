@@ -121,7 +121,7 @@ nav.sections a.on{color:var(--accent-text);box-shadow:inset 0 -2px 0 var(--accen
 nav.sections a .badge{display:inline-block;min-width:16px;padding:0 5px;margin-left:5px;border-radius:9px;font-family:var(--font-num);font-size:10px;line-height:16px;text-align:center;background:var(--surface-2);color:var(--ink-2);vertical-align:1px}
 nav.sections a .badge.must{background:var(--serious);color:#fff}
 .topbar .stamp{font-family:var(--font-num);font-size:11px;color:var(--muted);margin-left:10px}
-@media (max-width:700px){.changes li{grid-template-columns:48px 1fr}.changes li .go{grid-column:2}}
+@media (max-width:700px){.changes li{display:block}.changes li .d,.changes li .s{display:inline;margin-right:8px}.changes li .go{display:inline-block;margin-left:10px}}
 .regime{margin-top:20px;background:var(--surface);border:1px solid var(--hair)}
 .regime-top{display:grid;grid-template-columns:1.4fr 1fr;gap:24px;padding:18px 20px 16px;border-bottom:1px solid var(--hair)}
 .regime-top h2{font-size:20px;font-stretch:112%;letter-spacing:-.01em;line-height:1.2;margin-top:6px}
@@ -445,6 +445,8 @@ footer.end{padding:28px 0 48px;border-top:1px solid var(--hair);font-size:12px;c
   table.cards-sm td[data-label]::before{content:attr(data-label);display:block;font-size:9.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-family:var(--font-ui);font-weight:600}
   table.cards-sm td.name[data-label]::before{display:none}
   table.cards-sm tbody tr:hover td{background:transparent}
+  table.cards-sm td.txt,table.cards-sm td.ev,table.cards-sm td.brief{min-width:0}
+  table.cards-sm td.empty{grid-column:1/-1}
 }
 /* the ranking as a map: conditions across, price up */
 .rank-map{display:grid;grid-template-columns:minmax(0,1.15fr) 1fr;gap:10px 32px;padding:4px 16px 14px;align-items:start}
@@ -471,7 +473,7 @@ footer.end{padding:28px 0 48px;border-top:1px solid var(--hair);font-size:12px;c
 .rank-map .exp li i.up{background:var(--up)}.rank-map .exp li i.down{background:var(--down)}.rank-map .exp li i.ahead{background:var(--accent)}.rank-map .exp li i.div{background:var(--warn)}
 .rank-map.sample{display:none}
 @media (max-width:900px){.rank-map{grid-template-columns:1fr}}
-@media (max-width:640px){.rank-map .mapwrap{overflow-x:auto;-webkit-overflow-scrolling:touch}.rmap{min-width:540px}}
+@media (max-width:640px){.rank-map .mapwrap{overflow-x:auto;-webkit-overflow-scrolling:touch}.rmap{min-width:540px}svg.rrg{min-width:600px}svg.clock{min-width:470px}}
 /* composite trails: twelve months behind each dot */
 .dot-row.val,.dot-axis.val{grid-template-columns:150px 1fr 44px 120px}
 .ctrail{width:120px;height:26px;display:block;overflow:visible}
@@ -800,7 +802,7 @@ details.alert>.body{padding:0 14px 12px;display:flex;flex-direction:column;gap:8
       <h3>Central banks</h3>
       <p class="sub">Policy rate, last move, next decision, and what the market has priced. Bank of Thailand included because baht gold and the SET trade on it.</p>
       <div class="scroll">
-        <table class="tbl">
+        <table class="tbl cards-sm">
           <thead><tr><th>Bank</th><th class="n">Policy rate</th><th>Last move</th><th>Next decision</th><th>Market pricing</th><th>Stance</th></tr></thead>
           <tbody>
             <tr data-row="cb.fed"><td class="name">Federal Reserve</td><td data-cell="cb.fed.rate" class="n">3.75 to 4.00</td><td data-cell="cb.fed.last">Cut 25 bp, Jul 2026</td><td data-cell="cb.fed.next">Wed 16 Sep, 01:00 BKK Thu</td><td data-cell="cb.fed.pricing">Cut 78%, two cuts by Dec</td><td data-cell="cb.fed.stance"><span class="chip up"><span class="g">▼</span>Easing</span></td></tr>
@@ -838,7 +840,7 @@ details.alert>.body{padding:0 14px 12px;display:flex;flex-direction:column;gap:8
       <h3>Global 10-year yields</h3>
       <p class="sub">The relative level is what moves capital: the spread to the US decides carry, and Japan's normalization is the marginal supplier of global liquidity through the carry trade.</p>
       <div class="scroll">
-        <table class="tbl">
+        <table class="tbl cards-sm">
           <thead><tr><th>Market</th><th class="n">10Y</th><th class="n">1m chg</th><th class="n">Real 10Y</th><th class="n">Spread vs US</th><th>Read</th></tr></thead>
           <tbody>
             <tr data-row="gy.us"><td class="name">United States</td><td data-cell="gy.us.10y" class="n">4.05%</td><td data-cell="gy.us.1m" class="n neg">-8 bp</td><td data-cell="gy.us.real" class="n">1.65%</td><td data-cell="gy.us.spread" class="n"></td><td class="txt">Falling on cuts, term premium rising: a bull steepener with a supply problem.</td></tr>
@@ -900,7 +902,7 @@ details.alert>.body{padding:0 14px 12px;display:flex;flex-direction:column;gap:8
       <h3>Growth pulse and nowcasts</h3>
       <p class="sub">The leading indicators a macro desk reads before the official data. Direction over level in every row.</p>
       <div class="scroll">
-        <table class="tbl">
+        <table class="tbl cards-sm">
           <thead><tr><th>Indicator</th><th class="n">Now</th><th class="n">Prior</th><th>Read</th></tr></thead>
           <tbody>
             <tr data-row="gp.pmi_global"><td class="name">Global manufacturing PMI</td><td data-cell="gp.pmi_global.now" class="n">50.6</td><td data-cell="gp.pmi_global.prior" class="n">50.2</td><td class="txt">Third month above 50; the global cycle is turning up while the US lags.</td></tr>
@@ -925,7 +927,7 @@ details.alert>.body{padding:0 14px 12px;display:flex;flex-direction:column;gap:8
       <h3>Currencies and dollar funding</h3>
       <p class="sub">The dollar is the price of global liquidity. Yen and yuan are the two that can break the regime; the baht decides what gold is worth locally.</p>
       <div class="scroll">
-        <table class="tbl">
+        <table class="tbl cards-sm">
           <thead><tr><th>Pair</th><th class="n">Level</th><th class="n">1M</th><th class="n">3M</th><th>Trend</th><th>Read</th></tr></thead>
           <tbody>
             <tr data-row="fx.dxy"><td class="name">Dollar index (DXY)</td><td data-cell="fx.dxy.level" class="n">98.4</td><td data-cell="fx.dxy.1m" class="n neg">-1.2%</td><td data-cell="fx.dxy.3m" class="n neg">-2.8%</td><td data-cell="fx.dxy.trend" class="neg">▼ falling</td><td class="txt">One-year low; the tailwind for EM, commodities and US multinationals.</td></tr>
@@ -946,7 +948,7 @@ details.alert>.body{padding:0 14px 12px;display:flex;flex-direction:column;gap:8
       <h3>Cross-asset ratios</h3>
       <p class="sub">Ratios strip out the liquidity tide and show relative preference. Two are flashing early warnings.</p>
       <div class="scroll">
-        <table class="tbl">
+        <table class="tbl cards-sm">
           <thead><tr><th>Ratio</th><th class="n">Level</th><th class="n">1M</th><th>Trend</th><th>It measures</th><th>Message</th></tr></thead>
           <tbody>
             <tr data-row="ratio.cu_au"><td class="name">Copper / gold</td><td data-cell="ratio.cu_au.level" class="n">1.33</td><td data-cell="ratio.cu_au.1m" class="n neg">-0.9%</td><td data-cell="ratio.cu_au.trend" class="neg">▼</td><td class="txt">Growth versus fear</td><td class="txt">Fear still bid alongside growth.</td></tr>
@@ -967,7 +969,7 @@ details.alert>.body{padding:0 14px 12px;display:flex;flex-direction:column;gap:8
       <h3>Factors and styles</h3>
       <p class="sub">Pros rotate by factor before they rotate by sector. Momentum rolling over is the tell that leadership is changing.</p>
       <div class="scroll">
-        <table class="tbl">
+        <table class="tbl cards-sm">
           <thead><tr><th>Spread</th><th>ETFs</th><th class="n">1M</th><th class="n">3M</th><th>RS trend</th><th>Read</th></tr></thead>
           <tbody>
             <tr data-row="fac.value_growth"><td class="name">Value vs growth</td><td class="tk">IWD / IWF</td><td data-cell="fac.value_growth.1m" class="n pos">+1.5%</td><td data-cell="fac.value_growth.3m" class="n neg">-2.0%</td><td data-cell="fac.value_growth.rs" class="pos">▲ turning</td><td class="txt">Growth still wins on three months; the turn is one month old.</td></tr>
@@ -1002,7 +1004,7 @@ details.alert>.body{padding:0 14px 12px;display:flex;flex-direction:column;gap:8
       <h3>Precious metals</h3>
       <p class="sub">Price, momentum, and the three things that actually move gold: real yields, the dollar, and who is buying (central banks, ETFs, futures speculators).</p>
       <div class="scroll">
-        <table class="tbl">
+        <table class="tbl cards-sm">
           <thead><tr><th>Asset</th><th class="n">Price</th><th class="n">1W</th><th class="n">1M</th><th class="n">YTD</th><th class="n">vs 200d</th><th>Read</th></tr></thead>
           <tbody>
             <tr data-row="pm.gold"><td class="name">Gold <span class="tk">GC</span></td><td data-cell="pm.gold.level" class="n">3,410</td><td data-cell="pm.gold.1w" class="n pos">+0.8%</td><td data-cell="pm.gold.1m" class="n pos">+3.1%</td><td data-cell="pm.gold.ytd" class="n pos">+18.2%</td><td data-cell="pm.gold.vs200" class="n pos">+9%</td><td class="txt">Real yields down, dollar down, central banks still buying. All three drivers aligned.</td></tr>
@@ -1027,7 +1029,7 @@ details.alert>.body{padding:0 14px 12px;display:flex;flex-direction:column;gap:8
       <h3>Energy</h3>
       <p class="sub">Crude, gas, refining margin, and the supply side that sets the next move.</p>
       <div class="scroll">
-        <table class="tbl">
+        <table class="tbl cards-sm">
           <thead><tr><th>Asset</th><th class="n">Price</th><th class="n">1W</th><th class="n">1M</th><th class="n">YTD</th><th class="n">vs 200d</th><th>Read</th></tr></thead>
           <tbody>
             <tr data-row="en.wti"><td class="name">WTI crude <span class="tk">CL</span></td><td data-cell="en.wti.level" class="n">64.20</td><td data-cell="en.wti.1w" class="n neg">-1.8%</td><td data-cell="en.wti.1m" class="n neg">-4.0%</td><td data-cell="en.wti.ytd" class="n neg">-10.5%</td><td data-cell="en.wti.vs200" class="n neg">-6%</td><td class="txt">Below the 200-day; OPEC+ adding barrels into a seasonal demand lull.</td></tr>
@@ -1051,7 +1053,7 @@ details.alert>.body{padding:0 14px 12px;display:flex;flex-direction:column;gap:8
       <h3>Industrial metals and agriculture</h3>
       <p class="sub">Copper is the growth vote. The copper to gold ratio is the cleanest growth-versus-fear gauge on the page.</p>
       <div class="scroll">
-        <table class="tbl">
+        <table class="tbl cards-sm">
           <thead><tr><th>Asset</th><th class="n">Price</th><th class="n">1W</th><th class="n">1M</th><th class="n">YTD</th><th class="n">vs 200d</th><th>Read</th></tr></thead>
           <tbody>
             <tr data-row="im.copper"><td class="name">Copper <span class="tk">HG</span></td><td data-cell="im.copper.level" class="n">4.55</td><td data-cell="im.copper.1w" class="n pos">+1.1%</td><td data-cell="im.copper.1m" class="n pos">+2.2%</td><td data-cell="im.copper.ytd" class="n pos">+12.0%</td><td data-cell="im.copper.vs200" class="n pos">+5%</td><td class="txt">China credit impulse turning up is the six-month lead; inventories on the LME falling.</td></tr>
@@ -1074,7 +1076,7 @@ details.alert>.body{padding:0 14px 12px;display:flex;flex-direction:column;gap:8
       <h3>Equity indices</h3>
       <p class="sub">Cap-weighted versus equal-weighted tells you whether the rally is a few giants or the whole market. Breadth is the share of members above their 50-day average.</p>
       <div class="scroll">
-        <table class="tbl">
+        <table class="tbl cards-sm">
           <thead><tr><th>Index</th><th class="n">Level</th><th class="n">1W</th><th class="n">1M</th><th class="n">3M</th><th class="n">YTD</th><th class="n">vs 200d</th><th class="n">Breadth</th><th>Read</th></tr></thead>
           <tbody>
             <tr data-row="idx.spx"><td class="name">S&amp;P 500</td><td data-cell="idx.spx.level" class="n">6,480</td><td data-cell="idx.spx.1w" class="n pos">+0.6%</td><td data-cell="idx.spx.1m" class="n pos">+1.4%</td><td data-cell="idx.spx.3m" class="n pos">+6.2%</td><td data-cell="idx.spx.ytd" class="n pos">+10.1%</td><td data-cell="idx.spx.vs200" class="n pos">+7%</td><td data-cell="idx.spx.breadth" class="n">58%</td><td class="txt">Grinding higher on fewer names.</td></tr>
@@ -1097,7 +1099,7 @@ details.alert>.body{padding:0 14px 12px;display:flex;flex-direction:column;gap:8
       <h3>Valuation and earnings</h3>
       <p class="sub">Flows are sustainable only where earnings back them. Thin equity risk premium plus rising revisions is the current mix: the market needs the earnings, not the multiple.</p>
       <div class="scroll">
-        <table class="tbl">
+        <table class="tbl cards-sm">
           <thead><tr><th>Measure</th><th class="n">Now</th><th>History</th><th>Read</th></tr></thead>
           <tbody>
             <tr data-row="val.spx_pe"><td class="name">S&amp;P 500 trailing P/E</td><td data-cell="val.spx_pe.now" class="n">21.8x</td><td data-cell="val.spx_pe.hist" class="txt">10-year percentile 92</td><td class="txt">Expensive; multiples have no room to expand into a cut.</td></tr>
@@ -1119,7 +1121,7 @@ details.alert>.body{padding:0 14px 12px;display:flex;flex-direction:column;gap:8
       <h3>Sectors (S&amp;P 500, eleven GICS groups)</h3>
       <p class="sub">Relative strength is the sector divided by the S&amp;P 500; the arrow is the direction of that ratio against its own 50-day average. Flow z-score is the four-week ETF net flow against its one-year distribution. Quadrant is where the sector sits on the rotation map in section 4.</p>
       <div class="scroll">
-        <table class="tbl">
+        <table class="tbl cards-sm">
           <thead><tr><th>Sector</th><th>ETF</th><th class="n">1M</th><th class="n">3M</th><th class="n">EPS rev 3m</th><th>RS trend</th><th>50d / 200d</th><th class="n">Flow z</th><th class="n">Breadth</th><th>Quadrant</th></tr></thead>
           <tbody>
             <tr data-row="sec.xlk"><td class="name">Technology</td><td class="tk">XLK</td><td data-cell="sec.xlk.1m" class="n pos">+0.5%</td><td data-cell="sec.xlk.3m" class="n pos">+9.0%</td><td data-cell="sec.xlk.eps" class="n pos">+6%</td><td data-cell="sec.xlk.rs" class="neg">▼ falling</td><td data-cell="sec.xlk.ma">above / above</td><td data-cell="sec.xlk.flowz" class="n">+0.6</td><td data-cell="sec.xlk.breadth" class="n">49%</td><td data-cell="sec.xlk.quadrant"><span class="chip warn"><span class="g">▼</span>Weakening</span></td></tr>
@@ -1142,7 +1144,7 @@ details.alert>.body{padding:0 14px 12px;display:flex;flex-direction:column;gap:8
       <h3>Themes and industries people actually watch</h3>
       <p class="sub">The rows the rotation detector scores. Seasonal is the average return over the next eight weeks from this date, computed from twenty years of history (v2). Signals is how many of the five detector conditions are currently true; the state names are defined in section 4.</p>
       <div class="scroll">
-        <table class="tbl">
+        <table class="tbl cards-sm">
           <thead><tr><th>Theme</th><th>ETF</th><th class="n">1W</th><th class="n">1M</th><th class="n">3M</th><th>RS trend</th><th class="n">Flow z</th><th class="n">Breadth</th><th>Seasonal, next 8w</th><th>Signals</th><th>State</th></tr></thead>
           <tbody>
             <tr data-row="th.smh"><td class="name">Semiconductors</td><td class="tk">SMH</td><td data-cell="th.smh.1w" class="n neg">-1.2%</td><td data-cell="th.smh.1m" class="n neg">-2.5%</td><td data-cell="th.smh.3m" class="n pos">+9.5%</td><td data-cell="th.smh.rs" class="neg">▼ lost 18 Aug</td><td data-cell="th.smh.flowz" class="n">+0.6</td><td data-cell="th.smh.breadth" class="n">38%</td><td data-cell="th.smh.seasonal">Weak to mid Oct, strong after</td><td data-cell="th.smh.signals"><span class="meter fade"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span></td><td data-cell="th.smh.state"><span class="chip serious"><span class="g">▼</span>Fading</span></td></tr>
@@ -1277,7 +1279,7 @@ details.alert>.body{padding:0 14px 12px;display:flex;flex-direction:column;gap:8
       <p class="sub">Rotation is regime-conditioned. The Investment Clock places the cycle by the direction of growth and inflation (not their level); the ISM stage maps that to the sectors that historically led. Every hit rate in the alert feed is reported for the current quadrant as well as unconditionally.</p>
       <div class="two">
         <div>
-          <svg class="clock" viewBox="0 0 520 352" role="img" aria-label="Investment Clock: growth momentum on the horizontal axis, inflation momentum on the vertical axis. Current position in the Recovery quadrant, growth up and inflation down, after moving from Stagflation through Reflation over six months.">
+          <div class="scroll"><svg class="clock" viewBox="0 0 520 352" role="img" aria-label="Investment Clock: growth momentum on the horizontal axis, inflation momentum on the vertical axis. Current position in the Recovery quadrant, growth up and inflation down, after moving from Stagflation through Reflation over six months.">
             <rect class="q warm" x="260" y="20" width="230" height="140"></rect>
             <rect class="q" x="260" y="160" width="230" height="140"></rect>
             <rect class="q warm" x="30" y="20" width="230" height="140"></rect>
@@ -1313,12 +1315,12 @@ details.alert>.body{padding:0 14px 12px;display:flex;flex-direction:column;gap:8
             <circle class="now" cx="306" cy="202" r="6"></circle>
             <text class="nl" x="316" y="206">Now (+0.4, -0.6)</text>
             <text class="al" id="clock-start" x="205" y="88" text-anchor="middle">Mar</text>
-          </svg>
+          </svg></div>
           <div class="legend"><span><i></i>Current month</span><span id="clock-legend"><i class="tail"></i>Six-month trail, March to August</span></div>
         </div>
         <div>
           <div class="scroll">
-            <table class="tbl">
+            <table class="tbl cards-sm">
               <thead><tr><th>ISM stage</th><th>Condition</th><th>Historical leaders</th></tr></thead>
               <tbody>
                 <tr class="now"><td class="name">Early cycle</td><td class="txt">ISM under 50 and rising</td><td class="txt">Financials, consumer discretionary, industrials, real estate, small caps</td></tr>
@@ -1350,7 +1352,7 @@ details.alert>.body{padding:0 14px 12px;display:flex;flex-direction:column;gap:8
     <div class="s7 card">
       <h3>Rotation map</h3>
       <p class="sub">Each theme is placed by its relative strength against the S&amp;P 500 (right is stronger) and the momentum of that strength (up is accelerating). Themes rotate clockwise through the quadrants over time; the short tail shows the last three weeks. Ringed points have an active alert.</p>
-      <svg class="rrg" viewBox="0 0 640 414" role="img" aria-label="Rotation map: relative strength versus momentum for fifteen themes. Leading: financials, industrials, communication services, technology. Weakening: semiconductors, utilities, consumer discretionary. Improving: gold miners, homebuilders, small caps, materials, staples, real estate. Lagging: health care, energy.">
+      <div class="scroll"><svg class="rrg" viewBox="0 0 640 414" role="img" aria-label="Rotation map: relative strength versus momentum for fifteen themes. Leading: financials, industrials, communication services, technology. Weakening: semiconductors, utilities, consumer discretionary. Improving: gold miners, homebuilders, small caps, materials, staples, real estate. Lagging: health care, energy.">
         <rect class="qwash" x="340" y="20" width="280" height="170"></rect>
         <rect class="qwash lag" x="60" y="190" width="280" height="170"></rect>
         <line class="grid" x1="60" y1="105" x2="620" y2="105"></line>
@@ -1391,7 +1393,7 @@ details.alert>.body{padding:0 14px 12px;display:flex;flex-direction:column;gap:8
         <g data-map="xly"><title>Consumer discretionary (XLY): ratio 100.4, momentum 98.6</title><polyline class="tail" points="396,199 359,250"></polyline><circle class="tp" cx="396" cy="199" r="2.5"></circle><circle class="pt" cx="359" cy="250" r="5"></circle><text class="pl" x="351" y="262" text-anchor="end">Discretionary</text></g>
         <g data-map="xlv"><title>Health care (XLV): ratio 96.0, momentum 98.8</title><polyline class="tail" points="191,215 153,241"></polyline><circle class="tp" cx="191" cy="215" r="2.5"></circle><circle class="pt" cx="153" cy="241" r="5"></circle><text class="pl" x="161" y="245">Health care</text></g>
         <g data-map="xop"><title>Oil and gas producers (XOP): ratio 95.2, momentum 97.6, exit watch</title><polyline class="tail" points="200,232 116,292"></polyline><circle class="tp" cx="200" cy="232" r="2.5"></circle><circle class="pt hot" cx="116" cy="292" r="5"></circle><text class="pl" x="124" y="296">Energy</text></g>
-      </svg>
+      </svg></div>
       <div class="legend"><span><i></i>Theme, current position</span><span><i class="hot"></i>Active alert</span><span><i class="tail"></i>Last three weeks</span></div>
       <div class="foot"><b>Computed as:</b> relative strength = 100 times the theme's 10-week ratio to the S&amp;P 500 normalized to its one-year mean; momentum = the 10-week rate of change of that ratio. Same construction as a relative rotation graph.</div>
     </div>
@@ -1422,7 +1424,7 @@ details.alert>.body{padding:0 14px 12px;display:flex;flex-direction:column;gap:8
       <h3 style="margin-top:16px">Calendar effects and mechanical flows</h3>
       <p class="sub">Not seasonality in the monthly sense: these are flows with a known date and a known direction. They are used as timing, never as a thesis.</p>
       <div class="scroll">
-        <table class="tbl">
+        <table class="tbl cards-sm">
           <thead><tr><th>Effect</th><th>Window</th><th>Tendency</th><th>Next</th></tr></thead>
           <tbody>
             <tr data-row="ce.tom"><td class="name">Turn of the month</td><td class="txt">Last trading day to the third of the next month</td><td class="txt">Positive drift, hit rate about 65%: payroll and pension inflows.</td><td class="txt" data-cell="ce.tom.next">30 Sep to 5 Oct</td></tr>
@@ -1458,7 +1460,7 @@ details.alert>.body{padding:0 14px 12px;display:flex;flex-direction:column;gap:8
       <div class="calstrip" id="cal-strip" hidden></div>
       <div class="tabs" id="cal-tabs"><span class="on" data-range="week">This week</span><span data-range="two_weeks">Next two weeks</span><span data-range="two_months">Next two months</span><span class="toggle off" id="cal-toggle" role="switch" aria-checked="false" tabindex="0">Tier 1 only <i></i></span></div>
       <div class="scroll">
-        <table class="tbl cal">
+        <table class="tbl cal cards-sm">
           <thead><tr><th>Day</th><th>ET / BKK</th><th>Event, consensus, what it touches</th><th>What to expect, and what a stronger or weaker print does</th><th>Tier</th></tr></thead>
           <tbody id="cal-body">
             <tr><td class="name">Tue 1 Sep</td><td class="n">10:00 / 21:00</td><td class="ev"><b>ISM manufacturing (Aug)</b><span class="cons">49.0 / 48.7</span><span class="touch">Touches: Industrials, materials, copper, 10Y</span></td><td class="brief"><div><i>Expect</i><span>Still under 50. New orders and prices paid decide the read, not the headline.</span></div><div><i>Stronger</i><span>Cyclicals, copper and yields up; gold pauses.</span></div><div><i>Weaker</i><span>Bonds, staples and gold up; small caps dip. Under 48 flips the staples macro signal.</span></div></td><td><span class="chip tier">2</span></td></tr>
@@ -1665,7 +1667,7 @@ details.alert>.body{padding:0 14px 12px;display:flex;flex-direction:column;gap:8
       <div class="two">
         <div>
           <div class="scroll">
-            <table class="tbl">
+            <table class="tbl cards-sm">
               <thead><tr><th>Market</th><th>CTA signal</th><th>Since</th><th class="n">Flip level</th><th>If it flips</th></tr></thead>
               <tbody>
                 <tr data-row="cta.spx"><td class="name">S&amp;P 500</td><td data-cell="cta.spx.signal"><span class="chip up"><span class="g">▲</span>Long</span></td><td data-cell="cta.spx.since" class="n">Apr</td><td data-cell="cta.spx.flip" class="n">6,250 (-3.5%)</td><td class="txt">About $40B of selling over a week.</td></tr>
@@ -1681,7 +1683,7 @@ details.alert>.body{padding:0 14px 12px;display:flex;flex-direction:column;gap:8
         </div>
         <div>
           <div class="scroll">
-            <table class="tbl">
+            <table class="tbl cards-sm">
               <thead><tr><th>Flow</th><th class="n">State</th><th>Read</th></tr></thead>
               <tbody>
                 <tr data-row="flow2.volctl"><td class="name">Vol-control funds, equity allocation</td><td data-cell="flow2.volctl.state" class="n">high</td><td data-cell="flow2.volctl.read" class="txt">Realized vol 9% against a 12% target: fully allocated. A VIX above 22 for three days triggers roughly $25B of selling.</td></tr>
@@ -1726,7 +1728,7 @@ details.alert>.body{padding:0 14px 12px;display:flex;flex-direction:column;gap:8
     <div class="s6 card tight">
       <h3>Data sources and refresh</h3>
       <div class="scroll">
-        <table class="tbl">
+        <table class="tbl cards-sm">
           <thead><tr><th>Panel</th><th>Series</th><th>Free source</th><th>Refresh</th><th class="n">Phase</th></tr></thead>
           <tbody>
             <tr><td class="name">Liquidity</td><td class="txt">M2, Fed balance sheet, TGA, RRP, bank credit</td><td class="txt">FRED API</td><td>Weekly</td><td class="n">v1</td></tr>
@@ -2465,6 +2467,7 @@ details.alert>.body{padding:0 14px 12px;display:flex;flex-direction:column;gap:8
           var tt = el('td'); if (r.tier) tt.appendChild(el('span', 'chip tier' + (r.tier === 1 ? ' accent' : ''), String(r.tier))); tr.appendChild(tt);
           cbody.appendChild(tr);
         });
+        mobileLabels();
       }
       if (ctabs) ctabs.querySelectorAll('span[data-range]').forEach(function(sp){ sp.addEventListener('click', function(){ ctabs.querySelectorAll('span[data-range]').forEach(function(x){ x.classList.remove('on'); }); sp.classList.add('on'); crange = sp.getAttribute('data-range'); drawCal(); }); });
       if (ctog) { var flip = function(){ chigh = !chigh; ctog.classList.toggle('off', !chigh); ctog.setAttribute('aria-checked', chigh ? 'true' : 'false'); drawCal(); }; ctog.addEventListener('click', flip); ctog.addEventListener('keydown', function(ev){ if (ev.key === ' ' || ev.key === 'Enter') { ev.preventDefault(); flip(); } }); }
