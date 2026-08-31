@@ -4,7 +4,7 @@ A personal global-markets monitor: is money supply growing, what does it cost, w
 
 The build plan (phases, the source table, the quant standard, the open decisions) lives in [PLAN.md](PLAN.md); it was cut from the page on 31 Aug 2026 so production carries only the six questions.
 
-The watchlist (v4.2) is the page's audit trail: snapshot a ranked market when its reading looks good (the + beside its name opens a prefilled GitHub issue that the `watch snapshot` workflow turns into a commit, or `python3 -m fetch.watch add <key>` locally), and the nightly run grades every snapshot against the S&P 500 from that day on. `data/watchlist.json` is written only by `fetch.watch`; the fetcher reads it and renders the graded panel under the ranking.
+The watchlist (v4.2) is the page's audit trail: snapshot a ranked market when its reading looks good (the + beside its name saves it on your device instantly; the sync link, a prefilled GitHub issue handled by the `watch snapshot` workflow, or `python3 -m fetch.watch add <key>` writes it to the repo log), and the nightly run grades every snapshot against the S&P 500 from that day on. `data/watchlist.json` is written only by `fetch.watch`; the fetcher reads it and renders the graded panel under the ranking.
 
 Live page: **https://thapras.github.io/market-watch/** from the repo **https://github.com/thapras/market-watch**, rebuilt by the nightly Action at 05:30 Bangkok.
 

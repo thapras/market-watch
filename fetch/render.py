@@ -993,12 +993,13 @@ def ranking(D, o):
                 B = c.rule_B_ratio(c.vals(r))
             moms[key] = c.momentum_12_1(x)
             rows[key] = {"T": c.rule_T(x), "X": c.rule_X(x), "H": c.rule_H(x), "B": B,
+                         "level": x[-1] if x else None,
                          "tags": c.tags(x), "src": yahoo_src(D, yk), "dl": dl(adj[-1][0])}
         o.guard("rank." + key, one)
     M = c.rule_M_ranks(moms)
     for key, r in rows.items():
         rules = {"T": r["T"], "M": M.get(key), "X": r["X"], "H": r["H"], "B": r["B"]}
-        o.rank[key] = stamp({"price": c.price_score(rules), "rules": rules, "tags": ", ".join(r["tags"]),
+        o.rank[key] = stamp({"price": c.price_score(rules), "rules": rules, "level": r.get("level"), "tags": ", ".join(r["tags"]),
                              "mom": f_pct(moms[key] * 100.0) if moms.get(key) is not None else "", "src": r["src"], "dl": r["dl"]}, r["dl"])
 
 

@@ -569,6 +569,8 @@ details.alert>.body{padding:0 14px 12px;display:flex;flex-direction:column;gap:8
 .watchlist details.wl-closed{margin-top:10px}
 .watchlist details.wl-closed summary{cursor:pointer;color:var(--muted);font-size:12.5px}
 .watchlist details.wl-closed[open] summary{margin-bottom:8px}
+.wl-act a{color:var(--muted);text-decoration:underline;margin-right:10px}
+.wl-act a:hover{color:var(--accent-text)}
 td.name .snap{display:inline-block;margin-left:7px;color:var(--muted);text-decoration:none;border:1px solid var(--hair-2);border-radius:6px;line-height:1;padding:1px 5px 2px;font-size:11px;vertical-align:1px}
 td.name .snap:hover,td.name .snap:focus-visible{color:var(--accent-text);border-color:var(--accent)}
 </style>
@@ -576,7 +578,7 @@ td.name .snap:hover,td.name .snap:focus-visible{color:var(--accent-text);border-
 <body>
 <header class="topbar">
   <div class="wrap">
-    <div class="brand"><h1>Market Watch</h1><span class="v">v4.2, 31 Aug 2026</span><span class="stamp" id="stamp">data file not loaded yet</span></div>
+    <div class="brand"><h1>Market Watch</h1><span class="v">v4.2.1, 31 Aug 2026</span><span class="stamp" id="stamp">data file not loaded yet</span></div>
     <nav class="sections" aria-label="Sections">
       <a href="#regime">Regime</a>
       <a href="#liquidity">1 Liquidity</a>
@@ -706,9 +708,9 @@ td.name .snap:hover,td.name .snap:focus-visible{color:var(--accent-text);border-
   </div>
   <div class="watchlist" id="watchlist">
     <h3>Watchlist: snapshots against the page</h3>
-    <p class="exp">A snapshot freezes a market's row above as it stands: both scores, the read and the tags. Every data run after that grades it against what happened next, the market's own return beside the S&amp;P 500 since that day. The goal is evidence for the reads themselves: does conditions ahead actually lead price, does aligned up keep paying. Not advice, positions or price targets.</p>
-    <div id="wl-body"><p class="wl-empty">No snapshots yet. The + beside a market's name in the ranking adds one (it opens a prefilled GitHub issue; submitting is for the repo owner), or run /watch add gold in a working session. Entries appear here on the next data run.</p></div>
-    <div class="foot"><b>Grades:</b> early (under 21 sessions, the window the surprise index uses to resolve), working (ahead of the S&amp;P 500 since the snapshot), stalled (behind, conditions still at or above 0.5), not working (behind, conditions below 0.5). Closed snapshots grade over snapshot to close (worked, did not work) and collapse below the table. US large caps, the benchmark itself, grade on absolute return. A row whose price feed fails a run carries its last grade with its date. Grades compare closes only, use the page's stated thresholds, and never fire alerts.</div>
+    <p class="exp">A snapshot freezes a market's row above as it stands: both scores, the read and the tags. The + beside a market saves one on this device the moment you tap it, and every visit after that compares it with the latest readings and grades it. The repo log does the same thing exactly: /watch add gold in a working session (or the sync link on a saved row) commits the snapshot, the nightly run grades it from the price series, and every device sees it. The goal is evidence for the reads themselves: does conditions ahead actually lead price, does aligned up keep paying. Not advice, positions or price targets.</p>
+    <div id="wl-body"><p class="wl-empty">No snapshots yet. The + beside a market's name in the ranking saves one on this device the moment you tap it; /watch add gold in a working session writes it to the repo log instead.</p></div>
+    <div class="foot"><b>Grades:</b> early (under 21 sessions, the window the surprise index uses to resolve), working (ahead of the S&amp;P 500 since the snapshot), stalled (behind, conditions still at or above 0.5), not working (behind, conditions below 0.5). Closed snapshots grade over snapshot to close (worked, did not work) and collapse below the table. US large caps, the benchmark itself, grade on absolute return. A row whose price feed fails a run carries its last grade with its date. Grades compare closes only, use the page's stated thresholds, and never fire alerts. Rows saved on this device live only in this browser and count sessions as weekdays; sync commits one to the repo log (a prefilled GitHub issue, repo owner only), where the nightly run takes over and every device sees it; remove deletes it from this device.</div>
   </div>
 </section>
 
@@ -2017,7 +2019,7 @@ td.name .snap:hover,td.name .snap:focus-visible{color:var(--accent-text);border-
       if (!r || r.price == null) { [5, 6, 7].forEach(function(i){ if (tds[i]) tds[i].classList.add('sample'); }); return; }
       live++;
       var nm = tds[1];
-      if (nm && !nm.querySelector('.snap')) { var sa = document.createElement('a'); sa.className = 'snap'; sa.setAttribute('aria-label', 'Snapshot ' + nm.textContent.trim() + ' to the watchlist'); sa.href = 'https://github.com/thapras/market-watch/issues/new?title=' + encodeURIComponent('watch: ' + tr.getAttribute('data-rank')); sa.target = '_blank'; sa.rel = 'noopener'; sa.textContent = '+'; sa.title = 'Snapshot to the watchlist: opens a prefilled GitHub issue (repo owner only)'; nm.appendChild(sa); }
+      if (nm && !nm.querySelector('.snap')) { var sa = document.createElement('a'); sa.className = 'snap'; sa.href = '#watchlist'; sa.setAttribute('role', 'button'); sa.setAttribute('aria-label', 'Save a snapshot of ' + nm.textContent.trim() + ' on this device'); sa.textContent = '+'; sa.title = 'Save a snapshot on this device'; sa.addEventListener('click', function(ev){ ev.preventDefault(); wlSaveLocal(tr.getAttribute('data-rank'), sa); }); nm.appendChild(sa); }
       var bar = tds[5].querySelector('.sbar i');
       if (bar) { bar.setAttribute('data-v', r.price); bar.className = r.price >= 0 ? 'p' : 'm'; bar.style.width = (Math.min(2, Math.abs(r.price)) / 2 * 50) + '%'; }
       tds[6].textContent = (r.price > 0 ? '+' : '') + r.price.toFixed(1); setSign(tds[6], r.price); tds[6].classList.add('live');
@@ -2270,6 +2272,56 @@ td.name .snap:hover,td.name .snap:focus-visible{color:var(--accent-text);border-
     if (sn) cp.removeChild(sn);
     return cp.textContent.trim() || key;
   }
+  var WLEMPTY = 'No snapshots yet. The + beside a market\'s name in the ranking saves one on this device the moment you tap it; /watch add gold in a working session writes it to the repo log instead.';
+  function wlStore(){ try { return JSON.parse(localStorage.getItem('mw-watchlist') || '{}') || {}; } catch (e) { return {}; } }
+  function wlStoreSave(st){ try { localStorage.setItem('mw-watchlist', JSON.stringify(st)); } catch (e) {} }
+  function wlRerender(){ if (window.__mwWl) wlPanel(window.__mwWl.wl, window.__mwWl.rank); }
+  function wlWeekdays(a, b){
+    var d = new Date(a + 'T00:00:00Z'), end = new Date(b + 'T00:00:00Z'), n = 0;
+    if (!(d < end)) return 0;
+    while (d < end) { d.setUTCDate(d.getUTCDate() + 1); var wd = d.getUTCDay(); if (wd !== 0 && wd !== 6) n++; }
+    return n;
+  }
+  function wlSaveLocal(key, link){
+    var rank = window.__mwRank || {}, r = rank[key];
+    if (!r || (r.cond == null && r.price == null)) return;
+    var st = wlStore(); st.open = st.open || [];
+    var exists = st.open.some(function(e){ return e.key === key; });
+    var repo = ((window.__mwWl || {}).wl || {}).rows || [];
+    var inRepo = repo.some(function(e){ return e.key === key; });
+    if (!exists && !inRepo) {
+      var day = r.date || new Date().toISOString().slice(0, 10);
+      st.open.push({id: key + ':' + day + ':local', key: key, date: day,
+        then: {cond: r.cond, price: r.price, read: r.read, tags: r.tags},
+        level: r.level, spx: (rank.us_large || {}).level});
+      wlStoreSave(st);
+      wlRerender();
+    }
+    if (link) { link.textContent = '\u2713'; setTimeout(function(){ link.textContent = '+'; }, 1400); }
+    var p = document.getElementById('watchlist'); if (p) p.scrollIntoView();
+  }
+  function wlLocalRows(rank, repoRows){
+    var st = wlStore(), open = st.open || [];
+    if (!open.length) return [];
+    var rk = {}; (repoRows || []).forEach(function(r){ rk[r.key] = 1; });
+    var kept = open.filter(function(e){ return !rk[e.key]; });
+    if (kept.length !== open.length) { st.open = kept; wlStoreSave(st); }
+    var spxNow = ((rank || {}).us_large || {}).level, out = [];
+    kept.forEach(function(e){
+      var r = (rank || {})[e.key] || {};
+      var row = {local: true, id: e.id, key: e.key, date: e.date, dl: wlDl(e.date), note: e.note || '',
+                 then: e.then || {}, now: {cond: r.cond, price: r.price, read: r.read}};
+      if (e.level != null && r.level != null) {
+        row.ret = r.level / e.level - 1;
+        if (e.spx != null && spxNow != null) row.spx = spxNow / e.spx - 1;
+        row.rel = e.key === 'us_large' ? row.ret : (row.spx != null ? row.ret - row.spx : null);
+        row.sessions = wlWeekdays(e.date, r.date || e.date);
+        row.verdict = row.sessions < 21 ? 'early' : (row.rel == null ? 'no series' : (row.rel > 0 ? 'working' : ((r.cond != null && r.cond >= 0.5) ? 'stalled' : 'not working')));
+      } else { row.verdict = 'no series'; row.missing = true; }
+      out.push(row);
+    });
+    return out;
+  }
   function wlChip(map, label, text){
     var m = map[label];
     if (!m) return el('span', 'chip muted', text || label || '');
@@ -2297,6 +2349,7 @@ td.name .snap:hover,td.name .snap:focus-visible{color:var(--accent-text);border-
     var tr = el('tr');
     var nm = el('td', 'name'); nm.appendChild(document.createTextNode(wlName(r.key)));
     if (r.note) nm.appendChild(el('div', 'tag', r.note));
+    if (r.local) nm.appendChild(el('div', 'tag', 'this device'));
     tr.appendChild(nm);
     var sn = el('td', 'n'); sn.appendChild(document.createTextNode(r.dl || r.date || ''));
     sn.appendChild(el('div', 'tag', isClosed ? 'closed ' + (r.closed_dl || '') : (r.sessions != null ? r.sessions + ' sessions' : 'not graded yet')));
@@ -2316,21 +2369,31 @@ td.name .snap:hover,td.name .snap:focus-visible{color:var(--accent-text);border-
     if (r.stale) { gd.appendChild(el('div', 'tag', 'carried, ' + r.stale)); tr.classList.add('stale'); }
     if (isClosed && r.close_note) gd.appendChild(el('div', 'tag', r.close_note));
     if (r.missing) gd.appendChild(el('div', 'tag', 'price series unavailable'));
+    if (r.local) {
+      var act = el('div', 'tag wl-act');
+      var sy = el('a', null, 'sync'); sy.href = 'https://github.com/thapras/market-watch/issues/new?title=' + encodeURIComponent('watch: ' + r.key); sy.target = '_blank'; sy.rel = 'noopener'; sy.title = 'Commit this snapshot to the repo log (a prefilled GitHub issue, repo owner only); the nightly run then grades it exactly and every device sees it'; act.appendChild(sy);
+      var rm = el('a', null, 'remove'); rm.href = '#watchlist'; rm.title = 'Delete this snapshot from this device';
+      rm.addEventListener('click', function(ev){ ev.preventDefault(); var st = wlStore(); st.open = (st.open || []).filter(function(x){ return x.id !== r.id; }); wlStoreSave(st); wlRerender(); });
+      act.appendChild(rm);
+      gd.appendChild(act);
+    }
     tr.appendChild(gd);
     return tr;
   }
-  function wlPanel(WL){
+  function wlPanel(WL, rank){
     var body = document.getElementById('wl-body');
-    if (!body || !WL) return;
-    var rows = WL.rows || [], closedRows = WL.closed || [];
-    if (!rows.length && !closedRows.length) return;
+    if (!body) return;
+    window.__mwWl = {wl: WL, rank: rank};
+    var repoRows = (WL || {}).rows || [], closedRows = (WL || {}).closed || [];
+    var rows = repoRows.concat(wlLocalRows(rank, repoRows));
+    rows.sort(function(a, b){ return (a.date || '') < (b.date || '') ? 1 : -1; });
     body.innerHTML = '';
     if (rows.length) {
       var t = wlTable();
       rows.forEach(function(r){ t.lastChild.appendChild(wlRow(r, false)); });
       var w = el('div', 'scroll'); w.appendChild(t); body.appendChild(w);
     } else {
-      body.appendChild(el('p', 'wl-empty', 'Nothing open. Closed snapshots are below; the + beside a market in the ranking adds a new one.'));
+      body.appendChild(el('p', 'wl-empty', closedRows.length ? 'Nothing open. Closed snapshots are below; the + beside a market saves a new one on this device.' : WLEMPTY));
     }
     if (closedRows.length) {
       var d = el('details', 'wl-closed'); d.appendChild(el('summary', null, 'Closed: ' + closedRows.length));
@@ -2348,6 +2411,10 @@ td.name .snap:hover,td.name .snap:focus-visible{color:var(--accent-text);border-
       ((((data || {}).v2 || {}).watchlist || {}).rows || []).forEach(function(r){ have[r.id] = 1; });
       var pend = (w.open || []).filter(function(e){ return !have[e.id]; });
       if (!pend.length) return;
+      var st = wlStore(), loc = st.open || [], pk = {};
+      pend.forEach(function(e){ pk[e.key] = 1; });
+      var kept = loc.filter(function(e){ return !pk[e.key]; });
+      if (kept.length !== loc.length) { st.open = kept; wlStoreSave(st); wlRerender(); }
       var body = document.getElementById('wl-body');
       if (!body) return;
       var t = body.querySelector('.scroll table');
@@ -2368,7 +2435,7 @@ td.name .snap:hover,td.name .snap:focus-visible{color:var(--accent-text);border-
   function visuals(data){
     var v2 = data.v2 || {};
     encodeCells(); mobileLabels(); overflowFades();
-    rankMap(data.rank || {}); compTrails(v2.regime); calStrip(v2.calendar); ratesCharts(v2.rates); wlPanel(v2.watchlist);
+    rankMap(data.rank || {}); compTrails(v2.regime); calStrip(v2.calendar); ratesCharts(v2.rates); wlPanel(v2.watchlist, data.rank || {});
   }
   function fillV2(v){
     var R = v.regime, T = v.rotation;

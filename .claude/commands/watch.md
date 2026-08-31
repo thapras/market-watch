@@ -22,6 +22,9 @@ the ranking. The point is evidence: do the page's reads lead performance or not.
   calm summary: what is working, what is stalled, whether any read looks wrong ahead of threshold
   tuning. No trades, no targets.
 
+The page's + saves a snapshot on the reader's device only (localStorage, graded in the browser);
+`/watch add`, the CLI, or a saved row's sync link is what writes the repo log the nightly run grades.
+
 ## Guardrails
 
 - `data/watchlist.json` is written by `fetch.watch` only (here or through the watch issue
