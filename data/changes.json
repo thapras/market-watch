@@ -1,7 +1,43 @@
 {
- "asOf": "2026-09-01T08:20+07:00",
- "asOfLabel": "1 Sep 2026, 08:20 BKK",
+ "asOf": "2026-09-02T07:23+07:00",
+ "asOfLabel": "2 Sep 2026, 07:23 BKK",
  "changes": [
+  {
+   "d": "2 Sep",
+   "href": "#ranking",
+   "key": "nearrank.us_small",
+   "sec": "regime",
+   "t": "2026-09-02T07:23+07:00",
+   "text": "Near a flip: US small caps price score +0.4 is inside the 0.5 band; one more step up changes the read from Conditions ahead, up.",
+   "tier": "fyi"
+  },
+  {
+   "d": "2 Sep",
+   "href": "#ranking",
+   "key": "nearrank.silver",
+   "sec": "regime",
+   "t": "2026-09-02T07:23+07:00",
+   "text": "Near a flip: Silver and silver miners price score -0.4 is inside the 0.5 band; one more step down changes the read from Neutral.",
+   "tier": "fyi"
+  },
+  {
+   "d": "2 Sep",
+   "href": "#calendar",
+   "key": "cal.eia:2026-09-02",
+   "sec": "calendar",
+   "t": "2026-09-02T07:23+07:00",
+   "text": "Coming Wed 2 Sep, 10:30 ET: EIA crude inventories (consensus change, mb -0.4M); options price a 0.8% S&P move.",
+   "tier": "fyi"
+  },
+  {
+   "d": "2 Sep",
+   "href": "#ranking",
+   "key": "rank.us_small",
+   "sec": "regime",
+   "t": "2026-09-02T07:23+07:00",
+   "text": "US small caps read changed: Aligned up to Conditions ahead, up (conditions +0.9, price +0.4).",
+   "tier": "must"
+  },
   {
    "d": "1 Sep",
    "href": "#rotation",
