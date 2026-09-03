@@ -1,5 +1,5 @@
 {
- "asOf": "2026-09-02T07:23+07:00",
+ "asOf": "2026-09-03T07:28+07:00",
  "date": "2026-09-01",
  "detector": {
   "btc": {
@@ -24,20 +24,19 @@
   "cash": {
    "count": 1,
    "entry": 0.5,
-   "lost": 1.0,
-   "lostn": [
-    "Macro"
-   ],
+   "lost": 0.0,
+   "lostn": [],
    "name": "Cash leaving the sidelines",
    "off": [
-    "Breadth"
+    "Breadth",
+    "Macro"
    ],
    "on": [
     "Seasonal"
    ],
-   "raw": "watch_exit",
-   "raw_count": 2,
-   "raw_since": "2026-08-31",
+   "raw": "none",
+   "raw_count": 1,
+   "raw_since": "2026-09-01",
    "since": "2026-08-28",
    "state": "none"
   },
@@ -60,21 +59,21 @@
    "state": "watch"
   },
   "gdx": {
-   "count": 2,
-   "entry": 2.0,
+   "count": 1,
+   "entry": 1.0,
    "lost": 0.0,
    "lostn": [],
    "name": "Gold miners",
    "off": [
-    "Seasonal"
-   ],
-   "on": [
-    "Relative strength",
+    "Seasonal",
     "Macro"
    ],
-   "raw": "early",
-   "raw_count": 1,
-   "raw_since": "2026-09-01",
+   "on": [
+    "Relative strength"
+   ],
+   "raw": "watch",
+   "raw_count": 2,
+   "raw_since": "2026-08-31",
    "since": "2026-08-05",
    "state": "early"
   },
@@ -137,12 +136,12 @@
   "mags": {
    "count": 1,
    "entry": 1.0,
-   "lost": 0.0,
-   "lostn": [],
-   "name": "Mega-cap tech and AI",
-   "off": [
+   "lost": 1.0,
+   "lostn": [
     "Macro"
    ],
+   "name": "Mega-cap tech and AI",
+   "off": [],
    "on": [
     "Relative strength"
    ],
@@ -153,35 +152,35 @@
    "state": "watch"
   },
   "sil": {
-   "count": 2,
-   "entry": 2.0,
+   "count": 1,
+   "entry": 1.0,
    "lost": 0.0,
    "lostn": [],
    "name": "Silver miners",
    "off": [
-    "Seasonal"
-   ],
-   "on": [
-    "Relative strength",
+    "Seasonal",
     "Macro"
    ],
-   "raw": "early",
-   "raw_count": 1,
-   "raw_since": "2026-09-01",
+   "on": [
+    "Relative strength"
+   ],
+   "raw": "watch",
+   "raw_count": 2,
+   "raw_since": "2026-08-31",
    "since": "2026-08-05",
    "state": "early"
   },
   "smh": {
    "count": 0,
    "entry": 0.0,
-   "lost": 1.0,
+   "lost": 2.0,
    "lostn": [
-    "Relative strength"
+    "Relative strength",
+    "Macro"
    ],
    "name": "Semiconductors",
    "off": [
-    "Seasonal",
-    "Macro"
+    "Seasonal"
    ],
    "on": [],
    "raw": "watch_exit",
@@ -229,21 +228,21 @@
    "state": "watch"
   },
   "xbi": {
-   "count": 2,
-   "entry": 2.0,
-   "lost": 0.5,
+   "count": 1,
+   "entry": 1.0,
+   "lost": 1.5,
    "lostn": [
-    "Seasonal"
+    "Seasonal",
+    "Macro"
    ],
    "name": "Biotech",
    "off": [],
    "on": [
-    "Relative strength",
-    "Macro"
+    "Relative strength"
    ],
-   "raw": "early",
-   "raw_count": 1,
-   "raw_since": "2026-09-01",
+   "raw": "watch",
+   "raw_count": 2,
+   "raw_since": "2026-08-31",
    "since": "2026-08-04",
    "state": "early"
   },
@@ -2510,6 +2509,11 @@
     "equity": 0.7,
     "index": 0.92,
     "total": 0.84
+   },
+   "2026-09-01": {
+    "equity": 0.67,
+    "index": 1.03,
+    "total": 0.95
    }
   },
   "scores": {
@@ -2750,7 +2754,7 @@
     ],
     "copper": [
      0.0,
-     1.6
+     1.4
     ],
     "em_ex_china": [
      0.9,
@@ -2766,7 +2770,7 @@
     ],
     "gold": [
      -0.4,
-     -0.2
+     -0.4
     ],
     "gold_miners": [
      0.0,
@@ -2786,7 +2790,7 @@
     ],
     "silver": [
      0.0,
-     -0.4
+     -0.2
     ],
     "thailand": [
      0.7,
@@ -2798,7 +2802,7 @@
     ],
     "us_large": [
      0.1,
-     0.6
+     0.8
     ],
     "us_small": [
      0.9,
@@ -2865,7 +2869,7 @@
   "copper": {
    "cond": 0.0,
    "name": "Copper and industrial metals",
-   "price": 1.6,
+   "price": 1.4,
    "read": "Price ahead, up"
   },
   "em_ex_china": {
@@ -2889,7 +2893,7 @@
   "gold": {
    "cond": -0.4,
    "name": "Gold",
-   "price": -0.2,
+   "price": -0.4,
    "read": "Neutral"
   },
   "gold_miners": {
@@ -2919,7 +2923,7 @@
   "silver": {
    "cond": 0.0,
    "name": "Silver and silver miners",
-   "price": -0.4,
+   "price": -0.2,
    "read": "Neutral"
   },
   "thailand": {
@@ -2937,7 +2941,7 @@
   "us_large": {
    "cond": 0.1,
    "name": "US large caps (S&P 500)",
-   "price": 0.6,
+   "price": 0.8,
    "read": "Price ahead, up"
   },
   "us_small": {
@@ -2956,7 +2960,7 @@
  "regime": {
   "composites": {
    "cost": {
-    "value": -0.18
+    "value": -0.23
    },
    "growth": {
     "value": 0.08
@@ -2968,7 +2972,7 @@
     "value": 0.25
    },
    "risk": {
-    "value": 1.18
+    "value": 1.2
    }
   },
   "flags": {
@@ -2985,13 +2989,13 @@
  },
  "sectors": {
   "xlb": {
-   "mom": 98.1,
+   "mom": 98.2,
    "name": "Materials",
    "quadrant": "Lagging",
    "rs": 98.8
   },
   "xlc": {
-   "mom": 95.2,
+   "mom": 95.6,
    "name": "Communication services",
    "quadrant": "Lagging",
    "rs": 89.3
@@ -3015,10 +3019,10 @@
    "rs": 101.2
   },
   "xlk": {
-   "mom": 99.5,
+   "mom": 99.0,
    "name": "Technology",
    "quadrant": "Weakening",
-   "rs": 109.1
+   "rs": 108.9
   },
   "xlp": {
    "mom": 101.3,
@@ -3033,10 +3037,10 @@
    "rs": 98.5
   },
   "xlu": {
-   "mom": 97.9,
+   "mom": 98.0,
    "name": "Utilities",
    "quadrant": "Lagging",
-   "rs": 93.6
+   "rs": 93.5
   },
   "xlv": {
    "mom": 107.3,
@@ -3076,23 +3080,12 @@
   }
  },
  "v4": {
-  "date": "2026-09-01",
-  "surprises": [
-   {
-    "a": 7.27,
-    "date": "2026-09-01",
-    "f": 7.33,
-    "series": "jolts",
-    "z": -0.2
-   }
-  ],
+  "date": "2026-09-02",
+  "surprises": [],
   "tier1_soon": [
    "payrolls:2026-09-04"
   ],
   "tier2_soon": [
-   "ez_cpi:2026-09-01",
-   "ism_mfg:2026-09-01",
-   "jolts:2026-09-01",
    "eia:2026-09-02",
    "ism_svc:2026-09-03",
    "blackout:2026-09-05"

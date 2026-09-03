@@ -1,7 +1,25 @@
 {
- "asOf": "2026-09-02T07:23+07:00",
- "asOfLabel": "2 Sep 2026, 07:23 BKK",
+ "asOf": "2026-09-03T07:28+07:00",
+ "asOfLabel": "3 Sep 2026, 07:28 BKK",
  "changes": [
+  {
+   "d": "3 Sep",
+   "href": "#calendar",
+   "key": "cal.ism_svc:2026-09-03",
+   "sec": "calendar",
+   "t": "2026-09-03T07:28+07:00",
+   "text": "Coming Thu 3 Sep, 10:00 ET: ISM services (consensus headline 54.2); options price a 0.8% S&P move.",
+   "tier": "fyi"
+  },
+  {
+   "d": "3 Sep",
+   "href": "#calendar",
+   "key": "cal.blackout:2026-09-05",
+   "sec": "calendar",
+   "t": "2026-09-03T07:28+07:00",
+   "text": "Coming Sat 5 Sep: Fed communications blackout begins (to 17 Sep).",
+   "tier": "fyi"
+  },
   {
    "d": "2 Sep",
    "href": "#ranking",
