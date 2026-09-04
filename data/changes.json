@@ -1,7 +1,52 @@
 {
- "asOf": "2026-09-03T07:28+07:00",
- "asOfLabel": "3 Sep 2026, 07:28 BKK",
+ "asOf": "2026-09-04T07:14+07:00",
+ "asOfLabel": "4 Sep 2026, 07:14 BKK",
  "changes": [
+  {
+   "d": "4 Sep",
+   "href": "#rotation",
+   "key": "near.kre",
+   "sec": "rotation",
+   "t": "2026-09-04T07:14+07:00",
+   "text": "Near a flip: Regional banks sits at 0.5 of 5; Macro would move it to Watch.",
+   "tier": "fyi"
+  },
+  {
+   "d": "4 Sep",
+   "href": "#regime",
+   "key": "flag.dollar",
+   "sec": "regime",
+   "t": "2026-09-04T07:14+07:00",
+   "text": "Dollar flag changed: mixed to weakening.",
+   "tier": "note"
+  },
+  {
+   "d": "4 Sep",
+   "href": "#rotation",
+   "key": "theme.gdx",
+   "sec": "rotation",
+   "t": "2026-09-04T07:14+07:00",
+   "text": "Gold miners moved from Early to Watch (1 of 5): Relative strength.",
+   "tier": "note"
+  },
+  {
+   "d": "4 Sep",
+   "href": "#rotation",
+   "key": "theme.sil",
+   "sec": "rotation",
+   "t": "2026-09-04T07:14+07:00",
+   "text": "Silver miners moved from Early to Watch (1 of 5): Relative strength.",
+   "tier": "note"
+  },
+  {
+   "d": "4 Sep",
+   "href": "#rotation",
+   "key": "theme.xbi",
+   "sec": "rotation",
+   "t": "2026-09-04T07:14+07:00",
+   "text": "Biotech moved from Early to Watch (1 of 5): Relative strength.",
+   "tier": "note"
+  },
   {
    "d": "3 Sep",
    "href": "#calendar",

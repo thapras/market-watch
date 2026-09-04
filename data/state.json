@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-03T07:28+07:00",
- "date": "2026-09-01",
+ "asOf": "2026-09-04T07:14+07:00",
+ "date": "2026-09-02",
  "detector": {
   "btc": {
    "count": 2,
@@ -16,66 +16,67 @@
     "Seasonal"
    ],
    "raw": "watch",
-   "raw_count": 6,
+   "raw_count": 7,
    "raw_since": "2026-08-19",
    "since": "2026-08-19",
    "state": "watch"
   },
   "cash": {
-   "count": 1,
-   "entry": 0.5,
+   "count": 2,
+   "entry": 1.5,
    "lost": 0.0,
    "lostn": [],
    "name": "Cash leaving the sidelines",
    "off": [
-    "Breadth",
     "Macro"
    ],
    "on": [
+    "Breadth",
     "Seasonal"
    ],
-   "raw": "none",
+   "raw": "watch",
    "raw_count": 1,
-   "raw_since": "2026-09-01",
+   "raw_since": "2026-09-02",
    "since": "2026-08-28",
    "state": "none"
   },
   "cibr": {
-   "count": 1,
-   "entry": 1.0,
-   "lost": 0.0,
-   "lostn": [],
+   "count": 0,
+   "entry": 0.0,
+   "lost": 1.0,
+   "lostn": [
+    "Relative strength"
+   ],
    "name": "Cybersecurity",
    "off": [
     "Seasonal"
    ],
-   "on": [
-    "Relative strength"
-   ],
-   "raw": "watch",
-   "raw_count": 6,
-   "raw_since": "2026-08-26",
+   "on": [],
+   "raw": "watch_exit",
+   "raw_count": 1,
+   "raw_since": "2026-09-02",
    "since": "2026-08-26",
    "state": "watch"
   },
   "gdx": {
    "count": 1,
    "entry": 1.0,
-   "lost": 0.0,
-   "lostn": [],
+   "lost": 0.5,
+   "lostn": [
+    "Seasonal"
+   ],
    "name": "Gold miners",
    "off": [
-    "Seasonal",
     "Macro"
    ],
    "on": [
     "Relative strength"
    ],
    "raw": "watch",
-   "raw_count": 2,
+   "raw_count": 3,
    "raw_since": "2026-08-31",
-   "since": "2026-08-05",
-   "state": "early"
+   "since": "2026-08-31",
+   "state": "watch"
   },
   "ita": {
    "count": 1,
@@ -90,7 +91,7 @@
     "Seasonal"
    ],
    "raw": "watch_exit",
-   "raw_count": 6,
+   "raw_count": 7,
    "raw_since": "2026-08-19",
    "since": "2026-08-19",
    "state": "watch_exit"
@@ -98,37 +99,38 @@
   "kbe": {
    "count": 0,
    "entry": 0.0,
-   "lost": 1.5,
-   "lostn": [
-    "Relative strength",
-    "Seasonal"
-   ],
-   "name": "Banks",
-   "off": [
-    "Macro"
-   ],
-   "on": [],
-   "raw": "watch_exit",
-   "raw_count": 6,
-   "raw_since": "2026-08-19",
-   "since": "2026-08-19",
-   "state": "watch_exit"
-  },
-  "kre": {
-   "count": 0,
-   "entry": 0.0,
    "lost": 1.0,
    "lostn": [
     "Relative strength"
    ],
-   "name": "Regional banks",
+   "name": "Banks",
    "off": [
     "Seasonal",
     "Macro"
    ],
    "on": [],
    "raw": "watch_exit",
-   "raw_count": 6,
+   "raw_count": 7,
+   "raw_since": "2026-08-19",
+   "since": "2026-08-19",
+   "state": "watch_exit"
+  },
+  "kre": {
+   "count": 1,
+   "entry": 0.5,
+   "lost": 1.0,
+   "lostn": [
+    "Relative strength"
+   ],
+   "name": "Regional banks",
+   "off": [
+    "Macro"
+   ],
+   "on": [
+    "Seasonal"
+   ],
+   "raw": "watch_exit",
+   "raw_count": 7,
    "raw_since": "2026-08-19",
    "since": "2026-08-19",
    "state": "watch_exit"
@@ -146,7 +148,7 @@
     "Relative strength"
    ],
    "raw": "watch",
-   "raw_count": 6,
+   "raw_count": 7,
    "raw_since": "2026-08-24",
    "since": "2026-08-24",
    "state": "watch"
@@ -165,10 +167,10 @@
     "Relative strength"
    ],
    "raw": "watch",
-   "raw_count": 2,
+   "raw_count": 3,
    "raw_since": "2026-08-31",
-   "since": "2026-08-05",
-   "state": "early"
+   "since": "2026-08-31",
+   "state": "watch"
   },
   "smh": {
    "count": 0,
@@ -184,7 +186,7 @@
    ],
    "on": [],
    "raw": "watch_exit",
-   "raw_count": 6,
+   "raw_count": 7,
    "raw_since": "2026-07-15",
    "since": "2026-07-15",
    "state": "watch_exit"
@@ -204,7 +206,7 @@
    ],
    "on": [],
    "raw": "watch_exit",
-   "raw_count": 6,
+   "raw_count": 7,
    "raw_since": "2026-08-27",
    "since": "2026-08-27",
    "state": "watch_exit"
@@ -222,7 +224,7 @@
     "Relative strength"
    ],
    "raw": "watch",
-   "raw_count": 6,
+   "raw_count": 7,
    "raw_since": "2026-08-19",
    "since": "2026-08-19",
    "state": "watch"
@@ -230,21 +232,22 @@
   "xbi": {
    "count": 1,
    "entry": 1.0,
-   "lost": 1.5,
+   "lost": 1.0,
    "lostn": [
-    "Seasonal",
     "Macro"
    ],
    "name": "Biotech",
-   "off": [],
+   "off": [
+    "Seasonal"
+   ],
    "on": [
     "Relative strength"
    ],
    "raw": "watch",
-   "raw_count": 2,
+   "raw_count": 3,
    "raw_since": "2026-08-31",
-   "since": "2026-08-04",
-   "state": "early"
+   "since": "2026-08-31",
+   "state": "watch"
   },
   "xhb": {
    "count": 0,
@@ -261,7 +264,7 @@
    ],
    "on": [],
    "raw": "watch_exit",
-   "raw_count": 6,
+   "raw_count": 7,
    "raw_since": "2026-07-29",
    "since": "2026-07-29",
    "state": "watch_exit"
@@ -281,7 +284,7 @@
    ],
    "on": [],
    "raw": "watch_exit",
-   "raw_count": 6,
+   "raw_count": 7,
    "raw_since": "2026-07-30",
    "since": "2026-07-30",
    "state": "watch_exit"
@@ -301,7 +304,7 @@
     "Macro"
    ],
    "raw": "early",
-   "raw_count": 6,
+   "raw_count": 7,
    "raw_since": "2026-08-10",
    "since": "2026-08-10",
    "state": "early"
@@ -309,7 +312,8 @@
  },
  "history": {
   "aaii": {
-   "2026-08-26": -11.5
+   "2026-08-26": -11.5,
+   "2026-09-02": 2.1000000000000014
   },
   "fomc": {
    "2011": [
@@ -1227,7 +1231,8 @@
    "2026-07-01": 1417225.0
   },
   "mmf": {
-   "2026-08-26": 7934.59
+   "2026-08-26": 7934.59,
+   "2026-09-02": 7979.35
   },
   "pc": {
    "2025-08-25": {
@@ -2514,6 +2519,11 @@
     "equity": 0.67,
     "index": 1.03,
     "total": 0.95
+   },
+   "2026-09-02": {
+    "equity": 0.56,
+    "index": 0.91,
+    "total": 0.84
    }
   },
   "scores": {
@@ -2812,6 +2822,80 @@
      0.5,
      -1.0
     ]
+   },
+   "2026-09-02": {
+    "banks": [
+     0.9,
+     1.4
+    ],
+    "bitcoin": [
+     0.0,
+     0.2
+    ],
+    "cash": [
+     -0.7,
+     null
+    ],
+    "copper": [
+     0.0,
+     1.4
+    ],
+    "em_ex_china": [
+     1.0,
+     1.4
+    ],
+    "energy": [
+     0.3,
+     1.6
+    ],
+    "europe": [
+     0.9,
+     0.8
+    ],
+    "gold": [
+     -0.3,
+     0.2
+    ],
+    "gold_miners": [
+     0.0,
+     0.4
+    ],
+    "japan": [
+     0.7,
+     1.2
+    ],
+    "reits": [
+     0.3,
+     0.2
+    ],
+    "semis": [
+     0.8,
+     0.6
+    ],
+    "silver": [
+     0.1,
+     -0.2
+    ],
+    "thailand": [
+     0.7,
+     1.6
+    ],
+    "us_hy": [
+     0.2,
+     0.8
+    ],
+    "us_large": [
+     0.1,
+     0.8
+    ],
+    "us_small": [
+     1.0,
+     0.4
+    ],
+    "ust10": [
+     0.6,
+     -1.0
+    ]
    }
   },
   "surprises": {
@@ -2855,13 +2939,13 @@
    "read": "Aligned up"
   },
   "bitcoin": {
-   "cond": -0.1,
+   "cond": 0.0,
    "name": "Bitcoin",
-   "price": -0.2,
+   "price": 0.2,
    "read": "Neutral"
   },
   "cash": {
-   "cond": -0.6,
+   "cond": -0.7,
    "name": "Cash (T-bills)",
    "price": null,
    "read": null
@@ -2873,7 +2957,7 @@
    "read": "Price ahead, up"
   },
   "em_ex_china": {
-   "cond": 0.9,
+   "cond": 1.0,
    "name": "Emerging markets ex China",
    "price": 1.4,
    "read": "Aligned up"
@@ -2891,9 +2975,9 @@
    "read": "Aligned up"
   },
   "gold": {
-   "cond": -0.4,
+   "cond": -0.3,
    "name": "Gold",
-   "price": -0.4,
+   "price": 0.2,
    "read": "Neutral"
   },
   "gold_miners": {
@@ -2905,11 +2989,11 @@
   "japan": {
    "cond": 0.7,
    "name": "Japan equities",
-   "price": 1.0,
+   "price": 1.2,
    "read": "Aligned up"
   },
   "reits": {
-   "cond": 0.1,
+   "cond": 0.3,
    "name": "Real estate (REITs)",
    "price": 0.2,
    "read": "Neutral"
@@ -2921,7 +3005,7 @@
    "read": "Aligned up"
   },
   "silver": {
-   "cond": 0.0,
+   "cond": 0.1,
    "name": "Silver and silver miners",
    "price": -0.2,
    "read": "Neutral"
@@ -2933,7 +3017,7 @@
    "read": "Aligned up"
   },
   "us_hy": {
-   "cond": 0.0,
+   "cond": 0.2,
    "name": "US high yield credit",
    "price": 0.8,
    "read": "Price ahead, up"
@@ -2945,13 +3029,13 @@
    "read": "Price ahead, up"
   },
   "us_small": {
-   "cond": 0.9,
+   "cond": 1.0,
    "name": "US small caps",
    "price": 0.4,
    "read": "Conditions ahead, up"
   },
   "ust10": {
-   "cond": 0.5,
+   "cond": 0.6,
    "name": "US 10-year Treasuries",
    "price": -1.0,
    "read": "Divergence"
@@ -2960,10 +3044,10 @@
  "regime": {
   "composites": {
    "cost": {
-    "value": -0.23
+    "value": -0.15
    },
    "growth": {
-    "value": 0.08
+    "value": 0.21
    },
    "infl": {
     "value": -0.85
@@ -2972,7 +3056,7 @@
     "value": 0.25
    },
    "risk": {
-    "value": 1.2
+    "value": 1.24
    }
   },
   "flags": {
@@ -2981,7 +3065,7 @@
    "credit": "none",
    "cycle": "Recovery",
    "cycle_detail": "growth up, inflation down",
-   "dollar": "mixed",
+   "dollar": "weakening",
    "liquidity": "expanding",
    "momentum": "rolling over",
    "risk": "on"
@@ -2989,40 +3073,40 @@
  },
  "sectors": {
   "xlb": {
-   "mom": 98.2,
+   "mom": 98.4,
    "name": "Materials",
    "quadrant": "Lagging",
    "rs": 98.8
   },
   "xlc": {
-   "mom": 95.6,
+   "mom": 95.9,
    "name": "Communication services",
    "quadrant": "Lagging",
-   "rs": 89.3
+   "rs": 89.4
   },
   "xle": {
-   "mom": 96.5,
+   "mom": 96.9,
    "name": "Energy",
    "quadrant": "Weakening",
-   "rs": 104.7
+   "rs": 104.9
   },
   "xlf": {
    "mom": 107.7,
    "name": "Financials",
    "quadrant": "Improving",
-   "rs": 98.7
+   "rs": 98.8
   },
   "xli": {
    "mom": 101.0,
    "name": "Industrials",
    "quadrant": "Leading",
-   "rs": 101.2
+   "rs": 101.1
   },
   "xlk": {
-   "mom": 99.0,
+   "mom": 98.6,
    "name": "Technology",
    "quadrant": "Weakening",
-   "rs": 108.9
+   "rs": 108.7
   },
   "xlp": {
    "mom": 101.3,
@@ -3031,25 +3115,25 @@
    "rs": 96.6
   },
   "xlre": {
-   "mom": 100.8,
+   "mom": 100.7,
    "name": "Real estate",
    "quadrant": "Improving",
-   "rs": 98.5
+   "rs": 98.4
   },
   "xlu": {
-   "mom": 98.0,
+   "mom": 98.1,
    "name": "Utilities",
    "quadrant": "Lagging",
-   "rs": 93.5
+   "rs": 93.4
   },
   "xlv": {
-   "mom": 107.3,
+   "mom": 107.5,
    "name": "Health care",
    "quadrant": "Leading",
-   "rs": 100.6
+   "rs": 100.8
   },
   "xly": {
-   "mom": 98.1,
+   "mom": 98.2,
    "name": "Consumer discretionary",
    "quadrant": "Lagging",
    "rs": 91.7
@@ -3080,13 +3164,12 @@
   }
  },
  "v4": {
-  "date": "2026-09-02",
+  "date": "2026-09-03",
   "surprises": [],
   "tier1_soon": [
    "payrolls:2026-09-04"
   ],
   "tier2_soon": [
-   "eia:2026-09-02",
    "ism_svc:2026-09-03",
    "blackout:2026-09-05"
   ]
@@ -3106,7 +3189,7 @@
     "Seasonal"
    ],
    "raw": "watch",
-   "raw_count": 5,
+   "raw_count": 6,
    "raw_since": "2026-08-19",
    "since": "2026-08-19",
    "state": "watch"
@@ -3114,20 +3197,19 @@
   "cash": {
    "count": 1,
    "entry": 0.5,
-   "lost": 1.0,
-   "lostn": [
-    "Macro"
-   ],
+   "lost": 0.0,
+   "lostn": [],
    "name": "Cash leaving the sidelines",
    "off": [
-    "Breadth"
+    "Breadth",
+    "Macro"
    ],
    "on": [
     "Seasonal"
    ],
-   "raw": "watch_exit",
+   "raw": "none",
    "raw_count": 1,
-   "raw_since": "2026-08-31",
+   "raw_since": "2026-09-01",
    "since": "2026-08-28",
    "state": "none"
   },
@@ -3144,7 +3226,7 @@
     "Relative strength"
    ],
    "raw": "watch",
-   "raw_count": 5,
+   "raw_count": 6,
    "raw_since": "2026-08-26",
    "since": "2026-08-26",
    "state": "watch"
@@ -3163,7 +3245,7 @@
     "Relative strength"
    ],
    "raw": "watch",
-   "raw_count": 1,
+   "raw_count": 2,
    "raw_since": "2026-08-31",
    "since": "2026-08-05",
    "state": "early"
@@ -3181,7 +3263,7 @@
     "Seasonal"
    ],
    "raw": "watch_exit",
-   "raw_count": 5,
+   "raw_count": 6,
    "raw_since": "2026-08-19",
    "since": "2026-08-19",
    "state": "watch_exit"
@@ -3189,17 +3271,18 @@
   "kbe": {
    "count": 0,
    "entry": 0.0,
-   "lost": 2.5,
+   "lost": 1.5,
    "lostn": [
     "Relative strength",
-    "Seasonal",
-    "Macro"
+    "Seasonal"
    ],
    "name": "Banks",
-   "off": [],
+   "off": [
+    "Macro"
+   ],
    "on": [],
    "raw": "watch_exit",
-   "raw_count": 5,
+   "raw_count": 6,
    "raw_since": "2026-08-19",
    "since": "2026-08-19",
    "state": "watch_exit"
@@ -3207,18 +3290,18 @@
   "kre": {
    "count": 0,
    "entry": 0.0,
-   "lost": 2.0,
+   "lost": 1.0,
    "lostn": [
-    "Relative strength",
-    "Macro"
+    "Relative strength"
    ],
    "name": "Regional banks",
    "off": [
-    "Seasonal"
+    "Seasonal",
+    "Macro"
    ],
    "on": [],
    "raw": "watch_exit",
-   "raw_count": 5,
+   "raw_count": 6,
    "raw_since": "2026-08-19",
    "since": "2026-08-19",
    "state": "watch_exit"
@@ -3236,7 +3319,7 @@
     "Relative strength"
    ],
    "raw": "watch",
-   "raw_count": 5,
+   "raw_count": 6,
    "raw_since": "2026-08-24",
    "since": "2026-08-24",
    "state": "watch"
@@ -3255,7 +3338,7 @@
     "Relative strength"
    ],
    "raw": "watch",
-   "raw_count": 1,
+   "raw_count": 2,
    "raw_since": "2026-08-31",
    "since": "2026-08-05",
    "state": "early"
@@ -3274,7 +3357,7 @@
    ],
    "on": [],
    "raw": "watch_exit",
-   "raw_count": 5,
+   "raw_count": 6,
    "raw_since": "2026-07-15",
    "since": "2026-07-15",
    "state": "watch_exit"
@@ -3294,7 +3377,7 @@
    ],
    "on": [],
    "raw": "watch_exit",
-   "raw_count": 5,
+   "raw_count": 6,
    "raw_since": "2026-08-27",
    "since": "2026-08-27",
    "state": "watch_exit"
@@ -3302,17 +3385,17 @@
   "ura": {
    "count": 1,
    "entry": 1.0,
-   "lost": 0.0,
-   "lostn": [],
-   "name": "Uranium",
-   "off": [
+   "lost": 0.5,
+   "lostn": [
     "Seasonal"
    ],
+   "name": "Uranium",
+   "off": [],
    "on": [
     "Relative strength"
    ],
    "raw": "watch",
-   "raw_count": 5,
+   "raw_count": 6,
    "raw_since": "2026-08-19",
    "since": "2026-08-19",
    "state": "watch"
@@ -3331,7 +3414,7 @@
     "Relative strength"
    ],
    "raw": "watch",
-   "raw_count": 1,
+   "raw_count": 2,
    "raw_since": "2026-08-31",
    "since": "2026-08-04",
    "state": "early"
@@ -3351,28 +3434,27 @@
    ],
    "on": [],
    "raw": "watch_exit",
-   "raw_count": 5,
+   "raw_count": 6,
    "raw_since": "2026-07-29",
    "since": "2026-07-29",
    "state": "watch_exit"
   },
   "xlu": {
-   "count": 1,
-   "entry": 0.5,
-   "lost": 2.0,
+   "count": 0,
+   "entry": 0.0,
+   "lost": 1.0,
    "lostn": [
-    "Relative strength",
-    "Breadth"
+    "Relative strength"
    ],
    "name": "Utilities",
    "off": [
+    "Breadth",
+    "Seasonal",
     "Macro"
    ],
-   "on": [
-    "Seasonal"
-   ],
+   "on": [],
    "raw": "watch_exit",
-   "raw_count": 5,
+   "raw_count": 6,
    "raw_since": "2026-07-30",
    "since": "2026-07-30",
    "state": "watch_exit"
@@ -3392,7 +3474,7 @@
     "Macro"
    ],
    "raw": "early",
-   "raw_count": 5,
+   "raw_count": 6,
    "raw_since": "2026-08-10",
    "since": "2026-08-10",
    "state": "early"
