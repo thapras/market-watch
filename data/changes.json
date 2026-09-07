@@ -1,7 +1,70 @@
 {
- "asOf": "2026-09-06T07:05+07:00",
- "asOfLabel": "6 Sep 2026, 07:05 BKK",
+ "asOf": "2026-09-07T07:09+07:00",
+ "asOfLabel": "7 Sep 2026, 07:09 BKK",
  "changes": [
+  {
+   "d": "7 Sep",
+   "href": "#rotation",
+   "key": "near.btc",
+   "sec": "rotation",
+   "t": "2026-09-07T07:09+07:00",
+   "text": "Near a flip: Bitcoin sits at 1.5 of 5; Macro would move it to Early.",
+   "tier": "fyi"
+  },
+  {
+   "d": "7 Sep",
+   "href": "#rotation",
+   "key": "near.cash",
+   "sec": "rotation",
+   "t": "2026-09-07T07:09+07:00",
+   "text": "Near a flip: Cash leaving the sidelines sits at 1.5 of 5; Macro would move it to Early.",
+   "tier": "fyi"
+  },
+  {
+   "d": "7 Sep",
+   "href": "#ranking",
+   "key": "nearrank.reits",
+   "sec": "regime",
+   "t": "2026-09-07T07:09+07:00",
+   "text": "Near a flip: Real estate (REITs) conditions score +0.3 is inside the 0.5 band; one more step up changes the read from Neutral.",
+   "tier": "fyi"
+  },
+  {
+   "d": "7 Sep",
+   "href": "#ranking",
+   "key": "nearrank.energy",
+   "sec": "regime",
+   "t": "2026-09-07T07:09+07:00",
+   "text": "Near a flip: Energy conditions score +0.4 is inside the 0.5 band; one more step up changes the read from Price ahead, up.",
+   "tier": "fyi"
+  },
+  {
+   "d": "7 Sep",
+   "href": "#calendar",
+   "key": "cal.china_trade:2026-09-07",
+   "sec": "calendar",
+   "t": "2026-09-07T07:09+07:00",
+   "text": "Coming Mon 7 Sep, 22:03 ET: China trade balance (consensus balance 795B; balance 120.1B); options price a 0.4% S&P move.",
+   "tier": "fyi"
+  },
+  {
+   "d": "7 Sep",
+   "href": "#calendar",
+   "key": "cal.china_prices:2026-09-08",
+   "sec": "calendar",
+   "t": "2026-09-07T07:09+07:00",
+   "text": "Coming Tue 8 Sep, 21:30 ET: China CPI and PPI (consensus CPI y/y 0.9%; PPI y/y 3.6%); options price a 0.5% S&P move.",
+   "tier": "fyi"
+  },
+  {
+   "d": "7 Sep",
+   "href": "#calendar",
+   "key": "cal.cpi:2026-09-11",
+   "sec": "calendar",
+   "t": "2026-09-07T07:09+07:00",
+   "text": "Coming Fri 11 Sep, 08:30 ET: US CPI (consensus m/m 0.4%; core m/m 0.2%; y/y 3.4%); options price a 0.8% S&P move.",
+   "tier": "note"
+  },
   {
    "d": "6 Sep",
    "href": "#calendar",
