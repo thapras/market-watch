@@ -1,5 +1,5 @@
 {
- "asOf": "2026-09-07T07:09+07:00",
+ "asOf": "2026-09-08T07:35+07:00",
  "date": "2026-09-04",
  "detector": {
   "btc": {
@@ -3242,7 +3242,7 @@
     "value": 0.25
    },
    "risk": {
-    "value": 1.29
+    "value": 1.28
    }
   },
   "flags": {
@@ -3251,7 +3251,7 @@
    "credit": "none",
    "cycle": "Recovery",
    "cycle_detail": "growth up, inflation down",
-   "dollar": "weakening",
+   "dollar": "mixed",
    "liquidity": "expanding",
    "momentum": "rolling over",
    "risk": "on"
@@ -3350,7 +3350,7 @@
   }
  },
  "v4": {
-  "date": "2026-09-06",
+  "date": "2026-09-07",
   "surprises": [],
   "tier1_soon": [
    "cpi:2026-09-11"

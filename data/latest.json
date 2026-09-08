@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-07T07:09+07:00",
- "asOfLabel": "7 Sep 2026, 07:09 BKK",
+ "asOf": "2026-09-08T07:35+07:00",
+ "asOfLabel": "8 Sep 2026, 07:35 BKK",
  "cells": {
   "cb.boe.last": {
    "s": 0,
@@ -110,7 +110,7 @@
   },
   "cta.copper.flip": {
    "s": 0,
-   "t": "6.07 (-9.1%)"
+   "t": "6.07 (-10.0%)"
   },
   "cta.copper.signal": {
    "h": "<span class=\"chip up\"><span class=\"g\">▲</span>Long</span>",
@@ -123,7 +123,7 @@
   },
   "cta.dxy.flip": {
    "s": 0,
-   "t": "100 (+0.7%)"
+   "t": "100 (+0.6%)"
   },
   "cta.dxy.signal": {
    "h": "<span class=\"chip serious\"><span class=\"g\">▼</span>Short</span>",
@@ -136,7 +136,7 @@
   },
   "cta.gold.flip": {
    "s": 0,
-   "t": "4,079 (-8.9%)"
+   "t": "4,079 (-8.7%)"
   },
   "cta.gold.signal": {
    "h": "<span class=\"chip up\"><span class=\"g\">▲</span>Long</span>",
@@ -188,7 +188,7 @@
   },
   "cta.wti.flip": {
    "s": 0,
-   "t": "69 (-24.3%)"
+   "t": "69 (-25.1%)"
   },
   "cta.wti.signal": {
    "h": "<span class=\"chip up\"><span class=\"g\">▲</span>Long</span>",
@@ -205,7 +205,7 @@
   },
   "div.btc.cr": {
    "s": 0,
-   "t": "Leveraged funds net -8k, pct 88; crypto fear and greed 71, pct 81"
+   "t": "Leveraged funds net -8k, pct 88; crypto fear and greed 69, pct 77"
   },
   "div.btc.read": {
    "s": 0,
@@ -381,43 +381,43 @@
   },
   "en.brent.1m": {
    "s": 1,
-   "t": "+15.2%"
+   "t": "+16.2%"
   },
   "en.brent.1w": {
    "s": 1,
-   "t": "+6.4%"
+   "t": "+7.3%"
   },
   "en.brent.level": {
    "s": 0,
-   "t": "96.28"
+   "t": "97.12"
   },
   "en.brent.vs200": {
    "s": 1,
-   "t": "+15%"
+   "t": "+16%"
   },
   "en.brent.ytd": {
    "s": 1,
-   "t": "+58.2%"
+   "t": "+59.6%"
   },
   "en.crack.1m": {
-   "s": 1,
-   "t": "+2.05"
+   "s": -1,
+   "t": "-2.17"
   },
   "en.crack.1w": {
    "s": -1,
-   "t": "-11.32"
+   "t": "-15.54"
   },
   "en.crack.level": {
    "s": 0,
-   "t": "62.09"
+   "t": "57.87"
   },
   "en.natgas.1m": {
    "s": 1,
-   "t": "+11.8%"
+   "t": "+11.7%"
   },
   "en.natgas.1w": {
    "s": 1,
-   "t": "+1.4%"
+   "t": "+1.3%"
   },
   "en.natgas.level": {
    "s": 0,
@@ -493,23 +493,23 @@
   },
   "en.wti.1m": {
    "s": 1,
-   "t": "+17.0%"
+   "t": "+18.2%"
   },
   "en.wti.1w": {
    "s": 1,
-   "t": "+6.7%"
+   "t": "+7.8%"
   },
   "en.wti.level": {
    "s": 0,
-   "t": "91.48"
+   "t": "92.43"
   },
   "en.wti.vs200": {
    "s": 1,
-   "t": "+16%"
+   "t": "+17%"
   },
   "en.wti.ytd": {
    "s": 1,
-   "t": "+59.3%"
+   "t": "+61.0%"
   },
   "fac.beta_lowvol.1m": {
    "s": 1,
@@ -686,15 +686,15 @@
   },
   "fx.eurusd.1m": {
    "s": 1,
-   "t": "+0.8%"
+   "t": "+0.6%"
   },
   "fx.eurusd.3m": {
    "s": 1,
-   "t": "+0.7%"
+   "t": "+0.8%"
   },
   "fx.eurusd.level": {
    "s": 0,
-   "t": "1.162"
+   "t": "1.163"
   },
   "fx.eurusd.trend": {
    "s": 1,
@@ -718,15 +718,15 @@
   },
   "fx.usdjpy.1m": {
    "s": -1,
-   "t": "-1.4%"
+   "t": "-2.7%"
   },
   "fx.usdjpy.3m": {
    "s": -1,
-   "t": "-2.7%"
+   "t": "-4.3%"
   },
   "fx.usdjpy.level": {
    "s": 0,
-   "t": "156.1"
+   "t": "153.6"
   },
   "fx.usdjpy.trend": {
    "s": -1,
@@ -734,15 +734,15 @@
   },
   "fx.usdthb.1m": {
    "s": -1,
-   "t": "-0.6%"
+   "t": "-0.5%"
   },
   "fx.usdthb.3m": {
    "s": -1,
-   "t": "-0.1%"
+   "t": "-0.3%"
   },
   "fx.usdthb.level": {
    "s": 0,
-   "t": "32.90"
+   "t": "32.83"
   },
   "fx.usdthb.trend": {
    "s": -1,
@@ -913,52 +913,52 @@
    "t": "+26.2%"
   },
   "idx.hsi.1m": {
-   "s": 1,
-   "t": "+0.5%"
+   "s": -1,
+   "t": "-1.0%"
   },
   "idx.hsi.1w": {
-   "s": 1,
-   "t": "+0.3%"
+   "s": -1,
+   "t": "-0.6%"
   },
   "idx.hsi.3m": {
    "s": 1,
-   "t": "+2.8%"
+   "t": "+3.1%"
   },
   "idx.hsi.level": {
    "s": 0,
-   "t": "25,651"
+   "t": "25,413"
   },
   "idx.hsi.vs200": {
-   "s": 0,
-   "t": "0%"
+   "s": -1,
+   "t": "-1%"
   },
   "idx.hsi.ytd": {
-   "s": 1,
-   "t": "+0.1%"
+   "s": -1,
+   "t": "-0.8%"
   },
   "idx.n225.1m": {
-   "s": -1,
-   "t": "-1.9%"
+   "s": 1,
+   "t": "+1.1%"
   },
   "idx.n225.1w": {
-   "s": -1,
-   "t": "-2.1%"
+   "s": 1,
+   "t": "+0.2%"
   },
   "idx.n225.3m": {
-   "s": -1,
-   "t": "-2.4%"
+   "s": 1,
+   "t": "+1.4%"
   },
   "idx.n225.level": {
    "s": 0,
-   "t": "65,021"
+   "t": "66,327"
   },
   "idx.n225.vs200": {
    "s": 1,
-   "t": "+10%"
+   "t": "+12%"
   },
   "idx.n225.ytd": {
    "s": 1,
-   "t": "+29.2%"
+   "t": "+31.8%"
   },
   "idx.ndx.1m": {
    "s": 1,
@@ -1082,15 +1082,15 @@
   },
   "idx.stoxx.1m": {
    "s": -1,
-   "t": "-1.3%"
+   "t": "-1.6%"
   },
   "idx.stoxx.1w": {
    "s": -1,
-   "t": "-0.8%"
+   "t": "-0.2%"
   },
   "idx.stoxx.3m": {
    "s": 1,
-   "t": "+5.0%"
+   "t": "+5.1%"
   },
   "idx.stoxx.level": {
    "s": 0,
@@ -1106,35 +1106,35 @@
   },
   "im.copper.1m": {
    "s": 1,
-   "t": "+1.7%"
+   "t": "+2.7%"
   },
   "im.copper.1w": {
    "s": 1,
-   "t": "+1.3%"
+   "t": "+2.4%"
   },
   "im.copper.level": {
    "s": 0,
-   "t": "6.68"
+   "t": "6.75"
   },
   "im.copper.vs200": {
    "s": 1,
-   "t": "+11%"
+   "t": "+13%"
   },
   "im.copper.ytd": {
    "s": 1,
-   "t": "+18.7%"
+   "t": "+19.9%"
   },
   "im.corn.1m": {
    "s": 1,
-   "t": "+22.3%"
+   "t": "+22.8%"
   },
   "im.corn.1w": {
    "s": 1,
-   "t": "+4.8%"
+   "t": "+4.7%"
   },
   "im.corn.level": {
    "s": 0,
-   "t": "5.37"
+   "t": "5.39"
   },
   "im.corn.vs200": {
    "s": 1,
@@ -1142,23 +1142,23 @@
   },
   "im.corn.ytd": {
    "s": 1,
-   "t": "+21.9%"
+   "t": "+22.4%"
   },
   "im.cu_au.1m": {
    "s": -1,
-   "t": "-1.4%"
+   "t": "-0.2%"
   },
   "im.cu_au.1w": {
    "s": 1,
-   "t": "+0.3%"
+   "t": "+1.5%"
   },
   "im.cu_au.level": {
    "s": 0,
-   "t": "1.49"
+   "t": "1.51"
   },
   "im.cu_au.ytd": {
    "s": 1,
-   "t": "+14.7%"
+   "t": "+16.1%"
   },
   "im.ironore.1m": {
    "s": 1,
@@ -1182,15 +1182,15 @@
   },
   "im.soy.1m": {
    "s": 1,
-   "t": "+13.2%"
+   "t": "+13.7%"
   },
   "im.soy.1w": {
    "s": 1,
-   "t": "+2.6%"
+   "t": "+3.2%"
   },
   "im.soy.level": {
    "s": 0,
-   "t": "13.10"
+   "t": "13.15"
   },
   "im.soy.vs200": {
    "s": 1,
@@ -1198,7 +1198,7 @@
   },
   "im.soy.ytd": {
    "s": 1,
-   "t": "+27.1%"
+   "t": "+27.7%"
   },
   "im.uranium.1m": {
    "s": 1,
@@ -1222,23 +1222,23 @@
   },
   "im.wheat.1m": {
    "s": 1,
-   "t": "+16.3%"
+   "t": "+17.0%"
   },
   "im.wheat.1w": {
    "s": -1,
-   "t": "-4.3%"
+   "t": "-1.1%"
   },
   "im.wheat.level": {
    "s": 0,
-   "t": "7.34"
+   "t": "7.48"
   },
   "im.wheat.vs200": {
    "s": 1,
-   "t": "+24%"
+   "t": "+26%"
   },
   "im.wheat.ytd": {
    "s": 1,
-   "t": "+44.8%"
+   "t": "+47.6%"
   },
   "liq.bankcredit": {
    "date": "2026-08-26",
@@ -1606,31 +1606,31 @@
   },
   "pm.baht_gold.1m": {
    "s": 1,
-   "t": "+3.9%"
+   "t": "+2.4%"
   },
   "pm.baht_gold.1w": {
-   "s": -1,
-   "t": "-1.0%"
+   "s": 1,
+   "t": "+0.4%"
   },
   "pm.baht_gold.level": {
    "s": 0,
-   "t": "68,907"
+   "t": "69,552"
   },
   "pm.baht_gold.ytd": {
    "s": 1,
-   "t": "+7.1%"
+   "t": "+8.1%"
   },
   "pm.gold.1m": {
    "s": 1,
-   "t": "+3.1%"
+   "t": "+2.9%"
   },
   "pm.gold.1w": {
    "s": 1,
-   "t": "+1.0%"
+   "t": "+0.8%"
   },
   "pm.gold.level": {
    "s": 0,
-   "t": "4,477"
+   "t": "4,467"
   },
   "pm.gold.vs200": {
    "s": -1,
@@ -1638,35 +1638,35 @@
   },
   "pm.gold.ytd": {
    "s": 1,
-   "t": "+3.5%"
+   "t": "+3.3%"
   },
   "pm.gs_ratio.1m": {
    "s": 0,
-   "t": "-1.5"
+   "t": "-2.0"
   },
   "pm.gs_ratio.1w": {
    "s": 0,
-   "t": "+0.2"
+   "t": "-0.3"
   },
   "pm.gs_ratio.level": {
    "s": 0,
-   "t": "67.1"
+   "t": "66.6"
   },
   "pm.gs_ratio.ytd": {
    "s": 0,
-   "t": "+5.4"
+   "t": "+4.9"
   },
   "pm.pall.1m": {
    "s": 1,
-   "t": "+2.2%"
+   "t": "+3.2%"
   },
   "pm.pall.1w": {
    "s": 1,
-   "t": "+3.0%"
+   "t": "+4.1%"
   },
   "pm.pall.level": {
    "s": 0,
-   "t": "1,404"
+   "t": "1,418"
   },
   "pm.pall.vs200": {
    "s": -1,
@@ -1674,39 +1674,39 @@
   },
   "pm.pall.ytd": {
    "s": -1,
-   "t": "-13.8%"
+   "t": "-12.9%"
   },
   "pm.plat.1m": {
    "s": 1,
-   "t": "+4.3%"
+   "t": "+5.7%"
   },
   "pm.plat.1w": {
    "s": 1,
-   "t": "+2.1%"
+   "t": "+3.4%"
   },
   "pm.plat.level": {
    "s": 0,
-   "t": "1,826"
+   "t": "1,849"
   },
   "pm.plat.vs200": {
    "s": -1,
-   "t": "-6%"
+   "t": "-5%"
   },
   "pm.plat.ytd": {
    "s": -1,
-   "t": "-10.2%"
+   "t": "-9.1%"
   },
   "pm.silver.1m": {
    "s": 1,
-   "t": "+5.4%"
+   "t": "+5.9%"
   },
   "pm.silver.1w": {
    "s": 1,
-   "t": "+0.8%"
+   "t": "+1.3%"
   },
   "pm.silver.level": {
    "s": 0,
-   "t": "66.75"
+   "t": "67.10"
   },
   "pm.silver.vs200": {
    "s": -1,
@@ -1714,7 +1714,7 @@
   },
   "pm.silver.ytd": {
    "s": -1,
-   "t": "-4.8%"
+   "t": "-4.3%"
   },
   "pos.cr_aaii.now": {
    "s": 1,
@@ -1726,11 +1726,11 @@
   },
   "pos.cr_crypto.now": {
    "s": 0,
-   "t": "71"
+   "t": "69"
   },
   "pos.cr_crypto.pct": {
    "s": 0,
-   "t": "81"
+   "t": "77"
   },
   "pos.cr_equity_pc.now": {
    "s": 0,
@@ -1830,11 +1830,11 @@
   },
   "ratio.ag_au.1m": {
    "s": 1,
-   "t": "+2.2%"
+   "t": "+2.9%"
   },
   "ratio.ag_au.level": {
    "s": 0,
-   "t": "0.0149"
+   "t": "0.0150"
   },
   "ratio.ag_au.trend": {
    "s": 0,
@@ -1866,11 +1866,11 @@
   },
   "ratio.cu_au.1m": {
    "s": -1,
-   "t": "-1.4%"
+   "t": "-0.2%"
   },
   "ratio.cu_au.level": {
    "s": 0,
-   "t": "1.49"
+   "t": "1.51"
   },
   "ratio.cu_au.trend": {
    "s": -1,
@@ -1902,11 +1902,11 @@
   },
   "ratio.oil_au.1m": {
    "s": 1,
-   "t": "+13.5%"
+   "t": "+14.9%"
   },
   "ratio.oil_au.level": {
    "s": 0,
-   "t": "0.0204"
+   "t": "0.0207"
   },
   "ratio.oil_au.trend": {
    "s": 1,
@@ -1993,17 +1993,16 @@
    "val": "1,051 <small>bp</small>"
   },
   "rt.cuts": {
-   "date": "2026-09-04",
+   "date": "2026-09-07",
    "delta": {
     "dir": "down",
-    "t": "-0.6 cuts",
+    "t": "-0.8 cuts",
     "vs": "vs 1 month ago; 61 bp of hikes by Sep 2027"
    },
-   "dl": "4 Sep",
+   "dl": "7 Sep",
    "freq": "d",
    "kind": "tile",
    "spark": [
-    -1.6,
     -1.1,
     -1.3,
     -1.68,
@@ -2014,7 +2013,8 @@
     -1.5,
     -1.78,
     -2.4,
-    -2.44
+    -2.44,
+    -2.42
    ],
    "src": "Yahoo ZQU27.CBT, FRED EFFR",
    "unit": "",
@@ -2105,13 +2105,13 @@
    "val": "2.33%"
   },
   "rt.ffu": {
-   "date": "2026-09-06",
+   "date": "2026-09-07",
    "delta": {
     "dir": "flat",
     "t": "hold",
     "vs": "since Dec 2025"
    },
-   "dl": "6 Sep",
+   "dl": "7 Sep",
    "freq": "d",
    "kind": "tile",
    "spark": [
@@ -2498,27 +2498,27 @@
   },
   "sc.btc.12m": {
    "s": -1,
-   "t": "-8.5%"
+   "t": "-9.2%"
   },
   "sc.btc.1m": {
    "s": 1,
-   "t": "+27.9%"
+   "t": "+22.7%"
   },
   "sc.btc.1w": {
    "s": 1,
-   "t": "+3.8%"
+   "t": "+2.4%"
   },
   "sc.btc.3m": {
    "s": 1,
-   "t": "+26.5%"
+   "t": "+23.7%"
   },
   "sc.btc.level": {
    "s": 0,
-   "t": "80.4k"
+   "t": "79.2k"
   },
   "sc.btc.pct": {
    "s": 0,
-   "t": "84"
+   "t": "81"
   },
   "sc.btc.trend": {
    "s": 0,
@@ -2526,11 +2526,11 @@
   },
   "sc.btc.vol": {
    "s": 0,
-   "t": "31%"
+   "t": "32%"
   },
   "sc.btc.z": {
    "s": 0,
-   "t": "+2.4"
+   "t": "+1.9"
   },
   "sc.cew.12m": {
    "s": 1,
@@ -2570,27 +2570,27 @@
   },
   "sc.copper.12m": {
    "s": 1,
-   "t": "+49.1%"
+   "t": "+50.6%"
   },
   "sc.copper.1m": {
    "s": 1,
-   "t": "+1.7%"
+   "t": "+2.7%"
   },
   "sc.copper.1w": {
    "s": 1,
-   "t": "+1.3%"
+   "t": "+2.4%"
   },
   "sc.copper.3m": {
    "s": 1,
-   "t": "+5.6%"
+   "t": "+6.6%"
   },
   "sc.copper.level": {
    "s": 0,
-   "t": "6.68"
+   "t": "6.75"
   },
   "sc.copper.pct": {
    "s": 0,
-   "t": "99"
+   "t": "100"
   },
   "sc.copper.trend": {
    "s": 0,
@@ -2598,11 +2598,11 @@
   },
   "sc.copper.vol": {
    "s": 0,
-   "t": "21%"
+   "t": "22%"
   },
   "sc.copper.z": {
    "s": 0,
-   "t": "0.0"
+   "t": "+0.1"
   },
   "sc.dxy.12m": {
    "s": 1,
@@ -2626,11 +2626,11 @@
   },
   "sc.dxy.pct": {
    "s": 0,
-   "t": "54"
+   "t": "55"
   },
   "sc.dxy.trend": {
    "s": 0,
-   "t": "below / below"
+   "t": "below / above"
   },
   "sc.dxy.vol": {
    "s": 0,
@@ -2678,23 +2678,23 @@
   },
   "sc.gold.12m": {
    "s": 1,
-   "t": "+23.9%"
+   "t": "+23.6%"
   },
   "sc.gold.1m": {
    "s": 1,
-   "t": "+3.1%"
+   "t": "+2.9%"
   },
   "sc.gold.1w": {
    "s": 1,
-   "t": "+1.0%"
+   "t": "+0.8%"
   },
   "sc.gold.3m": {
    "s": 1,
-   "t": "+3.2%"
+   "t": "+3.0%"
   },
   "sc.gold.level": {
    "s": 0,
-   "t": "4,477"
+   "t": "4,467"
   },
   "sc.gold.pct": {
    "s": 0,
@@ -2750,27 +2750,27 @@
   },
   "sc.n225.12m": {
    "s": 1,
-   "t": "+52.5%"
+   "t": "+56.5%"
   },
   "sc.n225.1m": {
-   "s": -1,
-   "t": "-1.9%"
+   "s": 1,
+   "t": "+1.1%"
   },
   "sc.n225.1w": {
-   "s": -1,
-   "t": "-2.1%"
+   "s": 1,
+   "t": "+0.2%"
   },
   "sc.n225.3m": {
-   "s": -1,
-   "t": "-2.4%"
+   "s": 1,
+   "t": "+1.4%"
   },
   "sc.n225.level": {
    "s": 0,
-   "t": "65,021"
+   "t": "66,327"
   },
   "sc.n225.pct": {
    "s": 0,
-   "t": "78"
+   "t": "84"
   },
   "sc.n225.trend": {
    "s": 0,
@@ -2778,11 +2778,11 @@
   },
   "sc.n225.vol": {
    "s": 0,
-   "t": "33%"
+   "t": "32%"
   },
   "sc.n225.z": {
    "s": 0,
-   "t": "-0.7"
+   "t": "-0.2"
   },
   "sc.ndx.12m": {
    "s": 1,
@@ -2858,27 +2858,27 @@
   },
   "sc.silver.12m": {
    "s": 1,
-   "t": "+62.5%"
+   "t": "+63.4%"
   },
   "sc.silver.1m": {
    "s": 1,
-   "t": "+5.4%"
+   "t": "+5.9%"
   },
   "sc.silver.1w": {
    "s": 1,
-   "t": "+0.8%"
+   "t": "+1.3%"
   },
   "sc.silver.3m": {
    "s": -1,
-   "t": "-2.5%"
+   "t": "-1.9%"
   },
   "sc.silver.level": {
    "s": 0,
-   "t": "66.75"
+   "t": "67.10"
   },
   "sc.silver.pct": {
    "s": 0,
-   "t": "49"
+   "t": "50"
   },
   "sc.silver.trend": {
    "s": 0,
@@ -2930,19 +2930,19 @@
   },
   "sc.stoxx.12m": {
    "s": 1,
-   "t": "+19.6%"
+   "t": "+18.9%"
   },
   "sc.stoxx.1m": {
    "s": -1,
-   "t": "-1.3%"
+   "t": "-1.6%"
   },
   "sc.stoxx.1w": {
    "s": -1,
-   "t": "-0.8%"
+   "t": "-0.2%"
   },
   "sc.stoxx.3m": {
    "s": 1,
-   "t": "+5.0%"
+   "t": "+5.1%"
   },
   "sc.stoxx.level": {
    "s": 0,
@@ -2962,7 +2962,7 @@
   },
   "sc.stoxx.z": {
    "s": 0,
-   "t": "-0.7"
+   "t": "-0.8"
   },
   "sc.us10y.12m": {
    "s": 1,
@@ -3002,27 +3002,27 @@
   },
   "sc.usdjpy.12m": {
    "s": 1,
-   "t": "+5.9%"
+   "t": "+4.9%"
   },
   "sc.usdjpy.1m": {
    "s": -1,
-   "t": "-1.4%"
+   "t": "-2.7%"
   },
   "sc.usdjpy.1w": {
    "s": -1,
-   "t": "-2.5%"
+   "t": "-3.9%"
   },
   "sc.usdjpy.3m": {
    "s": -1,
-   "t": "-2.7%"
+   "t": "-4.3%"
   },
   "sc.usdjpy.level": {
    "s": 0,
-   "t": "156.1"
+   "t": "153.6"
   },
   "sc.usdjpy.pct": {
    "s": 0,
-   "t": "33"
+   "t": "16"
   },
   "sc.usdjpy.trend": {
    "s": 0,
@@ -3030,35 +3030,35 @@
   },
   "sc.usdjpy.vol": {
    "s": 0,
-   "t": "8%"
+   "t": "9%"
   },
   "sc.usdjpy.z": {
    "s": 0,
-   "t": "-0.6"
+   "t": "-1.1"
   },
   "sc.wti.12m": {
    "s": 1,
-   "t": "+47.9%"
+   "t": "+49.4%"
   },
   "sc.wti.1m": {
    "s": 1,
-   "t": "+17.0%"
+   "t": "+18.2%"
   },
   "sc.wti.1w": {
    "s": 1,
-   "t": "+6.7%"
+   "t": "+7.8%"
   },
   "sc.wti.3m": {
    "s": 1,
-   "t": "+0.2%"
+   "t": "+1.2%"
   },
   "sc.wti.level": {
    "s": 0,
-   "t": "91.48"
+   "t": "92.43"
   },
   "sc.wti.pct": {
    "s": 0,
-   "t": "79"
+   "t": "81"
   },
   "sc.wti.trend": {
    "s": 0,
@@ -3070,7 +3070,7 @@
   },
   "sc.wti.z": {
    "s": 0,
-   "t": "+1.5"
+   "t": "+1.6"
   },
   "sec.xlb.1m": {
    "s": 1,
@@ -3394,34 +3394,34 @@
   "strip.btc": {
    "d": {
     "dir": "up",
-    "t": "+27.9%, 1m"
+    "t": "+22.7%, 1m"
+   },
+   "date": "2026-09-08",
+   "dl": "8 Sep",
+   "freq": "d",
+   "kind": "strip",
+   "src": "Yahoo BTC-USD",
+   "val": "79.2k"
+  },
+  "strip.cu_au": {
+   "d": {
+    "dir": "down",
+    "t": "-0.2%, 1m"
    },
    "date": "2026-09-07",
    "dl": "7 Sep",
    "freq": "d",
    "kind": "strip",
-   "src": "Yahoo BTC-USD",
-   "val": "80.4k"
-  },
-  "strip.cu_au": {
-   "d": {
-    "dir": "down",
-    "t": "-1.4%, 1m"
-   },
-   "date": "2026-09-06",
-   "dl": "6 Sep",
-   "freq": "d",
-   "kind": "strip",
    "src": "Yahoo HG=F, GC=F",
-   "val": "1.49"
+   "val": "1.51"
   },
   "strip.dxy": {
    "d": {
     "dir": "down",
     "t": "-0.4%, 1m"
    },
-   "date": "2026-09-06",
-   "dl": "6 Sep",
+   "date": "2026-09-07",
+   "dl": "7 Sep",
    "freq": "d",
    "kind": "strip",
    "src": "Yahoo DXY",
@@ -3432,8 +3432,8 @@
     "dir": "flat",
     "t": "2.4 hikes priced, 12m"
    },
-   "date": "2026-09-04",
-   "dl": "4 Sep",
+   "date": "2026-09-07",
+   "dl": "7 Sep",
    "freq": "d",
    "kind": "strip",
    "src": "FRED, Yahoo",
@@ -3442,14 +3442,14 @@
   "strip.gold": {
    "d": {
     "dir": "up",
-    "t": "+3.1%, 1m"
+    "t": "+2.9%, 1m"
    },
-   "date": "2026-09-06",
-   "dl": "6 Sep",
+   "date": "2026-09-07",
+   "dl": "7 Sep",
    "freq": "d",
    "kind": "strip",
    "src": "Yahoo GC=F",
-   "val": "4,477"
+   "val": "4,467"
   },
   "strip.hy": {
    "d": {
@@ -3528,8 +3528,8 @@
     "dir": "up",
     "t": "risk-on, not extreme"
    },
-   "date": "2026-09-04",
-   "dl": "4 Sep",
+   "date": "2026-09-07",
+   "dl": "7 Sep",
    "freq": "d",
    "kind": "strip",
    "src": "six inputs, 3-year z-scores",
@@ -3574,14 +3574,14 @@
   "strip.usdjpy": {
    "d": {
     "dir": "down",
-    "t": "-1.4%, 1m"
+    "t": "-2.7%, 1m"
    },
-   "date": "2026-09-07",
-   "dl": "7 Sep",
+   "date": "2026-09-08",
+   "dl": "8 Sep",
    "freq": "d",
    "kind": "strip",
    "src": "Yahoo JPY=X",
-   "val": "156.1"
+   "val": "153.6"
   },
   "strip.vix": {
    "d": {
@@ -3598,26 +3598,26 @@
   "strip.wti": {
    "d": {
     "dir": "up",
-    "t": "+17.0%, 1m"
+    "t": "+18.2%, 1m"
    },
-   "date": "2026-09-06",
-   "dl": "6 Sep",
+   "date": "2026-09-07",
+   "dl": "7 Sep",
    "freq": "d",
    "kind": "strip",
    "src": "Yahoo CL=F",
-   "val": "91.5"
+   "val": "92.4"
   },
   "th.btc.1m": {
    "s": 1,
-   "t": "+27.9%"
+   "t": "+22.7%"
   },
   "th.btc.1w": {
    "s": 1,
-   "t": "+3.8%"
+   "t": "+2.4%"
   },
   "th.btc.3m": {
    "s": 1,
-   "t": "+26.5%"
+   "t": "+23.7%"
   },
   "th.btc.breadth": {
    "s": 0,
@@ -4217,13 +4217,13 @@
    "src": "BIS WS_CBPOL TH (one-day repo rate)"
   },
   "cb.ecb": {
-   "date": "2026-09-04",
+   "date": "2026-09-07",
    "dl": "Sep 2026",
    "freq": "m",
    "src": "FRED ECBDFR (deposit facility)"
   },
   "cb.fed": {
-   "date": "2026-09-06",
+   "date": "2026-09-07",
    "dl": "Sep 2026",
    "freq": "m",
    "src": "FRED DFEDTARU (target range, upper)"
@@ -4235,26 +4235,26 @@
    "src": "BIS WS_CBPOL CN (one-year loan prime rate)"
   },
   "ce": {
-   "date": "2026-09-06",
-   "dl": "6 Sep",
+   "date": "2026-09-07",
+   "dl": "7 Sep",
    "freq": "d",
    "src": "calendar rules: NYSE holidays, third Fridays, quarter ends, the tax calendar, the FOMC dates"
   },
   "cta.copper": {
-   "date": "2026-09-06",
-   "dl": "6 Sep",
+   "date": "2026-09-07",
+   "dl": "7 Sep",
    "freq": "d",
    "src": "Trend model on the closes: sign of 20, 50, 100 and 200-day returns, majority rule"
   },
   "cta.dxy": {
-   "date": "2026-09-06",
-   "dl": "6 Sep",
+   "date": "2026-09-07",
+   "dl": "7 Sep",
    "freq": "d",
    "src": "Trend model on the closes: sign of 20, 50, 100 and 200-day returns, majority rule"
   },
   "cta.gold": {
-   "date": "2026-09-06",
-   "dl": "6 Sep",
+   "date": "2026-09-07",
+   "dl": "7 Sep",
    "freq": "d",
    "src": "Trend model on the closes: sign of 20, 50, 100 and 200-day returns, majority rule"
   },
@@ -4277,8 +4277,8 @@
    "src": "Trend model on the closes: sign of 20, 50, 100 and 200-day returns, majority rule"
   },
   "cta.wti": {
-   "date": "2026-09-06",
-   "dl": "6 Sep",
+   "date": "2026-09-07",
+   "dl": "7 Sep",
    "freq": "d",
    "src": "Trend model on the closes: sign of 20, 50, 100 and 200-day returns, majority rule"
   },
@@ -4337,20 +4337,20 @@
    "src": "CFTC TFF plus the daily inputs listed in the cells"
   },
   "en.brent": {
-   "date": "2026-09-06",
-   "dl": "6 Sep",
+   "date": "2026-09-07",
+   "dl": "7 Sep",
    "freq": "d",
    "src": "Yahoo BZ=F"
   },
   "en.crack": {
-   "date": "2026-09-06",
-   "dl": "6 Sep",
+   "date": "2026-09-07",
+   "dl": "7 Sep",
    "freq": "d",
    "src": "Yahoo RB=F, HO=F, CL=F (3-2-1, computed)"
   },
   "en.natgas": {
-   "date": "2026-09-06",
-   "dl": "6 Sep",
+   "date": "2026-09-07",
+   "dl": "7 Sep",
    "freq": "d",
    "src": "Yahoo NG=F"
   },
@@ -4373,8 +4373,8 @@
    "src": "EIA WCESTUS1 (commercial crude, excluding SPR)"
   },
   "en.wti": {
-   "date": "2026-09-06",
-   "dl": "6 Sep",
+   "date": "2026-09-07",
+   "dl": "7 Sep",
    "freq": "d",
    "src": "Yahoo CL=F"
   },
@@ -4433,20 +4433,20 @@
    "src": "SqueezeMetrics GEX"
   },
   "flow2.pension": {
-   "date": "2026-09-07",
-   "dl": "7 Sep",
+   "date": "2026-09-08",
+   "dl": "8 Sep",
    "freq": "d",
    "src": "SPY and TLT quarter-to-date returns"
   },
   "flow2.rp": {
-   "date": "2026-09-07",
-   "dl": "7 Sep",
+   "date": "2026-09-08",
+   "dl": "8 Sep",
    "freq": "d",
    "src": "SPY and TLT: 100-day trends and 60-day correlation"
   },
   "flow2.volctl": {
-   "date": "2026-09-07",
-   "dl": "7 Sep",
+   "date": "2026-09-08",
+   "dl": "8 Sep",
    "freq": "d",
    "src": "S&P 500 closes, 21-day realized volatility against a 12% target"
   },
@@ -4463,32 +4463,32 @@
    "src": "Yahoo CEW"
   },
   "fx.dxy": {
-   "date": "2026-09-06",
-   "dl": "6 Sep",
+   "date": "2026-09-07",
+   "dl": "7 Sep",
    "freq": "d",
    "src": "Yahoo DX-Y.NYB"
   },
   "fx.eurusd": {
-   "date": "2026-09-07",
-   "dl": "7 Sep",
+   "date": "2026-09-08",
+   "dl": "8 Sep",
    "freq": "d",
    "src": "Yahoo EURUSD=X"
   },
   "fx.usdcny": {
-   "date": "2026-09-07",
-   "dl": "7 Sep",
+   "date": "2026-09-08",
+   "dl": "8 Sep",
    "freq": "d",
    "src": "Yahoo CNY=X"
   },
   "fx.usdjpy": {
-   "date": "2026-09-07",
-   "dl": "7 Sep",
+   "date": "2026-09-08",
+   "dl": "8 Sep",
    "freq": "d",
    "src": "Yahoo JPY=X"
   },
   "fx.usdthb": {
-   "date": "2026-09-07",
-   "dl": "7 Sep",
+   "date": "2026-09-08",
+   "dl": "8 Sep",
    "freq": "d",
    "src": "Yahoo THB=X"
   },
@@ -4529,8 +4529,8 @@
    "src": "FRED SAHMREALTIME"
   },
   "gp.surprise": {
-   "date": "2026-09-06",
-   "dl": "6 Sep",
+   "date": "2026-09-07",
+   "dl": "7 Sep",
    "freq": "d",
    "src": "in-house: Forex Factory consensus against FRED first prints, mean standardized surprise over 90 days (US only; no free consensus feed with actuals for the euro area or China)"
   },
@@ -4571,14 +4571,14 @@
    "src": "Yahoo EEM"
   },
   "idx.hsi": {
-   "date": "2026-09-04",
-   "dl": "4 Sep",
+   "date": "2026-09-07",
+   "dl": "7 Sep",
    "freq": "d",
    "src": "Yahoo ^HSI"
   },
   "idx.n225": {
-   "date": "2026-09-04",
-   "dl": "4 Sep",
+   "date": "2026-09-08",
+   "dl": "8 Sep",
    "freq": "d",
    "src": "Yahoo ^N225"
   },
@@ -4613,26 +4613,26 @@
    "src": "Yahoo ^SPXEW"
   },
   "idx.stoxx": {
-   "date": "2026-09-04",
-   "dl": "4 Sep",
+   "date": "2026-09-07",
+   "dl": "7 Sep",
    "freq": "d",
    "src": "Yahoo ^STOXX"
   },
   "im.copper": {
-   "date": "2026-09-06",
-   "dl": "6 Sep",
+   "date": "2026-09-07",
+   "dl": "7 Sep",
    "freq": "d",
    "src": "Yahoo HG=F"
   },
   "im.corn": {
-   "date": "2026-09-04",
-   "dl": "4 Sep",
+   "date": "2026-09-07",
+   "dl": "7 Sep",
    "freq": "d",
    "src": "Yahoo ZC=F"
   },
   "im.cu_au": {
-   "date": "2026-09-06",
-   "dl": "6 Sep",
+   "date": "2026-09-07",
+   "dl": "7 Sep",
    "freq": "d",
    "src": "Yahoo HG=F, GC=F"
   },
@@ -4643,8 +4643,8 @@
    "src": "Yahoo TIO=F"
   },
   "im.soy": {
-   "date": "2026-09-04",
-   "dl": "4 Sep",
+   "date": "2026-09-07",
+   "dl": "7 Sep",
    "freq": "d",
    "src": "Yahoo ZS=F"
   },
@@ -4655,44 +4655,44 @@
    "src": "Yahoo SRUUF (Sprott Physical Uranium Trust, a spot proxy)"
   },
   "im.wheat": {
-   "date": "2026-09-04",
-   "dl": "4 Sep",
+   "date": "2026-09-07",
+   "dl": "7 Sep",
    "freq": "d",
    "src": "Yahoo ZW=F"
   },
   "pm.baht_gold": {
-   "date": "2026-09-04",
-   "dl": "4 Sep",
+   "date": "2026-09-07",
+   "dl": "7 Sep",
    "freq": "d",
    "src": "Yahoo GC=F, THB=X (computed)"
   },
   "pm.gold": {
-   "date": "2026-09-06",
-   "dl": "6 Sep",
+   "date": "2026-09-07",
+   "dl": "7 Sep",
    "freq": "d",
    "src": "Yahoo GC=F"
   },
   "pm.gs_ratio": {
-   "date": "2026-09-06",
-   "dl": "6 Sep",
+   "date": "2026-09-07",
+   "dl": "7 Sep",
    "freq": "d",
    "src": "Yahoo GC=F, SI=F"
   },
   "pm.pall": {
-   "date": "2026-09-06",
-   "dl": "6 Sep",
+   "date": "2026-09-07",
+   "dl": "7 Sep",
    "freq": "d",
    "src": "Yahoo PA=F"
   },
   "pm.plat": {
-   "date": "2026-09-06",
-   "dl": "6 Sep",
+   "date": "2026-09-07",
+   "dl": "7 Sep",
    "freq": "d",
    "src": "Yahoo PL=F"
   },
   "pm.silver": {
-   "date": "2026-09-06",
-   "dl": "6 Sep",
+   "date": "2026-09-07",
+   "dl": "7 Sep",
    "freq": "d",
    "src": "Yahoo SI=F"
   },
@@ -4703,8 +4703,8 @@
    "src": "AAII survey page (bulls 39.7%, bears 37.6%)"
   },
   "pos.cr_crypto": {
-   "date": "2026-09-07",
-   "dl": "7 Sep",
+   "date": "2026-09-08",
+   "dl": "8 Sep",
    "freq": "d",
    "src": "alternative.me crypto fear and greed"
   },
@@ -4781,8 +4781,8 @@
    "src": "CFTC TFF report, asset managers"
   },
   "ratio.ag_au": {
-   "date": "2026-09-06",
-   "dl": "6 Sep",
+   "date": "2026-09-07",
+   "dl": "7 Sep",
    "freq": "d",
    "src": "Yahoo SI=F, GC=F"
   },
@@ -4799,8 +4799,8 @@
    "src": "Yahoo BTC-USD, GC=F"
   },
   "ratio.cu_au": {
-   "date": "2026-09-06",
-   "dl": "6 Sep",
+   "date": "2026-09-07",
+   "dl": "7 Sep",
    "freq": "d",
    "src": "Yahoo HG=F, GC=F"
   },
@@ -4817,8 +4817,8 @@
    "src": "Yahoo HYG, IEF"
   },
   "ratio.oil_au": {
-   "date": "2026-09-06",
-   "dl": "6 Sep",
+   "date": "2026-09-07",
+   "dl": "7 Sep",
    "freq": "d",
    "src": "Yahoo CL=F, GC=F"
   },
@@ -4835,8 +4835,8 @@
    "src": "Yahoo XLY, XLP"
   },
   "sc.btc": {
-   "date": "2026-09-07",
-   "dl": "7 Sep",
+   "date": "2026-09-08",
+   "dl": "8 Sep",
    "freq": "d",
    "src": "Yahoo BTC-USD"
   },
@@ -4847,14 +4847,14 @@
    "src": "Yahoo CEW"
   },
   "sc.copper": {
-   "date": "2026-09-06",
-   "dl": "6 Sep",
+   "date": "2026-09-07",
+   "dl": "7 Sep",
    "freq": "d",
    "src": "Yahoo HG=F"
   },
   "sc.dxy": {
-   "date": "2026-09-06",
-   "dl": "6 Sep",
+   "date": "2026-09-07",
+   "dl": "7 Sep",
    "freq": "d",
    "src": "Yahoo DX-Y.NYB"
   },
@@ -4865,8 +4865,8 @@
    "src": "Yahoo EEM"
   },
   "sc.gold": {
-   "date": "2026-09-06",
-   "dl": "6 Sep",
+   "date": "2026-09-07",
+   "dl": "7 Sep",
    "freq": "d",
    "src": "Yahoo GC=F"
   },
@@ -4877,8 +4877,8 @@
    "src": "Yahoo HYG"
   },
   "sc.n225": {
-   "date": "2026-09-04",
-   "dl": "4 Sep",
+   "date": "2026-09-08",
+   "dl": "8 Sep",
    "freq": "d",
    "src": "Yahoo ^N225"
   },
@@ -4895,8 +4895,8 @@
    "src": "Yahoo ^RUT"
   },
   "sc.silver": {
-   "date": "2026-09-06",
-   "dl": "6 Sep",
+   "date": "2026-09-07",
+   "dl": "7 Sep",
    "freq": "d",
    "src": "Yahoo SI=F"
   },
@@ -4907,8 +4907,8 @@
    "src": "Yahoo ^GSPC"
   },
   "sc.stoxx": {
-   "date": "2026-09-04",
-   "dl": "4 Sep",
+   "date": "2026-09-07",
+   "dl": "7 Sep",
    "freq": "d",
    "src": "Yahoo ^STOXX"
   },
@@ -4919,14 +4919,14 @@
    "src": "FRED DGS10"
   },
   "sc.usdjpy": {
-   "date": "2026-09-07",
-   "dl": "7 Sep",
+   "date": "2026-09-08",
+   "dl": "8 Sep",
    "freq": "d",
    "src": "Yahoo JPY=X"
   },
   "sc.wti": {
-   "date": "2026-09-06",
-   "dl": "6 Sep",
+   "date": "2026-09-07",
+   "dl": "7 Sep",
    "freq": "d",
    "src": "Yahoo CL=F"
   },
@@ -4997,8 +4997,8 @@
    "src": "Yahoo XLY, SPY"
   },
   "th.btc": {
-   "date": "2026-09-07",
-   "dl": "7 Sep",
+   "date": "2026-09-08",
+   "dl": "8 Sep",
    "freq": "d",
    "src": "Yahoo BTC-USD, SPY"
   },
@@ -5157,11 +5157,11 @@
   "bitcoin": {
    "cond": -0.1,
    "cond_wow": -0.1,
-   "date": "2026-09-07",
-   "dl": "7 Sep",
+   "date": "2026-09-08",
+   "dl": "8 Sep",
    "freq": "d",
-   "level": 80366.6171875,
-   "mom": "-28.5%",
+   "level": 79159.953125,
+   "mom": "-26.0%",
    "n_pillars": 5,
    "pillars": {
     "C": {
@@ -5205,7 +5205,7 @@
     "X": -1
    },
    "src": "Yahoo BTC-USD",
-   "tags": "Extended",
+   "tags": "Failed breakout, Extended",
    "wow_ref": "2026-08-28"
   },
   "cash": {
@@ -5250,10 +5250,10 @@
   "copper": {
    "cond": 0.0,
    "cond_wow": 0.2,
-   "date": "2026-09-06",
-   "dl": "6 Sep",
+   "date": "2026-09-07",
+   "dl": "7 Sep",
    "freq": "d",
-   "level": 6.682499885559082,
+   "level": 6.748499870300293,
    "mom": "+46.6%",
    "n_pillars": 5,
    "pillars": {
@@ -5298,7 +5298,7 @@
     "X": 1
    },
    "src": "Yahoo HG=F",
-   "tags": "Failed breakout",
+   "tags": "55-day breakout",
    "wow_ref": "2026-08-28"
   },
   "em_ex_china": {
@@ -5466,10 +5466,10 @@
   "gold": {
    "cond": -0.1,
    "cond_wow": 0.2,
-   "date": "2026-09-06",
-   "dl": "6 Sep",
+   "date": "2026-09-07",
+   "dl": "7 Sep",
    "freq": "d",
-   "level": 4476.60009765625,
+   "level": 4467.2001953125,
    "mom": "+20.1%",
    "n_pillars": 5,
    "pillars": {
@@ -5736,10 +5736,10 @@
   "silver": {
    "cond": 0.2,
    "cond_wow": 0.1,
-   "date": "2026-09-06",
-   "dl": "6 Sep",
+   "date": "2026-09-07",
+   "dl": "7 Sep",
    "freq": "d",
-   "level": 66.74800109863281,
+   "level": 67.0999984741211,
    "mom": "+54.2%",
    "n_pillars": 5,
    "pillars": {
@@ -6061,7 +6061,7 @@
  "schema": 1,
  "v2": {
   "calendar": {
-   "asof": "6 Sep",
+   "asof": "7 Sep",
    "counts": {
     "reviewed": 0,
     "rows": 31,
@@ -6086,12 +6086,12 @@
    ],
    "implied": {
     "asof": "4 Sep",
-    "base": "±0.6%"
+    "base": "±0.8%"
    },
    "ranges": {
     "two_months": [
      "2026-09-28",
-     "2026-11-15"
+     "2026-11-16"
     ],
     "two_weeks": [
      "2026-09-14",
@@ -6105,7 +6105,7 @@
    "read": {
     "label": "Week ahead, 7 to 13 Sep (rule-based)",
     "src": "rule",
-    "text": "One tier-1 event this week: US CPI on Fri 11 Sep. The session to watch is Fri 11 Sep: options price ±0.8% for the S&P, against ±0.6% for a normal session. Tier 2: China trade balance (Mon), China CPI and PPI (Tue), 10-year Treasury auction (reopening) (Wed), ECB decision, press conference 08:45 (Thu), EIA crude inventories (Thu) and 30-year Treasury auction (reopening) (Thu). Closed: US (Mon) and Toronto (Mon)."
+    "text": "One tier-1 event this week: US CPI on Fri 11 Sep. The session to watch is Fri 11 Sep: options price ±1.0% for the S&P, against ±0.8% for a normal session. Tier 2: China trade balance (Mon), China CPI and PPI (Tue), 10-year Treasury auction (reopening) (Wed), ECB decision, press conference 08:45 (Thu), EIA crude inventories (Thu) and 30-year Treasury auction (reopening) (Thu). Closed: US (Mon) and Toronto (Mon)."
    },
    "rows": [
     {
@@ -6154,18 +6154,18 @@
     },
     {
      "brief": {
-      "expect": "Consensus: balance 795B (prior 767B), balance 120.1B (prior 112.5B). Options price ±0.4% for the session against ±0.6% for a normal one.",
+      "expect": "Consensus: balance 805B (prior 767B), balance 118.6B (prior 112.5B). Options price ±0.7% for the session against ±0.8% for a normal one.",
       "src": "rule",
       "stronger": "Copper, miners, EM and luxury up.",
       "weaker": "Weaker demand against stimulus hopes: copper and EM down, mixed for gold."
      },
      "confirmed": true,
-     "cons": "balance 795B, balance 120.1B",
+     "cons": "balance 805B, balance 118.6B",
      "date": "2026-09-07",
      "day": "Mon 7 Sep",
      "dim": false,
      "id": "china_trade:2026-09-07",
-     "implied": 0.36,
+     "implied": 0.7,
      "key": "china_trade",
      "name": "China trade balance",
      "range": "week",
@@ -6176,18 +6176,18 @@
     },
     {
      "brief": {
-      "expect": "Consensus: CPI y/y 0.9% (prior 0.5%), PPI y/y 3.6% (prior 3.5%). Options price ±0.5% for the session against ±0.6% for a normal one.",
+      "expect": "Consensus: CPI y/y 0.8% (prior 0.5%), PPI y/y 3.6% (prior 3.5%). Options price ±0.7% for the session against ±0.8% for a normal one.",
       "src": "rule",
       "stronger": "Copper, miners, EM and luxury up.",
       "weaker": "Weaker demand against stimulus hopes: copper and EM down, mixed for gold."
      },
      "confirmed": true,
-     "cons": "CPI y/y 0.9%, PPI y/y 3.6%",
+     "cons": "CPI y/y 0.8%, PPI y/y 3.6%",
      "date": "2026-09-08",
      "day": "Tue 8 Sep",
      "dim": false,
      "id": "china_prices:2026-09-08",
-     "implied": 0.5,
+     "implied": 0.66,
      "key": "china_prices",
      "name": "China CPI and PPI",
      "range": "week",
@@ -6198,7 +6198,7 @@
     },
     {
      "brief": {
-      "expect": "Options price ±0.5% for the session against ±0.6% for a normal one. A demand test for the long end: a tail over 2 bp pushes yields up.",
+      "expect": "Options price ±0.7% for the session against ±0.8% for a normal one. A demand test for the long end: a tail over 2 bp pushes yields up.",
       "src": "rule",
       "stronger": "Strong demand: yields down, everything long duration up.",
       "weaker": "A tail: 10Y up, bear steepener, tech and REITs down."
@@ -6209,7 +6209,7 @@
      "day": "Wed 9 Sep",
      "dim": false,
      "id": "auction:10Y:2026-09-09",
-     "implied": 0.5,
+     "implied": 0.66,
      "key": "auction",
      "name": "10-year Treasury auction (reopening)",
      "range": "week",
@@ -6220,7 +6220,7 @@
     },
     {
      "brief": {
-      "expect": "Consensus: refi rate 2.65% (prior 2.40%). Options price ±0.6% for the session against ±0.6% for a normal one.",
+      "expect": "Consensus: refi rate 2.65% (prior 2.40%). Options price ±0.7% for the session against ±0.8% for a normal one.",
       "src": "rule",
       "stronger": "Hawkish: euro up, dollar down, European banks up.",
       "weaker": "Dovish: euro down, bunds up."
@@ -6231,7 +6231,7 @@
      "day": "Thu 10 Sep",
      "dim": false,
      "id": "ecb:2026-09-10",
-     "implied": 0.6,
+     "implied": 0.74,
      "key": "ecb",
      "name": "ECB decision, press conference 08:45",
      "range": "week",
@@ -6242,7 +6242,7 @@
     },
     {
      "brief": {
-      "expect": "Options price ±0.6% for the session against ±0.6% for a normal one.",
+      "expect": "Options price ±0.7% for the session against ±0.8% for a normal one.",
       "src": "rule",
       "stronger": "A larger build: crude down.",
       "weaker": "A draw: crude and producers up."
@@ -6253,7 +6253,7 @@
      "day": "Thu 10 Sep",
      "dim": false,
      "id": "eia:2026-09-10",
-     "implied": 0.6,
+     "implied": 0.74,
      "key": "eia",
      "name": "EIA crude inventories",
      "range": "week",
@@ -6264,7 +6264,7 @@
     },
     {
      "brief": {
-      "expect": "Options price ±0.6% for the session against ±0.6% for a normal one. A demand test for the long end: a tail over 2 bp pushes yields up.",
+      "expect": "Options price ±0.7% for the session against ±0.8% for a normal one. A demand test for the long end: a tail over 2 bp pushes yields up.",
       "src": "rule",
       "stronger": "Strong demand: yields down, everything long duration up.",
       "weaker": "A tail: 10Y up, bear steepener, tech and REITs down."
@@ -6275,7 +6275,7 @@
      "day": "Thu 10 Sep",
      "dim": false,
      "id": "auction:30Y:2026-09-10",
-     "implied": 0.6,
+     "implied": 0.74,
      "key": "auction",
      "name": "30-year Treasury auction (reopening)",
      "range": "week",
@@ -6286,18 +6286,18 @@
     },
     {
      "brief": {
-      "expect": "Consensus: m/m 0.4% (prior 0.1%), core m/m 0.2% (prior 0.2%), y/y 3.4% (prior 3.4%). Past releases since 2011 (n=187): the S&P moves 0.5% on the day at the median, 1.6% in the worst tenth; the 10Y 4 bp; gold 0.6%. Options price ±0.8% for the session against ±0.6% for a normal one.",
+      "expect": "Consensus: m/m 0.4% (prior 0.1%), core m/m 0.2% (prior 0.2%), y/y 3.4% (prior 3.4%). Past releases since 2011 (n=187): the S&P moves 0.5% on the day at the median, 1.6% in the worst tenth; the 10Y 4 bp; gold 0.6%. Options price ±1.0% for the session against ±0.8% for a normal one.",
       "src": "rule",
       "stronger": "Yields and the dollar up; gold, small caps and long-duration tech down; cut odds fade.",
       "weaker": "Cut path firm: gold, miners, small caps and homebuilders up; dollar down."
      },
      "confirmed": true,
-     "cons": "m/m 0.4%, core m/m 0.2%, y/y 3.4%; options price ±0.8%",
+     "cons": "m/m 0.4%, core m/m 0.2%, y/y 3.4%; options price ±1.0%",
      "date": "2026-09-11",
      "day": "Fri 11 Sep",
      "dim": false,
      "id": "cpi:2026-09-11",
-     "implied": 0.8,
+     "implied": 1.01,
      "key": "cpi",
      "name": "US CPI",
      "range": "week",
@@ -6308,7 +6308,7 @@
     },
     {
      "brief": {
-      "expect": "Options price ±0.6% for the session against ±0.6% for a normal one. A demand test for the long end: a tail over 2 bp pushes yields up.",
+      "expect": "Options price ±0.7% for the session against ±0.8% for a normal one. A demand test for the long end: a tail over 2 bp pushes yields up.",
       "src": "rule",
       "stronger": "Strong demand: yields down, everything long duration up.",
       "weaker": "A tail: 10Y up, bear steepener, tech and REITs down."
@@ -6319,7 +6319,7 @@
      "day": "Tue 15 Sep",
      "dim": false,
      "id": "auction:20Y:2026-09-15",
-     "implied": 0.65,
+     "implied": 0.7,
      "key": "auction",
      "name": "20-year Treasury auction (reopening)",
      "range": "two_weeks",
@@ -6352,18 +6352,18 @@
     },
     {
      "brief": {
-      "expect": "Past releases since 2011 (n=128): the S&P moves 0.6% on the day at the median, 1.9% in the worst tenth; the 10Y 4 bp; gold 0.4%. Options price ±0.9% for the session against ±0.6% for a normal one. The projections and the dots matter more than the decision itself.",
+      "expect": "Past releases since 2011 (n=128): the S&P moves 0.6% on the day at the median, 1.9% in the worst tenth; the 10Y 4 bp; gold 0.4%. Options price ±1.0% for the session against ±0.8% for a normal one. The projections and the dots matter more than the decision itself.",
       "src": "rule",
       "stronger": "Hawkish: yields and the dollar up, curve flattens; gold, small caps and EM down.",
       "weaker": "Dovish: gold, miners, homebuilders, small caps and EM up; dollar down; banks mixed."
      },
      "confirmed": true,
-     "cons": "options price ±0.9%",
+     "cons": "options price ±1.0%",
      "date": "2026-09-16",
      "day": "Wed 16 Sep",
      "dim": false,
      "id": "fomc:2026-09-16",
-     "implied": 0.93,
+     "implied": 1.03,
      "key": "fomc",
      "name": "FOMC decision, projections and dot plot",
      "range": "two_weeks",
@@ -6374,7 +6374,7 @@
     },
     {
      "brief": {
-      "expect": "Options price ±0.8% for the session against ±0.6% for a normal one. A demand test for the long end: a tail over 2 bp pushes yields up.",
+      "expect": "Options price ±0.9% for the session against ±0.8% for a normal one. A demand test for the long end: a tail over 2 bp pushes yields up.",
       "src": "rule",
       "stronger": "Strong demand: yields down, everything long duration up.",
       "weaker": "A tail: 10Y up, bear steepener, tech and REITs down."
@@ -6385,7 +6385,7 @@
      "day": "Thu 17 Sep",
      "dim": false,
      "id": "auction:10Y:2026-09-17",
-     "implied": 0.83,
+     "implied": 0.89,
      "key": "auction",
      "name": "10-year Treasury auction (reopening)",
      "range": "two_weeks",
@@ -6396,18 +6396,18 @@
     },
     {
      "brief": {
-      "expect": "Options price ±0.8% for the session against ±0.6% for a normal one.",
+      "expect": "Options price ±0.9% for the session against ±0.8% for a normal one.",
       "src": "rule",
       "stronger": "Hawkish: yen up, Nikkei down, global carry unwinds, gold and tech dip.",
       "weaker": "Dovish: yen down, Nikkei up, carry trades relax."
      },
      "confirmed": true,
-     "cons": "options price ±0.8%",
+     "cons": "options price ±0.9%",
      "date": "2026-09-18",
      "day": "Fri 18 Sep",
      "dim": false,
      "id": "boj:2026-09-18",
-     "implied": 0.81,
+     "implied": 0.86,
      "key": "boj",
      "name": "Bank of Japan decision",
      "range": "two_weeks",
@@ -6484,7 +6484,7 @@
     },
     {
      "brief": {
-      "expect": "Options price ±0.9% for the session against ±0.6% for a normal one. Usual slot, not yet confirmed by a feed.",
+      "expect": "Options price ±0.9% for the session against ±0.8% for a normal one. Usual slot, not yet confirmed by a feed.",
       "src": "rule",
       "stronger": "Yields and the dollar up; cyclicals, copper and banks lead; bonds, gold and utilities lag.",
       "weaker": "Bonds, gold, staples and utilities up; small caps and cyclicals down; cut odds firm."
@@ -6495,7 +6495,7 @@
      "day": "Thu 1 Oct",
      "dim": false,
      "id": "ism_mfg:2026-10-01",
-     "implied": 0.87,
+     "implied": 0.88,
      "key": "ism_mfg",
      "name": "ISM manufacturing (usual slot, to confirm)",
      "range": "two_months",
@@ -6506,18 +6506,18 @@
     },
     {
      "brief": {
-      "expect": "Past releases since 2011 (n=187): the S&P moves 0.6% on the day at the median, 1.7% in the worst tenth; the 10Y 5 bp; gold 0.7%. Options price ±0.9% for the session against ±0.6% for a normal one.",
+      "expect": "Past releases since 2011 (n=187): the S&P moves 0.6% on the day at the median, 1.7% in the worst tenth; the 10Y 5 bp; gold 0.7%. Options price ±1.0% for the session against ±0.8% for a normal one.",
       "src": "rule",
       "stronger": "Yields and the dollar up; cyclicals, copper and banks lead; bonds, gold and utilities lag.",
       "weaker": "Bonds, gold, staples and utilities up; small caps and cyclicals down; cut odds firm."
      },
      "confirmed": true,
-     "cons": "options price ±0.9%",
+     "cons": "options price ±1.0%",
      "date": "2026-10-02",
      "day": "Fri 2 Oct",
      "dim": false,
      "id": "payrolls:2026-10-02",
-     "implied": 0.93,
+     "implied": 0.97,
      "key": "payrolls",
      "name": "Nonfarm payrolls",
      "range": "two_months",
@@ -6528,7 +6528,7 @@
     },
     {
      "brief": {
-      "expect": "Options price ±0.5% for the session against ±0.6% for a normal one. Usual slot, not yet confirmed by a feed.",
+      "expect": "Options price ±0.4% for the session against ±0.8% for a normal one. Usual slot, not yet confirmed by a feed.",
       "src": "rule",
       "stronger": "Yields and the dollar up; cyclicals, copper and banks lead; bonds, gold and utilities lag.",
       "weaker": "Bonds, gold, staples and utilities up; small caps and cyclicals down; cut odds firm."
@@ -6539,7 +6539,7 @@
      "day": "Mon 5 Oct",
      "dim": false,
      "id": "ism_svc:2026-10-05",
-     "implied": 0.47,
+     "implied": 0.35,
      "key": "ism_svc",
      "name": "ISM services (usual slot, to confirm)",
      "range": "two_months",
@@ -6550,7 +6550,7 @@
     },
     {
      "brief": {
-      "expect": "Options price ±0.9% for the session against ±0.6% for a normal one. The dissent count and the balance sheet discussion matter more than the recap. Usual slot, not yet confirmed by a feed.",
+      "expect": "Options price ±0.9% for the session against ±0.8% for a normal one. The dissent count and the balance sheet discussion matter more than the recap. Usual slot, not yet confirmed by a feed.",
       "src": "rule",
       "stronger": "Hawkish: yields and the dollar up, curve flattens; gold, small caps and EM down.",
       "weaker": "Dovish: gold, miners, homebuilders, small caps and EM up; dollar down; banks mixed."
@@ -6561,7 +6561,7 @@
      "day": "Wed 7 Oct",
      "dim": false,
      "id": "fomc_minutes:2026-10-07",
-     "implied": 0.87,
+     "implied": 0.89,
      "key": "fomc_minutes",
      "name": "FOMC minutes (Sep meeting) (usual slot, to confirm)",
      "range": "two_months",
@@ -6572,18 +6572,18 @@
     },
     {
      "brief": {
-      "expect": "Past releases since 2011 (n=187): the S&P moves 0.5% on the day at the median, 1.6% in the worst tenth; the 10Y 4 bp; gold 0.6%. Options price ±1.0% for the session against ±0.6% for a normal one.",
+      "expect": "Past releases since 2011 (n=187): the S&P moves 0.5% on the day at the median, 1.6% in the worst tenth; the 10Y 4 bp; gold 0.6%. Options price ±1.1% for the session against ±0.8% for a normal one.",
       "src": "rule",
       "stronger": "Yields and the dollar up; gold, small caps and long-duration tech down; cut odds fade.",
       "weaker": "Cut path firm: gold, miners, small caps and homebuilders up; dollar down."
      },
      "confirmed": true,
-     "cons": "options price ±1.0%",
+     "cons": "options price ±1.1%",
      "date": "2026-10-14",
      "day": "Wed 14 Oct",
      "dim": false,
      "id": "cpi:2026-10-14",
-     "implied": 1.03,
+     "implied": 1.06,
      "key": "cpi",
      "name": "US CPI",
      "range": "two_months",
@@ -6704,7 +6704,7 @@
     },
     {
      "brief": {
-      "expect": "Options price ±1.2% for the session against ±0.6% for a normal one. Usual slot, not yet confirmed by a feed.",
+      "expect": "Options price ±1.2% for the session against ±0.8% for a normal one. Usual slot, not yet confirmed by a feed.",
       "src": "rule",
       "stronger": "Coupon increases: 10Y and term premium up, tech and REITs down, dollar up.",
       "weaker": "Bills-heavy with coupons flat: net liquidity up, gold and small caps up."
@@ -6715,7 +6715,7 @@
      "day": "Wed 4 Nov",
      "dim": false,
      "id": "qra:2026-11-04",
-     "implied": 1.2,
+     "implied": 1.19,
      "key": "qra",
      "name": "Treasury quarterly refunding announcement (QRA) (usual slot, to confirm)",
      "range": "two_months",
@@ -6726,7 +6726,7 @@
     },
     {
      "brief": {
-      "expect": "Options price ±1.2% for the session against ±0.6% for a normal one. Usual slot, not yet confirmed by a feed.",
+      "expect": "Options price ±1.2% for the session against ±0.8% for a normal one. Usual slot, not yet confirmed by a feed.",
       "src": "rule",
       "stronger": "Yields and the dollar up; cyclicals, copper and banks lead; bonds, gold and utilities lag.",
       "weaker": "Bonds, gold, staples and utilities up; small caps and cyclicals down; cut odds firm."
@@ -6737,7 +6737,7 @@
      "day": "Wed 4 Nov",
      "dim": false,
      "id": "ism_svc:2026-11-04",
-     "implied": 1.2,
+     "implied": 1.19,
      "key": "ism_svc",
      "name": "ISM services (usual slot, to confirm)",
      "range": "two_months",
@@ -6829,7 +6829,7 @@
      "name": "Nonfarm payrolls",
      "next": {
       "date": "2 Oct",
-      "implied": "±0.9%"
+      "implied": "±1.0%"
      }
     },
     {
@@ -6869,7 +6869,7 @@
      "name": "US CPI",
      "next": {
       "date": "11 Sep",
-      "implied": "±0.8%"
+      "implied": "±1.0%"
      }
     },
     {
@@ -6909,11 +6909,11 @@
      "name": "FOMC decision",
      "next": {
       "date": "16 Sep",
-      "implied": "±0.9%"
+      "implied": "±1.0%"
      }
     }
    ],
-   "today": "2026-09-06"
+   "today": "2026-09-07"
   },
   "positioning": {
    "asof": "1 Sep",
@@ -6957,7 +6957,7 @@
     {
      "key": "btc",
      "name": "Bitcoin",
-     "score": -2.55,
+     "score": -2.5,
      "x": true
     },
     {
@@ -7021,10 +7021,10 @@
     "y1_date": "3 Sep 2025"
    },
    "path": {
-    "date": "6 Sep",
+    "date": "7 Sep",
     "effr": 3.63,
     "effr_date": "3 Sep",
-    "iso": "2026-09-06",
+    "iso": "2026-09-07",
     "n": 12,
     "points": [
      {
@@ -7066,7 +7066,7 @@
      {
       "fomc": true,
       "label": "Apr 2027",
-      "rate": 4.14,
+      "rate": 4.13,
       "ym": "2027-04"
      },
      {
@@ -7078,19 +7078,19 @@
      {
       "fomc": true,
       "label": "Jun 2027",
-      "rate": 4.21,
+      "rate": 4.2,
       "ym": "2027-06"
      },
      {
       "fomc": true,
       "label": "Jul 2027",
-      "rate": 4.22,
+      "rate": 4.21,
       "ym": "2027-07"
      },
      {
       "fomc": false,
       "label": "Aug 2027",
-      "rate": 4.24,
+      "rate": 4.23,
       "ym": "2027-08"
      },
      {
@@ -7105,7 +7105,7 @@
    }
   },
   "regime": {
-   "asof": "4 Sep",
+   "asof": "7 Sep",
    "clock": {
     "detail": "growth up, inflation down",
     "quadrant": "Recovery",
@@ -7215,9 +7215,9 @@
      "v": 0.25
     },
     "risk": {
-     "left": 82.2,
+     "left": 82.0,
      "t": "+1.3",
-     "title": "6 inputs, three-year z-scores, as of 4 Sep",
+     "title": "6 inputs, three-year z-scores, as of 7 Sep",
      "trail": [
       0.87,
       0.93,
@@ -7231,10 +7231,10 @@
       1.24,
       1.13,
       1.24,
-      1.29
+      1.28
      ],
      "trail_from": "Sep 2025",
-     "v": 1.29
+     "v": 1.28
     }
    },
    "flags": {
@@ -7266,7 +7266,7 @@
     "dollar": {
      "cls": "chip",
      "g": "●",
-     "text": "Dollar: weakening"
+     "text": "Dollar: mixed"
     },
     "liquidity": {
      "cls": "chip up",
@@ -8284,7 +8284,7 @@
        {
         "t": "-0.0",
         "title": "hit rate 43% over 21 years",
-        "v": -0.02
+        "v": -0.03
        },
        {
         "t": "0.7",
@@ -8416,7 +8416,7 @@
        {
         "t": "-1.6",
         "title": "hit rate 48% over 21 years",
-        "v": -1.58
+        "v": -1.55
        },
        {
         "t": "1.5",
@@ -8480,9 +8480,9 @@
         "v": -2.01
        },
        {
-        "t": "-0.8",
+        "t": "-0.7",
         "title": "hit rate 43% over 21 years",
-        "v": -0.76
+        "v": -0.71
        },
        {
         "t": "-1.3",
@@ -8548,7 +8548,7 @@
        {
         "t": "6.8",
         "title": "hit rate 62% over 21 years",
-        "v": 6.85
+        "v": 6.84
        },
        {
         "t": "7.0",
@@ -8612,9 +8612,9 @@
         "v": -1.12
        },
        {
-        "t": "-0.2",
+        "t": "-0.1",
         "title": "hit rate 57% over 21 years",
-        "v": -0.15
+        "v": -0.1
        },
        {
         "t": "-1.0",
@@ -8876,9 +8876,9 @@
         "v": 1.95
        },
        {
-        "t": "-1.5",
+        "t": "-1.6",
         "title": "hit rate 50% over 12 years",
-        "v": -1.48
+        "v": -1.61
        },
        {
         "t": "16.6",
