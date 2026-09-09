@@ -1,5 +1,5 @@
 {
- "asOf": "2026-09-08T07:35+07:00",
+ "asOf": "2026-09-09T07:25+07:00",
  "date": "2026-09-04",
  "detector": {
   "btc": {
@@ -137,12 +137,12 @@
   "mags": {
    "count": 1,
    "entry": 1.0,
-   "lost": 1.0,
-   "lostn": [
+   "lost": 0.0,
+   "lostn": [],
+   "name": "Mega-cap tech and AI",
+   "off": [
     "Macro"
    ],
-   "name": "Mega-cap tech and AI",
-   "off": [],
    "on": [
     "Relative strength"
    ],
@@ -174,14 +174,14 @@
   "smh": {
    "count": 0,
    "entry": 0.0,
-   "lost": 2.0,
+   "lost": 1.0,
    "lostn": [
-    "Relative strength",
-    "Macro"
+    "Relative strength"
    ],
    "name": "Semiconductors",
    "off": [
-    "Seasonal"
+    "Seasonal",
+    "Macro"
    ],
    "on": [],
    "raw": "watch_exit",
@@ -231,13 +231,14 @@
   "xbi": {
    "count": 1,
    "entry": 1.0,
-   "lost": 1.5,
+   "lost": 0.5,
    "lostn": [
-    "Seasonal",
-    "Macro"
+    "Seasonal"
    ],
    "name": "Biotech",
-   "off": [],
+   "off": [
+    "Macro"
+   ],
    "on": [
     "Relative strength"
    ],
@@ -2986,7 +2987,7 @@
     ],
     "bitcoin": [
      -0.1,
-     0.2
+     0.4
     ],
     "cash": [
      -0.7,
@@ -3041,7 +3042,7 @@
      0.8
     ],
     "us_large": [
-     0.3,
+     0.4,
      0.6
     ],
     "us_small": [
@@ -3127,7 +3128,7 @@
   "bitcoin": {
    "cond": -0.1,
    "name": "Bitcoin",
-   "price": 0.2,
+   "price": 0.4,
    "read": "Neutral"
   },
   "cash": {
@@ -3209,7 +3210,7 @@
    "read": "Price ahead, up"
   },
   "us_large": {
-   "cond": 0.3,
+   "cond": 0.4,
    "name": "US large caps (S&P 500)",
    "price": 0.6,
    "read": "Price ahead, up"
@@ -3230,7 +3231,7 @@
  "regime": {
   "composites": {
    "cost": {
-    "value": -0.08
+    "value": 0.05
    },
    "growth": {
     "value": 0.1
@@ -3242,7 +3243,7 @@
     "value": 0.25
    },
    "risk": {
-    "value": 1.28
+    "value": 1.27
    }
   },
   "flags": {
@@ -3251,7 +3252,7 @@
    "credit": "none",
    "cycle": "Recovery",
    "cycle_detail": "growth up, inflation down",
-   "dollar": "mixed",
+   "dollar": "weakening",
    "liquidity": "expanding",
    "momentum": "rolling over",
    "risk": "on"
@@ -3350,13 +3351,12 @@
   }
  },
  "v4": {
-  "date": "2026-09-07",
+  "date": "2026-09-08",
   "surprises": [],
   "tier1_soon": [
    "cpi:2026-09-11"
   ],
   "tier2_soon": [
-   "china_trade:2026-09-07",
    "china_prices:2026-09-08",
    "auction:10Y:2026-09-09",
    "ecb:2026-09-10",

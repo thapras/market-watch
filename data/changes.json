@@ -1,7 +1,25 @@
 {
- "asOf": "2026-09-08T07:35+07:00",
- "asOfLabel": "8 Sep 2026, 07:35 BKK",
+ "asOf": "2026-09-09T07:25+07:00",
+ "asOfLabel": "9 Sep 2026, 07:25 BKK",
  "changes": [
+  {
+   "d": "9 Sep",
+   "href": "#ranking",
+   "key": "nearrank.bitcoin",
+   "sec": "regime",
+   "t": "2026-09-09T07:25+07:00",
+   "text": "Near a flip: Bitcoin price score +0.4 is inside the 0.5 band; one more step up changes the read from Neutral.",
+   "tier": "fyi"
+  },
+  {
+   "d": "9 Sep",
+   "href": "#calendar",
+   "key": "cal.eia:2026-09-10",
+   "sec": "calendar",
+   "t": "2026-09-09T07:25+07:00",
+   "text": "Coming Thu 10 Sep, 10:30 ET: EIA crude inventories; options price a 0.8% S&P move.",
+   "tier": "fyi"
+  },
   {
    "d": "8 Sep",
    "href": "#ranking",
