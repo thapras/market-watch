@@ -1,7 +1,34 @@
 {
- "asOf": "2026-09-11T07:20+07:00",
- "asOfLabel": "11 Sep 2026, 07:20 BKK",
+ "asOf": "2026-09-12T00:07+07:00",
+ "asOfLabel": "12 Sep 2026, 00:07 BKK",
  "changes": [
+  {
+   "d": "12 Sep",
+   "href": "#regime",
+   "key": "flag.breadth",
+   "sec": "regime",
+   "t": "2026-09-12T00:07+07:00",
+   "text": "Breadth flag changed: mixed to narrowing.",
+   "tier": "note"
+  },
+  {
+   "d": "12 Sep",
+   "href": "#ranking",
+   "key": "rank.us_large",
+   "sec": "regime",
+   "t": "2026-09-12T00:07+07:00",
+   "text": "US large caps (S&P 500) read changed: Price ahead, up to Neutral (conditions +0.2, price +0.4).",
+   "tier": "note"
+  },
+  {
+   "d": "12 Sep",
+   "href": "#calendar",
+   "key": "cal.fomc:2026-09-16",
+   "sec": "calendar",
+   "t": "2026-09-12T00:07+07:00",
+   "text": "Coming Wed 16 Sep, 14:00 ET: FOMC decision, projections and dot plot; options price a 0.9% S&P move.",
+   "tier": "note"
+  },
   {
    "d": "11 Sep",
    "href": "#calendar",
