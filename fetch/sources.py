@@ -20,6 +20,11 @@ Free feeds, no API keys:
   FINRA      margin statistics table (www.finra.org), about thirteen months
   DIX        SqueezeMetrics dark pool index and gamma exposure CSV (squeezemetrics.com)
   alt.me     crypto fear and greed index (api.alternative.me)
+  Coin Metrics  community API, bitcoin daily on-chain series since 2010 (community-api.coinmetrics.io), one request
+  blockchain.com  chart API, bitcoin daily price since 2010, the fallback for the long price (api.blockchain.info)
+  CoinGecko  global endpoint, bitcoin dominance and total crypto market cap now (api.coingecko.com); logged run by run
+  DefiLlama  stablecoin circulating supply, daily since 2017 (stablecoins.llama.fi)
+  Bybit      perpetual funding rate history, paged by end time (api.bybit.com)
 
 A series is a list of (date, value) tuples, ISO dates ascending, no gaps filled,
 no missing values. Everything downstream works on that shape.
@@ -835,3 +840,147 @@ def parse_cboe_chain(j):
 
 def cboe_chain(symbol="_SPX"):
     return parse_cboe_chain(json.loads(get("https://cdn.cboe.com/api/global/delayed_quotes/options/%s.json" % symbol)))
+
+
+# ================================================================ v5: the bitcoin tab
+# Coin Metrics community API: daily on-chain series since 2010 in one request (about 2 MB). Only the community
+# metrics are free; realized cap is not, so MVRV comes from CapMVRVCur and realized cap is market cap over it.
+CM_METRICS = {"PriceUSD": "price", "CapMVRVCur": "mvrv", "CapMrktCurUSD": "mcap", "IssTotUSD": "iss_usd", "IssTotNtv": "iss_ntv",
+              "FeeTotNtv": "fee_ntv", "HashRate": "hashrate", "AdrActCnt": "adr_act", "AdrBalCnt": "adr_bal", "SplyCur": "supply",
+              "FlowInExNtv": "flow_in", "FlowOutExNtv": "flow_out"}
+
+
+def parse_coinmetrics(j):
+    """{'data': [{'time': '2026-09-10T00:00:00.000000000Z' or '2026-09-10', 'PriceUSD': '76675.7', ...}]} -> {short name: series}."""
+    out = {v: [] for v in CM_METRICS.values()}
+    for r in j.get("data") or []:
+        d = str(r.get("time") or "")[:10]
+        if len(d) != 10:
+            continue
+        for m, k in CM_METRICS.items():
+            v = r.get(m)
+            if v in (None, ""):
+                continue
+            try:
+                out[k].append((d, float(v)))
+            except ValueError:
+                continue
+    out = {k: _clean(v) for k, v in out.items() if v}
+    if not out.get("price"):
+        raise SourceError("Coin Metrics: no price rows")
+    return out
+
+
+def coinmetrics_btc(start="2010-07-18"):
+    url = ("https://community-api.coinmetrics.io/v4/timeseries/asset-metrics?assets=btc&metrics=%s&frequency=1d&page_size=10000&start_time=%s"
+           % (",".join(CM_METRICS), start))
+    j = json.loads(get(url))
+    if j.get("error"):
+        raise SourceError("Coin Metrics: %s" % j["error"])
+    rows = list(j.get("data") or [])
+    nxt = j.get("next_page_url")
+    hops = 0
+    while nxt and hops < 5:                     # one page covers the whole history today; paging is a safety net
+        j = json.loads(get(nxt))
+        rows += j.get("data") or []
+        nxt = j.get("next_page_url")
+        hops += 1
+    return parse_coinmetrics({"data": rows})
+
+
+def blockchain_chart(name):
+    """One blockchain.com chart as a daily series (market-price, hash-rate, miners-revenue, n-unique-addresses)."""
+    j = json.loads(get("https://api.blockchain.info/charts/%s?timespan=all&format=json&sampled=false" % name))
+    out = []
+    for p in j.get("values") or []:
+        try:
+            out.append((dt.datetime.utcfromtimestamp(int(p["x"])).date().isoformat(), float(p["y"])))
+        except (KeyError, ValueError, TypeError):
+            continue
+    out = [(d, v) for d, v in _clean(out) if v > 0]
+    if not out:
+        raise SourceError("blockchain.com %s: no rows" % name)
+    return out
+
+
+def parse_coingecko_global(j):
+    d = (j or {}).get("data") or {}
+    pct = d.get("market_cap_percentage") or {}
+    total = (d.get("total_market_cap") or {}).get("usd")
+    if pct.get("btc") is None or total is None:
+        raise SourceError("CoinGecko global: missing dominance or total cap")
+    when = dt.datetime.utcfromtimestamp(int(d.get("updated_at") or time.time())).date().isoformat()
+    return {"date": when, "btc_dom": float(pct["btc"]), "eth_dom": float(pct.get("eth") or 0.0), "total_usd": float(total)}
+
+
+def coingecko_global():
+    return parse_coingecko_global(json.loads(get("https://api.coingecko.com/api/v3/global")))
+
+
+def parse_defillama(j):
+    """[{'date': '1788998400', 'totalCirculatingUSD': {'peggedUSD': 3.1e11, ...}}, ...] -> USD-pegged supply in dollars, daily."""
+    out = []
+    for r in j or []:
+        try:
+            v = (r.get("totalCirculatingUSD") or {}).get("peggedUSD")
+            if v is None:
+                continue
+            out.append((dt.datetime.utcfromtimestamp(int(r["date"])).date().isoformat(), float(v)))
+        except (KeyError, ValueError, TypeError):
+            continue
+    out = _clean(out)
+    if len(out) < 100:
+        raise SourceError("DefiLlama: only %d rows" % len(out))
+    return out
+
+
+def defillama_stables():
+    return parse_defillama(json.loads(get("https://stablecoins.llama.fi/stablecoincharts/all")))
+
+
+def parse_bybit_funding(j):
+    """One page of {'result': {'list': [{'fundingRate': '0.0001', 'fundingRateTimestamp': '1789084800000'}]}} -> [(date, rate)] per period."""
+    out = []
+    for r in ((j or {}).get("result") or {}).get("list") or []:
+        try:
+            ts = int(r["fundingRateTimestamp"]) // 1000
+            out.append((dt.datetime.utcfromtimestamp(ts).date().isoformat(), float(r["fundingRate"])))
+        except (KeyError, ValueError, TypeError):
+            continue
+    return out
+
+
+def funding_daily(periods, per_day=3):
+    """Eight-hour funding rates -> one annualized percent per day (mean of the day's periods times per_day times 365)."""
+    by_day = {}
+    for d, r in periods:
+        by_day.setdefault(d, []).append(r)
+    return sorted((d, sum(v) / len(v) * per_day * 365 * 100.0) for d, v in by_day.items())
+
+
+def bybit_funding(symbol="BTCUSDT", days=400):
+    """Perpetual funding history, paged backwards by end time (200 periods, about 66 days, per page)."""
+    periods, end_ms, pages = [], None, 0
+    since = (dt.date.today() - dt.timedelta(days=days)).isoformat()
+    while pages < 12:
+        url = "https://api.bybit.com/v5/market/funding/history?category=linear&symbol=%s&limit=200" % symbol
+        if end_ms:
+            url += "&endTime=%d" % end_ms
+        j = json.loads(get(url))
+        if j.get("retCode") not in (0, None):
+            raise SourceError("Bybit: %s" % j.get("retMsg"))
+        page = parse_bybit_funding(j)
+        if not page:
+            break
+        periods += page
+        oldest = min(int(r["fundingRateTimestamp"]) for r in j["result"]["list"])
+        pages += 1
+        if page[-1][0] < since or min(d for d, _ in page) < since:
+            break
+        end_ms = oldest - 1
+        time.sleep(0.2)
+    daily = funding_daily(periods)
+    daily = [(d, v) for d, v in daily if d >= since]
+    if len(daily) < 30:
+        raise SourceError("Bybit %s: only %d days" % (symbol, len(daily)))
+    return daily

@@ -85,6 +85,8 @@ nav.sections{display:flex;gap:2px;flex-wrap:wrap;margin-left:auto}
 nav.sections a{font-size:12.5px;color:var(--ink-2);padding:6px 9px;border-radius:2px;font-stretch:95%}
 nav.sections a:hover{background:var(--surface-2);text-decoration:none;color:var(--ink)}
 nav.sections a.on{color:var(--accent-text);box-shadow:inset 0 -2px 0 var(--accent)}
+nav.sections a.tab{margin-left:6px;border:1px solid var(--hair-2);border-radius:2px;padding:5px 9px}
+nav.sections a.tab.on{border-color:var(--accent)}
 
 /* ---------- notice + regime ---------- */
 .notice{display:flex;gap:12px;align-items:flex-start;padding:12px 16px;margin:20px 0 0;border:1px solid var(--hair);background:var(--surface);border-left:3px solid var(--warn);font-size:13px;color:var(--ink-2)}
@@ -587,6 +589,7 @@ td.name .snap:hover,td.name .snap:focus-visible{color:var(--accent-text);border-
       <a href="#rotation">4 Rotation</a>
       <a href="#calendar">5 Calendar</a>
       <a href="#sentiment">6 Sentiment</a>
+      <a href="bitcoin.html" data-sec="bitcoin" class="tab">Bitcoin</a>
     </nav>
   </div>
 </header>
@@ -1835,10 +1838,10 @@ td.name .snap:hover,td.name .snap:focus-visible{color:var(--accent-text);border-
     var KEY = 'mw.lastRead', store = {};
     try { store = JSON.parse(localStorage.getItem(KEY) || '{}') || {}; } catch (e) { store = {}; }
     function save(){ try { localStorage.setItem(KEY, JSON.stringify(store)); } catch (e) {} }
-    var names = {regime: 'Regime', liquidity: '1 Liquidity', rates: '2 Rates', markets: '3 Markets', rotation: '4 Rotation', calendar: '5 Calendar', sentiment: '6 Sentiment'};
+    var names = {regime: 'Regime', liquidity: '1 Liquidity', rates: '2 Rates', markets: '3 Markets', rotation: '4 Rotation', calendar: '5 Calendar', sentiment: '6 Sentiment', bitcoin: 'Bitcoin'};
     var tiers = [['must', 'Must read'], ['note', 'Notable'], ['fyi', 'FYI']];
     var showAll = false, fyiOpen = false;
-    function key(c){ return c.href.slice(1); }
+    function key(c){ return c.href.charAt(0) === '#' ? c.href.slice(1) : c.sec; }
     var targets = []; data.changes.forEach(function(c){ if (targets.indexOf(key(c)) < 0) targets.push(key(c)); });
     function unread(c){ var r = store[key(c)]; return !r || Date.parse(c.t) > Date.parse(r.t); }
     function earliest(){ var e = null; Object.keys(store).forEach(function(k){ if (!e || Date.parse(store[k].t) < Date.parse(e.t)) e = store[k]; }); return e; }
@@ -1846,7 +1849,7 @@ td.name .snap:hover,td.name .snap:focus-visible{color:var(--accent-text);border-
       var per = {};
       data.changes.forEach(function(c){ if (unread(c)) { per[c.sec] = per[c.sec] || {n: 0, must: false}; per[c.sec].n++; if (c.tier === 'must') per[c.sec].must = true; } });
       document.querySelectorAll('nav.sections a').forEach(function(a){
-        var id = a.getAttribute('href').slice(1), old = a.querySelector('.badge');
+        var href = a.getAttribute('href'), id = href.charAt(0) === '#' ? href.slice(1) : (a.getAttribute('data-sec') || ''), old = a.querySelector('.badge');
         if (old) old.remove();
         if (per[id]) {
           var b = document.createElement('span'); b.className = 'badge' + (per[id].must ? ' must' : ''); b.textContent = per[id].n;
@@ -1878,7 +1881,7 @@ td.name .snap:hover,td.name .snap:focus-visible{color:var(--accent-text);border-
           var ul = document.createElement('ul');
           items.forEach(function(c){
             var li = document.createElement('li'); if (!unread(c)) li.className = 'read';
-            li.innerHTML = '<span class="d">' + c.d + '</span><span class="s">' + names[c.sec] + '</span><span>' + c.text + '</span><a class="go" href="' + c.href + '">Open section</a>';
+            li.innerHTML = '<span class="d">' + c.d + '</span><span class="s">' + (names[c.sec] || c.sec) + '</span><span>' + c.text + '</span><a class="go" href="' + c.href + '">' + (c.href.charAt(0) === '#' ? 'Open section' : 'Open tab') + '</a>';
             ul.appendChild(li);
           });
           g.appendChild(ul); body.appendChild(g);
@@ -1916,7 +1919,7 @@ td.name .snap:hover,td.name .snap:focus-visible{color:var(--accent-text);border-
   /* section nav: mark the section in view */
   var links = document.querySelectorAll('nav.sections a');
   var map = {};
-  links.forEach(function(a){ map[a.getAttribute('href').slice(1)] = a; });
+  links.forEach(function(a){ var h = a.getAttribute('href'); if (h.charAt(0) === '#') map[h.slice(1)] = a; });
   if ('IntersectionObserver' in window) {
     var io = new IntersectionObserver(function(entries){
       entries.forEach(function(e){

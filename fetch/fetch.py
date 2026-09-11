@@ -15,6 +15,7 @@ import sys
 import time
 
 from . import changes as ch
+from . import bitcoin as btc5
 from . import render, sources, v2, v4
 from .catalog import BIS, BOJ, CBOE, ECB, EIA_MONTHLY, EIA_WEEKLY, FED_FUNDS_MONTH_CODES, FRED, HOLDINGS, LONG, LONG_SINCE, YAHOO
 from .positioning import COT_MARKETS
@@ -107,6 +108,11 @@ def fetch_all(log):
         ("bls_cpi", "BLS CPI release dates", lambda: sources.bls_release_dates("cpi")),
         ("td_upcoming", "TreasuryDirect upcoming auctions", sources.treasury_upcoming),
         ("spx_chain", "Cboe SPX option chain", sources.cboe_chain),
+        # v5: the bitcoin tab
+        ("btc_chain", "Coin Metrics community API (bitcoin)", sources.coinmetrics_btc),
+        ("cg_global", "CoinGecko global", sources.coingecko_global),
+        ("stables", "DefiLlama stablecoins", sources.defillama_stables),
+        ("funding", "Bybit funding history", sources.bybit_funding),
     ]
     for k, label, fn in others:
         try:
@@ -114,6 +120,12 @@ def fetch_all(log):
         except Exception as e:      # noqa: BLE001
             errors.append("%s (%s): %s" % (label, k, e))
         nap(0.2)
+    if "btc_chain" not in D:
+        try:                        # the long price alone keeps the trend, clock and regression rows alive
+            D["btc_chain"] = {"price": sources.blockchain_chart("market-price")}
+            errors.append("bitcoin on-chain rows carried forward: Coin Metrics failed, price from blockchain.com")
+        except Exception as e:      # noqa: BLE001
+            errors.append("blockchain.com market-price: %s" % e)
     log("fetched %d series, %d errors" % (len([k for k in D if k != "ff12_sym"]), len(errors)))
     return D, errors
 
@@ -252,9 +264,27 @@ def main(argv=None):
         import traceback
         errors.append("v4: %s: %s" % (type(e).__name__, e))
         log(traceback.format_exc())
+    # v5: the bitcoin tab (rows, tally, lean with the three-close rule, charts) and the dominance log
+    B = None
+    try:
+        hist = (V["state"] if V else prev_state or {}).get("history", {}) or {}
+        hist["btc_dom"] = btc5.log_dominance(hist, D.get("cg_global"))
+        B = btc5.run(D, V, V["prev_for_diff"] if V else prev_state, today, V["first_run"] if V else False, hist)
+        o.v2["bitcoin"] = btc5.block(B, now)
+        if V:
+            V["state"]["history"] = hist
+            V["state"]["v5"] = B["state"]
+        log("bitcoin: %d bull, %d bear, %d neutral, %d unscored; lean %s (raw %s)" % (
+            len(B["tally"]["bull"]), len(B["tally"]["bear"]), len(B["tally"]["neutral"]), len(B["tally"]["unscored"]), B["lean"]["state"], B["tally"]["lean"]))
+    except Exception as e:          # noqa: BLE001
+        import traceback
+        errors.append("v5 bitcoin: %s: %s" % (type(e).__name__, e))
+        log(traceback.format_exc())
     if V:
         t = now.isoformat(timespec="minutes")
         new = ch.diff_states(V["prev_for_diff"], V["state"], t) + ch.near_flips(V["state"], t)
+        if B and not V["first_run"]:
+            new += btc5.change_entries(V["prev_for_diff"], B["state"], t)
         old_log = (ch.load(changes_path) or {}).get("changes", [])
         if V["first_run"]:
             new = [ch.entry(t, "fyi", "regime", "#regime", "State log started: alerts fire from the next run on, once a state has held for three closes.", "init")] + ch.near_flips(V["state"], t)
