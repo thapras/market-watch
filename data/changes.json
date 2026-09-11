@@ -1,7 +1,43 @@
 {
- "asOf": "2026-09-10T07:24+07:00",
- "asOfLabel": "10 Sep 2026, 07:24 BKK",
+ "asOf": "2026-09-11T07:20+07:00",
+ "asOfLabel": "11 Sep 2026, 07:20 BKK",
  "changes": [
+  {
+   "d": "11 Sep",
+   "href": "#calendar",
+   "key": "cal.auction:20Y:2026-09-15",
+   "sec": "calendar",
+   "t": "2026-09-11T07:20+07:00",
+   "text": "Coming Tue 15 Sep, 13:00 ET: 20-year Treasury auction (reopening); options price a 0.9% S&P move.",
+   "tier": "fyi"
+  },
+  {
+   "d": "11 Sep",
+   "href": "#calendar",
+   "key": "cal.tax:2026-09-15",
+   "sec": "calendar",
+   "t": "2026-09-11T07:20+07:00",
+   "text": "Coming Tue 15 Sep: US corporate tax payments (quarterly).",
+   "tier": "fyi"
+  },
+  {
+   "d": "11 Sep",
+   "href": "#regime",
+   "key": "flag.crowd",
+   "sec": "regime",
+   "t": "2026-09-11T07:20+07:00",
+   "text": "Crowd flag changed: optimistic, not euphoric to neutral.",
+   "tier": "note"
+  },
+  {
+   "d": "11 Sep",
+   "href": "#ranking",
+   "key": "rank.bitcoin",
+   "sec": "regime",
+   "t": "2026-09-11T07:20+07:00",
+   "text": "Bitcoin read changed: Neutral to Price ahead, up (conditions +0.0, price +0.6).",
+   "tier": "note"
+  },
   {
    "d": "10 Sep",
    "href": "#ranking",
