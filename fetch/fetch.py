@@ -112,7 +112,7 @@ def fetch_all(log):
         ("btc_chain", "Coin Metrics community API (bitcoin)", sources.coinmetrics_btc),
         ("cg_global", "CoinGecko global", sources.coingecko_global),
         ("stables", "DefiLlama stablecoins", sources.defillama_stables),
-        ("funding", "Bybit funding history", sources.bybit_funding),
+        ("funding_feed", "funding history (Bybit, OKX, Hyperliquid)", sources.funding_history),
     ]
     for k, label, fn in others:
         try:
@@ -120,6 +120,8 @@ def fetch_all(log):
         except Exception as e:      # noqa: BLE001
             errors.append("%s (%s): %s" % (label, k, e))
         nap(0.2)
+    if "funding_feed" in D:
+        D["funding"], D["funding_src"] = D["funding_feed"]["series"], D["funding_feed"]["src"]
     if "btc_chain" not in D:
         try:                        # the long price alone keeps the trend, clock and regression rows alive
             D["btc_chain"] = {"price": sources.blockchain_chart("market-price")}

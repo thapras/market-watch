@@ -24,7 +24,8 @@ Free feeds, no API keys:
   blockchain.com  chart API, bitcoin daily price since 2010, the fallback for the long price (api.blockchain.info)
   CoinGecko  global endpoint, bitcoin dominance and total crypto market cap now (api.coingecko.com); logged run by run
   DefiLlama  stablecoin circulating supply, daily since 2017 (stablecoins.llama.fi)
-  Bybit      perpetual funding rate history, paged by end time (api.bybit.com)
+  Funding    perpetual funding history: Bybit (api.bybit.com), then OKX (www.okx.com), then Hyperliquid (api.hyperliquid.xyz);
+             Bybit answers 403 from GitHub's US runners, so the nightly falls through the chain and records which one answered
 
 A series is a list of (date, value) tuples, ISO dates ascending, no gaps filled,
 no missing values. Everything downstream works on that shape.
@@ -984,3 +985,89 @@ def bybit_funding(symbol="BTCUSDT", days=400):
     if len(daily) < 30:
         raise SourceError("Bybit %s: only %d days" % (symbol, len(daily)))
     return daily
+
+
+def parse_okx_funding(j):
+    """One OKX page: {'code': '0', 'data': [{'fundingRate': '0.0001', 'fundingTime': '1789142400000', ...}]} -> [(date, rate)] per period."""
+    if str((j or {}).get("code")) not in ("0", "None"):
+        raise SourceError("OKX: %s" % (j or {}).get("msg"))
+    out = []
+    for r in (j or {}).get("data") or []:
+        try:
+            ts = int(r["fundingTime"]) // 1000
+            out.append((dt.datetime.utcfromtimestamp(ts).date().isoformat(), float(r.get("realizedRate") or r["fundingRate"])))
+        except (KeyError, ValueError, TypeError):
+            continue
+    return out
+
+
+def okx_funding(inst="BTC-USDT-SWAP", days=400):
+    """OKX pages backwards with `after` (a funding time), 100 periods (about 33 days) a page."""
+    periods, after, pages = [], None, 0
+    since = (dt.date.today() - dt.timedelta(days=days)).isoformat()
+    while pages < 15:
+        url = "https://www.okx.com/api/v5/public/funding-rate-history?instId=%s&limit=100" % inst
+        if after:
+            url += "&after=%d" % after
+        j = json.loads(get(url))
+        page = parse_okx_funding(j)
+        if not page:
+            break
+        periods += page
+        after = min(int(r["fundingTime"]) for r in j["data"])
+        pages += 1
+        if min(d for d, _ in page) < since:
+            break
+        time.sleep(0.2)
+    daily = [(d, v) for d, v in funding_daily(periods) if d >= since]
+    if len(daily) < 30:
+        raise SourceError("OKX %s: only %d days" % (inst, len(daily)))
+    return daily
+
+
+def parse_hyperliquid_funding(j):
+    """[{'coin': 'BTC', 'fundingRate': '0.0000118', 'time': 1788890400039}, ...] -> [(date, hourly rate)]."""
+    out = []
+    for r in j or []:
+        try:
+            out.append((dt.datetime.utcfromtimestamp(int(r["time"]) // 1000).date().isoformat(), float(r["fundingRate"])))
+        except (KeyError, ValueError, TypeError):
+            continue
+    return out
+
+
+def hyperliquid_funding(coin="BTC", days=400):
+    """Hourly funding, paged forwards by start time (about 500 rows a call)."""
+    since_ms = int((time.time() - days * 86400) * 1000)
+    periods, start, pages = [], since_ms, 0
+    while pages < 25:
+        body = json.dumps({"type": "fundingHistory", "coin": coin, "startTime": start}).encode()
+        req = urllib.request.Request("https://api.hyperliquid.xyz/info", data=body, headers={"User-Agent": UA, "Content-Type": "application/json"})
+        with urllib.request.urlopen(req, timeout=TIMEOUT) as r:
+            j = json.loads(r.read().decode("utf-8", "replace"))
+        page = parse_hyperliquid_funding(j)
+        if not page:
+            break
+        periods += page
+        pages += 1
+        last = max(int(r["time"]) for r in j)
+        if len(j) < 400 or last <= start:
+            break
+        start = last + 1
+        time.sleep(0.2)
+    daily = funding_daily(periods, per_day=24)
+    if len(daily) < 30:
+        raise SourceError("Hyperliquid %s: only %d days" % (coin, len(daily)))
+    return daily
+
+
+def funding_history():
+    """The first funding feed that answers, in order: Bybit, OKX, Hyperliquid. Returns {'series': daily annualized
+    percent, 'src': which feed answered}; raises with every failure listed when none does."""
+    fails = []
+    for name, fn in (("Bybit BTCUSDT", bybit_funding), ("OKX BTC-USDT-SWAP", okx_funding), ("Hyperliquid BTC", hyperliquid_funding)):
+        try:
+            return {"series": fn(), "src": name}
+        except Exception as e:      # noqa: BLE001, fall through the chain
+            fails.append("%s: %s" % (name, str(e)[:120]))
+    raise SourceError("no funding feed answered (%s)" % "; ".join(fails))

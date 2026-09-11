@@ -44,6 +44,13 @@ class Parsers(unittest.TestCase):
         self.assertEqual(len(day), 2)                                    # two periods fall on 10 Sep UTC, one on 11 Sep
         self.assertAlmostEqual(day[0][1], (0.0002 - 0.0003) / 2 * 3 * 365 * 100)
         self.assertAlmostEqual(day[-1][1], 0.0001 * 3 * 365 * 100)
+        okx = sources.parse_okx_funding({"code": "0", "data": [{"fundingRate": "0.0001", "realizedRate": "0.00012", "fundingTime": "1789142400000"}, {"bad": 1}]})
+        self.assertEqual(okx, [("2026-09-11", 0.00012)])
+        with self.assertRaises(sources.SourceError):
+            sources.parse_okx_funding({"code": "50011", "msg": "rate limit"})
+        hl = sources.parse_hyperliquid_funding([{"coin": "BTC", "fundingRate": "0.00001", "time": 1788890400039}, {"coin": "BTC", "fundingRate": "0.00002", "time": 1788894000054}, {}])
+        self.assertEqual(len(hl), 2)
+        self.assertAlmostEqual(sources.funding_daily(hl, per_day=24)[0][1], 0.000015 * 24 * 365 * 100)
         g = sources.parse_coingecko_global({"data": {"market_cap_percentage": {"btc": 58.2, "eth": 11.7}, "total_market_cap": {"usd": 2.7e12}, "updated_at": 1789121067}})
         self.assertEqual(g["date"], "2026-09-11")
         self.assertAlmostEqual(g["btc_dom"], 58.2)

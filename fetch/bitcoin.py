@@ -61,7 +61,7 @@ ROWS = [
     ("stables", "market", "Stablecoin supply, 90-day change", "%", "plus 5% or more (new dry powder)", "negative (supply contracting, as in 2022)", "DefiLlama, USD-pegged circulating"),
     ("dominance", "market", "Bitcoin dominance and total crypto market cap", "%", "", "", "CoinGecko global, logged nightly"),
     ("risk", "market", "Cycle position: log regression residual", "pct", "percentile 20 or under of all residuals since 2010", "percentile 80 or over", "our fit on Coin Metrics PriceUSD, not a target"),
-    ("funding", "market", "Perpetual funding, 30-day mean, annualized", "%", "negative (shorts pay, capitulation)", "over 30% (the froth zone)", "Bybit BTCUSDT"),
+    ("funding", "market", "Perpetual funding, 30-day mean, annualized", "%", "negative (shorts pay, capitulation)", "over 30% (the froth zone)", "Bybit, OKX or Hyperliquid, whichever answers"),
     ("fng", "market", "Crypto fear and greed", "", "20 or under (extreme fear)", "80 or over (extreme greed)", "alternative.me"),
     ("position", "market", "Smart money minus crowd (section 6)", "z", "plus 1.5 or more", "minus 1.5 or less", "CFTC TFF bitcoin futures, fear and greed"),
     ("dollar", "market", "Dollar index, three-month change", "%", "minus 3% or more (dollar falling)", "plus 3% or more (dollar rising)", "Yahoo DX-Y.NYB"),
@@ -419,9 +419,9 @@ def indicators(D, V, history, today):
         if x < 0:
             v = 1
         rows.append(row("funding", x, "%+.1f%% (last %+.1f%%)" % (x, fu[-1][1]), v, {1: "Shorts are paying longs: leverage has flipped to the downside, the way it does at capitulations.", -1: "Longs are paying over 30% a year to stay in: the froth zone.", 0: "Funding is positive and moderate."}[v],
-                        [round(v_, 1) for _, v_ in bucket(fu, "week")[-52:]], {"bear": T["funding"][1], "bull": 0.0}, date=fu[-1][0]))
+                        [round(v_, 1) for _, v_ in bucket(fu, "week")[-52:]], {"bear": T["funding"][1], "bull": 0.0}, src=D.get("funding_src") or "funding feed", date=fu[-1][0]))
     else:
-        none_row("funding", "Bybit missing this run.")
+        none_row("funding", "No funding feed answered this run (Bybit, OKX and Hyperliquid tried in turn).")
     fng = D.get("crypto_fng")
     if fng:
         x = fng[-1][1]
