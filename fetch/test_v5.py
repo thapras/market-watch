@@ -58,7 +58,25 @@ class Parsers(unittest.TestCase):
             sources.parse_coingecko_global({"data": {"market_cap_percentage": {}}})
 
 
+    def test_wikipedia(self):
+        d0 = dt.date(2015, 7, 1)
+        items = [{"article": "Bitcoin", "timestamp": (d0 + dt.timedelta(days=i)).strftime("%Y%m%d") + "00", "views": 1000 + i} for i in range(500)]
+        w = sources.parse_wikipedia_pageviews({"items": items + [{"timestamp": "bad", "views": 9}, {"timestamp": "2016010100"}]})
+        self.assertEqual(len(w), 500)                                  # the short timestamp and the row with no views are dropped
+        self.assertEqual(w[0], ("2015-07-01", 1000.0))
+        self.assertEqual(w[-1][0], (d0 + dt.timedelta(days=499)).isoformat())
+        with self.assertRaises(sources.SourceError):
+            sources.parse_wikipedia_pageviews({"items": items[:100]})   # under a year of history is not usable
+
+
 class Rules(unittest.TestCase):
+    def test_stretch_rules(self):
+        """The Mayer multiple and the 200-week ratio, on the readings measured at the prior tops and lows."""
+        for x, want in ((0.40, 1), (0.71, 1), (0.80, 1), (1.10, 0), (1.47, 0), (1.50, -1), (1.93, -1), (6.22, -1)):
+            self.assertEqual(b.vote_low_high(x, *b.T["mayer"]), want, "mayer %.2f" % x)
+        for x, want in ((0.68, 1), (0.95, 1), (1.00, 1), (1.18, 0), (1.41, 0), (2.30, -1), (15.36, -1)):
+            self.assertEqual(b.vote_low_high(x, *b.T["ma200w"]), want, "ma200w %.2f" % x)
+
     def test_rsi(self):
         up = b.rsi([float(i) for i in range(1, 40)])
         self.assertIsNone(up[13])
@@ -162,7 +180,9 @@ class Rules(unittest.TestCase):
     def test_rows_contract(self):
         keys = [r[0] for r in b.ROWS]
         self.assertEqual(len(keys), len(set(keys)))
-        self.assertEqual(len(b.SCORED), 21)
+        self.assertEqual(len(b.SCORED), 22)
+        self.assertNotIn("ma200d", [r[0] for r in b.ROWS])      # the 200-day flag became the Mayer multiple
+        self.assertNotIn("search", [r[0] for r in b.ROWS])      # Google Trends became Wikipedia attention
         for k in b.SCORED:
             self.assertIn(k, b.T)
         self.assertTrue(all(g in dict(b.GROUPS) for _, g, *_r in b.ROWS))
@@ -178,7 +198,8 @@ class Rules(unittest.TestCase):
         cm = {"price": price, "mvrv": daily([1.2] * n, "2010-07-18"), "mcap": daily([1e12] * n, "2010-07-18"), "iss_usd": daily([3e7] * n, "2010-07-18"),
               "fee_ntv": daily([3.0] * n, "2010-07-18"), "supply": daily([2e7] * n, "2010-07-18"), "flow_in": daily([100.0] * n, "2010-07-18"), "flow_out": daily([120.0] * n, "2010-07-18")}
         D = {"btc_chain": cm, "stables": daily([1e11 * (1 + 0.001 * i) for i in range(400)], "2025-08-01"), "funding": daily([8.0] * 60, "2026-07-01"),
-             "crypto_fng": daily([50.0] * 400, "2025-08-01"), "dxy": {"close": daily([100.0] * 300, "2025-11-01")}, "cg_global": {"date": "2026-09-11", "btc_dom": 58.0, "eth_dom": 11.0, "total_usd": 2.7e12}}
+             "crypto_fng": daily([50.0] * 400, "2025-08-01"), "dxy": {"close": daily([100.0] * 300, "2025-11-01")}, "cg_global": {"date": "2026-09-11", "btc_dom": 58.0, "eth_dom": 11.0, "total_usd": 2.7e12},
+             "wiki_btc": daily([5000.0 + (i % 40) * 10 for i in range(500)], "2025-04-30")}
         V = {"state": {"regime": {"composites": {"liq": {"value": 0.7}}}}, "v3": {"markets": {"btc": {"div": -2.0, "state": "down", "date": "2026-09-01"}}}}
         R = b.run(D, V, None, "2026-09-11", True, {})
         self.assertEqual([r["key"] for r in R["rows"]], [r[0] for r in b.ROWS])
@@ -187,7 +208,10 @@ class Rules(unittest.TestCase):
         self.assertEqual(by["liquidity"]["vote"], 1)
         self.assertEqual(by["position"]["vote"], -1)
         self.assertEqual(by["stables"]["vote"], 1)
-        self.assertIsNone(by["search"]["vote"])
+        self.assertIsNone(by["attention"]["vote"])
+        self.assertIsNotNone(by["attention"]["now"])             # a context row: fed, never voted
+        self.assertIsNotNone(by["mayer"]["vote"])
+        self.assertIsNotNone(by["ma200w"]["vote"])
         self.assertIsNone(by["dominance"]["vote"])
         self.assertEqual(R["lean"]["raw_count"], 3)                                   # first run: taken as confirmed
         self.assertIn("scored indicators", R["read"])

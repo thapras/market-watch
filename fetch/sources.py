@@ -26,6 +26,7 @@ Free feeds, no API keys:
   DefiLlama  stablecoin circulating supply, daily since 2017 (stablecoins.llama.fi)
   Funding    perpetual funding history: Bybit (api.bybit.com), then OKX (www.okx.com), then Hyperliquid (api.hyperliquid.xyz);
              Bybit answers 403 from GitHub's US runners, so the nightly falls through the chain and records which one answered
+  Wikimedia  pageviews API, daily views of the Bitcoin article since 1 Jul 2015 (wikimedia.org/api/rest_v1)
 
 A series is a list of (date, value) tuples, ISO dates ascending, no gaps filled,
 no missing values. Everything downstream works on that shape.
@@ -1071,3 +1072,28 @@ def funding_history():
         except Exception as e:      # noqa: BLE001, fall through the chain
             fails.append("%s: %s" % (name, str(e)[:120]))
     raise SourceError("no funding feed answered (%s)" % "; ".join(fails))
+
+
+def parse_wikipedia_pageviews(j):
+    """{'items': [{'timestamp': '2015070100', 'views': 12345}, ...]} -> daily series."""
+    out = []
+    for it in (j or {}).get("items") or []:
+        t = str(it.get("timestamp") or "")
+        if len(t) < 8:
+            continue
+        try:
+            out.append(("%s-%s-%s" % (t[:4], t[4:6], t[6:8]), float(it["views"])))
+        except (KeyError, ValueError, TypeError):
+            continue
+    out = _clean(out)
+    if len(out) < 400:
+        raise SourceError("Wikipedia pageviews: only %d days" % len(out))
+    return out
+
+
+def wikipedia_pageviews(article="Bitcoin", start="2015-07-01"):
+    """Daily pageviews of one English Wikipedia article, human traffic only. The API starts on 1 Jul 2015 and
+    publishes with about a day's lag, so the end date is simply today and short returns are not an error."""
+    url = ("https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/%s/daily/%s/%s"
+           % (urllib.parse.quote(article, safe=""), start.replace("-", ""), dt.date.today().isoformat().replace("-", "")))
+    return parse_wikipedia_pageviews(json.loads(get(url)))

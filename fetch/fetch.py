@@ -113,6 +113,7 @@ def fetch_all(log):
         ("cg_global", "CoinGecko global", sources.coingecko_global),
         ("stables", "DefiLlama stablecoins", sources.defillama_stables),
         ("funding_feed", "funding history (Bybit, OKX, Hyperliquid)", sources.funding_history),
+        ("wiki_btc", "Wikimedia pageviews (Bitcoin)", sources.wikipedia_pageviews),
     ]
     for k, label, fn in others:
         try:

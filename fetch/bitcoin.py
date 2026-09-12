@@ -1,4 +1,4 @@
-"""v5: the bitcoin tab (bitcoin.html). Twenty rule-based indicators in five groups, each voting bull, bear or
+"""v5: the bitcoin tab (bitcoin.html). Twenty-two scored indicators in six groups, each voting bull, bear or
 neutral against fixed thresholds, tallied into a lean that follows the three-close rule and feeds the change log.
 
 The construction follows the indicator tally in Benjamin Cowen's "Bitcoin: Bull Case Vs. Bear Case" (9 Sep 2026):
@@ -37,11 +37,14 @@ MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", 
 #   rsi_m    lows 45 45 48 41           tops 71 96 90 68 66
 #   drawdown lows 85 84 71 77 percent from the prior high
 #   roi1y    lows -78 -82 -73 percent   tops +2338 +814 +99
+#   mayer    lows 0.40 0.51 0.65 0.71   tops 6.22 3.64 1.93 1.47 1.18 (p10 0.72, p20 0.83, p50 1.13, p80 1.52)
+#   ma200w   lows 1.41 1.12 1.48 0.68   tops 15.4 5.4 3.7 2.3; the cycle minimum touched the line every time: 0.99 1.00 0.97 0.68
 T = {
     "puell": (0.5, 2.0), "mvrv": (1.0, 2.5), "thermo": (7.0, 30.0), "exflow": (20.0, 80.0), "rsi_w": (35.0, 70.0), "rsi_m": (45.0, 75.0),
     "clock": (LOW_AFTER_HALVING[0], None), "drawdown": (70.0, 40.0), "roi1y": (-50.0, 100.0),
-    "stables": (5.0, 0.0), "risk": (20.0, 80.0), "funding": (0.0, 30.0), "fng": (20.0, 80.0), "position": (1.5, -1.5), "dollar": (-3.0, 3.0), "liquidity": (0.5, -0.5),
-    "ma50w": (0.0, 0.0), "ma200d": (0.0, 0.0), "cross": (0.0, 0.0), "band": (0.0, 0.0), "pi": (365, 365),
+    "mayer": (0.8, 1.5), "ma200w": (1.0, 2.3), "risk": (20.0, 80.0),
+    "stables": (5.0, 0.0), "funding": (0.0, 30.0), "fng": (20.0, 80.0), "position": (1.5, -1.5), "dollar": (-3.0, 3.0), "liquidity": (0.5, -0.5),
+    "ma50w": (0.0, 0.0), "cross": (0.0, 0.0), "band": (0.0, 0.0), "pi": (365, 365),
 }
 PI_WINDOW = 365
 LEAN_GAP = 4                    # bull votes minus bear votes at or beyond this is a lean; inside it the tally is split
@@ -58,29 +61,33 @@ ROWS = [
     ("clock", "cycle", "Cycle clock (days since the halving)", "d", "777 or more days (inside or past the prior lows' window)", "under 777 days (before the window)", "calendar rule from the halving dates"),
     ("drawdown", "cycle", "Drawdown from the all-time high", "%", "70% or more (the shallowest cycle low was 71%)", "under 40%", "Coin Metrics PriceUSD"),
     ("roi1y", "cycle", "One-year return", "%", "minus 50% or worse (every cycle low was under minus 70%)", "plus 100% or better", "Coin Metrics PriceUSD"),
+    ("mayer", "stretch", "Mayer multiple (price to the 200-day average)", "x", "at or under 0.8 (every cycle low read 0.40 to 0.71)", "at or over 1.5 (the April 2021 top; the last two tops read 1.47 and 1.18, so this line would have missed them)", "Coin Metrics PriceUSD"),
+    ("ma200w", "stretch", "Price against the 200-week average", "x", "at or under 1.00 (the cycle floor: every cycle has touched or broken it)", "at or over 2.3 (the 2025 top; earlier tops reached 3.7 to 15.4)", "Coin Metrics PriceUSD, weekly closes"),
+    ("risk", "stretch", "Log regression residual since 2010", "pct", "percentile 20 or under of all residuals since 2010", "percentile 80 or over", "our fit on Coin Metrics PriceUSD, not a target"),
     ("stables", "market", "Stablecoin supply, 90-day change", "%", "plus 5% or more (new dry powder)", "negative (supply contracting, as in 2022)", "DefiLlama, USD-pegged circulating"),
     ("dominance", "market", "Bitcoin dominance and total crypto market cap", "%", "", "", "CoinGecko global, logged nightly"),
-    ("risk", "market", "Cycle position: log regression residual", "pct", "percentile 20 or under of all residuals since 2010", "percentile 80 or over", "our fit on Coin Metrics PriceUSD, not a target"),
     ("funding", "market", "Perpetual funding, 30-day mean, annualized", "%", "negative (shorts pay, capitulation)", "over 30% (the froth zone)", "Bybit, OKX or Hyperliquid, whichever answers"),
     ("fng", "market", "Crypto fear and greed", "", "20 or under (extreme fear)", "80 or over (extreme greed)", "alternative.me"),
     ("position", "market", "Smart money minus crowd (section 6)", "z", "plus 1.5 or more", "minus 1.5 or less", "CFTC TFF bitcoin futures, fear and greed"),
     ("dollar", "market", "Dollar index, three-month change", "%", "minus 3% or more (dollar falling)", "plus 3% or more (dollar rising)", "Yahoo DX-Y.NYB"),
     ("liquidity", "market", "Liquidity impulse (section 1 composite)", "z", "plus 0.5 or more", "minus 0.5 or less", "regime composite"),
     ("ma50w", "trend", "Close against the 50-week average", "%", "above", "below", "weekly closes"),
-    ("ma200d", "trend", "Close against the 200-day average", "%", "above", "below", "daily closes"),
     ("cross", "trend", "50-day against 200-day average", "%", "golden cross (50 above 200)", "death cross (50 below 200)", "daily closes"),
     ("band", "trend", "Bull market support band (20-week SMA, 21-week EMA)", "%", "above both", "below both", "weekly closes"),
     ("pi", "trend", "Pi Cycle top and bottom", "d", "bottom cross inside a year (150-day EMA under 0.745 times the 471-day SMA)", "top cross inside a year (111-day SMA over twice the 350-day SMA)", "daily closes"),
-    ("search", "social", "Search interest (Google Trends)", "", "", "", "no free feed"),
+    ("attention", "social", "Attention: Wikipedia pageviews for Bitcoin", "", "", "", "Wikimedia pageviews API, 30-day average"),
     ("apprank", "social", "Coinbase app store rank", "", "", "", "no free feed"),
     ("whales", "social", "Addresses holding 1,000 coins or more", "", "", "", "no free feed (Coin Metrics balance cohorts are paid)"),
-    ("etf", "social", "Spot ETF net flows", "", "", "", "no free feed (Farside is behind Cloudflare)"),
+    ("etf", "social", "Spot ETF net flows", "", "", "", "no free feed (Farside is behind Cloudflare, the iShares endpoints serve HTML)"),
 ]
 SHORT = {"puell": "Puell multiple", "mvrv": "MVRV", "thermo": "ThermoCap multiple", "exflow": "exchange flows", "rsi_w": "weekly RSI", "rsi_m": "monthly RSI",
          "clock": "the cycle clock", "drawdown": "the drawdown", "roi1y": "the one-year return", "stables": "stablecoin supply", "dominance": "dominance",
-         "risk": "the regression position", "funding": "funding", "fng": "fear and greed", "position": "section 6 positioning", "dollar": "the dollar", "liquidity": "liquidity",
-         "ma50w": "the 50-week average", "ma200d": "the 200-day average", "cross": "the 50/200 cross", "band": "the support band", "pi": "Pi Cycle"}
-GROUPS = [("onchain", "On-chain resets"), ("cycle", "Cycle clock"), ("market", "Market, leverage and macro"), ("trend", "Trend and moving averages"), ("social", "Social and whales")]
+         "risk": "the regression position", "mayer": "the Mayer multiple", "ma200w": "the 200-week average", "attention": "attention",
+         "funding": "funding", "fng": "fear and greed", "position": "section 6 positioning", "dollar": "the dollar", "liquidity": "liquidity",
+         "ma50w": "the 50-week average", "cross": "the 50/200 cross", "band": "the support band", "pi": "Pi Cycle",
+         "apprank": "app store rank", "whales": "whale cohorts", "etf": "ETF flows"}
+GROUPS = [("onchain", "On-chain resets"), ("cycle", "Cycle clock"), ("stretch", "Price against its own history"),
+          ("market", "Market, leverage and macro"), ("trend", "Trend and moving averages"), ("social", "Social and whales")]
 SCORED = [r[0] for r in ROWS if r[1] != "social" and r[0] != "dominance"]
 
 
@@ -384,6 +391,50 @@ def indicators(D, V, history, today):
         for k in ("clock", "drawdown", "roi1y"):
             none_row(k, "No long price series this run.")
 
+    # price against its own history: the Mayer multiple, the 200-week average, the log regression
+    if len(px) > 200:
+        s200d = c.sma_series(px, 200)
+        x = px[-1] / s200d[-1]
+        v = vote_low_high(x, *T["mayer"])
+        may = [(price[i][0], px[i] / s200d[i]) for i in range(len(px)) if s200d[i]]
+        pc = pctile([m for _, m in may], x)
+        rows.append(row("mayer", x, ("%.2f (pct %d)" % (x, round(pc))) if pc is not None else "%.2f" % x, v,
+                        {1: "Price is at or under 0.8 times its 200-day average, the band every cycle low was made in (0.40 to 0.71).",
+                         -1: "Price is half again its 200-day average, the stretch the April 2021 top reached.",
+                         0: "Between the lows' band (every cycle low read under 0.72) and the top zone (1.5); the last two tops read 1.47 and 1.18."}[v],
+                        [round(m, 2) for _, m in bucket(may, "week")[-52:]], {"bull": T["mayer"][0], "bear": T["mayer"][1]}, date=asof))
+    else:
+        none_row("mayer", "Not enough daily closes for the 200-day average.")
+    if len(wv) > 200:
+        s200w = c.sma_series(wv, 200)
+        x = wv[-1] / s200w[-1]
+        v = vote_low_high(x, *T["ma200w"])
+        ratio = [(wk[i][0], wv[i] / s200w[i]) for i in range(len(wv)) if s200w[i]]
+        floor_t, floor = "", {}
+        if clock and clock.get("ath_date"):
+            since = [(d_, r_) for d_, r_ in ratio if d_ >= clock["ath_date"]]
+            if since:
+                lo_d, lo_v = min(since, key=lambda t_: t_[1])
+                n_at = sum(1 for _, r_ in since if r_ <= 1.0)
+                floor = {"tagged": bool(n_at), "min": round(lo_v, 2), "min_date": lo_d, "weeks": n_at}
+                floor_t = (" The floor was tagged this cycle: %.2f on %s, %d week%s at or under the line." % (lo_v, dly(lo_d), n_at, "" if n_at == 1 else "s")) if n_at else \
+                          (" The floor has not been tagged since the %s high; the closest was %.2f on %s." % (dly(clock["ath_date"]), lo_v, dly(lo_d)))
+        rows.append(row("ma200w", x, "%.2f" % x, v,
+                        {1: "Price is at or under the 200-week average, the line every cycle low has touched or broken.",
+                         -1: "Price is more than 2.3 times its 200-week average, the stretch the 2025 top reached.",
+                         0: "Above the 200-week floor, below the top zone; at the prior lows this read 0.68 to 1.48."}[v] + floor_t,
+                        [round(r_, 2) for _, r_ in ratio[-52:]], {"bull": T["ma200w"][0], "bear": T["ma200w"][1]}, date=wk[-1][0], extra={"floor": floor}))
+    else:
+        none_row("ma200w", "Not enough weekly closes for the 200-week average.")
+    if len(price) > 1000:
+        reg = log_regression(price)
+        p = reg["pct"]
+        v = vote_low_high(p, *T["risk"])
+        rows.append(row("risk", p, "pct %d (%+.2f)" % (round(p), reg["res"][-1]), v,
+                        {1: "Price sits in the bottom fifth of its distance from the long-run fit: where prior lows sat.", -1: "Price sits in the top fifth of its distance from the fit: where prior tops sat.", 0: "Price is inside the middle of its range around the fit."}[v] + " Our own fit, a cycle position, not a target.",
+                        [round(r_, 2) for r_ in reg["res"][-364::7]], {"bull": reg["p20"], "bear": reg["p80"]}, date=asof, extra={"b": round(reg["b"], 2)}))
+    else:
+        none_row("risk", "Not enough history for the regression.")
     # market, leverage and macro
     st = D.get("stables")
     if st and len(st) > 100:
@@ -403,15 +454,6 @@ def indicators(D, V, history, today):
                         [round(v_[0], 1) for _, v_ in dom_hist[-52:]], {}, date=g["date"], extra={"total": g["total_usd"], "eth_dom": g.get("eth_dom")}))
     else:
         none_row("dominance", "CoinGecko missing this run.")
-    if len(price) > 1000:
-        reg = log_regression(price)
-        p = reg["pct"]
-        v = vote_low_high(p, *T["risk"])
-        rows.append(row("risk", p, "pct %d (%+.2f)" % (round(p), reg["res"][-1]), v,
-                        {1: "Price sits in the bottom fifth of its distance from the long-run fit: where prior lows sat.", -1: "Price sits in the top fifth of its distance from the fit: where prior tops sat.", 0: "Price is inside the middle of its range around the fit."}[v] + " Our own fit, a cycle position, not a target.",
-                        [round(r_, 2) for r_ in reg["res"][-364::7]], {"bull": reg["p20"], "bear": reg["p80"]}, date=asof, extra={"b": round(reg["b"], 2)}))
-    else:
-        none_row("risk", "Not enough history for the regression.")
     fu = D.get("funding")
     if fu and len(fu) >= 30:
         x = sum(v_ for _, v_ in fu[-30:]) / 30.0
@@ -473,10 +515,6 @@ def indicators(D, V, history, today):
         none_row("band", "Not enough weekly closes.")
     if len(px) > 200:
         s50d, s200d = c.sma_series(px, 50), c.sma_series(px, 200)
-        x = (px[-1] / s200d[-1] - 1.0) * 100.0
-        v = 1 if x > 0 else -1
-        r200 = row("ma200d", x, "%+.1f%%" % x, v, {1: "Above the 200-day average.", -1: "Below the 200-day average."}[v],
-                   [round((px[i] / s200d[i] - 1.0) * 100.0, 1) for i in range(len(px) - 364, len(px), 7) if s200d[i]], {"bull": 0.0}, date=asof)
         x = (s50d[-1] / s200d[-1] - 1.0) * 100.0
         v = 1 if x > 0 else -1
         last = None
@@ -484,14 +522,9 @@ def indicators(D, V, history, today):
             if (s50d[i - 1] > s200d[i - 1]) != (s50d[i] > s200d[i]):
                 last = price[i][0]
                 break
-        rows.append(r200)
         rows.append(row("cross", x, "%+.1f%% since %s" % (x, dl(last)) if last else "%+.1f%%" % x, v, {1: "Golden cross: the 50-day is above the 200-day%s." % ((" since " + dly(last)) if last else ""), -1: "Death cross: the 50-day is below the 200-day%s." % ((" since " + dly(last)) if last else "")}[v],
                         [round((s50d[i] / s200d[i] - 1.0) * 100.0, 1) for i in range(len(px) - 364, len(px), 7) if s200d[i]], {"bull": 0.0}, date=asof, extra={"since": last}))
-        # keep ROWS order: ma50w, ma200d, cross, band
-        order = {k: i for i, (k, *_r) in enumerate(ROWS)}
-        rows.sort(key=lambda r_: order[r_["key"]])
     else:
-        none_row("ma200d", "Not enough daily closes.")
         none_row("cross", "Not enough daily closes.")
     pi = pi_cycle(price) if px else None
     if pi:
@@ -508,9 +541,34 @@ def indicators(D, V, history, today):
     else:
         none_row("pi", "Not enough daily closes.")
 
-    # social and whales: no free feed
-    for key, why in (("search", "Google Trends has no keyless feed."), ("apprank", "App store rankings have no free feed."),
-                     ("whales", "Balance cohorts are a paid Coin Metrics tier."), ("etf", "Farside sits behind Cloudflare; issuer share counts are the probe to run.")):
+    # attention: Wikipedia pageviews stand in for search interest, shown for context because the level is in
+    # secular decline (the October 2025 high printed near the bottom of its own history) and cannot be thresholded
+    wiki = D.get("wiki_btc")
+    if wiki and len(wiki) > 400:
+        sm = [(wiki[i][0], sum(v_ for _, v_ in wiki[i - 29:i + 1]) / 30.0) for i in range(29, len(wiki))]
+        sv = [v_ for _, v_ in sm]
+        p3 = c.percentile(sv, 3 * 365)
+        tr = sorted(sv[-3 * 365:])
+        low20 = tr[int(0.2 * (len(tr) - 1))]
+        days_low = sum(1 for v_ in sv[-365:] if v_ <= low20)
+        top_t = ""
+        if clock and clock.get("ath_date"):
+            hit = c.at_or_before(sm, clock["ath_date"])
+            if hit:
+                tp = pctile([v_ for d_, v_ in sm if d_ <= hit[0]], hit[1])
+                if tp is not None:
+                    top_t = " The %s high printed at percentile %d of attention to that date." % (dly(clock["ath_date"]), round(tp))
+        rows.append(row("attention", sm[-1][1],
+                        ("{:,} a day (pct {})".format(int(round(sm[-1][1])), int(round(p3)))) if p3 is not None else "{:,} a day".format(int(round(sm[-1][1]))),
+                        None, "Shown for context, not scored: attention is in secular decline, so a level from one cycle says nothing about the next, and the "
+                        "30-day average has sat in the bottom fifth of its three-year range on %d of the last 365 days." % days_low + top_t,
+                        [round(v_) for _, v_ in bucket(sm, "week")[-52:]], {}, date=sm[-1][0]))
+    else:
+        none_row("attention", "Wikimedia pageviews missing this run.")
+    # the rows with no free feed at all
+    for key, why in (("apprank", "App store rankings have no free feed."),
+                     ("whales", "Balance cohorts are a paid Coin Metrics tier."),
+                     ("etf", "Farside sits behind Cloudflare and the iShares endpoints serve HTML, not JSON; issuer share counts are the probe to run.")):
         none_row(key, why + " Listed so the tally shows what it cannot see.")
     order = {k: i for i, (k, *_r) in enumerate(ROWS)}
     rows.sort(key=lambda r_: order[r_["key"]])
@@ -534,7 +592,7 @@ def names(keys):
 def read_text(t, rows, clock):
     """The one-paragraph rule-based read above the table."""
     by = {r["key"]: r for r in rows}
-    missing = [k for k in ("puell", "mvrv", "rsi_w", "rsi_m", "drawdown", "roi1y", "pi") if by.get(k) and by[k]["vote"] == 0]
+    missing = [k for k in ("puell", "mvrv", "rsi_w", "rsi_m", "mayer", "drawdown", "roi1y", "pi") if by.get(k) and by[k]["vote"] == 0]
     parts = ["%d of %d scored indicators lean bull, %d bear, %d neutral: %s." % (len(t["bull"]), t["scored"], len(t["bear"]), len(t["neutral"]),
              {"bull": "the tally leans bull", "bear": "the tally leans bear", "split": "a split, as close to a coin flip as the rules get"}[t["lean"]])]
     if t["bull"]:
@@ -543,6 +601,10 @@ def read_text(t, rows, clock):
         parts.append("Bear: " + ", ".join(names(t["bear"])) + ".")
     if missing:
         parts.append("Resets still missing: " + ", ".join(names(missing)) + ".")
+    fl = (by.get("ma200w") or {}).get("floor") or {}
+    if fl.get("tagged"):
+        parts.append("One reset is already in: price tagged the 200-week average at %.2f on %s, %d week%s at or under the line." % (
+            fl["min"], dly(fl["min_date"]), fl["weeks"], "" if fl["weeks"] == 1 else "s"))
     if clock:
         parts.append("Clock: %d days since the halving, %d%% below the high of %s." % (clock["since_halving"], round(-clock["drawdown"]), dl(clock["ath_date"])))
     return " ".join(parts)
