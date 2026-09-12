@@ -1,7 +1,16 @@
 {
- "asOf": "2026-09-12T00:16+07:00",
- "asOfLabel": "12 Sep 2026, 00:16 BKK",
+ "asOf": "2026-09-12T07:26+07:00",
+ "asOfLabel": "12 Sep 2026, 07:26 BKK",
  "changes": [
+  {
+   "d": "12 Sep",
+   "href": "#rotation",
+   "key": "near.xop",
+   "sec": "rotation",
+   "t": "2026-09-12T07:26+07:00",
+   "text": "Near a flip: Oil and gas producers sits at 2.5 of 5; Breadth would move it to Developing.",
+   "tier": "fyi"
+  },
   {
    "d": "12 Sep",
    "href": "#regime",
