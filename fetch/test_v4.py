@@ -57,6 +57,23 @@ class Rules(unittest.TestCase):
         self.assertEqual(m["opex"], "14 to 18 Sep (quad witching)")
         self.assertEqual(m["qend"], "24 to 30 Sep")
 
+    def test_boj_dated_in_tokyo(self):
+        """Forex Factory stamps the BoJ decision 22:30 Eastern the evening before; the page dates it in Tokyo,
+        so it merges with the Bank of Japan's own page instead of appearing twice."""
+        ff = [{"date": "2026-09-17T22:30:00-04:00", "country": "JPY", "title": "BOJ Policy Rate", "impact": "High",
+               "forecast": "<1.25%", "previous": "<1.00%"}]
+        ev = cal.ff_events(ff)
+        self.assertEqual(ev[0]["id"], "boj:2026-09-18")
+        self.assertEqual(ev[0]["date"], "2026-09-18")
+        merged = cal.merge(ev, [cal._event("boj", "2026-09-18", confirmed=True, src="Bank of Japan", kind="cb")], ("2026-09-14", "2026-09-20"))
+        self.assertEqual(len([e for e in merged if e["key"] == "boj"]), 1)
+        self.assertIn("Forex Factory", merged[0]["src"])
+        us = cal.ff_events([{"date": "2026-09-04T08:30:00-04:00", "country": "USD", "title": "Non-Farm Employment Change",
+                             "impact": "High", "forecast": "55K", "previous": "73K"}])
+        self.assertEqual(us[0]["date"], "2026-09-04")          # a row on an Eastern clock keeps the feed's date
+        self.assertEqual(cal.ff_local_date("2026-09-17T22:30:00-04:00", None), "2026-09-17")
+        self.assertEqual(cal.ff_local_date("bad", "JST"), "bad"[:10])
+
     def test_ff_mapping_and_merge(self):
         ff = [{"title": "Non-Farm Employment Change", "country": "USD", "date": "2026-09-04T08:30:00-04:00", "impact": "High", "forecast": "58K", "previous": "-23K"},
               {"title": "Unemployment Rate", "country": "USD", "date": "2026-09-04T08:30:00-04:00", "impact": "High", "forecast": "4.1%", "previous": "4.1%"},

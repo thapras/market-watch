@@ -1599,7 +1599,7 @@ def render_v4(V4, o, now, V3=None):
     # week-ahead read
     week = V4.get("week")
     if week:
-        read = {"label": "Week ahead, %s (reviewed %s)" % (cal.span_label(week["from"], week["to"]), dl(week["reviewed"]) if week.get("reviewed") else "draft"), "text": week["text"], "src": "reviewed"}
+        read = {"label": "Week ahead, %s (%s)" % (cal.span_label(week["from"], week["to"]), "reviewed %s" % dl(week["reviewed"]) if week.get("reviewed") else "draft, not reviewed"), "text": week["text"], "src": "reviewed"}
     else:
         read = {"label": "Week ahead, %s (rule-based)" % cal.span_label(rng["week"][0], rng["week"][1]), "text": week_rule(V4["events"], V4), "src": "rule"}
     imp = V4.get("implied") or {}

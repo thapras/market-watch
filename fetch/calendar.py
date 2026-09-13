@@ -313,7 +313,7 @@ ROWS = {
              "ff": [("USD", "Federal Funds Rate", None, "rate"), ("USD", "FOMC Statement", None, None), ("USD", "FOMC Press Conference", None, None),
                     ("USD", "FOMC Economic Projections", None, None)]},
     "boj": {"name": "Bank of Japan decision", "tier": 1, "touches": "JPY, Nikkei, global carry", "driver": "boj", "time": None,
-            "time_text": "midday Tokyo / about 10:00", "markets": ["dxy", "spx"],
+            "time_text": "midday Tokyo / about 10:00", "zone": "JST", "markets": ["dxy", "spx"],
             "ff": [("JPY", "BOJ Policy Rate", None, "policy rate"), ("JPY", "Monetary Policy Statement", None, None), ("JPY", "BOJ Press Conference", None, None)]},
     "qra": {"name": "Treasury quarterly refunding announcement (QRA)", "tier": 1, "touches": "Net liquidity, term premium, everything long duration",
             "driver": "qra", "time": "08:30", "markets": ["ust10"], "ff": []},
@@ -352,7 +352,7 @@ ROWS = {
     "china_credit": {"name": "China credit data (new loans, financing, M2)", "tier": 2, "touches": "Copper, EM, the credit impulse", "driver": "china", "time": None,
                      "markets": ["copper"], "ff": [("CNY", "New Loans", None, "new loans"), ("CNY", "M2 Money Supply y/y", None, "M2 y/y")]},
     "china_trade": {"name": "China trade balance", "tier": 2, "touches": "Copper, EM", "driver": "china", "time": None, "markets": ["copper"],
-                    "ff": [("CNY", "Trade Balance", None, "balance"), ("CNY", "USD-Denominated Trade Balance", None, "balance")]},
+                    "ff": [("CNY", "Trade Balance", None, "CNY"), ("CNY", "USD-Denominated Trade Balance", None, "USD")]},
     "china_gdp": {"name": "China GDP", "tier": 2, "touches": "Copper, EM, China equities", "driver": "china", "time": None, "markets": ["copper"],
                   "ff": [("CNY", "GDP q/y", None, "q/y")]},
     "tankan": {"name": "BoJ Tankan", "tier": 2, "touches": "JPY, Nikkei", "driver": "boj", "time": None, "markets": ["dxy"],
@@ -424,6 +424,24 @@ HOLIDAY_MARKET = {"USD": "US markets closed", "CNY": "China mainland markets clo
 
 
 # ---------------------------------------------------------------- building the list
+def ff_local_date(stamp, zone):
+    """Forex Factory timestamps every row in Eastern time, so a Tokyo announcement carries the previous calendar
+    day: the BoJ's 11:30 Friday in Japan arrives as 22:30 Thursday. A row whose time the page describes in its own
+    zone (only the BoJ, "midday Tokyo") must be dated there, or the same meeting appears twice, once from the feed
+    and once from the central bank's own page. Rows shown on an Eastern clock keep the feed's Eastern date, which
+    is what the page's "ET / Bangkok" label already means."""
+    if not zone:
+        return stamp[:10]
+    try:
+        t = dt.datetime.fromisoformat(stamp)
+    except (ValueError, TypeError):
+        return stamp[:10]
+    if t.tzinfo is None:
+        return stamp[:10]
+    u = t.astimezone(dt.timezone.utc)
+    return (u + dt.timedelta(hours=utc_offset(zone, u.date()))).date().isoformat()
+
+
 def _event(key, date, **kw):
     row = ROWS[key]
     e = {"id": "%s:%s" % (key, date), "key": key, "date": date, "name": row["name"], "tier": row["tier"], "touches": row["touches"],
@@ -452,6 +470,7 @@ def ff_events(ff):
         if not hit:
             continue
         key, series, label = hit
+        date = ff_local_date(x["date"], ROWS[key].get("zone"))
         eid = "%s:%s" % (key, date)
         if eid not in rows:
             rows[eid] = _event(key, date, confirmed=True, src="Forex Factory", region=x["country"], kind="cb" if key in ("fomc", "ecb", "boj", "boe") else "release")
