@@ -1,7 +1,61 @@
 {
- "asOf": "2026-09-13T07:07+07:00",
- "asOfLabel": "13 Sep 2026, 07:07 BKK",
+ "asOf": "2026-09-14T07:19+07:00",
+ "asOfLabel": "14 Sep 2026, 07:19 BKK",
  "changes": [
+  {
+   "d": "14 Sep",
+   "href": "#rotation",
+   "key": "near.btc",
+   "sec": "rotation",
+   "t": "2026-09-14T07:19+07:00",
+   "text": "Near a flip: Bitcoin sits at 1.5 of 5; Macro would move it to Early.",
+   "tier": "fyi"
+  },
+  {
+   "d": "14 Sep",
+   "href": "#rotation",
+   "key": "near.cash",
+   "sec": "rotation",
+   "t": "2026-09-14T07:19+07:00",
+   "text": "Near a flip: Cash leaving the sidelines sits at 0.5 of 5; Breadth would move it to Watch.",
+   "tier": "fyi"
+  },
+  {
+   "d": "14 Sep",
+   "href": "#ranking",
+   "key": "nearrank.reits",
+   "sec": "regime",
+   "t": "2026-09-14T07:19+07:00",
+   "text": "Near a flip: Real estate (REITs) conditions score +0.3 is inside the 0.5 band; one more step up changes the read from Neutral.",
+   "tier": "fyi"
+  },
+  {
+   "d": "14 Sep",
+   "href": "#calendar",
+   "key": "cal.china_credit:2026-09-14",
+   "sec": "calendar",
+   "t": "2026-09-14T07:19+07:00",
+   "text": "Coming Mon 14 Sep, 04:03 ET: China credit data (new loans, financing, M2) (consensus new loans 480B; M2 y/y 7.6%); options price a 0.5% S&P move.",
+   "tier": "fyi"
+  },
+  {
+   "d": "14 Sep",
+   "href": "#calendar",
+   "key": "cal.china_activity:2026-09-14",
+   "sec": "calendar",
+   "t": "2026-09-14T07:19+07:00",
+   "text": "Coming Mon 14 Sep, 22:00 ET: China activity data (consensus industrial production 4.8%; retail sales 0.8%; investment -7.0%); options price a 0.6% S&P move.",
+   "tier": "fyi"
+  },
+  {
+   "d": "14 Sep",
+   "href": "#calendar",
+   "key": "cal.boj:2026-09-18",
+   "sec": "calendar",
+   "t": "2026-09-14T07:19+07:00",
+   "text": "Coming Fri 18 Sep, midday Tokyo: Bank of Japan decision (consensus policy rate <1.25%); options price a 0.9% S&P move.",
+   "tier": "note"
+  },
   {
    "d": "12 Sep",
    "href": "#ranking",
