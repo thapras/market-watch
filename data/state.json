@@ -1,5 +1,5 @@
 {
- "asOf": "2026-09-14T07:19+07:00",
+ "asOf": "2026-09-15T07:45+07:00",
  "date": "2026-09-11",
  "detector": {
   "btc": {
@@ -329,6 +329,10 @@
    "2026-09-14": [
     58.9,
     2613.0
+   ],
+   "2026-09-15": [
+    58.41,
+    2672.5
    ]
   },
   "fomc": {
@@ -1244,7 +1248,8 @@
    "2026-04-01": 1304281.0,
    "2026-05-01": 1415557.0,
    "2026-06-01": 1502072.0,
-   "2026-07-01": 1417225.0
+   "2026-07-01": 1417225.0,
+   "2026-08-01": 1453832.0
   },
   "mmf": {
    "2026-08-26": 7934.59,
@@ -3321,7 +3326,7 @@
     ],
     "bitcoin": [
      0.0,
-     0.6
+     0.8
     ],
     "cash": [
      -0.7,
@@ -3376,7 +3381,7 @@
      0.8
     ],
     "us_large": [
-     0.2,
+     0.3,
      0.4
     ],
     "us_small": [
@@ -3480,7 +3485,7 @@
   "bitcoin": {
    "cond": 0.0,
    "name": "Bitcoin",
-   "price": 0.6,
+   "price": 0.8,
    "read": "Price ahead, up"
   },
   "cash": {
@@ -3562,7 +3567,7 @@
    "read": "Price ahead, up"
   },
   "us_large": {
-   "cond": 0.2,
+   "cond": 0.3,
    "name": "US large caps (S&P 500)",
    "price": 0.4,
    "read": "Neutral"
@@ -3583,10 +3588,10 @@
  "regime": {
   "composites": {
    "cost": {
-    "value": -0.02
+    "value": -0.14
    },
    "growth": {
-    "value": 0.25
+    "value": 0.84
    },
    "infl": {
     "value": -0.67
@@ -3595,7 +3600,7 @@
     "value": 0.25
    },
    "risk": {
-    "value": 1.23
+    "value": 1.2
    }
   },
   "flags": {
@@ -3604,7 +3609,7 @@
    "credit": "none",
    "cycle": "Recovery",
    "cycle_detail": "growth up, inflation down",
-   "dollar": "weakening",
+   "dollar": "mixed",
    "liquidity": "expanding",
    "momentum": "rolling over",
    "risk": "on"
@@ -3703,7 +3708,7 @@
   }
  },
  "v4": {
-  "date": "2026-09-13",
+  "date": "2026-09-14",
   "surprises": [],
   "tier1_soon": [
    "fomc:2026-09-16",
@@ -3722,7 +3727,7 @@
   ]
  },
  "v5": {
-  "asof": "2026-09-13",
+  "asof": "2026-09-14",
   "lean": {
    "raw": "split",
    "raw_count": 3,
@@ -3732,8 +3737,8 @@
   },
   "tally": {
    "bear": 4,
-   "bull": 5,
-   "neutral": 13
+   "bull": 4,
+   "neutral": 14
   },
   "votes": {
    "apprank": null,
@@ -3756,7 +3761,7 @@
    "pi": 0,
    "position": -1,
    "puell": 0,
-   "risk": 1,
+   "risk": 0,
    "roi1y": 0,
    "rsi_m": 0,
    "rsi_w": 0,

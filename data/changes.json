@@ -1,7 +1,25 @@
 {
- "asOf": "2026-09-14T07:19+07:00",
- "asOfLabel": "14 Sep 2026, 07:19 BKK",
+ "asOf": "2026-09-15T07:45+07:00",
+ "asOfLabel": "15 Sep 2026, 07:45 BKK",
  "changes": [
+  {
+   "d": "15 Sep",
+   "href": "#ranking",
+   "key": "nearrank.gold_miners",
+   "sec": "regime",
+   "t": "2026-09-15T07:45+07:00",
+   "text": "Near a flip: Gold miners price score +0.4 is inside the 0.5 band; one more step up changes the read from Neutral.",
+   "tier": "fyi"
+  },
+  {
+   "d": "15 Sep",
+   "href": "#regime",
+   "key": "flag.dollar",
+   "sec": "regime",
+   "t": "2026-09-15T07:45+07:00",
+   "text": "Dollar flag changed: weakening to mixed.",
+   "tier": "note"
+  },
   {
    "d": "14 Sep",
    "href": "#rotation",
