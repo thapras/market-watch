@@ -1,7 +1,79 @@
 {
- "asOf": "2026-09-15T07:45+07:00",
- "asOfLabel": "15 Sep 2026, 07:45 BKK",
+ "asOf": "2026-09-16T07:38+07:00",
+ "asOfLabel": "16 Sep 2026, 07:38 BKK",
  "changes": [
+  {
+   "d": "16 Sep",
+   "href": "#ranking",
+   "key": "nearrank.europe",
+   "sec": "regime",
+   "t": "2026-09-16T07:38+07:00",
+   "text": "Near a flip: Europe equities price score +0.4 is inside the 0.5 band; one more step up changes the read from Conditions ahead, up.",
+   "tier": "fyi"
+  },
+  {
+   "d": "16 Sep",
+   "href": "#ranking",
+   "key": "nearrank.us_large",
+   "sec": "regime",
+   "t": "2026-09-16T07:38+07:00",
+   "text": "Near a flip: US large caps (S&P 500) price score +0.4 is inside the 0.5 band; one more step up changes the read from Neutral.",
+   "tier": "fyi"
+  },
+  {
+   "d": "16 Sep",
+   "href": "#calendar",
+   "key": "cal.retail:2026-09-16",
+   "sec": "calendar",
+   "t": "2026-09-16T07:38+07:00",
+   "text": "Coming Wed 16 Sep, 08:30 ET: US retail sales (consensus m/m 0.8%; ex autos 0.6%); options price a 1.3% S&P move.",
+   "tier": "fyi"
+  },
+  {
+   "d": "16 Sep",
+   "href": "#calendar",
+   "key": "cal.eia:2026-09-16",
+   "sec": "calendar",
+   "t": "2026-09-16T07:38+07:00",
+   "text": "Coming Wed 16 Sep, 10:30 ET: EIA crude inventories (consensus change, mb -1.6M); options price a 1.3% S&P move.",
+   "tier": "fyi"
+  },
+  {
+   "d": "16 Sep",
+   "href": "#calendar",
+   "key": "cal.boe:2026-09-17",
+   "sec": "calendar",
+   "t": "2026-09-16T07:38+07:00",
+   "text": "Coming Thu 17 Sep, 07:00 ET: Bank of England decision (consensus bank rate 3.75%; votes 3-0-6); options price a 1.0% S&P move.",
+   "tier": "fyi"
+  },
+  {
+   "d": "16 Sep",
+   "href": "#markets",
+   "key": "sector.xli",
+   "sec": "markets",
+   "t": "2026-09-16T07:38+07:00",
+   "text": "Industrials moved from Leading to Lagging on the rotation map (relative strength 99.9, momentum 99.8).",
+   "tier": "note"
+  },
+  {
+   "d": "16 Sep",
+   "href": "#sentiment",
+   "key": "cta.dxy",
+   "sec": "sentiment",
+   "t": "2026-09-16T07:38+07:00",
+   "text": "CTA trend signal flipped to long in US dollar.",
+   "tier": "note"
+  },
+  {
+   "d": "16 Sep",
+   "href": "#ranking",
+   "key": "rank.europe",
+   "sec": "regime",
+   "t": "2026-09-16T07:38+07:00",
+   "text": "Europe equities read changed: Aligned up to Conditions ahead, up (conditions +0.7, price +0.4).",
+   "tier": "must"
+  },
   {
    "d": "15 Sep",
    "href": "#ranking",
