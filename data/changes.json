@@ -1,7 +1,34 @@
 {
- "asOf": "2026-09-16T07:38+07:00",
- "asOfLabel": "16 Sep 2026, 07:38 BKK",
+ "asOf": "2026-09-17T07:45+07:00",
+ "asOfLabel": "17 Sep 2026, 07:45 BKK",
  "changes": [
+  {
+   "d": "17 Sep",
+   "href": "#ranking",
+   "key": "nearrank.us_small",
+   "sec": "regime",
+   "t": "2026-09-17T07:45+07:00",
+   "text": "Near a flip: US small caps price score +0.4 is inside the 0.5 band; one more step up changes the read from Conditions ahead, up.",
+   "tier": "fyi"
+  },
+  {
+   "d": "17 Sep",
+   "href": "#rotation",
+   "key": "theme.ura",
+   "sec": "rotation",
+   "t": "2026-09-17T07:45+07:00",
+   "text": "Uranium moved from Watch to Watch (exit) (0 of 5): no condition on.",
+   "tier": "note"
+  },
+  {
+   "d": "17 Sep",
+   "href": "#markets",
+   "key": "sector.xle",
+   "sec": "markets",
+   "t": "2026-09-17T07:45+07:00",
+   "text": "Energy moved from Weakening to Leading on the rotation map (relative strength 106.9, momentum 100.4).",
+   "tier": "note"
+  },
   {
    "d": "16 Sep",
    "href": "#ranking",
