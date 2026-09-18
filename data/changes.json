@@ -1,7 +1,34 @@
 {
- "asOf": "2026-09-17T07:45+07:00",
- "asOfLabel": "17 Sep 2026, 07:45 BKK",
+ "asOf": "2026-09-18T07:35+07:00",
+ "asOfLabel": "18 Sep 2026, 07:35 BKK",
  "changes": [
+  {
+   "d": "18 Sep",
+   "href": "#rotation",
+   "key": "near.smh",
+   "sec": "rotation",
+   "t": "2026-09-18T07:35+07:00",
+   "text": "Near a flip: Semiconductors sits at 0.5 of 5; Macro would move it to Watch.",
+   "tier": "fyi"
+  },
+  {
+   "d": "18 Sep",
+   "href": "#calendar",
+   "key": "cal.quad:2026-09-18",
+   "sec": "calendar",
+   "t": "2026-09-18T07:35+07:00",
+   "text": "Coming Fri 18 Sep, 16:00 ET: Quad witching and index rebalances.",
+   "tier": "fyi"
+  },
+  {
+   "d": "18 Sep",
+   "href": "#regime",
+   "key": "flag.cost",
+   "sec": "regime",
+   "t": "2026-09-18T07:35+07:00",
+   "text": "Cost of money flag changed: stable to tightening (composite -0.4).",
+   "tier": "must"
+  },
   {
    "d": "17 Sep",
    "href": "#ranking",
