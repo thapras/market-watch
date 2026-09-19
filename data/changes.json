@@ -1,7 +1,34 @@
 {
- "asOf": "2026-09-18T07:35+07:00",
- "asOfLabel": "18 Sep 2026, 07:35 BKK",
+ "asOf": "2026-09-19T07:28+07:00",
+ "asOfLabel": "19 Sep 2026, 07:28 BKK",
  "changes": [
+  {
+   "d": "19 Sep",
+   "href": "#sentiment",
+   "key": "div.dxy",
+   "sec": "sentiment",
+   "t": "2026-09-19T07:28+07:00",
+   "text": "Divergence alert cleared: US dollar is back inside the 1.5 band.",
+   "tier": "note"
+  },
+  {
+   "d": "19 Sep",
+   "href": "#regime",
+   "key": "flag.crowd",
+   "sec": "regime",
+   "t": "2026-09-19T07:28+07:00",
+   "text": "Crowd flag changed: neutral to optimistic, not euphoric.",
+   "tier": "note"
+  },
+  {
+   "d": "19 Sep",
+   "href": "#regime",
+   "key": "flag.liquidity",
+   "sec": "regime",
+   "t": "2026-09-19T07:28+07:00",
+   "text": "Liquidity flag changed: expanding to flat (composite +0.2).",
+   "tier": "must"
+  },
   {
    "d": "18 Sep",
    "href": "#rotation",
