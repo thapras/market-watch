@@ -1,7 +1,16 @@
 {
- "asOf": "2026-09-19T07:28+07:00",
- "asOfLabel": "19 Sep 2026, 07:28 BKK",
+ "asOf": "2026-09-20T07:14+07:00",
+ "asOfLabel": "20 Sep 2026, 07:14 BKK",
  "changes": [
+  {
+   "d": "20 Sep",
+   "href": "#ranking",
+   "key": "nearrank.silver",
+   "sec": "regime",
+   "t": "2026-09-20T07:14+07:00",
+   "text": "Near a flip: Silver and silver miners conditions score +0.4 is inside the 0.5 band; one more step up changes the read from Neutral.",
+   "tier": "fyi"
+  },
   {
    "d": "19 Sep",
    "href": "#sentiment",
