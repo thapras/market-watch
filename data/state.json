@@ -1,5 +1,5 @@
 {
- "asOf": "2026-09-20T07:14+07:00",
+ "asOf": "2026-09-21T07:23+07:00",
  "date": "2026-09-18",
  "detector": {
   "btc": {
@@ -354,6 +354,10 @@
    "2026-09-20": [
     58.88,
     2767.3
+   ],
+   "2026-09-21": [
+    58.17,
+    2819.2
    ]
   },
   "fomc": {
@@ -4129,13 +4133,15 @@
   }
  },
  "v4": {
-  "date": "2026-09-19",
+  "date": "2026-09-20",
   "surprises": [],
   "tier1_soon": [],
-  "tier2_soon": []
+  "tier2_soon": [
+   "eia:2026-09-23"
+  ]
  },
  "v5": {
-  "asof": "2026-09-19",
+  "asof": "2026-09-20",
   "lean": {
    "raw": "split",
    "raw_count": 3,
@@ -4145,8 +4151,8 @@
   },
   "tally": {
    "bear": 3,
-   "bull": 5,
-   "neutral": 14
+   "bull": 4,
+   "neutral": 15
   },
   "votes": {
    "apprank": null,
@@ -4158,7 +4164,7 @@
    "dominance": null,
    "drawdown": -1,
    "etf": null,
-   "exflow": 1,
+   "exflow": 0,
    "fng": 0,
    "funding": 0,
    "liquidity": 0,

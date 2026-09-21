@@ -1,7 +1,43 @@
 {
- "asOf": "2026-09-20T07:14+07:00",
- "asOfLabel": "20 Sep 2026, 07:14 BKK",
+ "asOf": "2026-09-21T07:23+07:00",
+ "asOfLabel": "21 Sep 2026, 07:23 BKK",
  "changes": [
+  {
+   "d": "21 Sep",
+   "href": "#rotation",
+   "key": "near.btc",
+   "sec": "rotation",
+   "t": "2026-09-21T07:23+07:00",
+   "text": "Near a flip: Bitcoin sits at 1.5 of 5; Macro would move it to Early.",
+   "tier": "fyi"
+  },
+  {
+   "d": "21 Sep",
+   "href": "#rotation",
+   "key": "near.cash",
+   "sec": "rotation",
+   "t": "2026-09-21T07:23+07:00",
+   "text": "Near a flip: Cash leaving the sidelines sits at 0.5 of 5; Flows would move it to Watch.",
+   "tier": "fyi"
+  },
+  {
+   "d": "21 Sep",
+   "href": "#ranking",
+   "key": "nearrank.reits",
+   "sec": "regime",
+   "t": "2026-09-21T07:23+07:00",
+   "text": "Near a flip: Real estate (REITs) conditions score +0.3 is inside the 0.5 band; one more step up changes the read from Neutral.",
+   "tier": "fyi"
+  },
+  {
+   "d": "21 Sep",
+   "href": "#calendar",
+   "key": "cal.eia:2026-09-23",
+   "sec": "calendar",
+   "t": "2026-09-21T07:23+07:00",
+   "text": "Coming Wed 23 Sep, 10:30 ET: EIA crude inventories; options price a 0.7% S&P move.",
+   "tier": "fyi"
+  },
   {
    "d": "20 Sep",
    "href": "#ranking",
