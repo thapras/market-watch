@@ -1,7 +1,16 @@
 {
- "asOf": "2026-09-23T07:48+07:00",
- "asOfLabel": "23 Sep 2026, 07:48 BKK",
+ "asOf": "2026-09-24T07:41+07:00",
+ "asOfLabel": "24 Sep 2026, 07:41 BKK",
  "changes": [
+  {
+   "d": "24 Sep",
+   "href": "#rotation",
+   "key": "theme.smh",
+   "sec": "rotation",
+   "t": "2026-09-24T07:41+07:00",
+   "text": "Semiconductors moved from Watch (exit) to Watch (1 of 5): Relative strength.",
+   "tier": "note"
+  },
   {
    "d": "23 Sep",
    "href": "#ranking",
