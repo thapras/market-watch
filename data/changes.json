@@ -1,7 +1,61 @@
 {
- "asOf": "2026-09-24T07:41+07:00",
- "asOfLabel": "24 Sep 2026, 07:41 BKK",
+ "asOf": "2026-09-25T07:39+07:00",
+ "asOfLabel": "25 Sep 2026, 07:39 BKK",
  "changes": [
+  {
+   "d": "25 Sep",
+   "href": "#ranking",
+   "key": "nearrank.us_small",
+   "sec": "regime",
+   "t": "2026-09-25T07:39+07:00",
+   "text": "Near a flip: US small caps price score +0.4 is inside the 0.5 band; one more step up changes the read from Conditions ahead, up.",
+   "tier": "fyi"
+  },
+  {
+   "d": "25 Sep",
+   "href": "#ranking",
+   "key": "nearrank.banks",
+   "sec": "regime",
+   "t": "2026-09-25T07:39+07:00",
+   "text": "Near a flip: Banks and financials price score +0.4 is inside the 0.5 band; one more step up changes the read from Conditions ahead, up.",
+   "tier": "fyi"
+  },
+  {
+   "d": "25 Sep",
+   "href": "#rotation",
+   "key": "theme.xop",
+   "sec": "rotation",
+   "t": "2026-09-25T07:39+07:00",
+   "text": "Oil and gas producers moved from Early to Watch (1 of 5): Macro.",
+   "tier": "note"
+  },
+  {
+   "d": "25 Sep",
+   "href": "#ranking",
+   "key": "rank.us_hy",
+   "sec": "regime",
+   "t": "2026-09-25T07:39+07:00",
+   "text": "US high yield credit read changed: Price ahead, up to Neutral (conditions +0.0, price +0.0).",
+   "tier": "note"
+  },
+  {
+   "d": "25 Sep",
+   "href": "#regime",
+   "key": "flag.cost",
+   "sec": "regime",
+   "t": "2026-09-25T07:39+07:00",
+   "text": "Cost of money flag changed: stable to tightening (composite -0.3).",
+   "tier": "must"
+  },
+  {
+   "d": "25 Sep",
+   "href": "#ranking",
+   "key": "rank.banks",
+   "sec": "regime",
+   "t": "2026-09-25T07:39+07:00",
+   "text": "Banks and financials read changed: Aligned up to Conditions ahead, up (conditions +0.9, price +0.4).",
+   "tier": "must"
+  },
   {
    "d": "24 Sep",
    "href": "#rotation",
