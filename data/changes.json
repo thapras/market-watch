@@ -1,7 +1,70 @@
 {
- "asOf": "2026-09-25T07:39+07:00",
- "asOfLabel": "25 Sep 2026, 07:39 BKK",
+ "asOf": "2026-09-26T07:45+07:00",
+ "asOfLabel": "26 Sep 2026, 07:45 BKK",
  "changes": [
+  {
+   "d": "26 Sep",
+   "href": "#markets",
+   "key": "sector.xlre",
+   "sec": "markets",
+   "t": "2026-09-26T07:45+07:00",
+   "text": "Real estate moved from Improving to Lagging on the rotation map (relative strength 97.3, momentum 99.9).",
+   "tier": "fyi"
+  },
+  {
+   "d": "26 Sep",
+   "href": "#ranking",
+   "key": "nearrank.gold_miners",
+   "sec": "regime",
+   "t": "2026-09-26T07:45+07:00",
+   "text": "Near a flip: Gold miners price score +0.4 is inside the 0.5 band; one more step up changes the read from Neutral.",
+   "tier": "fyi"
+  },
+  {
+   "d": "26 Sep",
+   "href": "#regime",
+   "key": "flag.crowd",
+   "sec": "regime",
+   "t": "2026-09-26T07:45+07:00",
+   "text": "Crowd flag changed: optimistic, not euphoric to neutral.",
+   "tier": "note"
+  },
+  {
+   "d": "26 Sep",
+   "href": "#ranking",
+   "key": "rank.gold_miners",
+   "sec": "regime",
+   "t": "2026-09-26T07:45+07:00",
+   "text": "Gold miners read changed: Price ahead, up to Neutral (conditions -0.1, price +0.4).",
+   "tier": "note"
+  },
+  {
+   "d": "26 Sep",
+   "href": "#ranking",
+   "key": "rank.silver",
+   "sec": "regime",
+   "t": "2026-09-26T07:45+07:00",
+   "text": "Silver and silver miners read changed: Neutral to Price ahead, down (conditions +0.3, price -0.6).",
+   "tier": "note"
+  },
+  {
+   "d": "26 Sep",
+   "href": "#calendar",
+   "key": "cal.qend:2026-09-30",
+   "sec": "calendar",
+   "t": "2026-09-26T07:45+07:00",
+   "text": "Coming Wed 30 Sep: Quarter end: pension rebalancing; US fiscal year ends.",
+   "tier": "note"
+  },
+  {
+   "d": "26 Sep",
+   "href": "#regime",
+   "key": "flag.liquidity",
+   "sec": "regime",
+   "t": "2026-09-26T07:45+07:00",
+   "text": "Liquidity flag changed: expanding to flat (composite +0.2).",
+   "tier": "must"
+  },
   {
    "d": "25 Sep",
    "href": "#ranking",
