@@ -1,7 +1,25 @@
 {
- "asOf": "2026-09-26T07:45+07:00",
- "asOfLabel": "26 Sep 2026, 07:45 BKK",
+ "asOf": "2026-09-27T07:45+07:00",
+ "asOfLabel": "27 Sep 2026, 07:45 BKK",
  "changes": [
+  {
+   "d": "27 Sep",
+   "href": "#ranking",
+   "key": "nearrank.silver",
+   "sec": "regime",
+   "t": "2026-09-27T07:45+07:00",
+   "text": "Near a flip: Silver and silver miners conditions score +0.3 is inside the 0.5 band; one more step up changes the read from Price ahead, down.",
+   "tier": "fyi"
+  },
+  {
+   "d": "27 Sep",
+   "href": "#calendar",
+   "key": "cal.ism_mfg:2026-10-01",
+   "sec": "calendar",
+   "t": "2026-09-27T07:45+07:00",
+   "text": "Coming Thu 1 Oct, 10:00 ET: ISM manufacturing; options price a 0.8% S&P move.",
+   "tier": "fyi"
+  },
   {
    "d": "26 Sep",
    "href": "#markets",
