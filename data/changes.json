@@ -1,7 +1,70 @@
 {
- "asOf": "2026-09-27T07:45+07:00",
- "asOfLabel": "27 Sep 2026, 07:45 BKK",
+ "asOf": "2026-09-28T08:00+07:00",
+ "asOfLabel": "28 Sep 2026, 08:00 BKK",
  "changes": [
+  {
+   "d": "28 Sep",
+   "href": "#rotation",
+   "key": "near.cash",
+   "sec": "rotation",
+   "t": "2026-09-28T08:00+07:00",
+   "text": "Near a flip: Cash leaving the sidelines sits at 0.5 of 5; Flows would move it to Watch.",
+   "tier": "fyi"
+  },
+  {
+   "d": "28 Sep",
+   "href": "#ranking",
+   "key": "nearrank.reits",
+   "sec": "regime",
+   "t": "2026-09-28T08:00+07:00",
+   "text": "Near a flip: Real estate (REITs) price score -0.4 is inside the 0.5 band; one more step down changes the read from Neutral.",
+   "tier": "fyi"
+  },
+  {
+   "d": "28 Sep",
+   "href": "#calendar",
+   "key": "cal.jolts:2026-09-29",
+   "sec": "calendar",
+   "t": "2026-09-28T08:00+07:00",
+   "text": "Coming Tue 29 Sep, 10:00 ET: JOLTS job openings (consensus openings 7.23M); options price a 0.7% S&P move.",
+   "tier": "fyi"
+  },
+  {
+   "d": "28 Sep",
+   "href": "#calendar",
+   "key": "cal.china_pmi:2026-09-29",
+   "sec": "calendar",
+   "t": "2026-09-28T08:00+07:00",
+   "text": "Coming Tue 29 Sep, 21:30 ET: China official PMIs (consensus manufacturing 50.1; non-manufacturing 49.3); options price a 0.7% S&P move.",
+   "tier": "fyi"
+  },
+  {
+   "d": "28 Sep",
+   "href": "#calendar",
+   "key": "cal.china_pmi_private:2026-09-29",
+   "sec": "calendar",
+   "t": "2026-09-28T08:00+07:00",
+   "text": "Coming Tue 29 Sep, 21:45 ET: China RatingDog manufacturing PMI (formerly Caixin) (consensus manufacturing 51.7); options price a 0.7% S&P move.",
+   "tier": "fyi"
+  },
+  {
+   "d": "28 Sep",
+   "href": "#calendar",
+   "key": "cal.pce:2026-09-30",
+   "sec": "calendar",
+   "t": "2026-09-28T08:00+07:00",
+   "text": "Coming Wed 30 Sep, 08:30 ET: PCE inflation, income and spending (consensus core m/m 0.3%; spending 1.0%); options price a 0.7% S&P move.",
+   "tier": "fyi"
+  },
+  {
+   "d": "28 Sep",
+   "href": "#calendar",
+   "key": "cal.payrolls:2026-10-02",
+   "sec": "calendar",
+   "t": "2026-09-28T08:00+07:00",
+   "text": "Coming Fri 2 Oct, 08:30 ET: Nonfarm payrolls (consensus payrolls 98k; unemployment 4.1%; wages m/m 0.3%); options price a 0.9% S&P move.",
+   "tier": "note"
+  },
   {
    "d": "27 Sep",
    "href": "#ranking",
