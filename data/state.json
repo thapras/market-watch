@@ -1,6 +1,6 @@
 {
- "asOf": "2026-09-28T08:00+07:00",
- "date": "2026-09-25",
+ "asOf": "2026-09-29T09:09+07:00",
+ "date": "2026-09-28",
  "detector": {
   "btc": {
    "count": 1,
@@ -17,7 +17,7 @@
     "Relative strength"
    ],
    "raw": "watch",
-   "raw_count": 24,
+   "raw_count": 25,
    "raw_since": "2026-08-19",
    "since": "2026-08-19",
    "state": "watch"
@@ -38,7 +38,7 @@
     "Seasonal"
    ],
    "raw": "watch_exit",
-   "raw_count": 15,
+   "raw_count": 16,
    "raw_since": "2026-09-08",
    "since": "2026-09-08",
    "state": "watch_exit"
@@ -56,44 +56,44 @@
     "Relative strength"
    ],
    "raw": "watch",
-   "raw_count": 12,
+   "raw_count": 13,
    "raw_since": "2026-09-10",
    "since": "2026-08-26",
    "state": "watch"
   },
   "gdx": {
-   "count": 1,
-   "entry": 1.0,
-   "lost": 1.5,
+   "count": 0,
+   "entry": 0.0,
+   "lost": 2.0,
    "lostn": [
-    "Seasonal",
+    "Relative strength",
     "Macro"
    ],
    "name": "Gold miners",
-   "off": [],
-   "on": [
-    "Relative strength"
+   "off": [
+    "Seasonal"
    ],
-   "raw": "watch",
-   "raw_count": 20,
-   "raw_since": "2026-08-31",
+   "on": [],
+   "raw": "watch_exit",
+   "raw_count": 1,
+   "raw_since": "2026-09-28",
    "since": "2026-08-31",
    "state": "watch"
   },
   "ita": {
-   "count": 1,
-   "entry": 0.5,
+   "count": 0,
+   "entry": 0.0,
    "lost": 1.0,
    "lostn": [
     "Relative strength"
    ],
    "name": "Defense and aerospace",
-   "off": [],
-   "on": [
+   "off": [
     "Seasonal"
    ],
+   "on": [],
    "raw": "watch_exit",
-   "raw_count": 24,
+   "raw_count": 25,
    "raw_since": "2026-08-19",
    "since": "2026-08-19",
    "state": "watch_exit"
@@ -112,7 +112,7 @@
    ],
    "on": [],
    "raw": "watch_exit",
-   "raw_count": 24,
+   "raw_count": 25,
    "raw_since": "2026-08-19",
    "since": "2026-08-19",
    "state": "watch_exit"
@@ -131,7 +131,7 @@
    ],
    "on": [],
    "raw": "watch_exit",
-   "raw_count": 24,
+   "raw_count": 25,
    "raw_since": "2026-08-19",
    "since": "2026-08-19",
    "state": "watch_exit"
@@ -149,45 +149,45 @@
     "Relative strength"
    ],
    "raw": "watch",
-   "raw_count": 24,
+   "raw_count": 25,
    "raw_since": "2026-08-24",
    "since": "2026-08-24",
    "state": "watch"
   },
   "sil": {
-   "count": 1,
-   "entry": 1.0,
-   "lost": 1.5,
+   "count": 0,
+   "entry": 0.0,
+   "lost": 2.5,
    "lostn": [
+    "Relative strength",
     "Seasonal",
     "Macro"
    ],
    "name": "Silver miners",
    "off": [],
-   "on": [
-    "Relative strength"
-   ],
-   "raw": "watch",
-   "raw_count": 20,
-   "raw_since": "2026-08-31",
+   "on": [],
+   "raw": "watch_exit",
+   "raw_count": 1,
+   "raw_since": "2026-09-28",
    "since": "2026-08-31",
    "state": "watch"
   },
   "smh": {
-   "count": 2,
-   "entry": 1.5,
+   "count": 1,
+   "entry": 1.0,
    "lost": 1.0,
    "lostn": [
     "Macro"
    ],
    "name": "Semiconductors",
-   "off": [],
-   "on": [
-    "Relative strength",
+   "off": [
     "Seasonal"
    ],
+   "on": [
+    "Relative strength"
+   ],
    "raw": "watch",
-   "raw_count": 6,
+   "raw_count": 7,
    "raw_since": "2026-09-18",
    "since": "2026-09-18",
    "state": "watch"
@@ -207,7 +207,7 @@
    ],
    "on": [],
    "raw": "watch_exit",
-   "raw_count": 24,
+   "raw_count": 25,
    "raw_since": "2026-08-27",
    "since": "2026-08-27",
    "state": "watch_exit"
@@ -224,7 +224,7 @@
    "off": [],
    "on": [],
    "raw": "watch_exit",
-   "raw_count": 11,
+   "raw_count": 12,
    "raw_since": "2026-09-11",
    "since": "2026-09-11",
    "state": "watch_exit"
@@ -242,7 +242,7 @@
    "off": [],
    "on": [],
    "raw": "watch_exit",
-   "raw_count": 6,
+   "raw_count": 7,
    "raw_since": "2026-09-18",
    "since": "2026-09-11",
    "state": "watch_exit"
@@ -250,19 +250,19 @@
   "xhb": {
    "count": 0,
    "entry": 0.0,
-   "lost": 2.5,
+   "lost": 2.0,
    "lostn": [
     "Relative strength",
-    "Seasonal",
     "Macro"
    ],
    "name": "Homebuilders",
    "off": [
-    "Breadth"
+    "Breadth",
+    "Seasonal"
    ],
    "on": [],
    "raw": "watch_exit",
-   "raw_count": 24,
+   "raw_count": 25,
    "raw_since": "2026-07-29",
    "since": "2026-07-29",
    "state": "watch_exit"
@@ -270,19 +270,19 @@
   "xlu": {
    "count": 0,
    "entry": 0.0,
-   "lost": 1.5,
+   "lost": 1.0,
    "lostn": [
-    "Relative strength",
-    "Seasonal"
+    "Relative strength"
    ],
    "name": "Utilities",
    "off": [
     "Breadth",
+    "Seasonal",
     "Macro"
    ],
    "on": [],
    "raw": "watch_exit",
-   "raw_count": 24,
+   "raw_count": 25,
    "raw_since": "2026-07-30",
    "since": "2026-07-30",
    "state": "watch_exit"
@@ -303,7 +303,7 @@
     "Macro"
    ],
    "raw": "watch",
-   "raw_count": 1,
+   "raw_count": 2,
    "raw_since": "2026-09-25",
    "since": "2026-09-21",
    "state": "watch"
@@ -389,6 +389,10 @@
    "2026-09-28": [
     58.74,
     2887.7
+   ],
+   "2026-09-29": [
+    58.35,
+    2853.0
    ]
   },
   "fomc": {
@@ -2684,6 +2688,11 @@
     "equity": 0.52,
     "index": 0.95,
     "total": 0.75
+   },
+   "2026-09-28": {
+    "equity": 0.58,
+    "index": 0.97,
+    "total": 0.88
    }
   },
   "scores": {
@@ -4240,6 +4249,80 @@
      0.5,
      -1.0
     ]
+   },
+   "2026-09-28": {
+    "banks": [
+     0.9,
+     0.4
+    ],
+    "bitcoin": [
+     -0.1,
+     1.0
+    ],
+    "cash": [
+     -0.6,
+     null
+    ],
+    "copper": [
+     -0.1,
+     1.6
+    ],
+    "em_ex_china": [
+     0.9,
+     1.6
+    ],
+    "energy": [
+     0.4,
+     1.4
+    ],
+    "europe": [
+     0.7,
+     0.4
+    ],
+    "gold": [
+     0.1,
+     -1.0
+    ],
+    "gold_miners": [
+     0.1,
+     -0.6
+    ],
+    "japan": [
+     0.7,
+     1.4
+    ],
+    "reits": [
+     0.1,
+     -0.4
+    ],
+    "semis": [
+     0.6,
+     1.2
+    ],
+    "silver": [
+     0.4,
+     -0.6
+    ],
+    "thailand": [
+     0.7,
+     null
+    ],
+    "us_hy": [
+     0.6,
+     0.0
+    ],
+    "us_large": [
+     0.1,
+     0.4
+    ],
+    "us_small": [
+     0.9,
+     0.4
+    ],
+    "ust10": [
+     0.5,
+     -1.0
+    ]
    }
   },
   "surprises": {
@@ -4317,7 +4400,7 @@
      "z": 1.43
     },
     "2026-10-02": {
-     "f": 98.0,
+     "f": 90.0,
      "p": 162.0
     }
    },
@@ -4381,9 +4464,9 @@
    "read": "Aligned up"
   },
   "energy": {
-   "cond": 0.3,
+   "cond": 0.4,
    "name": "Energy",
-   "price": 0.8,
+   "price": 1.4,
    "read": "Price ahead, up"
   },
   "europe": {
@@ -4395,14 +4478,14 @@
   "gold": {
    "cond": 0.1,
    "name": "Gold",
-   "price": -0.8,
+   "price": -1.0,
    "read": "Price ahead, down"
   },
   "gold_miners": {
    "cond": 0.1,
    "name": "Gold miners",
-   "price": 0.8,
-   "read": "Price ahead, up"
+   "price": -0.6,
+   "read": "Price ahead, down"
   },
   "japan": {
    "cond": 0.7,
@@ -4417,13 +4500,13 @@
    "read": "Neutral"
   },
   "semis": {
-   "cond": 0.7,
+   "cond": 0.6,
    "name": "Semiconductors and mega-cap tech",
-   "price": 1.4,
+   "price": 1.2,
    "read": "Aligned up"
   },
   "silver": {
-   "cond": 0.3,
+   "cond": 0.4,
    "name": "Silver and silver miners",
    "price": -0.6,
    "read": "Price ahead, down"
@@ -4435,10 +4518,10 @@
    "read": null
   },
   "us_hy": {
-   "cond": 0.3,
+   "cond": 0.6,
    "name": "US high yield credit",
    "price": 0.0,
-   "read": "Neutral"
+   "read": "Conditions ahead, up"
   },
   "us_large": {
    "cond": 0.1,
@@ -4462,7 +4545,7 @@
  "regime": {
   "composites": {
    "cost": {
-    "value": -0.46
+    "value": -0.42
    },
    "growth": {
     "value": 0.6
@@ -4474,7 +4557,7 @@
     "value": 0.2
    },
    "risk": {
-    "value": 1.31
+    "value": 1.2
    }
   },
   "flags": {
@@ -4494,67 +4577,67 @@
    "mom": 99.4,
    "name": "Materials",
    "quadrant": "Lagging",
-   "rs": 98.1
+   "rs": 98.0
   },
   "xlc": {
-   "mom": 99.8,
+   "mom": 99.9,
    "name": "Communication services",
    "quadrant": "Lagging",
    "rs": 90.6
   },
   "xle": {
-   "mom": 102.9,
+   "mom": 103.1,
    "name": "Energy",
    "quadrant": "Leading",
    "rs": 107.8
   },
   "xlf": {
-   "mom": 107.1,
+   "mom": 106.8,
    "name": "Financials",
    "quadrant": "Improving",
-   "rs": 99.3
+   "rs": 99.2
   },
   "xli": {
-   "mom": 98.4,
+   "mom": 98.2,
    "name": "Industrials",
    "quadrant": "Lagging",
-   "rs": 98.5
+   "rs": 98.4
   },
   "xlk": {
    "mom": 95.6,
    "name": "Technology",
    "quadrant": "Weakening",
-   "rs": 107.7
+   "rs": 107.8
   },
   "xlp": {
-   "mom": 100.8,
+   "mom": 100.7,
    "name": "Consumer staples",
    "quadrant": "Improving",
-   "rs": 96.1
+   "rs": 96.0
   },
   "xlre": {
-   "mom": 99.7,
+   "mom": 99.5,
    "name": "Real estate",
    "quadrant": "Lagging",
-   "rs": 97.1
+   "rs": 97.0
   },
   "xlu": {
-   "mom": 96.9,
+   "mom": 96.7,
    "name": "Utilities",
    "quadrant": "Lagging",
-   "rs": 90.8
+   "rs": 90.6
   },
   "xlv": {
-   "mom": 106.4,
+   "mom": 106.3,
    "name": "Health care",
    "quadrant": "Leading",
-   "rs": 101.2
+   "rs": 101.3
   },
   "xly": {
-   "mom": 98.9,
+   "mom": 98.8,
    "name": "Consumer discretionary",
    "quadrant": "Lagging",
-   "rs": 91.1
+   "rs": 91.0
   }
  },
  "v3": {
@@ -4570,11 +4653,11 @@
    "ust10": "up"
   },
   "cot_date": "2026-09-22",
-  "crowd": "neutral",
+  "crowd": "optimistic, not euphoric",
   "cta": {
    "copper": 1,
    "dxy": 1,
-   "gold": 1,
+   "gold": -1,
    "ndx": 1,
    "spx": 1,
    "ust10": -1,
@@ -4582,7 +4665,7 @@
   }
  },
  "v4": {
-  "date": "2026-09-27",
+  "date": "2026-09-28",
   "surprises": [],
   "tier1_soon": [
    "qend:2026-09-30",
@@ -4600,12 +4683,12 @@
   ]
  },
  "v5": {
-  "asof": "2026-09-27",
+  "asof": "2026-09-28",
   "lean": {
    "raw": "split",
    "raw_count": 3,
-   "raw_since": "2026-09-25",
-   "since": "2026-09-25",
+   "raw_since": "2026-09-28",
+   "since": "2026-09-28",
    "state": "split"
   },
   "tally": {
@@ -4659,7 +4742,7 @@
     "Relative strength"
    ],
    "raw": "watch",
-   "raw_count": 23,
+   "raw_count": 24,
    "raw_since": "2026-08-19",
    "since": "2026-08-19",
    "state": "watch"
@@ -4680,7 +4763,7 @@
     "Seasonal"
    ],
    "raw": "watch_exit",
-   "raw_count": 14,
+   "raw_count": 15,
    "raw_since": "2026-09-08",
    "since": "2026-09-08",
    "state": "watch_exit"
@@ -4698,7 +4781,7 @@
     "Relative strength"
    ],
    "raw": "watch",
-   "raw_count": 11,
+   "raw_count": 12,
    "raw_since": "2026-09-10",
    "since": "2026-08-26",
    "state": "watch"
@@ -4717,25 +4800,25 @@
     "Relative strength"
    ],
    "raw": "watch",
-   "raw_count": 19,
+   "raw_count": 20,
    "raw_since": "2026-08-31",
    "since": "2026-08-31",
    "state": "watch"
   },
   "ita": {
-   "count": 0,
-   "entry": 0.0,
+   "count": 1,
+   "entry": 0.5,
    "lost": 1.0,
    "lostn": [
     "Relative strength"
    ],
    "name": "Defense and aerospace",
-   "off": [
+   "off": [],
+   "on": [
     "Seasonal"
    ],
-   "on": [],
    "raw": "watch_exit",
-   "raw_count": 23,
+   "raw_count": 24,
    "raw_since": "2026-08-19",
    "since": "2026-08-19",
    "state": "watch_exit"
@@ -4754,7 +4837,7 @@
    ],
    "on": [],
    "raw": "watch_exit",
-   "raw_count": 23,
+   "raw_count": 24,
    "raw_since": "2026-08-19",
    "since": "2026-08-19",
    "state": "watch_exit"
@@ -4773,7 +4856,7 @@
    ],
    "on": [],
    "raw": "watch_exit",
-   "raw_count": 23,
+   "raw_count": 24,
    "raw_since": "2026-08-19",
    "since": "2026-08-19",
    "state": "watch_exit"
@@ -4791,7 +4874,7 @@
     "Relative strength"
    ],
    "raw": "watch",
-   "raw_count": 23,
+   "raw_count": 24,
    "raw_since": "2026-08-24",
    "since": "2026-08-24",
    "state": "watch"
@@ -4810,27 +4893,26 @@
     "Relative strength"
    ],
    "raw": "watch",
-   "raw_count": 19,
+   "raw_count": 20,
    "raw_since": "2026-08-31",
    "since": "2026-08-31",
    "state": "watch"
   },
   "smh": {
-   "count": 1,
-   "entry": 1.0,
+   "count": 2,
+   "entry": 1.5,
    "lost": 1.0,
    "lostn": [
     "Macro"
    ],
    "name": "Semiconductors",
-   "off": [
+   "off": [],
+   "on": [
+    "Relative strength",
     "Seasonal"
    ],
-   "on": [
-    "Relative strength"
-   ],
    "raw": "watch",
-   "raw_count": 5,
+   "raw_count": 6,
    "raw_since": "2026-09-18",
    "since": "2026-09-18",
    "state": "watch"
@@ -4850,7 +4932,7 @@
    ],
    "on": [],
    "raw": "watch_exit",
-   "raw_count": 23,
+   "raw_count": 24,
    "raw_since": "2026-08-27",
    "since": "2026-08-27",
    "state": "watch_exit"
@@ -4867,7 +4949,7 @@
    "off": [],
    "on": [],
    "raw": "watch_exit",
-   "raw_count": 10,
+   "raw_count": 11,
    "raw_since": "2026-09-11",
    "since": "2026-09-11",
    "state": "watch_exit"
@@ -4885,7 +4967,7 @@
    "off": [],
    "on": [],
    "raw": "watch_exit",
-   "raw_count": 5,
+   "raw_count": 6,
    "raw_since": "2026-09-18",
    "since": "2026-09-11",
    "state": "watch_exit"
@@ -4905,7 +4987,7 @@
    ],
    "on": [],
    "raw": "watch_exit",
-   "raw_count": 23,
+   "raw_count": 24,
    "raw_since": "2026-07-29",
    "since": "2026-07-29",
    "state": "watch_exit"
@@ -4925,28 +5007,29 @@
    ],
    "on": [],
    "raw": "watch_exit",
-   "raw_count": 23,
+   "raw_count": 24,
    "raw_since": "2026-07-30",
    "since": "2026-07-30",
    "state": "watch_exit"
   },
   "xop": {
-   "count": 2,
-   "entry": 2.0,
-   "lost": 0.0,
-   "lostn": [],
+   "count": 1,
+   "entry": 1.0,
+   "lost": 2.0,
+   "lostn": [
+    "Relative strength",
+    "Breadth"
+   ],
    "name": "Oil and gas producers",
    "off": [
-    "Breadth",
     "Seasonal"
    ],
    "on": [
-    "Relative strength",
     "Macro"
    ],
-   "raw": "early",
+   "raw": "watch",
    "raw_count": 1,
-   "raw_since": "2026-09-24",
+   "raw_since": "2026-09-25",
    "since": "2026-09-21",
    "state": "watch"
   }

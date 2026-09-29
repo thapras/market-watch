@@ -1,7 +1,16 @@
 {
- "asOf": "2026-09-28T08:00+07:00",
- "asOfLabel": "28 Sep 2026, 08:00 BKK",
+ "asOf": "2026-09-29T09:09+07:00",
+ "asOfLabel": "29 Sep 2026, 09:09 BKK",
  "changes": [
+  {
+   "d": "29 Sep",
+   "href": "#sentiment",
+   "key": "cta.gold",
+   "sec": "sentiment",
+   "t": "2026-09-29T09:09+07:00",
+   "text": "CTA trend signal flipped to short in Gold.",
+   "tier": "note"
+  },
   {
    "d": "28 Sep",
    "href": "#rotation",
