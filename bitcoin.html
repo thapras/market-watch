@@ -269,7 +269,7 @@ nav.sections a.back{display:none}
     <div class="k" data-strip="1m"><span class="label">One month</span><div class="val">+20.7%</div><div class="d">1w -5.6%</div></div>
     <div class="k" data-strip="1y"><span class="label">One year</span><div class="val">-32.7%</div><div class="d">3m +20.8%</div></div>
     <div class="k" data-strip="drawdown"><span class="label">From the high</span><div class="val">-38.6%</div><div class="d">125k, 6 Oct 2025</div></div>
-    <div class="k" data-strip="halving"><span class="label">Days since the halving</span><div class="val">873</div><div class="d">20 Apr 2024</div></div>
+    <div class="k" data-strip="halving"><span class="label">Days since the halving</span><div class="val">873</div><div class="d">next about Apr 2028</div></div>
     <div class="k" data-strip="dominance"><span class="label">Dominance</span><div class="val">58.2%</div><div class="d">of 2.71 tn</div></div>
     <div class="k" data-strip="fng"><span class="label">Fear and greed</span><div class="val">56</div><div class="d">neutral</div></div>
     <div class="k" data-strip="funding"><span class="label">Funding, 30-day, annualized</span><div class="val">+5.5%</div><div class="d">moderate</div></div>
@@ -345,6 +345,7 @@ nav.sections a.back{display:none}
   var MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
   function dl(iso){ if (!iso) return ''; var d = new Date(iso + 'T00:00:00Z'); return d.getUTCDate() + ' ' + MONTHS[d.getUTCMonth()]; }
   function dly(iso){ if (!iso) return ''; var d = new Date(iso + 'T00:00:00Z'); return d.getUTCDate() + ' ' + MONTHS[d.getUTCMonth()] + ' ' + d.getUTCFullYear(); }
+  function my(iso){ if (!iso) return ''; return MONTHS[+iso.slice(5, 7) - 1] + ' ' + iso.slice(0, 4); }
   function sg(v, dp){ return (v > 0 ? '+' : '') + v.toFixed(dp == null ? 1 : dp); }
   function fk(v){ return v >= 1000 ? (v / 1000).toFixed(1) + 'k' : v.toFixed(0); }
   var stamp = document.getElementById('stamp'), count = document.getElementById('live-count');
@@ -354,9 +355,9 @@ nav.sections a.back{display:none}
   var CLS = {1: 'up', '-1': 'down', 0: '', 'null': 'muted'};
 
   /* ---------- the strip and the tally ---------- */
-  function setStrip(key, val, d, dir){
+  function setStrip(key, val, d, dir, title){
     var k = document.querySelector('[data-strip="' + key + '"]'); if (!k) return;
-    k.classList.remove('sample'); k.querySelector('.val').textContent = val;
+    k.classList.remove('sample'); k.querySelector('.val').textContent = val; if (title) k.title = title;
     var dd = k.querySelector('.d'); dd.textContent = d || ''; dd.className = 'd' + (dir ? ' ' + dir : '');
   }
   function dir(v){ return v > 0 ? 'up' : v < 0 ? 'down' : ''; }
@@ -366,7 +367,9 @@ nav.sections a.back{display:none}
     if (s['1m'] != null) setStrip('1m', sg(s['1m']) + '%', s['1w'] != null ? '1w ' + sg(s['1w']) + '%' : '', dir(s['1m']));
     if (s['1y'] != null) setStrip('1y', sg(s['1y']) + '%', s['3m'] != null ? '3m ' + sg(s['3m']) + '%' : '', dir(s['1y']));
     if (s.drawdown != null) setStrip('drawdown', s.drawdown.toFixed(1) + '%', fk(s.ath) + ', ' + dly(s.ath_date), 'down');
-    if (s.since_halving != null) setStrip('halving', String(s.since_halving), B.clock ? dly(B.clock.halving) : '');
+    // the next halving, not the last: "20 Apr 2024" under the count read as a stale data date
+    if (s.since_halving != null) setStrip('halving', String(s.since_halving), B.clock && B.clock.next_halving ? 'next about ' + my(B.clock.next_halving) : '', '',
+      B.clock ? 'Last halving ' + dly(B.clock.halving) + '; the next date is an estimate (210,000 blocks at ten minutes).' : '');
     if (s.dominance != null) setStrip('dominance', s.dominance.toFixed(1) + '%', B.clock && B.rows ? ('of ' + (function(){ var r = B.rows.filter(function(x){ return x.key === 'dominance'; })[0]; return r && r.total ? (r.total / 1e12).toFixed(2) + ' tn' : ''; })()) : '');
     if (s.fng != null) setStrip('fng', String(Math.round(s.fng)), s.fng <= 20 ? 'extreme fear' : s.fng >= 80 ? 'extreme greed' : s.fng < 45 ? 'fear' : s.fng > 55 ? 'greed' : 'neutral');
     if (s.funding != null) setStrip('funding', sg(s.funding) + '%', s.funding < 0 ? 'shorts pay' : s.funding > 30 ? 'froth' : 'moderate', s.funding < 0 ? 'down' : '');
@@ -472,7 +475,7 @@ nav.sections a.back{display:none}
     cyc.forEach(function(c){ svg.appendChild(svgEl('polyline', {'class': 'cy c' + c.label, points: c.pts.map(function(p){ return x(p[0]).toFixed(1) + ',' + y(p[1]).toFixed(1); }).join(' ')})); });
     var cur = cyc[cyc.length - 1], lp = cur.pts[cur.pts.length - 1];
     svg.appendChild(svgEl('circle', {'class': 'now', cx: x(lp[0]), cy: y(lp[1]), r: 3.5}));
-    var lb = svgEl('text', {'class': 'lb', x: x(lp[0]) + 6, y: y(lp[1]) + 4}); lb.textContent = cur.label + ': ' + lp[1].toFixed(2) + 'x at day ' + lp[0]; if (lp[0] > 1100) { lb.setAttribute('x', x(lp[0]) - 6); lb.setAttribute('text-anchor', 'end'); } svg.appendChild(lb);
+    var lb = svgEl('text', {'class': 'lb', x: x(lp[0]) + 6, y: y(lp[1]) + 4}); lb.textContent = 'This cycle: ' + lp[1].toFixed(2) + 'x at day ' + lp[0]; if (lp[0] > 1100) { lb.setAttribute('x', x(lp[0]) - 6); lb.setAttribute('text-anchor', 'end'); } svg.appendChild(lb);
   }
 
   /* ---------- the change log for this tab (shared last-read store with index.html) ---------- */

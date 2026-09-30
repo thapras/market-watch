@@ -155,6 +155,22 @@ def cash_card(D, spy, comps, today, prev, first_run, qat, history):
     return row
 
 
+def v5_base(prev_state, same_day):
+    """The bitcoin tab's comparison base (its lean and votes), picked like the detector's: a rerun on the same day
+    compares against the state the day opened with, so it cannot count as a second close; a new day compares
+    against the last run."""
+    if same_day and prev_state.get("v5_yesterday") is not None:
+        return prev_state["v5_yesterday"]
+    return prev_state.get("v5") or {}
+
+
+def diff_base(prev_state, base_det, base_v5):
+    """What this run is compared against: the change log diffs every block, and the bitcoin tab reads its lean
+    and votes from here (without v5 its lean restarted every run and no flip ever logged)."""
+    return {"regime": prev_state.get("regime", {}), "detector": base_det, "sectors": prev_state.get("sectors", {}),
+            "ranking": prev_state.get("ranking", {}), "v3": prev_state.get("v3", {}), "v5": base_v5}
+
+
 def run(D, members, rank, prev_state, today, now_iso):
     spy = adj(D, "spy")
     netliq = rg.netliq_series(D)
@@ -165,6 +181,7 @@ def run(D, members, rank, prev_state, today, now_iso):
     same_day = prev_state.get("date") == today
     base_det = prev_state.get("yesterday") if same_day and prev_state.get("yesterday") is not None else prev_state.get("detector", {})
     first_run = not base_det                      # nothing to confirm against or to diff: the first day (reruns included)
+    base_v5 = v5_base(prev_state, same_day)
     history = dict(prev_state.get("history", {}))
     if "mmf" in D:                                   # today's money market reading joins the series before the cash card reads it
         m = dict(history.get("mmf", {}))
@@ -252,13 +269,12 @@ def run(D, members, rank, prev_state, today, now_iso):
         "ranking": {k: {"name": _rank_name(k), "read": v["read"], "cond": v["cond"], "price": v["price"]} for k, v in ranking.items()},
         "history": history, "notified": prev_state.get("notified", ""),
         "v3": V3["state"],
+        "v5_yesterday": base_v5,
     }
-    prev_for_diff = None if first_run else {"regime": prev_state.get("regime", {}), "detector": base_det, "sectors": prev_state.get("sectors", {}), "ranking": prev_state.get("ranking", {})}
+    prev_for_diff = None if first_run else diff_base(prev_state, base_det, base_v5)
     if same_day and not first_run:
         # a rerun on the same day: keep the day's opening states as the comparison base for tomorrow
         state["yesterday"] = base_det
-    if prev_for_diff is not None:
-        prev_for_diff["v3"] = prev_state.get("v3", {})
     return {"regime": regime, "detector": detector, "sectors": sectors, "map": rmap, "seasonality": season, "ranking": ranking,
             "v3": V3, "state": state, "prev_for_diff": prev_for_diff, "first_run": first_run}
 

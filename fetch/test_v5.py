@@ -5,6 +5,7 @@ import unittest
 
 from fetch import bitcoin as b
 from fetch import sources
+from fetch import v2
 
 
 def daily(values, start="2020-01-01"):
@@ -193,14 +194,7 @@ class Rules(unittest.TestCase):
                 self.assertNotIn("...", txt)
 
     def test_run_on_synthetic(self):
-        n = 6000
-        price = daily([1000.0 * (1.0 + 0.0002 * i) * (1.0 + 0.1 * math.sin(i / 90.0)) for i in range(n)], "2010-07-18")
-        cm = {"price": price, "mvrv": daily([1.2] * n, "2010-07-18"), "mcap": daily([1e12] * n, "2010-07-18"), "iss_usd": daily([3e7] * n, "2010-07-18"),
-              "fee_ntv": daily([3.0] * n, "2010-07-18"), "supply": daily([2e7] * n, "2010-07-18"), "flow_in": daily([100.0] * n, "2010-07-18"), "flow_out": daily([120.0] * n, "2010-07-18")}
-        D = {"btc_chain": cm, "stables": daily([1e11 * (1 + 0.001 * i) for i in range(400)], "2025-08-01"), "funding": daily([8.0] * 60, "2026-07-01"),
-             "crypto_fng": daily([50.0] * 400, "2025-08-01"), "dxy": {"close": daily([100.0] * 300, "2025-11-01")}, "cg_global": {"date": "2026-09-11", "btc_dom": 58.0, "eth_dom": 11.0, "total_usd": 2.7e12},
-             "wiki_btc": daily([5000.0 + (i % 40) * 10 for i in range(500)], "2025-04-30")}
-        V = {"state": {"regime": {"composites": {"liq": {"value": 0.7}}}}, "v3": {"markets": {"btc": {"div": -2.0, "state": "down", "date": "2026-09-01"}}}}
+        D, V = synthetic()
         R = b.run(D, V, None, "2026-09-11", True, {})
         self.assertEqual([r["key"] for r in R["rows"]], [r[0] for r in b.ROWS])
         by = {r["key"]: r for r in R["rows"]}
@@ -219,6 +213,40 @@ class Rules(unittest.TestCase):
         self.assertEqual(len(blk["rows"]), len(b.ROWS))
         self.assertIn("band", blk["charts"])
         self.assertEqual(blk["lean"]["state"], R["tally"]["lean"])
+
+    def test_state_carries_across_runs(self):
+        # the hand-off v2 builds for this tab: until it carried v5, every run was a first run (lean at three
+        # closes, since today) and no flip ever logged
+        D, V = synthetic()
+        first = b.run(D, V, None, "2026-09-11", True, {})["state"]
+        R = b.run(D, V, {"v5": v2.v5_base({"v5": first}, False)}, "2026-09-14", False, {})
+        self.assertEqual(R["lean"]["raw_count"], 4)                                   # a new day adds a close
+        self.assertEqual(R["lean"]["since"], "2026-09-11")                            # and the since date holds
+        prev = {"v5": R["state"], "v5_yesterday": first, "date": "2026-09-14"}
+        base = v2.v5_base(prev, True)
+        self.assertIs(base, first)                                                    # a same-day rerun compares against the opening state
+        self.assertEqual(b.run(D, V, {"v5": base}, "2026-09-14", False, {})["lean"]["raw_count"], 4)
+        self.assertIs(v2.v5_base(prev, False), R["state"])                            # the next day compares against the last run
+        self.assertIs(v2.v5_base({"v5": first}, True), first)                         # no opening state stored yet: the last run
+        self.assertEqual(v2.v5_base({}, False), {})
+        flipped = dict(R["state"], votes=dict(R["state"]["votes"], puell=1))
+        out = b.change_entries(v2.diff_base({}, {}, flipped), R["state"], "2026-09-14T05:30")
+        self.assertEqual([e["key"] for e in out], ["btc.vote.puell"])
+        hand_off = v2.diff_base({"regime": {}, "v3": {"alerts": {}}, "v5": first}, {"smh": {}}, v2.v5_base({"v5": first}, False))
+        self.assertEqual(set(hand_off), {"regime", "detector", "sectors", "ranking", "v3", "v5"})
+        self.assertIs(hand_off["v5"], first)
+
+
+def synthetic():
+    n = 6000
+    price = daily([1000.0 * (1.0 + 0.0002 * i) * (1.0 + 0.1 * math.sin(i / 90.0)) for i in range(n)], "2010-07-18")
+    cm = {"price": price, "mvrv": daily([1.2] * n, "2010-07-18"), "mcap": daily([1e12] * n, "2010-07-18"), "iss_usd": daily([3e7] * n, "2010-07-18"),
+          "fee_ntv": daily([3.0] * n, "2010-07-18"), "supply": daily([2e7] * n, "2010-07-18"), "flow_in": daily([100.0] * n, "2010-07-18"), "flow_out": daily([120.0] * n, "2010-07-18")}
+    D = {"btc_chain": cm, "stables": daily([1e11 * (1 + 0.001 * i) for i in range(400)], "2025-08-01"), "funding": daily([8.0] * 60, "2026-07-01"),
+         "crypto_fng": daily([50.0] * 400, "2025-08-01"), "dxy": {"close": daily([100.0] * 300, "2025-11-01")}, "cg_global": {"date": "2026-09-11", "btc_dom": 58.0, "eth_dom": 11.0, "total_usd": 2.7e12},
+         "wiki_btc": daily([5000.0 + (i % 40) * 10 for i in range(500)], "2025-04-30")}
+    V = {"state": {"regime": {"composites": {"liq": {"value": 0.7}}}}, "v3": {"markets": {"btc": {"div": -2.0, "state": "down", "date": "2026-09-01"}}}}
+    return D, V
 
 
 if __name__ == "__main__":
