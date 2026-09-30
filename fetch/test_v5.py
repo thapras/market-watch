@@ -146,6 +146,11 @@ class Rules(unittest.TestCase):
         self.assertEqual([c["label"] for c in cyc], ["2012", "2016", "2020", "2024"])
         self.assertEqual(cyc[0]["pts"][0], [0, 1.0])
         self.assertEqual(len(cyc[0]["pts"]), 209)
+        end = (dt.date(2026, 9, 28) - dt.date(2010, 7, 18)).days + 1                 # data through 28 Sep 2026, day 891
+        cur = b.cycle_points(price[:end])[-1]["pts"]
+        self.assertEqual([k for k, _ in cur[-2:]], [889, 891])                        # the line ends on the last close
+        self.assertAlmostEqual(cur[-1][1], round(price[end - 1][1] / dict(price)["2024-04-20"], 4))
+        self.assertEqual(len(b.cycle_points(price[:end])[0]["pts"]), 209)            # finished cycles keep four years
 
     def test_votes_and_tally(self):
         self.assertEqual(b.vote_low_high(0.4, 0.5, 2.0), 1)

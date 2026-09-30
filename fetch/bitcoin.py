@@ -621,9 +621,10 @@ def band_points(price, reg, start="2012-01-01"):
 
 
 def cycle_points(price, days=1460):
-    """Price relative to the halving-day price, one point a week, per halving cycle."""
+    """Price relative to the halving-day price, one point a week, per halving cycle. The running cycle ends on the
+    last close: the next weekly step would carry that close up to six days past the data."""
     out = []
-    px = dict(price)
+    last = price[-1][0] if price else ""
     for h in HALVINGS:
         base = c.at_or_before(price, h)
         if not base:
@@ -633,9 +634,12 @@ def cycle_points(price, days=1460):
         for k in range(0, days + 1, 7):
             d = (hd + dt.timedelta(days=k)).isoformat()
             hit = c.at_or_before(price, d)
-            if not hit or hit[0] < h or (dt.date.fromisoformat(d) - dt.date.fromisoformat(hit[0])).days > 6:
+            if d > last or not hit or hit[0] < h or (dt.date.fromisoformat(d) - dt.date.fromisoformat(hit[0])).days > 6:
                 break
             pts.append([k, round(hit[1] / base[1], 4)])
+        k_last = (dt.date.fromisoformat(last) - hd).days if last else -1
+        if pts and pts[-1][0] < k_last <= days:
+            pts.append([k_last, round(price[-1][1] / base[1], 4)])
         out.append({"halving": h, "label": h[:4], "pts": pts})
     return out
 
