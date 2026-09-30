@@ -1,7 +1,43 @@
 {
- "asOf": "2026-09-29T09:09+07:00",
- "asOfLabel": "29 Sep 2026, 09:09 BKK",
+ "asOf": "2026-09-30T08:23+07:00",
+ "asOfLabel": "30 Sep 2026, 08:23 BKK",
  "changes": [
+  {
+   "d": "30 Sep",
+   "href": "#markets",
+   "key": "sector.xlc",
+   "sec": "markets",
+   "t": "2026-09-30T08:23+07:00",
+   "text": "Communication services moved from Lagging to Improving on the rotation map (relative strength 90.6, momentum 100.1).",
+   "tier": "fyi"
+  },
+  {
+   "d": "30 Sep",
+   "href": "#ranking",
+   "key": "nearrank.europe",
+   "sec": "regime",
+   "t": "2026-09-30T08:23+07:00",
+   "text": "Near a flip: Europe equities price score +0.4 is inside the 0.5 band; one more step up changes the read from Conditions ahead, up.",
+   "tier": "fyi"
+  },
+  {
+   "d": "30 Sep",
+   "href": "#ranking",
+   "key": "rank.ust10",
+   "sec": "regime",
+   "t": "2026-09-30T08:23+07:00",
+   "text": "US 10-year Treasuries read changed: Divergence to Price ahead, down (conditions +0.4, price -1.0).",
+   "tier": "note"
+  },
+  {
+   "d": "30 Sep",
+   "href": "#ranking",
+   "key": "rank.semis",
+   "sec": "regime",
+   "t": "2026-09-30T08:23+07:00",
+   "text": "Semiconductors and mega-cap tech read changed: Aligned up to Price ahead, up (conditions +0.4, price +1.4).",
+   "tier": "must"
+  },
   {
    "d": "29 Sep",
    "href": "#sentiment",
