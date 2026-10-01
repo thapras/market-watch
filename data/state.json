@@ -1,5 +1,5 @@
 {
- "asOf": "2026-09-30T08:23+07:00",
+ "asOf": "2026-10-01T08:24+07:00",
  "date": "2026-09-29",
  "detector": {
   "btc": {
@@ -396,6 +396,10 @@
    "2026-09-30": [
     58.3,
     2869.8
+   ],
+   "2026-10-01": [
+    58.26,
+    2875.6
    ]
   },
   "fomc": {
@@ -2696,6 +2700,11 @@
     "equity": 0.58,
     "index": 0.97,
     "total": 0.88
+   },
+   "2026-09-29": {
+    "equity": 0.38,
+    "index": 1.01,
+    "total": 0.76
    }
   },
   "scores": {
@@ -4342,7 +4351,7 @@
     ],
     "copper": [
      -0.1,
-     1.6
+     1.0
     ],
     "em_ex_china": [
      0.7,
@@ -4358,7 +4367,7 @@
     ],
     "gold": [
      0.0,
-     -1.0
+     -0.8
     ],
     "gold_miners": [
      0.0,
@@ -4429,8 +4438,12 @@
    },
    "core_pce_mm": {
     "2026-09-30": {
+     "a": 0.2,
      "f": 0.3,
-     "p": 0.2
+     "p": 0.2,
+     "ref": "2026-08-01",
+     "scale": "prior",
+     "z": -1.0
     }
    },
    "cpi_mm": {
@@ -4535,7 +4548,7 @@
   "copper": {
    "cond": -0.1,
    "name": "Copper and industrial metals",
-   "price": 1.6,
+   "price": 1.0,
    "read": "Price ahead, up"
   },
   "em_ex_china": {
@@ -4559,7 +4572,7 @@
   "gold": {
    "cond": 0.0,
    "name": "Gold",
-   "price": -1.0,
+   "price": -0.8,
    "read": "Price ahead, down"
   },
   "gold_miners": {
@@ -4626,7 +4639,7 @@
  "regime": {
   "composites": {
    "cost": {
-    "value": -0.56
+    "value": -0.62
    },
    "growth": {
     "value": 0.6
@@ -4638,7 +4651,7 @@
     "value": 0.2
    },
    "risk": {
-    "value": 1.15
+    "value": 1.11
    }
   },
   "flags": {
@@ -4746,14 +4759,14 @@
   }
  },
  "v4": {
-  "date": "2026-09-29",
+  "date": "2026-09-30",
   "surprises": [
    {
-    "a": 7.33,
-    "date": "2026-09-29",
-    "f": 7.23,
-    "series": "jolts",
-    "z": 0.33
+    "a": 0.2,
+    "date": "2026-09-30",
+    "f": 0.3,
+    "series": "core_pce_mm",
+    "z": -1.0
    }
   ],
   "tier1_soon": [
@@ -4761,17 +4774,59 @@
    "payrolls:2026-10-02"
   ],
   "tier2_soon": [
-   "jolts:2026-09-29",
-   "china_pmi:2026-09-29",
-   "china_pmi_private:2026-09-29",
    "pce:2026-09-30",
    "eia:2026-09-30",
    "tankan:2026-09-30",
    "ism_mfg:2026-10-01",
-   "ez_cpi:2026-10-02"
+   "ez_cpi:2026-10-02",
+   "ism_svc:2026-10-05"
   ]
  },
  "v5": {
+  "asof": "2026-09-30",
+  "lean": {
+   "raw": "split",
+   "raw_count": 4,
+   "raw_since": "2026-09-29",
+   "since": "2026-09-29",
+   "state": "split"
+  },
+  "tally": {
+   "bear": 2,
+   "bull": 5,
+   "neutral": 15
+  },
+  "votes": {
+   "apprank": null,
+   "attention": null,
+   "band": 1,
+   "clock": 1,
+   "cross": 1,
+   "dollar": 0,
+   "dominance": null,
+   "drawdown": -1,
+   "etf": null,
+   "exflow": 1,
+   "fng": 0,
+   "funding": 0,
+   "liquidity": 0,
+   "ma200w": 0,
+   "ma50w": 1,
+   "mayer": 0,
+   "mvrv": 0,
+   "pi": 0,
+   "position": -1,
+   "puell": 0,
+   "risk": 0,
+   "roi1y": 0,
+   "rsi_m": 0,
+   "rsi_w": 0,
+   "stables": 0,
+   "thermo": 0,
+   "whales": null
+  }
+ },
+ "v5_yesterday": {
   "asof": "2026-09-29",
   "lean": {
    "raw": "split",

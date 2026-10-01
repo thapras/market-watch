@@ -1,7 +1,25 @@
 {
- "asOf": "2026-09-30T08:23+07:00",
- "asOfLabel": "30 Sep 2026, 08:23 BKK",
+ "asOf": "2026-10-01T08:24+07:00",
+ "asOfLabel": "1 Oct 2026, 08:24 BKK",
  "changes": [
+  {
+   "d": "1 Oct",
+   "href": "#calendar",
+   "key": "cal.eia:2026-09-30",
+   "sec": "calendar",
+   "t": "2026-10-01T08:24+07:00",
+   "text": "Coming Wed 30 Sep, 10:30 ET: EIA crude inventories (consensus change, mb -0.7M).",
+   "tier": "fyi"
+  },
+  {
+   "d": "1 Oct",
+   "href": "#calendar",
+   "key": "cal.tankan:2026-09-30",
+   "sec": "calendar",
+   "t": "2026-10-01T08:24+07:00",
+   "text": "Coming Wed 30 Sep, 19:50 ET: BoJ Tankan (consensus large manufacturers 25; non-manufacturers 36); options price a 0.9% S&P move.",
+   "tier": "fyi"
+  },
   {
    "d": "30 Sep",
    "href": "#markets",
