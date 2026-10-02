@@ -1,7 +1,97 @@
 {
- "asOf": "2026-10-01T08:24+07:00",
- "asOfLabel": "1 Oct 2026, 08:24 BKK",
+ "asOf": "2026-10-02T08:45+07:00",
+ "asOfLabel": "2 Oct 2026, 08:45 BKK",
  "changes": [
+  {
+   "d": "2 Oct",
+   "href": "#ranking",
+   "key": "nearrank.us_small",
+   "sec": "regime",
+   "t": "2026-10-02T08:45+07:00",
+   "text": "Near a flip: US small caps price score +0.4 is inside the 0.5 band; one more step up changes the read from Conditions ahead, up.",
+   "tier": "fyi"
+  },
+  {
+   "d": "2 Oct",
+   "href": "#ranking",
+   "key": "nearrank.bitcoin",
+   "sec": "regime",
+   "t": "2026-10-02T08:45+07:00",
+   "text": "Near a flip: Bitcoin conditions score -0.3 is inside the 0.5 band; one more step down changes the read from Price ahead, up.",
+   "tier": "fyi"
+  },
+  {
+   "d": "2 Oct",
+   "href": "#ranking",
+   "key": "nearrank.ust10",
+   "sec": "regime",
+   "t": "2026-10-02T08:45+07:00",
+   "text": "Near a flip: US 10-year Treasuries conditions score +0.4 is inside the 0.5 band; one more step up changes the read from Price ahead, down.",
+   "tier": "fyi"
+  },
+  {
+   "d": "2 Oct",
+   "href": "#calendar",
+   "key": "cal.ez_cpi:2026-10-02",
+   "sec": "calendar",
+   "t": "2026-10-02T08:45+07:00",
+   "text": "Coming Fri 2 Oct, 05:00 ET: Euro area CPI flash (consensus headline y/y 3.7%; core y/y 2.5%); options price a 1.1% S&P move.",
+   "tier": "fyi"
+  },
+  {
+   "d": "2 Oct",
+   "href": "#calendar",
+   "key": "cal.ism_svc:2026-10-05",
+   "sec": "calendar",
+   "t": "2026-10-02T08:45+07:00",
+   "text": "Coming Mon 5 Oct, 10:00 ET: ISM services.",
+   "tier": "fyi"
+  },
+  {
+   "d": "2 Oct",
+   "href": "#rotation",
+   "key": "theme.gdx",
+   "sec": "rotation",
+   "t": "2026-10-02T08:45+07:00",
+   "text": "Gold miners moved from Watch to Watch (exit) (0 of 5): no condition on.",
+   "tier": "note"
+  },
+  {
+   "d": "2 Oct",
+   "href": "#rotation",
+   "key": "theme.sil",
+   "sec": "rotation",
+   "t": "2026-10-02T08:45+07:00",
+   "text": "Silver miners moved from Watch to Watch (exit) (0 of 5): no condition on.",
+   "tier": "note"
+  },
+  {
+   "d": "2 Oct",
+   "href": "#ranking",
+   "key": "rank.reits",
+   "sec": "regime",
+   "t": "2026-10-02T08:45+07:00",
+   "text": "Real estate (REITs) read changed: Neutral to Price ahead, down (conditions +0.1, price -0.6).",
+   "tier": "note"
+  },
+  {
+   "d": "2 Oct",
+   "href": "#ranking",
+   "key": "rank.us_large",
+   "sec": "regime",
+   "t": "2026-10-02T08:45+07:00",
+   "text": "US large caps (S&P 500) read changed: Neutral to Price ahead, up (conditions +0.1, price +0.6).",
+   "tier": "note"
+  },
+  {
+   "d": "2 Oct",
+   "href": "#regime",
+   "key": "flag.credit",
+   "sec": "regime",
+   "t": "2026-10-02T08:45+07:00",
+   "text": "Credit stress flag changed: none to rising.",
+   "tier": "must"
+  },
   {
    "d": "1 Oct",
    "href": "#calendar",
