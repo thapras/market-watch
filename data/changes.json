@@ -1,7 +1,61 @@
 {
- "asOf": "2026-10-02T08:45+07:00",
- "asOfLabel": "2 Oct 2026, 08:45 BKK",
+ "asOf": "2026-10-03T08:17+07:00",
+ "asOfLabel": "3 Oct 2026, 08:17 BKK",
  "changes": [
+  {
+   "d": "3 Oct",
+   "href": "#ranking",
+   "key": "nearrank.gold_miners",
+   "sec": "regime",
+   "t": "2026-10-03T08:17+07:00",
+   "text": "Near a flip: Gold miners price score -0.4 is inside the 0.5 band; one more step down changes the read from Neutral.",
+   "tier": "fyi"
+  },
+  {
+   "d": "3 Oct",
+   "href": "#calendar",
+   "key": "cal.auction:10Y:2026-10-07",
+   "sec": "calendar",
+   "t": "2026-10-03T08:17+07:00",
+   "text": "Coming Wed 7 Oct, 13:00 ET: 10-year Treasury auction (reopening); options price a 0.7% S&P move.",
+   "tier": "fyi"
+  },
+  {
+   "d": "3 Oct",
+   "href": "#calendar",
+   "key": "cal.fomc_minutes:2026-10-07",
+   "sec": "calendar",
+   "t": "2026-10-03T08:17+07:00",
+   "text": "Coming Wed 7 Oct, 14:00 ET: FOMC minutes (Sep meeting); options price a 0.7% S&P move.",
+   "tier": "fyi"
+  },
+  {
+   "d": "3 Oct",
+   "href": "#sentiment",
+   "key": "cta.wti",
+   "sec": "sentiment",
+   "t": "2026-10-03T08:17+07:00",
+   "text": "CTA trend signal flipped to short in WTI crude.",
+   "tier": "note"
+  },
+  {
+   "d": "3 Oct",
+   "href": "#ranking",
+   "key": "rank.energy",
+   "sec": "regime",
+   "t": "2026-10-03T08:17+07:00",
+   "text": "Energy read changed: Price ahead, up to Aligned up (conditions +0.6, price +1.6).",
+   "tier": "must"
+  },
+  {
+   "d": "3 Oct",
+   "href": "#calendar",
+   "key": "surprise.ahe.2026-10-02",
+   "sec": "calendar",
+   "t": "2026-10-03T08:17+07:00",
+   "text": "Average hourly earnings m/m surprise: 0.1% against 0.3% expected (-2.0 sigma).",
+   "tier": "must"
+  },
   {
    "d": "2 Oct",
    "href": "#ranking",

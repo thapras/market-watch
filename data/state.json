@@ -1,5 +1,5 @@
 {
- "asOf": "2026-10-02T08:45+07:00",
+ "asOf": "2026-10-03T08:17+07:00",
  "date": "2026-10-01",
  "detector": {
   "btc": {
@@ -407,6 +407,10 @@
    "2026-10-02": [
     58.57,
     2896.6
+   ],
+   "2026-10-03": [
+    58.7,
+    2893.4
    ]
   },
   "fomc": {
@@ -4450,7 +4454,7 @@
      1.6
     ],
     "energy": [
-     0.4,
+     0.6,
      1.6
     ],
     "europe": [
@@ -4474,7 +4478,7 @@
      -0.6
     ],
     "semis": [
-     0.4,
+     0.6,
      1.6
     ],
     "silver": [
@@ -4486,7 +4490,7 @@
      null
     ],
     "us_hy": [
-     0.6,
+     0.8,
      0.0
     ],
     "us_large": [
@@ -4514,8 +4518,12 @@
      "z": 0.0
     },
     "2026-10-02": {
+     "a": 0.1,
      "f": 0.3,
-     "p": 0.3
+     "p": 0.3,
+     "ref": "2026-09-01",
+     "scale": "prior",
+     "z": -2.0
     }
    },
    "core_cpi_mm": {
@@ -4586,8 +4594,12 @@
      "z": 1.43
     },
     "2026-10-02": {
+     "a": 29.0,
      "f": 89.0,
-     "p": 162.0
+     "p": 162.0,
+     "ref": "2026-09-01",
+     "scale": "prior",
+     "z": -0.8
     }
    },
    "retail_mm": {
@@ -4610,8 +4622,12 @@
      "z": 0.0
     },
     "2026-10-02": {
+     "a": 4.2,
      "f": 4.1,
-     "p": 4.1
+     "p": 4.1,
+     "ref": "2026-09-01",
+     "scale": "prior",
+     "z": 1.0
     }
    }
   },
@@ -4650,10 +4666,10 @@
    "read": "Aligned up"
   },
   "energy": {
-   "cond": 0.4,
+   "cond": 0.6,
    "name": "Energy",
    "price": 1.6,
-   "read": "Price ahead, up"
+   "read": "Aligned up"
   },
   "europe": {
    "cond": 0.7,
@@ -4686,10 +4702,10 @@
    "read": "Price ahead, down"
   },
   "semis": {
-   "cond": 0.4,
+   "cond": 0.6,
    "name": "Semiconductors and mega-cap tech",
    "price": 1.6,
-   "read": "Price ahead, up"
+   "read": "Aligned up"
   },
   "silver": {
    "cond": 0.3,
@@ -4704,7 +4720,7 @@
    "read": null
   },
   "us_hy": {
-   "cond": 0.6,
+   "cond": 0.8,
    "name": "US high yield credit",
    "price": 0.0,
    "read": "Conditions ahead, up"
@@ -4731,10 +4747,10 @@
  "regime": {
   "composites": {
    "cost": {
-    "value": -0.58
+    "value": -0.64
    },
    "growth": {
-    "value": 0.61
+    "value": 0.83
    },
    "infl": {
     "value": -0.67
@@ -4743,7 +4759,7 @@
     "value": 0.2
    },
    "risk": {
-    "value": 1.09
+    "value": 1.08
    }
   },
   "flags": {
@@ -4838,7 +4854,7 @@
    "spx": null,
    "ust10": "up"
   },
-  "cot_date": "2026-09-22",
+  "cot_date": "2026-09-29",
   "crowd": "optimistic, not euphoric",
   "cta": {
    "copper": 1,
@@ -4847,23 +4863,46 @@
    "ndx": 1,
    "spx": 1,
    "ust10": -1,
-   "wti": 1
+   "wti": -1
   }
  },
  "v4": {
-  "date": "2026-10-01",
-  "surprises": [],
+  "date": "2026-10-02",
+  "surprises": [
+   {
+    "a": 29.0,
+    "date": "2026-10-02",
+    "f": 89.0,
+    "series": "nfp",
+    "z": -0.8
+   },
+   {
+    "a": 4.2,
+    "date": "2026-10-02",
+    "f": 4.1,
+    "series": "unrate",
+    "z": 1.0
+   },
+   {
+    "a": 0.1,
+    "date": "2026-10-02",
+    "f": 0.3,
+    "series": "ahe",
+    "z": -2.0
+   }
+  ],
   "tier1_soon": [
    "payrolls:2026-10-02"
   ],
   "tier2_soon": [
-   "ism_mfg:2026-10-01",
    "ez_cpi:2026-10-02",
-   "ism_svc:2026-10-05"
+   "ism_svc:2026-10-05",
+   "auction:10Y:2026-10-07",
+   "fomc_minutes:2026-10-07"
   ]
  },
  "v5": {
-  "asof": "2026-10-01",
+  "asof": "2026-10-02",
   "lean": {
    "raw": "split",
    "raw_count": 5,
