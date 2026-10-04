@@ -1,7 +1,25 @@
 {
- "asOf": "2026-10-03T08:17+07:00",
- "asOfLabel": "3 Oct 2026, 08:17 BKK",
+ "asOf": "2026-10-04T08:47+07:00",
+ "asOfLabel": "4 Oct 2026, 08:47 BKK",
  "changes": [
+  {
+   "d": "4 Oct",
+   "href": "#ranking",
+   "key": "nearrank.silver",
+   "sec": "regime",
+   "t": "2026-10-04T08:47+07:00",
+   "text": "Near a flip: Silver and silver miners conditions score +0.4 is inside the 0.5 band; one more step up changes the read from Price ahead, down.",
+   "tier": "fyi"
+  },
+  {
+   "d": "4 Oct",
+   "href": "#calendar",
+   "key": "cal.auction:30Y:2026-10-08",
+   "sec": "calendar",
+   "t": "2026-10-04T08:47+07:00",
+   "text": "Coming Thu 8 Oct, 13:00 ET: 30-year Treasury auction (reopening); options price a 0.7% S&P move.",
+   "tier": "fyi"
+  },
   {
    "d": "3 Oct",
    "href": "#ranking",
