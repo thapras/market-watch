@@ -1,5 +1,5 @@
 {
- "asOf": "2026-10-04T08:47+07:00",
+ "asOf": "2026-10-05T08:06+07:00",
  "date": "2026-10-02",
  "detector": {
   "btc": {
@@ -414,6 +414,10 @@
    "2026-10-04": [
     58.59,
     2900.9
+   ],
+   "2026-10-05": [
+    59.34,
+    2929.7
    ]
   },
   "fomc": {
@@ -4521,7 +4525,7 @@
     ],
     "bitcoin": [
      -0.3,
-     1.0
+     1.2
     ],
     "cash": [
      -0.4,
@@ -4529,7 +4533,7 @@
     ],
     "copper": [
      -0.1,
-     0.8
+     1.0
     ],
     "em_ex_china": [
      0.7,
@@ -4545,7 +4549,7 @@
     ],
     "gold": [
      0.0,
-     -1.0
+     -0.8
     ],
     "gold_miners": [
      0.0,
@@ -4577,7 +4581,7 @@
     ],
     "us_large": [
      0.1,
-     0.6
+     0.4
     ],
     "us_small": [
      0.7,
@@ -4726,7 +4730,7 @@
   "bitcoin": {
    "cond": -0.3,
    "name": "Bitcoin",
-   "price": 1.0,
+   "price": 1.2,
    "read": "Price ahead, up"
   },
   "cash": {
@@ -4738,7 +4742,7 @@
   "copper": {
    "cond": -0.1,
    "name": "Copper and industrial metals",
-   "price": 0.8,
+   "price": 1.0,
    "read": "Price ahead, up"
   },
   "em_ex_china": {
@@ -4762,7 +4766,7 @@
   "gold": {
    "cond": 0.0,
    "name": "Gold",
-   "price": -1.0,
+   "price": -0.8,
    "read": "Price ahead, down"
   },
   "gold_miners": {
@@ -4810,8 +4814,8 @@
   "us_large": {
    "cond": 0.1,
    "name": "US large caps (S&P 500)",
-   "price": 0.6,
-   "read": "Price ahead, up"
+   "price": 0.4,
+   "read": "Neutral"
   },
   "us_small": {
    "cond": 0.7,
@@ -4949,18 +4953,20 @@
   }
  },
  "v4": {
-  "date": "2026-10-03",
+  "date": "2026-10-04",
   "surprises": [],
   "tier1_soon": [],
   "tier2_soon": [
+   "opec:2026-10-04",
    "ism_svc:2026-10-05",
+   "eia:2026-10-07",
    "auction:10Y:2026-10-07",
    "fomc_minutes:2026-10-07",
    "auction:30Y:2026-10-08"
   ]
  },
  "v5": {
-  "asof": "2026-10-03",
+  "asof": "2026-10-04",
   "lean": {
    "raw": "split",
    "raw_count": 6,
