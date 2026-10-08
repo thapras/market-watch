@@ -1,7 +1,52 @@
 {
- "asOf": "2026-10-07T08:42+07:00",
- "asOfLabel": "7 Oct 2026, 08:42 BKK",
+ "asOf": "2026-10-08T09:10+07:00",
+ "asOfLabel": "8 Oct 2026, 09:10 BKK",
  "changes": [
+  {
+   "d": "8 Oct",
+   "href": "#ranking",
+   "key": "nearrank.us_hy",
+   "sec": "regime",
+   "t": "2026-10-08T09:10+07:00",
+   "text": "Near a flip: US high yield credit conditions score +0.4 is inside the 0.5 band; one more step up changes the read from Neutral.",
+   "tier": "fyi"
+  },
+  {
+   "d": "8 Oct",
+   "href": "#ranking",
+   "key": "nearrank.semis",
+   "sec": "regime",
+   "t": "2026-10-08T09:10+07:00",
+   "text": "Near a flip: Semiconductors and mega-cap tech conditions score +0.4 is inside the 0.5 band; one more step up changes the read from Price ahead, up.",
+   "tier": "fyi"
+  },
+  {
+   "d": "8 Oct",
+   "href": "#rotation",
+   "key": "theme.xop",
+   "sec": "rotation",
+   "t": "2026-10-08T09:10+07:00",
+   "text": "Oil and gas producers moved from Watch to Early (2 of 5): Relative strength, Macro.",
+   "tier": "note"
+  },
+  {
+   "d": "8 Oct",
+   "href": "#regime",
+   "key": "flag.crowd",
+   "sec": "regime",
+   "t": "2026-10-08T09:10+07:00",
+   "text": "Crowd flag changed: optimistic, not euphoric to neutral.",
+   "tier": "note"
+  },
+  {
+   "d": "8 Oct",
+   "href": "#ranking",
+   "key": "rank.us_hy",
+   "sec": "regime",
+   "t": "2026-10-08T09:10+07:00",
+   "text": "US high yield credit read changed: Conditions ahead, up to Neutral (conditions +0.4, price +0.0).",
+   "tier": "note"
+  },
   {
    "d": "7 Oct",
    "href": "#ranking",
