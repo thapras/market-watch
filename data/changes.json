@@ -1,7 +1,70 @@
 {
- "asOf": "2026-10-08T09:10+07:00",
- "asOfLabel": "8 Oct 2026, 09:10 BKK",
+ "asOf": "2026-10-09T09:23+07:00",
+ "asOfLabel": "9 Oct 2026, 09:23 BKK",
  "changes": [
+  {
+   "d": "9 Oct",
+   "href": "#ranking",
+   "key": "nearrank.us_small",
+   "sec": "regime",
+   "t": "2026-10-09T09:23+07:00",
+   "text": "Near a flip: US small caps price score +0.4 is inside the 0.5 band; one more step up changes the read from Conditions ahead, up.",
+   "tier": "fyi"
+  },
+  {
+   "d": "9 Oct",
+   "href": "#ranking",
+   "key": "nearrank.bitcoin",
+   "sec": "regime",
+   "t": "2026-10-09T09:23+07:00",
+   "text": "Near a flip: Bitcoin conditions score -0.4 is inside the 0.5 band; one more step down changes the read from Price ahead, up.",
+   "tier": "fyi"
+  },
+  {
+   "d": "9 Oct",
+   "href": "#ranking",
+   "key": "nearrank.europe",
+   "sec": "regime",
+   "t": "2026-10-09T09:23+07:00",
+   "text": "Near a flip: Europe equities conditions score +0.4 is inside the 0.5 band; one more step up changes the read from Neutral.",
+   "tier": "fyi"
+  },
+  {
+   "d": "9 Oct",
+   "href": "#ranking",
+   "key": "nearrank.ust10",
+   "sec": "regime",
+   "t": "2026-10-09T09:23+07:00",
+   "text": "Near a flip: US 10-year Treasuries conditions score +0.3 is inside the 0.5 band; one more step up changes the read from Price ahead, down.",
+   "tier": "fyi"
+  },
+  {
+   "d": "9 Oct",
+   "href": "#rotation",
+   "key": "theme.kbe",
+   "sec": "rotation",
+   "t": "2026-10-09T09:23+07:00",
+   "text": "Banks moved from Watch (exit) to Watch (1 of 5): Macro.",
+   "tier": "note"
+  },
+  {
+   "d": "9 Oct",
+   "href": "#rotation",
+   "key": "theme.kre",
+   "sec": "rotation",
+   "t": "2026-10-09T09:23+07:00",
+   "text": "Regional banks moved from Watch (exit) to Watch (1 of 5): Macro.",
+   "tier": "note"
+  },
+  {
+   "d": "9 Oct",
+   "href": "#ranking",
+   "key": "rank.europe",
+   "sec": "regime",
+   "t": "2026-10-09T09:23+07:00",
+   "text": "Europe equities read changed: Conditions ahead, up to Neutral (conditions +0.4, price -0.2).",
+   "tier": "note"
+  },
   {
    "d": "8 Oct",
    "href": "#ranking",
