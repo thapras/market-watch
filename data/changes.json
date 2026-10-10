@@ -1,7 +1,52 @@
 {
- "asOf": "2026-10-09T09:23+07:00",
- "asOfLabel": "9 Oct 2026, 09:23 BKK",
+ "asOf": "2026-10-10T08:51+07:00",
+ "asOfLabel": "10 Oct 2026, 08:51 BKK",
  "changes": [
+  {
+   "d": "10 Oct",
+   "href": "#ranking",
+   "key": "nearrank.gold_miners",
+   "sec": "regime",
+   "t": "2026-10-10T08:51+07:00",
+   "text": "Near a flip: Gold miners conditions score -0.3 is inside the 0.5 band; one more step down changes the read from Neutral.",
+   "tier": "fyi"
+  },
+  {
+   "d": "10 Oct",
+   "href": "#ranking",
+   "key": "rank.reits",
+   "sec": "regime",
+   "t": "2026-10-10T08:51+07:00",
+   "text": "Real estate (REITs) read changed: Price ahead, down to Neutral (conditions -0.1, price -0.4).",
+   "tier": "note"
+  },
+  {
+   "d": "10 Oct",
+   "href": "#regime",
+   "key": "flag.credit",
+   "sec": "regime",
+   "t": "2026-10-10T08:51+07:00",
+   "text": "Credit stress flag changed: none to rising.",
+   "tier": "must"
+  },
+  {
+   "d": "10 Oct",
+   "href": "#sentiment",
+   "key": "div.crude",
+   "sec": "sentiment",
+   "t": "2026-10-10T08:51+07:00",
+   "text": "Divergence alert: Crude oil crossed +1.5 for a second week (the crowd is fearful, smart money is buying).",
+   "tier": "must"
+  },
+  {
+   "d": "10 Oct",
+   "href": "#sentiment",
+   "key": "div.dxy",
+   "sec": "sentiment",
+   "t": "2026-10-10T08:51+07:00",
+   "text": "Divergence alert: US dollar crossed -1.5 for a second week (the crowd is long, smart money is leaving).",
+   "tier": "must"
+  },
   {
    "d": "9 Oct",
    "href": "#ranking",
