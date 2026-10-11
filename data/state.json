@@ -1,5 +1,5 @@
 {
- "asOf": "2026-10-10T08:51+07:00",
+ "asOf": "2026-10-11T08:06+07:00",
  "date": "2026-10-09",
  "detector": {
   "btc": {
@@ -439,6 +439,10 @@
    "2026-10-10": [
     59.14,
     2801.8
+   ],
+   "2026-10-11": [
+    59.11,
+    2813.3
    ]
   },
   "fomc": {
@@ -2781,6 +2785,11 @@
     "equity": 0.62,
     "index": 1.03,
     "total": 0.89
+   },
+   "2026-10-09": {
+    "equity": 0.56,
+    "index": 1.13,
+    "total": 0.82
    }
   },
   "scores": {
@@ -4945,7 +4954,7 @@
     ],
     "copper": [
      -0.2,
-     1.4
+     0.8
     ],
     "em_ex_china": [
      0.6,
@@ -4976,7 +4985,7 @@
      -0.4
     ],
     "semis": [
-     0.3,
+     0.4,
      1.6
     ],
     "silver": [
@@ -4992,7 +5001,7 @@
      0.0
     ],
     "us_large": [
-     0.0,
+     0.1,
      0.6
     ],
     "us_small": [
@@ -5154,7 +5163,7 @@
   "copper": {
    "cond": -0.2,
    "name": "Copper and industrial metals",
-   "price": 1.4,
+   "price": 0.8,
    "read": "Price ahead, up"
   },
   "em_ex_china": {
@@ -5200,7 +5209,7 @@
    "read": "Neutral"
   },
   "semis": {
-   "cond": 0.3,
+   "cond": 0.4,
    "name": "Semiconductors and mega-cap tech",
    "price": 1.6,
    "read": "Price ahead, up"
@@ -5224,7 +5233,7 @@
    "read": "Conditions ahead, up"
   },
   "us_large": {
-   "cond": 0.0,
+   "cond": 0.1,
    "name": "US large caps (S&P 500)",
    "price": 0.6,
    "read": "Price ahead, up"
@@ -5257,7 +5266,7 @@
     "value": 0.2
    },
    "risk": {
-    "value": 1.14
+    "value": 1.13
    }
   },
   "flags": {
@@ -5365,13 +5374,13 @@
   }
  },
  "v4": {
-  "date": "2026-10-09",
+  "date": "2026-10-10",
   "surprises": [],
   "tier1_soon": [],
   "tier2_soon": []
  },
  "v5": {
-  "asof": "2026-10-09",
+  "asof": "2026-10-10",
   "lean": {
    "raw": "split",
    "raw_count": 11,
