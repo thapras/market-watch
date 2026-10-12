@@ -1,7 +1,61 @@
 {
- "asOf": "2026-10-11T08:06+07:00",
- "asOfLabel": "11 Oct 2026, 08:06 BKK",
+ "asOf": "2026-10-12T08:31+07:00",
+ "asOfLabel": "12 Oct 2026, 08:31 BKK",
  "changes": [
+  {
+   "d": "12 Oct",
+   "href": "#rotation",
+   "key": "near.cash",
+   "sec": "rotation",
+   "t": "2026-10-12T08:31+07:00",
+   "text": "Near a flip: Cash leaving the sidelines sits at 0.5 of 5; Flows would move it to Watch.",
+   "tier": "fyi"
+  },
+  {
+   "d": "12 Oct",
+   "href": "#calendar",
+   "key": "cal.china_credit:2026-10-13",
+   "sec": "calendar",
+   "t": "2026-10-12T08:31+07:00",
+   "text": "Coming Tue 13 Oct, 04:03 ET: China credit data (new loans, financing, M2) (consensus new loans 300B; M2 y/y 7.5%); options price a 0.5% S&P move.",
+   "tier": "fyi"
+  },
+  {
+   "d": "12 Oct",
+   "href": "#calendar",
+   "key": "cal.china_prices:2026-10-13",
+   "sec": "calendar",
+   "t": "2026-10-12T08:31+07:00",
+   "text": "Coming Tue 13 Oct, 21:30 ET: China CPI and PPI (consensus CPI y/y 1.0%; PPI y/y 4.5%); options price a 0.7% S&P move.",
+   "tier": "fyi"
+  },
+  {
+   "d": "12 Oct",
+   "href": "#calendar",
+   "key": "cal.china_trade:2026-10-13",
+   "sec": "calendar",
+   "t": "2026-10-12T08:31+07:00",
+   "text": "Coming Tue 13 Oct, 22:03 ET: China trade balance (consensus CNY 805B; USD 118.1B); options price a 0.7% S&P move.",
+   "tier": "fyi"
+  },
+  {
+   "d": "12 Oct",
+   "href": "#calendar",
+   "key": "cal.retail:2026-10-15",
+   "sec": "calendar",
+   "t": "2026-10-12T08:31+07:00",
+   "text": "Coming Thu 15 Oct, 08:30 ET: US retail sales (consensus m/m 0.3%; ex autos 0.5%); options price a 0.7% S&P move.",
+   "tier": "fyi"
+  },
+  {
+   "d": "12 Oct",
+   "href": "#calendar",
+   "key": "cal.cpi:2026-10-14",
+   "sec": "calendar",
+   "t": "2026-10-12T08:31+07:00",
+   "text": "Coming Wed 14 Oct, 08:30 ET: US CPI (consensus m/m 0.6%; core m/m 0.2%; y/y 3.6%); options price a 0.7% S&P move.",
+   "tier": "note"
+  },
   {
    "d": "10 Oct",
    "href": "#ranking",
