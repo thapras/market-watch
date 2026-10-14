@@ -1,5 +1,5 @@
 {
- "asOf": "2026-10-13T10:06+07:00",
+ "asOf": "2026-10-14T08:19+07:00",
  "date": "2026-10-12",
  "detector": {
   "btc": {
@@ -449,6 +449,10 @@
    "2026-10-13": [
     59.35,
     2792.2
+   ],
+   "2026-10-14": [
+    59.21,
+    2822.4
    ]
   },
   "fomc": {
@@ -5008,7 +5012,7 @@
      null
     ],
     "us_hy": [
-     0.7,
+     0.4,
      0.0
     ],
     "us_large": [
@@ -5254,10 +5258,10 @@
    "read": null
   },
   "us_hy": {
-   "cond": 0.7,
+   "cond": 0.4,
    "name": "US high yield credit",
    "price": 0.0,
-   "read": "Conditions ahead, up"
+   "read": "Neutral"
   },
   "us_large": {
    "cond": 0.0,
@@ -5281,7 +5285,7 @@
  "regime": {
   "composites": {
    "cost": {
-    "value": -0.88
+    "value": -0.86
    },
    "growth": {
     "value": 0.8
@@ -5293,13 +5297,13 @@
     "value": 0.2
    },
    "risk": {
-    "value": 1.09
+    "value": 1.12
    }
   },
   "flags": {
    "breadth": "narrowing",
    "cost": "tightening",
-   "credit": "rising",
+   "credit": "none",
    "cycle": "Recovery",
    "cycle_detail": "growth up, inflation down",
    "dollar": "strengthening",
@@ -5401,22 +5405,22 @@
   }
  },
  "v4": {
-  "date": "2026-10-12",
+  "date": "2026-10-13",
   "surprises": [],
   "tier1_soon": [
    "cpi:2026-10-14"
   ],
   "tier2_soon": [
-   "china_credit:2026-10-13",
    "china_prices:2026-10-13",
    "china_trade:2026-10-13",
+   "china_credit:2026-10-14",
    "retail:2026-10-15",
    "eia:2026-10-15",
    "blackout:2026-10-17"
   ]
  },
  "v5": {
-  "asof": "2026-10-12",
+  "asof": "2026-10-13",
   "lean": {
    "raw": "split",
    "raw_count": 12,

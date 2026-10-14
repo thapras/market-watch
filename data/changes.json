@@ -1,7 +1,16 @@
 {
- "asOf": "2026-10-13T10:06+07:00",
- "asOfLabel": "13 Oct 2026, 10:06 BKK",
+ "asOf": "2026-10-14T08:19+07:00",
+ "asOfLabel": "14 Oct 2026, 08:19 BKK",
  "changes": [
+  {
+   "d": "14 Oct",
+   "href": "#calendar",
+   "key": "cal.china_credit:2026-10-14",
+   "sec": "calendar",
+   "t": "2026-10-14T08:19+07:00",
+   "text": "Coming Wed 14 Oct, 04:03 ET: China credit data (new loans, financing, M2) (consensus new loans 1025B; M2 y/y 7.4%); options price a 0.9% S&P move.",
+   "tier": "fyi"
+  },
   {
    "d": "13 Oct",
    "href": "#ranking",
