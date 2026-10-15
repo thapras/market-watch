@@ -1,7 +1,124 @@
 {
- "asOf": "2026-10-14T08:19+07:00",
- "asOfLabel": "14 Oct 2026, 08:19 BKK",
+ "asOf": "2026-10-15T07:42+07:00",
+ "asOfLabel": "15 Oct 2026, 07:42 BKK",
  "changes": [
+  {
+   "d": "15 Oct",
+   "href": "#ranking",
+   "key": "nearrank.em_ex_china",
+   "sec": "regime",
+   "t": "2026-10-15T07:42+07:00",
+   "text": "Near a flip: Emerging markets ex China conditions score +0.3 is inside the 0.5 band; one more step up changes the read from Price ahead, up.",
+   "tier": "fyi"
+  },
+  {
+   "d": "15 Oct",
+   "href": "#ranking",
+   "key": "nearrank.gold",
+   "sec": "regime",
+   "t": "2026-10-15T07:42+07:00",
+   "text": "Near a flip: Gold conditions score +0.3 is inside the 0.5 band; one more step up changes the read from Price ahead, down.",
+   "tier": "fyi"
+  },
+  {
+   "d": "15 Oct",
+   "href": "#ranking",
+   "key": "nearrank.reits",
+   "sec": "regime",
+   "t": "2026-10-15T07:42+07:00",
+   "text": "Near a flip: Real estate (REITs) price score -0.4 is inside the 0.5 band; one more step down changes the read from Conditions ahead, down.",
+   "tier": "fyi"
+  },
+  {
+   "d": "15 Oct",
+   "href": "#calendar",
+   "key": "cal.eia:2026-10-15",
+   "sec": "calendar",
+   "t": "2026-10-15T07:42+07:00",
+   "text": "Coming Thu 15 Oct, 10:30 ET: EIA crude inventories (consensus change, mb 0.2M); options price a 1.1% S&P move.",
+   "tier": "fyi"
+  },
+  {
+   "d": "15 Oct",
+   "href": "#calendar",
+   "key": "cal.blackout:2026-10-17",
+   "sec": "calendar",
+   "t": "2026-10-15T07:42+07:00",
+   "text": "Coming Sat 17 Oct: Fed communications blackout begins (to 29 Oct).",
+   "tier": "fyi"
+  },
+  {
+   "d": "15 Oct",
+   "href": "#regime",
+   "key": "flag.momentum",
+   "sec": "regime",
+   "t": "2026-10-15T07:42+07:00",
+   "text": "Momentum factor flag changed: leading to mixed.",
+   "tier": "note"
+  },
+  {
+   "d": "15 Oct",
+   "href": "#ranking",
+   "key": "rank.us_small",
+   "sec": "regime",
+   "t": "2026-10-15T07:42+07:00",
+   "text": "US small caps read changed: Conditions ahead, up to Neutral (conditions +0.0, price -0.4).",
+   "tier": "note"
+  },
+  {
+   "d": "15 Oct",
+   "href": "#ranking",
+   "key": "rank.banks",
+   "sec": "regime",
+   "t": "2026-10-15T07:42+07:00",
+   "text": "Banks and financials read changed: Conditions ahead, up to Neutral (conditions +0.1, price +0.2).",
+   "tier": "note"
+  },
+  {
+   "d": "15 Oct",
+   "href": "#ranking",
+   "key": "rank.bitcoin",
+   "sec": "regime",
+   "t": "2026-10-15T07:42+07:00",
+   "text": "Bitcoin read changed: Price ahead, up to Divergence (conditions -0.6, price +1.4).",
+   "tier": "note"
+  },
+  {
+   "d": "15 Oct",
+   "href": "#ranking",
+   "key": "rank.us_large",
+   "sec": "regime",
+   "t": "2026-10-15T07:42+07:00",
+   "text": "US large caps (S&P 500) read changed: Price ahead, up to Neutral (conditions -0.4, price +0.4).",
+   "tier": "note"
+  },
+  {
+   "d": "15 Oct",
+   "href": "#regime",
+   "key": "flag.cycle",
+   "sec": "regime",
+   "t": "2026-10-15T07:42+07:00",
+   "text": "Cycle moved from Recovery to Overheat (growth up, inflation up).",
+   "tier": "must"
+  },
+  {
+   "d": "15 Oct",
+   "href": "#ranking",
+   "key": "rank.em_ex_china",
+   "sec": "regime",
+   "t": "2026-10-15T07:42+07:00",
+   "text": "Emerging markets ex China read changed: Aligned up to Price ahead, up (conditions +0.3, price +1.0).",
+   "tier": "must"
+  },
+  {
+   "d": "15 Oct",
+   "href": "#ranking",
+   "key": "rank.japan",
+   "sec": "regime",
+   "t": "2026-10-15T07:42+07:00",
+   "text": "Japan equities read changed: Aligned up to Price ahead, up (conditions +0.1, price +0.8).",
+   "tier": "must"
+  },
   {
    "d": "14 Oct",
    "href": "#calendar",
