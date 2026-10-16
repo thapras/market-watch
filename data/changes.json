@@ -1,7 +1,25 @@
 {
- "asOf": "2026-10-15T07:42+07:00",
- "asOfLabel": "15 Oct 2026, 07:42 BKK",
+ "asOf": "2026-10-16T07:32+07:00",
+ "asOfLabel": "16 Oct 2026, 07:32 BKK",
  "changes": [
+  {
+   "d": "16 Oct",
+   "href": "#rotation",
+   "key": "near.kre",
+   "sec": "rotation",
+   "t": "2026-10-16T07:32+07:00",
+   "text": "Near a flip: Regional banks sits at 0.5 of 5; Macro would move it to Watch.",
+   "tier": "fyi"
+  },
+  {
+   "d": "16 Oct",
+   "href": "#rotation",
+   "key": "theme.smh",
+   "sec": "rotation",
+   "t": "2026-10-16T07:32+07:00",
+   "text": "Semiconductors moved from Watch to Watch (exit) (0 of 5): no condition on.",
+   "tier": "note"
+  },
   {
    "d": "15 Oct",
    "href": "#ranking",
