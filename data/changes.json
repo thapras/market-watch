@@ -1,7 +1,52 @@
 {
- "asOf": "2026-10-16T07:32+07:00",
- "asOfLabel": "16 Oct 2026, 07:32 BKK",
+ "asOf": "2026-10-17T07:40+07:00",
+ "asOfLabel": "17 Oct 2026, 07:40 BKK",
  "changes": [
+  {
+   "d": "17 Oct",
+   "href": "#ranking",
+   "key": "nearrank.bitcoin",
+   "sec": "regime",
+   "t": "2026-10-17T07:40+07:00",
+   "text": "Near a flip: Bitcoin conditions score -0.3 is inside the 0.5 band; one more step down changes the read from Price ahead, up.",
+   "tier": "fyi"
+  },
+  {
+   "d": "17 Oct",
+   "href": "#calendar",
+   "key": "cal.auction:20Y:2026-10-21",
+   "sec": "calendar",
+   "t": "2026-10-17T07:40+07:00",
+   "text": "Coming Wed 21 Oct, 13:00 ET: 20-year Treasury auction (reopening); options price a 0.9% S&P move.",
+   "tier": "fyi"
+  },
+  {
+   "d": "17 Oct",
+   "href": "#sentiment",
+   "key": "cta.ndx",
+   "sec": "sentiment",
+   "t": "2026-10-17T07:40+07:00",
+   "text": "CTA trend signal flipped to short in Nasdaq 100.",
+   "tier": "note"
+  },
+  {
+   "d": "17 Oct",
+   "href": "#sentiment",
+   "key": "cta.wti",
+   "sec": "sentiment",
+   "t": "2026-10-17T07:40+07:00",
+   "text": "CTA trend signal flipped to long in WTI crude.",
+   "tier": "note"
+  },
+  {
+   "d": "17 Oct",
+   "href": "#ranking",
+   "key": "rank.silver",
+   "sec": "regime",
+   "t": "2026-10-17T07:40+07:00",
+   "text": "Silver and silver miners read changed: Price ahead, down to Divergence (conditions +0.6, price -1.0).",
+   "tier": "note"
+  },
   {
    "d": "16 Oct",
    "href": "#rotation",
