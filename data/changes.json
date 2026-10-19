@@ -1,7 +1,34 @@
 {
- "asOf": "2026-10-18T07:08+07:00",
- "asOfLabel": "18 Oct 2026, 07:08 BKK",
+ "asOf": "2026-10-19T07:20+07:00",
+ "asOfLabel": "19 Oct 2026, 07:20 BKK",
  "changes": [
+  {
+   "d": "19 Oct",
+   "href": "#calendar",
+   "key": "cal.china_activity:2026-10-18",
+   "sec": "calendar",
+   "t": "2026-10-19T07:20+07:00",
+   "text": "Coming Sun 18 Oct, 22:00 ET: China activity data (consensus industrial production 5.4%; retail sales 0.5%; investment -7.3%); options price a 0.7% S&P move.",
+   "tier": "fyi"
+  },
+  {
+   "d": "19 Oct",
+   "href": "#calendar",
+   "key": "cal.china_gdp:2026-10-18",
+   "sec": "calendar",
+   "t": "2026-10-19T07:20+07:00",
+   "text": "Coming Sun 18 Oct, 22:00 ET: China GDP (consensus q/y 4.4%); options price a 0.7% S&P move.",
+   "tier": "fyi"
+  },
+  {
+   "d": "19 Oct",
+   "href": "#calendar",
+   "key": "cal.eia:2026-10-21",
+   "sec": "calendar",
+   "t": "2026-10-19T07:20+07:00",
+   "text": "Coming Wed 21 Oct, 10:30 ET: EIA crude inventories; options price a 0.9% S&P move.",
+   "tier": "fyi"
+  },
   {
    "d": "18 Oct",
    "href": "#ranking",
