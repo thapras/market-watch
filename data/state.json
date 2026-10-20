@@ -1,5 +1,5 @@
 {
- "asOf": "2026-10-19T07:20+07:00",
+ "asOf": "2026-10-20T08:08+07:00",
  "date": "2026-10-16",
  "detector": {
   "btc": {
@@ -475,6 +475,10 @@
    "2026-10-19": [
     60.12,
     2731.6
+   ],
+   "2026-10-20": [
+    59.55,
+    2752.7
    ]
   },
   "fomc": {
@@ -5012,7 +5016,7 @@
      null
     ],
     "copper": [
-     0.0,
+     0.1,
      0.6
     ],
     "em_ex_china": [
@@ -5024,8 +5028,8 @@
      1.8
     ],
     "europe": [
-     0.0,
-     0.4
+     0.1,
+     0.2
     ],
     "gold": [
      0.4,
@@ -5052,16 +5056,16 @@
      -1.0
     ],
     "thailand": [
-     0.2,
+     0.3,
      null
     ],
     "us_hy": [
-     0.2,
+     0.6,
      0.0
     ],
     "us_large": [
-     -0.3,
-     0.4
+     -0.2,
+     0.6
     ],
     "us_small": [
      0.1,
@@ -5252,7 +5256,7 @@
    "read": null
   },
   "copper": {
-   "cond": 0.0,
+   "cond": 0.1,
    "name": "Copper and industrial metals",
    "price": 0.6,
    "read": "Price ahead, up"
@@ -5270,9 +5274,9 @@
    "read": "Aligned up"
   },
   "europe": {
-   "cond": 0.0,
+   "cond": 0.1,
    "name": "Europe equities",
-   "price": 0.4,
+   "price": 0.2,
    "read": "Neutral"
   },
   "gold": {
@@ -5312,22 +5316,22 @@
    "read": "Divergence"
   },
   "thailand": {
-   "cond": 0.2,
+   "cond": 0.3,
    "name": "Thailand (SET)",
    "price": null,
    "read": null
   },
   "us_hy": {
-   "cond": 0.2,
+   "cond": 0.6,
    "name": "US high yield credit",
    "price": 0.0,
-   "read": "Neutral"
+   "read": "Conditions ahead, up"
   },
   "us_large": {
-   "cond": -0.3,
+   "cond": -0.2,
    "name": "US large caps (S&P 500)",
-   "price": 0.4,
-   "read": "Neutral"
+   "price": 0.6,
+   "read": "Price ahead, up"
   },
   "us_small": {
    "cond": 0.1,
@@ -5345,7 +5349,7 @@
  "regime": {
   "composites": {
    "cost": {
-    "value": -0.78
+    "value": -0.74
    },
    "growth": {
     "value": 0.67
@@ -5357,7 +5361,7 @@
     "value": 0.2
    },
    "risk": {
-    "value": 0.65
+    "value": 0.68
    }
   },
   "flags": {
@@ -5465,17 +5469,15 @@
   }
  },
  "v4": {
-  "date": "2026-10-18",
+  "date": "2026-10-19",
   "surprises": [],
   "tier1_soon": [],
   "tier2_soon": [
-   "china_activity:2026-10-18",
-   "china_gdp:2026-10-18",
    "eia:2026-10-21"
   ]
  },
  "v5": {
-  "asof": "2026-10-18",
+  "asof": "2026-10-19",
   "lean": {
    "raw": "split",
    "raw_count": 15,

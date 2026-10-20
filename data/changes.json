@@ -1,7 +1,25 @@
 {
- "asOf": "2026-10-19T07:20+07:00",
- "asOfLabel": "19 Oct 2026, 07:20 BKK",
+ "asOf": "2026-10-20T08:08+07:00",
+ "asOfLabel": "20 Oct 2026, 08:08 BKK",
  "changes": [
+  {
+   "d": "20 Oct",
+   "href": "#rotation",
+   "key": "near.cash",
+   "sec": "rotation",
+   "t": "2026-10-20T08:08+07:00",
+   "text": "Near a flip: Cash leaving the sidelines sits at 0.5 of 5; Flows would move it to Watch.",
+   "tier": "fyi"
+  },
+  {
+   "d": "20 Oct",
+   "href": "#ranking",
+   "key": "rank.us_hy",
+   "sec": "regime",
+   "t": "2026-10-20T08:08+07:00",
+   "text": "US high yield credit read changed: Neutral to Conditions ahead, up (conditions +0.6, price +0.0).",
+   "tier": "note"
+  },
   {
    "d": "19 Oct",
    "href": "#calendar",
