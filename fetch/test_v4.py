@@ -78,6 +78,7 @@ class Rules(unittest.TestCase):
         ff = [{"title": "Non-Farm Employment Change", "country": "USD", "date": "2026-09-04T08:30:00-04:00", "impact": "High", "forecast": "58K", "previous": "-23K"},
               {"title": "Unemployment Rate", "country": "USD", "date": "2026-09-04T08:30:00-04:00", "impact": "High", "forecast": "4.1%", "previous": "4.1%"},
               {"title": "Bank Holiday", "country": "GBP", "date": "2026-08-31T00:00:00-04:00", "impact": "Holiday", "forecast": "", "previous": ""},
+              {"title": "Daylight Saving Time Shift", "country": "GBP", "date": "2026-10-24T00:00:00-04:00", "impact": "Holiday", "forecast": "", "previous": ""},
               {"title": "Housing Starts", "country": "USD", "date": "2026-09-02T08:30:00-04:00", "impact": "Low", "forecast": "1.3M", "previous": "1.3M"}]
         rows = cal.ff_events(ff)
         self.assertEqual([r["id"] for r in rows], ["payrolls:2026-09-04", "holiday:GBP:2026-08-31"])     # housing starts is excluded
@@ -136,6 +137,9 @@ class Parsers(unittest.TestCase):
              {"securityType": "Bond", "securityTerm": "30-Year", "auctionDate": "2026-09-10T00:00:00", "reopening": "No", "offeringAmount": ""}]
         self.assertEqual(sources.parse_treasury_upcoming(j), [{"date": "2026-09-09", "term": "10Y", "reopening": True, "amount": 42.0},
                                                               {"date": "2026-09-10", "term": "30Y", "reopening": False, "amount": None}])
+        announced = [{"securityType": "Bond", "securityTerm": "19-Year 10-Month", "auctionDate": None, "competitiveAuctionCloseDate": "2026-10-21T00:00:00",
+                      "reopening": "Yes", "offeringAmount": "13000000000"}]      # the live shape on 21 Oct 2026: no auctionDate
+        self.assertEqual(sources.parse_treasury_upcoming(announced), [{"date": "2026-10-21", "term": "20Y", "reopening": True, "amount": 13.0}])
         chain = {"timestamp": "2026-08-30 01:59:42", "data": {"current_price": 7711.76, "iv30": 11.2, "last_trade_time": "2026-08-28T16:14:59", "options": [
             {"option": "SPXW260831C07700000", "iv": 0.061}, {"option": "SPXW260831P07700000", "iv": 0.062},
             {"option": "SPXW260901C07700000", "iv": 0.073}, {"option": "SPXW260901P07700000", "iv": 0.074},

@@ -797,7 +797,9 @@ def parse_treasury_upcoming(j):
             amount = float(r["offeringAmount"]) / 1e9 if r.get("offeringAmount") else None
         except ValueError:
             amount = None
-        out.append({"date": (r.get("auctionDate") or "")[:10], "term": term, "reopening": r.get("reopening") == "Yes", "amount": amount})
+        # announced auctions can carry an empty auctionDate; the competitive close is the auction day (Oct 2026)
+        date = (r.get("auctionDate") or r.get("competitiveAuctionCloseDate") or "")[:10]
+        out.append({"date": date, "term": term, "reopening": r.get("reopening") == "Yes", "amount": amount})
     return sorted(out, key=lambda x: x["date"])
 
 

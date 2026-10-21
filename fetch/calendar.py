@@ -458,8 +458,8 @@ def ff_events(ff):
         date, t = x["date"][:10], x["date"][11:16]
         if x["impact"] == "Holiday":
             market = HOLIDAY_MARKET.get(x["country"])
-            if not market:
-                continue
+            if not market or "daylight saving" in x["title"].lower():
+                continue                # a clock change is listed as a holiday but closes nothing
             eid = "holiday:%s:%s" % (x["country"], date)
             if eid not in rows:
                 rows[eid] = _event("holiday", date, id=eid, name="%s: %s" % (market, x["title"]), kind="holiday", confirmed=True,
