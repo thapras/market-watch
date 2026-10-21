@@ -1,0 +1,26 @@
+{
+ "events": {
+  "auction:20Y:2026-10-21": {
+   "day": "Wed 21 Oct",
+   "expect": "$13B of 20-year bonds, with the 10Y at 5.15% and its divergence alert at +3.3 (smart money buying). A demand test for the long end: a tail over 2 bp pushes yields up. Options price Wednesday at ±0.9%, a normal session.",
+   "name": "20-year Treasury auction (reopening)",
+   "reviewed": "2026-10-21",
+   "stronger": "Strong demand: yields ease from the 94th percentile and the 10Y row (Price ahead, down) gets price support where smart money is buying; REITs and semis firm.",
+   "weaker": "A tail over 2 bp: long yields up and the curve steepens further (2s10s +33 bp), the banks' Macro condition; REITs (Conditions ahead, down) and long-duration tech lag."
+  },
+  "eia:2026-10-21": {
+   "day": "Wed 21 Oct",
+   "expect": "Consensus a 0.1 mb draw after last week's 8.6 mb. WTI is 99.05, up 5.2% on the week with trend followers long since 15 Oct; producers are Developing and energy reads Aligned up. Options price Wednesday at ±0.9%, a normal session.",
+   "name": "EIA crude inventories",
+   "reviewed": "2026-10-21",
+   "stronger": "A build after the big draw: crude gives back part of its week, and producers' relative strength, one of the three conditions behind Developing, is what it tests.",
+   "weaker": "A second large draw: crude and producers extend the week's move; energy's Aligned up read and producers' three conditions hold."
+  }
+ },
+ "week": {
+  "from": "2026-10-19",
+  "reviewed": "2026-10-21",
+  "text": "A light calendar inside the Fed blackout, a week before three central bank decisions (the 28 Oct FOMC is priced at ±1.1%). The page has moved more than the calendar: the cycle chip reads Overheat since last week's core CPI, credit stress is flagged rising with high yield at 329 bp, and dealer gamma has dropped to the 31st percentile from the 100th a week ago, so moves are less damped. Wednesday carries both remaining events, and the 20-year auction is the week's rates test; nothing is closed.",
+  "to": "2026-10-25"
+ }
+}
