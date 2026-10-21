@@ -1,7 +1,25 @@
 {
- "asOf": "2026-10-20T08:08+07:00",
- "asOfLabel": "20 Oct 2026, 08:08 BKK",
+ "asOf": "2026-10-21T07:44+07:00",
+ "asOfLabel": "21 Oct 2026, 07:44 BKK",
  "changes": [
+  {
+   "d": "21 Oct",
+   "href": "#rotation",
+   "key": "theme.staples",
+   "sec": "rotation",
+   "t": "2026-10-21T07:44+07:00",
+   "text": "Consumer staples moved from Watch (exit) to Early (2 of 5): Relative strength, Breadth.",
+   "tier": "note"
+  },
+  {
+   "d": "21 Oct",
+   "href": "#ranking",
+   "key": "rank.reits",
+   "sec": "regime",
+   "t": "2026-10-21T07:44+07:00",
+   "text": "Real estate (REITs) read changed: Neutral to Conditions ahead, down (conditions -0.6, price -0.4).",
+   "tier": "note"
+  },
   {
    "d": "20 Oct",
    "href": "#rotation",
