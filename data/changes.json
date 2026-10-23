@@ -1,7 +1,79 @@
 {
- "asOf": "2026-10-21T07:44+07:00",
- "asOfLabel": "21 Oct 2026, 07:44 BKK",
+ "asOf": "2026-10-23T07:47+07:00",
+ "asOfLabel": "23 Oct 2026, 07:47 BKK",
  "changes": [
+  {
+   "d": "23 Oct",
+   "href": "#ranking",
+   "key": "nearrank.gold_miners",
+   "sec": "regime",
+   "t": "2026-10-23T07:47+07:00",
+   "text": "Near a flip: Gold miners conditions score +0.3 is inside the 0.5 band; one more step up changes the read from Neutral.",
+   "tier": "fyi"
+  },
+  {
+   "d": "23 Oct",
+   "href": "#ranking",
+   "key": "nearrank.em_ex_china",
+   "sec": "regime",
+   "t": "2026-10-23T07:47+07:00",
+   "text": "Near a flip: Emerging markets ex China conditions score +0.4 is inside the 0.5 band; one more step up changes the read from Price ahead, up.",
+   "tier": "fyi"
+  },
+  {
+   "d": "23 Oct",
+   "href": "#ranking",
+   "key": "nearrank.gold",
+   "sec": "regime",
+   "t": "2026-10-23T07:47+07:00",
+   "text": "Near a flip: Gold conditions score +0.4 is inside the 0.5 band; one more step up changes the read from Price ahead, down.",
+   "tier": "fyi"
+  },
+  {
+   "d": "23 Oct",
+   "href": "#ranking",
+   "key": "nearrank.thailand",
+   "sec": "regime",
+   "t": "2026-10-23T07:47+07:00",
+   "text": "Near a flip: Thailand (SET) conditions score +0.3 is inside the 0.5 band; one more step up changes the read from None.",
+   "tier": "fyi"
+  },
+  {
+   "d": "23 Oct",
+   "href": "#regime",
+   "key": "flag.momentum",
+   "sec": "regime",
+   "t": "2026-10-23T07:47+07:00",
+   "text": "Momentum factor flag changed: mixed to rolling over.",
+   "tier": "note"
+  },
+  {
+   "d": "23 Oct",
+   "href": "#rotation",
+   "key": "theme.kbe",
+   "sec": "rotation",
+   "t": "2026-10-23T07:47+07:00",
+   "text": "Banks moved from Watch (exit) to Watch (1 of 5): Macro.",
+   "tier": "note"
+  },
+  {
+   "d": "23 Oct",
+   "href": "#rotation",
+   "key": "theme.kre",
+   "sec": "rotation",
+   "t": "2026-10-23T07:47+07:00",
+   "text": "Regional banks moved from Watch (exit) to Watch (2 of 5): Seasonal, Macro.",
+   "tier": "note"
+  },
+  {
+   "d": "23 Oct",
+   "href": "#sentiment",
+   "key": "cta.copper",
+   "sec": "sentiment",
+   "t": "2026-10-23T07:47+07:00",
+   "text": "CTA trend signal flipped to short in Copper.",
+   "tier": "note"
+  },
   {
    "d": "21 Oct",
    "href": "#rotation",
