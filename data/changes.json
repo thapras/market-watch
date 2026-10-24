@@ -1,7 +1,97 @@
 {
- "asOf": "2026-10-23T07:47+07:00",
- "asOfLabel": "23 Oct 2026, 07:47 BKK",
+ "asOf": "2026-10-24T07:54+07:00",
+ "asOfLabel": "24 Oct 2026, 07:54 BKK",
  "changes": [
+  {
+   "d": "24 Oct",
+   "href": "#ranking",
+   "key": "nearrank.japan",
+   "sec": "regime",
+   "t": "2026-10-24T07:54+07:00",
+   "text": "Near a flip: Japan equities price score +0.4 is inside the 0.5 band; one more step up changes the read from Neutral.",
+   "tier": "fyi"
+  },
+  {
+   "d": "24 Oct",
+   "href": "#ranking",
+   "key": "nearrank.bitcoin",
+   "sec": "regime",
+   "t": "2026-10-24T07:54+07:00",
+   "text": "Near a flip: Bitcoin conditions score -0.3 is inside the 0.5 band; one more step down changes the read from Price ahead, up.",
+   "tier": "fyi"
+  },
+  {
+   "d": "24 Oct",
+   "href": "#ranking",
+   "key": "nearrank.europe",
+   "sec": "regime",
+   "t": "2026-10-24T07:54+07:00",
+   "text": "Near a flip: Europe equities price score -0.4 is inside the 0.5 band; one more step down changes the read from Neutral.",
+   "tier": "fyi"
+  },
+  {
+   "d": "24 Oct",
+   "href": "#regime",
+   "key": "flag.breadth",
+   "sec": "regime",
+   "t": "2026-10-24T07:54+07:00",
+   "text": "Breadth flag changed: narrowing to mixed.",
+   "tier": "note"
+  },
+  {
+   "d": "24 Oct",
+   "href": "#sentiment",
+   "key": "div.copper",
+   "sec": "sentiment",
+   "t": "2026-10-24T07:54+07:00",
+   "text": "Divergence alert cleared: Copper is back inside the 1.5 band.",
+   "tier": "note"
+  },
+  {
+   "d": "24 Oct",
+   "href": "#ranking",
+   "key": "rank.banks",
+   "sec": "regime",
+   "t": "2026-10-24T07:54+07:00",
+   "text": "Banks and financials read changed: Neutral to Price ahead, up (conditions +0.1, price +1.0).",
+   "tier": "note"
+  },
+  {
+   "d": "24 Oct",
+   "href": "#ranking",
+   "key": "rank.japan",
+   "sec": "regime",
+   "t": "2026-10-24T07:54+07:00",
+   "text": "Japan equities read changed: Price ahead, up to Neutral (conditions +0.1, price +0.4).",
+   "tier": "note"
+  },
+  {
+   "d": "24 Oct",
+   "href": "#ranking",
+   "key": "rank.semis",
+   "sec": "regime",
+   "t": "2026-10-24T07:54+07:00",
+   "text": "Semiconductors and mega-cap tech read changed: Price ahead, up to Neutral (conditions +0.0, price +0.4).",
+   "tier": "note"
+  },
+  {
+   "d": "24 Oct",
+   "href": "#calendar",
+   "key": "cal.fomc:2026-10-28",
+   "sec": "calendar",
+   "t": "2026-10-24T07:54+07:00",
+   "text": "Coming Wed 28 Oct, 14:00 ET: FOMC decision; options price a 1.1% S&P move.",
+   "tier": "note"
+  },
+  {
+   "d": "24 Oct",
+   "href": "#regime",
+   "key": "flag.credit",
+   "sec": "regime",
+   "t": "2026-10-24T07:54+07:00",
+   "text": "Credit stress flag changed: rising to stress.",
+   "tier": "must"
+  },
   {
    "d": "23 Oct",
    "href": "#ranking",
