@@ -1,7 +1,34 @@
 {
- "asOf": "2026-10-24T07:54+07:00",
- "asOfLabel": "24 Oct 2026, 07:54 BKK",
+ "asOf": "2026-10-25T07:26+07:00",
+ "asOfLabel": "25 Oct 2026, 07:26 BKK",
  "changes": [
+  {
+   "d": "25 Oct",
+   "href": "#rotation",
+   "key": "near.kre",
+   "sec": "rotation",
+   "t": "2026-10-25T07:26+07:00",
+   "text": "Near a flip: Regional banks sits at 1.5 of 5; Macro would move it to Early.",
+   "tier": "fyi"
+  },
+  {
+   "d": "25 Oct",
+   "href": "#calendar",
+   "key": "cal.ecb:2026-10-29",
+   "sec": "calendar",
+   "t": "2026-10-25T07:26+07:00",
+   "text": "Coming Thu 29 Oct, 08:15 ET: ECB decision, press conference 08:45; options price a 1.2% S&P move.",
+   "tier": "fyi"
+  },
+  {
+   "d": "25 Oct",
+   "href": "#rotation",
+   "key": "theme.xlu",
+   "sec": "rotation",
+   "t": "2026-10-25T07:26+07:00",
+   "text": "Utilities moved from Watch (exit) to Early (2 of 5): Relative strength, Breadth.",
+   "tier": "note"
+  },
   {
    "d": "24 Oct",
    "href": "#ranking",
