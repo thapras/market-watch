@@ -1,7 +1,61 @@
 {
- "asOf": "2026-10-25T07:26+07:00",
- "asOfLabel": "25 Oct 2026, 07:26 BKK",
+ "asOf": "2026-10-26T07:32+07:00",
+ "asOfLabel": "26 Oct 2026, 07:32 BKK",
  "changes": [
+  {
+   "d": "26 Oct",
+   "href": "bitcoin.html#tally",
+   "key": "btc.vote.exflow",
+   "sec": "bitcoin",
+   "t": "2026-10-26T07:32+07:00",
+   "text": "Exchange net flow, 30 days, share of supply flipped from bull to neutral.",
+   "tier": "fyi"
+  },
+  {
+   "d": "26 Oct",
+   "href": "#calendar",
+   "key": "cal.eia:2026-10-28",
+   "sec": "calendar",
+   "t": "2026-10-26T07:32+07:00",
+   "text": "Coming Wed 28 Oct, 10:30 ET: EIA crude inventories (consensus change, mb -0.3M); options price a 1.1% S&P move.",
+   "tier": "fyi"
+  },
+  {
+   "d": "26 Oct",
+   "href": "#calendar",
+   "key": "cal.gdp:2026-10-29",
+   "sec": "calendar",
+   "t": "2026-10-26T07:32+07:00",
+   "text": "Coming Thu 29 Oct, 08:30 ET: US GDP, advance estimate (consensus q/q annualized 3.2%; price index 3.5%); options price a 1.2% S&P move.",
+   "tier": "fyi"
+  },
+  {
+   "d": "26 Oct",
+   "href": "#calendar",
+   "key": "cal.pce:2026-10-29",
+   "sec": "calendar",
+   "t": "2026-10-26T07:32+07:00",
+   "text": "Coming Thu 29 Oct, 08:30 ET: PCE inflation, income and spending (consensus core m/m 0.3%; spending 0.6%); options price a 1.2% S&P move.",
+   "tier": "fyi"
+  },
+  {
+   "d": "26 Oct",
+   "href": "#ranking",
+   "key": "rank.gold",
+   "sec": "regime",
+   "t": "2026-10-26T07:32+07:00",
+   "text": "Gold read changed: Price ahead, down to Divergence (conditions +0.6, price -1.4).",
+   "tier": "note"
+  },
+  {
+   "d": "26 Oct",
+   "href": "#calendar",
+   "key": "cal.boj:2026-10-30",
+   "sec": "calendar",
+   "t": "2026-10-26T07:32+07:00",
+   "text": "Coming Fri 30 Oct, midday Tokyo: Bank of Japan decision (consensus policy rate <1.25%); options price a 1.2% S&P move.",
+   "tier": "note"
+  },
   {
    "d": "25 Oct",
    "href": "#rotation",
