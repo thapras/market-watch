@@ -1,7 +1,70 @@
 {
- "asOf": "2026-10-26T07:32+07:00",
- "asOfLabel": "26 Oct 2026, 07:32 BKK",
+ "asOf": "2026-10-27T08:34+07:00",
+ "asOfLabel": "27 Oct 2026, 08:34 BKK",
  "changes": [
+  {
+   "d": "27 Oct",
+   "href": "#rotation",
+   "key": "near.smh",
+   "sec": "rotation",
+   "t": "2026-10-27T08:34+07:00",
+   "text": "Near a flip: Semiconductors sits at 0.5 of 5; Macro would move it to Watch.",
+   "tier": "fyi"
+  },
+  {
+   "d": "27 Oct",
+   "href": "#rotation",
+   "key": "near.xhb",
+   "sec": "rotation",
+   "t": "2026-10-27T08:34+07:00",
+   "text": "Near a flip: Homebuilders sits at 0.5 of 5; Breadth would move it to Watch.",
+   "tier": "fyi"
+  },
+  {
+   "d": "27 Oct",
+   "href": "#rotation",
+   "key": "near.cash",
+   "sec": "rotation",
+   "t": "2026-10-27T08:34+07:00",
+   "text": "Near a flip: Cash leaving the sidelines sits at 0.5 of 5; Flows would move it to Watch.",
+   "tier": "fyi"
+  },
+  {
+   "d": "27 Oct",
+   "href": "#ranking",
+   "key": "nearrank.reits",
+   "sec": "regime",
+   "t": "2026-10-27T08:34+07:00",
+   "text": "Near a flip: Real estate (REITs) conditions score -0.4 is inside the 0.5 band; one more step down changes the read from Neutral.",
+   "tier": "fyi"
+  },
+  {
+   "d": "27 Oct",
+   "href": "#rotation",
+   "key": "theme.mags",
+   "sec": "rotation",
+   "t": "2026-10-27T08:34+07:00",
+   "text": "Mega-cap tech and AI moved from Watch to Watch (exit) (0 of 5): no condition on.",
+   "tier": "note"
+  },
+  {
+   "d": "27 Oct",
+   "href": "#ranking",
+   "key": "rank.em_ex_china",
+   "sec": "regime",
+   "t": "2026-10-27T08:34+07:00",
+   "text": "Emerging markets ex China read changed: Price ahead, up to Neutral (conditions +0.4, price +0.0).",
+   "tier": "note"
+  },
+  {
+   "d": "27 Oct",
+   "href": "bitcoin.html#tally",
+   "key": "btc.vote.risk",
+   "sec": "bitcoin",
+   "t": "2026-10-27T08:34+07:00",
+   "text": "Log regression residual since 2010 flipped from neutral to bull.",
+   "tier": "note"
+  },
   {
    "d": "26 Oct",
    "href": "bitcoin.html#tally",
