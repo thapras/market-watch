@@ -1,5 +1,5 @@
 {
- "asOf": "2026-10-27T08:34+07:00",
+ "asOf": "2026-10-28T08:31+07:00",
  "date": "2026-10-26",
  "detector": {
   "btc": {
@@ -508,6 +508,10 @@
    "2026-10-27": [
     59.45,
     2698.0
+   ],
+   "2026-10-28": [
+    59.44,
+    2724.5
    ]
   },
   "fomc": {
@@ -5068,19 +5072,19 @@
      0.8
     ],
     "bitcoin": [
-     -0.4,
-     1.4
+     -0.6,
+     1.6
     ],
     "cash": [
-     -0.1,
+     0.0,
      null
     ],
     "copper": [
-     0.2,
-     1.2
+     0.1,
+     0.8
     ],
     "em_ex_china": [
-     0.4,
+     0.3,
      0.0
     ],
     "energy": [
@@ -5092,11 +5096,11 @@
      -0.4
     ],
     "gold": [
-     0.6,
-     -1.4
+     0.4,
+     -1.6
     ],
     "gold_miners": [
-     0.1,
+     0.0,
      -0.4
     ],
     "japan": [
@@ -5108,27 +5112,27 @@
      0.4
     ],
     "semis": [
-     0.0,
+     -0.1,
      0.6
     ],
     "silver": [
-     0.8,
-     -1.0
+     0.7,
+     -1.2
     ],
     "thailand": [
-     0.3,
+     0.2,
      null
     ],
     "us_hy": [
      0.6,
-     -0.3
+     0.0
     ],
     "us_large": [
      -0.2,
      1.2
     ],
     "us_small": [
-     0.1,
+     0.0,
      -0.2
     ],
     "ust10": [
@@ -5314,25 +5318,25 @@
    "read": "Price ahead, up"
   },
   "bitcoin": {
-   "cond": -0.4,
+   "cond": -0.6,
    "name": "Bitcoin",
-   "price": 1.4,
-   "read": "Price ahead, up"
+   "price": 1.6,
+   "read": "Divergence"
   },
   "cash": {
-   "cond": -0.1,
+   "cond": 0.0,
    "name": "Cash (T-bills)",
    "price": null,
    "read": null
   },
   "copper": {
-   "cond": 0.2,
+   "cond": 0.1,
    "name": "Copper and industrial metals",
-   "price": 1.2,
+   "price": 0.8,
    "read": "Price ahead, up"
   },
   "em_ex_china": {
-   "cond": 0.4,
+   "cond": 0.3,
    "name": "Emerging markets ex China",
    "price": 0.0,
    "read": "Neutral"
@@ -5350,13 +5354,13 @@
    "read": "Neutral"
   },
   "gold": {
-   "cond": 0.6,
+   "cond": 0.4,
    "name": "Gold",
-   "price": -1.4,
-   "read": "Divergence"
+   "price": -1.6,
+   "read": "Price ahead, down"
   },
   "gold_miners": {
-   "cond": 0.1,
+   "cond": 0.0,
    "name": "Gold miners",
    "price": -0.4,
    "read": "Neutral"
@@ -5374,19 +5378,19 @@
    "read": "Neutral"
   },
   "semis": {
-   "cond": 0.0,
+   "cond": -0.1,
    "name": "Semiconductors and mega-cap tech",
    "price": 0.6,
    "read": "Price ahead, up"
   },
   "silver": {
-   "cond": 0.8,
+   "cond": 0.7,
    "name": "Silver and silver miners",
-   "price": -1.0,
+   "price": -1.2,
    "read": "Divergence"
   },
   "thailand": {
-   "cond": 0.3,
+   "cond": 0.2,
    "name": "Thailand (SET)",
    "price": null,
    "read": null
@@ -5394,7 +5398,7 @@
   "us_hy": {
    "cond": 0.6,
    "name": "US high yield credit",
-   "price": -0.3,
+   "price": 0.0,
    "read": "Conditions ahead, up"
   },
   "us_large": {
@@ -5404,7 +5408,7 @@
    "read": "Price ahead, up"
   },
   "us_small": {
-   "cond": 0.1,
+   "cond": 0.0,
    "name": "US small caps",
    "price": -0.2,
    "read": "Neutral"
@@ -5419,7 +5423,7 @@
  "regime": {
   "composites": {
    "cost": {
-    "value": -0.55
+    "value": -0.57
    },
    "growth": {
     "value": 0.55
@@ -5428,16 +5432,16 @@
     "value": 0.32
    },
    "liq": {
-    "value": 0.22
+    "value": -0.02
    },
    "risk": {
-    "value": 0.59
+    "value": 0.66
    }
   },
   "flags": {
    "breadth": "mixed",
    "cost": "tightening",
-   "credit": "stress",
+   "credit": "rising",
    "cycle": "Overheat",
    "cycle_detail": "growth up, inflation up",
    "dollar": "strengthening",
@@ -5539,7 +5543,7 @@
   }
  },
  "v4": {
-  "date": "2026-10-26",
+  "date": "2026-10-27",
   "surprises": [],
   "tier1_soon": [
    "fomc:2026-10-28",
@@ -5554,7 +5558,7 @@
   ]
  },
  "v5": {
-  "asof": "2026-10-26",
+  "asof": "2026-10-27",
   "lean": {
    "raw": "split",
    "raw_count": 20,
@@ -5564,8 +5568,8 @@
   },
   "tally": {
    "bear": 2,
-   "bull": 5,
-   "neutral": 15
+   "bull": 4,
+   "neutral": 16
   },
   "votes": {
    "apprank": null,
@@ -5588,7 +5592,7 @@
    "pi": 0,
    "position": -1,
    "puell": 0,
-   "risk": 1,
+   "risk": 0,
    "roi1y": 0,
    "rsi_m": 0,
    "rsi_w": 0,
