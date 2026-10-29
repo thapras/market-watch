@@ -1,7 +1,43 @@
 {
- "asOf": "2026-10-28T08:31+07:00",
- "asOfLabel": "28 Oct 2026, 08:31 BKK",
+ "asOf": "2026-10-29T08:53+07:00",
+ "asOfLabel": "29 Oct 2026, 08:53 BKK",
  "changes": [
+  {
+   "d": "29 Oct",
+   "href": "#ranking",
+   "key": "nearrank.us_small",
+   "sec": "regime",
+   "t": "2026-10-29T08:53+07:00",
+   "text": "Near a flip: US small caps price score +0.4 is inside the 0.5 band; one more step up changes the read from Neutral.",
+   "tier": "fyi"
+  },
+  {
+   "d": "29 Oct",
+   "href": "#sentiment",
+   "key": "cta.ndx",
+   "sec": "sentiment",
+   "t": "2026-10-29T08:53+07:00",
+   "text": "CTA trend signal flipped to long in Nasdaq 100.",
+   "tier": "note"
+  },
+  {
+   "d": "29 Oct",
+   "href": "#ranking",
+   "key": "rank.reits",
+   "sec": "regime",
+   "t": "2026-10-29T08:53+07:00",
+   "text": "Real estate (REITs) read changed: Neutral to Price ahead, down (conditions -0.4, price -1.2).",
+   "tier": "note"
+  },
+  {
+   "d": "29 Oct",
+   "href": "#ranking",
+   "key": "rank.us_hy",
+   "sec": "regime",
+   "t": "2026-10-29T08:53+07:00",
+   "text": "US high yield credit read changed: Conditions ahead, up to Price ahead, down (conditions +0.2, price -0.5).",
+   "tier": "note"
+  },
   {
    "d": "28 Oct",
    "href": "#ranking",
