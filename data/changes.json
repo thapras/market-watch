@@ -1,7 +1,97 @@
 {
- "asOf": "2026-10-30T09:04+07:00",
- "asOfLabel": "30 Oct 2026, 09:04 BKK",
+ "asOf": "2026-10-31T08:43+07:00",
+ "asOfLabel": "31 Oct 2026, 08:43 BKK",
  "changes": [
+  {
+   "d": "31 Oct",
+   "href": "#rotation",
+   "key": "near.kbe",
+   "sec": "rotation",
+   "t": "2026-10-31T08:43+07:00",
+   "text": "Near a flip: Banks sits at 1.5 of 5; Macro would move it to Early.",
+   "tier": "fyi"
+  },
+  {
+   "d": "31 Oct",
+   "href": "#ranking",
+   "key": "nearrank.japan",
+   "sec": "regime",
+   "t": "2026-10-31T08:43+07:00",
+   "text": "Near a flip: Japan equities price score +0.4 is inside the 0.5 band; one more step up changes the read from Neutral.",
+   "tier": "fyi"
+  },
+  {
+   "d": "31 Oct",
+   "href": "#calendar",
+   "key": "cal.ism_mfg:2026-11-02",
+   "sec": "calendar",
+   "t": "2026-10-31T08:43+07:00",
+   "text": "Coming Mon 2 Nov, 10:00 ET: ISM manufacturing; options price a 0.8% S&P move.",
+   "tier": "fyi"
+  },
+  {
+   "d": "31 Oct",
+   "href": "#calendar",
+   "key": "cal.ism_svc:2026-11-04",
+   "sec": "calendar",
+   "t": "2026-10-31T08:43+07:00",
+   "text": "Coming Wed 4 Nov, 10:00 ET: ISM services; options price a 1.2% S&P move.",
+   "tier": "fyi"
+  },
+  {
+   "d": "31 Oct",
+   "href": "#ranking",
+   "key": "rank.europe",
+   "sec": "regime",
+   "t": "2026-10-31T08:43+07:00",
+   "text": "Europe equities read changed: Neutral to Price ahead, up (conditions +0.0, price +0.8).",
+   "tier": "note"
+  },
+  {
+   "d": "31 Oct",
+   "href": "#ranking",
+   "key": "rank.semis",
+   "sec": "regime",
+   "t": "2026-10-31T08:43+07:00",
+   "text": "Semiconductors and mega-cap tech read changed: Price ahead, up to Neutral (conditions -0.4, price +0.4).",
+   "tier": "note"
+  },
+  {
+   "d": "31 Oct",
+   "href": "#calendar",
+   "key": "cal.qra:2026-11-04",
+   "sec": "calendar",
+   "t": "2026-10-31T08:43+07:00",
+   "text": "Coming Wed 4 Nov, 08:30 ET: Treasury quarterly refunding announcement (QRA); options price a 1.2% S&P move.",
+   "tier": "note"
+  },
+  {
+   "d": "31 Oct",
+   "href": "#regime",
+   "key": "flag.credit",
+   "sec": "regime",
+   "t": "2026-10-31T08:43+07:00",
+   "text": "Credit stress flag changed: none to rising.",
+   "tier": "must"
+  },
+  {
+   "d": "31 Oct",
+   "href": "#sentiment",
+   "key": "div.silver",
+   "sec": "sentiment",
+   "t": "2026-10-31T08:43+07:00",
+   "text": "Divergence alert: Silver crossed +1.5 for a second week (the crowd is fearful, smart money is buying).",
+   "tier": "must"
+  },
+  {
+   "d": "31 Oct",
+   "href": "#sentiment",
+   "key": "div.crude",
+   "sec": "sentiment",
+   "t": "2026-10-31T08:43+07:00",
+   "text": "Divergence alert: Crude oil crossed +1.5 for a second week (the crowd is fearful, smart money is buying).",
+   "tier": "must"
+  },
   {
    "d": "30 Oct",
    "href": "#ranking",
