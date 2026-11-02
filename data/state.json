@@ -1,18 +1,18 @@
 {
- "asOf": "2026-11-01T08:20+07:00",
+ "asOf": "2026-11-02T08:41+07:00",
  "date": "2026-10-30",
  "detector": {
   "btc": {
    "count": 0,
    "entry": 0.0,
-   "lost": 1.0,
+   "lost": 2.0,
    "lostn": [
-    "Relative strength"
+    "Relative strength",
+    "Macro"
    ],
    "name": "Bitcoin",
    "off": [
-    "Seasonal",
-    "Macro"
+    "Seasonal"
    ],
    "on": [],
    "raw": "watch_exit",
@@ -523,6 +523,10 @@
    "2026-11-01": [
     59.23,
     2631.5
+   ],
+   "2026-11-02": [
+    60.02,
+    2625.5
    ]
   },
   "fomc": {
@@ -5104,11 +5108,11 @@
      0.8
     ],
     "bitcoin": [
-     -0.6,
-     0.6
+     -0.4,
+     1.0
     ],
     "cash": [
-     0.1,
+     0.0,
      null
     ],
     "copper": [
@@ -5116,7 +5120,7 @@
      0.6
     ],
     "em_ex_china": [
-     0.1,
+     0.3,
      0.0
     ],
     "energy": [
@@ -5128,27 +5132,27 @@
      0.8
     ],
     "gold": [
-     0.3,
-     -1.6
+     0.6,
+     -1.4
     ],
     "gold_miners": [
-     -0.1,
-     -0.4
+     0.0,
+     -0.6
     ],
     "japan": [
      0.1,
      0.4
     ],
     "reits": [
-     -0.6,
+     -0.4,
      0.0
     ],
     "semis": [
-     -0.4,
+     -0.3,
      0.4
     ],
     "silver": [
-     0.3,
+     0.6,
      -1.0
     ],
     "thailand": [
@@ -5164,11 +5168,11 @@
      1.0
     ],
     "us_small": [
-     -0.1,
+     0.0,
      0.4
     ],
     "ust10": [
-     0.1,
+     0.2,
      -1.0
     ]
    }
@@ -5190,6 +5194,10 @@
      "ref": "2026-09-01",
      "scale": "prior",
      "z": -2.0
+    },
+    "2026-11-06": {
+     "f": 0.3,
+     "p": 0.1
     }
    },
    "core_cpi_mm": {
@@ -5290,6 +5298,10 @@
      "ref": "2026-07-01",
      "scale": "prior",
      "z": 0.33
+    },
+    "2026-11-03": {
+     "f": 7.11,
+     "p": 7.08
     }
    },
    "nfp": {
@@ -5308,6 +5320,10 @@
      "ref": "2026-09-01",
      "scale": "prior",
      "z": -0.8
+    },
+    "2026-11-06": {
+     "f": 63.0,
+     "p": 29.0
     }
    },
    "retail_mm": {
@@ -5344,6 +5360,10 @@
      "ref": "2026-09-01",
      "scale": "prior",
      "z": 1.0
+    },
+    "2026-11-06": {
+     "f": 4.2,
+     "p": 4.2
     }
    }
   },
@@ -5358,13 +5378,13 @@
    "read": "Price ahead, up"
   },
   "bitcoin": {
-   "cond": -0.6,
+   "cond": -0.4,
    "name": "Bitcoin",
-   "price": 0.6,
-   "read": "Divergence"
+   "price": 1.0,
+   "read": "Price ahead, up"
   },
   "cash": {
-   "cond": 0.1,
+   "cond": 0.0,
    "name": "Cash (T-bills)",
    "price": null,
    "read": null
@@ -5376,7 +5396,7 @@
    "read": "Price ahead, up"
   },
   "em_ex_china": {
-   "cond": 0.1,
+   "cond": 0.3,
    "name": "Emerging markets ex China",
    "price": 0.0,
    "read": "Neutral"
@@ -5394,16 +5414,16 @@
    "read": "Price ahead, up"
   },
   "gold": {
-   "cond": 0.3,
+   "cond": 0.6,
    "name": "Gold",
-   "price": -1.6,
-   "read": "Price ahead, down"
+   "price": -1.4,
+   "read": "Divergence"
   },
   "gold_miners": {
-   "cond": -0.1,
+   "cond": 0.0,
    "name": "Gold miners",
-   "price": -0.4,
-   "read": "Neutral"
+   "price": -0.6,
+   "read": "Price ahead, down"
   },
   "japan": {
    "cond": 0.1,
@@ -5412,22 +5432,22 @@
    "read": "Neutral"
   },
   "reits": {
-   "cond": -0.6,
+   "cond": -0.4,
    "name": "Real estate (REITs)",
    "price": 0.0,
-   "read": "Conditions ahead, down"
+   "read": "Neutral"
   },
   "semis": {
-   "cond": -0.4,
+   "cond": -0.3,
    "name": "Semiconductors and mega-cap tech",
    "price": 0.4,
    "read": "Neutral"
   },
   "silver": {
-   "cond": 0.3,
+   "cond": 0.6,
    "name": "Silver and silver miners",
    "price": -1.0,
-   "read": "Price ahead, down"
+   "read": "Divergence"
   },
   "thailand": {
    "cond": 0.0,
@@ -5448,13 +5468,13 @@
    "read": "Price ahead, up"
   },
   "us_small": {
-   "cond": -0.1,
+   "cond": 0.0,
    "name": "US small caps",
    "price": 0.4,
    "read": "Neutral"
   },
   "ust10": {
-   "cond": 0.1,
+   "cond": 0.2,
    "name": "US 10-year Treasuries",
    "price": -1.0,
    "read": "Price ahead, down"
@@ -5463,13 +5483,13 @@
  "regime": {
   "composites": {
    "cost": {
-    "value": -0.84
+    "value": -0.81
    },
    "growth": {
     "value": 0.45
    },
    "infl": {
-    "value": 0.32
+    "value": 0.3
    },
    "liq": {
     "value": -0.02
@@ -5583,29 +5603,35 @@
   }
  },
  "v4": {
-  "date": "2026-10-31",
+  "date": "2026-11-01",
   "surprises": [],
   "tier1_soon": [
-   "qra:2026-11-04"
+   "qra:2026-11-04",
+   "payrolls:2026-11-06"
   ],
   "tier2_soon": [
+   "china_pmi_private:2026-11-01",
    "ism_mfg:2026-11-02",
-   "ism_svc:2026-11-04"
+   "jolts:2026-11-03",
+   "ez_cpi:2026-11-04",
+   "ism_svc:2026-11-04",
+   "eia:2026-11-04",
+   "boe:2026-11-05"
   ]
  },
  "v5": {
-  "asof": "2026-10-31",
+  "asof": "2026-11-01",
   "lean": {
-   "raw": "bull",
-   "raw_count": 1,
-   "raw_since": "2026-10-30",
+   "raw": "split",
+   "raw_count": 23,
+   "raw_since": "2026-09-29",
    "since": "2026-09-29",
    "state": "split"
   },
   "tally": {
-   "bear": 2,
+   "bear": 3,
    "bull": 6,
-   "neutral": 14
+   "neutral": 13
   },
   "votes": {
    "apprank": null,
@@ -5632,7 +5658,7 @@
    "roi1y": 0,
    "rsi_m": 0,
    "rsi_w": 0,
-   "stables": 0,
+   "stables": -1,
    "thermo": 0,
    "whales": null
   }

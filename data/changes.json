@@ -1,7 +1,88 @@
 {
- "asOf": "2026-11-01T08:20+07:00",
- "asOfLabel": "1 Nov 2026, 08:20 BKK",
+ "asOf": "2026-11-02T08:41+07:00",
+ "asOfLabel": "2 Nov 2026, 08:41 BKK",
  "changes": [
+  {
+   "d": "2 Nov",
+   "href": "#ranking",
+   "key": "nearrank.em_ex_china",
+   "sec": "regime",
+   "t": "2026-11-02T08:41+07:00",
+   "text": "Near a flip: Emerging markets ex China conditions score +0.3 is inside the 0.5 band; one more step up changes the read from Neutral.",
+   "tier": "fyi"
+  },
+  {
+   "d": "2 Nov",
+   "href": "#calendar",
+   "key": "cal.china_pmi_private:2026-11-01",
+   "sec": "calendar",
+   "t": "2026-11-02T08:41+07:00",
+   "text": "Coming Sun 1 Nov, 20:45 ET: China RatingDog manufacturing PMI (formerly Caixin) (consensus manufacturing 52.0); options price a 0.8% S&P move.",
+   "tier": "fyi"
+  },
+  {
+   "d": "2 Nov",
+   "href": "#calendar",
+   "key": "cal.jolts:2026-11-03",
+   "sec": "calendar",
+   "t": "2026-11-02T08:41+07:00",
+   "text": "Coming Tue 3 Nov, 10:00 ET: JOLTS job openings (consensus openings 7.11M); options price a 1.0% S&P move.",
+   "tier": "fyi"
+  },
+  {
+   "d": "2 Nov",
+   "href": "#calendar",
+   "key": "cal.ez_cpi:2026-11-04",
+   "sec": "calendar",
+   "t": "2026-11-02T08:41+07:00",
+   "text": "Coming Wed 4 Nov, 05:00 ET: Euro area CPI flash (consensus headline y/y 4.0%; core y/y 2.5%); options price a 1.2% S&P move.",
+   "tier": "fyi"
+  },
+  {
+   "d": "2 Nov",
+   "href": "#ranking",
+   "key": "rank.gold_miners",
+   "sec": "regime",
+   "t": "2026-11-02T08:41+07:00",
+   "text": "Gold miners read changed: Neutral to Price ahead, down (conditions +0.0, price -0.6).",
+   "tier": "note"
+  },
+  {
+   "d": "2 Nov",
+   "href": "#ranking",
+   "key": "rank.gold",
+   "sec": "regime",
+   "t": "2026-11-02T08:41+07:00",
+   "text": "Gold read changed: Price ahead, down to Divergence (conditions +0.6, price -1.4).",
+   "tier": "note"
+  },
+  {
+   "d": "2 Nov",
+   "href": "bitcoin.html#tally",
+   "key": "btc.vote.exflow",
+   "sec": "bitcoin",
+   "t": "2026-11-02T08:41+07:00",
+   "text": "Exchange net flow, 30 days, share of supply flipped from neutral to bull.",
+   "tier": "note"
+  },
+  {
+   "d": "2 Nov",
+   "href": "bitcoin.html#tally",
+   "key": "btc.vote.stables",
+   "sec": "bitcoin",
+   "t": "2026-11-02T08:41+07:00",
+   "text": "Stablecoin supply, 90-day change flipped from neutral to bear.",
+   "tier": "note"
+  },
+  {
+   "d": "2 Nov",
+   "href": "#calendar",
+   "key": "cal.payrolls:2026-11-06",
+   "sec": "calendar",
+   "t": "2026-11-02T08:41+07:00",
+   "text": "Coming Fri 6 Nov, 08:30 ET: Nonfarm payrolls (consensus payrolls 63k; unemployment 4.2%; wages m/m 0.3%); options price a 1.2% S&P move.",
+   "tier": "note"
+  },
   {
    "d": "31 Oct",
    "href": "#rotation",
