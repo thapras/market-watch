@@ -1,7 +1,97 @@
 {
- "asOf": "2026-11-02T08:41+07:00",
- "asOfLabel": "2 Nov 2026, 08:41 BKK",
+ "asOf": "2026-11-03T10:34+07:00",
+ "asOfLabel": "3 Nov 2026, 10:34 BKK",
  "changes": [
+  {
+   "d": "3 Nov",
+   "href": "#markets",
+   "key": "sector.xlf",
+   "sec": "markets",
+   "t": "2026-11-03T10:34+07:00",
+   "text": "Financials moved from Improving to Lagging on the rotation map (relative strength 97.6, momentum 99.9).",
+   "tier": "fyi"
+  },
+  {
+   "d": "3 Nov",
+   "href": "#rotation",
+   "key": "near.smh",
+   "sec": "rotation",
+   "t": "2026-11-03T10:34+07:00",
+   "text": "Near a flip: Semiconductors sits at 0.5 of 5; Macro would move it to Watch.",
+   "tier": "fyi"
+  },
+  {
+   "d": "3 Nov",
+   "href": "#ranking",
+   "key": "nearrank.copper",
+   "sec": "regime",
+   "t": "2026-11-03T10:34+07:00",
+   "text": "Near a flip: Copper and industrial metals conditions score +0.3 is inside the 0.5 band; one more step up changes the read from Price ahead, up.",
+   "tier": "fyi"
+  },
+  {
+   "d": "3 Nov",
+   "href": "#ranking",
+   "key": "nearrank.reits",
+   "sec": "regime",
+   "t": "2026-11-03T10:34+07:00",
+   "text": "Near a flip: Real estate (REITs) conditions score -0.4 is inside the 0.5 band; one more step down changes the read from Neutral.",
+   "tier": "fyi"
+  },
+  {
+   "d": "3 Nov",
+   "href": "#ranking",
+   "key": "nearrank.bitcoin",
+   "sec": "regime",
+   "t": "2026-11-03T10:34+07:00",
+   "text": "Near a flip: Bitcoin conditions score -0.4 is inside the 0.5 band; one more step down changes the read from Price ahead, up.",
+   "tier": "fyi"
+  },
+  {
+   "d": "3 Nov",
+   "href": "#ranking",
+   "key": "nearrank.ust10",
+   "sec": "regime",
+   "t": "2026-11-03T10:34+07:00",
+   "text": "Near a flip: US 10-year Treasuries conditions score +0.3 is inside the 0.5 band; one more step up changes the read from Price ahead, down.",
+   "tier": "fyi"
+  },
+  {
+   "d": "3 Nov",
+   "href": "bitcoin.html#tally",
+   "key": "btc.vote.band",
+   "sec": "bitcoin",
+   "t": "2026-11-03T10:34+07:00",
+   "text": "Bull market support band (20-week SMA, 21-week EMA) flipped from bull to neutral.",
+   "tier": "fyi"
+  },
+  {
+   "d": "3 Nov",
+   "href": "#rotation",
+   "key": "theme.ita",
+   "sec": "rotation",
+   "t": "2026-11-03T10:34+07:00",
+   "text": "Defense and aerospace moved from Watch (exit) to Watch (2 of 5): Relative strength, Seasonal.",
+   "tier": "note"
+  },
+  {
+   "d": "3 Nov",
+   "href": "#ranking",
+   "key": "rank.us_small",
+   "sec": "regime",
+   "t": "2026-11-03T10:34+07:00",
+   "text": "US small caps read changed: Neutral to Price ahead, up (conditions +0.0, price +1.0).",
+   "tier": "note"
+  },
+  {
+   "d": "3 Nov",
+   "href": "#ranking",
+   "key": "rank.japan",
+   "sec": "regime",
+   "t": "2026-11-03T10:34+07:00",
+   "text": "Japan equities read changed: Neutral to Price ahead, up (conditions +0.0, price +0.6).",
+   "tier": "note"
+  },
   {
    "d": "2 Nov",
    "href": "#ranking",
