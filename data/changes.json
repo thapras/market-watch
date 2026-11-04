@@ -1,7 +1,61 @@
 {
- "asOf": "2026-11-03T10:34+07:00",
- "asOfLabel": "3 Nov 2026, 10:34 BKK",
+ "asOf": "2026-11-04T09:31+07:00",
+ "asOfLabel": "4 Nov 2026, 09:31 BKK",
  "changes": [
+  {
+   "d": "4 Nov",
+   "href": "#ranking",
+   "key": "nearrank.us_hy",
+   "sec": "regime",
+   "t": "2026-11-04T09:31+07:00",
+   "text": "Near a flip: US high yield credit conditions score +0.4 is inside the 0.5 band; one more step up changes the read from Price ahead, down.",
+   "tier": "fyi"
+  },
+  {
+   "d": "4 Nov",
+   "href": "#calendar",
+   "key": "cal.eia:2026-11-04",
+   "sec": "calendar",
+   "t": "2026-11-04T09:31+07:00",
+   "text": "Coming Wed 4 Nov, 10:30 ET: EIA crude inventories (consensus change, mb -1.7M); options price a 1.7% S&P move.",
+   "tier": "fyi"
+  },
+  {
+   "d": "4 Nov",
+   "href": "#rotation",
+   "key": "theme.gdx",
+   "sec": "rotation",
+   "t": "2026-11-04T09:31+07:00",
+   "text": "Gold miners moved from Watch (exit) to Watch (1 of 5): Macro.",
+   "tier": "note"
+  },
+  {
+   "d": "4 Nov",
+   "href": "#rotation",
+   "key": "theme.sil",
+   "sec": "rotation",
+   "t": "2026-11-04T09:31+07:00",
+   "text": "Silver miners moved from Watch (exit) to Watch (1 of 5): Macro.",
+   "tier": "note"
+  },
+  {
+   "d": "4 Nov",
+   "href": "#rotation",
+   "key": "theme.btc",
+   "sec": "rotation",
+   "t": "2026-11-04T09:31+07:00",
+   "text": "Bitcoin moved from Watch to Watch (exit) (0 of 5): no condition on.",
+   "tier": "note"
+  },
+  {
+   "d": "4 Nov",
+   "href": "#ranking",
+   "key": "rank.bitcoin",
+   "sec": "regime",
+   "t": "2026-11-04T09:31+07:00",
+   "text": "Bitcoin read changed: Price ahead, up to Divergence (conditions -0.6, price +0.8).",
+   "tier": "note"
+  },
   {
    "d": "3 Nov",
    "href": "#markets",
