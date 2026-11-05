@@ -1,7 +1,88 @@
 {
- "asOf": "2026-11-04T09:31+07:00",
- "asOfLabel": "4 Nov 2026, 09:31 BKK",
+ "asOf": "2026-11-05T09:39+07:00",
+ "asOfLabel": "5 Nov 2026, 09:39 BKK",
  "changes": [
+  {
+   "d": "5 Nov",
+   "href": "#rotation",
+   "key": "near.xhb",
+   "sec": "rotation",
+   "t": "2026-11-05T09:39+07:00",
+   "text": "Near a flip: Homebuilders sits at 2.5 of 5; Macro would move it to Developing.",
+   "tier": "fyi"
+  },
+  {
+   "d": "5 Nov",
+   "href": "#rotation",
+   "key": "near.cash",
+   "sec": "rotation",
+   "t": "2026-11-05T09:39+07:00",
+   "text": "Near a flip: Cash leaving the sidelines sits at 1.5 of 5; Flows would move it to Early.",
+   "tier": "fyi"
+  },
+  {
+   "d": "5 Nov",
+   "href": "#ranking",
+   "key": "nearrank.silver",
+   "sec": "regime",
+   "t": "2026-11-05T09:39+07:00",
+   "text": "Near a flip: Silver and silver miners conditions score +0.3 is inside the 0.5 band; one more step up changes the read from Price ahead, down.",
+   "tier": "fyi"
+  },
+  {
+   "d": "5 Nov",
+   "href": "#calendar",
+   "key": "cal.boe:2026-11-05",
+   "sec": "calendar",
+   "t": "2026-11-05T09:39+07:00",
+   "text": "Coming Thu 5 Nov, 07:00 ET: Bank of England decision (consensus bank rate 4.00%; votes 7-0-2); options price a 0.9% S&P move.",
+   "tier": "fyi"
+  },
+  {
+   "d": "5 Nov",
+   "href": "#rotation",
+   "key": "theme.cibr",
+   "sec": "rotation",
+   "t": "2026-11-05T09:39+07:00",
+   "text": "Cybersecurity moved from Watch to Watch (exit) (1 of 5): Seasonal.",
+   "tier": "note"
+  },
+  {
+   "d": "5 Nov",
+   "href": "#rotation",
+   "key": "theme.xhb",
+   "sec": "rotation",
+   "t": "2026-11-05T09:39+07:00",
+   "text": "Homebuilders moved from Watch (exit) to Early (3 of 5): Relative strength, Breadth, Seasonal.",
+   "tier": "note"
+  },
+  {
+   "d": "5 Nov",
+   "href": "#rotation",
+   "key": "theme.cash",
+   "sec": "rotation",
+   "t": "2026-11-05T09:39+07:00",
+   "text": "Cash leaving the sidelines moved from Watch (exit) to Watch (2 of 5): Breadth, Seasonal.",
+   "tier": "note"
+  },
+  {
+   "d": "5 Nov",
+   "href": "#sentiment",
+   "key": "cta.copper",
+   "sec": "sentiment",
+   "t": "2026-11-05T09:39+07:00",
+   "text": "CTA trend signal flipped to short in Copper.",
+   "tier": "note"
+  },
+  {
+   "d": "5 Nov",
+   "href": "#ranking",
+   "key": "rank.reits",
+   "sec": "regime",
+   "t": "2026-11-05T09:39+07:00",
+   "text": "Real estate (REITs) read changed: Neutral to Conditions ahead, down (conditions -0.6, price +0.2).",
+   "tier": "note"
+  },
   {
    "d": "4 Nov",
    "href": "#ranking",
