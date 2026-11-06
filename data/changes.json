@@ -1,7 +1,52 @@
 {
- "asOf": "2026-11-05T09:39+07:00",
- "asOfLabel": "5 Nov 2026, 09:39 BKK",
+ "asOf": "2026-11-06T09:41+07:00",
+ "asOfLabel": "6 Nov 2026, 09:41 BKK",
  "changes": [
+  {
+   "d": "6 Nov",
+   "href": "#ranking",
+   "key": "nearrank.gold",
+   "sec": "regime",
+   "t": "2026-11-06T09:41+07:00",
+   "text": "Near a flip: Gold conditions score +0.3 is inside the 0.5 band; one more step up changes the read from Price ahead, down.",
+   "tier": "fyi"
+  },
+  {
+   "d": "6 Nov",
+   "href": "#calendar",
+   "key": "cal.auction:10Y:2026-11-10",
+   "sec": "calendar",
+   "t": "2026-11-06T09:41+07:00",
+   "text": "Coming Tue 10 Nov, 13:00 ET: 10-year Treasury auction; options price a 1.9% S&P move.",
+   "tier": "fyi"
+  },
+  {
+   "d": "6 Nov",
+   "href": "#sentiment",
+   "key": "cta.spx",
+   "sec": "sentiment",
+   "t": "2026-11-06T09:41+07:00",
+   "text": "CTA trend signal flipped to short in S&P 500.",
+   "tier": "note"
+  },
+  {
+   "d": "6 Nov",
+   "href": "#calendar",
+   "key": "cal.cpi:2026-11-10",
+   "sec": "calendar",
+   "t": "2026-11-06T09:41+07:00",
+   "text": "Coming Tue 10 Nov, 08:30 ET: US CPI; options price a 1.9% S&P move.",
+   "tier": "note"
+  },
+  {
+   "d": "6 Nov",
+   "href": "#regime",
+   "key": "flag.risk",
+   "sec": "regime",
+   "t": "2026-11-06T09:41+07:00",
+   "text": "Risk appetite flag changed: on to neutral (composite -0.0).",
+   "tier": "must"
+  },
   {
    "d": "5 Nov",
    "href": "#rotation",
