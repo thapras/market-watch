@@ -1,7 +1,97 @@
 {
- "asOf": "2026-11-06T09:41+07:00",
- "asOfLabel": "6 Nov 2026, 09:41 BKK",
+ "asOf": "2026-11-07T09:09+07:00",
+ "asOfLabel": "7 Nov 2026, 09:09 BKK",
  "changes": [
+  {
+   "d": "7 Nov",
+   "href": "#ranking",
+   "key": "nearrank.us_small",
+   "sec": "regime",
+   "t": "2026-11-07T09:09+07:00",
+   "text": "Near a flip: US small caps conditions score -0.3 is inside the 0.5 band; one more step down changes the read from Neutral.",
+   "tier": "fyi"
+  },
+  {
+   "d": "7 Nov",
+   "href": "#ranking",
+   "key": "nearrank.japan",
+   "sec": "regime",
+   "t": "2026-11-07T09:09+07:00",
+   "text": "Near a flip: Japan equities price score -0.4 is inside the 0.5 band; one more step down changes the read from Neutral.",
+   "tier": "fyi"
+  },
+  {
+   "d": "7 Nov",
+   "href": "#regime",
+   "key": "flag.breadth",
+   "sec": "regime",
+   "t": "2026-11-07T09:09+07:00",
+   "text": "Breadth flag changed: mixed to broadening.",
+   "tier": "note"
+  },
+  {
+   "d": "7 Nov",
+   "href": "#sentiment",
+   "key": "div.crude",
+   "sec": "sentiment",
+   "t": "2026-11-07T09:09+07:00",
+   "text": "Divergence alert cleared: Crude oil is back inside the 1.5 band.",
+   "tier": "note"
+  },
+  {
+   "d": "7 Nov",
+   "href": "#ranking",
+   "key": "rank.semis",
+   "sec": "regime",
+   "t": "2026-11-07T09:09+07:00",
+   "text": "Semiconductors and mega-cap tech read changed: Conditions ahead, down to Neutral (conditions -0.4, price -0.2).",
+   "tier": "note"
+  },
+  {
+   "d": "7 Nov",
+   "href": "#regime",
+   "key": "flag.credit",
+   "sec": "regime",
+   "t": "2026-11-07T09:09+07:00",
+   "text": "Credit stress flag changed: rising to stress.",
+   "tier": "must"
+  },
+  {
+   "d": "7 Nov",
+   "href": "#rotation",
+   "key": "theme.xop",
+   "sec": "rotation",
+   "t": "2026-11-07T09:09+07:00",
+   "text": "Oil and gas producers left Developing: Relative strength, Breadth, Seasonal. Now Fading.",
+   "tier": "must"
+  },
+  {
+   "d": "7 Nov",
+   "href": "#sentiment",
+   "key": "div.semis",
+   "sec": "sentiment",
+   "t": "2026-11-07T09:09+07:00",
+   "text": "Divergence alert: Semiconductors crossed -1.5 for a second week (the crowd is long, smart money is leaving).",
+   "tier": "must"
+  },
+  {
+   "d": "7 Nov",
+   "href": "#sentiment",
+   "key": "div.gold",
+   "sec": "sentiment",
+   "t": "2026-11-07T09:09+07:00",
+   "text": "Divergence alert: Gold crossed +1.5 for a second week (the crowd is fearful, smart money is buying).",
+   "tier": "must"
+  },
+  {
+   "d": "7 Nov",
+   "href": "#calendar",
+   "key": "surprise.nfp.2026-11-06",
+   "sec": "calendar",
+   "t": "2026-11-07T09:09+07:00",
+   "text": "Payrolls surprise: +165k against +65k expected (+1.3 sigma).",
+   "tier": "must"
+  },
   {
    "d": "6 Nov",
    "href": "#ranking",
