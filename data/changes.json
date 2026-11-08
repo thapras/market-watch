@@ -1,7 +1,25 @@
 {
- "asOf": "2026-11-07T09:09+07:00",
- "asOfLabel": "7 Nov 2026, 09:09 BKK",
+ "asOf": "2026-11-08T08:41+07:00",
+ "asOfLabel": "8 Nov 2026, 08:41 BKK",
  "changes": [
+  {
+   "d": "8 Nov",
+   "href": "#calendar",
+   "key": "cal.auction:30Y:2026-11-12",
+   "sec": "calendar",
+   "t": "2026-11-08T08:41+07:00",
+   "text": "Coming Thu 12 Nov, 13:00 ET: 30-year Treasury auction; options price a 1.5% S&P move.",
+   "tier": "fyi"
+  },
+  {
+   "d": "8 Nov",
+   "href": "#ranking",
+   "key": "rank.copper",
+   "sec": "regime",
+   "t": "2026-11-08T08:41+07:00",
+   "text": "Copper and industrial metals read changed: Price ahead, up to Neutral (conditions +0.3, price +0.0).",
+   "tier": "note"
+  },
   {
    "d": "7 Nov",
    "href": "#ranking",

@@ -1,5 +1,5 @@
 {
- "asOf": "2026-11-07T09:09+07:00",
+ "asOf": "2026-11-08T08:41+07:00",
  "date": "2026-11-06",
  "detector": {
   "btc": {
@@ -551,6 +551,10 @@
    "2026-11-07": [
     59.23,
     2575.7
+   ],
+   "2026-11-08": [
+    59.3,
+    2561.5
    ]
   },
   "fomc": {
@@ -2998,6 +3002,11 @@
     "equity": 0.89,
     "index": 1.07,
     "total": 1.06
+   },
+   "2026-11-06": {
+    "equity": 0.59,
+    "index": 1.26,
+    "total": 0.95
    }
   },
   "scores": {
@@ -5154,7 +5163,7 @@
     ],
     "bitcoin": [
      -0.7,
-     0.8
+     0.6
     ],
     "cash": [
      0.1,
@@ -5162,11 +5171,11 @@
     ],
     "copper": [
      0.3,
-     0.6
+     0.0
     ],
     "em_ex_china": [
      0.1,
-     -0.2
+     0.0
     ],
     "energy": [
      0.8,
@@ -5190,7 +5199,7 @@
     ],
     "reits": [
      -0.6,
-     0.2
+     0.0
     ],
     "semis": [
      -0.4,
@@ -5198,7 +5207,7 @@
     ],
     "silver": [
      0.4,
-     -1.2
+     -1.0
     ],
     "thailand": [
      0.0,
@@ -5441,7 +5450,7 @@
   "bitcoin": {
    "cond": -0.7,
    "name": "Bitcoin",
-   "price": 0.8,
+   "price": 0.6,
    "read": "Divergence"
   },
   "cash": {
@@ -5453,13 +5462,13 @@
   "copper": {
    "cond": 0.3,
    "name": "Copper and industrial metals",
-   "price": 0.6,
-   "read": "Price ahead, up"
+   "price": 0.0,
+   "read": "Neutral"
   },
   "em_ex_china": {
    "cond": 0.1,
    "name": "Emerging markets ex China",
-   "price": -0.2,
+   "price": 0.0,
    "read": "Neutral"
   },
   "energy": {
@@ -5495,7 +5504,7 @@
   "reits": {
    "cond": -0.6,
    "name": "Real estate (REITs)",
-   "price": 0.2,
+   "price": 0.0,
    "read": "Conditions ahead, down"
   },
   "semis": {
@@ -5507,7 +5516,7 @@
   "silver": {
    "cond": 0.4,
    "name": "Silver and silver miners",
-   "price": -1.2,
+   "price": -1.0,
    "read": "Price ahead, down"
   },
   "thailand": {
@@ -5556,7 +5565,7 @@
     "value": -0.02
    },
    "risk": {
-    "value": 0.04
+    "value": 0.03
    }
   },
   "flags": {
@@ -5582,7 +5591,7 @@
    "mom": 102.0,
    "name": "Communication services",
    "quadrant": "Improving",
-   "rs": 90.9
+   "rs": 91.0
   },
   "xle": {
    "mom": 105.2,
@@ -5615,10 +5624,10 @@
    "rs": 96.4
   },
   "xlre": {
-   "mom": 95.5,
+   "mom": 95.6,
    "name": "Real estate",
    "quadrant": "Lagging",
-   "rs": 94.0
+   "rs": 94.1
   },
   "xlu": {
    "mom": 95.3,
@@ -5664,40 +5673,18 @@
   }
  },
  "v4": {
-  "date": "2026-11-06",
-  "surprises": [
-   {
-    "a": 165.0,
-    "date": "2026-11-06",
-    "f": 65.0,
-    "series": "nfp",
-    "z": 1.33
-   },
-   {
-    "a": 4.1,
-    "date": "2026-11-06",
-    "f": 4.2,
-    "series": "unrate",
-    "z": -1.0
-   },
-   {
-    "a": 0.4,
-    "date": "2026-11-06",
-    "f": 0.3,
-    "series": "ahe",
-    "z": 1.0
-   }
-  ],
+  "date": "2026-11-07",
+  "surprises": [],
   "tier1_soon": [
-   "payrolls:2026-11-06",
    "cpi:2026-11-10"
   ],
   "tier2_soon": [
-   "auction:10Y:2026-11-10"
+   "auction:10Y:2026-11-10",
+   "auction:30Y:2026-11-12"
   ]
  },
  "v5": {
-  "asof": "2026-11-06",
+  "asof": "2026-11-07",
   "lean": {
    "raw": "split",
    "raw_count": 28,
