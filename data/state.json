@@ -1,18 +1,18 @@
 {
- "asOf": "2026-11-08T08:41+07:00",
+ "asOf": "2026-11-09T08:49+07:00",
  "date": "2026-11-06",
  "detector": {
   "btc": {
    "count": 0,
    "entry": 0.0,
-   "lost": 2.0,
+   "lost": 1.0,
    "lostn": [
-    "Relative strength",
-    "Macro"
+    "Relative strength"
    ],
    "name": "Bitcoin",
    "off": [
-    "Seasonal"
+    "Seasonal",
+    "Macro"
    ],
    "on": [],
    "raw": "watch_exit",
@@ -555,6 +555,10 @@
    "2026-11-08": [
     59.3,
     2561.5
+   ],
+   "2026-11-09": [
+    60.21,
+    2493.5
    ]
   },
   "fomc": {
@@ -5163,7 +5167,7 @@
     ],
     "bitcoin": [
      -0.7,
-     0.6
+     0.8
     ],
     "cash": [
      0.1,
@@ -5171,7 +5175,7 @@
     ],
     "copper": [
      0.3,
-     0.0
+     0.6
     ],
     "em_ex_china": [
      0.1,
@@ -5191,7 +5195,7 @@
     ],
     "gold_miners": [
      -0.1,
-     -0.6
+     -0.8
     ],
     "japan": [
      0.1,
@@ -5274,6 +5278,10 @@
      "ref": "2026-09-01",
      "scale": "prior",
      "z": 1.0
+    },
+    "2026-11-10": {
+     "f": 0.2,
+     "p": 0.3
     }
    },
    "core_pce_mm": {
@@ -5310,6 +5318,10 @@
      "ref": "2026-09-01",
      "scale": "prior",
      "z": 0.0
+    },
+    "2026-11-10": {
+     "f": 0.3,
+     "p": 0.6
     }
    },
    "cpi_yy": {
@@ -5450,7 +5462,7 @@
   "bitcoin": {
    "cond": -0.7,
    "name": "Bitcoin",
-   "price": 0.6,
+   "price": 0.8,
    "read": "Divergence"
   },
   "cash": {
@@ -5462,8 +5474,8 @@
   "copper": {
    "cond": 0.3,
    "name": "Copper and industrial metals",
-   "price": 0.0,
-   "read": "Neutral"
+   "price": 0.6,
+   "read": "Price ahead, up"
   },
   "em_ex_china": {
    "cond": 0.1,
@@ -5492,7 +5504,7 @@
   "gold_miners": {
    "cond": -0.1,
    "name": "Gold miners",
-   "price": -0.6,
+   "price": -0.8,
    "read": "Price ahead, down"
   },
   "japan": {
@@ -5673,18 +5685,22 @@
   }
  },
  "v4": {
-  "date": "2026-11-07",
+  "date": "2026-11-08",
   "surprises": [],
   "tier1_soon": [
    "cpi:2026-11-10"
   ],
   "tier2_soon": [
+   "china_prices:2026-11-08",
+   "china_credit:2026-11-09",
+   "china_trade:2026-11-09",
    "auction:10Y:2026-11-10",
+   "eia:2026-11-12",
    "auction:30Y:2026-11-12"
   ]
  },
  "v5": {
-  "asof": "2026-11-07",
+  "asof": "2026-11-08",
   "lean": {
    "raw": "split",
    "raw_count": 28,
@@ -5693,9 +5709,9 @@
    "state": "split"
   },
   "tally": {
-   "bear": 3,
+   "bear": 4,
    "bull": 4,
-   "neutral": 15
+   "neutral": 14
   },
   "votes": {
    "apprank": null,
@@ -5707,12 +5723,12 @@
    "dominance": null,
    "drawdown": -1,
    "etf": null,
-   "exflow": 0,
+   "exflow": 1,
    "fng": 0,
    "funding": 0,
    "liquidity": 0,
    "ma200w": 0,
-   "ma50w": 1,
+   "ma50w": -1,
    "mayer": 0,
    "mvrv": 0,
    "pi": 0,

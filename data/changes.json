@@ -1,7 +1,52 @@
 {
- "asOf": "2026-11-08T08:41+07:00",
- "asOfLabel": "8 Nov 2026, 08:41 BKK",
+ "asOf": "2026-11-09T08:49+07:00",
+ "asOfLabel": "9 Nov 2026, 08:49 BKK",
  "changes": [
+  {
+   "d": "9 Nov",
+   "href": "#calendar",
+   "key": "cal.china_prices:2026-11-08",
+   "sec": "calendar",
+   "t": "2026-11-09T08:49+07:00",
+   "text": "Coming Sun 8 Nov, 20:30 ET: China CPI and PPI (consensus CPI y/y 0.8%; PPI y/y 5.3%); options price a 1.1% S&P move.",
+   "tier": "fyi"
+  },
+  {
+   "d": "9 Nov",
+   "href": "#calendar",
+   "key": "cal.china_credit:2026-11-09",
+   "sec": "calendar",
+   "t": "2026-11-09T08:49+07:00",
+   "text": "Coming Mon 9 Nov, 04:03 ET: China credit data (new loans, financing, M2) (consensus new loans 80B; M2 y/y 7.3%); options price a 1.1% S&P move.",
+   "tier": "fyi"
+  },
+  {
+   "d": "9 Nov",
+   "href": "#calendar",
+   "key": "cal.china_trade:2026-11-09",
+   "sec": "calendar",
+   "t": "2026-11-09T08:49+07:00",
+   "text": "Coming Mon 9 Nov, 22:03 ET: China trade balance (consensus CNY 859B; USD 126.5B); options price a 1.5% S&P move.",
+   "tier": "fyi"
+  },
+  {
+   "d": "9 Nov",
+   "href": "bitcoin.html#tally",
+   "key": "btc.vote.exflow",
+   "sec": "bitcoin",
+   "t": "2026-11-09T08:49+07:00",
+   "text": "Exchange net flow, 30 days, share of supply flipped from neutral to bull.",
+   "tier": "note"
+  },
+  {
+   "d": "9 Nov",
+   "href": "bitcoin.html#tally",
+   "key": "btc.vote.ma50w",
+   "sec": "bitcoin",
+   "t": "2026-11-09T08:49+07:00",
+   "text": "Close against the 50-week average flipped from bull to bear.",
+   "tier": "note"
+  },
   {
    "d": "8 Nov",
    "href": "#calendar",
