@@ -1,7 +1,79 @@
 {
- "asOf": "2026-11-09T08:49+07:00",
- "asOfLabel": "9 Nov 2026, 08:49 BKK",
+ "asOf": "2026-11-10T11:13+07:00",
+ "asOfLabel": "10 Nov 2026, 11:13 BKK",
  "changes": [
+  {
+   "d": "10 Nov",
+   "href": "#markets",
+   "key": "sector.xlp",
+   "sec": "markets",
+   "t": "2026-11-10T11:13+07:00",
+   "text": "Consumer staples moved from Lagging to Improving on the rotation map (relative strength 96.5, momentum 100.0).",
+   "tier": "fyi"
+  },
+  {
+   "d": "10 Nov",
+   "href": "#rotation",
+   "key": "near.smh",
+   "sec": "rotation",
+   "t": "2026-11-10T11:13+07:00",
+   "text": "Near a flip: Semiconductors sits at 0.5 of 5; Macro would move it to Watch.",
+   "tier": "fyi"
+  },
+  {
+   "d": "10 Nov",
+   "href": "#ranking",
+   "key": "nearrank.copper",
+   "sec": "regime",
+   "t": "2026-11-10T11:13+07:00",
+   "text": "Near a flip: Copper and industrial metals conditions score +0.4 is inside the 0.5 band; one more step up changes the read from Price ahead, up.",
+   "tier": "fyi"
+  },
+  {
+   "d": "10 Nov",
+   "href": "#ranking",
+   "key": "nearrank.reits",
+   "sec": "regime",
+   "t": "2026-11-10T11:13+07:00",
+   "text": "Near a flip: Real estate (REITs) price score +0.4 is inside the 0.5 band; one more step up changes the read from Conditions ahead, down.",
+   "tier": "fyi"
+  },
+  {
+   "d": "10 Nov",
+   "href": "#calendar",
+   "key": "cal.china_credit:2026-11-10",
+   "sec": "calendar",
+   "t": "2026-11-10T11:13+07:00",
+   "text": "Coming Tue 10 Nov, 04:03 ET: China credit data (new loans, financing, M2) (consensus new loans 80B; M2 y/y 7.2%); options price a 1.4% S&P move.",
+   "tier": "fyi"
+  },
+  {
+   "d": "10 Nov",
+   "href": "#calendar",
+   "key": "cal.eia:2026-11-12",
+   "sec": "calendar",
+   "t": "2026-11-10T11:13+07:00",
+   "text": "Coming Thu 12 Nov, 10:30 ET: EIA crude inventories; options price a 1.1% S&P move.",
+   "tier": "fyi"
+  },
+  {
+   "d": "10 Nov",
+   "href": "#ranking",
+   "key": "rank.gold_miners",
+   "sec": "regime",
+   "t": "2026-11-10T11:13+07:00",
+   "text": "Gold miners read changed: Price ahead, down to Neutral (conditions +0.0, price +0.0).",
+   "tier": "note"
+  },
+  {
+   "d": "10 Nov",
+   "href": "#ranking",
+   "key": "rank.us_small",
+   "sec": "regime",
+   "t": "2026-11-10T11:13+07:00",
+   "text": "US small caps read changed: Neutral to Price ahead, up (conditions -0.3, price +1.0).",
+   "tier": "note"
+  },
   {
    "d": "9 Nov",
    "href": "#calendar",
