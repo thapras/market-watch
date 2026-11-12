@@ -1,7 +1,88 @@
 {
- "asOf": "2026-11-11T09:03+07:00",
- "asOfLabel": "11 Nov 2026, 09:03 BKK",
+ "asOf": "2026-11-12T10:13+07:00",
+ "asOfLabel": "12 Nov 2026, 10:13 BKK",
  "changes": [
+  {
+   "d": "12 Nov",
+   "href": "#markets",
+   "key": "sector.xly",
+   "sec": "markets",
+   "t": "2026-11-12T10:13+07:00",
+   "text": "Consumer discretionary moved from Lagging to Improving on the rotation map (relative strength 91.8, momentum 100.1).",
+   "tier": "fyi"
+  },
+  {
+   "d": "12 Nov",
+   "href": "#rotation",
+   "key": "near.cash",
+   "sec": "rotation",
+   "t": "2026-11-12T10:13+07:00",
+   "text": "Near a flip: Cash leaving the sidelines sits at 1.5 of 5; Flows would move it to Early.",
+   "tier": "fyi"
+  },
+  {
+   "d": "12 Nov",
+   "href": "#ranking",
+   "key": "nearrank.us_hy",
+   "sec": "regime",
+   "t": "2026-11-12T10:13+07:00",
+   "text": "Near a flip: US high yield credit conditions score +0.4 is inside the 0.5 band; one more step up changes the read from Price ahead, down.",
+   "tier": "fyi"
+  },
+  {
+   "d": "12 Nov",
+   "href": "#ranking",
+   "key": "nearrank.us_large",
+   "sec": "regime",
+   "t": "2026-11-12T10:13+07:00",
+   "text": "Near a flip: US large caps (S&P 500) conditions score -0.3 is inside the 0.5 band; one more step down changes the read from Price ahead, up.",
+   "tier": "fyi"
+  },
+  {
+   "d": "12 Nov",
+   "href": "#calendar",
+   "key": "cal.china_credit:2026-11-12",
+   "sec": "calendar",
+   "t": "2026-11-12T10:13+07:00",
+   "text": "Coming Thu 12 Nov, 04:03 ET: China credit data (new loans, financing, M2) (consensus new loans 80B; M2 y/y 7.2%); options price a 1.1% S&P move.",
+   "tier": "fyi"
+  },
+  {
+   "d": "12 Nov",
+   "href": "#ranking",
+   "key": "rank.gold",
+   "sec": "regime",
+   "t": "2026-11-12T10:13+07:00",
+   "text": "Gold read changed: Price ahead, down to Divergence (conditions +0.6, price -1.6).",
+   "tier": "note"
+  },
+  {
+   "d": "12 Nov",
+   "href": "#ranking",
+   "key": "rank.reits",
+   "sec": "regime",
+   "t": "2026-11-12T10:13+07:00",
+   "text": "Real estate (REITs) read changed: Conditions ahead, down to Divergence (conditions -0.6, price +0.6).",
+   "tier": "note"
+  },
+  {
+   "d": "12 Nov",
+   "href": "#ranking",
+   "key": "rank.japan",
+   "sec": "regime",
+   "t": "2026-11-12T10:13+07:00",
+   "text": "Japan equities read changed: Neutral to Price ahead, up (conditions +0.1, price +0.6).",
+   "tier": "note"
+  },
+  {
+   "d": "12 Nov",
+   "href": "bitcoin.html#tally",
+   "key": "btc.vote.dollar",
+   "sec": "bitcoin",
+   "t": "2026-11-12T10:13+07:00",
+   "text": "Dollar index, three-month change flipped from neutral to bear.",
+   "tier": "note"
+  },
   {
    "d": "11 Nov",
    "href": "#ranking",
