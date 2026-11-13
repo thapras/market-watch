@@ -1,7 +1,34 @@
 {
- "asOf": "2026-11-12T10:13+07:00",
- "asOfLabel": "12 Nov 2026, 10:13 BKK",
+ "asOf": "2026-11-13T09:45+07:00",
+ "asOfLabel": "13 Nov 2026, 09:45 BKK",
  "changes": [
+  {
+   "d": "13 Nov",
+   "href": "#ranking",
+   "key": "nearrank.semis",
+   "sec": "regime",
+   "t": "2026-11-13T09:45+07:00",
+   "text": "Near a flip: Semiconductors and mega-cap tech conditions score -0.3 is inside the 0.5 band; one more step down changes the read from Neutral.",
+   "tier": "fyi"
+  },
+  {
+   "d": "13 Nov",
+   "href": "#calendar",
+   "key": "cal.china_credit:2026-11-13",
+   "sec": "calendar",
+   "t": "2026-11-13T09:45+07:00",
+   "text": "Coming Fri 13 Nov, 05:03 ET: China credit data (new loans, financing, M2) (consensus new loans 80B; M2 y/y 7.2%); options price a 1.1% S&P move.",
+   "tier": "fyi"
+  },
+  {
+   "d": "13 Nov",
+   "href": "bitcoin.html#tally",
+   "key": "btc.vote.fng",
+   "sec": "bitcoin",
+   "t": "2026-11-13T09:45+07:00",
+   "text": "Crypto fear and greed flipped from neutral to bull.",
+   "tier": "note"
+  },
   {
    "d": "12 Nov",
    "href": "#markets",
