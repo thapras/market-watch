@@ -1,7 +1,79 @@
 {
- "asOf": "2026-11-13T09:45+07:00",
- "asOfLabel": "13 Nov 2026, 09:45 BKK",
+ "asOf": "2026-11-14T09:35+07:00",
+ "asOfLabel": "14 Nov 2026, 09:35 BKK",
  "changes": [
+  {
+   "d": "14 Nov",
+   "href": "#ranking",
+   "key": "nearrank.us_small",
+   "sec": "regime",
+   "t": "2026-11-14T09:35+07:00",
+   "text": "Near a flip: US small caps conditions score -0.3 is inside the 0.5 band; one more step down changes the read from Neutral.",
+   "tier": "fyi"
+  },
+  {
+   "d": "14 Nov",
+   "href": "#ranking",
+   "key": "nearrank.gold",
+   "sec": "regime",
+   "t": "2026-11-14T09:35+07:00",
+   "text": "Near a flip: Gold conditions score +0.4 is inside the 0.5 band; one more step up changes the read from Price ahead, down.",
+   "tier": "fyi"
+  },
+  {
+   "d": "14 Nov",
+   "href": "#ranking",
+   "key": "nearrank.silver",
+   "sec": "regime",
+   "t": "2026-11-14T09:35+07:00",
+   "text": "Near a flip: Silver and silver miners conditions score +0.4 is inside the 0.5 band; one more step up changes the read from Price ahead, down.",
+   "tier": "fyi"
+  },
+  {
+   "d": "14 Nov",
+   "href": "#calendar",
+   "key": "cal.auction:20Y:2026-11-18",
+   "sec": "calendar",
+   "t": "2026-11-14T09:35+07:00",
+   "text": "Coming Wed 18 Nov, 13:00 ET: 20-year Treasury auction; options price a 1.2% S&P move.",
+   "tier": "fyi"
+  },
+  {
+   "d": "14 Nov",
+   "href": "#calendar",
+   "key": "cal.fomc_minutes:2026-11-18",
+   "sec": "calendar",
+   "t": "2026-11-14T09:35+07:00",
+   "text": "Coming Wed 18 Nov, 14:00 ET: FOMC minutes (Oct meeting); options price a 1.2% S&P move.",
+   "tier": "fyi"
+  },
+  {
+   "d": "14 Nov",
+   "href": "#rotation",
+   "key": "theme.gdx",
+   "sec": "rotation",
+   "t": "2026-11-14T09:35+07:00",
+   "text": "Gold miners moved from Watch to Watch (exit) (0 of 5): no condition on.",
+   "tier": "note"
+  },
+  {
+   "d": "14 Nov",
+   "href": "#rotation",
+   "key": "theme.sil",
+   "sec": "rotation",
+   "t": "2026-11-14T09:35+07:00",
+   "text": "Silver miners moved from Watch to Watch (exit) (0 of 5): no condition on.",
+   "tier": "note"
+  },
+  {
+   "d": "14 Nov",
+   "href": "#regime",
+   "key": "flag.credit",
+   "sec": "regime",
+   "t": "2026-11-14T09:35+07:00",
+   "text": "Credit stress flag changed: rising to none.",
+   "tier": "must"
+  },
   {
    "d": "13 Nov",
    "href": "#ranking",
