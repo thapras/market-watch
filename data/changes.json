@@ -1,7 +1,79 @@
 {
- "asOf": "2026-11-14T09:35+07:00",
- "asOfLabel": "14 Nov 2026, 09:35 BKK",
+ "asOf": "2026-11-15T09:01+07:00",
+ "asOfLabel": "15 Nov 2026, 09:01 BKK",
  "changes": [
+  {
+   "d": "15 Nov",
+   "href": "#ranking",
+   "key": "rank.em_ex_china",
+   "sec": "regime",
+   "t": "2026-11-15T09:01+07:00",
+   "text": "Emerging markets ex China read changed: Neutral to Conditions ahead, up (conditions +0.7, price +0.0).",
+   "tier": "note"
+  },
+  {
+   "d": "15 Nov",
+   "href": "#ranking",
+   "key": "rank.bitcoin",
+   "sec": "regime",
+   "t": "2026-11-15T09:01+07:00",
+   "text": "Bitcoin read changed: Conditions ahead, down to Neutral (conditions -0.4, price -0.4).",
+   "tier": "note"
+  },
+  {
+   "d": "15 Nov",
+   "href": "#ranking",
+   "key": "rank.ust10",
+   "sec": "regime",
+   "t": "2026-11-15T09:01+07:00",
+   "text": "US 10-year Treasuries read changed: Price ahead, down to Divergence (conditions +1.0, price -1.0).",
+   "tier": "note"
+  },
+  {
+   "d": "15 Nov",
+   "href": "#ranking",
+   "key": "rank.us_hy",
+   "sec": "regime",
+   "t": "2026-11-15T09:01+07:00",
+   "text": "US high yield credit read changed: Price ahead, down to Divergence (conditions +0.7, price -1.0).",
+   "tier": "note"
+  },
+  {
+   "d": "15 Nov",
+   "href": "bitcoin.html#tally",
+   "key": "btc.vote.rsi_m",
+   "sec": "bitcoin",
+   "t": "2026-11-15T09:01+07:00",
+   "text": "Monthly RSI (14) flipped from neutral to bull.",
+   "tier": "note"
+  },
+  {
+   "d": "15 Nov",
+   "href": "bitcoin.html#tally",
+   "key": "btc.vote.ma200w",
+   "sec": "bitcoin",
+   "t": "2026-11-15T09:01+07:00",
+   "text": "Price against the 200-week average flipped from neutral to bull.",
+   "tier": "note"
+  },
+  {
+   "d": "15 Nov",
+   "href": "#ranking",
+   "key": "rank.banks",
+   "sec": "regime",
+   "t": "2026-11-15T09:01+07:00",
+   "text": "Banks and financials read changed: Price ahead, up to Aligned up (conditions +0.7, price +1.2).",
+   "tier": "must"
+  },
+  {
+   "d": "15 Nov",
+   "href": "#ranking",
+   "key": "rank.europe",
+   "sec": "regime",
+   "t": "2026-11-15T09:01+07:00",
+   "text": "Europe equities read changed: Price ahead, up to Aligned up (conditions +0.7, price +1.0).",
+   "tier": "must"
+  },
   {
    "d": "14 Nov",
    "href": "#ranking",
