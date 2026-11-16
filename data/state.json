@@ -1,5 +1,5 @@
 {
- "asOf": "2026-11-15T09:01+07:00",
+ "asOf": "2026-11-16T09:18+07:00",
  "date": "2026-11-13",
  "detector": {
   "btc": {
@@ -24,8 +24,10 @@
   "cash": {
    "count": 2,
    "entry": 1.5,
-   "lost": 0.0,
-   "lostn": [],
+   "lost": 1.0,
+   "lostn": [
+    "Macro"
+   ],
    "name": "Cash leaving the sidelines",
    "off": [
     "Flows"
@@ -67,7 +69,8 @@
    ],
    "name": "Gold miners",
    "off": [
-    "Seasonal"
+    "Seasonal",
+    "Macro"
    ],
    "on": [],
    "raw": "watch_exit",
@@ -97,8 +100,10 @@
   "kbe": {
    "count": 2,
    "entry": 1.5,
-   "lost": 0.0,
-   "lostn": [],
+   "lost": 1.0,
+   "lostn": [
+    "Macro"
+   ],
    "name": "Banks",
    "off": [],
    "on": [
@@ -114,8 +119,10 @@
   "kre": {
    "count": 1,
    "entry": 1.0,
-   "lost": 0.0,
-   "lostn": [],
+   "lost": 1.0,
+   "lostn": [
+    "Macro"
+   ],
    "name": "Regional banks",
    "off": [
     "Seasonal"
@@ -130,18 +137,20 @@
    "state": "watch"
   },
   "mags": {
-   "count": 0,
-   "entry": 0.0,
+   "count": 1,
+   "entry": 1.0,
    "lost": 1.0,
    "lostn": [
     "Relative strength"
    ],
    "name": "Mega-cap tech and AI",
    "off": [],
-   "on": [],
-   "raw": "watch_exit",
-   "raw_count": 1,
-   "raw_since": "2026-11-13",
+   "on": [
+    "Macro"
+   ],
+   "raw": "watch",
+   "raw_count": 2,
+   "raw_since": "2026-11-12",
    "since": "2026-10-22",
    "state": "watch_exit"
   },
@@ -154,7 +163,8 @@
    ],
    "name": "Silver miners",
    "off": [
-    "Seasonal"
+    "Seasonal",
+    "Macro"
    ],
    "on": [],
    "raw": "watch_exit",
@@ -164,8 +174,8 @@
    "state": "watch_exit"
   },
   "smh": {
-   "count": 1,
-   "entry": 0.5,
+   "count": 2,
+   "entry": 1.5,
    "lost": 1.0,
    "lostn": [
     "Relative strength"
@@ -173,11 +183,12 @@
    "name": "Semiconductors",
    "off": [],
    "on": [
-    "Seasonal"
+    "Seasonal",
+    "Macro"
    ],
-   "raw": "watch_exit",
-   "raw_count": 1,
-   "raw_since": "2026-11-13",
+   "raw": "watch",
+   "raw_count": 2,
+   "raw_since": "2026-11-12",
    "since": "2026-10-12",
    "state": "watch_exit"
   },
@@ -190,7 +201,8 @@
    ],
    "name": "Consumer staples",
    "off": [
-    "Breadth"
+    "Breadth",
+    "Macro"
    ],
    "on": [
     "Relative strength"
@@ -220,8 +232,8 @@
    "state": "watch_exit"
   },
   "xbi": {
-   "count": 1,
-   "entry": 0.5,
+   "count": 2,
+   "entry": 1.5,
    "lost": 1.0,
    "lostn": [
     "Relative strength"
@@ -229,17 +241,18 @@
    "name": "Biotech",
    "off": [],
    "on": [
-    "Seasonal"
+    "Seasonal",
+    "Macro"
    ],
-   "raw": "watch_exit",
-   "raw_count": 1,
-   "raw_since": "2026-11-13",
+   "raw": "watch",
+   "raw_count": 2,
+   "raw_since": "2026-11-12",
    "since": "2026-11-06",
    "state": "early"
   },
   "xhb": {
-   "count": 2,
-   "entry": 1.5,
+   "count": 3,
+   "entry": 2.5,
    "lost": 0.0,
    "lostn": [],
    "name": "Homebuilders",
@@ -248,11 +261,12 @@
    ],
    "on": [
     "Relative strength",
-    "Seasonal"
+    "Seasonal",
+    "Macro"
    ],
-   "raw": "watch",
-   "raw_count": 1,
-   "raw_since": "2026-11-13",
+   "raw": "early",
+   "raw_count": 2,
+   "raw_since": "2026-11-12",
    "since": "2026-11-05",
    "state": "developing"
   },
@@ -263,7 +277,8 @@
    "lostn": [],
    "name": "Utilities",
    "off": [
-    "Seasonal"
+    "Seasonal",
+    "Macro"
    ],
    "on": [
     "Relative strength",
@@ -572,6 +587,10 @@
    "2026-11-15": [
     58.42,
     2141.9
+   ],
+   "2026-11-16": [
+    59.38,
+    2202.6
    ]
   },
   "fomc": {
@@ -5202,75 +5221,75 @@
    },
    "2026-11-13": {
     "banks": [
-     0.7,
+     0.1,
      1.2
     ],
     "bitcoin": [
-     -0.4,
-     -0.4
+     -0.7,
+     -0.6
     ],
     "cash": [
-     0.0,
+     0.3,
      null
     ],
     "copper": [
-     0.4,
+     0.3,
      -0.2
     ],
     "em_ex_china": [
-     0.7,
+     0.0,
      0.0
     ],
     "energy": [
-     0.6,
+     0.8,
      1.6
     ],
     "europe": [
-     0.7,
+     -0.1,
      1.0
     ],
     "gold": [
-     1.2,
-     -1.6
+     0.4,
+     -1.8
     ],
     "gold_miners": [
-     0.7,
+     0.0,
      -1.4
     ],
     "japan": [
-     0.7,
+     0.1,
      0.0
     ],
     "reits": [
-     0.3,
+     -0.7,
      0.6
     ],
     "semis": [
-     0.0,
+     -0.4,
      -0.2
     ],
     "silver": [
-     1.2,
+     0.4,
      -1.6
     ],
     "thailand": [
-     0.0,
+     -0.2,
      null
     ],
     "us_hy": [
-     0.7,
+     0.1,
      -1.0
     ],
     "us_large": [
-     0.0,
+     -0.3,
      1.2
     ],
     "us_small": [
-     0.7,
+     -0.3,
      0.4
     ],
     "ust10": [
-     1.0,
+     0.1,
      -1.0
     ]
    }
@@ -5468,6 +5487,10 @@
      "ref": "2026-09-01",
      "scale": "prior",
      "z": 1.0
+    },
+    "2026-11-17": {
+     "f": 0.2,
+     "p": 0.8
     }
    },
    "unrate": {
@@ -5502,138 +5525,138 @@
  "notified": "",
  "ranking": {
   "banks": {
-   "cond": 0.7,
+   "cond": 0.1,
    "name": "Banks and financials",
    "price": 1.2,
-   "read": "Aligned up"
+   "read": "Price ahead, up"
   },
   "bitcoin": {
-   "cond": -0.4,
+   "cond": -0.7,
    "name": "Bitcoin",
-   "price": -0.4,
-   "read": "Neutral"
+   "price": -0.6,
+   "read": "Aligned down"
   },
   "cash": {
-   "cond": 0.0,
+   "cond": 0.3,
    "name": "Cash (T-bills)",
    "price": null,
    "read": null
   },
   "copper": {
-   "cond": 0.4,
+   "cond": 0.3,
    "name": "Copper and industrial metals",
    "price": -0.2,
    "read": "Neutral"
   },
   "em_ex_china": {
-   "cond": 0.7,
+   "cond": 0.0,
    "name": "Emerging markets ex China",
    "price": 0.0,
-   "read": "Conditions ahead, up"
+   "read": "Neutral"
   },
   "energy": {
-   "cond": 0.6,
+   "cond": 0.8,
    "name": "Energy",
    "price": 1.6,
    "read": "Aligned up"
   },
   "europe": {
-   "cond": 0.7,
+   "cond": -0.1,
    "name": "Europe equities",
    "price": 1.0,
-   "read": "Aligned up"
-  },
-  "gold": {
-   "cond": 1.2,
-   "name": "Gold",
-   "price": -1.6,
-   "read": "Divergence"
-  },
-  "gold_miners": {
-   "cond": 0.7,
-   "name": "Gold miners",
-   "price": -1.4,
-   "read": "Divergence"
-  },
-  "japan": {
-   "cond": 0.7,
-   "name": "Japan equities",
-   "price": 0.0,
-   "read": "Conditions ahead, up"
-  },
-  "reits": {
-   "cond": 0.3,
-   "name": "Real estate (REITs)",
-   "price": 0.6,
    "read": "Price ahead, up"
   },
-  "semis": {
+  "gold": {
+   "cond": 0.4,
+   "name": "Gold",
+   "price": -1.8,
+   "read": "Price ahead, down"
+  },
+  "gold_miners": {
    "cond": 0.0,
+   "name": "Gold miners",
+   "price": -1.4,
+   "read": "Price ahead, down"
+  },
+  "japan": {
+   "cond": 0.1,
+   "name": "Japan equities",
+   "price": 0.0,
+   "read": "Neutral"
+  },
+  "reits": {
+   "cond": -0.7,
+   "name": "Real estate (REITs)",
+   "price": 0.6,
+   "read": "Divergence"
+  },
+  "semis": {
+   "cond": -0.4,
    "name": "Semiconductors and mega-cap tech",
    "price": -0.2,
    "read": "Neutral"
   },
   "silver": {
-   "cond": 1.2,
+   "cond": 0.4,
    "name": "Silver and silver miners",
    "price": -1.6,
-   "read": "Divergence"
+   "read": "Price ahead, down"
   },
   "thailand": {
-   "cond": 0.0,
+   "cond": -0.2,
    "name": "Thailand (SET)",
    "price": null,
    "read": null
   },
   "us_hy": {
-   "cond": 0.7,
+   "cond": 0.1,
    "name": "US high yield credit",
    "price": -1.0,
-   "read": "Divergence"
+   "read": "Price ahead, down"
   },
   "us_large": {
-   "cond": 0.0,
+   "cond": -0.3,
    "name": "US large caps (S&P 500)",
    "price": 1.2,
    "read": "Price ahead, up"
   },
   "us_small": {
-   "cond": 0.7,
+   "cond": -0.3,
    "name": "US small caps",
    "price": 0.4,
-   "read": "Conditions ahead, up"
+   "read": "Neutral"
   },
   "ust10": {
-   "cond": 1.0,
+   "cond": 0.1,
    "name": "US 10-year Treasuries",
    "price": -1.0,
-   "read": "Divergence"
+   "read": "Price ahead, down"
   }
  },
  "regime": {
   "composites": {
    "cost": {
-    "value": null
+    "value": -1.4
    },
    "growth": {
-    "value": null
+    "value": 1.1
    },
    "infl": {
-    "value": null
+    "value": 1.27
    },
    "liq": {
-    "value": -0.11
+    "value": -0.03
    },
    "risk": {
-    "value": 0.7
+    "value": 0.5
    }
   },
   "flags": {
    "breadth": "broadening",
-   "cost": null,
-   "credit": null,
-   "cycle": null,
-   "cycle_detail": null,
+   "cost": "tightening",
+   "credit": "none",
+   "cycle": "Overheat",
+   "cycle_detail": "growth up, inflation up",
    "dollar": "strengthening",
    "liquidity": "flat",
    "momentum": "rolling over",
@@ -5733,16 +5756,19 @@
   }
  },
  "v4": {
-  "date": "2026-11-14",
+  "date": "2026-11-15",
   "surprises": [],
   "tier1_soon": [],
   "tier2_soon": [
+   "china_activity:2026-11-15",
+   "retail:2026-11-17",
+   "eia:2026-11-18",
    "auction:20Y:2026-11-18",
    "fomc_minutes:2026-11-18"
   ]
  },
  "v5": {
-  "asof": "2026-11-14",
+  "asof": "2026-11-15",
   "lean": {
    "raw": "split",
    "raw_count": 33,
