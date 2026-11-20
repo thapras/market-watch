@@ -1,7 +1,16 @@
 {
- "asOf": "2026-11-19T10:44+07:00",
- "asOfLabel": "19 Nov 2026, 10:44 BKK",
+ "asOf": "2026-11-20T10:38+07:00",
+ "asOfLabel": "20 Nov 2026, 10:38 BKK",
  "changes": [
+  {
+   "d": "20 Nov",
+   "href": "#rotation",
+   "key": "near.btc",
+   "sec": "rotation",
+   "t": "2026-11-20T10:38+07:00",
+   "text": "Near a flip: Bitcoin sits at 0.5 of 5; Macro would move it to Watch.",
+   "tier": "fyi"
+  },
   {
    "d": "19 Nov",
    "href": "#rotation",
