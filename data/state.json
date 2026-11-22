@@ -1,5 +1,5 @@
 {
- "asOf": "2026-11-21T10:20+07:00",
+ "asOf": "2026-11-22T09:28+07:00",
  "date": "2026-11-20",
  "detector": {
   "btc": {
@@ -613,6 +613,10 @@
    "2026-11-21": [
     57.74,
     2020.7
+   ],
+   "2026-11-22": [
+    57.79,
+    2071.5
    ]
   },
   "fomc": {
@@ -3113,6 +3117,11 @@
     "equity": 0.62,
     "index": 1.2,
     "total": 1.01
+   },
+   "2026-11-20": {
+    "equity": 0.77,
+    "index": 1.27,
+    "total": 1.13
    }
   },
   "scores": {
@@ -5269,7 +5278,7 @@
     ],
     "bitcoin": [
      -0.7,
-     -1.0
+     -0.8
     ],
     "cash": [
      0.3,
@@ -5308,7 +5317,7 @@
      -0.2
     ],
     "semis": [
-     -0.4,
+     -0.3,
      -0.2
     ],
     "silver": [
@@ -5324,7 +5333,7 @@
      -1.3
     ],
     "us_large": [
-     -0.4,
+     -0.3,
      0.4
     ],
     "us_small": [
@@ -5580,7 +5589,7 @@
   "bitcoin": {
    "cond": -0.7,
    "name": "Bitcoin",
-   "price": -1.0,
+   "price": -0.8,
    "read": "Aligned down"
   },
   "cash": {
@@ -5638,7 +5647,7 @@
    "read": "Conditions ahead, down"
   },
   "semis": {
-   "cond": -0.4,
+   "cond": -0.3,
    "name": "Semiconductors and mega-cap tech",
    "price": -0.2,
    "read": "Neutral"
@@ -5662,7 +5671,7 @@
    "read": "Price ahead, down"
   },
   "us_large": {
-   "cond": -0.4,
+   "cond": -0.3,
    "name": "US large caps (S&P 500)",
    "price": 0.4,
    "read": "Neutral"
@@ -5695,7 +5704,7 @@
     "value": -0.03
    },
    "risk": {
-    "value": -0.41
+    "value": -0.4
    }
   },
   "flags": {
@@ -5803,13 +5812,13 @@
   }
  },
  "v4": {
-  "date": "2026-11-20",
+  "date": "2026-11-21",
   "surprises": [],
   "tier1_soon": [],
   "tier2_soon": []
  },
  "v5": {
-  "asof": "2026-11-20",
+  "asof": "2026-11-21",
   "lean": {
    "raw": "split",
    "raw_count": 38,
