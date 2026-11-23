@@ -1,26 +1,34 @@
 {
  "events": {
-  "auction:20Y:2026-10-21": {
-   "day": "Wed 21 Oct",
-   "expect": "$13B of 20-year bonds, with the 10Y at 5.15% and its divergence alert at +3.3 (smart money buying). A demand test for the long end: a tail over 2 bp pushes yields up. Options price Wednesday at ±0.9%, a normal session.",
-   "name": "20-year Treasury auction (reopening)",
-   "reviewed": "2026-10-21",
-   "stronger": "Strong demand: yields ease from the 94th percentile and the 10Y row (Price ahead, down) gets price support where smart money is buying; REITs and semis firm.",
-   "weaker": "A tail over 2 bp: long yields up and the curve steepens further (2s10s +33 bp), the banks' Macro condition; REITs (Conditions ahead, down) and long-duration tech lag."
+  "blackout:2026-11-28": {
+   "day": "Sat 28 Nov",
+   "expect": "No official guidance from Saturday to 10 Dec, the day after the 9 Dec meeting. Hike odds move on data and press reports only, and PCE is the one US print on this week's calendar.",
+   "name": "Fed communications blackout begins (to 10 Dec)",
+   "reviewed": "2026-11-23",
+   "stronger": "",
+   "weaker": ""
   },
-  "eia:2026-10-21": {
-   "day": "Wed 21 Oct",
-   "expect": "Consensus a 0.1 mb draw after last week's 8.6 mb. WTI is 99.05, up 5.2% on the week with trend followers long since 15 Oct; producers are Developing and energy reads Aligned up. Options price Wednesday at ±0.9%, a normal session.",
+  "eia:2026-11-25": {
+   "day": "Wed 25 Nov",
+   "expect": "No consensus in the feed yet; last week built 3.4 mb. WTI is 83.41, down 16.1% in a month and 6% under its 200-day, against a fresh divergence alert (+1.7, smart money buying); producers sit at Watch (exit) with no condition on.",
    "name": "EIA crude inventories",
-   "reviewed": "2026-10-21",
-   "stronger": "A build after the big draw: crude gives back part of its week, and producers' relative strength, one of the three conditions behind Developing, is what it tests.",
-   "weaker": "A second large draw: crude and producers extend the week's move; energy's Aligned up read and producers' three conditions hold."
+   "reviewed": "2026-11-23",
+   "stronger": "A third build: crude extends its slide under the 200-day, the producers' Macro condition stays off, and energy's Aligned up read (conditions +1.0, price +1.4) is tested.",
+   "weaker": "A draw: crude and producers up, in the direction of the smart money alert; a close back above the 200-day would return the producers' Macro condition."
+  },
+  "pce:2026-11-25": {
+   "day": "Wed 25 Nov",
+   "expect": "Core 0.3% against 0.3%, after October's core CPI beat by 0.1. It works through the futures path, still pricing most of a December hike but 2.3 hikes over the year against 3.3 a week ago, and through real yields at 2.88%.",
+   "name": "PCE inflation, income and spending",
+   "reviewed": "2026-11-23",
+   "stronger": "Core 0.4% or more: the December hike firms and real yields rise; gold, down 9.5% on the week with trend followers short, and small caps (Neutral) lose, and the dollar extends.",
+   "weaker": "Core 0.2%: the path loses more of the December hike and real yields ease; gold and the miners (both Price ahead, down) get their driver back, homebuilders (Early) get rate relief, the dollar softens."
   }
  },
  "week": {
-  "from": "2026-10-19",
-  "reviewed": "2026-10-21",
-  "text": "A light calendar inside the Fed blackout, a week before three central bank decisions (the 28 Oct FOMC is priced at ±1.1%). The page has moved more than the calendar: the cycle chip reads Overheat since last week's core CPI, credit stress is flagged rising with high yield at 329 bp, and dealer gamma has dropped to the 31st percentile from the 100th a week ago, so moves are less damped. Wednesday carries both remaining events, and the 20-year auction is the week's rates test; nothing is closed.",
-  "to": "2026-10-25"
+  "from": "2026-11-23",
+  "reviewed": "2026-11-23",
+  "text": "A stress week with a short calendar: the S&P fell 8.6% last week, VIX sits above VIX3M, credit stress reads stress with high yield at 352 bp, and dealer gamma is at the bottom of its range, so moves are amplified rather than damped. Futures took a full hike out of the year but still price most of December. Wednesday's PCE is the one US print; the US is closed Thursday, and options prices are missing while Cboe's chain feed refuses requests.",
+  "to": "2026-11-29"
  }
 }
