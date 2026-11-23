@@ -1,7 +1,25 @@
 {
- "asOf": "2026-11-22T09:28+07:00",
- "asOfLabel": "22 Nov 2026, 09:28 BKK",
+ "asOf": "2026-11-23T09:56+07:00",
+ "asOfLabel": "23 Nov 2026, 09:56 BKK",
  "changes": [
+  {
+   "d": "23 Nov",
+   "href": "#calendar",
+   "key": "cal.pce:2026-11-25",
+   "sec": "calendar",
+   "t": "2026-11-23T09:56+07:00",
+   "text": "Coming Wed 25 Nov, 08:30 ET: PCE inflation, income and spending (consensus core m/m 0.3%; spending 0.4%).",
+   "tier": "fyi"
+  },
+  {
+   "d": "23 Nov",
+   "href": "#calendar",
+   "key": "cal.eia:2026-11-25",
+   "sec": "calendar",
+   "t": "2026-11-23T09:56+07:00",
+   "text": "Coming Wed 25 Nov, 10:30 ET: EIA crude inventories.",
+   "tier": "fyi"
+  },
   {
    "d": "21 Nov",
    "href": "#ranking",

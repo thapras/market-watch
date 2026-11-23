@@ -1,5 +1,5 @@
 {
- "asOf": "2026-11-22T09:28+07:00",
+ "asOf": "2026-11-23T09:56+07:00",
  "date": "2026-11-20",
  "detector": {
   "btc": {
@@ -617,6 +617,10 @@
    "2026-11-22": [
     57.79,
     2071.5
+   ],
+   "2026-11-23": [
+    58.79,
+    2060.7
    ]
   },
   "fomc": {
@@ -5278,7 +5282,7 @@
     ],
     "bitcoin": [
      -0.7,
-     -0.8
+     -1.0
     ],
     "cash": [
      0.3,
@@ -5286,7 +5290,7 @@
     ],
     "copper": [
      0.7,
-     -0.2
+     -0.4
     ],
     "em_ex_china": [
      0.0,
@@ -5302,7 +5306,7 @@
     ],
     "gold": [
      0.4,
-     -1.8
+     -1.6
     ],
     "gold_miners": [
      0.0,
@@ -5314,7 +5318,7 @@
     ],
     "reits": [
      -0.7,
-     -0.2
+     0.0
     ],
     "semis": [
      -0.3,
@@ -5322,7 +5326,7 @@
     ],
     "silver": [
      0.4,
-     -1.6
+     -1.4
     ],
     "thailand": [
      -0.2,
@@ -5415,6 +5419,10 @@
      "ref": "2026-09-01",
      "scale": "prior",
      "z": 0.0
+    },
+    "2026-11-25": {
+     "f": 0.3,
+     "p": 0.3
     }
    },
    "cpi_mm": {
@@ -5589,7 +5597,7 @@
   "bitcoin": {
    "cond": -0.7,
    "name": "Bitcoin",
-   "price": -0.8,
+   "price": -1.0,
    "read": "Aligned down"
   },
   "cash": {
@@ -5601,7 +5609,7 @@
   "copper": {
    "cond": 0.7,
    "name": "Copper and industrial metals",
-   "price": -0.2,
+   "price": -0.4,
    "read": "Conditions ahead, up"
   },
   "em_ex_china": {
@@ -5625,7 +5633,7 @@
   "gold": {
    "cond": 0.4,
    "name": "Gold",
-   "price": -1.8,
+   "price": -1.6,
    "read": "Price ahead, down"
   },
   "gold_miners": {
@@ -5643,7 +5651,7 @@
   "reits": {
    "cond": -0.7,
    "name": "Real estate (REITs)",
-   "price": -0.2,
+   "price": 0.0,
    "read": "Conditions ahead, down"
   },
   "semis": {
@@ -5655,7 +5663,7 @@
   "silver": {
    "cond": 0.4,
    "name": "Silver and silver miners",
-   "price": -1.6,
+   "price": -1.4,
    "read": "Price ahead, down"
   },
   "thailand": {
@@ -5812,13 +5820,16 @@
   }
  },
  "v4": {
-  "date": "2026-11-21",
+  "date": "2026-11-22",
   "surprises": [],
   "tier1_soon": [],
-  "tier2_soon": []
+  "tier2_soon": [
+   "pce:2026-11-25",
+   "eia:2026-11-25"
+  ]
  },
  "v5": {
-  "asof": "2026-11-21",
+  "asof": "2026-11-22",
   "lean": {
    "raw": "split",
    "raw_count": 38,
@@ -5828,8 +5839,8 @@
   },
   "tally": {
    "bear": 5,
-   "bull": 8,
-   "neutral": 9
+   "bull": 7,
+   "neutral": 10
   },
   "votes": {
    "apprank": null,
@@ -5855,7 +5866,7 @@
    "risk": 1,
    "roi1y": 0,
    "rsi_m": 1,
-   "rsi_w": 1,
+   "rsi_w": 0,
    "stables": -1,
    "thermo": 0,
    "whales": null
