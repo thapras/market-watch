@@ -1,7 +1,43 @@
 {
- "asOf": "2026-11-23T09:56+07:00",
- "asOfLabel": "23 Nov 2026, 09:56 BKK",
+ "asOf": "2026-11-24T13:14+07:00",
+ "asOfLabel": "24 Nov 2026, 13:14 BKK",
  "changes": [
+  {
+   "d": "24 Nov",
+   "href": "#rotation",
+   "key": "near.smh",
+   "sec": "rotation",
+   "t": "2026-11-24T13:14+07:00",
+   "text": "Near a flip: Semiconductors sits at 0.5 of 5; Macro would move it to Watch.",
+   "tier": "fyi"
+  },
+  {
+   "d": "24 Nov",
+   "href": "#rotation",
+   "key": "near.xhb",
+   "sec": "rotation",
+   "t": "2026-11-24T13:14+07:00",
+   "text": "Near a flip: Homebuilders sits at 1.5 of 5; Breadth would move it to Early.",
+   "tier": "fyi"
+  },
+  {
+   "d": "24 Nov",
+   "href": "#calendar",
+   "key": "cal.blackout:2026-11-28",
+   "sec": "calendar",
+   "t": "2026-11-24T13:14+07:00",
+   "text": "Coming Sat 28 Nov: Fed communications blackout begins (to 10 Dec).",
+   "tier": "fyi"
+  },
+  {
+   "d": "24 Nov",
+   "href": "#rotation",
+   "key": "theme.xhb",
+   "sec": "rotation",
+   "t": "2026-11-24T13:14+07:00",
+   "text": "Homebuilders moved from Early to Watch (2 of 5): Relative strength, Seasonal.",
+   "tier": "note"
+  },
   {
    "d": "23 Nov",
    "href": "#calendar",
