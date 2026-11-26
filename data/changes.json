@@ -1,7 +1,43 @@
 {
- "asOf": "2026-11-25T11:58+07:00",
- "asOfLabel": "25 Nov 2026, 11:58 BKK",
+ "asOf": "2026-11-26T11:15+07:00",
+ "asOfLabel": "26 Nov 2026, 11:15 BKK",
  "changes": [
+  {
+   "d": "26 Nov",
+   "href": "#rotation",
+   "key": "near.cash",
+   "sec": "rotation",
+   "t": "2026-11-26T11:15+07:00",
+   "text": "Near a flip: Cash leaving the sidelines sits at 1.5 of 5; Flows would move it to Early.",
+   "tier": "fyi"
+  },
+  {
+   "d": "26 Nov",
+   "href": "#ranking",
+   "key": "rank.europe",
+   "sec": "regime",
+   "t": "2026-11-26T11:15+07:00",
+   "text": "Europe equities read changed: Neutral to Price ahead, up (conditions -0.1, price +0.6).",
+   "tier": "note"
+  },
+  {
+   "d": "26 Nov",
+   "href": "#ranking",
+   "key": "rank.ust10",
+   "sec": "regime",
+   "t": "2026-11-26T11:15+07:00",
+   "text": "US 10-year Treasuries read changed: Price ahead, down to Neutral (conditions +0.2, price -0.3).",
+   "tier": "note"
+  },
+  {
+   "d": "26 Nov",
+   "href": "#regime",
+   "key": "flag.risk",
+   "sec": "regime",
+   "t": "2026-11-26T11:15+07:00",
+   "text": "Risk appetite flag changed: neutral to off (composite -0.4).",
+   "tier": "must"
+  },
   {
    "d": "24 Nov",
    "href": "#rotation",
