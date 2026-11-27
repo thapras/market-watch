@@ -1,6 +1,6 @@
 {
- "asOf": "2026-11-26T11:15+07:00",
- "asOfLabel": "26 Nov 2026, 11:15 BKK",
+ "asOf": "2026-11-27T11:23+07:00",
+ "asOfLabel": "27 Nov 2026, 11:23 BKK",
  "cells": {
   "cb.boe.last": {
    "s": 0,
@@ -110,7 +110,7 @@
   },
   "cta.copper.flip": {
    "s": 0,
-   "t": "6.43 (+17.1%)"
+   "t": "6.58 (+16.7%)"
   },
   "cta.copper.signal": {
    "h": "<span class=\"chip serious\"><span class=\"g\">▼</span>Short</span>",
@@ -136,7 +136,7 @@
   },
   "cta.gold.flip": {
    "s": 0,
-   "t": "4,388 (+21.8%)"
+   "t": "4,400 (+20.3%)"
   },
   "cta.gold.signal": {
    "h": "<span class=\"chip serious\"><span class=\"g\">▼</span>Short</span>",
@@ -188,7 +188,7 @@
   },
   "cta.wti.flip": {
    "s": 0,
-   "t": "70 (-16.5%)"
+   "t": "74 (-14.2%)"
   },
   "cta.wti.signal": {
    "h": "<span class=\"chip up\"><span class=\"g\">▲</span>Long</span>",
@@ -205,7 +205,7 @@
   },
   "div.btc.cr": {
    "s": 0,
-   "t": "Leveraged funds net -1k, pct 100; crypto fear and greed 11, pct 5"
+   "t": "Leveraged funds net -1k, pct 100; crypto fear and greed 12, pct 7"
   },
   "div.btc.read": {
    "s": 0,
@@ -305,7 +305,7 @@
   },
   "div.semis.cr": {
    "s": 0,
-   "t": "Leveraged funds net -12k, pct 88; equity put/call z -1.4 (inverted); AAII spread -9 (logging, 13 weeks)"
+   "t": "Leveraged funds net -12k, pct 88; equity put/call z -1.4 (inverted); AAII spread -8 (logging, 14 weeks)"
   },
   "div.semis.read": {
    "s": 0,
@@ -345,7 +345,7 @@
   },
   "div.spx.cr": {
    "s": 0,
-   "t": "Leveraged funds net -225k, pct 95; margin debt z +1.1; equity put/call z -1.4 (inverted); AAII spread -9 (logging, 13 weeks)"
+   "t": "Leveraged funds net -225k, pct 95; margin debt z +1.1; equity put/call z -1.4 (inverted); AAII spread -8 (logging, 14 weeks)"
   },
   "div.spx.read": {
    "s": 0,
@@ -381,55 +381,55 @@
   },
   "en.brent.1m": {
    "s": -1,
-   "t": "-20.1%"
+   "t": "-20.0%"
   },
   "en.brent.1w": {
-   "s": -1,
-   "t": "-1.0%"
+   "s": 1,
+   "t": "+0.3%"
   },
   "en.brent.level": {
    "s": 0,
-   "t": "91.00"
+   "t": "92.23"
   },
   "en.brent.vs200": {
    "s": -1,
-   "t": "-4%"
+   "t": "-3%"
   },
   "en.brent.ytd": {
    "s": 1,
-   "t": "+49.5%"
+   "t": "+51.6%"
   },
   "en.crack.1m": {
    "s": -1,
-   "t": "-19.74"
+   "t": "-18.06"
   },
   "en.crack.1w": {
    "s": -1,
-   "t": "-6.78"
+   "t": "-6.55"
   },
   "en.crack.level": {
    "s": 0,
-   "t": "35.07"
+   "t": "35.42"
   },
   "en.natgas.1m": {
    "s": 1,
-   "t": "+36.6%"
+   "t": "+28.0%"
   },
   "en.natgas.1w": {
    "s": 1,
-   "t": "+9.2%"
+   "t": "+10.3%"
   },
   "en.natgas.level": {
    "s": 0,
-   "t": "3.68"
+   "t": "3.61"
   },
   "en.natgas.vs200": {
    "s": 1,
-   "t": "+24%"
+   "t": "+21%"
   },
   "en.natgas.ytd": {
    "s": -1,
-   "t": "-0.1%"
+   "t": "-2.2%"
   },
   "en.rigs.1m": {
    "s": 0,
@@ -493,23 +493,23 @@
   },
   "en.wti.1m": {
    "s": -1,
-   "t": "-15.6%"
+   "t": "-16.6%"
   },
   "en.wti.1w": {
    "s": 1,
-   "t": "+1.3%"
+   "t": "+3.0%"
   },
   "en.wti.level": {
    "s": 0,
-   "t": "84.33"
+   "t": "85.72"
   },
   "en.wti.vs200": {
    "s": -1,
-   "t": "-5%"
+   "t": "-3%"
   },
   "en.wti.ytd": {
    "s": 1,
-   "t": "+46.9%"
+   "t": "+49.3%"
   },
   "fac.beta_lowvol.1m": {
    "s": -1,
@@ -674,11 +674,11 @@
   },
   "fx.dxy.3m": {
    "s": 1,
-   "t": "+4.7%"
+   "t": "+4.0%"
   },
   "fx.dxy.level": {
    "s": 0,
-   "t": "103.8"
+   "t": "103.7"
   },
   "fx.dxy.trend": {
    "s": 1,
@@ -686,23 +686,23 @@
   },
   "fx.eurusd.1m": {
    "s": -1,
-   "t": "-1.5%"
+   "t": "-1.6%"
   },
   "fx.eurusd.3m": {
    "s": -1,
-   "t": "-5.4%"
+   "t": "-5.5%"
   },
   "fx.eurusd.level": {
    "s": 0,
-   "t": "1.096"
+   "t": "1.098"
   },
   "fx.eurusd.trend": {
    "s": -1,
    "t": "▼ falling"
   },
   "fx.usdcny.1m": {
-   "s": -1,
-   "t": "-0.1%"
+   "s": 0,
+   "t": "0.0%"
   },
   "fx.usdcny.3m": {
    "s": -1,
@@ -718,15 +718,15 @@
   },
   "fx.usdjpy.1m": {
    "s": 1,
-   "t": "+0.7%"
+   "t": "+0.9%"
   },
   "fx.usdjpy.3m": {
    "s": -1,
-   "t": "-0.6%"
+   "t": "-0.3%"
   },
   "fx.usdjpy.level": {
    "s": 0,
-   "t": "159.1"
+   "t": "159.2"
   },
   "fx.usdjpy.trend": {
    "s": 1,
@@ -734,15 +734,15 @@
   },
   "fx.usdthb.1m": {
    "s": 1,
-   "t": "+0.6%"
+   "t": "+0.8%"
   },
   "fx.usdthb.3m": {
    "s": 1,
-   "t": "+2.8%"
+   "t": "+2.5%"
   },
   "fx.usdthb.level": {
    "s": 0,
-   "t": "33.98"
+   "t": "33.96"
   },
   "fx.usdthb.trend": {
    "s": 1,
@@ -920,51 +920,51 @@
   },
   "idx.hsi.1m": {
    "s": -1,
-   "t": "-3.1%"
+   "t": "-2.4%"
   },
   "idx.hsi.1w": {
-   "s": -1,
-   "t": "-2.0%"
+   "s": 0,
+   "t": "0.0%"
   },
   "idx.hsi.3m": {
    "s": -1,
-   "t": "-12.5%"
+   "t": "-12.4%"
   },
   "idx.hsi.level": {
    "s": 0,
-   "t": "22,374"
+   "t": "22,416"
   },
   "idx.hsi.vs200": {
    "s": -1,
-   "t": "-11%"
+   "t": "-10%"
   },
   "idx.hsi.ytd": {
    "s": -1,
-   "t": "-12.7%"
+   "t": "-12.5%"
   },
   "idx.n225.1m": {
    "s": -1,
-   "t": "-7.1%"
+   "t": "-7.6%"
   },
   "idx.n225.1w": {
    "s": -1,
-   "t": "-2.1%"
+   "t": "-1.6%"
   },
   "idx.n225.3m": {
    "s": -1,
-   "t": "-12.5%"
+   "t": "-10.7%"
   },
   "idx.n225.level": {
    "s": 0,
-   "t": "57,762"
+   "t": "58,488"
   },
   "idx.n225.vs200": {
    "s": -1,
-   "t": "-7%"
+   "t": "-6%"
   },
   "idx.n225.ytd": {
    "s": 1,
-   "t": "+14.7%"
+   "t": "+16.2%"
   },
   "idx.ndx.1m": {
    "s": -1,
@@ -1094,83 +1094,83 @@
   },
   "idx.stoxx.1m": {
    "s": -1,
-   "t": "-2.7%"
+   "t": "-1.1%"
   },
   "idx.stoxx.1w": {
    "s": -1,
-   "t": "-2.8%"
+   "t": "-0.2%"
   },
   "idx.stoxx.3m": {
    "s": -1,
-   "t": "-4.4%"
+   "t": "-2.2%"
   },
   "idx.stoxx.level": {
    "s": 0,
-   "t": "626"
+   "t": "637"
   },
   "idx.stoxx.vs200": {
-   "s": -1,
-   "t": "-1%"
+   "s": 1,
+   "t": "+1%"
   },
   "idx.stoxx.ytd": {
    "s": 1,
-   "t": "+5.6%"
+   "t": "+7.5%"
   },
   "im.copper.1m": {
    "s": -1,
-   "t": "-17.1%"
+   "t": "-15.1%"
   },
   "im.copper.1w": {
-   "s": -1,
-   "t": "-3.0%"
+   "s": 1,
+   "t": "+0.3%"
   },
   "im.copper.level": {
    "s": 0,
-   "t": "5.49"
+   "t": "5.64"
   },
   "im.copper.vs200": {
    "s": -1,
-   "t": "-12%"
+   "t": "-9%"
   },
   "im.copper.ytd": {
-   "s": -1,
-   "t": "-2.5%"
+   "s": 1,
+   "t": "+0.2%"
   },
   "im.corn.1m": {
-   "s": 1,
-   "t": "+1.7%"
+   "s": -1,
+   "t": "-2.0%"
   },
   "im.corn.1w": {
    "s": 1,
-   "t": "+4.8%"
+   "t": "+1.0%"
   },
   "im.corn.level": {
    "s": 0,
-   "t": "4.56"
+   "t": "4.40"
   },
   "im.corn.vs200": {
-   "s": 0,
-   "t": "0%"
+   "s": -1,
+   "t": "-4%"
   },
   "im.corn.ytd": {
-   "s": 1,
-   "t": "+3.6%"
+   "s": -1,
+   "t": "-0.1%"
   },
   "im.cu_au.1m": {
    "s": -1,
-   "t": "-6.2%"
+   "t": "-6.0%"
   },
   "im.cu_au.1w": {
    "s": 1,
-   "t": "+0.8%"
+   "t": "+1.0%"
   },
   "im.cu_au.level": {
    "s": 0,
-   "t": "1.52"
+   "t": "1.54"
   },
   "im.cu_au.ytd": {
    "s": 1,
-   "t": "+17.5%"
+   "t": "+18.9%"
   },
   "im.ironore.1m": {
    "s": -1,
@@ -1194,7 +1194,7 @@
   },
   "im.soy.1m": {
    "s": 1,
-   "t": "+1.1%"
+   "t": "+1.2%"
   },
   "im.soy.1w": {
    "s": 1,
@@ -1202,7 +1202,7 @@
   },
   "im.soy.level": {
    "s": 0,
-   "t": "12.43"
+   "t": "12.44"
   },
   "im.soy.vs200": {
    "s": 1,
@@ -1210,7 +1210,7 @@
   },
   "im.soy.ytd": {
    "s": 1,
-   "t": "+20.6%"
+   "t": "+20.7%"
   },
   "im.uranium.1m": {
    "s": -1,
@@ -1234,23 +1234,23 @@
   },
   "im.wheat.1m": {
    "s": -1,
-   "t": "-3.9%"
+   "t": "-7.3%"
   },
   "im.wheat.1w": {
-   "s": 1,
-   "t": "+2.9%"
+   "s": -1,
+   "t": "-0.8%"
   },
   "im.wheat.level": {
    "s": 0,
-   "t": "5.87"
+   "t": "5.66"
   },
   "im.wheat.vs200": {
    "s": -1,
-   "t": "-7%"
+   "t": "-10%"
   },
   "im.wheat.ytd": {
    "s": 1,
-   "t": "+15.7%"
+   "t": "+11.5%"
   },
   "liq.bankcredit": {
    "date": "2026-11-11",
@@ -1333,6 +1333,7 @@
     22.96
    ],
    "src": "Treasury FiscalData MSPD",
+   "stale": "26 Nov 2026, 11:15 BKK",
    "unit": "%",
    "val": "23.0%"
   },
@@ -1365,32 +1366,32 @@
    "val": "+0.7<small>% GDP</small>"
   },
   "liq.m2_global": {
-   "date": "2026-09-01",
+   "date": "2026-10-01",
    "delta": {
-    "dir": "up",
-    "t": "+1.1 pt",
-    "vs": "vs 3 months ago, $50.3T"
+    "dir": "down",
+    "t": "-1.0 pt",
+    "vs": "vs 3 months ago, $50.2T"
    },
-   "dl": "Sep 2026",
+   "dl": "Oct 2026",
    "freq": "m",
    "kind": "tile",
    "spark": [
-    5.76,
-    6.15,
-    8.079,
-    9.179,
-    8.068,
-    5.458,
+    6.153,
+    8.077,
+    9.185,
+    8.071,
+    5.462,
     3.595,
-    3.422,
-    1.043,
-    3.734,
-    2.828,
-    2.111
+    3.427,
+    1.044,
+    3.75,
+    2.863,
+    2.133,
+    2.715
    ],
    "src": "FRED M2SL; ECB BSI; BoJ MD02; Yahoo FX",
    "unit": "%",
-   "val": "+2.1%"
+   "val": "+2.7%"
   },
   "liq.m2_us": {
    "date": "2026-10-01",
@@ -1618,131 +1619,131 @@
   },
   "pm.baht_gold.1m": {
    "s": -1,
-   "t": "-11.2%"
+   "t": "-9.0%"
   },
   "pm.baht_gold.1w": {
    "s": -1,
-   "t": "-3.4%"
+   "t": "-0.5%"
   },
   "pm.baht_gold.level": {
    "s": 0,
-   "t": "57,779"
+   "t": "58,884"
   },
   "pm.baht_gold.ytd": {
    "s": -1,
-   "t": "-10.5%"
+   "t": "-8.8%"
   },
   "pm.gold.1m": {
    "s": -1,
-   "t": "-11.6%"
+   "t": "-9.7%"
   },
   "pm.gold.1w": {
    "s": -1,
-   "t": "-3.7%"
+   "t": "-0.7%"
   },
   "pm.gold.level": {
    "s": 0,
-   "t": "3,603"
+   "t": "3,658"
   },
   "pm.gold.vs200": {
    "s": -1,
-   "t": "-19%"
+   "t": "-17%"
   },
   "pm.gold.ytd": {
    "s": -1,
-   "t": "-17.0%"
+   "t": "-15.7%"
   },
   "pm.gs_ratio.1m": {
    "s": 0,
-   "t": "+10.8"
+   "t": "+7.8"
   },
   "pm.gs_ratio.1w": {
    "s": 0,
-   "t": "+2.7"
+   "t": "+0.4"
   },
   "pm.gs_ratio.level": {
    "s": 0,
-   "t": "85.9"
+   "t": "83.6"
   },
   "pm.gs_ratio.ytd": {
    "s": 0,
-   "t": "+24.0"
+   "t": "+21.7"
   },
   "pm.pall.1m": {
    "s": -1,
-   "t": "-14.1%"
+   "t": "-10.5%"
   },
   "pm.pall.1w": {
    "s": -1,
-   "t": "-7.4%"
+   "t": "-1.5%"
   },
   "pm.pall.level": {
    "s": 0,
-   "t": "880"
+   "t": "903"
   },
   "pm.pall.vs200": {
    "s": -1,
-   "t": "-34%"
+   "t": "-32%"
   },
   "pm.pall.ytd": {
    "s": -1,
-   "t": "-46.0%"
+   "t": "-44.6%"
   },
   "pm.plat.1m": {
    "s": -1,
-   "t": "-16.3%"
+   "t": "-14.4%"
   },
   "pm.plat.1w": {
    "s": -1,
-   "t": "-5.5%"
+   "t": "-1.6%"
   },
   "pm.plat.level": {
    "s": 0,
-   "t": "1,285"
+   "t": "1,326"
   },
   "pm.plat.vs200": {
    "s": -1,
-   "t": "-29%"
+   "t": "-26%"
   },
   "pm.plat.ytd": {
    "s": -1,
-   "t": "-36.8%"
+   "t": "-34.8%"
   },
   "pm.silver.1m": {
    "s": -1,
-   "t": "-22.7%"
+   "t": "-18.1%"
   },
   "pm.silver.1w": {
    "s": -1,
-   "t": "-6.8%"
+   "t": "-1.2%"
   },
   "pm.silver.level": {
    "s": 0,
-   "t": "41.96"
+   "t": "43.78"
   },
   "pm.silver.vs200": {
    "s": -1,
-   "t": "-37%"
+   "t": "-34%"
   },
   "pm.silver.ytd": {
    "s": -1,
-   "t": "-40.2%"
+   "t": "-37.6%"
   },
   "pos.cr_aaii.now": {
    "s": -1,
-   "t": "-9"
+   "t": "-8"
   },
   "pos.cr_aaii.pct": {
    "s": 0,
-   "t": "logging, 13 so far"
+   "t": "logging, 14 so far"
   },
   "pos.cr_crypto.now": {
    "s": 0,
-   "t": "11"
+   "t": "12"
   },
   "pos.cr_crypto.pct": {
    "s": 0,
-   "t": "5"
+   "t": "7"
   },
   "pos.cr_equity_pc.now": {
    "s": 0,
@@ -1842,11 +1843,11 @@
   },
   "ratio.ag_au.1m": {
    "s": -1,
-   "t": "-12.6%"
+   "t": "-9.3%"
   },
   "ratio.ag_au.level": {
    "s": 0,
-   "t": "0.0116"
+   "t": "0.0120"
   },
   "ratio.ag_au.trend": {
    "s": -1,
@@ -1854,11 +1855,11 @@
   },
   "ratio.au_spx.1m": {
    "s": -1,
-   "t": "-5.5%"
+   "t": "-7.3%"
   },
   "ratio.au_spx.level": {
    "s": 0,
-   "t": "0.502"
+   "t": "0.492"
   },
   "ratio.au_spx.trend": {
    "s": -1,
@@ -1866,11 +1867,11 @@
   },
   "ratio.btc_au.1m": {
    "s": -1,
-   "t": "-15.3%"
+   "t": "-13.0%"
   },
   "ratio.btc_au.level": {
    "s": 0,
-   "t": "16.8 oz"
+   "t": "17.1 oz"
   },
   "ratio.btc_au.trend": {
    "s": -1,
@@ -1878,11 +1879,11 @@
   },
   "ratio.cu_au.1m": {
    "s": -1,
-   "t": "-6.2%"
+   "t": "-6.0%"
   },
   "ratio.cu_au.level": {
    "s": 0,
-   "t": "1.52"
+   "t": "1.54"
   },
   "ratio.cu_au.trend": {
    "s": 0,
@@ -1914,7 +1915,7 @@
   },
   "ratio.oil_au.1m": {
    "s": -1,
-   "t": "-4.5%"
+   "t": "-7.6%"
   },
   "ratio.oil_au.level": {
    "s": 0,
@@ -2005,13 +2006,13 @@
    "val": "1,405 <small>bp</small>"
   },
   "rt.cuts": {
-   "date": "2026-11-25",
+   "date": "2026-11-26",
    "delta": {
     "dir": "up",
-    "t": "+0.4 cuts",
-    "vs": "vs 1 month ago; 65 bp of hikes by Nov 2027"
+    "t": "+0.5 cuts",
+    "vs": "vs 1 month ago; 62 bp of hikes by Nov 2027"
    },
-   "dl": "25 Nov",
+   "dl": "26 Nov",
    "freq": "d",
    "kind": "tile",
    "spark": [
@@ -2026,11 +2027,11 @@
     -1.88,
     -3.54,
     -2.26,
-    -2.6
+    -2.5
    ],
    "src": "Yahoo ZQX27.CBT, FRED EFFR",
    "unit": "",
-   "val": "2.6 <small>hikes</small>"
+   "val": "2.5 <small>hikes</small>"
   },
   "rt.dgs10": {
    "date": "2026-11-24",
@@ -2117,13 +2118,13 @@
    "val": "2.11%"
   },
   "rt.ffu": {
-   "date": "2026-11-25",
+   "date": "2026-11-26",
    "delta": {
     "dir": "flat",
     "t": "hold",
     "vs": "since Sep 2026"
    },
-   "dl": "25 Nov",
+   "dl": "26 Nov",
    "freq": "d",
    "kind": "tile",
    "spark": [
@@ -2510,27 +2511,27 @@
   },
   "sc.btc.12m": {
    "s": -1,
-   "t": "-14.5%"
+   "t": "-12.1%"
   },
   "sc.btc.1m": {
    "s": -1,
-   "t": "-24.3%"
+   "t": "-19.1%"
   },
   "sc.btc.1w": {
    "s": 1,
-   "t": "+3.5%"
+   "t": "+2.2%"
   },
   "sc.btc.3m": {
    "s": -1,
-   "t": "-27.9%"
+   "t": "-27.2%"
   },
   "sc.btc.level": {
    "s": 0,
-   "t": "60.9k"
+   "t": "61.4k"
   },
   "sc.btc.pct": {
    "s": 0,
-   "t": "4"
+   "t": "6"
   },
   "sc.btc.trend": {
    "s": 0,
@@ -2538,11 +2539,11 @@
   },
   "sc.btc.vol": {
    "s": 0,
-   "t": "31%"
+   "t": "32%"
   },
   "sc.btc.z": {
    "s": 0,
-   "t": "-2.2"
+   "t": "-1.7"
   },
   "sc.cew.12m": {
    "s": 1,
@@ -2582,27 +2583,27 @@
   },
   "sc.copper.12m": {
    "s": 1,
-   "t": "+10.7%"
+   "t": "+12.8%"
   },
   "sc.copper.1m": {
    "s": -1,
-   "t": "-17.1%"
+   "t": "-15.1%"
   },
   "sc.copper.1w": {
-   "s": -1,
-   "t": "-3.0%"
+   "s": 1,
+   "t": "+0.3%"
   },
   "sc.copper.3m": {
    "s": -1,
-   "t": "-16.6%"
+   "t": "-14.1%"
   },
   "sc.copper.level": {
    "s": 0,
-   "t": "5.49"
+   "t": "5.64"
   },
   "sc.copper.pct": {
    "s": 0,
-   "t": "12"
+   "t": "17"
   },
   "sc.copper.trend": {
    "s": 0,
@@ -2610,35 +2611,35 @@
   },
   "sc.copper.vol": {
    "s": 0,
-   "t": "27%"
+   "t": "29%"
   },
   "sc.copper.z": {
    "s": 0,
-   "t": "-2.6"
+   "t": "-2.3"
   },
   "sc.dxy.12m": {
    "s": 1,
-   "t": "+3.7%"
+   "t": "+4.1%"
   },
   "sc.dxy.1m": {
    "s": 1,
    "t": "+1.5%"
   },
   "sc.dxy.1w": {
-   "s": 0,
-   "t": "0.0%"
+   "s": -1,
+   "t": "-0.2%"
   },
   "sc.dxy.3m": {
    "s": 1,
-   "t": "+4.7%"
+   "t": "+4.0%"
   },
   "sc.dxy.level": {
    "s": 0,
-   "t": "103.8"
+   "t": "103.7"
   },
   "sc.dxy.pct": {
    "s": 0,
-   "t": "99"
+   "t": "98"
   },
   "sc.dxy.trend": {
    "s": 0,
@@ -2690,27 +2691,27 @@
   },
   "sc.gold.12m": {
    "s": -1,
-   "t": "-12.0%"
+   "t": "-11.6%"
   },
   "sc.gold.1m": {
    "s": -1,
-   "t": "-11.6%"
+   "t": "-9.7%"
   },
   "sc.gold.1w": {
    "s": -1,
-   "t": "-3.7%"
+   "t": "-0.7%"
   },
   "sc.gold.3m": {
    "s": -1,
-   "t": "-22.7%"
+   "t": "-19.2%"
   },
   "sc.gold.level": {
    "s": 0,
-   "t": "3,603"
+   "t": "3,658"
   },
   "sc.gold.pct": {
    "s": 0,
-   "t": "1"
+   "t": "2"
   },
   "sc.gold.trend": {
    "s": 0,
@@ -2722,7 +2723,7 @@
   },
   "sc.gold.z": {
    "s": 0,
-   "t": "-2.4"
+   "t": "-2.1"
   },
   "sc.hyg.12m": {
    "s": 1,
@@ -2762,27 +2763,27 @@
   },
   "sc.n225.12m": {
    "s": 1,
-   "t": "+13.6%"
+   "t": "+14.5%"
   },
   "sc.n225.1m": {
    "s": -1,
-   "t": "-7.1%"
+   "t": "-7.6%"
   },
   "sc.n225.1w": {
    "s": -1,
-   "t": "-2.1%"
+   "t": "-1.6%"
   },
   "sc.n225.3m": {
    "s": -1,
-   "t": "-12.5%"
+   "t": "-10.7%"
   },
   "sc.n225.level": {
    "s": 0,
-   "t": "57,762"
+   "t": "58,488"
   },
   "sc.n225.pct": {
    "s": 0,
-   "t": "40"
+   "t": "41"
   },
   "sc.n225.trend": {
    "s": 0,
@@ -2870,27 +2871,27 @@
   },
   "sc.silver.12m": {
    "s": -1,
-   "t": "-16.6%"
+   "t": "-14.0%"
   },
   "sc.silver.1m": {
    "s": -1,
-   "t": "-22.7%"
+   "t": "-18.1%"
   },
   "sc.silver.1w": {
    "s": -1,
-   "t": "-6.8%"
+   "t": "-1.2%"
   },
   "sc.silver.3m": {
    "s": -1,
-   "t": "-39.6%"
+   "t": "-34.7%"
   },
   "sc.silver.level": {
    "s": 0,
-   "t": "41.96"
+   "t": "43.78"
   },
   "sc.silver.pct": {
    "s": 0,
-   "t": "1"
+   "t": "2"
   },
   "sc.silver.trend": {
    "s": 0,
@@ -2898,11 +2899,11 @@
   },
   "sc.silver.vol": {
    "s": 0,
-   "t": "43%"
+   "t": "46%"
   },
   "sc.silver.z": {
    "s": 0,
-   "t": "-2.1"
+   "t": "-1.7"
   },
   "sc.spx.12m": {
    "s": 1,
@@ -2942,31 +2943,31 @@
   },
   "sc.stoxx.12m": {
    "s": 1,
-   "t": "+11.4%"
+   "t": "+13.2%"
   },
   "sc.stoxx.1m": {
    "s": -1,
-   "t": "-2.7%"
+   "t": "-1.1%"
   },
   "sc.stoxx.1w": {
    "s": -1,
-   "t": "-2.8%"
+   "t": "-0.2%"
   },
   "sc.stoxx.3m": {
    "s": -1,
-   "t": "-4.4%"
+   "t": "-2.2%"
   },
   "sc.stoxx.level": {
    "s": 0,
-   "t": "626"
+   "t": "637"
   },
   "sc.stoxx.pct": {
    "s": 0,
-   "t": "50"
+   "t": "64"
   },
   "sc.stoxx.trend": {
    "s": 0,
-   "t": "below / below"
+   "t": "below / above"
   },
   "sc.stoxx.vol": {
    "s": 0,
@@ -2974,7 +2975,7 @@
   },
   "sc.stoxx.z": {
    "s": 0,
-   "t": "-1.2"
+   "t": "-0.7"
   },
   "sc.us10y.12m": {
    "s": 1,
@@ -3014,27 +3015,27 @@
   },
   "sc.usdjpy.12m": {
    "s": 1,
-   "t": "+2.6%"
+   "t": "+2.5%"
   },
   "sc.usdjpy.1m": {
    "s": 1,
-   "t": "+0.7%"
+   "t": "+0.9%"
   },
   "sc.usdjpy.1w": {
    "s": -1,
-   "t": "-0.2%"
+   "t": "-0.3%"
   },
   "sc.usdjpy.3m": {
    "s": -1,
-   "t": "-0.6%"
+   "t": "-0.3%"
   },
   "sc.usdjpy.level": {
    "s": 0,
-   "t": "159.1"
+   "t": "159.2"
   },
   "sc.usdjpy.pct": {
    "s": 0,
-   "t": "63"
+   "t": "65"
   },
   "sc.usdjpy.trend": {
    "s": 0,
@@ -3050,27 +3051,27 @@
   },
   "sc.wti.12m": {
    "s": 1,
-   "t": "+43.3%"
+   "t": "+47.9%"
   },
   "sc.wti.1m": {
    "s": -1,
-   "t": "-15.6%"
+   "t": "-16.6%"
   },
   "sc.wti.1w": {
    "s": 1,
-   "t": "+1.3%"
+   "t": "+3.0%"
   },
   "sc.wti.3m": {
    "s": 1,
-   "t": "+1.0%"
+   "t": "+2.8%"
   },
   "sc.wti.level": {
    "s": 0,
-   "t": "84.33"
+   "t": "85.72"
   },
   "sc.wti.pct": {
    "s": 0,
-   "t": "46"
+   "t": "49"
   },
   "sc.wti.trend": {
    "s": 0,
@@ -3082,7 +3083,7 @@
   },
   "sc.wti.z": {
    "s": 0,
-   "t": "-1.4"
+   "t": "-1.5"
   },
   "sec.xlb.1m": {
    "s": -1,
@@ -3406,46 +3407,46 @@
   "strip.btc": {
    "d": {
     "dir": "down",
-    "t": "-24.3%, 1m"
+    "t": "-19.1%, 1m"
+   },
+   "date": "2026-11-27",
+   "dl": "27 Nov",
+   "freq": "d",
+   "kind": "strip",
+   "src": "Yahoo BTC-USD",
+   "val": "61.4k"
+  },
+  "strip.cu_au": {
+   "d": {
+    "dir": "down",
+    "t": "-6.0%, 1m"
    },
    "date": "2026-11-26",
    "dl": "26 Nov",
    "freq": "d",
    "kind": "strip",
-   "src": "Yahoo BTC-USD",
-   "val": "60.9k"
-  },
-  "strip.cu_au": {
-   "d": {
-    "dir": "down",
-    "t": "-6.2%, 1m"
-   },
-   "date": "2026-11-25",
-   "dl": "25 Nov",
-   "freq": "d",
-   "kind": "strip",
    "src": "Yahoo HG=F, GC=F",
-   "val": "1.52"
+   "val": "1.54"
   },
   "strip.dxy": {
    "d": {
     "dir": "up",
     "t": "+1.5%, 1m"
    },
-   "date": "2026-11-25",
-   "dl": "25 Nov",
+   "date": "2026-11-26",
+   "dl": "26 Nov",
    "freq": "d",
    "kind": "strip",
    "src": "Yahoo DXY",
-   "val": "103.8"
+   "val": "103.7"
   },
   "strip.ff": {
    "d": {
     "dir": "flat",
-    "t": "2.6 hikes priced, 12m"
+    "t": "2.5 hikes priced, 12m"
    },
-   "date": "2026-11-25",
-   "dl": "25 Nov",
+   "date": "2026-11-26",
+   "dl": "26 Nov",
    "freq": "d",
    "kind": "strip",
    "src": "FRED, Yahoo",
@@ -3454,14 +3455,14 @@
   "strip.gold": {
    "d": {
     "dir": "down",
-    "t": "-11.6%, 1m"
+    "t": "-9.7%, 1m"
    },
-   "date": "2026-11-25",
-   "dl": "25 Nov",
+   "date": "2026-11-26",
+   "dl": "26 Nov",
    "freq": "d",
    "kind": "strip",
    "src": "Yahoo GC=F",
-   "val": "3,603"
+   "val": "3,658"
   },
   "strip.hy": {
    "d": {
@@ -3477,15 +3478,15 @@
   },
   "strip.m2_global": {
    "d": {
-    "dir": "up",
+    "dir": "down",
     "t": "US, euro area, Japan"
    },
-   "date": "2026-09-01",
-   "dl": "Sep 2026",
+   "date": "2026-10-01",
+   "dl": "Oct 2026",
    "freq": "m",
    "kind": "strip",
    "src": "FRED M2SL; ECB BSI; BoJ MD02; Yahoo FX",
-   "val": "+2.1%"
+   "val": "+2.7%"
   },
   "strip.netliq": {
    "d": {
@@ -3540,12 +3541,12 @@
     "dir": "down",
     "t": "risk-off, not extreme"
    },
-   "date": "2026-11-25",
-   "dl": "25 Nov",
+   "date": "2026-11-26",
+   "dl": "26 Nov",
    "freq": "d",
    "kind": "strip",
    "src": "six inputs, 3-year z-scores",
-   "val": "-0.4"
+   "val": "-0.3"
   },
   "strip.spx": {
    "d": {
@@ -3586,14 +3587,14 @@
   "strip.usdjpy": {
    "d": {
     "dir": "up",
-    "t": "+0.7%, 1m"
+    "t": "+0.9%, 1m"
    },
-   "date": "2026-11-26",
-   "dl": "26 Nov",
+   "date": "2026-11-27",
+   "dl": "27 Nov",
    "freq": "d",
    "kind": "strip",
    "src": "Yahoo JPY=X",
-   "val": "159.1"
+   "val": "159.2"
   },
   "strip.vix": {
    "d": {
@@ -3610,26 +3611,26 @@
   "strip.wti": {
    "d": {
     "dir": "down",
-    "t": "-15.6%, 1m"
+    "t": "-16.6%, 1m"
    },
-   "date": "2026-11-25",
-   "dl": "25 Nov",
+   "date": "2026-11-26",
+   "dl": "26 Nov",
    "freq": "d",
    "kind": "strip",
    "src": "Yahoo CL=F",
-   "val": "84.3"
+   "val": "85.7"
   },
   "th.btc.1m": {
    "s": -1,
-   "t": "-24.3%"
+   "t": "-19.1%"
   },
   "th.btc.1w": {
    "s": 1,
-   "t": "+3.5%"
+   "t": "+2.2%"
   },
   "th.btc.3m": {
    "s": -1,
-   "t": "-27.9%"
+   "t": "-27.2%"
   },
   "th.btc.breadth": {
    "s": 0,
@@ -4208,15 +4209,17 @@
  },
  "counts": {
   "cells": 799,
-  "errors": 9,
+  "errors": 11,
   "rank": 18,
-  "stale": 20
+  "stale": 21
  },
  "errors": [
   "Yahoo 000300.SS (csi300): Yahoo 000300.SS: only 1 closes",
   "Yahoo ^SET.BK (set): Yahoo ^SET.BK: only 1 closes",
+  "Treasury FiscalData MSPD (bills_share): https://api.fiscaldata.treasury.gov/services/api/fiscal_service/v1/debt/mspd/mspd_table_1?fields=record_date,security_type_desc,security_class_desc,total_mil_amt&filter=security_type_desc:in:(Marketable,Total%20Marketable)&sort=-record_date&page%5Bsize%5D=5000: HTTP Error 504: Gateway Time-out",
   "multpl S&P 500 P/E (spx_pe): https://www.multpl.com/s-p-500-pe-ratio/table/by-month: <urlopen error [Errno 111] Connection refused>",
   "Cboe SPX option chain (spx_chain): https://cdn.cboe.com/api/global/delayed_quotes/options/_SPX.json: HTTP Error 403: Forbidden",
+  "liq.bills: KeyError: 'bills_share'",
   "idx.csi300: KeyError: 'csi300'",
   "idx.set: KeyError: 'set'",
   "val.spx_pe: KeyError: 'spx_pe'",
@@ -4225,62 +4228,62 @@
  ],
  "meta": {
   "cb.boe": {
-   "date": "2026-11-16",
+   "date": "2026-11-23",
    "dl": "Nov 2026",
    "freq": "m",
    "src": "BIS WS_CBPOL GB (Bank Rate)"
   },
   "cb.boj": {
-   "date": "2026-11-17",
+   "date": "2026-11-24",
    "dl": "Nov 2026",
    "freq": "m",
    "src": "BIS WS_CBPOL JP (overnight call rate target)"
   },
   "cb.bot": {
-   "date": "2026-11-12",
+   "date": "2026-11-19",
    "dl": "Nov 2026",
    "freq": "m",
    "src": "BIS WS_CBPOL TH (one-day repo rate)"
   },
   "cb.ecb": {
-   "date": "2026-11-25",
+   "date": "2026-11-26",
    "dl": "Nov 2026",
    "freq": "m",
    "src": "FRED ECBDFR (deposit facility)"
   },
   "cb.fed": {
-   "date": "2026-11-25",
+   "date": "2026-11-26",
    "dl": "Nov 2026",
    "freq": "m",
    "src": "FRED DFEDTARU (target range, upper)"
   },
   "cb.pboc": {
-   "date": "2026-11-17",
+   "date": "2026-11-19",
    "dl": "Nov 2026",
    "freq": "m",
    "src": "BIS WS_CBPOL CN (one-year loan prime rate)"
   },
   "ce": {
-   "date": "2026-11-25",
-   "dl": "25 Nov",
+   "date": "2026-11-26",
+   "dl": "26 Nov",
    "freq": "d",
    "src": "calendar rules: NYSE holidays, third Fridays, quarter ends, the tax calendar, the FOMC dates"
   },
   "cta.copper": {
-   "date": "2026-11-25",
-   "dl": "25 Nov",
+   "date": "2026-11-26",
+   "dl": "26 Nov",
    "freq": "d",
    "src": "Trend model on the closes: sign of 20, 50, 100 and 200-day returns, majority rule"
   },
   "cta.dxy": {
-   "date": "2026-11-25",
-   "dl": "25 Nov",
+   "date": "2026-11-26",
+   "dl": "26 Nov",
    "freq": "d",
    "src": "Trend model on the closes: sign of 20, 50, 100 and 200-day returns, majority rule"
   },
   "cta.gold": {
-   "date": "2026-11-25",
-   "dl": "25 Nov",
+   "date": "2026-11-26",
+   "dl": "26 Nov",
    "freq": "d",
    "src": "Trend model on the closes: sign of 20, 50, 100 and 200-day returns, majority rule"
   },
@@ -4303,8 +4306,8 @@
    "src": "Trend model on the closes: sign of 20, 50, 100 and 200-day returns, majority rule"
   },
   "cta.wti": {
-   "date": "2026-11-25",
-   "dl": "25 Nov",
+   "date": "2026-11-26",
+   "dl": "26 Nov",
    "freq": "d",
    "src": "Trend model on the closes: sign of 20, 50, 100 and 200-day returns, majority rule"
   },
@@ -4363,20 +4366,20 @@
    "src": "CFTC TFF plus the daily inputs listed in the cells"
   },
   "en.brent": {
-   "date": "2026-11-25",
-   "dl": "25 Nov",
+   "date": "2026-11-26",
+   "dl": "26 Nov",
    "freq": "d",
    "src": "Yahoo BZ=F"
   },
   "en.crack": {
-   "date": "2026-11-25",
-   "dl": "25 Nov",
+   "date": "2026-11-26",
+   "dl": "26 Nov",
    "freq": "d",
    "src": "Yahoo RB=F, HO=F, CL=F (3-2-1, computed)"
   },
   "en.natgas": {
-   "date": "2026-11-25",
-   "dl": "25 Nov",
+   "date": "2026-11-26",
+   "dl": "26 Nov",
    "freq": "d",
    "src": "Yahoo NG=F"
   },
@@ -4399,8 +4402,8 @@
    "src": "EIA WCESTUS1 (commercial crude, excluding SPR)"
   },
   "en.wti": {
-   "date": "2026-11-25",
-   "dl": "25 Nov",
+   "date": "2026-11-26",
+   "dl": "26 Nov",
    "freq": "d",
    "src": "Yahoo CL=F"
   },
@@ -4459,20 +4462,20 @@
    "src": "SqueezeMetrics GEX"
   },
   "flow2.pension": {
-   "date": "2026-11-26",
-   "dl": "26 Nov",
+   "date": "2026-11-27",
+   "dl": "27 Nov",
    "freq": "d",
    "src": "SPY and TLT quarter-to-date returns"
   },
   "flow2.rp": {
-   "date": "2026-11-26",
-   "dl": "26 Nov",
+   "date": "2026-11-27",
+   "dl": "27 Nov",
    "freq": "d",
    "src": "SPY and TLT: 100-day trends and 60-day correlation"
   },
   "flow2.volctl": {
-   "date": "2026-11-26",
-   "dl": "26 Nov",
+   "date": "2026-11-27",
+   "dl": "27 Nov",
    "freq": "d",
    "src": "S&P 500 closes, 21-day realized volatility against a 12% target"
   },
@@ -4489,32 +4492,32 @@
    "src": "Yahoo CEW"
   },
   "fx.dxy": {
-   "date": "2026-11-25",
-   "dl": "25 Nov",
+   "date": "2026-11-26",
+   "dl": "26 Nov",
    "freq": "d",
    "src": "Yahoo DX-Y.NYB"
   },
   "fx.eurusd": {
-   "date": "2026-11-26",
-   "dl": "26 Nov",
+   "date": "2026-11-27",
+   "dl": "27 Nov",
    "freq": "d",
    "src": "Yahoo EURUSD=X"
   },
   "fx.usdcny": {
-   "date": "2026-11-26",
-   "dl": "26 Nov",
+   "date": "2026-11-27",
+   "dl": "27 Nov",
    "freq": "d",
    "src": "Yahoo CNY=X"
   },
   "fx.usdjpy": {
-   "date": "2026-11-26",
-   "dl": "26 Nov",
+   "date": "2026-11-27",
+   "dl": "27 Nov",
    "freq": "d",
    "src": "Yahoo JPY=X"
   },
   "fx.usdthb": {
-   "date": "2026-11-26",
-   "dl": "26 Nov",
+   "date": "2026-11-27",
+   "dl": "27 Nov",
    "freq": "d",
    "src": "Yahoo THB=X"
   },
@@ -4555,8 +4558,8 @@
    "src": "FRED SAHMREALTIME"
   },
   "gp.surprise": {
-   "date": "2026-11-25",
-   "dl": "25 Nov",
+   "date": "2026-11-26",
+   "dl": "26 Nov",
    "freq": "d",
    "src": "in-house: Forex Factory consensus against FRED first prints, mean standardized surprise over 90 days (US only; no free consensus feed with actuals for the euro area or China)"
   },
@@ -4597,14 +4600,14 @@
    "src": "Yahoo EEM"
   },
   "idx.hsi": {
-   "date": "2026-11-26",
-   "dl": "26 Nov",
+   "date": "2026-11-27",
+   "dl": "27 Nov",
    "freq": "d",
    "src": "Yahoo ^HSI"
   },
   "idx.n225": {
-   "date": "2026-11-26",
-   "dl": "26 Nov",
+   "date": "2026-11-27",
+   "dl": "27 Nov",
    "freq": "d",
    "src": "Yahoo ^N225"
   },
@@ -4639,14 +4642,14 @@
    "src": "Yahoo ^SPXEW"
   },
   "idx.stoxx": {
-   "date": "2026-11-25",
-   "dl": "25 Nov",
+   "date": "2026-11-26",
+   "dl": "26 Nov",
    "freq": "d",
    "src": "Yahoo ^STOXX"
   },
   "im.copper": {
-   "date": "2026-11-25",
-   "dl": "25 Nov",
+   "date": "2026-11-26",
+   "dl": "26 Nov",
    "freq": "d",
    "src": "Yahoo HG=F"
   },
@@ -4657,8 +4660,8 @@
    "src": "Yahoo ZC=F"
   },
   "im.cu_au": {
-   "date": "2026-11-25",
-   "dl": "25 Nov",
+   "date": "2026-11-26",
+   "dl": "26 Nov",
    "freq": "d",
    "src": "Yahoo HG=F, GC=F"
   },
@@ -4687,50 +4690,50 @@
    "src": "Yahoo ZW=F"
   },
   "pm.baht_gold": {
-   "date": "2026-11-25",
-   "dl": "25 Nov",
+   "date": "2026-11-26",
+   "dl": "26 Nov",
    "freq": "d",
    "src": "Yahoo GC=F, THB=X (computed)"
   },
   "pm.gold": {
-   "date": "2026-11-25",
-   "dl": "25 Nov",
+   "date": "2026-11-26",
+   "dl": "26 Nov",
    "freq": "d",
    "src": "Yahoo GC=F"
   },
   "pm.gs_ratio": {
-   "date": "2026-11-25",
-   "dl": "25 Nov",
+   "date": "2026-11-26",
+   "dl": "26 Nov",
    "freq": "d",
    "src": "Yahoo GC=F, SI=F"
   },
   "pm.pall": {
-   "date": "2026-11-25",
-   "dl": "25 Nov",
+   "date": "2026-11-26",
+   "dl": "26 Nov",
    "freq": "d",
    "src": "Yahoo PA=F"
   },
   "pm.plat": {
-   "date": "2026-11-25",
-   "dl": "25 Nov",
+   "date": "2026-11-26",
+   "dl": "26 Nov",
    "freq": "d",
    "src": "Yahoo PL=F"
   },
   "pm.silver": {
-   "date": "2026-11-25",
-   "dl": "25 Nov",
+   "date": "2026-11-26",
+   "dl": "26 Nov",
    "freq": "d",
    "src": "Yahoo SI=F"
   },
   "pos.cr_aaii": {
-   "date": "2026-11-18",
-   "dl": "18 Nov",
+   "date": "2026-11-25",
+   "dl": "25 Nov",
    "freq": "w",
-   "src": "AAII survey page (bulls 33.3%, bears 42.2%)"
+   "src": "AAII survey page (bulls 37.1%, bears 45.4%)"
   },
   "pos.cr_crypto": {
-   "date": "2026-11-26",
-   "dl": "26 Nov",
+   "date": "2026-11-27",
+   "dl": "27 Nov",
    "freq": "d",
    "src": "alternative.me crypto fear and greed"
   },
@@ -4807,8 +4810,8 @@
    "src": "CFTC TFF report, asset managers"
   },
   "ratio.ag_au": {
-   "date": "2026-11-25",
-   "dl": "25 Nov",
+   "date": "2026-11-26",
+   "dl": "26 Nov",
    "freq": "d",
    "src": "Yahoo SI=F, GC=F"
   },
@@ -4819,14 +4822,14 @@
    "src": "Yahoo GC=F, ^GSPC"
   },
   "ratio.btc_au": {
-   "date": "2026-11-24",
-   "dl": "24 Nov",
+   "date": "2026-11-25",
+   "dl": "25 Nov",
    "freq": "d",
    "src": "Yahoo BTC-USD, GC=F"
   },
   "ratio.cu_au": {
-   "date": "2026-11-25",
-   "dl": "25 Nov",
+   "date": "2026-11-26",
+   "dl": "26 Nov",
    "freq": "d",
    "src": "Yahoo HG=F, GC=F"
   },
@@ -4843,8 +4846,8 @@
    "src": "Yahoo HYG, IEF"
   },
   "ratio.oil_au": {
-   "date": "2026-11-25",
-   "dl": "25 Nov",
+   "date": "2026-11-26",
+   "dl": "26 Nov",
    "freq": "d",
    "src": "Yahoo CL=F, GC=F"
   },
@@ -4861,8 +4864,8 @@
    "src": "Yahoo XLY, XLP"
   },
   "sc.btc": {
-   "date": "2026-11-26",
-   "dl": "26 Nov",
+   "date": "2026-11-27",
+   "dl": "27 Nov",
    "freq": "d",
    "src": "Yahoo BTC-USD"
   },
@@ -4873,14 +4876,14 @@
    "src": "Yahoo CEW"
   },
   "sc.copper": {
-   "date": "2026-11-25",
-   "dl": "25 Nov",
+   "date": "2026-11-26",
+   "dl": "26 Nov",
    "freq": "d",
    "src": "Yahoo HG=F"
   },
   "sc.dxy": {
-   "date": "2026-11-25",
-   "dl": "25 Nov",
+   "date": "2026-11-26",
+   "dl": "26 Nov",
    "freq": "d",
    "src": "Yahoo DX-Y.NYB"
   },
@@ -4891,8 +4894,8 @@
    "src": "Yahoo EEM"
   },
   "sc.gold": {
-   "date": "2026-11-25",
-   "dl": "25 Nov",
+   "date": "2026-11-26",
+   "dl": "26 Nov",
    "freq": "d",
    "src": "Yahoo GC=F"
   },
@@ -4903,8 +4906,8 @@
    "src": "Yahoo HYG"
   },
   "sc.n225": {
-   "date": "2026-11-26",
-   "dl": "26 Nov",
+   "date": "2026-11-27",
+   "dl": "27 Nov",
    "freq": "d",
    "src": "Yahoo ^N225"
   },
@@ -4921,8 +4924,8 @@
    "src": "Yahoo ^RUT"
   },
   "sc.silver": {
-   "date": "2026-11-25",
-   "dl": "25 Nov",
+   "date": "2026-11-26",
+   "dl": "26 Nov",
    "freq": "d",
    "src": "Yahoo SI=F"
   },
@@ -4933,8 +4936,8 @@
    "src": "Yahoo ^GSPC"
   },
   "sc.stoxx": {
-   "date": "2026-11-25",
-   "dl": "25 Nov",
+   "date": "2026-11-26",
+   "dl": "26 Nov",
    "freq": "d",
    "src": "Yahoo ^STOXX"
   },
@@ -4945,14 +4948,14 @@
    "src": "FRED DGS10"
   },
   "sc.usdjpy": {
-   "date": "2026-11-26",
-   "dl": "26 Nov",
+   "date": "2026-11-27",
+   "dl": "27 Nov",
    "freq": "d",
    "src": "Yahoo JPY=X"
   },
   "sc.wti": {
-   "date": "2026-11-25",
-   "dl": "25 Nov",
+   "date": "2026-11-26",
+   "dl": "26 Nov",
    "freq": "d",
    "src": "Yahoo CL=F"
   },
@@ -5023,8 +5026,8 @@
    "src": "Yahoo XLY, SPY"
   },
   "th.btc": {
-   "date": "2026-11-26",
-   "dl": "26 Nov",
+   "date": "2026-11-27",
+   "dl": "27 Nov",
    "freq": "d",
    "src": "Yahoo BTC-USD, SPY"
   },
@@ -5145,7 +5148,7 @@
      "v": null
     },
     "L": {
-     "title": "Liquidity 0.0: liquidity composite -0.0 times beta 1.0",
+     "title": "Liquidity 0.0: liquidity composite -0.1 times beta 1.0",
      "v": 0.0
     },
     "P": {
@@ -5183,11 +5186,11 @@
   "bitcoin": {
    "cond": -0.8,
    "cond_wow": -0.1,
-   "date": "2026-11-26",
-   "dl": "26 Nov",
+   "date": "2026-11-27",
+   "dl": "27 Nov",
    "freq": "d",
-   "level": 60880.671875,
-   "mom": "+12.9%",
+   "level": 61439.55078125,
+   "mom": "+8.6%",
    "n_pillars": 5,
    "pillars": {
     "C": {
@@ -5199,7 +5202,7 @@
      "v": null
     },
     "L": {
-     "title": "Liquidity 0.0: liquidity composite -0.0 times beta 2.0",
+     "title": "Liquidity 0.0: liquidity composite -0.1 times beta 2.0",
      "v": 0.0
     },
     "P": {
@@ -5248,7 +5251,7 @@
      "v": null
     },
     "L": {
-     "title": "Liquidity 0.0: liquidity composite -0.0 times beta -1.5",
+     "title": "Liquidity 0.0: liquidity composite -0.1 times beta -1.5",
      "v": 0.0
     },
     "P": {
@@ -5276,11 +5279,11 @@
   "copper": {
    "cond": 0.7,
    "cond_wow": 0.3,
-   "date": "2026-11-25",
-   "dl": "25 Nov",
+   "date": "2026-11-26",
+   "dl": "26 Nov",
    "freq": "d",
-   "level": 5.491000175476074,
-   "mom": "+33.5%",
+   "level": 5.639500141143799,
+   "mom": "+32.8%",
    "n_pillars": 5,
    "pillars": {
     "C": {
@@ -5292,7 +5295,7 @@
      "v": null
     },
     "L": {
-     "title": "Liquidity 0.0: liquidity composite -0.0 times beta 1.5",
+     "title": "Liquidity 0.0: liquidity composite -0.1 times beta 1.5",
      "v": 0.0
     },
     "P": {
@@ -5346,7 +5349,7 @@
      "v": null
     },
     "L": {
-     "title": "Liquidity 0.0: liquidity composite -0.0 times beta 1.5",
+     "title": "Liquidity 0.0: liquidity composite -0.1 times beta 1.5",
      "v": 0.0
     },
     "P": {
@@ -5400,7 +5403,7 @@
      "v": null
     },
     "L": {
-     "title": "Liquidity 0.0: liquidity composite -0.0 times beta 0.5",
+     "title": "Liquidity 0.0: liquidity composite -0.1 times beta 0.5",
      "v": 0.0
     },
     "P": {
@@ -5454,7 +5457,7 @@
      "v": null
     },
     "L": {
-     "title": "Liquidity 0.0: liquidity composite -0.0 times beta 1.0",
+     "title": "Liquidity 0.0: liquidity composite -0.1 times beta 1.0",
      "v": 0.0
     },
     "P": {
@@ -5492,11 +5495,11 @@
   "gold": {
    "cond": 0.4,
    "cond_wow": 0.2,
-   "date": "2026-11-25",
-   "dl": "25 Nov",
+   "date": "2026-11-26",
+   "dl": "26 Nov",
    "freq": "d",
-   "level": 3603.39990234375,
-   "mom": "-0.5%",
+   "level": 3658.0,
+   "mom": "-2.1%",
    "n_pillars": 5,
    "pillars": {
     "C": {
@@ -5508,7 +5511,7 @@
      "v": null
     },
     "L": {
-     "title": "Liquidity 0.0: liquidity composite -0.0 times beta 1.2",
+     "title": "Liquidity 0.0: liquidity composite -0.1 times beta 1.2",
      "v": 0.0
     },
     "P": {
@@ -5562,7 +5565,7 @@
      "v": null
     },
     "L": {
-     "title": "Liquidity 0.0: liquidity composite -0.0 times beta 1.5",
+     "title": "Liquidity 0.0: liquidity composite -0.1 times beta 1.5",
      "v": 0.0
     },
     "P": {
@@ -5616,7 +5619,7 @@
      "v": null
     },
     "L": {
-     "title": "Liquidity 0.0: liquidity composite -0.0 times beta 1.0",
+     "title": "Liquidity 0.0: liquidity composite -0.1 times beta 1.0",
      "v": 0.0
     },
     "P": {
@@ -5670,7 +5673,7 @@
      "v": null
     },
     "L": {
-     "title": "Liquidity 0.0: liquidity composite -0.0 times beta 1.0",
+     "title": "Liquidity 0.0: liquidity composite -0.1 times beta 1.0",
      "v": 0.0
     },
     "P": {
@@ -5724,7 +5727,7 @@
      "v": null
     },
     "L": {
-     "title": "Liquidity 0.0: liquidity composite -0.0 times beta 1.5",
+     "title": "Liquidity 0.0: liquidity composite -0.1 times beta 1.5",
      "v": 0.0
     },
     "P": {
@@ -5762,11 +5765,11 @@
   "silver": {
    "cond": 0.4,
    "cond_wow": 0.0,
-   "date": "2026-11-25",
-   "dl": "25 Nov",
+   "date": "2026-11-26",
+   "dl": "26 Nov",
    "freq": "d",
-   "level": 41.95500183105469,
-   "mom": "+7.9%",
+   "level": 43.779998779296875,
+   "mom": "+5.0%",
    "n_pillars": 5,
    "pillars": {
     "C": {
@@ -5778,7 +5781,7 @@
      "v": null
     },
     "L": {
-     "title": "Liquidity 0.0: liquidity composite -0.0 times beta 1.5",
+     "title": "Liquidity 0.0: liquidity composite -0.1 times beta 1.5",
      "v": 0.0
     },
     "P": {
@@ -5827,7 +5830,7 @@
      "v": null
     },
     "L": {
-     "title": "Liquidity 0.0: liquidity composite -0.0 times beta 1.5",
+     "title": "Liquidity 0.0: liquidity composite -0.1 times beta 1.5",
      "v": 0.0
     },
     "P": {
@@ -5871,7 +5874,7 @@
      "v": null
     },
     "L": {
-     "title": "Liquidity 0.0: liquidity composite -0.0 times beta 1.0",
+     "title": "Liquidity 0.0: liquidity composite -0.1 times beta 1.0",
      "v": 0.0
     },
     "P": {
@@ -5925,7 +5928,7 @@
      "v": null
     },
     "L": {
-     "title": "Liquidity 0.0: liquidity composite -0.0 times beta 1.0",
+     "title": "Liquidity 0.0: liquidity composite -0.1 times beta 1.0",
      "v": 0.0
     },
     "P": {
@@ -5979,7 +5982,7 @@
      "v": null
     },
     "L": {
-     "title": "Liquidity 0.0: liquidity composite -0.0 times beta 1.5",
+     "title": "Liquidity 0.0: liquidity composite -0.1 times beta 1.5",
      "v": 0.0
     },
     "P": {
@@ -6033,7 +6036,7 @@
      "v": null
     },
     "L": {
-     "title": "Liquidity 0.0: liquidity composite -0.0 times beta 0.5",
+     "title": "Liquidity 0.0: liquidity composite -0.1 times beta 0.5",
      "v": 0.0
     },
     "P": {
@@ -6072,8 +6075,8 @@
  "schema": 1,
  "v2": {
   "bitcoin": {
-   "asof": "2026-11-25",
-   "asofLabel": "25 Nov 2026",
+   "asof": "2026-11-26",
+   "asofLabel": "26 Nov 2026",
    "charts": {
     "band": [
      [
@@ -6914,7 +6917,7 @@
       416.36,
       151,
       84,
-      262
+      263
      ],
      [
       "2014-04-20",
@@ -6949,7 +6952,7 @@
       446.96,
       167,
       93,
-      290
+      291
      ],
      [
       "2014-05-25",
@@ -7004,7 +7007,7 @@
       "2014-07-13",
       629.88,
       196,
-      109,
+      108,
       340
      ],
      [
@@ -7075,7 +7078,7 @@
       400.4,
       237,
       131,
-      412
+      413
      ],
      [
       "2014-09-28",
@@ -7117,7 +7120,7 @@
       324.25,
       265,
       147,
-      461
+      462
      ],
      [
       "2014-11-09",
@@ -7214,7 +7217,7 @@
       "2015-02-08",
       224.04,
       342,
-      190,
+      189,
       595
      ],
      [
@@ -7234,7 +7237,7 @@
      [
       "2015-03-01",
       260.65,
-      361,
+      360,
       200,
       627
      ],
@@ -7257,7 +7260,7 @@
       268.9,
       380,
       211,
-      660
+      661
      ],
      [
       "2015-03-29",
@@ -7312,7 +7315,7 @@
       "2015-05-17",
       236.96,
       436,
-      242,
+      241,
       758
      ],
      [
@@ -7341,7 +7344,7 @@
       232.51,
       466,
       258,
-      810
+      811
      ],
      [
       "2015-06-21",
@@ -7425,7 +7428,7 @@
       240.81,
       568,
       315,
-      987
+      988
      ],
      [
       "2015-09-13",
@@ -7557,7 +7560,7 @@
       "2016-01-17",
       382.48,
       766,
-      425,
+      424,
       1332
      ],
      [
@@ -7565,7 +7568,7 @@
       403.45,
       778,
       431,
-      1352
+      1353
      ],
      [
       "2016-01-31",
@@ -7621,14 +7624,14 @@
       412.06,
       878,
       487,
-      1526
+      1527
      ],
      [
       "2016-03-27",
       425.45,
       891,
       494,
-      1549
+      1550
      ],
      [
       "2016-04-03",
@@ -7670,7 +7673,7 @@
       461.38,
       974,
       540,
-      1693
+      1694
      ],
      [
       "2016-05-15",
@@ -7698,7 +7701,7 @@
       575.14,
       1033,
       572,
-      1795
+      1796
      ],
      [
       "2016-06-12",
@@ -7717,7 +7720,7 @@
      [
       "2016-06-26",
       630.43,
-      1079,
+      1078,
       598,
       1875
      ],
@@ -7726,7 +7729,7 @@
       662.55,
       1094,
       606,
-      1902
+      1903
      ],
      [
       "2016-07-10",
@@ -7761,7 +7764,7 @@
       594.73,
       1175,
       651,
-      2043
+      2044
      ],
      [
       "2016-08-14",
@@ -7789,7 +7792,7 @@
       610.54,
       1244,
       689,
-      2162
+      2163
      ],
      [
       "2016-09-11",
@@ -7829,9 +7832,9 @@
      [
       "2016-10-16",
       642.91,
-      1353,
-      750,
-      2351
+      1352,
+      749,
+      2352
      ],
      [
       "2016-10-23",
@@ -7844,8 +7847,8 @@
       "2016-10-30",
       699.33,
       1390,
-      771,
-      2417
+      770,
+      2418
      ],
      [
       "2016-11-06",
@@ -7885,9 +7888,9 @@
      [
       "2016-12-11",
       770.5,
-      1510,
-      837,
-      2624
+      1509,
+      836,
+      2625
      ],
      [
       "2016-12-18",
@@ -7900,7 +7903,7 @@
       "2016-12-25",
       896.0,
       1551,
-      860,
+      859,
       2697
      ],
      [
@@ -7915,7 +7918,7 @@
       912.48,
       1593,
       883,
-      2770
+      2771
      ],
      [
       "2017-01-15",
@@ -7955,29 +7958,29 @@
      [
       "2017-02-19",
       1058.79,
-      1727,
+      1726,
       957,
       3002
      ],
      [
       "2017-02-26",
       1181.71,
-      1750,
-      970,
+      1749,
+      969,
       3042
      ],
      [
       "2017-03-05",
       1276.27,
       1773,
-      983,
+      982,
       3082
      ],
      [
       "2017-03-12",
       1231.75,
       1796,
-      996,
+      995,
       3123
      ],
      [
@@ -7997,8 +8000,8 @@
      [
       "2017-04-02",
       1105.56,
-      1869,
-      1036,
+      1868,
+      1035,
       3249
      ],
      [
@@ -8020,12 +8023,12 @@
       1250.0,
       1943,
       1077,
-      3378
+      3379
      ],
      [
       "2017-04-30",
       1381.96,
-      1969,
+      1968,
       1091,
       3423
      ],
@@ -8040,8 +8043,8 @@
       "2017-05-14",
       1794.59,
       2020,
-      1120,
-      3512
+      1119,
+      3513
      ],
      [
       "2017-05-21",
@@ -8060,15 +8063,15 @@
      [
       "2017-06-04",
       2524.99,
-      2100,
-      1164,
+      2099,
+      1163,
       3651
      ],
      [
       "2017-06-11",
       2974.21,
-      2127,
-      1179,
+      2126,
+      1178,
       3698
      ],
      [
@@ -8081,15 +8084,15 @@
      [
       "2017-06-25",
       2497.73,
-      2182,
+      2181,
       1209,
       3793
      ],
      [
       "2017-07-02",
       2518.87,
-      2210,
-      1225,
+      2209,
+      1224,
       3842
      ],
      [
@@ -8104,7 +8107,7 @@
       1910.75,
       2266,
       1256,
-      3940
+      3941
      ],
      [
       "2017-07-23",
@@ -8123,22 +8126,22 @@
      [
       "2017-08-06",
       3230.12,
-      2354,
+      2353,
       1304,
       4092
      ],
      [
       "2017-08-13",
       4063.8,
-      2384,
+      2383,
       1321,
       4144
      ],
      [
       "2017-08-20",
       4085.81,
-      2414,
-      1338,
+      2413,
+      1337,
       4196
      ],
      [
@@ -8151,21 +8154,21 @@
      [
       "2017-09-03",
       4625.3,
-      2475,
+      2474,
       1371,
       4302
      ],
      [
       "2017-09-10",
       4261.84,
-      2506,
-      1389,
+      2505,
+      1388,
       4356
      ],
      [
       "2017-09-17",
       3711.86,
-      2537,
+      2536,
       1406,
       4411
      ],
@@ -8186,7 +8189,7 @@
      [
       "2017-10-08",
       4600.74,
-      2633,
+      2632,
       1459,
       4577
      ],
@@ -8208,7 +8211,7 @@
       "2017-10-29",
       6174.73,
       2731,
-      1514,
+      1513,
       4749
      ],
      [
@@ -8235,15 +8238,15 @@
      [
       "2017-11-26",
       9319.9,
-      2868,
+      2867,
       1589,
       4986
      ],
      [
       "2017-12-03",
       11213.94,
-      2903,
-      1609,
+      2902,
+      1608,
       5047
      ],
      [
@@ -8256,14 +8259,14 @@
      [
       "2017-12-17",
       19250.47,
-      2974,
+      2973,
       1648,
       5170
      ],
      [
       "2017-12-24",
       14026.35,
-      3010,
+      3009,
       1668,
       5233
      ],
@@ -8277,8 +8280,8 @@
      [
       "2018-01-07",
       16231.69,
-      3083,
-      1709,
+      3082,
+      1708,
       5360
      ],
      [
@@ -8291,7 +8294,7 @@
      [
       "2018-01-21",
       11422.39,
-      3158,
+      3157,
       1750,
       5490
      ],
@@ -8299,13 +8302,13 @@
       "2018-01-28",
       11615.96,
       3195,
-      1771,
-      5555
+      1770,
+      5556
      ],
      [
       "2018-02-04",
       8250.53,
-      3234,
+      3233,
       1792,
       5622
      ],
@@ -8327,14 +8330,14 @@
       "2018-02-25",
       9603.23,
       3350,
-      1857,
+      1856,
       5825
      ],
      [
       "2018-03-04",
       11462.58,
       3390,
-      1879,
+      1878,
       5894
      ],
      [
@@ -8347,36 +8350,36 @@
      [
       "2018-03-18",
       8189.02,
-      3471,
-      1924,
+      3470,
+      1923,
       6034
      ],
      [
       "2018-03-25",
       8440.61,
-      3512,
+      3511,
       1946,
-      6105
+      6106
      ],
      [
       "2018-04-01",
       6804.52,
-      3553,
+      3552,
       1969,
       6177
      ],
      [
       "2018-04-08",
       7010.0,
-      3595,
+      3594,
       1992,
       6250
      ],
      [
       "2018-04-15",
       8342.27,
-      3637,
-      2016,
+      3636,
+      2015,
       6323
      ],
      [
@@ -8390,14 +8393,14 @@
       "2018-04-29",
       9397.0,
       3722,
-      2063,
+      2062,
       6471
      ],
      [
       "2018-05-06",
       9595.09,
-      3766,
-      2087,
+      3765,
+      2086,
       6547
      ],
      [
@@ -8411,20 +8414,20 @@
       "2018-05-20",
       8511.45,
       3853,
-      2136,
+      2135,
       6700
      ],
      [
       "2018-05-27",
       7338.19,
-      3898,
+      3897,
       2160,
       6777
      ],
      [
       "2018-06-03",
       7702.16,
-      3943,
+      3942,
       2185,
       6855
      ],
@@ -8438,21 +8441,21 @@
      [
       "2018-06-17",
       6450.69,
-      4034,
-      2236,
+      4033,
+      2235,
       7014
      ],
      [
       "2018-06-24",
       6146.49,
-      4081,
+      4080,
       2261,
       7094
      ],
      [
       "2018-07-01",
       6361.4,
-      4127,
+      4126,
       2287,
       7176
      ],
@@ -8466,21 +8469,21 @@
      [
       "2018-07-15",
       6347.6,
-      4222,
-      2340,
+      4221,
+      2339,
       7340
      ],
      [
       "2018-07-22",
       7399.48,
-      4270,
+      4269,
       2366,
       7424
      ],
      [
       "2018-07-29",
       8229.61,
-      4319,
+      4318,
       2393,
       7508
      ],
@@ -8494,3040 +8497,3040 @@
      [
       "2018-08-12",
       6314.69,
-      4417,
-      2448,
+      4416,
+      2447,
       7679
      ],
      [
       "2018-08-19",
       6490.72,
-      4467,
+      4466,
       2475,
       7766
      ],
      [
       "2018-08-26",
       6689.87,
-      4517,
+      4516,
       2503,
       7853
      ],
      [
       "2018-09-02",
       7286.67,
-      4568,
+      4567,
       2531,
       7942
      ],
      [
       "2018-09-09",
       6249.25,
-      4619,
-      2560,
+      4618,
+      2559,
       8031
      ],
      [
       "2018-09-16",
       6497.4,
-      4671,
-      2589,
+      4670,
+      2588,
       8121
      ],
      [
       "2018-09-23",
       6703.14,
-      4723,
+      4722,
       2617,
       8211
      ],
      [
       "2018-09-30",
       6604.49,
-      4776,
-      2647,
+      4775,
+      2646,
       8303
      ],
      [
       "2018-10-07",
       6564.57,
-      4829,
-      2676,
+      4828,
+      2675,
       8395
      ],
      [
       "2018-10-14",
       6182.88,
       4882,
-      2706,
+      2705,
       8489
      ],
      [
       "2018-10-21",
       6415.34,
-      4937,
-      2736,
+      4936,
+      2735,
       8583
      ],
      [
       "2018-10-28",
       6406.63,
-      4991,
-      2766,
+      4990,
+      2765,
       8678
      ],
      [
       "2018-11-04",
       6420.42,
-      5046,
-      2797,
-      8774
+      5045,
+      2796,
+      8773
      ],
      [
       "2018-11-11",
       6335.41,
-      5102,
-      2828,
+      5101,
+      2827,
       8870
      ],
      [
       "2018-11-18",
       5555.38,
-      5158,
-      2859,
+      5157,
+      2858,
       8968
      ],
      [
       "2018-11-25",
       3946.85,
-      5215,
-      2890,
+      5214,
+      2889,
       9066
      ],
      [
       "2018-12-02",
       4098.75,
-      5272,
-      2922,
+      5271,
+      2921,
       9166
      ],
      [
       "2018-12-09",
       3540.44,
-      5330,
-      2954,
+      5328,
+      2953,
       9266
      ],
      [
       "2018-12-16",
       3195.41,
-      5388,
-      2986,
+      5387,
+      2985,
       9367
      ],
      [
       "2018-12-23",
       3942.67,
-      5446,
+      5445,
       3018,
       9469
      ],
      [
       "2018-12-30",
       3825.41,
-      5506,
-      3051,
+      5505,
+      3050,
       9572
      ],
      [
       "2019-01-06",
       4045.99,
-      5565,
+      5564,
       3084,
       9676
      ],
      [
       "2019-01-13",
       3508.67,
-      5626,
-      3118,
+      5625,
+      3117,
       9781
      ],
      [
       "2019-01-20",
       3538.31,
-      5686,
+      5685,
       3151,
       9886
      ],
      [
       "2019-01-27",
       3537.61,
-      5748,
+      5747,
       3185,
       9993
      ],
      [
       "2019-02-03",
       3413.02,
-      5810,
-      3220,
+      5809,
+      3219,
       10101
      ],
      [
       "2019-02-10",
       3642.02,
-      5872,
+      5871,
       3254,
       10209
      ],
      [
       "2019-02-17",
       3622.76,
-      5935,
-      3289,
+      5934,
+      3288,
       10319
      ],
      [
       "2019-02-24",
       3754.18,
-      5999,
-      3325,
+      5998,
+      3324,
       10429
      ],
      [
       "2019-03-03",
       3782.38,
-      6063,
-      3360,
+      6062,
+      3359,
       10541
      ],
      [
       "2019-03-10",
       3903.91,
-      6128,
-      3396,
+      6126,
+      3395,
       10653
      ],
      [
       "2019-03-17",
       3967.14,
-      6193,
-      3432,
+      6191,
+      3431,
       10767
      ],
      [
       "2019-03-24",
       3970.67,
-      6259,
-      3469,
+      6257,
+      3468,
       10881
      ],
      [
       "2019-03-31",
       4094.32,
-      6325,
-      3505,
-      10997
+      6324,
+      3504,
+      10996
      ],
      [
       "2019-04-07",
       5189.11,
-      6392,
-      3542,
+      6391,
+      3541,
       11113
      ],
      [
       "2019-04-14",
       5156.8,
-      6459,
-      3580,
+      6458,
+      3579,
       11230
      ],
      [
       "2019-04-21",
       5295.73,
-      6528,
-      3618,
+      6526,
+      3617,
       11349
      ],
      [
       "2019-04-28",
       5148.67,
-      6596,
-      3656,
+      6595,
+      3655,
       11468
      ],
      [
       "2019-05-05",
       5728.35,
-      6666,
-      3694,
+      6664,
+      3693,
       11589
      ],
      [
       "2019-05-12",
       6942.62,
-      6736,
-      3733,
+      6734,
+      3732,
       11710
      ],
      [
       "2019-05-19",
       8219.74,
-      6806,
-      3772,
+      6805,
+      3771,
       11833
      ],
      [
       "2019-05-26",
       8731.52,
-      6877,
-      3811,
-      11957
+      6876,
+      3810,
+      11956
      ],
      [
       "2019-06-02",
       8744.35,
-      6949,
-      3851,
+      6947,
+      3850,
       12081
      ],
      [
       "2019-06-09",
       7634.07,
-      7021,
-      3891,
+      7020,
+      3890,
       12207
      ],
      [
       "2019-06-16",
       9019.52,
-      7094,
-      3932,
+      7093,
+      3931,
       12334
      ],
      [
       "2019-06-23",
       10794.43,
-      7168,
-      3972,
+      7166,
+      3971,
       12462
      ],
      [
       "2019-06-30",
       10842.62,
-      7242,
-      4014,
+      7240,
+      4012,
       12591
      ],
      [
       "2019-07-07",
       11456.18,
-      7317,
-      4055,
+      7315,
+      4054,
       12721
      ],
      [
       "2019-07-14",
       10283.08,
-      7392,
-      4097,
+      7391,
+      4096,
       12852
      ],
      [
       "2019-07-21",
       10589.71,
-      7468,
-      4139,
-      12985
+      7467,
+      4138,
+      12984
      ],
      [
       "2019-07-28",
       9529.79,
-      7545,
-      4182,
+      7544,
+      4180,
       13118
      ],
      [
       "2019-08-04",
       10986.51,
-      7623,
-      4224,
-      13253
+      7621,
+      4223,
+      13252
      ],
      [
       "2019-08-11",
       11530.2,
-      7701,
-      4268,
+      7699,
+      4267,
       13388
      ],
      [
       "2019-08-18",
       10331.31,
-      7779,
-      4311,
+      7778,
+      4310,
       13525
      ],
      [
       "2019-08-25",
       10100.36,
-      7859,
-      4355,
+      7857,
+      4354,
       13663
      ],
      [
       "2019-09-01",
       9762.94,
-      7939,
-      4400,
+      7937,
+      4398,
       13802
      ],
      [
       "2019-09-08",
       10407.27,
-      8020,
-      4444,
-      13943
+      8018,
+      4443,
+      13942
      ],
      [
       "2019-09-15",
       10306.17,
-      8101,
-      4490,
+      8099,
+      4488,
       14084
      ],
      [
       "2019-09-22",
       10047.01,
-      8183,
-      4535,
-      14227
+      8181,
+      4534,
+      14226
      ],
      [
       "2019-09-29",
       8064.51,
-      8266,
-      4581,
-      14371
+      8264,
+      4580,
+      14370
      ],
      [
       "2019-10-06",
       7854.61,
-      8349,
-      4627,
-      14516
+      8347,
+      4626,
+      14515
      ],
      [
       "2019-10-13",
       8291.25,
-      8433,
-      4674,
+      8431,
+      4672,
       14662
      ],
      [
       "2019-10-20",
       8213.71,
-      8518,
-      4721,
-      14810
+      8516,
+      4719,
+      14809
      ],
      [
       "2019-10-27",
       9558.16,
-      8604,
-      4768,
+      8602,
+      4767,
       14958
      ],
      [
       "2019-11-03",
       9209.64,
-      8690,
-      4816,
+      8688,
+      4815,
       15108
      ],
      [
       "2019-11-10",
       9042.89,
-      8777,
-      4864,
+      8775,
+      4863,
       15259
      ],
      [
       "2019-11-17",
       8505.16,
-      8864,
-      4913,
-      15412
+      8862,
+      4911,
+      15411
      ],
      [
       "2019-11-24",
       6943.38,
-      8953,
-      4962,
+      8951,
+      4960,
       15565
      ],
      [
       "2019-12-01",
       7417.73,
-      9042,
-      5011,
+      9040,
+      5010,
       15720
      ],
      [
       "2019-12-08",
       7528.94,
-      9132,
-      5061,
+      9130,
+      5059,
       15876
      ],
      [
       "2019-12-15",
       7111.29,
-      9222,
-      5111,
-      16034
+      9220,
+      5110,
+      16033
      ],
      [
       "2019-12-22",
       7479.4,
-      9314,
-      5162,
-      16193
+      9311,
+      5160,
+      16192
      ],
      [
       "2019-12-29",
       7391.58,
-      9406,
-      5213,
-      16353
+      9403,
+      5211,
+      16352
      ],
      [
       "2020-01-05",
       7345.53,
-      9498,
-      5264,
-      16514
+      9496,
+      5262,
+      16513
      ],
      [
       "2020-01-12",
       8164.55,
-      9592,
-      5316,
+      9590,
+      5314,
       16676
      ],
      [
       "2020-01-19",
       8687.35,
-      9686,
-      5368,
+      9684,
+      5367,
       16840
      ],
      [
       "2020-01-26",
       8573.87,
-      9781,
-      5421,
-      17006
+      9779,
+      5419,
+      17005
      ],
      [
       "2020-02-02",
       9339.39,
-      9877,
-      5474,
-      17172
+      9875,
+      5472,
+      17171
      ],
      [
       "2020-02-09",
       10151.08,
-      9974,
-      5527,
-      17340
+      9971,
+      5526,
+      17339
      ],
      [
       "2020-02-16",
       9952.05,
-      10071,
-      5581,
+      10069,
+      5580,
       17509
      ],
      [
       "2020-02-23",
       9972.84,
-      10169,
-      5636,
-      17680
+      10167,
+      5634,
+      17679
      ],
      [
       "2020-03-01",
       8541.77,
-      10268,
-      5691,
-      17852
+      10266,
+      5689,
+      17851
      ],
      [
       "2020-03-08",
       8109.61,
-      10368,
-      5746,
-      18025
+      10365,
+      5744,
+      18024
      ],
      [
       "2020-03-15",
       5358.61,
-      10468,
-      5802,
-      18200
+      10466,
+      5800,
+      18199
      ],
      [
       "2020-03-22",
       5830.56,
-      10570,
-      5858,
-      18376
+      10567,
+      5856,
+      18375
      ],
      [
       "2020-03-29",
       5904.86,
-      10672,
-      5914,
-      18554
+      10669,
+      5912,
+      18553
      ],
      [
       "2020-04-05",
       6790.81,
-      10775,
-      5971,
-      18733
+      10772,
+      5970,
+      18732
      ],
      [
       "2020-04-12",
       6978.67,
-      10878,
-      6029,
-      18913
+      10876,
+      6027,
+      18912
      ],
      [
       "2020-04-19",
       7150.24,
-      10983,
-      6087,
-      19095
+      10980,
+      6085,
+      19094
      ],
      [
       "2020-04-26",
       7684.07,
-      11088,
-      6145,
-      19278
+      11086,
+      6143,
+      19277
      ],
      [
       "2020-05-03",
       8896.8,
-      11194,
-      6204,
-      19463
+      11192,
+      6202,
+      19462
      ],
      [
       "2020-05-10",
       8715.03,
-      11302,
-      6263,
-      19649
+      11299,
+      6261,
+      19648
      ],
      [
       "2020-05-17",
       9682.53,
-      11409,
-      6323,
-      19836
+      11407,
+      6321,
+      19835
      ],
      [
       "2020-05-24",
       8806.23,
-      11518,
-      6383,
-      20025
+      11515,
+      6381,
+      20024
      ],
      [
       "2020-05-31",
       9433.94,
-      11628,
-      6444,
-      20216
+      11625,
+      6442,
+      20215
      ],
      [
       "2020-06-07",
       9747.58,
-      11738,
-      6505,
-      20408
+      11735,
+      6503,
+      20407
      ],
      [
       "2020-06-14",
       9342.96,
-      11849,
-      6567,
-      20601
+      11847,
+      6565,
+      20600
      ],
      [
       "2020-06-21",
       9284.77,
-      11962,
-      6629,
-      20796
+      11959,
+      6627,
+      20795
      ],
      [
       "2020-06-28",
       9108.07,
-      12075,
-      6692,
-      20993
+      12072,
+      6690,
+      20992
      ],
      [
       "2020-07-05",
       9079.61,
-      12189,
-      6755,
-      21191
+      12186,
+      6753,
+      21190
      ],
      [
       "2020-07-12",
       9289.1,
-      12303,
-      6819,
-      21391
+      12300,
+      6816,
+      21389
      ],
      [
       "2020-07-19",
       9218.84,
-      12419,
-      6883,
-      21592
+      12416,
+      6881,
+      21590
      ],
      [
       "2020-07-26",
       9933.91,
-      12536,
-      6947,
-      21794
+      12533,
+      6945,
+      21793
      ],
      [
       "2020-08-02",
       11094.02,
-      12653,
-      7012,
-      21999
+      12650,
+      7010,
+      21997
      ],
      [
       "2020-08-09",
       11680.52,
-      12771,
-      7078,
-      22204
+      12768,
+      7076,
+      22203
      ],
      [
       "2020-08-16",
       11899.64,
-      12891,
-      7144,
-      22412
+      12888,
+      7142,
+      22410
      ],
      [
       "2020-08-23",
       11665.61,
-      13011,
-      7211,
-      22621
+      13008,
+      7208,
+      22619
      ],
      [
       "2020-08-30",
       11698.98,
-      13132,
-      7278,
-      22831
+      13129,
+      7276,
+      22830
      ],
      [
       "2020-09-06",
       10253.3,
-      13254,
-      7345,
-      23044
+      13251,
+      7343,
+      23042
      ],
      [
       "2020-09-13",
       10322.52,
-      13377,
-      7414,
-      23257
+      13374,
+      7411,
+      23256
      ],
      [
       "2020-09-20",
       10921.22,
-      13501,
-      7482,
-      23473
+      13498,
+      7480,
+      23471
      ],
      [
       "2020-09-27",
       10758.82,
-      13626,
-      7551,
-      23690
+      13622,
+      7549,
+      23688
      ],
      [
       "2020-10-04",
       10665.62,
-      13752,
-      7621,
-      23909
+      13748,
+      7619,
+      23907
      ],
      [
       "2020-10-11",
       11378.26,
-      13878,
-      7691,
-      24129
+      13875,
+      7689,
+      24127
      ],
      [
       "2020-10-18",
       11489.62,
-      14006,
-      7762,
-      24351
+      14003,
+      7760,
+      24350
      ],
      [
       "2020-10-25",
       13041.64,
-      14135,
-      7834,
-      24575
+      14131,
+      7831,
+      24573
      ],
      [
       "2020-11-01",
       13736.9,
-      14265,
-      7905,
-      24800
+      14261,
+      7903,
+      24799
      ],
      [
       "2020-11-08",
       15500.0,
-      14395,
-      7978,
-      25027
+      14391,
+      7975,
+      25026
      ],
      [
       "2020-11-15",
       15986.75,
-      14527,
-      8051,
-      25256
+      14523,
+      8048,
+      25255
      ],
      [
       "2020-11-22",
       18482.69,
-      14659,
-      8124,
-      25487
+      14656,
+      8122,
+      25485
      ],
      [
       "2020-11-29",
       18190.87,
-      14793,
-      8198,
-      25719
+      14789,
+      8196,
+      25717
      ],
      [
       "2020-12-06",
       19356.31,
-      14928,
-      8273,
-      25953
+      14924,
+      8270,
+      25951
      ],
      [
       "2020-12-13",
       19156.08,
-      15063,
-      8348,
-      26189
+      15059,
+      8345,
+      26187
      ],
      [
       "2020-12-20",
       23528.55,
-      15200,
-      8424,
-      26426
+      15196,
+      8421,
+      26424
      ],
      [
       "2020-12-27",
       26430.86,
-      15337,
-      8500,
-      26666
+      15333,
+      8497,
+      26664
      ],
      [
       "2021-01-03",
       33277.84,
-      15476,
-      8577,
-      26907
+      15472,
+      8574,
+      26905
      ],
      [
       "2021-01-10",
       38329.34,
-      15616,
-      8654,
-      27149
+      15612,
+      8652,
+      27148
      ],
      [
       "2021-01-17",
       36069.94,
-      15757,
-      8732,
-      27394
+      15752,
+      8730,
+      27392
      ],
      [
       "2021-01-24",
       32216.1,
-      15898,
-      8811,
-      27641
+      15894,
+      8808,
+      27639
      ],
      [
       "2021-01-31",
       33157.83,
-      16041,
-      8890,
-      27889
+      16037,
+      8887,
+      27887
      ],
      [
       "2021-02-07",
       39003.01,
-      16185,
-      8970,
-      28139
+      16181,
+      8967,
+      28137
      ],
      [
       "2021-02-14",
       48829.83,
-      16330,
-      9050,
-      28391
+      16326,
+      9047,
+      28389
      ],
      [
       "2021-02-21",
       57500.72,
-      16476,
-      9131,
-      28645
+      16472,
+      9128,
+      28643
      ],
      [
       "2021-02-28",
       45359.46,
-      16623,
-      9212,
-      28900
+      16619,
+      9209,
+      28898
      ],
      [
       "2021-03-07",
       51086.47,
-      16771,
-      9295,
-      29158
+      16767,
+      9292,
+      29156
      ],
      [
       "2021-03-14",
       59905.62,
-      16920,
-      9377,
-      29417
+      16916,
+      9374,
+      29415
      ],
      [
       "2021-03-21",
       57447.93,
-      17071,
-      9461,
-      29679
+      17066,
+      9457,
+      29677
      ],
      [
       "2021-03-28",
       55713.04,
-      17222,
-      9544,
-      29942
+      17217,
+      9541,
+      29940
      ],
      [
       "2021-04-04",
       58202.2,
-      17374,
-      9629,
-      30207
+      17370,
+      9626,
+      30205
      ],
      [
       "2021-04-11",
       59932.93,
-      17528,
-      9714,
-      30474
+      17523,
+      9711,
+      30472
      ],
      [
       "2021-04-18",
       56389.56,
-      17683,
-      9800,
-      30743
+      17678,
+      9797,
+      30741
      ],
      [
       "2021-04-25",
       48946.94,
-      17839,
-      9886,
-      31014
+      17834,
+      9883,
+      31012
      ],
      [
       "2021-05-02",
       56572.6,
-      17996,
-      9973,
-      31287
+      17991,
+      9970,
+      31285
      ],
      [
       "2021-05-09",
       58288.43,
-      18154,
-      10061,
-      31562
+      18149,
+      10058,
+      31560
      ],
      [
       "2021-05-16",
       46022.5,
-      18313,
-      10149,
-      31839
+      18308,
+      10146,
+      31836
      ],
      [
       "2021-05-23",
       34774.21,
-      18473,
-      10238,
-      32118
+      18468,
+      10235,
+      32115
      ],
      [
       "2021-05-30",
       35652.17,
-      18635,
-      10328,
-      32399
+      18630,
+      10324,
+      32396
      ],
      [
       "2021-06-06",
       35720.6,
-      18798,
-      10418,
-      32682
+      18793,
+      10414,
+      32679
      ],
      [
       "2021-06-13",
       38925.42,
-      18962,
-      10509,
-      32967
+      18956,
+      10505,
+      32964
      ],
      [
       "2021-06-20",
       35599.94,
-      19127,
-      10600,
-      33253
+      19122,
+      10597,
+      33251
      ],
      [
       "2021-06-27",
       34506.49,
-      19293,
-      10692,
-      33543
+      19288,
+      10689,
+      33540
      ],
      [
       "2021-07-04",
       35355.61,
-      19460,
-      10785,
-      33834
+      19455,
+      10781,
+      33831
      ],
      [
       "2021-07-11",
       34258.44,
-      19629,
-      10878,
-      34127
+      19624,
+      10875,
+      34124
      ],
      [
       "2021-07-18",
       31707.7,
-      19799,
-      10973,
-      34422
+      19793,
+      10969,
+      34419
      ],
      [
       "2021-07-25",
       35119.94,
-      19970,
-      11067,
-      34719
+      19964,
+      11064,
+      34716
      ],
      [
       "2021-08-01",
       39968.97,
-      20142,
-      11163,
-      35019
+      20137,
+      11159,
+      35016
      ],
      [
       "2021-08-08",
       43972.3,
-      20316,
-      11259,
-      35320
+      20310,
+      11255,
+      35317
      ],
      [
       "2021-08-15",
       47074.37,
-      20490,
-      11356,
-      35624
+      20485,
+      11352,
+      35621
      ],
      [
       "2021-08-22",
       49363.32,
-      20666,
-      11453,
-      35930
+      20660,
+      11449,
+      35927
      ],
      [
       "2021-08-29",
       48948.35,
-      20843,
-      11551,
-      36238
+      20838,
+      11548,
+      36235
      ],
      [
       "2021-09-05",
       51747.64,
-      21022,
-      11650,
-      36548
+      21016,
+      11646,
+      36545
      ],
      [
       "2021-09-12",
       46180.61,
-      21201,
-      11750,
-      36860
+      21195,
+      11746,
+      36857
      ],
      [
       "2021-09-19",
       47218.47,
-      21382,
-      11850,
-      37175
+      21376,
+      11846,
+      37172
      ],
      [
       "2021-09-26",
       43131.29,
-      21564,
-      11951,
-      37492
+      21558,
+      11947,
+      37488
      ],
      [
       "2021-10-03",
       48202.62,
-      21748,
-      12053,
-      37811
+      21742,
+      12049,
+      37807
      ],
      [
       "2021-10-10",
       54701.28,
-      21933,
-      12155,
-      38132
+      21927,
+      12151,
+      38129
      ],
      [
       "2021-10-17",
       61462.22,
-      22119,
-      12258,
-      38455
+      22113,
+      12254,
+      38452
      ],
      [
       "2021-10-24",
       60865.45,
-      22306,
-      12362,
-      38781
+      22300,
+      12358,
+      38778
      ],
      [
       "2021-10-31",
       61432.97,
-      22495,
-      12467,
-      39109
+      22488,
+      12462,
+      39106
      ],
      [
       "2021-11-07",
       63043.83,
-      22685,
-      12572,
-      39439
+      22678,
+      12568,
+      39436
      ],
      [
       "2021-11-14",
       65032.23,
-      22876,
-      12678,
-      39772
+      22869,
+      12674,
+      39768
      ],
      [
       "2021-11-21",
       59032.62,
-      23068,
-      12785,
-      40107
+      23062,
+      12780,
+      40103
      ],
      [
       "2021-11-28",
       57248.57,
-      23262,
-      12892,
-      40444
+      23256,
+      12888,
+      40440
      ],
      [
       "2021-12-05",
       49327.09,
-      23458,
-      13000,
-      40783
+      23451,
+      12996,
+      40779
      ],
      [
       "2021-12-12",
       50136.57,
-      23654,
-      13109,
-      41125
+      23647,
+      13105,
+      41121
      ],
      [
       "2021-12-19",
       46876.43,
-      23852,
-      13219,
-      41469
+      23845,
+      13214,
+      41465
      ],
      [
       "2021-12-26",
       50798.31,
-      24051,
-      13329,
-      41816
+      24045,
+      13325,
+      41812
      ],
      [
       "2022-01-02",
       47352.56,
-      24252,
-      13441,
-      42165
+      24245,
+      13436,
+      42161
      ],
      [
       "2022-01-09",
       41886.5,
-      24454,
-      13553,
-      42516
+      24447,
+      13548,
+      42512
      ],
      [
       "2022-01-16",
       43168.86,
-      24658,
-      13665,
-      42870
+      24651,
+      13661,
+      42865
      ],
      [
       "2022-01-23",
       36271.05,
-      24862,
-      13779,
-      43226
+      24855,
+      13774,
+      43222
      ],
      [
       "2022-01-30",
       37983.51,
-      25069,
-      13893,
-      43584
+      25062,
+      13888,
+      43580
      ],
      [
       "2022-02-06",
       42358.23,
-      25276,
-      14008,
-      43945
+      25269,
+      14003,
+      43941
      ],
      [
       "2022-02-13",
       42195.59,
-      25485,
-      14124,
-      44309
+      25478,
+      14119,
+      44304
      ],
      [
       "2022-02-20",
       38551.62,
-      25696,
-      14241,
-      44674
+      25688,
+      14236,
+      44670
      ],
      [
       "2022-02-27",
       37664.78,
-      25908,
-      14358,
-      45043
+      25900,
+      14353,
+      45039
      ],
      [
       "2022-03-06",
       38399.34,
-      26121,
-      14476,
-      45414
+      26113,
+      14471,
+      45409
      ],
      [
       "2022-03-13",
       37808.32,
-      26336,
-      14595,
-      45787
+      26328,
+      14590,
+      45783
      ],
      [
       "2022-03-20",
       41294.72,
-      26552,
-      14715,
-      46163
+      26544,
+      14710,
+      46159
      ],
      [
       "2022-03-27",
       46777.21,
-      26770,
-      14836,
-      46541
+      26762,
+      14831,
+      46537
      ],
      [
       "2022-04-03",
       46440.54,
-      26989,
-      14957,
-      46922
+      26981,
+      14952,
+      46918
      ],
      [
       "2022-04-10",
       42264.46,
-      27209,
-      15079,
-      47306
+      27202,
+      15074,
+      47301
      ],
      [
       "2022-04-17",
       39704.78,
-      27431,
-      15203,
-      47692
+      27424,
+      15197,
+      47687
      ],
      [
       "2022-04-24",
       39511.65,
-      27655,
-      15326,
-      48081
+      27647,
+      15321,
+      48076
      ],
      [
       "2022-05-01",
       38459.23,
-      27880,
-      15451,
-      48472
+      27872,
+      15446,
+      48467
      ],
      [
       "2022-05-08",
       34058.91,
-      28107,
-      15577,
-      48866
+      28099,
+      15571,
+      48861
      ],
      [
       "2022-05-15",
       31182.62,
-      28335,
-      15703,
-      49263
+      28327,
+      15698,
+      49258
      ],
      [
       "2022-05-22",
       30331.88,
-      28564,
-      15830,
-      49662
+      28556,
+      15825,
+      49657
      ],
      [
       "2022-05-29",
       29430.07,
-      28796,
-      15959,
-      50064
+      28787,
+      15953,
+      50059
      ],
      [
       "2022-06-05",
       29915.41,
-      29028,
-      16087,
-      50468
+      29020,
+      16082,
+      50463
      ],
      [
       "2022-06-12",
       26830.28,
-      29262,
-      16217,
-      50875
+      29254,
+      16212,
+      50870
      ],
      [
       "2022-06-19",
       20492.3,
-      29498,
-      16348,
-      51285
+      29490,
+      16342,
+      51280
      ],
      [
       "2022-06-26",
       21066.62,
-      29736,
-      16479,
-      51698
+      29727,
+      16474,
+      51693
      ],
      [
       "2022-07-03",
       19276.51,
-      29974,
-      16612,
-      52113
+      29966,
+      16606,
+      52108
      ],
      [
       "2022-07-10",
       20831.27,
-      30215,
-      16745,
-      52531
+      30206,
+      16739,
+      52526
      ],
      [
       "2022-07-17",
       20827.89,
-      30457,
-      16879,
-      52952
+      30448,
+      16873,
+      52947
      ],
      [
       "2022-07-24",
       22653.36,
-      30701,
-      17014,
-      53376
+      30692,
+      17008,
+      53370
      ],
      [
       "2022-07-31",
       23356.17,
-      30946,
-      17150,
-      53802
+      30937,
+      17144,
+      53797
      ],
      [
       "2022-08-07",
       23153.66,
-      31193,
-      17287,
-      54232
+      31184,
+      17281,
+      54226
      ],
      [
       "2022-08-14",
       24314.2,
-      31441,
-      17425,
-      54664
+      31432,
+      17419,
+      54658
      ],
      [
       "2022-08-21",
       21554.0,
-      31691,
-      17563,
-      55098
+      31682,
+      17557,
+      55092
      ],
      [
       "2022-08-28",
       19673.54,
-      31943,
-      17703,
-      55536
+      31934,
+      17697,
+      55530
      ],
      [
       "2022-09-04",
       19961.91,
-      32196,
-      17843,
-      55977
+      32187,
+      17837,
+      55971
      ],
      [
       "2022-09-11",
       21732.77,
-      32452,
-      17985,
-      56420
+      32442,
+      17978,
+      56414
      ],
      [
       "2022-09-18",
       19427.1,
-      32708,
-      18127,
-      56866
+      32698,
+      18120,
+      56860
      ],
      [
       "2022-09-25",
       18793.16,
-      32967,
-      18270,
-      57315
+      32957,
+      18264,
+      57309
      ],
      [
       "2022-10-02",
       19015.29,
-      33227,
-      18414,
-      57768
+      33217,
+      18408,
+      57761
      ],
      [
       "2022-10-09",
       19428.37,
-      33488,
-      18559,
-      58223
+      33478,
+      18553,
+      58216
      ],
      [
       "2022-10-16",
       19261.75,
-      33752,
-      18705,
-      58681
+      33742,
+      18699,
+      58674
      ],
      [
       "2022-10-23",
       19565.41,
-      34017,
-      18852,
-      59141
+      34007,
+      18845,
+      59135
      ],
      [
       "2022-10-30",
       20616.7,
-      34284,
-      19000,
-      59605
+      34273,
+      18993,
+      59599
      ],
      [
       "2022-11-06",
       20946.8,
-      34552,
-      19149,
-      60072
+      34542,
+      19142,
+      60066
      ],
      [
       "2022-11-13",
       16320.5,
-      34823,
-      19299,
-      60542
+      34812,
+      19292,
+      60535
      ],
      [
       "2022-11-20",
       16246.84,
-      35095,
-      19449,
-      61015
+      35084,
+      19442,
+      61008
      ],
      [
       "2022-11-27",
       16436.07,
-      35368,
-      19601,
-      61491
+      35358,
+      19594,
+      61484
      ],
      [
       "2022-12-04",
       17121.71,
-      35644,
-      19754,
-      61970
+      35633,
+      19747,
+      61963
      ],
      [
       "2022-12-11",
       17094.36,
-      35921,
-      19907,
-      62452
+      35910,
+      19900,
+      62445
      ],
      [
       "2022-12-18",
       16776.12,
-      36200,
-      20062,
-      62937
+      36189,
+      20055,
+      62930
      ],
      [
       "2022-12-25",
       16824.84,
-      36481,
-      20218,
-      63425
+      36470,
+      20210,
+      63418
      ],
      [
       "2023-01-01",
       16606.75,
-      36764,
-      20374,
-      63917
+      36752,
+      20367,
+      63909
      ],
      [
       "2023-01-08",
       17059.24,
-      37048,
-      20532,
-      64411
+      37037,
+      20525,
+      64404
      ],
      [
       "2023-01-15",
       20876.01,
-      37334,
-      20691,
-      64909
+      37323,
+      20683,
+      64901
      ],
      [
       "2023-01-22",
       22716.28,
-      37622,
-      20850,
-      65410
+      37611,
+      20843,
+      65402
      ],
      [
       "2023-01-29",
       23775.0,
-      37912,
-      21011,
-      65914
+      37900,
+      21003,
+      65906
      ],
      [
       "2023-02-05",
       22957.23,
-      38204,
-      21173,
-      66421
+      38192,
+      21165,
+      66413
      ],
      [
       "2023-02-12",
       21772.14,
-      38497,
-      21335,
-      66931
+      38485,
+      21327,
+      66923
      ],
      [
       "2023-02-19",
       24366.99,
-      38793,
-      21499,
-      67445
+      38781,
+      21491,
+      67437
      ],
      [
       "2023-02-26",
       23542.1,
-      39090,
-      21664,
-      67961
+      39078,
+      21656,
+      67953
      ],
      [
       "2023-03-05",
       22419.82,
-      39389,
-      21829,
-      68481
+      39377,
+      21821,
+      68473
      ],
      [
       "2023-03-12",
       22065.98,
-      39690,
-      21996,
-      69005
+      39678,
+      21988,
+      68996
      ],
      [
       "2023-03-19",
       28185.2,
-      39993,
-      22164,
-      69531
+      39980,
+      22156,
+      69523
      ],
      [
       "2023-03-26",
       28049.39,
-      40298,
-      22333,
-      70061
+      40285,
+      22325,
+      70053
      ],
      [
       "2023-04-02",
       28162.0,
-      40604,
-      22503,
-      70594
+      40592,
+      22495,
+      70586
      ],
      [
       "2023-04-09",
       28357.81,
-      40913,
-      22674,
-      71131
+      40900,
+      22666,
+      71122
      ],
      [
       "2023-04-16",
       30312.93,
-      41223,
-      22846,
-      71671
+      41211,
+      22838,
+      71662
      ],
      [
       "2023-04-23",
       27604.69,
-      41536,
-      23019,
-      72214
+      41523,
+      23011,
+      72205
      ],
      [
       "2023-04-30",
       29362.09,
-      41850,
-      23194,
-      72761
+      41837,
+      23185,
+      72752
      ],
      [
       "2023-05-07",
       28761.74,
-      42167,
-      23369,
-      73311
+      42154,
+      23360,
+      73302
      ],
      [
       "2023-05-14",
       26918.26,
-      42485,
-      23545,
-      73864
+      42472,
+      23537,
+      73855
      ],
      [
       "2023-05-21",
       26777.1,
-      42805,
-      23723,
-      74421
+      42792,
+      23714,
+      74412
      ],
      [
       "2023-05-28",
       28097.52,
-      43128,
-      23901,
-      74981
+      43114,
+      23893,
+      74972
      ],
      [
       "2023-06-04",
       27158.25,
-      43452,
-      24081,
-      75545
+      43438,
+      24072,
+      75536
      ],
      [
       "2023-06-11",
       25906.83,
-      43778,
-      24262,
-      76113
+      43764,
+      24253,
+      76103
      ],
      [
       "2023-06-18",
       26353.96,
-      44107,
-      24444,
-      76683
+      44093,
+      24435,
+      76674
      ],
      [
       "2023-06-25",
       30467.44,
-      44437,
-      24627,
-      77258
+      44423,
+      24618,
+      77248
      ],
      [
       "2023-07-02",
       30594.22,
-      44769,
-      24811,
-      77835
+      44755,
+      24802,
+      77826
      ],
      [
       "2023-07-09",
       30163.22,
-      45104,
-      24996,
-      78417
+      45089,
+      24987,
+      78407
      ],
      [
       "2023-07-16",
       30249.77,
-      45440,
-      25183,
-      79002
+      45426,
+      25174,
+      78992
      ],
      [
       "2023-07-23",
       30066.57,
-      45779,
-      25371,
-      79590
+      45764,
+      25361,
+      79580
      ],
      [
       "2023-07-30",
       29262.84,
-      46119,
-      25559,
-      80182
+      46105,
+      25550,
+      80172
      ],
      [
       "2023-08-06",
       29048.04,
-      46462,
-      25749,
-      80778
+      46447,
+      25740,
+      80768
      ],
      [
       "2023-08-13",
       29286.12,
-      46807,
-      25940,
-      81378
+      46792,
+      25931,
+      81367
      ],
      [
       "2023-08-20",
       26176.47,
-      47153,
-      26132,
-      81981
+      47138,
+      26123,
+      81970
      ],
      [
       "2023-08-27",
       26086.36,
-      47502,
-      26326,
-      82587
+      47487,
+      26316,
+      82577
      ],
      [
       "2023-09-03",
       25962.55,
-      47853,
-      26520,
-      83198
+      47838,
+      26510,
+      83187
      ],
      [
       "2023-09-10",
       25831.46,
-      48207,
-      26716,
-      83812
+      48191,
+      26706,
+      83801
      ],
      [
       "2023-09-17",
       26502.43,
-      48562,
-      26913,
-      84430
+      48547,
+      26903,
+      84419
      ],
      [
       "2023-09-24",
       26286.64,
-      48920,
-      27111,
-      85051
+      48904,
+      27101,
+      85040
      ],
      [
       "2023-10-01",
       27950.15,
-      49279,
-      27311,
-      85676
+      49263,
+      27300,
+      85665
      ],
      [
       "2023-10-08",
       27936.33,
-      49641,
-      27511,
-      86306
+      49625,
+      27501,
+      86294
      ],
      [
       "2023-10-15",
       27130.31,
-      50005,
-      27713,
-      86938
+      49989,
+      27702,
+      86927
      ],
      [
       "2023-10-22",
       29984.16,
-      50371,
-      27916,
-      87575
+      50355,
+      27905,
+      87564
      ],
      [
       "2023-10-29",
       34574.34,
-      50740,
-      28120,
-      88216
+      50723,
+      28109,
+      88204
      ],
      [
       "2023-11-05",
       35105.04,
-      51110,
-      28325,
-      88860
+      51094,
+      28315,
+      88848
      ],
      [
       "2023-11-12",
       37053.34,
-      51483,
-      28532,
-      89508
+      51467,
+      28521,
+      89496
      ],
      [
       "2023-11-19",
       37442.73,
-      51858,
-      28740,
-      90160
+      51842,
+      28729,
+      90148
      ],
      [
       "2023-11-26",
       37482.71,
-      52236,
-      28949,
-      90817
+      52219,
+      28938,
+      90804
      ],
      [
       "2023-12-03",
       39978.22,
-      52615,
-      29159,
-      91476
+      52598,
+      29148,
+      91464
      ],
      [
       "2023-12-10",
       43732.71,
-      52997,
-      29371,
-      92140
+      52980,
+      29360,
+      92128
      ],
      [
       "2023-12-17",
       41428.67,
-      53381,
-      29584,
-      92808
+      53364,
+      29573,
+      92796
      ],
      [
       "2023-12-24",
       43097.81,
-      53768,
-      29798,
-      93480
+      53750,
+      29787,
+      93467
      ],
      [
       "2023-12-31",
       42217.16,
-      54156,
-      30014,
-      94156
+      54139,
+      30002,
+      94143
      ],
      [
       "2024-01-07",
       43844.2,
-      54547,
-      30230,
-      94836
+      54530,
+      30219,
+      94823
      ],
      [
       "2024-01-14",
       41888.15,
-      54941,
-      30448,
-      95520
+      54923,
+      30437,
+      95507
      ],
      [
       "2024-01-21",
       41537.11,
-      55336,
-      30668,
-      96207
+      55318,
+      30656,
+      96194
      ],
      [
       "2024-01-28",
       41983.02,
-      55734,
-      30888,
-      96899
+      55716,
+      30876,
+      96886
      ],
      [
       "2024-02-04",
       42576.29,
-      56135,
-      31110,
-      97596
+      56116,
+      31098,
+      97582
      ],
      [
       "2024-02-11",
       48200.8,
-      56538,
-      31333,
-      98296
+      56519,
+      31321,
+      98282
      ],
      [
       "2024-02-18",
       52148.06,
-      56943,
-      31558,
-      99000
+      56924,
+      31545,
+      98986
      ],
      [
       "2024-02-25",
       51746.48,
-      57350,
-      31784,
-      99708
+      57331,
+      31771,
+      99695
      ],
      [
       "2024-03-03",
       62991.44,
-      57760,
-      32011,
-      100421
+      57741,
+      31998,
+      100407
      ],
      [
       "2024-03-10",
       68882.25,
-      58172,
-      32239,
-      101138
+      58153,
+      32227,
+      101124
      ],
      [
       "2024-03-17",
       68285.09,
-      58587,
-      32469,
-      101859
+      58568,
+      32456,
+      101845
      ],
      [
       "2024-03-24",
       67289.57,
-      59004,
-      32700,
-      102584
+      58985,
+      32687,
+      102570
      ],
      [
       "2024-03-31",
       71227.45,
-      59424,
-      32933,
-      103314
+      59404,
+      32920,
+      103299
      ],
      [
       "2024-04-07",
       69392.68,
-      59846,
-      33167,
-      104047
+      59826,
+      33154,
+      104033
      ],
      [
       "2024-04-14",
       65648.81,
-      60270,
-      33402,
-      104785
+      60250,
+      33389,
+      104770
      ],
      [
       "2024-04-21",
       64968.19,
-      60697,
-      33638,
-      105528
+      60677,
+      33625,
+      105513
      ],
      [
       "2024-04-28",
       62978.58,
-      61127,
-      33876,
-      106274
+      61106,
+      33863,
+      106259
      ],
      [
       "2024-05-05",
       64067.6,
-      61559,
-      34116,
-      107025
+      61538,
+      34102,
+      107010
      ],
      [
       "2024-05-12",
       61431.27,
-      61993,
-      34357,
-      107780
+      61972,
+      34343,
+      107765
      ],
      [
       "2024-05-19",
       66259.47,
-      62430,
-      34599,
-      108540
+      62409,
+      34585,
+      108525
      ],
      [
       "2024-05-26",
       68445.01,
-      62869,
-      34842,
-      109304
+      62848,
+      34829,
+      109289
      ],
      [
       "2024-06-02",
       67805.49,
-      63311,
-      35087,
-      110073
+      63290,
+      35074,
+      110057
      ],
      [
       "2024-06-09",
       69644.02,
-      63756,
-      35334,
-      110846
+      63735,
+      35320,
+      110830
      ],
      [
       "2024-06-16",
       66622.6,
-      64203,
-      35581,
-      111623
+      64182,
+      35568,
+      111607
      ],
      [
       "2024-06-23",
       63345.02,
-      64653,
-      35831,
-      112405
+      64631,
+      35817,
+      112389
      ],
      [
       "2024-06-30",
       62763.28,
-      65105,
-      36081,
-      113191
+      65083,
+      36067,
+      113175
      ],
      [
       "2024-07-07",
       56112.57,
-      65560,
-      36334,
-      113982
+      65538,
+      36319,
+      113966
      ],
      [
       "2024-07-14",
       61015.03,
-      66018,
-      36587,
-      114778
+      65995,
+      36573,
+      114761
      ],
      [
       "2024-07-21",
       68056.62,
-      66478,
-      36842,
-      115578
+      66455,
+      36828,
+      115561
      ],
      [
       "2024-07-28",
       68170.67,
-      66941,
-      37099,
-      116382
+      66918,
+      37084,
+      116365
      ],
      [
       "2024-08-04",
       58306.26,
-      67406,
-      37356,
-      117192
+      67383,
+      37342,
+      117174
      ],
      [
       "2024-08-11",
       58836.1,
-      67874,
-      37616,
-      118005
+      67851,
+      37601,
+      117988
      ],
      [
       "2024-08-18",
       58793.21,
-      68345,
-      37877,
-      118824
+      68322,
+      37862,
+      118806
      ],
      [
       "2024-08-25",
       64498.02,
-      68818,
-      38139,
-      119647
+      68795,
+      38124,
+      119629
      ],
      [
       "2024-09-01",
       57349.08,
-      69294,
-      38403,
-      120475
+      69271,
+      38388,
+      120457
      ],
      [
       "2024-09-08",
       54859.26,
-      69773,
-      38668,
-      121307
+      69750,
+      38653,
+      121289
      ],
      [
       "2024-09-15",
       59129.92,
-      70255,
-      38935,
-      122144
+      70231,
+      38920,
+      122126
      ],
      [
       "2024-09-22",
       63571.95,
-      70739,
-      39204,
-      122986
+      70715,
+      39188,
+      122968
      ],
      [
       "2024-09-29",
       65617.76,
-      71226,
-      39474,
-      123833
+      71202,
+      39458,
+      123815
      ],
      [
       "2024-10-06",
       62789.88,
-      71716,
-      39745,
-      124685
+      71691,
+      39729,
+      124666
      ],
      [
       "2024-10-13",
       62759.43,
-      72208,
-      40018,
-      125541
+      72184,
+      40002,
+      125522
      ],
      [
       "2024-10-20",
       69012.35,
-      72704,
-      40293,
-      126402
+      72679,
+      40276,
+      126383
      ],
      [
       "2024-10-27",
       68000.15,
-      73202,
-      40569,
-      127268
+      73177,
+      40552,
+      127249
      ],
      [
       "2024-11-03",
       68742.75,
-      73703,
-      40846,
-      128139
+      73678,
+      40830,
+      128120
      ],
      [
       "2024-11-10",
       80409.29,
-      74207,
-      41125,
-      129015
+      74181,
+      41109,
+      128995
      ],
      [
       "2024-11-17",
       89732.97,
-      74713,
-      41406,
-      129896
+      74687,
+      41390,
+      129876
      ],
      [
       "2024-11-24",
       97980.21,
-      75222,
-      41688,
-      130781
+      75197,
+      41672,
+      130761
      ],
      [
       "2024-12-01",
       97469.6,
-      75735,
-      41972,
-      131672
+      75709,
+      41955,
+      131652
      ],
      [
       "2024-12-08",
       100798.98,
-      76250,
-      42258,
-      132567
+      76224,
+      42241,
+      132547
      ],
      [
       "2024-12-15",
       104551.37,
-      76768,
-      42545,
-      133468
+      76741,
+      42528,
+      133447
      ],
      [
       "2024-12-22",
       95149.11,
-      77289,
-      42834,
-      134374
+      77262,
+      42816,
+      134353
      ],
      [
       "2024-12-29",
       93457.58,
-      77813,
-      43124,
-      135284
+      77786,
+      43106,
+      135263
      ],
      [
       "2025-01-05",
       98414.81,
-      78339,
-      43416,
-      136200
+      78312,
+      43398,
+      136179
      ],
      [
       "2025-01-12",
       94353.78,
-      78869,
-      43709,
-      137121
+      78842,
+      43692,
+      137099
      ],
      [
       "2025-01-19",
       100954.57,
-      79401,
-      44004,
-      138047
+      79374,
+      43987,
+      138025
      ],
      [
       "2025-01-26",
       102833.37,
-      79937,
-      44301,
-      138978
+      79909,
+      44283,
+      138956
      ],
      [
       "2025-02-02",
       97424.78,
-      80476,
-      44600,
-      139914
+      80448,
+      44582,
+      139892
      ],
      [
       "2025-02-09",
       96309.75,
-      81017,
-      44900,
-      140855
+      80989,
+      44882,
+      140833
      ],
      [
       "2025-02-16",
       96182.27,
-      81561,
-      45201,
-      141802
+      81533,
+      45183,
+      141780
      ],
      [
       "2025-02-23",
       96091.63,
-      82109,
-      45505,
-      142754
+      82080,
+      45486,
+      142731
      ],
      [
       "2025-03-02",
       94328.01,
-      82659,
-      45810,
-      143711
+      82631,
+      45791,
+      143688
      ],
      [
       "2025-03-09",
       80647.8,
-      83213,
-      46117,
-      144673
+      83184,
+      46098,
+      144650
      ],
      [
       "2025-03-16",
       82492.1,
-      83770,
-      46425,
-      145641
+      83740,
+      46406,
+      145618
      ],
      [
       "2025-03-23",
       85760.88,
-      84329,
-      46735,
-      146614
+      84300,
+      46716,
+      146591
      ],
      [
       "2025-03-30",
       82216.47,
-      84892,
-      47047,
-      147592
+      84862,
+      47028,
+      147569
      ],
      [
       "2025-04-06",
       77949.09,
-      85458,
-      47361,
-      148576
+      85428,
+      47341,
+      148552
      ],
      [
       "2025-04-13",
       83568.95,
-      86027,
-      47676,
-      149565
+      85996,
+      47657,
+      149541
      ],
      [
       "2025-04-20",
       85101.75,
-      86599,
-      47993,
-      150559
+      86568,
+      47973,
+      150535
      ],
      [
       "2025-04-27",
       93812.88,
-      87174,
-      48312,
-      151559
+      87143,
+      48292,
+      151535
      ],
      [
       "2025-05-04",
       94377.79,
-      87752,
-      48632,
-      152565
+      87721,
+      48612,
+      152540
      ],
      [
       "2025-05-11",
       103976.14,
-      88333,
-      48954,
-      153576
+      88302,
+      48934,
+      153551
      ],
      [
       "2025-05-18",
       106015.69,
-      88918,
-      49278,
-      154592
+      88887,
+      49258,
+      154567
      ],
      [
       "2025-05-25",
       108914.88,
-      89506,
-      49604,
-      155614
+      89474,
+      49584,
+      155588
      ],
      [
       "2025-06-01",
       105750.16,
-      90097,
-      49932,
-      156641
+      90065,
+      49911,
+      156616
      ],
      [
       "2025-06-08",
       105727.74,
-      90691,
-      50261,
-      157674
+      90659,
+      50240,
+      157648
      ],
      [
       "2025-06-15",
       105512.8,
-      91288,
-      50592,
-      158713
+      91256,
+      50571,
+      158687
      ],
      [
       "2025-06-22",
       100899.23,
-      91889,
-      50925,
-      159757
+      91856,
+      50904,
+      159731
      ],
      [
       "2025-06-29",
       108360.9,
-      92493,
-      51259,
-      160807
+      92460,
+      51238,
+      160780
      ],
      [
       "2025-07-06",
       109180.01,
-      93100,
-      51596,
-      161862
+      93067,
+      51575,
+      161836
      ],
      [
       "2025-07-13",
       118899.74,
-      93710,
-      51934,
-      162923
+      93677,
+      51913,
+      162897
      ],
      [
       "2025-07-20",
       117305.68,
-      94324,
-      52274,
-      163990
+      94290,
+      52253,
+      163963
      ],
      [
       "2025-07-27",
       119438.16,
-      94941,
-      52616,
-      165063
+      94907,
+      52594,
+      165036
      ],
      [
       "2025-08-03",
       114263.69,
-      95561,
-      52960,
-      166141
+      95527,
+      52938,
+      166114
      ],
      [
       "2025-08-10",
       119189.2,
-      96184,
-      53306,
-      167226
+      96150,
+      53283,
+      167198
      ],
      [
       "2025-08-17",
       117601.95,
-      96811,
-      53653,
-      168316
+      96777,
+      53631,
+      168288
      ],
      [
       "2025-08-24",
       113516.12,
-      97442,
-      54002,
-      169411
+      97407,
+      53980,
+      169383
      ],
      [
       "2025-08-31",
       108316.45,
-      98075,
-      54354,
-      170513
+      98040,
+      54331,
+      170485
      ],
      [
       "2025-09-07",
       111307.78,
-      98712,
-      54707,
-      171621
+      98677,
+      54684,
+      171592
      ],
      [
       "2025-09-14",
       115395.93,
-      99353,
-      55062,
-      172734
+      99317,
+      55039,
+      172705
      ],
      [
       "2025-09-21",
       115320.86,
-      99997,
-      55418,
-      173854
+      99961,
+      55395,
+      173824
      ],
      [
       "2025-09-28",
       112170.01,
-      100644,
-      55777,
-      174979
+      100608,
+      55754,
+      174950
      ],
      [
       "2025-10-05",
       123523.77,
-      101295,
-      56138,
-      176110
+      101258,
+      56114,
+      176081
      ],
      [
       "2025-10-12",
       115152.92,
-      101949,
-      56500,
-      177248
+      101912,
+      56477,
+      177218
      ],
      [
       "2025-10-19",
       108706.66,
-      102607,
-      56865,
-      178391
+      102570,
+      56841,
+      178361
      ],
      [
       "2025-10-26",
       114557.1,
-      103268,
-      57231,
-      179541
+      103231,
+      57207,
+      179510
      ],
      [
       "2025-11-02",
       110389.17,
-      103933,
-      57600,
-      180696
+      103895,
+      57575,
+      180665
      ],
      [
       "2025-11-09",
       104685.55,
-      104601,
-      57970,
-      181858
+      104563,
+      57946,
+      181827
      ],
      [
       "2025-11-16",
       94182.31,
-      105272,
-      58342,
-      183026
+      105234,
+      58318,
+      182994
      ],
      [
       "2025-11-23",
       86872.45,
-      105948,
-      58716,
-      184200
+      105909,
+      58692,
+      184168
      ],
      [
       "2025-11-30",
       90607.7,
-      106626,
-      59092,
-      185380
+      106588,
+      59068,
+      185348
      ],
      [
       "2025-12-07",
       90067.85,
-      107309,
-      59471,
-      186566
+      107270,
+      59446,
+      186534
      ],
      [
       "2025-12-14",
       88096.38,
-      107995,
-      59851,
-      187759
+      107956,
+      59826,
+      187726
      ],
      [
       "2025-12-21",
       88533.43,
-      108684,
-      60233,
-      188958
+      108645,
+      60208,
+      188925
      ],
      [
       "2025-12-28",
       87747.65,
-      109378,
-      60617,
-      190163
+      109338,
+      60592,
+      190130
      ],
      [
       "2026-01-04",
       91359.76,
-      110074,
-      61003,
-      191374
+      110034,
+      60978,
+      191341
      ],
      [
       "2026-01-11",
       90717.21,
-      110775,
-      61392,
-      192592
+      110734,
+      61366,
+      192559
      ],
      [
       "2026-01-18",
       94261.33,
-      111479,
-      61782,
-      193816
+      111438,
+      61756,
+      193783
      ],
      [
       "2026-01-25",
       86445.67,
-      112187,
-      62174,
-      195047
+      112146,
+      62148,
+      195013
      ],
      [
       "2026-02-01",
       76911.05,
-      112898,
-      62568,
-      196284
+      112857,
+      62542,
+      196250
      ],
      [
       "2026-02-08",
       70522.59,
-      113613,
-      62965,
-      197527
+      113572,
+      62938,
+      197493
      ],
      [
       "2026-02-15",
       68629.96,
-      114332,
-      63363,
-      198777
+      114290,
+      63336,
+      198742
      ],
      [
       "2026-02-22",
       67550.02,
-      115055,
-      63764,
-      200034
+      115013,
+      63737,
+      199998
      ],
      [
       "2026-03-01",
       65733.52,
-      115781,
-      64166,
-      201297
+      115739,
+      64139,
+      201261
      ],
      [
       "2026-03-08",
       66202.7,
-      116512,
-      64571,
-      202566
+      116469,
+      64543,
+      202530
      ],
      [
       "2026-03-15",
       72712.15,
-      117245,
-      64978,
-      203842
+      117202,
+      64950,
+      203806
      ],
      [
       "2026-03-22",
       68018.15,
-      117983,
-      65386,
-      205125
+      117940,
+      65359,
+      205088
      ],
      [
       "2026-03-29",
       65966.75,
-      118725,
-      65797,
-      206414
+      118681,
+      65769,
+      206377
      ],
      [
       "2026-04-05",
       68921.81,
-      119470,
-      66211,
-      207710
+      119426,
+      66182,
+      207673
      ],
      [
       "2026-04-12",
       70685.37,
-      120219,
-      66626,
-      209013
+      120175,
+      66597,
+      208975
      ],
      [
       "2026-04-19",
       73905.2,
-      120973,
-      67043,
-      210322
+      120928,
+      67015,
+      210284
      ],
      [
       "2026-04-26",
       78538.77,
-      121730,
-      67463,
-      211638
+      121685,
+      67434,
+      211600
      ],
      [
       "2026-05-03",
       78649.17,
-      122490,
-      67884,
-      212961
+      122445,
+      67855,
+      212923
      ],
      [
       "2026-05-10",
       82256.78,
-      123255,
-      68308,
-      214290
+      123210,
+      68279,
+      214252
      ],
      [
       "2026-05-17",
       77497.7,
-      124024,
-      68734,
-      215627
+      123978,
+      68705,
+      215588
      ],
      [
       "2026-05-24",
       76950.99,
-      124796,
-      69162,
-      216970
+      124750,
+      69133,
+      216931
      ],
      [
       "2026-05-31",
       73599.56,
-      125573,
-      69593,
-      218320
+      125526,
+      69563,
+      218281
      ],
      [
       "2026-06-07",
       63158.25,
-      126354,
-      70025,
-      219677
+      126307,
+      69995,
+      219638
      ],
      [
       "2026-06-14",
       65615.33,
-      127138,
-      70460,
-      221041
+      127091,
+      70430,
+      221001
      ],
      [
       "2026-06-21",
       63365.44,
-      127927,
-      70897,
-      222412
+      127879,
+      70867,
+      222372
      ],
      [
       "2026-06-28",
       59516.67,
-      128719,
-      71336,
-      223790
+      128671,
+      71306,
+      223750
      ],
      [
       "2026-07-05",
       63619.88,
-      129516,
-      71778,
-      225175
+      129468,
+      71747,
+      225134
      ],
      [
       "2026-07-12",
       63752.27,
-      130317,
-      72222,
-      226567
+      130268,
+      72190,
+      226526
      ],
      [
       "2026-07-19",
       64653.05,
-      131121,
-      72668,
-      227966
+      131072,
+      72636,
+      227925
      ],
      [
       "2026-07-26",
       65328.79,
-      131930,
-      73116,
-      229372
+      131881,
+      73084,
+      229330
      ],
      [
       "2026-08-02",
       63445.68,
-      132743,
-      73566,
-      230786
+      132693,
+      73535,
+      230743
      ],
      [
       "2026-08-09",
       64864.93,
-      133560,
-      74019,
-      232206
+      133510,
+      73987,
+      232163
      ],
      [
       "2026-08-16",
       62818.41,
-      134381,
-      74474,
-      233634
+      134331,
+      74442,
+      233591
      ],
      [
       "2026-08-23",
       77593.03,
-      135206,
-      74932,
-      235069
+      135156,
+      74899,
+      235025
      ],
      [
       "2026-08-30",
       77689.19,
-      136036,
-      75391,
-      236511
+      135985,
+      75359,
+      236467
      ],
      [
       "2026-09-06",
       80319.97,
-      136869,
-      75853,
-      237960
+      136818,
+      75820,
+      237916
      ],
      [
       "2026-09-13",
       76759.26,
-      137707,
-      76318,
-      239417
+      137655,
+      76284,
+      239372
      ],
      [
       "2026-09-20",
       81194.74,
-      138549,
-      76784,
-      240881
+      138497,
+      76751,
+      240836
      ],
      [
       "2026-09-27",
       84392.47,
-      139396,
-      77253,
-      242352
+      139343,
+      77220,
+      242307
      ],
      [
       "2026-10-04",
       86520.8,
-      140246,
-      77725,
-      243831
+      140193,
+      77691,
+      243785
      ],
      [
       "2026-10-11",
       83636.61,
-      141101,
-      78198,
-      245317
+      141048,
+      78164,
+      245271
      ],
      [
       "2026-10-18",
       81935.17,
-      141960,
-      78674,
-      246810
+      141906,
+      78640,
+      246764
      ],
      [
       "2026-10-25",
       80038.91,
-      142823,
-      79153,
-      248311
+      142769,
+      79118,
+      248265
      ],
      [
       "2026-11-01",
       78135.08,
-      143691,
-      79634,
-      249820
+      143637,
+      79599,
+      249773
      ],
      [
       "2026-11-08",
       74967.26,
-      144563,
-      80117,
-      251336
+      144508,
+      80082,
+      251289
      ],
      [
       "2026-11-15",
       65189.11,
-      145439,
-      80603,
-      252860
+      145384,
+      80567,
+      252812
      ],
      [
       "2026-11-22",
       61103.71,
-      146320,
-      81091,
-      254391
+      146264,
+      81055,
+      254343
      ],
      [
-      "2026-11-25",
-      60267.63,
-      146699,
-      81301,
-      255049
+      "2026-11-26",
+      60415.4,
+      146770,
+      81335,
+      255221
      ]
     ],
     "cycles": [
@@ -14606,8 +14609,8 @@
         0.9263
        ],
        [
-        949,
-        0.9285
+        950,
+        0.9308
        ]
       ]
      }
@@ -14623,7 +14626,7 @@
    "clock": {
     "ath": 124824.453666861,
     "ath_date": "2025-10-06",
-    "drawdown": -51.71809406797128,
+    "drawdown": -51.5997090640566,
     "halving": "2024-04-20",
     "next_halving": "2028-04-15",
     "prior_drawdowns": [
@@ -14631,9 +14634,9 @@
      -84,
      -77
     ],
-    "since_ath": 415,
-    "since_halving": 949,
-    "since_low": 1465,
+    "since_ath": 416,
+    "since_halving": 950,
+    "since_low": 1466,
     "window_halving": [
      "2026-06-06",
      "2026-10-31"
@@ -14643,7 +14646,7 @@
      "2026-10-28"
     ]
    },
-   "generated": "2026-11-26T11:15+07:00",
+   "generated": "2026-11-27T11:23+07:00",
    "groups": [
     [
      "onchain",
@@ -14677,12 +14680,12 @@
     "state": "split"
    },
    "lean_gap": 4,
-   "read": "8 of 22 scored indicators lean bull, 5 bear, 9 neutral: a split, as close to a coin flip as the rules get. Bull: exchange flows, weekly RSI, monthly RSI, the cycle clock, the 200-week average, the regression position, fear and greed, the 50/200 cross. Bear: stablecoin supply, section 6 positioning, the dollar, the 50-week average, the support band. Resets still missing: Puell multiple, MVRV, the Mayer multiple, the drawdown, the one-year return, Pi Cycle. One reset is already in: price tagged the 200-week average at 0.88 on 25 Nov 2026, 6 weeks at or under the line. Clock: 949 days since the halving, 52% below the high of 6 Oct.",
+   "read": "8 of 22 scored indicators lean bull, 5 bear, 9 neutral: a split, as close to a coin flip as the rules get. Bull: exchange flows, weekly RSI, monthly RSI, the cycle clock, the 200-week average, the regression position, fear and greed, the 50/200 cross. Bear: stablecoin supply, section 6 positioning, the dollar, the 50-week average, the support band. Resets still missing: Puell multiple, MVRV, the Mayer multiple, the drawdown, the one-year return, Pi Cycle. One reset is already in: price tagged the 200-week average at 0.88 on 26 Nov 2026, 6 weeks at or under the line. Clock: 950 days since the halving, 52% below the high of 6 Oct.",
    "rows": [
     {
      "bear": "over 2.0 (the 2021 and 2025 tops; earlier tops were higher)",
      "bull": "under 0.5 (issuance value at a cycle low)",
-     "date": "2026-11-25",
+     "date": "2026-11-26",
      "feed": "Coin Metrics IssTotUSD",
      "freq": "d",
      "group": "onchain",
@@ -14692,8 +14695,8 @@
       "bull": 0.5
      },
      "name": "Puell multiple",
-     "now": 0.894,
-     "now_t": "0.89",
+     "now": 0.757,
+     "now_t": "0.76",
      "read": "Between the reset band and the top zone; the 2022 low read 0.43.",
      "short": "Puell multiple",
      "spark": [
@@ -14748,7 +14751,7 @@
       0.759,
       1.033,
       0.899,
-      0.894
+      0.757
      ],
      "src": "Coin Metrics IssTotUSD",
      "unit": "x",
@@ -14758,7 +14761,7 @@
     {
      "bear": "at or over 2.5 (the 2021 tops; 2025 peaked at 2.3)",
      "bull": "at or under 1.0 (price below the average cost basis)",
-     "date": "2026-11-25",
+     "date": "2026-11-26",
      "feed": "Coin Metrics CapMVRVCur",
      "freq": "d",
      "group": "onchain",
@@ -14768,7 +14771,7 @@
       "bull": 1.0
      },
      "name": "MVRV (market cap to realized cap)",
-     "now": 1.136,
+     "now": 1.139,
      "now_t": "1.14 (z 0.2)",
      "read": "Above cost basis, below the top zone; the lows read 0.56 to 1.00.",
      "short": "MVRV",
@@ -14824,18 +14827,18 @@
       1.39,
       1.214,
       1.148,
-      1.136
+      1.139
      ],
      "src": "Coin Metrics CapMVRVCur",
      "unit": "x",
      "vote": 0,
      "word": "Neutral",
-     "z": 0.23
+     "z": 0.24
     },
     {
      "bear": "at or over 30 (the 2021 and 2025 tops)",
      "bull": "at or under 7 (the 2018 to 2022 lows)",
-     "date": "2026-11-25",
+     "date": "2026-11-26",
      "feed": "Coin Metrics IssTotUSD, FeeTotNtv",
      "freq": "d",
      "group": "onchain",
@@ -14845,8 +14848,8 @@
       "bull": 7.0
      },
      "name": "ThermoCap multiple",
-     "now": 12.038,
-     "now_t": "12.0",
+     "now": 12.065,
+     "now_t": "12.1",
      "read": "Between the lows' band (5 to 7) and the tops' band (29 and up).",
      "short": "ThermoCap multiple",
      "spark": [
@@ -14901,7 +14904,7 @@
       15.044,
       13.057,
       12.215,
-      12.038
+      12.065
      ],
      "src": "Coin Metrics IssTotUSD, FeeTotNtv",
      "unit": "x",
@@ -14911,16 +14914,16 @@
     {
      "bear": "percentile 80 or over (coins moving to exchanges)",
      "bull": "three-year percentile 20 or under (coins leaving exchanges)",
-     "date": "2026-11-25",
+     "date": "2026-11-26",
      "feed": "Coin Metrics FlowInExNtv, FlowOutExNtv",
      "freq": "d",
      "group": "onchain",
      "key": "exflow",
      "lines": {},
      "name": "Exchange net flow, 30 days, share of supply",
-     "now": -0.413,
-     "now_t": "-0.41% (pct 5)",
-     "pct": 5,
+     "now": -0.341,
+     "now_t": "-0.34% (pct 11)",
+     "pct": 11,
      "read": "Coins are leaving exchanges at a pace in the bottom fifth of three years: accumulation.",
      "short": "exchange flows",
      "spark": [
@@ -14975,7 +14978,7 @@
       -0.306,
       -0.347,
       -0.448,
-      -0.413
+      -0.341
      ],
      "src": "Coin Metrics FlowInExNtv, FlowOutExNtv",
      "unit": "%",
@@ -14985,7 +14988,7 @@
     {
      "bear": "70 or over",
      "bull": "35 or under (every cycle low read 28 to 33)",
-     "date": "2026-11-25",
+     "date": "2026-11-26",
      "feed": "Coin Metrics PriceUSD, weekly closes",
      "freq": "d",
      "group": "onchain",
@@ -14995,7 +14998,7 @@
       "bull": 35.0
      },
      "name": "Weekly RSI (14)",
-     "now": 34.761,
+     "now": 34.871,
      "now_t": "35",
      "read": "Weekly momentum has washed out to where every cycle low was made.",
      "short": "weekly RSI",
@@ -15051,7 +15054,7 @@
       48.2,
       38.6,
       35.4,
-      34.8
+      34.9
      ],
      "src": "Coin Metrics PriceUSD, weekly closes",
      "unit": "",
@@ -15061,7 +15064,7 @@
     {
      "bear": "75 or over",
      "bull": "45 or under (2015, 2018 and 2022 lows)",
-     "date": "2026-11-25",
+     "date": "2026-11-26",
      "feed": "Coin Metrics PriceUSD, monthly closes",
      "freq": "d",
      "group": "onchain",
@@ -15071,7 +15074,7 @@
       "bull": 45.0
      },
      "name": "Monthly RSI (14)",
-     "now": 42.936,
+     "now": 42.99,
      "now_t": "43",
      "read": "Monthly momentum has cooled to the 2015, 2018 and 2022 lows' level.",
      "short": "monthly RSI",
@@ -15111,7 +15114,7 @@
       51.0,
       53.3,
       50.2,
-      42.9
+      43.0
      ],
      "src": "Coin Metrics PriceUSD, monthly closes",
      "unit": "",
@@ -15124,7 +15127,7 @@
      "clock": {
       "ath": 124824.453666861,
       "ath_date": "2025-10-06",
-      "drawdown": -51.71809406797128,
+      "drawdown": -51.5997090640566,
       "halving": "2024-04-20",
       "next_halving": "2028-04-15",
       "prior_drawdowns": [
@@ -15132,9 +15135,9 @@
        -84,
        -77
       ],
-      "since_ath": 415,
-      "since_halving": 949,
-      "since_low": 1465,
+      "since_ath": 416,
+      "since_halving": 950,
+      "since_low": 1466,
       "window_halving": [
        "2026-06-06",
        "2026-10-31"
@@ -15144,15 +15147,15 @@
        "2026-10-28"
       ]
      },
-     "date": "2026-11-25",
+     "date": "2026-11-26",
      "feed": "calendar rule from the halving dates",
      "freq": "d",
      "group": "cycle",
      "key": "clock",
      "lines": {},
      "name": "Cycle clock (days since the halving)",
-     "now": 949,
-     "now_t": "949 days",
+     "now": 950,
+     "now_t": "950 days",
      "read": "Past the window the prior lows fell in (6 Jun to 31 Oct 2026); a low later than every prior cycle.",
      "short": "the cycle clock",
      "spark": [],
@@ -15164,7 +15167,7 @@
     {
      "bear": "under 40%",
      "bull": "70% or more (the shallowest cycle low was 71%)",
-     "date": "2026-11-25",
+     "date": "2026-11-26",
      "feed": "Coin Metrics PriceUSD",
      "freq": "d",
      "group": "cycle",
@@ -15174,63 +15177,63 @@
       "bull": 70.0
      },
      "name": "Drawdown from the all-time high",
-     "now": 51.718,
+     "now": 51.6,
      "now_t": "52% from 125k",
      "read": "Deeper than a correction, shallower than the prior lows (85%, 84%, 77%).",
      "short": "the drawdown",
      "spark": [
-      26.8,
-      26.1,
-      25.8,
-      31.6,
-      30.1,
-      29.0,
-      27.0,
+      27.1,
+      28.5,
+      27.6,
+      29.4,
+      30.0,
+      27.9,
+      27.5,
       23.5,
-      28.4,
-      32.3,
-      49.1,
-      46.9,
-      46.4,
-      45.9,
-      43.1,
+      28.3,
+      32.7,
+      43.4,
+      44.8,
+      45.5,
+      47.2,
+      45.3,
+      43.2,
       43.5,
-      44.0,
-      44.9,
+      47.0,
       46.4,
-      42.5,
-      39.8,
-      37.3,
-      38.9,
-      35.9,
-      35.0,
-      37.8,
-      41.1,
-      49.0,
-      49.1,
-      49.7,
-      52.0,
-      50.8,
-      49.4,
-      48.9,
-      47.9,
-      48.1,
-      48.6,
-      49.2,
-      41.5,
-      35.7,
-      34.9,
-      38.6,
-      38.8,
-      32.4,
-      32.1,
-      34.5,
-      34.2,
-      34.9,
+      41.6,
+      38.2,
+      38.0,
       37.4,
+      35.8,
+      36.7,
+      39.5,
+      41.3,
+      51.2,
+      49.1,
+      49.3,
+      52.0,
+      49.9,
+      48.6,
+      48.8,
+      48.6,
+      49.6,
+      48.0,
+      49.6,
+      37.2,
+      37.7,
+      36.2,
+      38.2,
+      35.2,
+      32.7,
+      32.3,
+      33.9,
+      34.7,
+      35.2,
+      38.2,
       39.3,
-      42.9,
-      50.4
+      45.4,
+      52.9
      ],
      "src": "Coin Metrics PriceUSD",
      "unit": "%",
@@ -15240,7 +15243,7 @@
     {
      "bear": "plus 100% or better",
      "bull": "minus 50% or worse (every cycle low was under minus 70%)",
-     "date": "2026-11-25",
+     "date": "2026-11-26",
      "feed": "Coin Metrics PriceUSD",
      "freq": "d",
      "group": "cycle",
@@ -15250,8 +15253,8 @@
       "bull": -50.0
      },
      "name": "One-year return",
-     "now": -31.071,
-     "now_t": "-31%",
+     "now": -33.205,
+     "now_t": "-33%",
      "read": "The one-year return is between the lows' reset (under minus 50%) and the top zone (plus 100%).",
      "short": "the one-year return",
      "spark": [
@@ -15306,7 +15309,7 @@
       -26.7,
       -31.8,
       -27.9,
-      -31.1
+      -33.2
      ],
      "src": "Coin Metrics PriceUSD",
      "unit": "%",
@@ -15316,7 +15319,7 @@
     {
      "bear": "at or over 1.5 (the April 2021 top; the last two tops read 1.47 and 1.18, so this line would have missed them)",
      "bull": "at or under 0.8 (every cycle low read 0.40 to 0.71)",
-     "date": "2026-11-25",
+     "date": "2026-11-26",
      "feed": "Coin Metrics PriceUSD",
      "freq": "d",
      "group": "stretch",
@@ -15326,8 +15329,8 @@
       "bull": 0.8
      },
      "name": "Mayer multiple (price to the 200-day average)",
-     "now": 0.837,
-     "now_t": "0.84 (pct 20)",
+     "now": 0.84,
+     "now_t": "0.84 (pct 21)",
      "read": "Between the lows' band (every cycle low read under 0.72) and the top zone (1.5); the last two tops read 1.47 and 1.18.",
      "short": "the Mayer multiple",
      "spark": [
@@ -15392,11 +15395,11 @@
     {
      "bear": "at or over 2.3 (the 2025 top; earlier tops reached 3.7 to 15.4)",
      "bull": "at or under 1.00 (the cycle floor: every cycle has touched or broken it)",
-     "date": "2026-11-25",
+     "date": "2026-11-26",
      "feed": "Coin Metrics PriceUSD, weekly closes",
      "floor": {
       "min": 0.88,
-      "min_date": "2026-11-25",
+      "min_date": "2026-11-26",
       "tagged": true,
       "weeks": 6
      },
@@ -15408,9 +15411,9 @@
       "bull": 1.0
      },
      "name": "Price against the 200-week average",
-     "now": 0.882,
+     "now": 0.884,
      "now_t": "0.88",
-     "read": "Price is at or under the 200-week average, the line every cycle low has touched or broken. The floor was tagged this cycle: 0.88 on 25 Nov 2026, 6 weeks at or under the line.",
+     "read": "Price is at or under the 200-week average, the line every cycle low has touched or broken. The floor was tagged this cycle: 0.88 on 26 Nov 2026, 6 weeks at or under the line.",
      "short": "the 200-week average",
      "spark": [
       1.61,
@@ -15475,73 +15478,73 @@
      "b": 5.63,
      "bear": "percentile 80 or over",
      "bull": "percentile 20 or under of all residuals since 2010",
-     "date": "2026-11-25",
+     "date": "2026-11-26",
      "feed": "our fit on Coin Metrics PriceUSD, not a target",
      "freq": "d",
      "group": "stretch",
      "key": "risk",
      "lines": {
-      "bear": 0.5530754792940193,
-      "bull": -0.5902276013127796
+      "bear": 0.5532661212950849,
+      "bull": -0.5902845815182147
      },
      "name": "Log regression residual since 2010",
-     "now": 2.678,
+     "now": 2.745,
      "now_t": "pct 3 (-0.89)",
      "read": "Price sits in the bottom fifth of its distance from the long-run fit: where prior lows sat. Our own fit, a cycle position, not a target.",
      "short": "the regression position",
      "spark": [
-      -0.15,
-      -0.15,
-      -0.15,
-      -0.24,
-      -0.22,
+      -0.16,
+      -0.18,
+      -0.18,
       -0.21,
-      -0.19,
+      -0.22,
+      -0.2,
+      -0.2,
       -0.15,
       -0.22,
       -0.29,
-      -0.58,
-      -0.54,
-      -0.54,
-      -0.54,
-      -0.49,
-      -0.51,
+      -0.47,
+      -0.5,
       -0.52,
-      -0.54,
-      -0.58,
-      -0.51,
-      -0.47,
-      -0.44,
-      -0.47,
-      -0.43,
-      -0.42,
-      -0.47,
+      -0.56,
       -0.53,
-      -0.68,
-      -0.69,
-      -0.71,
-      -0.76,
-      -0.74,
-      -0.72,
-      -0.72,
-      -0.7,
-      -0.71,
-      -0.73,
-      -0.75,
-      -0.61,
-      -0.52,
-      -0.52,
-      -0.58,
-      -0.59,
       -0.5,
+      -0.51,
+      -0.58,
+      -0.58,
+      -0.5,
+      -0.45,
+      -0.45,
+      -0.45,
+      -0.43,
+      -0.45,
       -0.5,
       -0.54,
+      -0.73,
+      -0.69,
+      -0.7,
+      -0.76,
+      -0.73,
+      -0.71,
+      -0.72,
+      -0.72,
+      -0.75,
+      -0.72,
+      -0.76,
       -0.54,
       -0.56,
-      -0.61,
+      -0.54,
+      -0.58,
+      -0.54,
+      -0.5,
+      -0.5,
+      -0.53,
+      -0.55,
+      -0.57,
+      -0.62,
       -0.64,
-      -0.71,
-      -0.86
+      -0.76,
+      -0.91
      ],
      "src": "our fit on Coin Metrics PriceUSD, not a target",
      "unit": "pct",
@@ -15551,14 +15554,14 @@
     {
      "bear": "negative (supply contracting, as in 2022)",
      "bull": "plus 5% or more (new dry powder)",
-     "date": "2026-11-26",
+     "date": "2026-11-27",
      "feed": "DefiLlama, USD-pegged circulating",
      "freq": "d",
      "group": "market",
      "key": "stables",
      "lines": {},
      "name": "Stablecoin supply, 90-day change",
-     "now": -5.812,
+     "now": -5.835,
      "now_t": "-5.8% (282 bn)",
      "read": "Stablecoin supply is contracting, as it did through 2022.",
      "short": "stablecoin supply",
@@ -15614,7 +15617,7 @@
       291.5,
       287.1,
       282.5,
-      282.2
+      281.9
      ],
      "src": "DefiLlama, USD-pegged circulating",
      "unit": "%",
@@ -15624,20 +15627,19 @@
     {
      "bear": "",
      "bull": "",
-     "date": "2026-11-26",
-     "eth_dom": 9.832795073884506,
+     "date": "2026-11-27",
+     "eth_dom": 9.920081569723989,
      "feed": "CoinGecko global, logged nightly",
      "freq": "d",
      "group": "market",
      "key": "dominance",
      "lines": {},
      "name": "Bitcoin dominance and total crypto market cap",
-     "now": 57.918,
-     "now_t": "57.9% of 2.11 tn",
-     "read": "Shown for context, not scored: no rule with a backtest. Logged nightly from 11 Sep (76 sessions so far).",
+     "now": 57.952,
+     "now_t": "58.0% of 2.13 tn",
+     "read": "Shown for context, not scored: no rule with a backtest. Logged nightly from 11 Sep (77 sessions so far).",
      "short": "dominance",
      "spark": [
-      59.3,
       58.7,
       58.7,
       58.7,
@@ -15688,10 +15690,11 @@
       58.8,
       57.8,
       57.7,
-      57.9
+      57.9,
+      58.0
      ],
      "src": "CoinGecko global, logged nightly",
-     "total": 2109471673746.1887,
+     "total": 2125275851171.9902,
      "unit": "%",
      "vote": null,
      "word": "Not scored"
@@ -15699,7 +15702,7 @@
     {
      "bear": "over 30% (the froth zone)",
      "bull": "negative (shorts pay, capitulation)",
-     "date": "2026-11-26",
+     "date": "2026-11-27",
      "feed": "Bybit, OKX or Hyperliquid, whichever answers",
      "freq": "d",
      "group": "market",
@@ -15709,8 +15712,8 @@
       "bull": 0.0
      },
      "name": "Perpetual funding, 30-day mean, annualized",
-     "now": 5.379,
-     "now_t": "+5.4% (last +11.0%)",
+     "now": 4.967,
+     "now_t": "+5.0% (last +0.6%)",
      "read": "Funding is positive and moderate.",
      "short": "funding",
      "spark": [
@@ -15727,7 +15730,7 @@
       5.0,
       -1.0,
       0.7,
-      11.0
+      0.6
      ],
      "src": "OKX BTC-USDT-SWAP",
      "unit": "%",
@@ -15737,7 +15740,7 @@
     {
      "bear": "80 or over (extreme greed)",
      "bull": "20 or under (extreme fear)",
-     "date": "2026-11-26",
+     "date": "2026-11-27",
      "feed": "alternative.me",
      "freq": "d",
      "group": "market",
@@ -15747,8 +15750,8 @@
       "bull": 20.0
      },
      "name": "Crypto fear and greed",
-     "now": 11.0,
-     "now_t": "11 (pct 3)",
+     "now": 12.0,
+     "now_t": "12 (pct 5)",
      "read": "Extreme fear: the crowd has given up.",
      "short": "fear and greed",
      "spark": [
@@ -15803,7 +15806,7 @@
       28,
       10,
       11,
-      11
+      12
      ],
      "src": "alternative.me",
      "unit": "",
@@ -15821,7 +15824,7 @@
      "key": "position",
      "lines": {},
      "name": "Smart money minus crowd (section 6)",
-     "now": -1.983,
+     "now": -2.006,
      "now_t": "-2.0",
      "read": "The crowd is long while asset managers are leaving: the section 6 sell-side divergence. Alert down.",
      "short": "section 6 positioning",
@@ -15834,15 +15837,15 @@
     {
      "bear": "plus 3% or more (dollar rising)",
      "bull": "minus 3% or more (dollar falling)",
-     "date": "2026-11-25",
+     "date": "2026-11-26",
      "feed": "Yahoo DX-Y.NYB",
      "freq": "d",
      "group": "market",
      "key": "dollar",
      "lines": {},
      "name": "Dollar index, three-month change",
-     "now": 4.694,
-     "now_t": "+4.7%",
+     "now": 4.04,
+     "now_t": "+4.0%",
      "read": "A rising dollar: the headwind.",
      "short": "the dollar",
      "spark": [
@@ -15897,7 +15900,7 @@
       102.3,
       103.41,
       103.81,
-      103.82
+      103.73
      ],
      "src": "Yahoo DX-Y.NYB",
      "unit": "%",
@@ -15907,15 +15910,15 @@
     {
      "bear": "minus 0.5 or less",
      "bull": "plus 0.5 or more",
-     "date": "2026-11-25",
+     "date": "2026-11-26",
      "feed": "regime composite",
      "freq": "d",
      "group": "market",
      "key": "liquidity",
      "lines": {},
      "name": "Liquidity impulse (section 1 composite)",
-     "now": -0.03,
-     "now_t": "-0.0",
+     "now": -0.12,
+     "now_t": "-0.1",
      "read": "Liquidity is flat.",
      "short": "liquidity",
      "spark": [],
@@ -15927,7 +15930,7 @@
     {
      "bear": "below",
      "bull": "above",
-     "date": "2026-11-25",
+     "date": "2026-11-26",
      "feed": "weekly closes",
      "freq": "d",
      "group": "trend",
@@ -15936,8 +15939,8 @@
       "bull": 0.0
      },
      "name": "Close against the 50-week average",
-     "now": -18.385,
-     "now_t": "-18.4%",
+     "now": -18.188,
+     "now_t": "-18.2%",
      "read": "Below the 50-week average; bear markets live under it.",
      "short": "the 50-week average",
      "spark": [
@@ -15992,7 +15995,7 @@
       -0.7,
       -13.1,
       -17.9,
-      -18.4
+      -18.2
      ],
      "src": "weekly closes",
      "unit": "%",
@@ -16002,7 +16005,7 @@
     {
      "bear": "death cross (50 below 200)",
      "bull": "golden cross (50 above 200)",
-     "date": "2026-11-25",
+     "date": "2026-11-26",
      "feed": "daily closes",
      "freq": "d",
      "group": "trend",
@@ -16011,64 +16014,64 @@
       "bull": 0.0
      },
      "name": "50-day against 200-day average",
-     "now": 4.313,
-     "now_t": "+4.3% since 8 Sep",
+     "now": 3.835,
+     "now_t": "+3.8% since 8 Sep",
      "read": "Golden cross: the 50-day is above the 200-day since 8 Sep 2026.",
      "short": "the 50/200 cross",
      "since": "2026-09-08",
      "spark": [
-      -5.8,
-      -8.4,
-      -10.1,
-      -12.7,
-      -14.8,
-      -16.2,
-      -16.2,
-      -15.1,
-      -14.5,
-      -14.1,
-      -14.6,
-      -15.7,
-      -17.1,
-      -19.1,
-      -21.1,
-      -23.3,
-      -24.7,
-      -24.9,
-      -23.8,
-      -22.1,
-      -19.9,
-      -17.1,
-      -14.3,
-      -11.9,
-      -9.0,
-      -5.9,
-      -3.5,
-      -2.9,
-      -4.2,
-      -5.4,
-      -7.3,
-      -9.8,
-      -11.6,
+      -6.3,
+      -8.7,
+      -10.4,
       -13.0,
-      -13.1,
+      -14.9,
+      -16.3,
+      -16.1,
+      -15.0,
+      -14.4,
+      -14.1,
+      -14.7,
+      -15.9,
+      -17.3,
+      -19.4,
+      -21.5,
+      -23.6,
+      -24.9,
+      -24.7,
+      -23.6,
+      -21.8,
+      -19.5,
+      -16.7,
+      -13.9,
       -11.5,
-      -10.3,
-      -9.0,
-      -6.9,
-      -4.1,
-      -1.6,
-      0.6,
-      2.6,
-      5.7,
-      8.9,
-      12.2,
-      12.4,
-      12.4,
+      -8.5,
+      -5.5,
+      -3.3,
+      -3.1,
+      -4.5,
+      -5.6,
+      -7.6,
+      -10.2,
+      -11.8,
+      -13.1,
+      -12.9,
+      -11.3,
+      -10.1,
+      -8.7,
+      -6.4,
+      -3.7,
+      -1.2,
+      0.9,
+      2.9,
+      6.2,
+      9.4,
+      12.3,
+      12.3,
+      12.3,
       12.0,
       12.0,
-      10.7,
-      7.6
+      10.3,
+      7.0
      ],
      "src": "daily closes",
      "unit": "%",
@@ -16078,7 +16081,7 @@
     {
      "bear": "below both",
      "bull": "above both",
-     "date": "2026-11-25",
+     "date": "2026-11-26",
      "feed": "weekly closes",
      "freq": "d",
      "group": "trend",
@@ -16087,8 +16090,8 @@
       "bull": 0.0
      },
      "name": "Bull market support band (20-week SMA, 21-week EMA)",
-     "now": -17.705,
-     "now_t": "-17.7%",
+     "now": -17.515,
+     "now_t": "-17.5%",
      "read": "Below the band: the bear-market posture.",
      "short": "the support band",
      "spark": [
@@ -16143,7 +16146,7 @@
       -0.1,
       -12.7,
       -17.4,
-      -17.7
+      -17.5
      ],
      "src": "weekly closes",
      "unit": "%",
@@ -16154,14 +16157,14 @@
      "bear": "top cross inside a year (111-day SMA over twice the 350-day SMA)",
      "bottom": "2022-07-13",
      "bull": "bottom cross inside a year (150-day EMA under 0.745 times the 471-day SMA)",
-     "date": "2026-11-25",
+     "date": "2026-11-26",
      "feed": "daily closes",
      "freq": "d",
      "group": "trend",
      "key": "pi",
      "lines": {},
      "name": "Pi Cycle top and bottom",
-     "now": 19.91,
+     "now": 19.8,
      "now_t": "bottom gap +20%, top gap -49%",
      "read": "Neither cross inside the last year (last bottom 13 Jul 2022, last top 12 Apr 2021). The bottom fires when the 150-day EMA drops 20% to meet 0.745 times the 471-day SMA.",
      "short": "Pi Cycle",
@@ -16175,15 +16178,15 @@
     {
      "bear": "",
      "bull": "",
-     "date": "2026-11-24",
+     "date": "2026-11-25",
      "feed": "Wikimedia pageviews API, 30-day average",
      "freq": "d",
      "group": "social",
      "key": "attention",
      "lines": {},
      "name": "Attention: Wikipedia pageviews for Bitcoin",
-     "now": 4137.1,
-     "now_t": "4,137 a day (pct 32)",
+     "now": 4143.033,
+     "now_t": "4,143 a day (pct 32)",
      "read": "Shown for context, not scored: attention is in secular decline, so a level from one cycle says nothing about the next, and the 30-day average has sat in the bottom fifth of its three-year range on 219 of the last 365 days. The 6 Oct 2025 high printed at percentile 2 of attention to that date.",
      "short": "attention",
      "spark": [
@@ -16238,7 +16241,7 @@
       3384,
       3722,
       4073,
-      4137
+      4143
      ],
      "src": "Wikimedia pageviews API, 30-day average",
      "unit": "",
@@ -16248,7 +16251,7 @@
     {
      "bear": "",
      "bull": "",
-     "date": "2026-11-25",
+     "date": "2026-11-26",
      "feed": "no free feed",
      "freq": "d",
      "group": "social",
@@ -16268,7 +16271,7 @@
     {
      "bear": "",
      "bull": "",
-     "date": "2026-11-25",
+     "date": "2026-11-26",
      "feed": "no free feed (Coin Metrics balance cohorts are paid)",
      "freq": "d",
      "group": "social",
@@ -16288,7 +16291,7 @@
     {
      "bear": "",
      "bull": "",
-     "date": "2026-11-25",
+     "date": "2026-11-26",
      "feed": "no free feed (Farside is behind Cloudflare, the iShares endpoints serve HTML)",
      "freq": "d",
      "group": "social",
@@ -16307,20 +16310,20 @@
     }
    ],
    "strip": {
-    "1m": -24.6,
-    "1w": -4.2,
-    "1y": -31.1,
-    "3m": -23.7,
+    "1m": -25.2,
+    "1w": -2.4,
+    "1y": -33.2,
+    "3m": -24.8,
     "ath": 124824.453666861,
     "ath_date": "2025-10-06",
-    "date": "2026-11-25",
-    "dominance": 57.918,
-    "drawdown": -51.7,
-    "fng": 11.0,
-    "funding": 5.379,
-    "price": 60267.6252996026,
-    "since_ath": 415,
-    "since_halving": 949
+    "date": "2026-11-26",
+    "dominance": 57.952,
+    "drawdown": -51.6,
+    "fng": 12.0,
+    "funding": 4.967,
+    "price": 60415.3987339626,
+    "since_ath": 416,
+    "since_halving": 950
    },
    "tally": {
     "bear": [
@@ -16454,10 +16457,10 @@
    }
   },
   "calendar": {
-   "asof": "25 Nov",
+   "asof": "26 Nov",
    "counts": {
-    "reviewed": 3,
-    "rows": 28,
+    "reviewed": 1,
+    "rows": 27,
     "tier1": 10
    },
    "feeds": {
@@ -16485,7 +16488,7 @@
    "ranges": {
     "two_months": [
      "2026-12-14",
-     "2027-02-03"
+     "2027-02-04"
     ],
     "two_weeks": [
      "2026-11-30",
@@ -16502,50 +16505,6 @@
     "text": "A stress week with a short calendar: the S&P fell 8.6% last week, VIX sits above VIX3M, credit stress reads stress with high yield at 352 bp, and dealer gamma is at the bottom of its range, so moves are amplified rather than damped. Futures took a full hike out of the year but still price most of December. Wednesday's PCE is the one US print; the US is closed Thursday, and options prices are missing while Cboe's chain feed refuses requests."
    },
    "rows": [
-    {
-     "brief": {
-      "expect": "Core 0.3% against 0.3%, after October's core CPI beat by 0.1. It works through the futures path, still pricing most of a December hike but 2.3 hikes over the year against 3.3 a week ago, and through real yields at 2.88%.",
-      "src": "reviewed 23 Nov",
-      "stronger": "Core 0.4% or more: the December hike firms and real yields rise; gold, down 9.5% on the week with trend followers short, and small caps (Neutral) lose, and the dollar extends.",
-      "weaker": "Core 0.2%: the path loses more of the December hike and real yields ease; gold and the miners (both Price ahead, down) get their driver back, homebuilders (Early) get rate relief, the dollar softens."
-     },
-     "confirmed": true,
-     "cons": "core m/m 0.3%, spending 0.4%",
-     "date": "2026-11-25",
-     "day": "Wed 25 Nov",
-     "dim": false,
-     "id": "pce:2026-11-25",
-     "implied": null,
-     "key": "pce",
-     "name": "PCE inflation, income and spending",
-     "range": "week",
-     "src": "Forex Factory",
-     "tier": 2,
-     "time": "08:30 / 20:30",
-     "touches": "Touches: Rates, gold, small caps"
-    },
-    {
-     "brief": {
-      "expect": "No consensus in the feed yet; last week built 3.4 mb. WTI is 83.41, down 16.1% in a month and 6% under its 200-day, against a fresh divergence alert (+1.7, smart money buying); producers sit at Watch (exit) with no condition on.",
-      "src": "reviewed 23 Nov",
-      "stronger": "A third build: crude extends its slide under the 200-day, the producers' Macro condition stays off, and energy's Aligned up read (conditions +1.0, price +1.4) is tested.",
-      "weaker": "A draw: crude and producers up, in the direction of the smart money alert; a close back above the 200-day would return the producers' Macro condition."
-     },
-     "confirmed": true,
-     "cons": "change, mb 2.0M",
-     "date": "2026-11-25",
-     "day": "Wed 25 Nov",
-     "dim": false,
-     "id": "eia:2026-11-25",
-     "implied": null,
-     "key": "eia",
-     "name": "EIA crude inventories",
-     "range": "week",
-     "src": "Forex Factory",
-     "tier": 2,
-     "time": "10:30 / 22:30",
-     "touches": "Touches: Oil"
-    },
     {
      "brief": {
       "expect": "Thinner liquidity in the other regions; moves exaggerate.",
@@ -17117,6 +17076,28 @@
      "tier": 2,
      "time": "10:00 / 22:00",
      "touches": "Touches: All"
+    },
+    {
+     "brief": {
+      "expect": "",
+      "src": "rule",
+      "stronger": "Hawkish: euro up, dollar down, European banks up.",
+      "weaker": "Dovish: euro down, bunds up."
+     },
+     "confirmed": true,
+     "cons": "",
+     "date": "2027-02-04",
+     "day": "Thu 4 Feb",
+     "dim": false,
+     "id": "ecb:2027-02-04",
+     "implied": null,
+     "key": "ecb",
+     "name": "ECB decision, press conference 08:45",
+     "range": "two_months",
+     "src": "ECB",
+     "tier": 2,
+     "time": "08:15 / 20:15",
+     "touches": "Touches: EUR, European equities, banks"
     }
    ],
    "studies": [
@@ -17241,7 +17222,7 @@
      }
     }
    ],
-   "today": "2026-11-25"
+   "today": "2026-11-26"
   },
   "positioning": {
    "asof": "17 Nov",
@@ -17291,7 +17272,7 @@
     {
      "key": "btc",
      "name": "Bitcoin",
-     "score": -1.98,
+     "score": -2.01,
      "x": true
     },
     {
@@ -17349,10 +17330,10 @@
     "y1_date": "24 Nov 2025"
    },
    "path": {
-    "date": "25 Nov",
+    "date": "26 Nov",
     "effr": 3.88,
     "effr_date": "24 Nov",
-    "iso": "2026-11-25",
+    "iso": "2026-11-26",
     "n": 12,
     "points": [
      {
@@ -17376,64 +17357,64 @@
      {
       "fomc": true,
       "label": "Mar 2027",
-      "rate": 4.36,
+      "rate": 4.37,
       "ym": "2027-03"
      },
      {
       "fomc": true,
       "label": "Apr 2027",
-      "rate": 4.44,
+      "rate": 4.46,
       "ym": "2027-04"
      },
      {
       "fomc": false,
       "label": "May 2027",
-      "rate": 4.5,
+      "rate": 4.51,
       "ym": "2027-05"
      },
      {
       "fomc": true,
       "label": "Jun 2027",
-      "rate": 4.55,
+      "rate": 4.57,
       "ym": "2027-06"
      },
      {
       "fomc": true,
       "label": "Jul 2027",
-      "rate": 4.57,
+      "rate": 4.58,
       "ym": "2027-07"
      },
      {
       "fomc": false,
       "label": "Aug 2027",
-      "rate": 4.57,
+      "rate": 4.58,
       "ym": "2027-08"
      },
      {
       "fomc": true,
       "label": "Sep 2027",
-      "rate": 4.57,
+      "rate": 4.58,
       "ym": "2027-09"
      },
      {
       "fomc": true,
       "label": "Oct 2027",
-      "rate": 4.56,
+      "rate": 4.57,
       "ym": "2027-10"
      },
      {
       "fomc": true,
       "label": "Nov 2027",
-      "rate": 4.53,
+      "rate": 4.5,
       "ym": "2027-11"
      }
     ],
     "src": "Yahoo ZQ fed funds futures, FRED EFFR",
-    "steps": -2.6
+    "steps": -2.5
    }
   },
   "regime": {
-   "asof": "25 Nov",
+   "asof": "26 Nov",
    "clock": {
     "detail": "growth up, inflation up",
     "quadrant": "Overheat",
@@ -17521,15 +17502,14 @@
      "v": 1.27
     },
     "liq": {
-     "left": 49.2,
-     "t": "0.0",
-     "title": "3 inputs, three-year z-scores, as of 1 Sep",
+     "left": 47.0,
+     "t": "-0.1",
+     "title": "3 inputs, three-year z-scores, as of 1 Oct",
      "trail": [
-      -0.4,
       -0.16,
       -0.39,
       0.42,
-      0.94,
+      0.95,
       0.82,
       0.13,
       -0.2,
@@ -17537,15 +17517,16 @@
       -0.22,
       0.21,
       0.22,
-      -0.03
+      -0.02,
+      -0.12
      ],
-     "trail_from": "Sep 2025",
-     "v": -0.03
+     "trail_from": "Oct 2025",
+     "v": -0.12
     },
     "risk": {
-     "left": 40.5,
-     "t": "-0.4",
-     "title": "6 inputs, three-year z-scores, as of 25 Nov",
+     "left": 42.2,
+     "t": "-0.3",
+     "title": "6 inputs, three-year z-scores, as of 26 Nov",
      "trail": [
       0.8,
       1.08,
@@ -17559,10 +17540,10 @@
       1.26,
       1.07,
       0.47,
-      -0.38
+      -0.31
      ],
      "trail_from": "Nov 2025",
-     "v": -0.38
+     "v": -0.31
     }
    },
    "flags": {
@@ -17637,7 +17618,7 @@
       {
        "cls": "lost",
        "mark": "✕",
-       "text": "Macro: against: 10Y real yield +13 bp, dollar +1.5% in a month (needs real yields and the dollar falling)"
+       "text": "Macro: against: 10Y real yield +13 bp, dollar +1.3% in a month (needs real yields and the dollar falling)"
       },
       {
        "cls": "no",
@@ -17677,7 +17658,7 @@
       {
        "cls": "lost",
        "mark": "✕",
-       "text": "Macro: against: 10Y real yield +13 bp, dollar +1.5% in a month (needs real yields and the dollar falling)"
+       "text": "Macro: against: 10Y real yield +13 bp, dollar +1.3% in a month (needs real yields and the dollar falling)"
       },
       {
        "cls": "no",
@@ -17717,7 +17698,7 @@
       {
        "cls": "lost",
        "mark": "✕",
-       "text": "Macro: against: crude -4.8% against its 200-day in a month (needs crude above its 200-day)"
+       "text": "Macro: against: crude -5.5% against its 200-day in a month (needs crude above its 200-day)"
       },
       {
        "cls": "lost",
@@ -18620,9 +18601,9 @@
         "v": 0.18
        },
        {
-        "t": "0.5",
+        "t": "0.6",
         "title": "hit rate 43% over 21 years",
-        "v": 0.52
+        "v": 0.58
        },
        {
         "t": "1.0",
@@ -18752,9 +18733,9 @@
         "v": 0.23
        },
        {
-        "t": "0.5",
+        "t": "0.6",
         "title": "hit rate 43% over 21 years",
-        "v": 0.46
+        "v": 0.64
        },
        {
         "t": "2.0",
@@ -18818,9 +18799,9 @@
         "v": -0.48
        },
        {
-        "t": "-3.8",
+        "t": "-3.7",
         "title": "hit rate 38% over 21 years",
-        "v": -3.78
+        "v": -3.72
        },
        {
         "t": "0.4",
@@ -18884,9 +18865,9 @@
         "v": 5.39
        },
        {
-        "t": "4.8",
+        "t": "4.7",
         "title": "hit rate 52% over 21 years",
-        "v": 4.79
+        "v": 4.67
        },
        {
         "t": "-9.1",
@@ -18950,9 +18931,9 @@
         "v": -0.38
        },
        {
-        "t": "-0.6",
+        "t": "-0.5",
         "title": "hit rate 48% over 21 years",
-        "v": -0.59
+        "v": -0.48
        },
        {
         "t": "1.0",
@@ -19150,7 +19131,7 @@
        {
         "t": "0.3",
         "title": "hit rate 57% over 21 years",
-        "v": 0.3
+        "v": 0.29
        },
        {
         "t": "-0.5",
@@ -19216,7 +19197,7 @@
        {
         "t": "5.3",
         "title": "hit rate 54% over 13 years",
-        "v": 5.29
+        "v": 5.34
        },
        {
         "t": "7.1",

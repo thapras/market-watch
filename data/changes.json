@@ -1,7 +1,25 @@
 {
- "asOf": "2026-11-26T11:15+07:00",
- "asOfLabel": "26 Nov 2026, 11:15 BKK",
+ "asOf": "2026-11-27T11:23+07:00",
+ "asOfLabel": "27 Nov 2026, 11:23 BKK",
  "changes": [
+  {
+   "d": "27 Nov",
+   "href": "#rotation",
+   "key": "near.btc",
+   "sec": "rotation",
+   "t": "2026-11-27T11:23+07:00",
+   "text": "Near a flip: Bitcoin sits at 0.5 of 5; Macro would move it to Watch.",
+   "tier": "fyi"
+  },
+  {
+   "d": "27 Nov",
+   "href": "#calendar",
+   "key": "cal.ism_mfg:2026-12-01",
+   "sec": "calendar",
+   "t": "2026-11-27T11:23+07:00",
+   "text": "Coming Tue 1 Dec, 10:00 ET: ISM manufacturing.",
+   "tier": "fyi"
+  },
   {
    "d": "26 Nov",
    "href": "#rotation",
