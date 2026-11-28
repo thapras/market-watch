@@ -1,7 +1,43 @@
 {
- "asOf": "2026-11-27T11:23+07:00",
- "asOfLabel": "27 Nov 2026, 11:23 BKK",
+ "asOf": "2026-11-28T11:03+07:00",
+ "asOfLabel": "28 Nov 2026, 11:03 BKK",
  "changes": [
+  {
+   "d": "28 Nov",
+   "href": "#rotation",
+   "key": "near.kbe",
+   "sec": "rotation",
+   "t": "2026-11-28T11:03+07:00",
+   "text": "Near a flip: Banks sits at 1.5 of 5; Macro would move it to Early.",
+   "tier": "fyi"
+  },
+  {
+   "d": "28 Nov",
+   "href": "#ranking",
+   "key": "nearrank.us_small",
+   "sec": "regime",
+   "t": "2026-11-28T11:03+07:00",
+   "text": "Near a flip: US small caps conditions score -0.3 is inside the 0.5 band; one more step down changes the read from Neutral.",
+   "tier": "fyi"
+  },
+  {
+   "d": "28 Nov",
+   "href": "#ranking",
+   "key": "nearrank.gold",
+   "sec": "regime",
+   "t": "2026-11-28T11:03+07:00",
+   "text": "Near a flip: Gold conditions score +0.4 is inside the 0.5 band; one more step up changes the read from Price ahead, down.",
+   "tier": "fyi"
+  },
+  {
+   "d": "28 Nov",
+   "href": "#regime",
+   "key": "flag.crowd",
+   "sec": "regime",
+   "t": "2026-11-28T11:03+07:00",
+   "text": "Crowd flag changed: neutral to optimistic, not euphoric.",
+   "tier": "note"
+  },
   {
    "d": "27 Nov",
    "href": "#rotation",
